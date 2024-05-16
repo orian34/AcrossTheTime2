@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_chestplate"
+        },
+        "title": {"translate":"Corps sans âge"},
+        "description": {"translate":"Challenges the most reckless, like those whose lives have no meaning."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/armor_billgart/leather/chestplate_225",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "leather_chestplate_232": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:leather_chestplate"],
+                    "nbt": "{display:{Name:\"\\\"§9Corps sans âge\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Défie-les plus téméraires, comme\\\"}\",\"{\\\"text\\\":\\\"§7ceux dont la vie n'a pas de sens.\\\"}\",\"{\\\"text\\\":\\\"§7Challenges the most reckless, like\\\"}\",\"{\\\"text\\\":\\\"§7those whose lives have no meaning.\\\"}\",\"{\\\"text\\\":\\\"§7HER§a2 §7HUN§a1 §7STR§c-1\\\"}\"],color:2127385}}"
+                    }
+                ]
+            }
+        }
+    }
+}

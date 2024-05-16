@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chest"
+        },
+        "title": {"translate":"Even More Treasure"},
+        "description": {"translate":"Open 250 Chest"},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/chest_50",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 500
+                },
+    "criteria": {
+        "chest_250": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

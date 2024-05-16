@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:redstone"
+        },
+        "title": {"translate":"I'm alive!"},
+        "description": {"translate":"Be regenerated"}
+    },
+    "parent": "att2:combat/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 10
+                },
+    "criteria": {
+        "her_2": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

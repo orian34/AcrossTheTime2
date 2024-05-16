@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chest"
+        },
+        "title": {"translate":"Loot Addiction"},
+        "description": {"translate":"Open 5000 Chest"},
+        "frame": "challenge"
+    },
+    "parent": "att2:treasure/chest_2500",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 10000
+                },
+    "criteria": {
+        "chest_5000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

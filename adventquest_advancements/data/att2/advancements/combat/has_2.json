@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:gunpowder"
+        },
+        "title": {"translate":"Dexterity!"},
+        "description": {"translate":"Accumulate haste"}
+    },
+    "parent": "att2:combat/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 10
+                },
+    "criteria": {
+        "has_2": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

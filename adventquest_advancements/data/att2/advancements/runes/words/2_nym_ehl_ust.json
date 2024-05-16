@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:arms_up_pottery_sherd"
+        },
+        "title": {"translate":"Support"},
+        "description": {"translate":"Make runic word: Nym Ehl Ust"},
+        "frame": "goal"
+    },
+    "parent": "att2:runes/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 2500
+                },
+    "criteria": {
+        "collection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": [
+                        "minecraft:arms_up_pottery_sherd"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

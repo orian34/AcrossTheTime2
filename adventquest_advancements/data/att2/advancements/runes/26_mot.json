@@ -1,0 +1,31 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:glowstone_dust",
+            "nbt" : "{CustomModelData:10000027}"
+        },
+        "title": {"translate":"Mot"},
+        "description": {"translate":"Drop Rune Tier A."},
+        "frame": "challenge"
+    },
+    "parent": "att2:runes/25_zen",
+    "rewards": {
+        "function": "att2:advancement/exploit_10",
+        "experience": 3900
+                },
+    "criteria": {
+        "collection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": [
+                        "minecraft:glowstone_dust"
+                        ],
+                    "nbt" : "{CustomModelData:10000027}"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chainmail_chestplate"
+        },
+        "title": {"translate":"Chainmail armor break"},
+        "description": {"translate":"Destroy any chainmail armor in battle"}
+    },
+    "parent": "att2:combat/break_armor",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 250
+    },
+    "criteria": {
+        "break_chainmail_armor": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "durability": {"max": 5},
+                "item": {
+                    "items": [ 
+                    "minecraft:chainmail_helmet",
+                    "minecraft:chainmail_chestplate",
+                    "minecraft:chainmail_leggings",
+                    "minecraft:chainmail_boots"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+        "break_chainmail_armor"
+        ]
+    ]
+}

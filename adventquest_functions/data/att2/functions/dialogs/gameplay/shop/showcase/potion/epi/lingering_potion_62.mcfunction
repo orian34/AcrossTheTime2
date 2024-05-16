@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item lingering_potion_62 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Remède explosif>","bold":false,"color":"dark_purple","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:lingering_potion\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§5Remède explosif\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Possède dans sa formule un substrat provoquant\\\"}\",\"{\\\"text\\\":\\\"§7une fulmination soudaine guérissant toutes blessures.\\\"}\",\"{\\\"text\\\":\\\"§7Has in its formula a substrate generating\\\"}\",\"{\\\"text\\\":\\\"§7a sudden fulmination healing all wounds.\\\"}\"]},CustomPotionColor:16679856,custom_potion_effects:[{id:instant_health,amplifier:6,duration:0,show_particles:0},{id:fire_resistance,amplifier:0,duration:600,show_particles:0},{id:night_vision,amplifier:0,duration:600,show_particles:0}]}}"},"extra":[{"text":" [105 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/potion/epi/lingering_potion_62"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy / 買"}}]}]}

@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item potion_6 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Anti-inflammatoire>","bold":false,"color":"gray","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:potion\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§7Anti-inflammatoire\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Dites aurevoir aux combustions spontanées\\\"}\",\"{\\\"text\\\":\\\"§7avec ignifugix !\\\"}\",\"{\\\"text\\\":\\\"§7Say goodbye to spontaneous combustion\\\"}\",\"{\\\"text\\\":\\\"§7with ignifugix!\\\"}\",\"{\\\"text\\\":\\\"§7STR§c-2\\\"}\"]},CustomPotionColor:15178789,custom_potion_effects:[{id:fire_resistance,amplifier:0,duration:16000,show_particles:0}]}}"},"extra":[{"text":" [10 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/potion/com/potion_6"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy / 買"}}]}]}

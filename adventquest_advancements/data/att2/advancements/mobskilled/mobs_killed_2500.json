@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_shovel"
+        },
+        "title": {"translate":"Murderer"},
+        "description": {"translate":"Kill 2500 enemies"},
+        "frame": "goal"
+    },
+    "parent": "att2:mobskilled/mobs_killed_1000",
+    "rewards": {
+        "function": "att2:advancement/exploit_25",
+        "experience": 25000
+    },
+    "criteria": {
+        "mobs_killed_2500": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

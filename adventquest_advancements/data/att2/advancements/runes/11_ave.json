@@ -1,0 +1,31 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:glowstone_dust",
+            "nbt" : "{CustomModelData:10000012}"
+        },
+        "title": {"translate":"Ave"},
+        "description": {"translate":"Drop Rune Tier B."},
+        "frame": "goal"
+    },
+    "parent": "att2:runes/10_ehl",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 2300
+                },
+    "criteria": {
+        "collection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": [
+                        "minecraft:glowstone_dust"
+                        ],
+                    "nbt" : "{CustomModelData:10000012}"
+                    }
+                ]
+            }
+        }
+    }
+}

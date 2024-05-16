@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Display item lingering_potion_43 as tellraw          #
+#####################################
+
+tellraw @s {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Rosée>","bold":false,"color":"blue","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:lingering_potion\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"§9Rosée\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Par la science les abîmes se sont ouverts, \\\"}\",\"{\\\"text\\\":\\\"§7et les nuages ont distillé la Rosée.\\\"}\",\"{\\\"text\\\":\\\"§7Through science the abyss has opened,\\\"}\",\"{\\\"text\\\":\\\"§7 and the clouds have distilled the Dew.\\\"}\"]},CustomPotionColor:11735039,custom_potion_effects:[{id:instant_health,amplifier:4,duration:0,show_particles:0},{id:invisibility,amplifier:0,duration:600,show_particles:0},{id:night_vision,amplifier:0,duration:600,show_particles:0}]}}"},"extra":[{"text":" [81 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/potion/rar/lingering_potion_43"},"hoverEvent":{"action":"show_text","value":"Acheter / Buy / 買"}}]}]}

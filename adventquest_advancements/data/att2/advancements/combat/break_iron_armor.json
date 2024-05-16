@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_chestplate"
+        },
+        "title": {"translate":"Iron armor break"},
+        "description": {"translate":"Destroy any iron armor in battle"}
+    },
+    "parent": "att2:combat/break_armor",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 250
+    },
+    "criteria": {
+        "break_iron_armor": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "durability": {"max": 5},
+                "item": {
+                    "items": [ 
+                    "minecraft:iron_helmet",
+                    "minecraft:iron_chestplate",
+                    "minecraft:iron_leggings",
+                    "minecraft:iron_boots"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+        "break_iron_armor"
+        ]
+    ]
+}

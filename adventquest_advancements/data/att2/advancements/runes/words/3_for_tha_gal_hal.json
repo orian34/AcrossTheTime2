@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:blade_pottery_sherd"
+        },
+        "title": {"translate":"Abundance"},
+        "description": {"translate":"Make runic word: For Tha Gal Hal"},
+        "frame": "goal"
+    },
+    "parent": "att2:runes/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_15",
+        "experience": 5000
+                },
+    "criteria": {
+        "collection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": [
+                        "minecraft:blade_pottery_sherd"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

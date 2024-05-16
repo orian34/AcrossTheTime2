@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_apple"
+        },
+        "title": {"translate":"Food Safety Precaution!"},
+        "description": {"translate":"Get 64 Apples"}
+    },
+    "parent": "att2:food/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_25",
+        "experience": 1500
+                },
+    "criteria": {
+        "high_food_safety": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    { 
+                    "items": [
+                        "minecraft:apple"
+                        ],
+                    "count": 64
+                    }
+                ]
+            }
+        }
+    }
+}

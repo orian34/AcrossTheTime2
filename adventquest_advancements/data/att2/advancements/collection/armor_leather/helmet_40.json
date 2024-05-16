@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_helmet"
+        },
+        "title": {"translate":"Capuche légère"},
+        "description": {"translate":"Less soft than useful."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/armor_leather/helmet_33",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "leather_helmet_40": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:leather_helmet"],
+                    "nbt": "{display:{Name:\"\\\"§9Capuche légère\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Moins douce qu'utile.\\\"}\",\"{\\\"text\\\":\\\"§7Less soft than useful.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HAS§a2 §7DAR§c-2\\\"}\"],color:2895149}}"
+                    }
+                ]
+            }
+        }
+    }
+}

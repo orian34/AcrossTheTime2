@@ -1,0 +1,31 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:glowstone_dust",
+            "nbt" : "{CustomModelData:10000018}"
+        },
+        "title": {"translate":"Lya"},
+        "description": {"translate":"Drop Rune Tier B."},
+        "frame": "goal"
+    },
+    "parent": "att2:runes/16_ust",
+    "rewards": {
+        "function": "att2:advancement/exploit_5",
+        "experience": 2900
+                },
+    "criteria": {
+        "collection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": [
+                        "minecraft:glowstone_dust"
+                        ],
+                    "nbt" : "{CustomModelData:10000018}"
+                    }
+                ]
+            }
+        }
+    }
+}

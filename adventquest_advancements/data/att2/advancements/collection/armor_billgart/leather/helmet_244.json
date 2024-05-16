@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_helmet"
+        },
+        "title": {"translate":"1-j#!A"},
+        "description": {"translate":"As the fool says: meaning is only a matter of point of view."},
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/armor_billgart/leather/helmet_231",
+    "rewards": {
+        "function": "att2:advancement/exploit_3"
+        },
+    "criteria": {
+        "leather_helmet_244": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:leather_helmet"],
+                    "nbt": "{display:{Name:\"\\\"§61-j#!A\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Comme dit si bien le fou : le sens n'est\\\"}\",\"{\\\"text\\\":\\\"§7qu'une question de point de vue.\\\"}\",\"{\\\"text\\\":\\\"§7As the fool says: meaning is only\\\"}\",\"{\\\"text\\\":\\\"§7a matter of point of view.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7RES§a1\\\"}\"],color:15465761}}"
+                    }
+                ]
+            }
+        }
+    }
+}

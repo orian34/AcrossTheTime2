@@ -1,0 +1,12 @@
+#####################################################################
+#Made by Adventquest												#
+#Detect and collect nearby grounded chronotons                  	#
+#####################################################################
+
+execute as @e[type=item,distance=..2,nbt={Item:{id:"minecraft:gold_nugget",tag:{display:{Name:"{\"text\":\"§e§oPetite pièce\"}","Lore":["{\"text\":\"§e§oSmall coin\"}","{\"text\":\"§6+1 Chronoton\"}"]}}},PickupDelay:0s}] run function att2:gameplay/chronoton/ground/pick_small
+execute as @e[type=item,distance=..2,nbt={Item:{id:"minecraft:gold_ingot",tag:{display:{Name:"{\"text\":\"§e§oGrande pièce\"}","Lore":["{\"text\":\"§e§oBig coin\"}","{\"text\":\"§6+5 Chronotons\"}"]}}},PickupDelay:0s}] run function att2:gameplay/chronoton/ground/pick_big
+execute as @e[type=item,distance=..2,nbt={Item:{id:"minecraft:diamond",tag:{display:{Name:"{\"text\":\"§b§oDiamant\"}","Lore":["{\"text\":\"§b§oDiamond\"}","{\"text\":\"§6+50 Chronotons\"}"]}}},PickupDelay:0s}] run function att2:gameplay/chronoton/ground/pick_diamond
+
+execute as @e[type=item,distance=..2,nbt={Item:{id:"minecraft:gold_nugget",tag:{Action:"dropped",display:{Name:"{\"text\":\"§e§oPetite pièce\"}","Lore":["{\"text\":\"§e§oSmall coin dropped\"}","{\"text\":\"§6+1 Chronoton\"}"]}}},PickupDelay:0s}] run function att2:gameplay/chronoton/ground/pick_small_dropped
+execute as @e[type=item,distance=..2,nbt={Item:{id:"minecraft:gold_ingot",tag:{Action:"dropped",display:{Name:"{\"text\":\"§e§oGrande pièce\"}","Lore":["{\"text\":\"§e§oBig coin dropped\"}","{\"text\":\"§6+5 Chronotons\"}"]}}},PickupDelay:0s}] run function att2:gameplay/chronoton/ground/pick_big_dropped
+execute as @e[type=item,distance=..2,nbt={Item:{id:"minecraft:diamond",tag:{Action:"dropped",display:{Name:"{\"text\":\"§b§oDiamant\"}","Lore":["{\"text\":\"§b§oDiamond dropped\"}","{\"text\":\"§6+50 Chronotons\"}"]}}},PickupDelay:0s}] run function att2:gameplay/chronoton/ground/pick_diamond_dropped

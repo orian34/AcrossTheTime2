@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_helmet"
+        },
+        "title": {"translate":"Sommet immuable"},
+        "description": {"translate":"Standing at the very top, nothing can reach it."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/armor_billgart/leather/helmet_223",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "leather_helmet_231": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:leather_helmet"],
+                    "nbt": "{display:{Name:\"\\\"§9Sommet immuable\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Trônant tout en haut,\\\"}\",\"{\\\"text\\\":\\\"§7rien ne l'atteint.\\\"}\",\"{\\\"text\\\":\\\"§7Standing at the very top,\\\"}\",\"{\\\"text\\\":\\\"§7nothing can reach it.\\\"}\",\"{\\\"text\\\":\\\"§7LUC§a1 §7HAS§c-2\\\"}\"],color:2127385}}"
+                    }
+                ]
+            }
+        }
+    }
+}

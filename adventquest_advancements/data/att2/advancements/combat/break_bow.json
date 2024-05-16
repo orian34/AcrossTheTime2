@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bow"
+        },
+        "title": {"translate":"Bow break"},
+        "description": {"translate":"Destroy a bow in battle"}
+    },
+    "parent": "att2:combat/shoot_arrow",
+    "rewards": {
+        "function": "att2:advancement/exploit_2",
+        "experience": 500
+                },
+    "criteria": {
+        "bow": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "durability": {"max": 2},
+                "item": {
+                    "items": [
+                        "minecraft:bow"
+                    ]
+                }
+            }
+        }
+    }
+}

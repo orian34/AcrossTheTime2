@@ -1,0 +1,17 @@
+#############################################
+#Made by Adventquest						#
+#Use function to activate the subtitle A2C2 #
+#############################################
+
+
+#FRENCH LANGUAGE
+
+title @a[scores={LANGUAGE=0}] subtitle {"text":"Ryliath","color":"dark_red"}
+
+#ENGLISH LANGUAGE
+
+title @a[scores={LANGUAGE=1}] subtitle {"text":"Ryliath","color":"dark_red"}
+
+#CHINESE LANGUAGE
+
+title @a[scores={LANGUAGE=2}] subtitle {"text":"Ryliath","color":"dark_red"}
