@@ -1,0 +1,1 @@
+execute if score VF Voice matches 1 run playsound voiceact:iio5 voice @a ~ ~ ~ 150 1 1
