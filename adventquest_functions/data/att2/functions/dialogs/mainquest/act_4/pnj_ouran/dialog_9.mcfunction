@@ -23,3 +23,6 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Ouran : ","color":"gold","extra"
 #CHINESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"你讓我失去了我的時間...","color":"dark_aqua"}]}
+
+function att2:voice/stopsound
+function att2:voice/aoran/aoran17

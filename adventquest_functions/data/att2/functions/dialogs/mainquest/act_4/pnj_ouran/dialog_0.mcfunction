@@ -12,6 +12,7 @@ scoreboard players set ouran_PNJ DIALOG 0
 tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"Mais je te reconnais ! Tu es l'insecte qui a osé me défier il y a de cela quatre cycles !","color":"dark_aqua"}]}
 
 
+
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"Hey I recognize you! You are the bug that dares to challenge me four cycles ago!","color":"dark_aqua"}]}
@@ -21,6 +22,8 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Ouran : ","color":"gold","extra"
 
 tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"嘿， 我認出了你！ 你是四個週期前敢挑戰我的蟲子！ ","color":"dark_aqua"}]}
 
+function att2:voice/stopsound
+function att2:voice/aoran/aoran8
 
 execute as @a[x=7954,y=115,z=6772,distance=..30] run function att2:dialogs/mainquest/act_4/pnj_ouran/player_answer_proposal_1
 execute as @a[x=7954,y=115,z=6772,distance=..30] run function att2:dialogs/mainquest/act_4/pnj_ouran/player_answer_proposal_2

@@ -11,8 +11,6 @@ scoreboard players set Real0 TIMER 1499
 scoreboard players set ouran_PNJ DIALOG -2
 scoreboard players set Ouran OURANOS -2
 
-advancement grant @a only att2:adventure/ouran_nofight
-
 
 #FRENCH LANGUAGE
 
@@ -27,3 +25,6 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Ouran : ","color":"gold","extra"
 #CHINESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"在這種情況下， 拿走寶石， 它是你的。不過你就別想著不帶這個公主的腦袋回來...","color":"dark_aqua"}]}
+
+function att2:voice/stopsound
+function att2:voice/aoran/aoran26

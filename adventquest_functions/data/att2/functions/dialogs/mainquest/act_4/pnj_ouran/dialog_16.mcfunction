@@ -22,4 +22,6 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Ouran : ","color":"gold","extra"
 tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"安格班公主？ 問題， 什麼樣的問題？ ","color":"dark_aqua"}]}
 
 
+function att2:voice/stopsound
+function att2:voice/aoran/aoran24
 execute as @a[x=7954,y=115,z=6772,distance=..30] run function att2:dialogs/mainquest/act_4/pnj_ouran/player_answer_proposal_18
