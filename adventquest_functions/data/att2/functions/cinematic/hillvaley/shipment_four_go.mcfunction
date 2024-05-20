@@ -4,6 +4,7 @@
 ##################################################
 
 execute if score Real0 TIMER matches 0 run function att2:dialogs/mainquest/act_1/ch0_automaton_1
+execute if score Real0 TIMER matches 0 run function att2:voice/automate/automate1
 execute if score Real0 TIMER matches 0 at @a run function att2:sound/misc/mission_progress
 execute if score Real0 TIMER matches 10 run function att2:cinematic/hillvaley/shipment_four_update
 execute if score Real0 TIMER matches 60 run function att2:dialogs/mainquest/act_1/ch0_player_10

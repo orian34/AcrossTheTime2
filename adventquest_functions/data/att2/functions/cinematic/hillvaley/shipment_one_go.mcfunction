@@ -4,6 +4,7 @@
 ##################################################
 
 execute if score Real0 TIMER matches 0 run function att2:dialogs/mainquest/act_1/ch0_yuni_1
+execute if score Real0 TIMER matches 0 run function att2:voice/yuni/yuni1
 execute if score Real0 TIMER matches 0 at @a run function att2:sound/misc/mission_progress
 execute if score Real0 TIMER matches 10 as @a[scores={NUMEROJOUEUR=1}] at @s run tp @s 2030 89 2027
 execute if score Real0 TIMER matches 15 run function att2:cinematic/hillvaley/shipment_one_update
