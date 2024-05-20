@@ -17,3 +17,5 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Captain : ","color":"green","ext
 #CHINESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=2}] {"text":" °-° 隊長 : ","color":"green","extra":[{"text":"來吧！ 來吧！ 快點穿過那扇門！ ","color":"dark_aqua"}]}
+
+function att2:voice/capitaine/capitaine.dialogue2

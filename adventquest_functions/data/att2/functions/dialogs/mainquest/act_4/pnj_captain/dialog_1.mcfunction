@@ -18,5 +18,5 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Captain : ","color":"green","ext
 
 tellraw @s[scores={LANGUAGE=2}] {"text":" °-° 隊長 : ","color":"green","extra":[{"text":"你他媽聾了嗎？ 讓開， 這裡很危險！ ","color":"dark_aqua"}]}
 
-
+function att2:voice/capitaine/capitaine2
 function att2:dialogs/mainquest/act_4/pnj_captain/player_answer_proposal_1

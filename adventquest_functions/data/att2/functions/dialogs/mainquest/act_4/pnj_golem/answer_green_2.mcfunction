@@ -23,3 +23,5 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Golem : ","color":"green","extra
 #CHINESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"一扇小肉體能夠通過的門， 會自己打開。粘性石頭， 意志的承載者， 隱藏在路徑的盡頭。粘性石頭會從廢墟中喚醒他的四肢。","color":"dark_aqua"}]}
+
+function att2:voice/golem/golem4

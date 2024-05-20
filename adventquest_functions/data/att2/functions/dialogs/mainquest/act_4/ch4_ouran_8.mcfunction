@@ -19,3 +19,5 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Ouran : ","color":"gold","extra"
 #CHINESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"你無法聯繫到我， 你這個可測量的蟲子...奴才， 擺脫它！ ","color":"dark_aqua"}]}
+
+function att2:voice/aoran/aoran27

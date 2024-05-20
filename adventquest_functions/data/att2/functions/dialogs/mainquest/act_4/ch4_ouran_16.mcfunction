@@ -19,3 +19,5 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Ouran : ","color":"gold","extra"
 #CHINESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"不！ 那不是結束！ 小朱紅， 你沒有資格對我反抗！ 賊！ 褻瀆者！ 你會因為你的憤怒而受到你應得的懲罰！ ","color":"dark_aqua"}]}
+
+function att2:voice/aoran/aoran34

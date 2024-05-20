@@ -19,3 +19,6 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Ouran : ","color":"gold","extra"
 #CHINESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"夠了， 現在就殺了他！ ","color":"dark_aqua"}]}
+
+
+function att2:voice/aoran/aoran30

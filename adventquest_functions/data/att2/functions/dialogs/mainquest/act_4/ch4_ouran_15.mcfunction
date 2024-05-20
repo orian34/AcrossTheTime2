@@ -19,3 +19,6 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Ouran : ","color":"gold","extra"
 #CHINESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"足夠的！ 足夠的！ 足夠的！ 你怎麼敢讓我這樣！ 你會知道我的憤怒和力量的真正程度！ ","color":"dark_aqua"}]}
+
+
+function att2:voice/aoran/aoran33
