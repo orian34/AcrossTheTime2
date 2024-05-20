@@ -20,3 +20,4 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Phoebius : ","color":"green","ex
 #CHINESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Phoebius : ","color":"green","extra":[{"text":"我不聽陌生人的命令。","color":"dark_aqua"}]}
+function att2:voice/phoebius/phoebius6

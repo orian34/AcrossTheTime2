@@ -21,6 +21,6 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Phoebius : ","color":"green","ex
 
 tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Phoebius : ","color":"green","extra":[{"text":"我不知道你是從哪聽說這個法器的， 但我不會輕易地把它交給別人...","color":"dark_aqua"}]}
 
-
+function att2:voice/phoebius/phoebius2
 execute as @a run function att2:dialogs/mainquest/act_3/pnj_phoebius/player_answer_proposal_4
 execute as @a run function att2:dialogs/mainquest/act_3/pnj_phoebius/player_answer_proposal_5

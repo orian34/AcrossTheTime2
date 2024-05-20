@@ -21,6 +21,6 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Phoebius : ","color":"green","ex
 
 tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Phoebius : ","color":"green","extra":[{"text":"雷爾貢？ 他怎麼不親自來？ 你看起來不像 Eternän， 實際上， 你甚至看起來都不是來自這裡...","color":"dark_aqua"}]}
 
-
+function att2:voice/phoebius/phoebius7
 execute as @a run function att2:dialogs/mainquest/act_3/pnj_phoebius/player_answer_proposal_12
 execute as @a run function att2:dialogs/mainquest/act_3/pnj_phoebius/player_answer_proposal_13

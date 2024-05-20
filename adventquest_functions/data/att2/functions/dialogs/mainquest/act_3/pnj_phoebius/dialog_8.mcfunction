@@ -21,6 +21,6 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Phoebius : ","color":"green","ex
 
 tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Phoebius : ","color":"green","extra":[{"text":"你凭什麽覺得我會把它給你？ ","color":"dark_aqua"}]}
 
-
+function att2:voice/phoebius/phoebius9
 execute as @a run function att2:dialogs/mainquest/act_3/pnj_phoebius/player_answer_proposal_10
 execute as @a run function att2:dialogs/mainquest/act_3/pnj_phoebius/player_answer_proposal_14

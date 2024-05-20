@@ -20,3 +20,5 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Phoebius : ","color":"green","ex
 #CHINESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Phoebius : ","color":"green","extra":[{"text":"喔， 我想起來了！ 抱歉抱歉。拿著， 希望你能物盡其用...","color":"dark_aqua"}]}
+
+function att2:voice/phoebius/phoebius16

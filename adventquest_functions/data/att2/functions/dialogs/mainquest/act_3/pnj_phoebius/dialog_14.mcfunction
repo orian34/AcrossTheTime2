@@ -20,3 +20,5 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Phoebius : ","color":"green","ex
 #CHINESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Phoebius : ","color":"green","extra":[{"text":"把這個瘋子趕出去。","color":"dark_aqua"}]}
+
+function att2:voice/phoebius/phoebius15

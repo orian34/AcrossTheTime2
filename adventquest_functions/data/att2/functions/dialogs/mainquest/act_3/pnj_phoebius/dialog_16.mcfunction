@@ -19,3 +19,5 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Phoebius : ","color":"green","ex
 #CHINESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Phoebius : ","color":"green","extra":[{"text":"祝你好運。","color":"dark_aqua"}]}
+
+function att2:voice/phoebius/phoebius.dialogue1

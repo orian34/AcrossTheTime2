@@ -21,7 +21,7 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Phoebius : ","color":"green","ex
 
 tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Phoebius : ","color":"green","extra":[{"text":"請説話， 我可不會讀心術。","color":"dark_aqua"}]}
 
-
+function att2:voice/phoebius/phoebius4
 execute as @a run function att2:dialogs/mainquest/act_3/pnj_phoebius/player_answer_proposal_6
 execute as @a run function att2:dialogs/mainquest/act_3/pnj_phoebius/player_answer_proposal_8
 execute as @a run function att2:dialogs/mainquest/act_3/pnj_phoebius/player_answer_proposal_9
