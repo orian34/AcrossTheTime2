@@ -38,21 +38,29 @@ execute if score Neth0 TIMER matches 507..1399 as @a[gamemode=spectator] in mine
 execute if score Neth0 TIMER matches 507 as 00000000-0000-001a-0000-00000000001a at @s anchored feet facing 3525 88 4500 run teleport @s ^ ^ ^0.07 ~ ~
 execute if score Neth0 TIMER matches 507 if entity @e[nbt={UUID:[I;0,26,0,26]},x=3525,y=88,z=4500,distance=..0.6] run function att2:cinematic/neth0_iteration
 execute if score Neth0 TIMER matches 508 run function att2:dialogs/mainquest/act_5/ch2_azazel_1
+execute if score Neth0 TIMER matches 508 run function att2:voice/azazel/azazel1
 execute if score Neth0 TIMER matches 510 as 00000000-0000-001a-0000-00000000001a at @s anchored feet facing 3525 88 4514 run teleport @s ^ ^ ^0.07 ~ 10
 execute if score Neth0 TIMER matches 510 if entity @e[nbt={UUID:[I;0,26,0,26]},x=3525,y=88,z=4514,distance=..0.6] run function att2:cinematic/neth0_iteration
 
 execute if score Neth0 TIMER matches 520 run function att2:dialogs/mainquest/act_5/ch2_azazel_2
+execute if score Neth0 TIMER matches 520 run function att2:voice/azazel/azazel2
 execute if score Neth0 TIMER matches 800 run function att2:dialogs/mainquest/act_5/ch2_azazel_3
+execute if score Neth0 TIMER matches 800 run function att2:voice/azazel/azazel3
 execute if score Neth0 TIMER matches 875 as 00000000-0000-001a-0000-00000000001a at @s run teleport @s ~ ~ ~ 0 0
 execute if score Neth0 TIMER matches 875 run function att2:dialogs/mainquest/act_5/ch2_serile_1
+execute if score Neth0 TIMER matches 875 run function att2:voice/serile/serile64
 execute if score Neth0 TIMER matches 950 run function att2:dialogs/mainquest/act_5/ch2_azazel_4
+execute if score Neth0 TIMER matches 950 run function att2:voice/azazel/azazel4
 execute if score Neth0 TIMER matches 1050 run function att2:cinematic/act_5/angband/angor/palace_1_action_3
 execute if score Neth0 TIMER matches 1100 run function att2:dialogs/mainquest/act_5/ch2_azazel_5
+execute if score Neth0 TIMER matches 1100 run function att2:voice/azazel/azazel5
 execute if score Neth0 TIMER matches 1125 run function att2:cinematic/act_5/angband/angor/palace_1_action_4
 execute if score Neth0 TIMER matches 1150 as 00000000-0000-141a-0000-00000000141a at @s run teleport @s 3525 88 4520 180 0
 execute if score Neth0 TIMER matches 1150..1175 as 00000000-0000-141a-0000-00000000141a at @s anchored feet facing entity 00000000-0000-001a-0000-00000000001a feet run teleport @s ^ ^ ^0.07 ~ ~
 execute if score Neth0 TIMER matches 1200 run function att2:dialogs/mainquest/act_5/ch2_serile_2
+execute if score Neth0 TIMER matches 1200 run function att2:voice/serile/serile65
 execute if score Neth0 TIMER matches 1300 run function att2:dialogs/mainquest/act_5/ch2_azazel_6
+execute if score Neth0 TIMER matches 1300 run function att2:voice/azazel/azazel6
 execute if score Neth0 TIMER matches 1325..1350 as 00000000-0000-001a-0000-00000000001a at @s anchored feet facing entity 00000000-0000-141a-0000-00000000141a feet run teleport @s ^ ^ ^0.07 ~ ~
 execute if score Neth0 TIMER matches 1400 as @a[gamemode=spectator] run function att2:gameplay/speceffect/disincarnate/end
 execute if score Neth0 TIMER matches 1405 run function att2:cinematic/act_5/angband/angor/palace_1_action_5
@@ -167,22 +175,67 @@ execute if score Neth0 TIMER matches 8360 run function att2:dialogs/title/credit
 execute if score Neth0 TIMER matches 8400 run function att2:dialogs/title/credits/thanks_subtitle41
 execute if score Neth0 TIMER matches 8440 run function att2:dialogs/title/credits/thanks_subtitle42
 
-execute if score Neth0 TIMER matches 8500 run title @a times 50 200 100
-execute if score Neth0 TIMER matches 8500 run function att2:dialogs/title/subtitle_empty
-execute if score Neth0 TIMER matches 8500 run function att2:dialogs/title/credits/final_title0
-execute if score Neth0 TIMER matches 8650 run function att2:dialogs/title/credits/final_title1
-execute if score Neth0 TIMER matches 8650 run function att2:dialogs/title/credits/final_subtitle0
-execute if score Neth0 TIMER matches 8698 as @a run function att2:gameplay/checkpoint/remove_dimtag
-execute if score Neth0 TIMER matches 8699 in minecraft:overworld run spawnpoint @a 1543 15 1495
-execute if score Neth0 TIMER matches 8700 run scoreboard objectives setdisplay sidebar DAHAL
-execute if score Neth0 TIMER matches 8701 in minecraft:overworld run tp @a 1543.0 15 1495.0
+execute if score Neth0 TIMER matches 8500 run title @a times 20 1700 50
+execute if score Neth0 TIMER matches 8540 run function att2:dialogs/title/credits/voice_acting_french_title0
+execute if score Neth0 TIMER matches 8580 run function att2:dialogs/title/credits/voice_acting_french_subtitle0
+execute if score Neth0 TIMER matches 8620 run function att2:dialogs/title/credits/voice_acting_french_subtitle1
+execute if score Neth0 TIMER matches 8660 run function att2:dialogs/title/credits/voice_acting_french_subtitle2
+execute if score Neth0 TIMER matches 8700 run function att2:dialogs/title/credits/voice_acting_french_subtitle3
+execute if score Neth0 TIMER matches 8740 run function att2:dialogs/title/credits/voice_acting_french_subtitle4
+execute if score Neth0 TIMER matches 8780 run function att2:dialogs/title/credits/voice_acting_french_subtitle5
+execute if score Neth0 TIMER matches 8820 run function att2:dialogs/title/credits/voice_acting_french_subtitle6
+execute if score Neth0 TIMER matches 8860 run function att2:dialogs/title/credits/voice_acting_french_subtitle7
+execute if score Neth0 TIMER matches 8900 run function att2:dialogs/title/credits/voice_acting_french_subtitle8
+execute if score Neth0 TIMER matches 8940 run function att2:dialogs/title/credits/voice_acting_french_subtitle9
+execute if score Neth0 TIMER matches 8980 run function att2:dialogs/title/credits/voice_acting_french_subtitle10
+execute if score Neth0 TIMER matches 9020 run function att2:dialogs/title/credits/voice_acting_french_subtitle11
+execute if score Neth0 TIMER matches 9060 run function att2:dialogs/title/credits/voice_acting_french_subtitle12
+execute if score Neth0 TIMER matches 9100 run function att2:dialogs/title/credits/voice_acting_french_subtitle13
+execute if score Neth0 TIMER matches 9140 run function att2:dialogs/title/credits/voice_acting_french_subtitle14
+execute if score Neth0 TIMER matches 9180 run function att2:dialogs/title/credits/voice_acting_french_subtitle15
+execute if score Neth0 TIMER matches 9220 run function att2:dialogs/title/credits/voice_acting_french_subtitle16
+execute if score Neth0 TIMER matches 9260 run function att2:dialogs/title/credits/voice_acting_french_subtitle17
+execute if score Neth0 TIMER matches 9300 run function att2:dialogs/title/credits/voice_acting_french_subtitle18
+execute if score Neth0 TIMER matches 9340 run function att2:dialogs/title/credits/voice_acting_french_subtitle19
+execute if score Neth0 TIMER matches 9380 run function att2:dialogs/title/credits/voice_acting_french_subtitle20
+execute if score Neth0 TIMER matches 9420 run function att2:dialogs/title/credits/voice_acting_french_subtitle21
+execute if score Neth0 TIMER matches 9460 run function att2:dialogs/title/credits/voice_acting_french_subtitle22
+execute if score Neth0 TIMER matches 9500 run function att2:dialogs/title/credits/voice_acting_french_subtitle23
+execute if score Neth0 TIMER matches 9540 run function att2:dialogs/title/credits/voice_acting_french_subtitle24
+execute if score Neth0 TIMER matches 9580 run function att2:dialogs/title/credits/voice_acting_french_subtitle25
+execute if score Neth0 TIMER matches 9620 run function att2:dialogs/title/credits/voice_acting_french_subtitle26
+execute if score Neth0 TIMER matches 9660 run function att2:dialogs/title/credits/voice_acting_french_subtitle27
+execute if score Neth0 TIMER matches 9700 run function att2:dialogs/title/credits/voice_acting_french_subtitle28
+execute if score Neth0 TIMER matches 9740 run function att2:dialogs/title/credits/voice_acting_french_subtitle29
+execute if score Neth0 TIMER matches 9780 run function att2:dialogs/title/credits/voice_acting_french_subtitle30
+execute if score Neth0 TIMER matches 9820 run function att2:dialogs/title/credits/voice_acting_french_subtitle31
+execute if score Neth0 TIMER matches 9860 run function att2:dialogs/title/credits/voice_acting_french_subtitle32
+execute if score Neth0 TIMER matches 9900 run function att2:dialogs/title/credits/voice_acting_french_subtitle33
+execute if score Neth0 TIMER matches 9940 run function att2:dialogs/title/credits/voice_acting_french_subtitle34
+execute if score Neth0 TIMER matches 9980 run function att2:dialogs/title/credits/voice_acting_french_subtitle35
+execute if score Neth0 TIMER matches 10020 run function att2:dialogs/title/credits/voice_acting_french_subtitle36
+execute if score Neth0 TIMER matches 10060 run function att2:dialogs/title/credits/voice_acting_french_subtitle37
+execute if score Neth0 TIMER matches 10100 run function att2:dialogs/title/credits/voice_acting_french_subtitle38
+execute if score Neth0 TIMER matches 10140 run function att2:dialogs/title/credits/voice_acting_french_subtitle39
+execute if score Neth0 TIMER matches 10180 run function att2:dialogs/title/credits/voice_acting_french_subtitle40
+
+
+execute if score Neth0 TIMER matches 10260 run title @a times 50 200 100
+execute if score Neth0 TIMER matches 10260 run function att2:dialogs/title/subtitle_empty
+execute if score Neth0 TIMER matches 10260 run function att2:dialogs/title/credits/final_title0
+execute if score Neth0 TIMER matches 10360 run function att2:dialogs/title/credits/final_title1
+execute if score Neth0 TIMER matches 10360 run function att2:dialogs/title/credits/final_subtitle0
+execute if score Neth0 TIMER matches 10408 as @a run function att2:gameplay/checkpoint/remove_dimtag
+execute if score Neth0 TIMER matches 10409 in minecraft:overworld run spawnpoint @a 1543 15 1495
+execute if score Neth0 TIMER matches 10410 run scoreboard objectives setdisplay sidebar DAHAL
+execute if score Neth0 TIMER matches 10411 in minecraft:overworld run tp @a 1543.0 15 1495.0
 
 
 #=======================#
 #end of the cinematic	#
 #=======================#
 
-execute if score Neth0 TIMER matches 8701.. in minecraft:the_nether run setblock 3526 75 4501 minecraft:air
-execute if score Neth0 TIMER matches 511..8700 run function att2:cinematic/neth0_iteration
+execute if score Neth0 TIMER matches 10411.. in minecraft:the_nether run setblock 3526 75 4501 minecraft:air
+execute if score Neth0 TIMER matches 511..10410 run function att2:cinematic/neth0_iteration
 execute if score Neth0 TIMER matches 508..509 run function att2:cinematic/neth0_iteration
 execute if score Neth0 TIMER matches 0..500 run function att2:cinematic/neth0_iteration
