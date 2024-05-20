@@ -19,3 +19,6 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Serile : ","color":"gray","extra
 #CHINESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Serile : ","color":"gray","extra":[{"text":"如果你這樣堅持， 你會死的！ ","color":"yellow","italic":true}]}
+
+
+function att2:voice/serile/serile54

@@ -19,3 +19,6 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Serile : ","color":"gray","extra
 #CHINESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Serile : ","color":"gray","extra":[{"text":"為你感到羞恥， 我是對的。你只是個凡人， 沒有能力打敗我...","color":"yellow","italic":true}]}
+
+
+function att2:voice/serile/serile59

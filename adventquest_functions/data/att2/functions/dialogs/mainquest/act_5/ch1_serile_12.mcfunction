@@ -19,3 +19,6 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Serile : ","color":"gray","extra
 #CHINESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Serile : ","color":"gray","extra":[{"text":"沒關係， 我會用原始的力量來獲得這股力量！ ","color":"yellow","italic":true}]}
+
+
+function att2:voice/serile/serile55

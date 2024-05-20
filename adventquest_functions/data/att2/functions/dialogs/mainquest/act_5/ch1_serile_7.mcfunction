@@ -19,3 +19,7 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Serile : ","color":"gray","extra
 #CHINESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Serile : ","color":"gray","extra":[{"text":"不要強求！ ","color":"yellow","italic":true}]}
+
+
+function att2:voice/serile/serile50
+
