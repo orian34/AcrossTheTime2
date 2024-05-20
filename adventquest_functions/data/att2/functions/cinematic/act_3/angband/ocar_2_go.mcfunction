@@ -21,6 +21,7 @@ execute if score Neth0 TIMER matches 70 run summon minecraft:zombified_piglin 37
 execute if score Neth0 TIMER matches 80 run summon minecraft:zombified_piglin 3754 76 3784 {Tags:["LVL0","Undead"],DeathLootTable:"att2:empty",PersistenceRequired:1,Health:1000,Attributes:[{Name:generic.max_health,Base:1000},{Name:generic.attack_damage,Base:0.0},{Name:generic.follow_range,Base:30.0}],HandDropChances:[0.0f,0.0f],ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],HandItems:[{id:"minecraft:golden_shovel",Count:1},{}],ArmorItems:[{id:"minecraft:leather_boots",Count:1,tag:{display:{color:9049620}}},{id:"minecraft:leather_leggings",Count:1,tag:{display:{color:9589788}}},{id:"minecraft:leather_chestplate",Count:1,tag:{display:{color:9049620}}},{id:"minecraft:leather_helmet",Count:1,tag:{display:{color:9589788}}}],UUID:[I;0,131135,0,131135]}
 execute if score Neth0 TIMER matches 90 run summon minecraft:zombified_piglin 3749 73 3785 {Tags:["LVL0","Undead"],DeathLootTable:"att2:empty",PersistenceRequired:1,Health:1000,Attributes:[{Name:generic.max_health,Base:1000},{Name:generic.attack_damage,Base:0.0},{Name:generic.follow_range,Base:30.0}],HandDropChances:[0.0f,0.0f],ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],HandItems:[{id:"minecraft:golden_shovel",Count:1},{}],ArmorItems:[{id:"minecraft:leather_boots",Count:1,tag:{display:{color:9049620}}},{id:"minecraft:leather_leggings",Count:1,tag:{display:{color:9589788}}},{id:"minecraft:leather_chestplate",Count:1,tag:{display:{color:9049620}}},{id:"minecraft:leather_helmet",Count:1,tag:{display:{color:9589788}}}],UUID:[I;0,131151,0,131151]}
 execute if score Neth0 TIMER matches 100 run function att2:dialogs/mainquest/act_3/ch2_mortalsoldier_1
+execute if score Neth0 TIMER matches 100 run function att2:voice/mortal/mortal1
 execute if score Neth0 TIMER matches 180 as @e[type=minecraft:zombified_piglin,x=3754,y=77,z=3774,distance=..100] run data merge entity @s {AngerTime:1000000}
 
 ### Summoning heroes Serile and Namrin
@@ -34,8 +35,11 @@ execute if score Neth0 TIMER matches 705 in minecraft:the_nether run tp 00000000
 execute if score Neth0 TIMER matches 705 as 00000000-0000-006a-0000-00000000006a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^0.01 ~ ~
 execute if score Neth0 TIMER matches 706 run function att2:cinematic/tp_effect/namrin
 execute if score Neth0 TIMER matches 750 run function att2:dialogs/mainquest/act_3/ch2_namrin_1
+execute if score Neth0 TIMER matches 750 run function att2:voice/namrin/namrin1
 execute if score Neth0 TIMER matches 820 run function att2:dialogs/mainquest/act_3/ch2_serile_1
+execute if score Neth0 TIMER matches 820 run function att2:voice/serile/serile34
 execute if score Neth0 TIMER matches 900 run function att2:dialogs/mainquest/act_3/ch2_namrin_2
+execute if score Neth0 TIMER matches 900 run function att2:voice/namrin/namrin2
 execute if score Neth0 TIMER matches 920..930 as 00000000-0000-006a-0000-00000000006a at @s run tp @s ~ ~ ~-0.2 -180 30
 execute if score Neth0 TIMER matches 920..926 as 00000000-0000-001a-0000-00000000001a at @s run tp @s ~ ~ ~-0.2 -180 30
 execute if score Neth0 TIMER matches 925 in minecraft:the_nether as @a[x=3754,y=77,z=3774,distance=..100] run function att2:gameplay/speceffect/disincarnate/end

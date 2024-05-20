@@ -13,6 +13,7 @@ execute if score Neth0 TIMER matches 70 run scoreboard players set @a[scores={DI
 execute if score Neth0 TIMER matches 70 as @a[scores={DIMENSION=6}] at @s run function att2:sound/mobs/fn_step2
 execute if score Neth0 TIMER matches 80 as @a[scores={DIMENSION=6}] at @s run function att2:sound/mobs/fn_slight_annoyance
 execute if score Neth0 TIMER matches 100 run function att2:dialogs/mainquest/act_3/ch5_namrin_1
+execute if score Neth0 TIMER matches 100 run function att2:voice/namrin/namrin11
 execute if score Neth0 TIMER matches 100 as @a[scores={DIMENSION=6}] at @s run function att2:sound/mobs/fn_attack1
 execute if score Neth0 TIMER matches 100..130 as @a[scores={DIMENSION=6}] at @s run tp @s ~ ~ ~ -50 -10
 execute if score Neth0 TIMER matches 105 run function att2:cinematic/act_3/angband/angor/war_2_action_1

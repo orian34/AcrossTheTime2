@@ -35,10 +35,14 @@ execute if score Neth0 TIMER matches 180 in minecraft:the_nether run tp @a 3512 
 
 #Dialog
 execute if score Neth0 TIMER matches 200 run function att2:dialogs/mainquest/act_3/ch5_relgon_1
+execute if score Neth0 TIMER matches 200 run function att2:voice/relgon/relgon47
 execute if score Neth0 TIMER matches 300 run function att2:dialogs/mainquest/act_3/ch5_etotsira_1
+execute if score Neth0 TIMER matches 300 run function att2:voice/etotsira/etotsira23
 execute if score Neth0 TIMER matches 400 run function att2:dialogs/mainquest/act_3/ch5_etotsira_2
+execute if score Neth0 TIMER matches 400 run function att2:voice/etotsira/etotsira24
 execute if score Neth0 TIMER matches 450..470 as 00000000-0000-008a-0000-00000000008a at @s anchored feet facing entity 00000000-0000-007a-0000-00000000007a feet run teleport @s ^ ^ ^0.00001 ~ ~
 execute if score Neth0 TIMER matches 550 run function att2:dialogs/mainquest/act_3/ch5_relgon_2
+execute if score Neth0 TIMER matches 550 run function att2:voice/relgon/relgon48
 
 #Relgon Final Speech
 execute if score Neth0 TIMER matches 550 in minecraft:the_nether as 00000000-0000-007a-0000-00000000007a at @s run tp @s ~ ~ ~ ~ 0
@@ -46,6 +50,7 @@ execute if score Neth0 TIMER matches 601 in minecraft:the_nether as 00000000-000
 execute if score Neth0 TIMER matches 601 in minecraft:the_nether if entity @e[nbt={UUID:[I;0,122,0,122]},x=3525.5,y=41.0,z=4456.5,distance=..0.6] run function att2:cinematic/neth0_iteration
 execute if score Neth0 TIMER matches 610 in minecraft:the_nether as 00000000-0000-007a-0000-00000000007a at @s run tp @s 3525 41 4456 180 ~
 execute if score Neth0 TIMER matches 610 run function att2:dialogs/mainquest/act_3/ch5_relgon_3
+execute if score Neth0 TIMER matches 610 run function att2:voice/relgon/relgon49
 execute if score Neth0 TIMER matches 850 run scoreboard players set Mainquest SIDEQUEST 77
 
 
