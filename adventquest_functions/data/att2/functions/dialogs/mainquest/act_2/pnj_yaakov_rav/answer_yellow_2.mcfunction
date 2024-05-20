@@ -21,4 +21,5 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Yaakov Rav : ","color":"green","
 tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"好吧， 那我長話短説。由於缺少維持運行所需的能量， 幾個世紀以來， Ryliath的傳送門一直處於休眠狀態。而爲了使其激活， 你需要找到三顆名爲“空間之石”的石頭。但不幸的是， 目前這些石頭已被窃取， 散落在世界各地。","color":"dark_aqua"}]}
 
 
-function att2:dialogs/mainquest/act_2/pnj_yaakov_rav/answer_end
+function att2:voice/yaakov/yaakov5
+execute as @a run function att2:dialogs/mainquest/act_2/pnj_yaakov_rav/player_answer_proposal_4

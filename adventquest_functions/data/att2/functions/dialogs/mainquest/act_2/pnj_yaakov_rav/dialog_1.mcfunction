@@ -19,4 +19,5 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Yaakov Rav : ","color":"green","
 tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"陌生人， 歡迎光臨寒舍...如果你對Dahäl感興趣的話， 我這正好有卖各種各樣的咒語書。那麽， 請問你有什麽需要嗎？ ","color":"dark_aqua"}]}
 
 
+function att2:voice/yaakov/yaakov1
 function att2:dialogs/mainquest/act_2/pnj_yaakov_rav/player_answer_proposal_1

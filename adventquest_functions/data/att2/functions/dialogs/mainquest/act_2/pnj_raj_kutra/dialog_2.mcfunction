@@ -24,5 +24,7 @@ tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Raj Kutra : ","color":"green","extra":[{"text":"啊， Syri。她真的很漂亮， 不是嗎？ 徐徐北風， 金髮飄蕩， 載吾入夢...","color":"dark_aqua"}]}
 
+function att2:voice/stopsound
+function att2:voice/raj/raj2
 function att2:dialogs/mainquest/act_2/pnj_raj_kutra/player_answer_proposal_1_1
 function att2:dialogs/mainquest/act_2/pnj_raj_kutra/player_answer_proposal_1_0

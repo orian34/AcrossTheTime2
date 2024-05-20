@@ -22,3 +22,6 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Raj Kutra : ","color":"green","e
 #CHINESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Raj Kutra : ","color":"green","extra":[{"text":"什、什么？ ！ 等、等一下！ 這裏一定是有什麽誤會！ 別殺我， 求求您！ ","color":"dark_aqua"}]}
+
+function att2:voice/stopsound
+function att2:voice/raj/raj5

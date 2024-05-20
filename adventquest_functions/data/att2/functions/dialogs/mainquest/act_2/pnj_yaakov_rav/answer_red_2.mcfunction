@@ -23,4 +23,5 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Yaakov Rav : ","color":"green","
 tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"是的， 確實有激活那個傳送門的方法——你需要找到三顆名爲“空間之石”的石頭。但不幸的是， 目前這些石頭散落在世界各地。","color":"dark_aqua"}]}
 
 
-function att2:dialogs/mainquest/act_2/pnj_yaakov_rav/answer_end
+function att2:voice/yaakov/yaakov6
+function att2:dialogs/mainquest/act_2/pnj_yaakov_rav/player_answer_proposal_4

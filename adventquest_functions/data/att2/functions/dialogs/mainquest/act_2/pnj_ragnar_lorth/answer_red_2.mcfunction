@@ -22,3 +22,5 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Ragnar Lorth : ","color":"green"
 #CHINESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"如果不見面， 她受到的傷害會更少！ 祝你好運...","color":"dark_aqua"}]}
+
+function att2:voice/ragnar/ragnar5
