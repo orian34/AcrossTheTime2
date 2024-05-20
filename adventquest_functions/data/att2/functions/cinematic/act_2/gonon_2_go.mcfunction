@@ -24,19 +24,20 @@ execute if score Real0 TIMER matches 1 run setblock -5191 64 -5347 minecraft:air
 execute if score Real0 TIMER matches 40 run function att2:dialogs/mainquest/act_2/ch1_player_10
 execute if score Real0 TIMER matches 41 if entity @a[x=-5191,y=73,z=-5352,distance=..4] run function att2:cinematic/real0_iteration
 execute if score Real0 TIMER matches 42 run function att2:cinematic/act_2/gonon_2_action_2
-execute if score Real0 TIMER matches 120 run function att2:cinematic/act_2/gonon_2_action_3
-execute if score Real0 TIMER matches 180 run playsound bird1 master @a ~ ~ ~ 1 1 1
-execute if score Real0 TIMER matches 240 run function att2:dialogs/mainquest/act_2/ch1_gonon_11
-execute if score Real0 TIMER matches 240 run scoreboard players set gonon_PNJ DIALOG 2
-execute if score Real0 TIMER matches 241 run scoreboard players set Mainquest SIDEQUEST 3
+execute if score Real0 TIMER matches 320 run function att2:cinematic/act_2/gonon_2_action_3
+execute if score Real0 TIMER matches 380 run playsound bird1 master @a ~ ~ ~ 1 1 1
+execute if score Real0 TIMER matches 440 run function att2:dialogs/mainquest/act_2/ch1_gonon_11
+execute if score Real0 TIMER matches 440 run function att2:voice/gonon/gonon11
+execute if score Real0 TIMER matches 440 run scoreboard players set gonon_PNJ DIALOG 2
+execute if score Real0 TIMER matches 441 run scoreboard players set Mainquest SIDEQUEST 3
 
 
 #=======================#
 #end of the cinematic	#
 #=======================#
 
-execute if score Real0 TIMER matches 241.. run setblock -5184 67 -5351 minecraft:air
+execute if score Real0 TIMER matches 441.. run setblock -5184 67 -5351 minecraft:air
 
 execute if score Real0 TIMER matches 3..9 run function att2:cinematic/real0_iteration
 execute if score Real0 TIMER matches 11..40 run function att2:cinematic/real0_iteration
-execute if score Real0 TIMER matches 42..240 run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 42..440 run function att2:cinematic/real0_iteration

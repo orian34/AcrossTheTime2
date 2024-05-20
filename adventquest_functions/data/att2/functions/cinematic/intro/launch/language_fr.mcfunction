@@ -4,7 +4,7 @@
 #####################################################
 
 execute as @s run function att2:initialize
-function att2:voice/initialize
+scoreboard players set VF Voice 1
 scoreboard players set @s NUMEROJOUEUR 0
 scoreboard players set @s LANGUAGE 0
 function att2:cinematic/intro/tp_players_selection
