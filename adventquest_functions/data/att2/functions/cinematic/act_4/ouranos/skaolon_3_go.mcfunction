@@ -7,10 +7,13 @@ execute if score Real0 TIMER matches 1 run scoreboard players set skaolon_PNJ DI
 execute if score Real0 TIMER matches 10 run function att2:dialogs/mainquest/act_4/ch4_player_50
 execute if score Real0 TIMER matches 50..500 as 00000000-0000-128a-0000-00000000128a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^0.00001 ~ ~
 execute if score Real0 TIMER matches 50 run function att2:dialogs/mainquest/act_4/ch4_skaolon_11
+execute if score Real0 TIMER matches 50 run function att2:voice/skaolon/skaolon11
 execute if score Real0 TIMER matches 150 run function att2:dialogs/mainquest/act_4/ch4_player_51
 execute if score Real0 TIMER matches 200 run function att2:dialogs/mainquest/act_4/ch4_skaolon_12
+execute if score Real0 TIMER matches 200 run function att2:voice/skaolon/skaolon12
 execute if score Real0 TIMER matches 300 run function att2:dialogs/mainquest/act_4/ch4_player_52
 execute if score Real0 TIMER matches 350 run function att2:dialogs/mainquest/act_4/ch4_skaolon_13
+execute if score Real0 TIMER matches 350 run function att2:voice/skaolon/skaolon13
 execute if score Real0 TIMER matches 500 run function att2:cinematic/act_4/ouranos/skaolon_3_action_1
 execute if score Real0 TIMER matches 510 as 00000000-0000-128a-0000-00000000128a at @s run teleport @s 7600 107 6726 -90 0
 execute if score Real0 TIMER matches 511 as 00000000-0000-128a-0000-00000000128a at @s anchored feet facing 7604 107 6726 run teleport @s ^ ^ ^0.08 ~ ~

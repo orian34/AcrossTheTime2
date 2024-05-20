@@ -9,7 +9,7 @@ execute if score Neth0 TIMER matches 0 in minecraft:the_nether as @a run tp @s 3
 ### 1st storyboard
 execute if score Neth0 TIMER matches 1 run effect give @a[gamemode=spectator] minecraft:blindness 2 1 true
 execute if score Neth0 TIMER matches 1 in minecraft:the_nether as @a[gamemode=spectator] run tp @s 3598 87 3792 -30 20
-execute if score Neth0 TIMER matches 1..1169 in minecraft:the_nether as @a[gamemode=spectator] at @s run tp @s 3598 87 3792 ~-0.002 20
+execute if score Neth0 TIMER matches 1..1169 in minecraft:the_nether as @a[gamemode=spectator] at @s run tp @s 3598 87 3792 ~-0.04 20
 execute if score Neth0 TIMER matches 5 run stopsound @a
 execute if score Neth0 TIMER matches 5 run tag @a add NoAutoMusic
 execute if score Neth0 TIMER matches 10 as @a at @s run function att2:sound/music/lore/time_for_regrets
