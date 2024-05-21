@@ -24,7 +24,7 @@ execute positioned 4961 71 -4906 run function att2:summon/arena/boss/nomit
 execute positioned 5053 71 -4882 run function att2:summon/arena/boss/scavenger
 execute positioned 5019 71 -4882 run function att2:summon/arena/boss/blobby
 function att2:gameplay/arena/pool3/1/init_bossbar
-function att2:dialogs/title/arena/pool3_a1_title
-function att2:dialogs/title/arena/pool3_a1_subtitle
+execute as @a[x=4905,y=70,z=-4947,dx=190,dy=30,dz=130] run function att2:dialogs/title/arena/pool3_a1_title
+execute as @a[x=4905,y=70,z=-4947,dx=190,dy=30,dz=130] run function att2:dialogs/title/arena/pool3_a1_subtitle
 
 scoreboard players set Pool3_A1 ARENA 1
