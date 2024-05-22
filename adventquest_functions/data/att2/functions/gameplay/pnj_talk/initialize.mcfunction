@@ -131,6 +131,7 @@ scoreboard players set clement_PNJ DIALOG 1
 scoreboard players set skaolon_PNJ DIALOG 1
 scoreboard players set trias_PNJ DIALOG 1
 scoreboard players set ouran_PNJ DIALOG -1
+scoreboard players set ryliath_guard_1_PNJ DIALOG 1
 scoreboard players set kortaek_guards_PNJ DIALOG 1
 scoreboard players set violette_PNJ DIALOG 1
 scoreboard players set mortimer_PNJ DIALOG 1
