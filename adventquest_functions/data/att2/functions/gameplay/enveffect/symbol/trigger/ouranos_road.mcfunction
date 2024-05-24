@@ -66,7 +66,7 @@ execute in minecraft:overworld positioned 7550 134 6584 if block ~ ~ ~ minecraft
 execute in minecraft:overworld positioned 7472 64 6458 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/ouranos_road
 execute in minecraft:overworld positioned 7634 84 6405 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/ouranos_road
 execute in minecraft:overworld positioned 7588 63 6252 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/ouranos_road
-execute in minecraft:overworld positioned 7282 31 6334 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/ouranos_road
+execute in minecraft:overworld positioned 7282 187 6334 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/ouranos_road
 execute in minecraft:overworld positioned 7432 138 6294 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/ouranos_road
 execute in minecraft:overworld positioned 7482 137 6115 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/ouranos_road
 execute in minecraft:overworld positioned 7639 103 5944 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/ouranos_road

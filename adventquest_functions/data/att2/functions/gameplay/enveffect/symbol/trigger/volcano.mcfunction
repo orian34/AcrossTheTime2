@@ -14,8 +14,7 @@ execute in minecraft:overworld positioned -5487 97 -5574 if block ~ ~ ~ minecraf
 execute in minecraft:overworld positioned -5566 118 -5473 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/volcano
 execute in minecraft:overworld positioned -5540 117 -5422 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/volcano
 execute in minecraft:overworld positioned -5708 102 -5313 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/volcano
-execute in minecraft:overworld positioned -5739 106 -5239 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/volcano
-#10
 execute in minecraft:overworld positioned -5741 107 -5237 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/volcano
+#10
 execute in minecraft:overworld positioned -5833 134 -5239 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/volcano
 execute in minecraft:overworld positioned -5607 99 -5180 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/volcano

@@ -126,7 +126,7 @@ execute unless score Ouranos_road SYMBOL matches 62.. positioned 7550 134 6584 i
 execute unless score Ouranos_road SYMBOL matches 62.. positioned 7472 64 6458 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
 execute unless score Ouranos_road SYMBOL matches 62.. positioned 7634 84 6405 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
 execute unless score Ouranos_road SYMBOL matches 62.. positioned 7588 63 6252 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Ouranos_road SYMBOL matches 62.. positioned 7282 31 6334 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Ouranos_road SYMBOL matches 62.. positioned 7282 187 6334 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
 execute unless score Ouranos_road SYMBOL matches 62.. positioned 7432 138 6294 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
 execute unless score Ouranos_road SYMBOL matches 62.. positioned 7482 137 6115 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
 execute unless score Ouranos_road SYMBOL matches 62.. positioned 7639 103 5944 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker

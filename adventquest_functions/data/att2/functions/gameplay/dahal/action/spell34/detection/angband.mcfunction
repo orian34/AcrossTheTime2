@@ -130,23 +130,22 @@ execute if score 85 SECRET_SHULKER matches 0 positioned 3587 83 4585 run functio
 execute if score 86 SECRET_SHULKER matches 0 positioned 3584 87 4531 run function att2:gameplay/dahal/action/spell34/create_secret_marker
 
 #Symbols
-execute unless score Angband_road SYMBOL matches 17.. positioned 3745 85 3745 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Angband_road SYMBOL matches 17.. positioned 3720 62 3728 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Angband_road SYMBOL matches 17.. positioned 3734 48 3680 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Angband_road SYMBOL matches 17.. positioned 3655 35 3677 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Angband_road SYMBOL matches 17.. positioned 3559 35 3647 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Angband_road SYMBOL matches 17.. positioned 3585 41 3709 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Angband_road SYMBOL matches 17.. positioned 3522 41 3737 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Angband_road SYMBOL matches 17.. positioned 3413 39 3861 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Angband_road SYMBOL matches 17.. positioned 3519 58 3905 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Angband_road SYMBOL matches 17.. positioned 3588 56 3936 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Angband_road SYMBOL matches 17.. positioned 3638 42 3964 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Angband_road SYMBOL matches 17.. positioned 3758 55 3955 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Angband_road SYMBOL matches 17.. positioned 3598 57 4047 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Angband_road SYMBOL matches 17.. positioned 3598 57 4047 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Angband_road SYMBOL matches 17.. positioned 3576 36 4095 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Angband_road SYMBOL matches 17.. positioned 3508 42 4048 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Angband_road SYMBOL matches 17.. positioned 3535 46 4101 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Angband_road SYMBOL matches 16.. positioned 3745 85 3745 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Angband_road SYMBOL matches 16.. positioned 3720 62 3728 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Angband_road SYMBOL matches 16.. positioned 3734 48 3680 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Angband_road SYMBOL matches 16.. positioned 3655 35 3677 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Angband_road SYMBOL matches 16.. positioned 3559 35 3647 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Angband_road SYMBOL matches 16.. positioned 3585 41 3709 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Angband_road SYMBOL matches 16.. positioned 3522 41 3737 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Angband_road SYMBOL matches 16.. positioned 3413 39 3861 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Angband_road SYMBOL matches 16.. positioned 3519 58 3905 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Angband_road SYMBOL matches 16.. positioned 3588 56 3936 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Angband_road SYMBOL matches 16.. positioned 3638 42 3964 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Angband_road SYMBOL matches 16.. positioned 3758 55 3955 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Angband_road SYMBOL matches 16.. positioned 3598 57 4047 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Angband_road SYMBOL matches 16.. positioned 3576 36 4095 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Angband_road SYMBOL matches 16.. positioned 3508 42 4048 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Angband_road SYMBOL matches 16.. positioned 3535 46 4101 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
 
 execute unless score Angor_north SYMBOL matches 84.. positioned 3572 36 4136 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
 execute unless score Angor_north SYMBOL matches 84.. positioned 3610 49 4121 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker

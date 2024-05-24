@@ -14,6 +14,7 @@ scoreboard players operation itemtotal_sold RECYCLER += epi_esc RECYCLER
 scoreboard players operation itemtotal_sold RECYCLER += leg RECYCLER
 scoreboard players operation itemtotal_sold RECYCLER += leg_armset RECYCLER
 
+scoreboard players operation itemtotal_sold_misc RECYCLER += arrow RECYCLER
 scoreboard players operation itemtotal_sold_misc RECYCLER += misc RECYCLER
 scoreboard players operation itemtotal_sold_com RECYCLER += com RECYCLER
 scoreboard players operation itemtotal_sold_unc RECYCLER += unc RECYCLER

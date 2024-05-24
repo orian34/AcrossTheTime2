@@ -19,7 +19,6 @@ execute in minecraft:the_nether positioned 3588 56 3936 if block ~ ~ ~ minecraft
 execute in minecraft:the_nether positioned 3638 42 3964 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/angband_road
 execute in minecraft:the_nether positioned 3758 55 3955 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/angband_road
 execute in minecraft:the_nether positioned 3598 57 4047 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/angband_road
-execute in minecraft:the_nether positioned 3598 57 4047 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/angband_road
 execute in minecraft:the_nether positioned 3576 36 4095 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/angband_road
 execute in minecraft:the_nether positioned 3508 42 4048 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/angband_road
 execute in minecraft:the_nether positioned 3535 46 4101 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/angband_road

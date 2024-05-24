@@ -6,6 +6,7 @@
 scoreboard players set @s LIMIT34 0
 
 execute as @s[scores={DIMENSION=0}] run function att2:gameplay/dahal/action/spell34/detection/telluron_past
+execute as @s[scores={DIMENSION=1}] run function att2:gameplay/dahal/action/spell34/detection/telluron
 execute as @s[scores={DIMENSION=1,AREA=0}] run function att2:gameplay/dahal/action/spell34/detection/telluron_ryliath
 execute as @s[scores={DIMENSION=1,AREA=1}] run function att2:gameplay/dahal/action/spell34/detection/telluron_worlest
 execute as @s[scores={DIMENSION=1,AREA=2}] run function att2:gameplay/dahal/action/spell34/detection/telluron_silberland

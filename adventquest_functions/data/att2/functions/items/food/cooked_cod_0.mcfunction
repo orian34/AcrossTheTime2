@@ -3,4 +3,4 @@
 #Obtain cooked_cod_0         					 #
 ##################################################
 
-give @s minecraft:cooked_cod
+give @s minecraft:cooked_cod{EquipmentType:"misc",Rarity:"misc"}

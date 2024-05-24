@@ -204,6 +204,7 @@ execute unless score Kert_mine SYMBOL matches 21.. positioned -5208 37 -4344 if 
 execute unless score Kert_mine SYMBOL matches 21.. positioned -5373 85 -4437 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
 execute unless score Kert_mine SYMBOL matches 21.. positioned -5305 101 -4519 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
 execute unless score Kert_mine SYMBOL matches 21.. positioned -5028 84 -4475 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Kert_mine SYMBOL matches 21.. positioned -5155 91 -4542 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
 
 execute unless score Kortaek SYMBOL matches 18.. positioned -5517 82 -4710 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
 execute unless score Kortaek SYMBOL matches 18.. positioned -5480 73 -4722 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
@@ -256,19 +257,18 @@ execute unless score Sathnok SYMBOL matches 18.. positioned -6036 89 -4641 if bl
 execute unless score Sathnok SYMBOL matches 18.. positioned -6036 79 -4618 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
 execute unless score Sathnok SYMBOL matches 18.. positioned -6059 82 -4655 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
 
-execute unless score Volcano SYMBOL matches 13.. positioned -5481 86 -5145 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Volcano SYMBOL matches 13.. positioned -5588 78 -5164 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Volcano SYMBOL matches 13.. positioned -5531 79 -5278 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Volcano SYMBOL matches 13.. positioned -5439 72 -5481 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Volcano SYMBOL matches 13.. positioned -5390 82 -5586 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Volcano SYMBOL matches 13.. positioned -5487 97 -5574 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Volcano SYMBOL matches 13.. positioned -5566 118 -5473 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Volcano SYMBOL matches 13.. positioned -5540 117 -5422 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Volcano SYMBOL matches 13.. positioned -5708 102 -5313 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Volcano SYMBOL matches 13.. positioned -5739 106 -5239 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Volcano SYMBOL matches 13.. positioned -5741 107 -5237 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Volcano SYMBOL matches 13.. positioned -5833 134 -5239 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-execute unless score Volcano SYMBOL matches 13.. positioned -5607 99 -5180 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Volcano SYMBOL matches 12.. positioned -5481 86 -5145 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Volcano SYMBOL matches 12.. positioned -5588 78 -5164 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Volcano SYMBOL matches 12.. positioned -5531 79 -5278 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Volcano SYMBOL matches 12.. positioned -5439 72 -5481 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Volcano SYMBOL matches 12.. positioned -5390 82 -5586 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Volcano SYMBOL matches 12.. positioned -5487 97 -5574 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Volcano SYMBOL matches 12.. positioned -5566 118 -5473 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Volcano SYMBOL matches 12.. positioned -5540 117 -5422 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Volcano SYMBOL matches 12.. positioned -5708 102 -5313 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Volcano SYMBOL matches 12.. positioned -5741 107 -5237 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Volcano SYMBOL matches 12.. positioned -5833 134 -5239 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Volcano SYMBOL matches 12.. positioned -5607 99 -5180 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
 
 #Chests
 execute positioned -5443 32 -5008 if data block ~ ~ ~ {LootTable:"att2:chest/reg1/c8t8"} run function att2:gameplay/dahal/action/spell34/create_chest_marker

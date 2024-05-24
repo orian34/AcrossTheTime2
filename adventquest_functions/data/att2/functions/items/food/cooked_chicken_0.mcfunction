@@ -3,4 +3,4 @@
 #Obtain cooked_chicken_0         				 #
 ##################################################
 
-give @s minecraft:cooked_chicken
+give @s minecraft:cooked_chicken{EquipmentType:"misc",Rarity:"misc"}

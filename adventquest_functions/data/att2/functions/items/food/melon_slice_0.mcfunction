@@ -3,4 +3,4 @@
 #Obtain melon_slice_0         				 	 #
 ##################################################
 
-give @s minecraft:melon_slice
+give @s minecraft:melon_slice{EquipmentType:"misc",Rarity:"misc"}

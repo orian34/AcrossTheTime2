@@ -284,6 +284,7 @@ execute unless score Vonaheim SYMBOL matches 41.. positioned -5597 168 -6477 if 
 execute unless score Vonaheim SYMBOL matches 41.. positioned -5597 153 -6495 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
 execute unless score Vonaheim SYMBOL matches 41.. positioned -5614 143 -6475 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
 execute unless score Vonaheim SYMBOL matches 41.. positioned -5511 134 -6492 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
+execute unless score Vonaheim SYMBOL matches 41.. positioned -5572 121 -6428 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
 
 execute unless score Worlest SYMBOL matches 40.. positioned -5432 74 -5054 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
 execute unless score Worlest SYMBOL matches 40.. positioned -5438 70 -5200 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker

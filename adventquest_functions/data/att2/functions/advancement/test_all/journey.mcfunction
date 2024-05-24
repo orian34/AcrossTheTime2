@@ -23,10 +23,10 @@ execute if score count WAYPOINT matches 7 run advancement grant @a only att2:jou
 execute if score Academy_past SYMBOL matches 31 run advancement grant @a only att2:journey/symbol_academy_past
 execute if score Academy_present SYMBOL matches 34 run advancement grant @a only att2:journey/symbol_academy_present
 execute if score Adanoi SYMBOL matches 24 run advancement grant @a only att2:journey/symbol_adanoi
-execute if score Angband_road SYMBOL matches 17 run advancement grant @a only att2:journey/symbol_angband_road
+execute if score Angband_road SYMBOL matches 16 run advancement grant @a only att2:journey/symbol_angband_road
 execute if score Angor_north SYMBOL matches 84 run advancement grant @a only att2:journey/symbol_angor_north
 execute if score Angor_palace SYMBOL matches 45 run advancement grant @a only att2:journey/symbol_angor_palace
-execute if score Angor_south SYMBOL matches 68 run advancement grant @a only att2:journey/symbol_angor_south
+execute if score Angor_south SYMBOL matches 69 run advancement grant @a only att2:journey/symbol_angor_south
 execute if score Asunark SYMBOL matches 28 run advancement grant @a only att2:journey/symbol_asunark
 execute if score Beach SYMBOL matches 21 run advancement grant @a only att2:journey/symbol_beach
 execute if score Billgart_dungeon SYMBOL matches 94 run advancement grant @a only att2:journey/symbol_billgart_dungeon
@@ -58,13 +58,13 @@ execute if score Sathnok SYMBOL matches 18 run advancement grant @a only att2:jo
 execute if score Schestrown SYMBOL matches 44 run advancement grant @a only att2:journey/symbol_schestrown
 execute if score Secret_dungeon SYMBOL matches 35 run advancement grant @a only att2:journey/symbol_secret_dungeon
 execute if score Soquai SYMBOL matches 35 run advancement grant @a only att2:journey/symbol_soquai
-execute if score Volcano SYMBOL matches 13 run advancement grant @a only att2:journey/symbol_volcano
+execute if score Volcano SYMBOL matches 12 run advancement grant @a only att2:journey/symbol_volcano
 execute if score Vonaheim SYMBOL matches 41 run advancement grant @a only att2:journey/symbol_vonaheim
 execute if score Worlest_mine SYMBOL matches 14 run advancement grant @a only att2:journey/symbol_worlest_mine
 execute if score Worlest SYMBOL matches 40 run advancement grant @a only att2:journey/symbol_worlest
 execute if score Zirthion SYMBOL matches 30 run advancement grant @a only att2:journey/symbol_zirthion
 
-execute if score Exploration SYMBOL matches 1387.. run advancement grant @a only att2:journey/the_traveler
+execute if score Exploration SYMBOL matches 1309.. run advancement grant @a only att2:journey/the_traveler
 
 # CHECKPOINT
 execute if score Angor CHECKPOINT matches 19 run advancement grant @a only att2:journey/checkpoint_angor
@@ -109,7 +109,7 @@ execute if score Worlest CHECKPOINT matches 15 run advancement grant @a only att
 execute if score WorlestMine CHECKPOINT matches 4 run advancement grant @a only att2:journey/checkpoint_worlest_mine
 execute if score Zirthion CHECKPOINT matches 3 run advancement grant @a only att2:journey/checkpoint_zirthion
 
-execute if score All CHECKPOINT matches 314.. run advancement grant @a only att2:journey/the_savior
+execute if score All CHECKPOINT matches 392.. run advancement grant @a only att2:journey/the_savior
 
 
 ### PNJ
@@ -120,7 +120,7 @@ execute if score alphonse_rae_PNJ statDIALOG matches 1 if score alyia_lana_PNJ s
 # Eolorion
 execute if score gaelle_eolorion_PNJ statDIALOG matches 1 if score carmine_mordan_PNJ statDIALOG matches 1 if score marc_aboth_PNJ statDIALOG matches 1 if score jano_grant_PNJ statDIALOG matches 1 if score rena_aboth_PNJ statDIALOG matches 1 if score ethan_mordheim_PNJ statDIALOG matches 1 if score sylvia_mornith_PNJ statDIALOG matches 1 if score albert_dirac_PNJ statDIALOG matches 1 if score marlene_PNJ statDIALOG matches 1 if score aramis_PNJ statDIALOG matches 1 if score bob_l_PNJ statDIALOG matches 1 if score jzargo_PNJ statDIALOG matches 1 if score triss_PNJ statDIALOG matches 1 if score lioras_PNJ statDIALOG matches 1 if score captain_PNJ statDIALOG matches 1 if score mortimer_PNJ statDIALOG matches 1 if score bonnie_PNJ statDIALOG matches 1 if score stella_PNJ statDIALOG matches 1 if score chryses_aleria_PNJ statDIALOG matches 1 if score jade_rozaell_PNJ statDIALOG matches 1 if score cassandre_PNJ statDIALOG matches 1 run advancement grant @a only att2:journey/pnj_eolorion
 # Kortaek
-execute if score gaelle_kortaek_PNJ statDIALOG matches 1 if score brynhild_PNJ statDIALOG matches 1 if score xoltan_zahav_PNJ statDIALOG matches 1 if score rick_palundra_PNJ statDIALOG matches 1 if score _PNJ statDIALOG matches 1 if score kehmira_alzedria_PNJ statDIALOG matches 1 if score viserys_yigdal_PNJ statDIALOG matches 1 if score jabir_hayyan_PNJ statDIALOG matches 1 if score amariel_kaleb_PNJ statDIALOG matches 1 if score emera_palundra_PNJ statDIALOG matches 1 if score nicolas_chavez_PNJ statDIALOG matches 1 if score linda_shelly_PNJ statDIALOG matches 1 if score ashley_williams_PNJ statDIALOG matches 1 if score miguel_PNJ statDIALOG matches 1 run advancement grant @a only att2:journey/pnj_kortaek
+execute if score gaelle_kortaek_PNJ statDIALOG matches 1 if score brynhild_PNJ statDIALOG matches 1 if score xoltan_zahav_PNJ statDIALOG matches 1 if score rick_palundra_PNJ statDIALOG matches 1 if score kehmira_alzedria_PNJ statDIALOG matches 1 if score viserys_yigdal_PNJ statDIALOG matches 1 if score jabir_hayyan_PNJ statDIALOG matches 1 if score amariel_kaleb_PNJ statDIALOG matches 1 if score emera_palundra_PNJ statDIALOG matches 1 if score nicolas_chavez_PNJ statDIALOG matches 1 if score linda_shelly_PNJ statDIALOG matches 1 if score ashley_williams_PNJ statDIALOG matches 1 if score miguel_PNJ statDIALOG matches 1 run advancement grant @a only att2:journey/pnj_kortaek
 # Exile camp
 execute if score daril_gram_PNJ statDIALOG matches 1 if score lisa_payin_PNJ statDIALOG matches 1 if score rokar_borton_PNJ statDIALOG matches 1 if score hermona_frihax_PNJ statDIALOG matches 1 if score garret_temeral_PNJ statDIALOG matches 1 if score eternal_soldier_1_PNJ statDIALOG matches 1 if score eternal_soldier_2_PNJ statDIALOG matches 1 if score feanorth_PNJ statDIALOG matches 1 if score eradon_PNJ statDIALOG matches 1 if score namrin_PNJ statDIALOG matches 1 if score relgon_PNJ statDIALOG matches 1 if score etotsira_young_PNJ statDIALOG matches 1 if score serile_PNJ statDIALOG matches 1 run advancement grant @a only att2:journey/pnj_exil_camp
 # Phoenix

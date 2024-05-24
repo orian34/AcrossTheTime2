@@ -100,7 +100,7 @@ execute if score nojelanth_present_trigger PANORAMA matches 1 in minecraft:overw
 execute if score nojelanth_present_trigger PANORAMA matches 1 in minecraft:overworld if score timer PANORAMA matches ..0 run function att2:gameplay/panorama/end/nojelanth_present
 execute if score nojelanth_forest_trigger PANORAMA matches 0 in minecraft:overworld positioned -7543 132 -4183 run function att2:gameplay/panorama/effect_plate
 execute if score nojelanth_forest_trigger PANORAMA matches 1 in minecraft:overworld positioned -7543 132 -4183 as @a[distance=..100,gamemode=spectator] at @s run teleport @s -7543 125 -4217 ~ 20
-execute if score nojelanth_forest_trigger PANORAMA matches 1 in minecraft:overworld if score timer PANORAMA matches ..0 run function att2:gameplay/panorama/end/nojelanth_desert
+execute if score nojelanth_forest_trigger PANORAMA matches 1 in minecraft:overworld if score timer PANORAMA matches ..0 run function att2:gameplay/panorama/end/nojelanth_forest
 execute if score nojelanth_desert_trigger PANORAMA matches 0 in minecraft:overworld positioned -5568 55 -4050 run function att2:gameplay/panorama/effect_plate
 execute if score nojelanth_desert_trigger PANORAMA matches 1 in minecraft:overworld positioned -5568 55 -4050 as @a[distance=..100,gamemode=spectator] at @s run teleport @s -5568 70 -4050 ~ 30
 execute if score nojelanth_desert_trigger PANORAMA matches 1 in minecraft:overworld if score timer PANORAMA matches ..0 run function att2:gameplay/panorama/end/nojelanth_desert

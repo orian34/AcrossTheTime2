@@ -3,4 +3,4 @@
 #Obtain rabbit_stew_0         					 #
 ##################################################
 
-give @s minecraft:rabbit_stew
+give @s minecraft:rabbit_stew{EquipmentType:"misc",Rarity:"misc"}
