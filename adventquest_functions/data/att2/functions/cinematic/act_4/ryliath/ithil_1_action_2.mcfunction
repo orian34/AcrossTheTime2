@@ -4,6 +4,7 @@
 ##################################################
 
 function att2:dialogs/mainquest/act_4/ch3_ithil_3
+function att2:voice/ithil/ithil3
 execute positioned -5051 151 -4880 run function att2:sound/door/simple_stone_door
 execute positioned -5051 151 -4880 run function att2:sound/door/structure_falling
 function att2:physicmod/reg1/ryliath_billgartdoor1
