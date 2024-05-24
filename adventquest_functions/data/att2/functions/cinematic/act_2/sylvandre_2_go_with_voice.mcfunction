@@ -348,12 +348,12 @@ execute if score Real0 TIMER matches 2415 run function att2:cinematic/real0_iter
 execute if score Real0 TIMER matches 2416 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -5030 76 -5043 run function att2:cinematic/act_2/sylvandre_2_walking
 execute if score Real0 TIMER matches 2416 as 00000000-0000-003a-0000-00000000003a if entity @s[x=-5029.5,y=76,z=-5042.5,distance=..0.8] run function att2:cinematic/real0_iteration
 #Sylvandre is waiting at the portal
-execute if score Real0 TIMER matches 2417..2517 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^ ~ ~
+execute if score Real0 TIMER matches 2417..2717 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing entity @p feet run teleport @s ^ ^ ^ ~ ~
 execute if score Real0 TIMER matches 2417 as 00000000-0000-003a-0000-00000000003a at @s if entity @a[distance=..3] run function att2:cinematic/real0_iteration
 #-- Dialog
-execute if score Real0 TIMER matches 2519 run function att2:dialogs/mainquest/act_2/ch2_sylvandre_21
-execute if score Real0 TIMER matches 2519 run function att2:voice/sylvandre/sylvandre21
-execute if score Real0 TIMER matches 2519..2717 run function att2:cinematic/real0_iteration
+execute if score Real0 TIMER matches 2418 run function att2:dialogs/mainquest/act_2/ch2_sylvandre_21
+execute if score Real0 TIMER matches 2418 run function att2:voice/sylvandre/sylvandre21
+execute if score Real0 TIMER matches 2418..2717 run function att2:cinematic/real0_iteration
 execute if score Real0 TIMER matches 2718 run function att2:cinematic/real0_iteration
 #-- Movement
 execute if score Real0 TIMER matches 2719 as 00000000-0000-003a-0000-00000000003a at @s anchored feet facing -4991 76 -5040 run function att2:cinematic/act_2/sylvandre_2_walking

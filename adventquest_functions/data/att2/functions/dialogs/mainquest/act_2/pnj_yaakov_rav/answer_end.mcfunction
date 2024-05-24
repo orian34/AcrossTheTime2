@@ -4,11 +4,6 @@
 #################################################################
 
 function att2:gameplay/pnj_talk/dialog_playsound/yaakov_rav
-execute as @a[scores={NUMEROJOUEUR=1},limit=1] at @s run function att2:gameplay/dahal/action/spell20/obtain
-execute as @a[scores={NUMEROJOUEUR=2},limit=1] at @s run function att2:gameplay/dahal/action/spell20/obtain
-execute as @a[scores={NUMEROJOUEUR=3},limit=1] at @s run function att2:gameplay/dahal/action/spell20/obtain
-execute as @a[scores={NUMEROJOUEUR=4},limit=1] at @s run function att2:gameplay/dahal/action/spell20/obtain
-execute as @a[scores={NUMEROJOUEUR=5},limit=1] at @s run function att2:gameplay/dahal/action/spell20/obtain
 
 scoreboard players set yaakov_rav_PNJ DIALOG 2
 scoreboard players set wirth_razgork_PNJ DIALOG 2
