@@ -33,3 +33,6 @@ title @a[scores={LANGUAGE=8}] actionbar {"text":"~ ","color":"dark_red","extra":
 
 #HINDI LANGUAGE
 title @a[scores={LANGUAGE=9}] actionbar {"text":"~ ","color":"dark_red","extra":[{"text":"टूर्नामेंट : ","color":"gray"},{"text":"1","color":"red"},{"text":"/","color":"gray"},{"text":"4","color":"gold"},{"text":" - ","color":"dark_gray"},{"text":"अखाड़ा : ","color":"gray"},{"score":{"name":"Pool0","objective":"ARENA"},"color":"red"},{"text":"/","color":"gray"},{"text":"4","color":"gold"},{"text":" ~","color":"dark_red"}]}
+
+#PORTUGUESE LANGUAGE
+title @a[scores={LANGUAGE=10}] actionbar {"text":"~ ","color":"dark_red","extra":[{"text":"Torneio : ","color":"gray"},{"text":"1","color":"red"},{"text":"/","color":"gray"},{"text":"4","color":"gold"},{"text":" - ","color":"dark_gray"},{"text":"Arena : ","color":"gray"},{"score":{"name":"Pool0","objective":"ARENA"},"color":"red"},{"text":"/","color":"gray"},{"text":"4","color":"gold"},{"text":" ~","color":"dark_red"}]}

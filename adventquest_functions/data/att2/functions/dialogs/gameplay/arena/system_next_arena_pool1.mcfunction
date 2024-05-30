@@ -41,3 +41,6 @@ tellraw @a[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra
 
 #HINDI LANGUAGE
 tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[जारी रखें... -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute if entity @a[tag=InArena] run function att2:gameplay/arena/pool1/choosing_arena"},"hoverEvent":{"action":"show_text","value":"यहां क्लिक करें - उत्तर 1"}}]}
+
+#PORTUGUESE LANGUAGE
+tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Continuar... -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute if entity @a[tag=InArena] run function att2:gameplay/arena/pool1/choosing_arena"},"hoverEvent":{"action":"show_text","value":"Clique aqui - resposta 1"}}]}

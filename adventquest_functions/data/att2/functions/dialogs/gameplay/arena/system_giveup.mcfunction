@@ -55,3 +55,8 @@ tellraw @a[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra
 tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Mercurius : ","color":"blue","extra":[{"text":"परीक्षण समाप्त नहीं हुआ है, अगर आप हार मानते हैं तो आपको शुरू से शुरू करना होगा...","color":"dark_aqua"}]}
 
 tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[हार मानो... -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute as @a[x=5000,y=75,z=-5000,distance=..15,gamemode=adventure] if entity @s if score SQ59 SIDEQUEST matches 1.. run function att2:gameplay/arena/give_up"},"hoverEvent":{"action":"show_text","value":"यहां क्लिक करें - उत्तर 1"}}]}
+
+#PORTUGUESE LANGUAGE
+tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Mercurius : ","color":"blue","extra":[{"text":"O teste não acabou, se você desistir terá que começar do início...","color":"dark_aqua"}]}
+
+tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Desistir... -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute as @a[x=5000,y=75,z=-5000,distance=..15,gamemode=adventure] if entity @s if score SQ59 SIDEQUEST matches 1.. run function att2:gameplay/arena/give_up"},"hoverEvent":{"action":"show_text","value":"Clique aqui - resposta 1"}}]}
