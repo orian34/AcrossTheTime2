@@ -19,3 +19,36 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #CHINESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"...我明白了...","color":"aqua"}]}
+
+
+#JAPANESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=3}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"...わかりました...","color":"aqua"}]}
+
+#KOREAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=4}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"...알겠습니다...","color":"aqua"}]}
+
+#ARABIC LANGUAGE
+
+tellraw @a[scores={LANGUAGE=5}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"...أفهم...","color":"aqua"}]}
+
+#RUSSIAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=6}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"...Я понимаю...","color":"aqua"}]}
+
+#SPANISH LANGUAGE
+
+tellraw @a[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"...Entiendo...","color":"aqua"}]}
+
+#GERMAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"...Ich sehe...","color":"aqua"}]}
+
+#HINDI LANGUAGE
+
+tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"...मैं समझता हूं...","color":"aqua"}]}
+
+#PORTUGUESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"...Entendi...","color":"aqua"}]}

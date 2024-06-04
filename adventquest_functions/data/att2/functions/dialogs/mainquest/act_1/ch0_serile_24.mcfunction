@@ -19,3 +19,36 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° S : ","color":"gray","extra":[{"
 #CHINESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=2}] {"text":" °-° S : ","color":"gray","extra":[{"text":"讓我問你幾個問題：你以前是否有遵循自己的意志使用過墮落泉源的力量， 或者說， 有沒有人强迫你使用它？ ","color":"yellow","italic":true}]}
+
+
+#JAPANESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=3}] {"text":" °-° S : ","color":"gray","extra":[{"text":"いくつかの質問をさせてください：あなたは自分の自由意志で腐敗の力を使いましたか、それとも誰かが強制しましたか？","color":"yellow","italic":true}]}
+
+#KOREAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=4}] {"text":" °-° S : ","color":"gray","extra":[{"text":"몇 가지 질문 좀 하겠습니다: 당신은 자신의 의사로 부패의 힘을 사용했습니까, 아니면 누군가가 강요했습니까?","color":"yellow","italic":true}]}
+
+#ARABIC LANGUAGE
+
+tellraw @a[scores={LANGUAGE=5}] {"text":" °-° S : ","color":"gray","extra":[{"text":"اسمحوا لي أن أطرح عليكم بعض الأسئلة: هل استخدمتم قوة الفساد بإرادتكم الحرة، أم أجبركم شخص ما على استخدامها؟","color":"yellow","italic":true}]}
+
+#RUSSIAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=6}] {"text":" °-° S : ","color":"gray","extra":[{"text":"Позвольте мне задать вам пару вопросов: использовали ли вы силу порчи по своей собственной воле или кто-то заставил вас это сделать?","color":"yellow","italic":true}]}
+
+#SPANISH LANGUAGE
+
+tellraw @a[scores={LANGUAGE=7}] {"text":" °-° S : ","color":"gray","extra":[{"text":"Permíteme hacerte algunas preguntas: ¿utilizaste el poder de la corrupción por tu propia voluntad, o alguien te obligó a usarlo?","color":"yellow","italic":true}]}
+
+#GERMAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=8}] {"text":" °-° S : ","color":"gray","extra":[{"text":"Lass mich dir ein paar Fragen stellen: Hast du die Macht der Korruption aus freiem Willen genutzt oder hat dich jemand dazu gezwungen?","color":"yellow","italic":true}]}
+
+#HINDI LANGUAGE
+
+tellraw @a[scores={LANGUAGE=9}] {"text":" °-° S : ","color":"gray","extra":[{"text":"मुझे आपसे कुछ सवाल पूछने दीजिए: क्या आपने फिर से विनम्रता के साथ भ्रष्टाचार की शक्ति का उपयोग किया, या किसी ने आपको इस्तेमाल करने के लिए बलात्कार किया?","color":"yellow","italic":true}]}
+
+#PORTUGUESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=10}] {"text":" °-° S : ","color":"gray","extra":[{"text":"Deixe-me fazer algumas perguntas: você usou o poder da corrupção por vontade própria, ou alguém o forçou a usá-lo?","color":"yellow","italic":true}]}
