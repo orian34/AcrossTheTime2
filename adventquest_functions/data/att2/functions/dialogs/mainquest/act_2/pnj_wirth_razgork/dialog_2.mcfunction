@@ -25,6 +25,55 @@ tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Wirth Razgork : ","color":"green","extra":[{"text":"原來是名渴求世界秘密的冒險者...不瞞你説， 我曾親眼目睹過空間之石的模樣！ 但很可惜， 我沒法靠單打獨鬥把它收入囊中， 它被藏於一所神廟的高墻之内——一所怪物肆虐的神廟。出城門后往東北方向走， 你就會在Worlëst森林的另一頭發現那所神廟。","color":"dark_aqua"}]}
 
 
+#JAPANESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=3}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"ウィルス？それですか？自己紹介をさせてください、私は ","color":"aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"aqua"},{"text":"です。ヤアコブが情報を収集するために私をあなたのもとに送りました。私は空間の宝石を探しています。","color":"aqua"}]}
+
+tellraw @s[scores={LANGUAGE=3}] {"text":" °-° Wirth Razgork : ","color":"green","extra":[{"text":"わかりました、この世界の謎に興味を持つ旅人ですね...私も以前、自分の目で空間の宝石を見たことがあります！残念ながら、自分の手に入れることはできませんでした。なぜなら、それは多くのモンスターが徘徊する神殿の中に閉じ込められていました。神殿はワールストの森の反対側にあります。Ryliathを北東に出てからです。","color":"dark_aqua"}]}
+
+#KOREAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=4}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Wirth? 그게 맞나요? 자기소개를 하죠, 저는 ","color":"aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"aqua"},{"text":"입니다. 야코프가 정보를 수집하기 위해 저를 당신에게 보냈습니다. 저는 우주 보석을 찾고 있습니다.","color":"aqua"}]}
+
+tellraw @s[scores={LANGUAGE=4}] {"text":" °-° Wirth Razgork : ","color":"green","extra":[{"text":"알겠습니다, 이 세계의 신비에 관심이 있는 여행자군요... 제 눈으로도 이미 우주 보석을 보았습니다! 아쉽게도, 제 손에 넣지 못했습니다. 왜냐하면 그것은 많은 몬스터가 배회하는 사원의 벽 안에 갇혀 있었기 때문입니다. 사원은 Worlëst 숲의 다른 쪽에 있습니다. Ryliath를 북동쪽으로 떠나면 거기에 도착할 겁니다.","color":"dark_aqua"}]}
+
+#ARABIC LANGUAGE
+
+tellraw @s[scores={LANGUAGE=5}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"ويرث؟ هل هذا صحيح؟ دعوني أقدم نفسي، أنا ","color":"aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"aqua"},{"text":". يعقوب أرسلني إليك لأجمع بعض المعلومات. أنا أبحث عن جواهر الفضاء.","color":"aqua"}]}
+
+tellraw @s[scores={LANGUAGE=5}] {"text":" °-° Wirth Razgork : ","color":"green","extra":[{"text":"أرى، مسافر مهتم بأسرار هذا العالم... رأيت بالفعل جوهرة الفضاء بعينيّ! للأسف، لم أستطع الاستيلاء عليها لنفسي، لأنها كانت محبوسة في سور معبد يجوبه الكثير من الوحوش. المعبد يقع في الطرف الآخر من غابة وورلست، عند مغادرة ريلياث في الشمال الشرقي.","color":"dark_aqua","text_direction":"rtl"}]}
+
+#RUSSIAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=6}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Вирт? Это так? Позвольте мне представиться, я ","color":"aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"aqua"},{"text":". Яаков послал меня к вам, чтобы я смог собрать некоторую информацию. Я ищу камни пространства.","color":"aqua"}]}
+
+tellraw @s[scores={LANGUAGE=6}] {"text":" °-° Wirth Razgork : ","color":"green","extra":[{"text":"Понятно, путешественник, заинтересованный в тайнах этого мира... Я уже видел камень пространства своими глазами! К сожалению, я не мог захватить его для себя, потому что он был заперт в стенах храма, где бродят множество монстров. Храм находится на другом конце леса Ворлест, когда вы выходите из Рилиата на северо-восток.","color":"dark_aqua"}]}
+
+#SPANISH LANGUAGE
+
+tellraw @s[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"¿Wirth? ¿Es eso? Permíteme presentarme, soy ","color":"aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"aqua"},{"text":". Yaakov me envió a ti para obtener información. Estoy buscando Gemas del Espacio.","color":"aqua"}]}
+
+tellraw @s[scores={LANGUAGE=7}] {"text":" °-° Wirth Razgork : ","color":"green","extra":[{"text":"Veo, un viajero interesado en los misterios de este mundo... ¡Ya he visto una Gema del Espacio con mis propios ojos! Lamentablemente, nunca pude apoderarme de ella, porque estaba encerrada en el recinto de un templo donde merodean muchos monstruos. El templo está al otro extremo del bosque de Worlëst, al salir de Ryliath hacia el noreste.","color":"dark_aqua"}]}
+
+#GERMAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Wirth? Ist das so? Lassen Sie mich mich vorstellen, ich bin ","color":"aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"aqua"},{"text":". Yaakov hat mich zu Ihnen geschickt, um Informationen zu sammeln. Ich suche nach Weltraumjuwelen.","color":"aqua"}]}
+
+tellraw @s[scores={LANGUAGE=8}] {"text":" °-° Wirth Razgork : ","color":"green","extra":[{"text":"Verstehe, ein Reisender, der sich für die Geheimnisse dieser Welt interessiert... Ich habe bereits mit eigenen Augen eine Weltraumjuwel gesehen! Leider konnte ich es mir nie aneignen, weil es in der Umfriedung eines Tempels eingesperrt war, in dem viele Monster herumstreifen. Der Tempel befindet sich am anderen Ende des Worlëst-Waldes, wenn man Ryliath im Nordosten verlässt.","color":"dark_aqua"}]}
+
+#HINDI LANGUAGE
+
+tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"वर्थ? यही है क्या? चलो, मुझे खुद को पेश करने दो, मैं ","color":"aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"aqua"},{"text":" हूँ। याकोव ने मुझे आपके पास जानकारी जुटाने के लिए भेजा है। मैं अंतरिक्ष के रत्न खोज रहा हूँ।","color":"aqua"}]}
+
+tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Wirth Razgork : ","color":"green","extra":[{"text":"समझा, इस दुनिया के रहस्यों में रुचि रखने वाले एक यात्री... मैंने अपनी आँखों से पहले ही एक अंतरिक्ष का रत्न देखा है! दुःख की बात है, मैंने कभी इसे अपने लिए प्राप्त नहीं किया, क्योंकि यह एक मंदिर के गिरजाघर में बंद था जहाँ कई राक्षस घूमते हैं। मंदिर वोर्लेस्ट जंगल के दूसरे किनारे पर है, जब राईलाथ उत्तर-पूर्व में निकलता है।","color":"dark_aqua"}]}
+
+#PORTUGUESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Wirth? É isso? Deixe-me me apresentar, eu sou ","color":"aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"aqua"},{"text":". Yaakov me enviou até você para obter informações. Estou procurando Gemas do Espaço.","color":"aqua"}]}
+
+tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Wirth Razgork : ","color":"green","extra":[{"text":"Entendo, um viajante interessado nos mistérios deste mundo... Já vi uma Gema do Espaço com meus próprios olhos! Infelizmente, nunca pude obtê-la para mim, pois estava trancada no recinto de um templo onde muitos monstros rondam. O templo está no outro extremo da floresta de Worlëst, ao sair de Ryliath em direção ao nordeste.","color":"dark_aqua"}]}
+
+
 tellraw @s {"text":"[-->]","color":"green","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-024a-0000-00000000024a if entity @s[distance=..7] if score wirth_razgork_PNJ DIALOG matches 1..2 run function att2:dialogs/mainquest/act_2/pnj_wirth_razgork/dialog_3"},"hoverEvent":{"action":"show_text","value":"..."}}
 
 function att2:voice/wirth/wirth2

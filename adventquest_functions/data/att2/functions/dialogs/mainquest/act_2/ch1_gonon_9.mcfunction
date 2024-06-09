@@ -19,3 +19,36 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Gonon : ","color":"green","extra
 #CHINESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"喏， 把這碗湯喝了——它能給你補充力量。到櫃台後面來， 我會幫你打開通往洞穴的入口。","color":"dark_aqua"}]}
+
+
+#JAPANESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=3}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"ここ、このブロスを飲んで。力が湧いてくるよ。地下室の入口を開けておくから、カウンターの後ろを通って。","color":"dark_aqua"}]}
+
+#KOREAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=4}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"여기, 이 국을 마시세요. 힘이 납니다. 지하실 입구를 여는데, 계산대 뒤로 가세요.","color":"dark_aqua"}]}
+
+#ARABIC LANGUAGE
+
+tellraw @a[scores={LANGUAGE=5}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"ها هو، اشرب هذه الحساء، ستعطيك القوة. سأفتح مدخل الكهف لك، اذهب خلف الكاونتر.","color":"dark_aqua"}]}
+
+#RUSSIAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=6}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"Вот, выпей это бульон, он даст тебе силу. Я открою вход в пещеру для вас, пройдите за стойку.","color":"dark_aqua"}]}
+
+#SPANISH LANGUAGE
+
+tellraw @a[scores={LANGUAGE=7}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"Aquí, bebe este caldo, te dará fuerza. Te abriré la entrada a la cueva, ve tras el mostrador.","color":"dark_aqua"}]}
+
+#GERMAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=8}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"Hier, trink diese Brühe, sie wird dir Kraft geben. Ich werde dir den Eingang zur Höhle öffnen, geh hinter den Tresen.","color":"dark_aqua"}]}
+
+#HINDI LANGUAGE
+
+tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"यहाँ, इस यद्यपि पियो, यह तुम्हें ताकत देगा। मैं तुम्हारे लिए गुफा का मुख्य द्वार खोल रहा हूं, काउंटर के पीछे जाओ।","color":"dark_aqua"}]}
+
+#PORTUGUESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"Aqui, beba este caldo, vai te dar força. Vou abrir a entrada da caverna para você, vá atrás do balcão.","color":"dark_aqua"}]}

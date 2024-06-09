@@ -23,4 +23,38 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Ragnar Lorth : ","color":"green"
 
 tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"如果不見面， 她受到的傷害會更少！ 祝你好運...","color":"dark_aqua"}]}
 
+
+#JAPANESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=3}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"そして、あなたに会わないことでさらに少なくなるでしょう！ あなたの冒険がうまくいきますように....","color":"dark_aqua"}]}
+
+#KOREAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=4}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"그리고 당신을 보지 않는 것이 더 적은 문제를 일으킬 것입니다! 당신의 모험에 행운을 빕니다....","color":"dark_aqua"}]}
+
+#ARABIC LANGUAGE
+
+tellraw @a[scores={LANGUAGE=5}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"وعدم رؤيتك سيسبب مشاكل أقل! حظا سعيدا في مهمتك....","color":"dark_aqua"}]}
+
+#RUSSIAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=6}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"И не видеть вас причинит ей еще меньше вреда! Удачи в вашем квесте....","color":"dark_aqua"}]}
+
+#SPANISH LANGUAGE
+
+tellraw @a[scores={LANGUAGE=7}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"¡Y no verte le causará aún menos problemas! Buena suerte en tu búsqueda....","color":"dark_aqua"}]}
+
+#GERMAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=8}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"Und dich nicht zu sehen, wird noch weniger verursachen! Viel Glück bei deiner Suche....","color":"dark_aqua"}]}
+
+#HINDI LANGUAGE
+
+tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"और आपको न देखने से उसे और भी कम समस्या होगी! आपके अभियान के लिए शुभकामनाएं....","color":"dark_aqua"}]}
+
+#PORTUGUESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"E não te ver causará ainda menos! Boa sorte na sua busca....","color":"dark_aqua"}]}
+
+
 function att2:voice/ragnar/ragnar5

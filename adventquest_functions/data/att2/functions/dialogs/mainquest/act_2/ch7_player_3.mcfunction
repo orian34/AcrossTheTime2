@@ -19,3 +19,36 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #CHINESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"這些青色的石頭應該是用來打開這座神廟的。看樣子數量還不太夠——這附近應該還可以找到一些...","color":"aqua"}]}
+
+
+#JAPANESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=3}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"恐らく、この場所から寺院の主な扉が開かれるのでしょう。この仕組みを作動させるためには、これらのターコイズの石が必要です。このエリアにはまだいくつかあるはずです....","color":"aqua"}]}
+
+#KOREAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=4}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"아마 이곳에서 신전의 주 출입문이 열릴 것입니다. 이 메커니즘을 작동시키려면 이 청록색 돌이 필요합니다. 이 지역에 몇 개 있을 것입니다....","color":"aqua"}]}
+
+#ARABIC LANGUAGE
+
+tellraw @a[scores={LANGUAGE=5}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"من المحتمل أن يكون من هذا المكان تفتح البوابة الرئيسية للمعبد. أحتاج إلى هذه الأحجار الفيروزية لتفعيل الآلية. يجب أن يكون هناك بعض منها في المنطقة....","color":"aqua"}]}
+
+#RUSSIAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=6}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Возможно, именно из этого места открывается главная дверь храма. Мне нужны эти бирюзовые камни, чтобы активировать механизм. В этом районе должно быть несколько таких....","color":"aqua"}]}
+
+#SPANISH LANGUAGE
+
+tellraw @a[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Probablemente sea desde este lugar donde se abre la puerta principal del templo. Necesito estas piedras turquesas para activar el mecanismo. Debería haber algunas en la zona....","color":"aqua"}]}
+
+#GERMAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Wahrscheinlich öffnet sich von diesem Ort aus die Haupttür des Tempels. Ich brauche diese türkisfarbenen Steine, um den Mechanismus zu aktivieren. In der Umgebung sollte es einige geben....","color":"aqua"}]}
+
+#HINDI LANGUAGE
+
+tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"संभवतः इस स्थान से मंदिर का मुख्य द्वार खुलता है। इस तंत्र को सक्रिय करने के लिए मुझे इन फ़िरोज़ा पत्थरों की आवश्यकता है। इस क्षेत्र में कुछ होने चाहिए....","color":"aqua"}]}
+
+#PORTUGUESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Provavelmente é a partir deste lugar que a porta principal do templo se abre. Preciso dessas pedras turquesas para ativar o mecanismo. Deve haver algumas na área....","color":"aqua"}]}
