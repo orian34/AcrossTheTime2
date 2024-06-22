@@ -19,3 +19,36 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #CHINESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"等等， 所以你不知道我在哪裡可以找到另一個？ ！ ","color":"aqua"}]}
+
+
+# JAPANESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=3}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"待ってください、他の場所を知らないんですか？！","color":"aqua"}]}
+
+# KOREAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=4}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"잠시만요, 다른 곳을 어디에서 찾을 수 있을까요?!","color":"aqua"}]}
+
+# ARABIC LANGUAGE
+
+tellraw @a[scores={LANGUAGE=5}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"انتظر، فأنت لا تعرف أين يمكنني أن أجد آخر؟!","color":"aqua"}]}
+
+# RUSSIAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=6}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Подождите, так вы не знаете, где я могу найти другой?!","color":"aqua"}]}
+
+# SPANISH LANGUAGE
+
+tellraw @a[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Espera, ¿entonces no sabes dónde puedo encontrar otro?!","color":"aqua"}]}
+
+# GERMAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Warte, du weißt also nicht, wo ich einen anderen finden kann?!","color":"aqua"}]}
+
+# HINDI LANGUAGE
+
+tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"रुकिए, तो आपको नहीं पता कि मैं दूसरा कहां ढूंढ सकता हूँ?!","color":"aqua"}]}
+
+# PORTUGUESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Espere, então você não sabe onde posso encontrar outro?!","color":"aqua"}]}

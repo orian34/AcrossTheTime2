@@ -20,3 +20,37 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #CHINESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我現在要過一座倒塌的橋...上面的鐘乳石好大啊！ 它是如此之寬， 以至於它可以為我創造一條人行道， 甚至可以通過跌入來填補這個洞。除了艱難的方式之外， 我沒有看到任何其他選擇， 讓我們爬上去嘗試融化它的底部！ 倒塌的時候， 橋的其餘部分也沒有被摧毀， 洞穴的全部被毀壞的危險...","color":"aqua"}]}
+
+
+#JAPANESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=3}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"今、崩れた橋を渡らなければなりません...その鍾乳石はすごく大きいですね！それはとても広いので、倒れて歩道を作ったり、穴を埋めたりすることができます。他に選択肢が見当たらないので、難しい方法しかありません。さあ、登ってその基部を溶かしてみましょう！それが落ちる際に、橋の残りの部分が巻き込まれて洞窟全体が破壊される危険性はないですからね...","color":"aqua"}]}
+
+#KOREAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=4}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"지금 붕괴된 다리를 건너야 합니다... 그 위에 있는 석순이 엄청 커요! 그게 너무 넓어서 저에게 보도를 만들어 줄 수도 있고, 또는 그 구멍을 메울 수도 있을 정도입니다. 어려운 방법밖에는 보이지 않네요. 오르서 그 밑바닥을 녹여보는 수밖에요! 그게 무너질 때 나머지 다리를 끌어내리고 전체 동굴을 파괴할 위험이 있진 않을 테니까요...","color":"aqua"}]}
+
+#ARABIC LANGUAGE
+
+tellraw @a[scores={LANGUAGE=5}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"الآن عليّ أن أعبر جسرا مهدما... تلك النتوءة الجيرية فوقها كبيرة جدًا! إنها واسعة لدرجة أنها يمكن أن تخلق لي ممرًا أو حتى تملأ الفجوة بسقوطها. لا أرى بديلاً آخر سوى الطريقة الصعبة، لنصعد ونحاول ذوبان قاعدتها! ليس هناك خطر على إحداث سقوط الجسر الآخر أو تدمير الكهف بأكمله عند سقوطها...","color":"aqua"}]}
+
+#RUSSIAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=6}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Теперь мне нужно перейти через обрушенный мост... Эта сталактит над ним огромная! Он настолько широк, что может создать мне проход или даже заполнить эту дыру, упав. Я не вижу других вариантов, кроме как сложного способа - давайте заберемся и попробуем растопить его основание! В случае падения он не угрожает унести остаток моста и разрушить всю пещеру...","color":"aqua"}]}
+
+#SPANISH LANGUAGE
+
+tellraw @a[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Ahora tengo que cruzar un puente colapsado... ¡Esa estalactita sobre él es enorme! Es tan ancha que podría crear un paso para mí o incluso llenar el agujero al caer. No veo más alternativas que el camino difícil, ¡subamos y tratemos de derretir su base! No parece que vaya a arrastrar al resto del puente en su caída y destruir toda la cueva...","color":"aqua"}]}
+
+#GERMAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Jetzt muss ich eine eingestürzte Brücke überqueren... Diese Stalaktit darüber ist riesig! Sie ist so breit, dass sie mir einen Weg schaffen oder sogar das Loch füllen könnte, indem sie herunterfällt. Ich sehe keine anderen Alternativen als den harten Weg, lasst uns hochklettern und versuchen, ihre Basis zu schmelzen! Es scheint nicht, als ob sie den Rest der Brücke in ihrem Fall mitreißen und die ganze Höhle zerstören würde...","color":"aqua"}]}
+
+#HINDI LANGUAGE
+
+tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"अब मुझे एक गिरी हुई पुल पार करना है... उस पर जो शिखरशृंगी है, वह बहुत बड़ा है! इतना चौड़ा है कि यह मेरे लिए एक पथ बना सकता है या फिर नीचे गिरते समय वह खाई को भर सकता है। कठिन तरीके के अलावा कोई और विकल्प नहीं दिख रहे हैं, चलो ऊपर चढ़ें और उसके बेस को पिघलाने की कोशिश करें! लगता है कि वह अपनी गिरावट में पुल का बाकी हिस्सा नहीं ले जाएगी और पूरी गुफा को नष्ट नहीं करेगी...","color":"aqua"}]}
+
+#PORTUGUESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Agora tenho que atravessar uma ponte desabada... Aquela estalactite acima dela é enorme! É tão larga que poderia criar uma passagem para mim ou até mesmo preencher o buraco ao cair. Não vejo outras alternativas senão o caminho difícil, vamos subir e tentar derreter sua base! Não parece que vá arrastar o resto da ponte na queda e destruir toda a caverna...","color":"aqua"}]}
+

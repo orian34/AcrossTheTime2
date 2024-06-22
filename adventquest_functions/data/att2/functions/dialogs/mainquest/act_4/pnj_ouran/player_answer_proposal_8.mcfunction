@@ -17,3 +17,36 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra
 #CHINESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[所有這些， 甚至更多。我的命運帶我穿越了無數個世界， 我的任務是找到安格班王位的繼承人賽瑞爾。-->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-017b-0000-00000000017b if entity @s[distance=..30] if score ouran_PNJ DIALOG matches 4 run function att2:dialogs/mainquest/act_4/pnj_ouran/dialog_8"},"hoverEvent":{"action":"show_text","value":"點擊這裡 - 回答 1"}}]}
+
+
+#JAPANESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=3}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[これらすべて、そしてそれ以上です。私の運命は私を無数の世界を超えさせ、私の使命はアングバンドの玉座の後継者であるセリールを見つけることです。-->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-017b-0000-00000000017b if entity @s[distance=..30] if score ouran_PNJ DIALOG matches 4 run function att2:dialogs/mainquest/act_4/pnj_ouran/dialog_8"},"hoverEvent":{"action":"show_text","value":"ここをクリック - 回答 1"}}]}
+
+#KOREAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=4}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[이 모든 것들과 더 많은 것들입니다. 내 운명은 여러 세계를 넘나드는 동안 나를 데려갔으며, 내 임무는 앙방드 왕좌의 후계자 세릴을 찾는 것입니다. -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-017b-0000-00000000017b if entity @s[distance=..30] if score ouran_PNJ DIALOG matches 4 run function att2:dialogs/mainquest/act_4/pnj_ouran/dialog_8"},"hoverEvent":{"action":"show_text","value":"여기를 클릭하세요 - 답변 1"}}]}
+
+#ARABIC LANGUAGE
+
+tellraw @s[scores={LANGUAGE=5}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[كل هذه، وأكثر من ذلك. قد أخذني مصيري عبر عدد من العوالم ومهمتي هي العثور على سيريل، وريثة عرش أنغباند. -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-017b-0000-00000000017b if entity @s[distance=..30] if score ouran_PNJ DIALOG matches 4 run function att2:dialogs/mainquest/act_4/pnj_ouran/dialog_8"},"hoverEvent":{"action":"show_text","value":"انقر هنا - الإجابة 1"}}]}
+
+#RUSSIAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=6}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Все это, и даже больше. Моя судьба привела меня через множество миров, и моя миссия - найти Сериле, наследницу трона Ангбанд. -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-017b-0000-00000000017b if entity @s[distance=..30] if score ouran_PNJ DIALOG matches 4 run function att2:dialogs/mainquest/act_4/pnj_ouran/dialog_8"},"hoverEvent":{"action":"show_text","value":"Нажмите здесь - ответ 1"}}]}
+
+#SPANISH LANGUAGE
+
+tellraw @s[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Todo esto, y mucho más. Mi destino me llevó a través de numerosos mundos y mi misión es encontrar a Serile, heredera del trono de Angband. -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-017b-0000-00000000017b if entity @s[distance=..30] if score ouran_PNJ DIALOG matches 4 run function att2:dialogs/mainquest/act_4/pnj_ouran/dialog_8"},"hoverEvent":{"action":"show_text","value":"Haz clic aquí - respuesta 1"}}]}
+
+#GERMAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[All diese Dinge und noch mehr. Mein Schicksal führte mich durch zahlreiche Welten und meine Mission ist es, Serile zu finden, die Erbin des Throns von Angband. -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-017b-0000-00000000017b if entity @s[distance=..30] if score ouran_PNJ DIALOG matches 4 run function att2:dialogs/mainquest/act_4/pnj_ouran/dialog_8"},"hoverEvent":{"action":"show_text","value":"Klicke hier - Antwort 1"}}]}
+
+#HINDI LANGUAGE
+
+tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[इन सभी चीजों के साथ, और और भी। मेरा भाग्य मुझे अनगबन्ड के गद्दी की विरासतदार सेरिले को ढूंढने के लिए कई दुनियाओं में ले गया है। -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-017b-0000-00000000017b if entity @s[distance=..30] if score ouran_PNJ DIALOG matches 4 run function att2:dialogs/mainquest/act_4/pnj_ouran/dialog_8"},"hoverEvent":{"action":"show_text","value":"यहां क्लिक करें - उत्तर 1"}}]}
+
+#PORTUGUESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Tudo isso, e ainda mais. Meu destino me levou por vários mundos e minha missão é encontrar Serile, herdeira do trono de Angband. -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-017b-0000-00000000017b if entity @s[distance=..30] if score ouran_PNJ DIALOG matches 4 run function att2:dialogs/mainquest/act_4/pnj_ouran/dialog_8"},"hoverEvent":{"action":"show_text","value":"Clique aqui - resposta 1"}}]}

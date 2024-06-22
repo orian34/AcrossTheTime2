@@ -14,8 +14,6 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Golem : ","color":"green","extra
 tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Une gemme de temps.","color":"aqua"}]}
 
 
-
-
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"And what is he searching for ?","color":"dark_aqua"}]}
@@ -28,6 +26,63 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"他在尋找什麼？ ","color":"dark_aqua"}]}
 
 tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"一顆時間寶石。","color":"aqua"}]}
+
+
+# JAPANESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=3}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"そして彼は何を探していますか？","color":"dark_aqua"}]}
+
+tellraw @a[scores={LANGUAGE=3}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"時間の宝石。","color":"aqua"}]}
+
+
+# KOREAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=4}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"그는 무엇을 찾고 있나요?","color":"dark_aqua"}]}
+
+tellraw @a[scores={LANGUAGE=4}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"시간 보석.","color":"aqua"}]}
+
+
+# ARABIC LANGUAGE
+
+tellraw @a[scores={LANGUAGE=5}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"وما الذي يبحث عنه؟","color":"dark_aqua"}]}
+
+tellraw @a[scores={LANGUAGE=5}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"جوهرة الزمن.","color":"aqua"}]}
+
+
+# RUSSIAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=6}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"И что он ищет?","color":"dark_aqua"}]}
+
+tellraw @a[scores={LANGUAGE=6}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Жемчуг времени.","color":"aqua"}]}
+
+
+# SPANISH LANGUAGE
+
+tellraw @a[scores={LANGUAGE=7}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"¿Y qué está buscando?","color":"dark_aqua"}]}
+
+tellraw @a[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Una gema del tiempo.","color":"aqua"}]}
+
+
+# GERMAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=8}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"Und wonach sucht er?","color":"dark_aqua"}]}
+
+tellraw @a[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Ein Zeitjuwel.","color":"aqua"}]}
+
+
+# HINDI LANGUAGE
+
+tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"और वह क्या खोज रहा है?","color":"dark_aqua"}]}
+
+tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"एक समय का रत्न।","color":"aqua"}]}
+
+
+# PORTUGUESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"E o que ele está procurando?","color":"dark_aqua"}]}
+
+tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Uma gema do tempo.","color":"aqua"}]}
+
 
 function att2:voice/golem/golem2
 function att2:dialogs/mainquest/act_4/pnj_golem/player_answer_proposal_3

@@ -19,3 +19,43 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #CHINESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"在我看來， 冰與產生氣流的系統相連， 它可以將我一直推到主塔上...兩個副塔必須包含激活機制。我現在可以通過融化通往西塔的門上的冰來前往西塔。","color":"aqua"}]}
+
+
+#JAPANESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=3}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"私には氷が空気流を作り出すシステムに関連しているように見えます。それによって主塔の頂上まで押し上げられるでしょう... 二つの副塔には活性化メカニズムが含まれているはずです。今、西の塔に向かうために、その入口の氷を溶かすことができます。","color":"aqua"}]}
+
+
+#KOREAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=4}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"얼음은 공기 흐름을 생성하는 시스템과 관련되어 있는 것 같습니다. 이것은 나를 주 탑까지 밀어올릴 수 있습니다... 두 개의 부탑에는 반드시 활성화 메커니즘이 포함되어 있어야 합니다. 이제 서쪽 탑으로 가기 위해 입구 문의 얼음을 녹여야 합니다.","color":"aqua"}]}
+
+
+#ARABIC LANGUAGE
+
+tellraw @a[scores={LANGUAGE=5}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"يبدو لي أن الجليد مرتبط بالأنظمة التي تنشئ تدفقات هوائية قادرة على دفعي حتى قمة البرج الرئيسي... يجب أن تحتوي البرجين الثانويين على آلية التنشيط. يمكنني الآن التوجه إلى البرج الغربي عن طريق ذوبان الجليد عن باب الدخول إليه.","color":"aqua"}]}
+
+
+#RUSSIAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=6}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Мне кажется, что лед связан с системами, создающими потоки воздуха, которые могут выталкивать меня прямо до вершины главной башни... В двух второстепенных башнях должен находиться механизм активации. Теперь я могу двигаться к западной башне, расплавляя лед на двери, ведущей к ней.","color":"aqua"}]}
+
+
+#SPANISH LANGUAGE
+
+tellraw @a[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Me parece que el hielo está vinculado a los sistemas que crean flujos de aire, que pueden empujarme hasta la parte superior de la torre principal... Las dos torres secundarias deben contener el mecanismo de activación. Ahora puedo dirigirme a la torre oeste derritiendo el hielo en la puerta que conduce a ella.","color":"aqua"}]}
+
+
+#GERMAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Mir scheint, dass das Eis mit den Systemen verbunden ist, die Luftströme erzeugen können, die mich bis zur Spitze des Hauptturms bringen... Die beiden Nebentürme müssen den Aktivierungsmechanismus enthalten. Jetzt kann ich mich zum Westturm bewegen, indem ich das Eis an der Tür schmelze, die dorthin führt.","color":"aqua"}]}
+
+
+#HINDI LANGUAGE
+
+tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"मुझे ऐसा लगता है कि बर्फ सिस्टम के साथ जुड़ी हुई है जो हवा की धाराएँ उत्पन्न करती है, जो मुझे मुख्य टावर के शीर्ष तक पहुँचा सकती है... दो सेकेंडरी टावर्स में सक्रियण तंत्र होना चाहिए। अब मैं पश्चिमी टावर की ओर बढ़ सकता हूँ, जिसके द्वार को पिघलाकर जाने का मार्ग है।","color":"aqua"}]}
+
+
+#PORTUGUESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Parece-me que o gelo está ligado aos sistemas que criam fluxos de ar, que podem me impulsionar até o topo da torre principal... As duas torres secundárias devem conter o mecanismo de ativação. Agora posso seguir para a torre oeste derretendo o gelo na porta que dá acesso a ela.","color":"aqua"}]}

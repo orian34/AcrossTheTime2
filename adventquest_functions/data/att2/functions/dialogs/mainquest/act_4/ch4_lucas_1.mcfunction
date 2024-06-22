@@ -19,3 +19,36 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Lucas : ","color":"green","extra
 #CHINESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"停在那兒陌生人， 哪陣好風把你帶到那裡？ 不！ 等等， 不要把你的話扔在風中！ 讓我自我介紹一下。我是盧卡斯， 傑出的風藝術家...","color":"dark_aqua"}]}
+
+
+#JAPANESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=3}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"止まれ、見知らぬ人よ、どんな良い風があなたをここに運んだのか？ いや、待って、言葉を風に投げないで！ まずは自己紹介をさせてください。私はルーカス、著名な風の芸術家...","color":"dark_aqua"}]}
+
+#KOREAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=4}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"거기서 멈춰요, 낯선 사람, 어떤 좋은 바람이 당신을 여기에 데려왔나요? 아니! 잠깐만, 당신의 말을 바람에 날리지 마세요! 저를 소개하게 해주세요. 저는 루카스, 저명한 바람 예술가입니다...","color":"dark_aqua"}]}
+
+#ARABIC LANGUAGE
+
+tellraw @a[scores={LANGUAGE=5}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"قف هناك أيها الغريب، أي ريح طيبة أتت بك إلى هنا؟ لا! انتظر، لا تلقِ كلماتك في مهب الريح! دعني أقدم نفسي. أنا لوكاس، الشهير، فنان الرياح...","color":"dark_aqua"}]}
+
+#RUSSIAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=6}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"Стой там, незнакомец, какой добрый ветер привел тебя сюда? Нет! Подожди, не бросай свои слова на ветер! Позволь мне представиться. Я Лукаc, знаменитый художник ветра...","color":"dark_aqua"}]}
+
+#SPANISH LANGUAGE
+
+tellraw @a[scores={LANGUAGE=7}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"Detente ahí, extraño, ¿qué buen viento te trae aquí? ¡No! Espera, ¡no tires tus palabras al viento! Permíteme presentarme. Soy Lucas, el ilustre, el artista del viento...","color":"dark_aqua"}]}
+
+#GERMAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=8}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"Halt dort Fremder, welcher gute Wind bringt dich hierher? Nein! Warte, wirf deine Worte nicht in den Wind! Lass mich mich vorstellen. Ich bin Lucas, der berühmte, der Windkünstler...","color":"dark_aqua"}]}
+
+#HINDI LANGUAGE
+
+tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"रुको अजनबी, कौन सी अच्छी हवा तुम्हें यहाँ लाती है? नहीं! रुको, अपनी बातों को हवा में मत उड़ाओ! मुझे अपना परिचय देने दो। मैं लुकास हूं, प्रसिद्ध, हवा का कलाकार...","color":"dark_aqua"}]}
+
+#PORTUGUESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"Pare aí, estranho, que bom vento te traz aqui? Não! Espere, não jogue suas palavras ao vento! Deixe-me apresentar. Eu sou Lucas, o ilustre, o artista do vento...","color":"dark_aqua"}]}

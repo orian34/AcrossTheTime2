@@ -19,3 +19,36 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Lucas : ","color":"green","extra
 #CHINESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"在這裡， 多虧了pelzion， 我們乘飛機去。","color":"dark_aqua"}]}
+
+
+#JAPANESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=3}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"ここでは、ペルジオンのおかげで空を飛んで行きます。","color":"dark_aqua"}]}
+
+#KOREAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=4}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"여기, 우리는 펠지온 덕분에 공중을 날아갑니다.","color":"dark_aqua"}]}
+
+#ARABIC LANGUAGE
+
+tellraw @a[scores={LANGUAGE=5}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"هنا، نحن نذهب عبر الجو، بفضل بيلزيون.","color":"dark_aqua"}]}
+
+#RUSSIAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=6}] {"text":" °-° Лукас : ","color":"green","extra":[{"text":"Здесь мы летим в воздухе, благодаря пелзиону.","color":"dark_aqua"}]}
+
+#SPANISH LANGUAGE
+
+tellraw @a[scores={LANGUAGE=7}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"Aquí vamos por el aire, gracias al pelzión.","color":"dark_aqua"}]}
+
+#GERMAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=8}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"Hier gehen wir in die Luft, dank des Pelzions.","color":"dark_aqua"}]}
+
+#HINDI LANGUAGE
+
+tellraw @a[scores={LANGUAGE=9}] {"text":" °-° ल्यूकस : ","color":"green","extra":[{"text":"यहां, हम पेल्जियन की मदद से हवाई सफर करते हैं।","color":"dark_aqua"}]}
+
+#PORTUGUESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Lucas : ","color":"green","extra":[{"text":"Aqui, vamos pelo ar, graças ao pelzión.","color":"dark_aqua"}]}

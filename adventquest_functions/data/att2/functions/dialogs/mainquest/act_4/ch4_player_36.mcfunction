@@ -19,3 +19,28 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #CHINESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"這是Neleptron。帶我到你的現在...","color":"aqua"}]}
+
+
+# GERMAN LANGUAGE
+tellraw @a[scores={LANGUAGE=3}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Hier ist der Neleptron. Führe mich jetzt zu deinem König...","color":"aqua"}]}
+
+# SPANISH LANGUAGE
+tellraw @a[scores={LANGUAGE=4}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Aquí está el Neleptron. Llévame ahora a tu rey...","color":"aqua"}]}
+
+# RUSSIAN LANGUAGE
+tellraw @a[scores={LANGUAGE=5}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Вот Нелептрон. Веди меня к вашему королю теперь...","color":"aqua"}]}
+
+# ARABIC LANGUAGE
+tellraw @a[scores={LANGUAGE=6}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"إليك النيلبترون. قدني الآن إلى ملكك...","color":"aqua"}]}
+
+# JAPANESE LANGUAGE
+tellraw @a[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"こちらがネレプトロンです。今、王様のもとへ案内してください...","color":"aqua"}]}
+
+# KOREAN LANGUAGE
+tellraw @a[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"여기 넬렙트론입니다. 지금 왕에게 안내해 주세요...","color":"aqua"}]}
+
+# HINDI LANGUAGE
+tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"यहाँ नेलेप्ट्रॉन है। मुझे अब अपने राजा के पास ले जाओ...","color":"aqua"}]}
+
+# PORTUGUESE LANGUAGE
+tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Aqui está o Neleptron. Leve-me agora ao seu rei...","color":"aqua"}]}
