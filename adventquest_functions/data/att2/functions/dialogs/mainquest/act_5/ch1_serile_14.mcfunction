@@ -20,4 +20,38 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Serile : ","color":"gray","extra
 
 tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Serile : ","color":"gray","extra":[{"text":"隨它吧！ ","color":"yellow","italic":true}]}
 
+
+# JAPANESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=3}] {"text":" °-° Serile : ","color":"gray","extra":[{"text":"それでいい！","color":"yellow","italic":true}]}
+
+# KOREAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=4}] {"text":" °-° Serile : ","color":"gray","extra":[{"text":"그렇게 하세요!","color":"yellow","italic":true}]}
+
+# ARABIC LANGUAGE
+
+tellraw @a[scores={LANGUAGE=5}] {"text":" °-° Serile : ","color":"gray","extra":[{"text":"فليكن هكذا!","color":"yellow","italic":true}]}
+
+# RUSSIAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=6}] {"text":" °-° Serile : ","color":"gray","extra":[{"text":"Пусть так и будет!","color":"yellow","italic":true}]}
+
+# SPANISH LANGUAGE
+
+tellraw @a[scores={LANGUAGE=7}] {"text":" °-° Serile : ","color":"gray","extra":[{"text":"Así sea!","color":"yellow","italic":true}]}
+
+# GERMAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=8}] {"text":" °-° Serile : ","color":"gray","extra":[{"text":"So sei es!","color":"yellow","italic":true}]}
+
+# HINDI LANGUAGE
+
+tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Serile : ","color":"gray","extra":[{"text":"तब यह होगा!","color":"yellow","italic":true}]}
+
+# PORTUGUESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Serile : ","color":"gray","extra":[{"text":"Que assim seja!","color":"yellow","italic":true}]}
+
+
 function att2:voice/serile/serile57

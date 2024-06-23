@@ -19,3 +19,36 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Serile : ","color":"gray","extra
 #CHINESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Serile : ","color":"gray","extra":[{"text":"...我們會看到...","color":"yellow","italic":true}]}
+
+
+# JAPANESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=3}] {"text":" °-° Serile : ","color":"gray","extra":[{"text":"... それを見てみよう...","color":"yellow","italic":true}]}
+
+# KOREAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=4}] {"text":" °-° Serile : ","color":"gray","extra":[{"text":"... 우리는 볼 것이다...","color":"yellow","italic":true}]}
+
+# ARABIC LANGUAGE
+
+tellraw @a[scores={LANGUAGE=5}] {"text":" °-° Serile : ","color":"gray","extra":[{"text":"... سنرى...","color":"yellow","italic":true}]}
+
+# RUSSIAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=6}] {"text":" °-° Serile : ","color":"gray","extra":[{"text":"... Мы увидим...","color":"yellow","italic":true}]}
+
+# SPANISH LANGUAGE
+
+tellraw @a[scores={LANGUAGE=7}] {"text":" °-° Serile : ","color":"gray","extra":[{"text":"... Veremos...","color":"yellow","italic":true}]}
+
+# GERMAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=8}] {"text":" °-° Serile : ","color":"gray","extra":[{"text":"... Das werden wir sehen...","color":"yellow","italic":true}]}
+
+# HINDI LANGUAGE
+
+tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Serile : ","color":"gray","extra":[{"text":"... हम देखेंगे...","color":"yellow","italic":true}]}
+
+# PORTUGUESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Serile : ","color":"gray","extra":[{"text":"... Nós veremos...","color":"yellow","italic":true}]}

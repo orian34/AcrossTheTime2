@@ -19,3 +19,36 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #CHINESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"無憂無慮！ 你還是安格班的公主， 這個地方永遠是你的！ ","color":"aqua"}]}
+
+
+# JAPANESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=3}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"セリール！ あなたはまだアングバンドの王女です、この場所はいつもあなたのものです！","color":"aqua"}]}
+
+# KOREAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=4}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"세릴! 당신은 여전히 앙방드의 공주입니다, 이 자리는 항상 당신의 것입니다!","color":"aqua"}]}
+
+# ARABIC LANGUAGE
+
+tellraw @a[scores={LANGUAGE=5}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"سيريل! أنت لا تزال أميرة أنغباند، هذا المكان دائماً لك!","color":"aqua"}]}
+
+# RUSSIAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=6}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Серил! Ты всё ещё принцесса Ангбанда, это место всегда будет твоим!","color":"aqua"}]}
+
+# SPANISH LANGUAGE
+
+tellraw @a[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"¡Sérile! ¡Todavía eres la princesa de Angband, este lugar siempre será tuyo!","color":"aqua"}]}
+
+# GERMAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Sérile! Du bist immer noch die Prinzessin von Angband, dieser Platz gehört immer dir!","color":"aqua"}]}
+
+# HINDI LANGUAGE
+
+tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"सेरिल! आप अभी भी एंगबैंड की राजकुमारी हैं, यह स्थान हमेशा आपका है!","color":"aqua"}]}
+
+# PORTUGUESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Sérile! Você ainda é a princesa de Angband, este lugar é sempre seu!","color":"aqua"}]}
