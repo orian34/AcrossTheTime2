@@ -19,3 +19,36 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #CHINESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"烏蘭是這個維度的王者， 無論如何我都要說服他給我一顆時間寶石！ ","color":"aqua"}]}
+
+
+# JAPANESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=3}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Ouran はこの次元の王であり、どんな手段を使ってでも時間の宝石を私に渡させなければなりません！","color":"aqua"}]}
+
+# KOREAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=4}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Ouran은 이 차원의 왕이며, 어떤 방법이든지 그를 납득시켜서 시간의 보석을 내게 주게 해야 합니다!","color":"aqua"}]}
+
+# ARABIC LANGUAGE
+
+tellraw @s[scores={LANGUAGE=5}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"أوران هو ملك هذا البُعد وعليّ أن أقنعه بأي وسيلة ممكنة ليعطيني جوهرة الزمن!","color":"aqua"}]}
+
+# RUSSIAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=6}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Оуран - король этого измерения, и мне нужно убедить его любыми средствами дать мне временную жемчужину!","color":"aqua"}]}
+
+# SPANISH LANGUAGE
+
+tellraw @s[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Ouran es el rey de esta dimensión y debo convencerlo por cualquier medio de que me entregue una gema del tiempo!","color":"aqua"}]}
+
+# GERMAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Ouran ist der König dieser Dimension und ich muss ihn um jeden Preis überzeugen, mir einen Zeitedelstein zu geben!","color":"aqua"}]}
+
+# HINDI LANGUAGE
+
+tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"ओरेन इस आयाम का राजा है और मुझे किसी भी माध्यम से उसे समझाना होगा कि वह मुझे एक समय का मोती दे!","color":"aqua"}]}
+
+# PORTUGUESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Ouran é o rei desta dimensão e eu tenho que convencê-lo a me dar uma gema do tempo por qualquer meio!","color":"aqua"}]}

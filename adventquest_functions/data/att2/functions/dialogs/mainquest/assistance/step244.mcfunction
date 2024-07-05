@@ -19,3 +19,28 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #CHINESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"在控制室裡， 我再次啟動了一個供電開關。這打開了大廳另一端的一扇門。","color":"aqua"}]}
+
+
+#JAPANESE LANGUAGE
+tellraw @s[scores={LANGUAGE=3}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"コントロールルームでスイッチをオンにしました。これにより電源が供給され、メインホールの反対側のドアが開きました。","color":"aqua"}]}
+
+#KOREAN LANGUAGE
+tellraw @s[scores={LANGUAGE=4}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"제어실에서 스위치를 작동시켰습니다. 이로 인해 전원이 공급되어 메인 홀의 반대편 문이 열렸습니다.","color":"aqua"}]}
+
+#ARABIC LANGUAGE
+tellraw @s[scores={LANGUAGE=5}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"في غرفة الضوابط، قمت بتفعيل مفتاح تشغيل الطاقة مرة أخرى. هذا فتح بابًا في الطرف الآخر من القاعة الرئيسية.","color":"aqua"}]}
+
+#RUSSIAN LANGUAGE
+tellraw @s[scores={LANGUAGE=6}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"В комнате управления я включил выключатель, восстанавливающий питание. Это открыло дверь на другом конце главного зала.","color":"aqua"}]}
+
+#SPANISH LANGUAGE
+tellraw @s[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"En la sala de control activé un interruptor que volvió a suministrar energía. Esto desbloqueó una puerta al otro extremo del pasillo principal.","color":"aqua"}]}
+
+#GERMAN LANGUAGE
+tellraw @s[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"In der Kontrollraum habe ich einen Schalter aktiviert, der die Stromversorgung wiederherstellt. Dies hat eine Tür am anderen Ende des Hauptflurs geöffnet.","color":"aqua"}]}
+
+#HINDI LANGUAGE
+tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"नियंत्रण कक्ष में मैंने एक स्विच सक्रिय किया जो पुनः बिजली प्रदान करता है। इससे मुख्य हॉल के दूसरे अंत में एक दरवाजा खुल गया।","color":"aqua"}]}
+
+#PORTUGUESE LANGUAGE
+tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Na sala de controle, eu ativei um interruptor que restaurou o fornecimento de energia. Isso destrancou uma porta na outra extremidade do corredor principal.","color":"aqua"}]}

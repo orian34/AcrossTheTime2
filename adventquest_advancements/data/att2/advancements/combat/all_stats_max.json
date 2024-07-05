@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:goat_horn"
         },
-        "title": {"translate":"You are the goat !t"},
+        "title": {"translate":"You are the goat !"},
         "description": {"translate":"Reach max level for all skills"},
 		"frame": "challenge"
     },

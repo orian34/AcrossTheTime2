@@ -19,3 +19,36 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #CHINESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我終於可以進入宮殿上層了。我現在得接著尋找通往堡壘頂部的道路。","color":"aqua"}]}
+
+
+#JAPANESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=3}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"ついに宮殿の上層にアクセスできました。これから先に進んで要塞の頂上まで登らなければなりません。","color":"aqua"}]}
+
+#KOREAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=4}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"드디어 궁전의 상층에 접근할 수 있었습니다. 이제 계속해서 요새의 꼭대기까지 올라가야 합니다.","color":"aqua"}]}
+
+#ARABIC LANGUAGE
+
+tellraw @s[scores={LANGUAGE=5}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"أخيرًا يمكنني الوصول إلى الطوابق العليا من القصر. يجب أن أستمر في التسلق حتى أصل إلى قمة الحصن.","color":"aqua"}]}
+
+#RUSSIAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=6}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Наконец-то я могу достать до верхних этажей дворца. Мне нужно продолжать и подниматься на вершину крепости.","color":"aqua"}]}
+
+#SPANISH LANGUAGE
+
+tellraw @s[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Finalmente puedo acceder a los pisos superiores del palacio. Debo seguir y subir hasta la cima de la fortaleza.","color":"aqua"}]}
+
+#GERMAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Endlich kann ich die oberen Etagen des Palastes betreten. Ich muss weitermachen und bis zur Spitze der Festung hinaufklettern.","color":"aqua"}]}
+
+#HINDI LANGUAGE
+
+tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"मुझे अंत में पैलेस के ऊपरी मंजिलों तक पहुँचने का मौका मिला है। मुझे आगे बढ़ना है और किले की चोटी तक चढ़ना है।","color":"aqua"}]}
+
+#PORTUGUESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Finalmente posso acessar os pisos superiores do palácio. Tenho que continuar e subir até o topo da fortaleza.","color":"aqua"}]}

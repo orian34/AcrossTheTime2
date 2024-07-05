@@ -19,3 +19,35 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #CHINESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"打開中間這扇大門的方法已經很明显了。這裏有三個金色的鎖， 對應著三把大钥匙——我已經有了一把， 還得再找兩把...它們一定就藏在外面的沼澤裏！ ","color":"aqua"}]}
+
+#JAPANESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=3}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"中央の大きな扉の開閉システムが見えるようになりました。金色の鍵穴が三つあります。鍵は構造物の中や外の沼地にあるに違いありません！","color":"aqua"}]}
+
+#KOREAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=4}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"큰 중앙 문을 여는 시스템이 이제 보입니다. 금색 자물쇠가 세 개 있습니다. 열쇠는 구조물 안과 밖의 늪지대에 있어야 합니다!","color":"aqua"}]}
+
+#ARABIC LANGUAGE
+
+tellraw @s[scores={LANGUAGE=5}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"نظام فتح الباب المركزي الكبير أصبح مرئيًا الآن، هناك ثلاث أقفال ذهبية. يجب أن تكون المفاتيح في البنية وفي المستنقع!","color":"aqua"}]}
+
+#RUSSIAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=6}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Система открытия большой центральной двери теперь видна, есть три золотых замка. Ключи должны быть в здании и снаружи, в болоте!","color":"aqua"}]}
+
+#SPANISH LANGUAGE
+
+tellraw @s[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"El sistema de apertura de la gran puerta central ahora es visible, hay tres cerraduras doradas. ¡Las llaves deben estar en la estructura y afuera, en el pantano!","color":"aqua"}]}
+
+#GERMAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Das Öffnungssystem der großen zentralen Tür ist jetzt sichtbar, es gibt drei goldene Schlösser. Die Schlüssel müssen sich in der Struktur und draußen im Sumpf befinden!","color":"aqua"}]}
+
+#HINDI LANGUAGE
+
+tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"अब बड़ी केंद्रीय दरवाजे की खुलने की प्रणाली दिखाई दे रही है, वहाँ तीन सुनहरी ताले हैं। चाबियाँ संरचना के अंदर और बाहर दलदल में होनी चाहिए!","color":"aqua"}]}
+
+#PORTUGUESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"O sistema de abertura da grande porta central agora está visível, há três fechaduras douradas. As chaves devem estar na estrutura e no pântano!","color":"aqua"}]}

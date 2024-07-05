@@ -19,3 +19,36 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #CHINESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我終於到達了一個結構的前面。讓我們讓路， 我快到了！ 反正我回不去了...","color":"aqua"}]}
+
+
+# JAPANESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=3}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"ついに構造物の前に到着しました。道を開けましょう、もうすぐです！とにかく、後戻りはできません...","color":"aqua"}]}
+
+# KOREAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=4}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"드디어 구조물 앞에 도착했습니다. 길을 청소해요, 거의 다 왔어요! 어쨌든, 뒤로 돌아갈 수 없어요...","color":"aqua"}]}
+
+# ARABIC LANGUAGE
+
+tellraw @s[scores={LANGUAGE=5}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"لقد وصلت أخيرًا أمام هيكل. لنمهد الطريق، أنا تقريبًا هناك! على أي حال، لا يمكنني العودة...","color":"aqua"}]}
+
+# RUSSIAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=6}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Наконец-то я прибыл перед структурой. Давайте уберем преграды, я почти там! В любом случае, мне уже назад не повернуть...","color":"aqua"}]}
+
+# SPANISH LANGUAGE
+
+tellraw @s[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Finalmente estoy llegando frente a una estructura. ¡Abramos el camino, casi he llegado! De todos modos, ya no puedo retroceder...","color":"aqua"}]}
+
+# GERMAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Endlich komme ich vor einer Struktur an. Räumen wir den Weg frei, ich bin fast da! So oder so, ich kann nicht zurück...","color":"aqua"}]}
+
+# HINDI LANGUAGE
+
+tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"मैं अंततः एक संरचना के सामने पहुंच गया हूँ। चलो रास्ता साफ करें, मैं लगभग वहाँ पहुंच गया हूँ! जैसे ही, मैं पीछे नहीं जा सकता...","color":"aqua"}]}
+
+# PORTUGUESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Finalmente estou chegando na frente de uma estrutura. Vamos abrir caminho, estou quase lá! De qualquer forma, não posso voltar atrás...","color":"aqua"}]}

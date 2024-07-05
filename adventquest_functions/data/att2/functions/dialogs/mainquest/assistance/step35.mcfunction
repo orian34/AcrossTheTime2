@@ -19,3 +19,36 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #CHINESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"這神廟的中央大廳也太大了...看起來， 我現在只能進入神廟的北翼， 先去那邊探索一下吧。","color":"aqua"}]}
+
+
+#JAPANESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=3}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"中央の部屋は広大だ。どうやら神殿の北翼だけがアクセス可能なようだ。まずはこの側面を探索しなければならないようだ...","color":"aqua"}]}
+
+#KOREAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=4}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"중앙 방은 거대하다. 보아하니 절의 북쪽 날개만 접근 가능해 보인다. 이 쪽을 먼저 탐험해야겠군...","color":"aqua"}]}
+
+#ARABIC LANGUAGE
+
+tellraw @s[scores={LANGUAGE=5}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"الغرفة المركزية ضخمة. يبدو أنه يمكن الوصول إلى جناح الشمال فقط من المعبد. سأكون مضطرًا لاستكشاف هذا الجانب أولاً...","color":"aqua"}]}
+
+#RUSSIAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=6}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Центральный зал огромен. Похоже, что только северное крыло храма доступно. Мне придется исследовать эту сторону сначала...","color":"aqua"}]}
+
+#SPANISH LANGUAGE
+
+tellraw @s[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"La sala central es enorme. Aparentemente solo el ala norte del templo parece accesible. Tendré que explorar este lado primero...","color":"aqua"}]}
+
+#GERMAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Der zentrale Raum ist riesig. Offenbar ist nur der nördliche Flügel des Tempels zugänglich. Ich werde diesen Bereich zuerst erkunden müssen...","color":"aqua"}]}
+
+#HINDI LANGUAGE
+
+tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"केंद्रीय कमरा विशाल है। जाहिरा बात है कि मंदिर के उत्तरी पंख जीने लायक लगते हैं। मुझे इस तरफ पहले खोजना होगा...","color":"aqua"}]}
+
+#PORTUGUESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"A sala central é enorme. Aparentemente, apenas a ala norte do templo parece acessível. Vou ter que explorar este lado primeiro...","color":"aqua"}]}

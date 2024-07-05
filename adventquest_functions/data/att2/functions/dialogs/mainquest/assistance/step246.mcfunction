@@ -19,3 +19,28 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #CHINESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我又來到了Nojelanth的廢墟。讓我們想辦法進入塔樓。","color":"aqua"}]}
+
+
+#JAPANESE LANGUAGE
+tellraw @s[scores={LANGUAGE=3}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"再びNojelanthの廃墟にいます。塔に入る方法を見つけましょう。","color":"aqua"}]}
+
+#KOREAN LANGUAGE
+tellraw @s[scores={LANGUAGE=4}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"다시 Nojelanth의 유적에 있습니다. 탑에 들어가는 방법을 찾아보겠습니다.","color":"aqua"}]}
+
+#ARABIC LANGUAGE
+tellraw @s[scores={LANGUAGE=5}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"ها أنا مرة أخرى في أطلال نوجيلانث. لنجد طريقة للدخول إلى البرج.","color":"aqua"}]}
+
+#RUSSIAN LANGUAGE
+tellraw @s[scores={LANGUAGE=6}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Вот я снова в руинах Ноджеланта. Давайте найдем способ войти в башню.","color":"aqua"}]}
+
+#SPANISH LANGUAGE
+tellraw @s[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Aquí estoy de nuevo en las ruinas de Nojelanth. Vamos a encontrar una manera de entrar en la torre.","color":"aqua"}]}
+
+#GERMAN LANGUAGE
+tellraw @s[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Hier bin ich wieder in den Ruinen von Nojelanth. Lasst uns einen Weg finden, um in den Turm zu gelangen.","color":"aqua"}]}
+
+#HINDI LANGUAGE
+tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"यहां मैं फिर से नोजेलांथ के रुखानों में हूं। चलो, टावर में प्रवेश करने का एक तरीका ढूंढते हैं।","color":"aqua"}]}
+
+#PORTUGUESE LANGUAGE
+tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Aqui estou novamente nas ruínas de Nojelanth. Vamos encontrar um jeito de entrar na torre.","color":"aqua"}]}

@@ -19,3 +19,36 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #CHINESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我已經到達了Owsästr沼澤。沼澤旁的山脚下應該有一個巨大的遺跡——兀然矗立在沼澤的一灘灘死水中。","color":"aqua"}]}
+
+
+#JAPANESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=3}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"私はOwsästrの湿地に到着しました。山に隣接し、停滞した水から浮かび上がる大きな構造物があるはずです。","color":"aqua"}]}
+
+#KOREAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=4}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"나는 Owsästr 늪지대에 도착했습니다. 산에 붙어 있고 고인 물에서 솟아오르는 큰 구조물이 있어야 합니다.","color":"aqua"}]}
+
+#ARABIC LANGUAGE
+
+tellraw @s[scores={LANGUAGE=5}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"لقد وصلت إلى مستنقعات Owsästr. يجب أن يكون هناك نوع من الهيكل الكبير المتصل بالجبل والذي يظهر من المياه الراكدة.","color":"aqua"}]}
+
+#RUSSIAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=6}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Я прибыл в болота Owsästr. Здесь должна быть какая-то большая структура, прилегающая к горе и выступающая из стоячих вод.","color":"aqua"}]}
+
+#SPANISH LANGUAGE
+
+tellraw @s[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"He llegado a los pantanos de Owsästr. Debería haber una especie de gran estructura adjunta a la montaña y emergiendo de las aguas estancadas.","color":"aqua"}]}
+
+#GERMAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Ich bin in den Sümpfen von Owsästr angekommen. Es sollte eine Art große Struktur geben, die an den Berg angeschlossen ist und aus dem stehenden Wasser herausragt.","color":"aqua"}]}
+
+#HINDI LANGUAGE
+
+tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"मैं Owsästr के दलदल में पहुँच गया हूँ। पहाड़ से जुड़ा हुआ और स्थिर पानी से निकलता हुआ एक बड़ा ढांचा होना चाहिए।","color":"aqua"}]}
+
+#PORTUGUESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Cheguei aos pântanos de Owsästr. Deve haver algum tipo de grande estrutura ligada à montanha e emergindo das águas estagnadas.","color":"aqua"}]}

@@ -19,3 +19,28 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #CHINESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"一扇巨大的綠寶石大門擋住了我的去路。門後肯定隱藏著一些重要的東西...我必須在這四周找到一把綠寶石鑰匙...","color":"aqua"}]}
+
+
+#JAPANESE LANGUAGE
+tellraw @s[scores={LANGUAGE=3}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"大きなエメラルドの扉が通行を阻んでいる。その裏にはきっと重要なものが隠されているはずだ...周りでエメラルドの鍵を見つけなければ...","color":"aqua"}]}
+
+#KOREAN LANGUAGE
+tellraw @s[scores={LANGUAGE=4}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"큰 에메랄드 문이 내 길을 막고 있습니다. 그 뒤에는 분명히 중요한 것이 숨겨져 있을 거야... 주변에서 에메랄드 열쇠를 찾아야 해...","color":"aqua"}]}
+
+#ARABIC LANGUAGE
+tellraw @s[scores={LANGUAGE=5}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"باب كبير من الزمرد يعترض مروري. بالتأكيد هناك شيء مهم مخبأ خلفه... يجب أن أجد مفتاحاً من الزمرد في المحيط...","color":"aqua"}]}
+
+#RUSSIAN LANGUAGE
+tellraw @s[scores={LANGUAGE=6}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Большая изумрудная дверь загораживает мой путь. За ней наверняка что-то важное... Мне нужно найти изумрудный ключ поблизости...","color":"aqua"}]}
+
+#SPANISH LANGUAGE
+tellraw @s[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Una gran puerta de esmeralda bloquea mi paso. Seguramente hay algo importante escondido detrás... Debo encontrar una llave de esmeralda por aquí cerca...","color":"aqua"}]}
+
+#GERMAN LANGUAGE
+tellraw @s[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Ein großes Smaragdtor versperrt mir den Weg. Dahinter verbirgt sich sicher etwas Wichtiges... Ich muss einen Smaragdschlüssel in der Umgebung finden...","color":"aqua"}]}
+
+#HINDI LANGUAGE
+tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"एक बड़ा पन्ने का दरवाजा मेरे रास्ते को रोक रहा है। इसके पीछे निश्चित रूप से कुछ महत्वपूर्ण छुपा है... मुझे आस-पास में एक पन्ने की चाबी ढूंढनी होगी...","color":"aqua"}]}
+
+#PORTUGUESE LANGUAGE
+tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Uma grande porta de esmeralda bloqueia meu caminho. Certamente há algo importante escondido atrás dela... Preciso encontrar uma chave de esmeralda por aqui...","color":"aqua"}]}

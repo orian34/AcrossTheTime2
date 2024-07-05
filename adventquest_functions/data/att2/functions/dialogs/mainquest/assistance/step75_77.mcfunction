@@ -19,3 +19,36 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #CHINESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我已再無退路， 只能為最後一戰養精蓄銳...等準備好的時候去營地的雷爾貢就好了！ ","color":"aqua"}]}
+
+
+#JAPANESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=3}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"最終決戦に備えなければならない、戻る道はないかもしれない... 準備ができたらキャンプのレルゴンに知らせるだけだ！","color":"aqua"}]}
+
+#KOREAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=4}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"최후의 전투를 준비해야 할 때가 왔습니다. 돌아갈 길은 없을 수도 있습니다... 준비가 되면 캠프에서 릴곤에게 알리기만 하면 됩니다!","color":"aqua"}]}
+
+#ARABIC LANGUAGE
+
+tellraw @s[scores={LANGUAGE=5}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"يجب أن أستعد للمعركة النهائية، قد لا يكون هناك عودة... سأخبر ريلجون في المعسكر عندما أكون جاهزًا للانطلاق!","color":"aqua"}]}
+
+#RUSSIAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=6}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Мне нужно подготовиться к финальной битве, возможно, не будет возврата... Я просто скажу Релгону в лагере, когда буду готов!","color":"aqua"}]}
+
+#SPANISH LANGUAGE
+
+tellraw @s[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Tengo que prepararme para la batalla final, puede que no haya retorno... ¡Solo tendré que avisar a Relgon en el campamento cuando esté listo para partir!","color":"aqua"}]}
+
+#GERMAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Ich muss mich auf die finale Schlacht vorbereiten, es könnte keinen Rückweg geben... Ich werde Relgon im Lager Bescheid geben, wenn ich bereit bin zu gehen!","color":"aqua"}]}
+
+#HINDI LANGUAGE
+
+tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"मुझे अंतिम लड़ाई के लिए तैयारी करनी होगी, शायद कोई वापसी ना हो... मैं सिर्फ उसे बताऊंगा कि जब मैं तैयार हो तो कैंप में रेलगॉन को!","color":"aqua"}]}
+
+#PORTUGUESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Tenho que me preparar para a batalha final, pode não haver retorno... Só terei que informar Relgon no acampamento quando estiver pronto para partir!","color":"aqua"}]}

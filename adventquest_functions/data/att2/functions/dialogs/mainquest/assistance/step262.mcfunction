@@ -19,3 +19,28 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #CHINESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我必須想辦法離開公共淋浴間。","color":"aqua"}]}
+
+
+#JAPANESE LANGUAGE
+tellraw @s[scores={LANGUAGE=3}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"集団シャワーから出る方法を見つけなければならない。","color":"aqua"}]}
+
+#KOREAN LANGUAGE
+tellraw @s[scores={LANGUAGE=4}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"공동 샤워실에서 나가는 방법을 찾아야 합니다.","color":"aqua"}]}
+
+#ARABIC LANGUAGE
+tellraw @s[scores={LANGUAGE=5}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"عليّ أن أجد طريقة للخروج من الحمامات الجماعية.","color":"aqua"}]}
+
+#RUSSIAN LANGUAGE
+tellraw @s[scores={LANGUAGE=6}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Мне нужно найти способ выбраться из общих душевых.","color":"aqua"}]}
+
+#SPANISH LANGUAGE
+tellraw @s[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Tengo que encontrar una forma de salir de las duchas comunitarias.","color":"aqua"}]}
+
+#GERMAN LANGUAGE
+tellraw @s[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Ich muss einen Weg aus den Gemeinschaftsduschen finden.","color":"aqua"}]}
+
+#HINDI LANGUAGE
+tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"मुझे सार्वजनिक शावर से बाहर निकलने का एक रास्ता ढूंढना होगा।","color":"aqua"}]}
+
+#PORTUGUESE LANGUAGE
+tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Tenho que encontrar uma maneira de sair dos chuveiros comunitários.","color":"aqua"}]}

@@ -19,3 +19,36 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #CHINESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Etotsira 告訴我一所古老的學院：Nojelanth， 位於遙遠的沙漠中。我必須前往火山區附近的克爾特沙漠。","color":"aqua"}]}
+
+
+#JAPANESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=3}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Etotsira は遠い砂漠にある古代のアカデミー、Nojelanth について話しました。火山地帯近くのKert砂漠へ向かう必要があります。","color":"aqua"}]}
+
+#KOREAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=4}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Etotsira 는 먼 사막에 위치한 고대 아카데미 Nojelanth 에 대해 말했습니다. 나는 화산 지대 근처의 Kert 사막으로 향해야 합니다.","color":"aqua"}]}
+
+#ARABIC LANGUAGE
+
+tellraw @s[scores={LANGUAGE=5}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Etotsira أخبرني عن أكاديمية قديمة تدعى Nojelanth، تقع في صحراء بعيدة. يجب أن أتوجه إلى صحراء Kert بالقرب من المنطقة البركانية.","color":"aqua"}]}
+
+#RUSSIAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=6}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Etotsira рассказал мне о старой академии Nojelanth, расположенной в далёкой пустыне. Я должен направиться в пустыню Kert рядом с вулканической областью.","color":"aqua"}]}
+
+#SPANISH LANGUAGE
+
+tellraw @s[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Etotsira me habló de una antigua academia: Nojelanth, ubicada en un desierto lejano. Tengo que dirigirme al desierto de Kert cerca del área volcánica.","color":"aqua"}]}
+
+#GERMAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Etotsira erzählte mir von einer alten Akademie: Nojelanth, die in einer fernen Wüste liegt. Ich muss in die Kert-Wüste in der Nähe des Vulkangebiets gehen.","color":"aqua"}]}
+
+#HINDI LANGUAGE
+
+tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Etotsira ने मुझे एक प्राचीन अकादमी के बारे में बताया: Nojelanth, जो एक दूर के रेगिस्तान में स्थित है। मुझे ज्वालामुखी क्षेत्र के पास के Kert रेगिस्तान की ओर जाना है।","color":"aqua"}]}
+
+#PORTUGUESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Etotsira me contou sobre uma antiga academia: Nojelanth, localizada em um deserto distante. Eu tenho que ir para o Deserto de Kert perto da área vulcânica.","color":"aqua"}]}

@@ -19,3 +19,28 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #CHINESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"如果我不關閉這個艙口， 我就不能再進一步了。我有必要在穿越各種時間的同時尋找激活它的機制。","color":"aqua"}]}
+
+
+#JAPANESE LANGUAGE
+tellraw @s[scores={LANGUAGE=3}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"このハッチを無効にしなければ、もうこれ以上進むことはできません。異なる時間軸を通過しながら、それを作動させるメカニズムを探さなければなりません。","color":"aqua"}]}
+
+#KOREAN LANGUAGE
+tellraw @s[scores={LANGUAGE=4}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"이 승강장을 비활성화하지 않으면 더 이상 나아갈 수 없습니다. 다양한 시간대를 통과하면서 작동할 메커니즘을 찾아야 합니다.","color":"aqua"}]}
+
+#ARABIC LANGUAGE
+tellraw @s[scores={LANGUAGE=5}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"لا أستطيع المضي قدمًا إذا لم أعطل هذا الفتحة. من الضروري أن أبحث، أثناء عبوري للأبعاد الزمنية المختلفة، عن الآلية التي ستُشغِّلها.","color":"aqua"}]}
+
+#RUSSIAN LANGUAGE
+tellraw @s[scores={LANGUAGE=6}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Я не могу продолжать движение, пока не отключу эту люк. Необходимо найти механизм, который его активирует, проходя через различные временные линии.","color":"aqua"}]}
+
+#SPANISH LANGUAGE
+tellraw @s[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"No puedo seguir avanzando si no desactivo esta escotilla. Es necesario que busque, mientras atravieso las diferentes temporalidades, el mecanismo que la activará.","color":"aqua"}]}
+
+#GERMAN LANGUAGE
+tellraw @s[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Ich kann nicht weitergehen, wenn ich diese Luke nicht deaktiviere. Ich muss, während ich durch die verschiedenen Zeiten gehe, den Mechanismus finden, der sie aktiviert.","color":"aqua"}]}
+
+#HINDI LANGUAGE
+tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"अगर मैं इस हैच को निष्क्रिय नहीं करता हूँ, तो मैं आगे नहीं बढ़ सकता। यह आवश्यक है कि मैं इसे सक्रिय करने वाली यांत्रिकी को ढूंढू, जब मैं विभिन्न कालाओं में गुजर रहा हूँ।","color":"aqua"}]}
+
+#PORTUGUESE LANGUAGE
+tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Não posso ir mais longe se não desativar esta escotilha. É necessário que eu procure, enquanto passo pelas várias temporalidades, o mecanismo que a ativará.","color":"aqua"}]}

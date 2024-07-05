@@ -19,3 +19,28 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #CHINESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"敵人終於不再湧向城門， 我得回去向隊長報告了。","color":"aqua"}]}
+
+
+# JAPANESE LANGUAGE
+tellraw @s[scores={LANGUAGE=3}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"敵はついにドアに群がるのを止めました、私は艦長に報告しなければなりません。","color":"aqua"}]}
+
+# KOREAN LANGUAGE
+tellraw @s[scores={LANGUAGE=4}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"적들이 마침내 문으로 모이는 것을 그만뒀습니다, 나는 대장에게 보고해야 할 것입니다.","color":"aqua"}]}
+
+# ARABIC LANGUAGE
+tellraw @s[scores={LANGUAGE=5}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"الأعداء توقفوا أخيرًا عن التوافد إلى الباب، سأضطر إلى الإبلاغ إلى الكابتن.","color":"aqua"}]}
+
+# RUSSIAN LANGUAGE
+tellraw @s[scores={LANGUAGE=6}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Враги наконец перестали сбегаться к двери, мне придется доложить капитану.","color":"aqua"}]}
+
+# SPANISH LANGUAGE
+tellraw @s[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Los enemigos finalmente dejaron de aglomerarse en la puerta, tendré que informar al Capitán.","color":"aqua"}]}
+
+# GERMAN LANGUAGE
+tellraw @s[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Die Feinde haben endlich aufgehört, zur Tür zu strömen, ich muss dem Kapitän Bericht erstatten.","color":"aqua"}]}
+
+# HINDI LANGUAGE
+tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"दुश्मनों ने अंततः दरवाजे के पास आना बंद कर दिया है, मुझे कप्तान को रिपोर्ट करनी होगी।","color":"aqua"}]}
+
+# PORTUGUESE LANGUAGE
+tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Os inimigos finalmente pararam de se agrupar na porta, terei que relatar ao Capitão.","color":"aqua"}]}
