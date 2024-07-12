@@ -17,3 +17,36 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@s","extra":[{"text":" : "},{"text"
 #CHINESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=2}] {"selector":"@s","extra":[{"text":" : "},{"text":"[幸虧你在這裏——不然我不會允許這種事情發生的。 -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-003a-0000-00000000003a if entity @s[distance=..7] if score sylvandre_PNJ DIALOG matches 2 run function att2:dialogs/others/sylvandre/answer_green_2"},"hoverEvent":{"action":"show_text","value":"點擊這裡 - 回答 1"}}]}
+
+
+#JAPANESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=3}] {"selector":"@s","extra":[{"text":" : "},{"text":"[彼らにとって、あなたがそこにいるのは幸運です。私ならそれを許さなかったでしょう。 -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-003a-0000-00000000003a if entity @s[distance=..7] if score sylvandre_PNJ DIALOG matches 2 run function att2:dialogs/others/sylvandre/answer_green_2"},"hoverEvent":{"action":"show_text","value":"ここをクリック - 回答 1"}}]}
+
+#KOREAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=4}] {"selector":"@s","extra":[{"text":" : "},{"text":"그들에게는 당신이 거기 있어서 다행입니다. 왜냐하면 나는 그런 일을 두고 볼 수 없었을 테니까요. -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-003a-0000-00000000003a if entity @s[distance=..7] if score sylvandre_PNJ DIALOG matches 2 run function att2:dialogs/others/sylvandre/answer_green_2"},"hoverEvent":{"action":"show_text","value":"여기를 클릭하세요 - 답변 1"}}]}
+
+#ARABIC LANGUAGE
+
+tellraw @s[scores={LANGUAGE=5}] {"selector":"@s","extra":[{"text":" : "},{"text":"هذه فرصة لهم أنك هنا، لأنني لم أكن سأسمح بذلك. -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-003a-0000-00000000003a if entity @s[distance=..7] if score sylvandre_PNJ DIALOG matches 2 run function att2:dialogs/others/sylvandre/answer_green_2"},"hoverEvent":{"action":"show_text","value":"انقر هنا - الإجابة 1"}}]}
+
+#RUSSIAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=6}] {"selector":"@s","extra":[{"text":" : "},{"text":"Это для них удача, что ты здесь, потому что я бы не дал себя обмануть. -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-003a-0000-00000000003a if entity @s[distance=..7] if score sylvandre_PNJ DIALOG matches 2 run function att2:dialogs/others/sylvandre/answer_green_2"},"hoverEvent":{"action":"show_text","value":"Нажмите здесь - ответ 1"}}]}
+
+#SPANISH LANGUAGE
+
+tellraw @s[scores={LANGUAGE=7}] {"selector":"@s","extra":[{"text":" : "},{"text":"Es una oportunidad para ellos que estés aquí, porque yo no lo habría permitido. -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-003a-0000-00000000003a if entity @s[distance=..7] if score sylvandre_PNJ DIALOG matches 2 run function att2:dialogs/others/sylvandre/answer_green_2"},"hoverEvent":{"action":"show_text","value":"Haz clic aquí - respuesta 1"}}]}
+
+#GERMAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=8}] {"selector":"@s","extra":[{"text":" : "},{"text":"Es ist für sie ein Glück, dass du da bist, denn ich hätte das nicht zugelassen. -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-003a-0000-00000000003a if entity @s[distance=..7] if score sylvandre_PNJ DIALOG matches 2 run function att2:dialogs/others/sylvandre/answer_green_2"},"hoverEvent":{"action":"show_text","value":"Klicken Sie hier - Antwort 1"}}]}
+
+#HINDI LANGUAGE
+
+tellraw @s[scores={LANGUAGE=9}] {"selector":"@s","extra":[{"text":" : "},{"text":"उनके लिए यह भाग्यशाली है कि आप वहाँ हैं, क्योंकि मैं इसे होने नहीं देता। -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-003a-0000-00000000003a if entity @s[distance=..7] if score sylvandre_PNJ DIALOG matches 2 run function att2:dialogs/others/sylvandre/answer_green_2"},"hoverEvent":{"action":"show_text","value":"यहाँ क्लिक करें - उत्तर 1"}}]}
+
+#PORTUGUESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=10}] {"selector":"@s","extra":[{"text":" : "},{"text":"É uma sorte para eles que você esteja lá, porque eu não teria permitido. -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-003a-0000-00000000003a if entity @s[distance=..7] if score sylvandre_PNJ DIALOG matches 2 run function att2:dialogs/others/sylvandre/answer_green_2"},"hoverEvent":{"action":"show_text","value":"Clique aqui - resposta 1"}}]}

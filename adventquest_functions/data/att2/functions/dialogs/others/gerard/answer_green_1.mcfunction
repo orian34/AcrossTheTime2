@@ -29,3 +29,36 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Gerard : ","color":"green","extr
 #CHINESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Gerard : ","color":"green","extra":[{"text":"我當初來Earndhel居住， 正是因爲它是一處寧靜祥和的好地方。但現在， 成群的陌生人蜂擁而入你打開的那道破傳送門...我不想再在自己的房子裏看到你！ 到別處去吧！ ","color":"dark_aqua"}]}
+
+
+#JAPANESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=3}] {"text":" °-° Gerard : ","color":"green","extra":[{"text":"もし私がEarndhelに住むことになったのは、その平和で静かな側面のためです。今、この邪悪なポータルを通じて見知らぬ人が群れて来て、あなたがその原因です... もう私の家には見たくありません！ どこか他へ行ってください！","color":"dark_aqua"}]}
+
+#KOREAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=4}] {"text":" °-° Gerard : ","color":"green","extra":[{"text":"저는 Earndhel에 살게 된 것은 그 곳의 평화롭고 조용한 면 때문입니다. 이제는 악한 차원문을 통해 이방인들이 몰려들고 있고, 그 원인이 당신이라는 사실에요... 더 이상 내 집에서 당신을 보고 싶지 않습니다! 다른 곳으로 여행하세요!","color":"dark_aqua"}]}
+
+#ARABIC LANGUAGE
+
+tellraw @s[scores={LANGUAGE=5}] {"text":" °-° Gerard : ","color":"green","extra":[{"text":"إن جئت لأعيش في Earndhel، فهو بالضبط بسبب جانبه الهادئ والهادئ. الآن الغرباء يتدفقون من خلال هذا البواب الشرير وأنت السبب... لا أريد أن أراك في منزلي بعد الآن! اذهب للسفر في مكان آخر!","color":"dark_aqua"}]}
+
+#RUSSIAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=6}] {"text":" °-° Gerard : ","color":"green","extra":[{"text":"Если я пришел жить в Earndhel, то именно из-за его мирной и спокойной стороны. Теперь чужаки лезут через этот зловещий портал, и вы виноваты в этом... Я больше не хочу видеть вас в своем доме! Пойдите путешествуйте куда-нибудь еще!","color":"dark_aqua"}]}
+
+#SPANISH LANGUAGE
+
+tellraw @s[scores={LANGUAGE=7}] {"text":" °-° Gerard : ","color":"green","extra":[{"text":"Si vine a vivir a Earndhel fue precisamente por su lado pacífico y tranquilo. Ahora los extraños están llegando a través de este portal maligno y tú eres la causa... ¡No quiero verte más en mi casa! ¡Ve a viajar a otro lado!","color":"dark_aqua"}]}
+
+#GERMAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=8}] {"text":" °-° Gerard : ","color":"green","extra":[{"text":"Wenn ich nach Earndhel gekommen bin, dann genau wegen seiner friedlichen und ruhigen Seite. Jetzt strömen Fremde durch dieses böse Portal und du bist der Grund dafür... Ich möchte dich nicht mehr in meinem Haus sehen! Geh woanders hin und reise!","color":"dark_aqua"}]}
+
+#HINDI LANGUAGE
+
+tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Gerard : ","color":"green","extra":[{"text":"अगर मैं Earndhel में रहने आया हूँ तो यह उसकी शांतिपूर्ण और शांत स्वभाव के लिए है। अब अजनबी इस दुष्ट पोर्टल के माध्यम से आ रहे हैं और आप ही उसका कारण हैं... मुझे अब अपने घर में तुम्हें नहीं देखना है! कहीं और यात्रा करो!","color":"dark_aqua"}]}
+
+#PORTUGUESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Gerard : ","color":"green","extra":[{"text":"Se eu vim morar em Earndhel foi precisamente por seu lado pacífico e tranquilo. Agora estranhos estão chegando através deste portal maligno e você é a causa... Não quero mais vê-lo em minha casa! Vá viajar para outro lugar!","color":"dark_aqua"}]}
