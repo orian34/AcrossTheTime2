@@ -17,3 +17,36 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Troublemakers -°- : ","color":"gr
 #CHINESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 鬧事者 -°- : ","color":"gray","extra":[{"text":"Nepheris讓我趕走樓上那群鬧事者。","color":"aqua","italic":true}]}
+
+
+#JAPANESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=3}] {"text":"-°- トラブルメーカー -°- : ","color":"gray","extra":[{"text":"Nepherisは私に彼の酒場の上階にいるトラブルメーカーを追い払うように頼んだ。","color":"aqua","italic":true}]}
+
+#KOREAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=4}] {"text":"-°- 문제아들 -°- : ","color":"gray","extra":[{"text":"Nepheris가 나에게 그의 주점 위층에서 문제아들을 쫓아내 달라고 부탁했다.","color":"aqua","italic":true}]}
+
+#ARABIC LANGUAGE
+
+tellraw @s[scores={LANGUAGE=5}] {"text":"-°- مثيري الشغب -°- : ","color":"gray","extra":[{"text":"طلب مني Nepheris طرد مثيري الشغب في حانته بالطابق العلوي.","color":"aqua","italic":true}]}
+
+#RUSSIAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=6}] {"text":"-°- Нарушители спокойствия -°- : ","color":"gray","extra":[{"text":"Nepheris попросил меня выгнать нарушителей спокойствия из его таверны на верхнем этаже.","color":"aqua","italic":true}]}
+
+#SPANISH LANGUAGE
+
+tellraw @s[scores={LANGUAGE=7}] {"text":"-°- Alborotadores -°- : ","color":"gray","extra":[{"text":"Nepheris me pidió que echara a los alborotadores en su taberna en el piso superior.","color":"aqua","italic":true}]}
+
+#GERMAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=8}] {"text":"-°- Unruhestifter -°- : ","color":"gray","extra":[{"text":"Nepheris hat mich gebeten, die Unruhestifter in seiner Taverne im obersten Stockwerk zu vertreiben.","color":"aqua","italic":true}]}
+
+#HINDI LANGUAGE
+
+tellraw @s[scores={LANGUAGE=9}] {"text":"-°- मुसीबतें खड़ी करने वाले -°- : ","color":"gray","extra":[{"text":"Nepheris ने मुझसे उसकी सराय की ऊपरी मंजिल पर मुसीबतें खड़ी करने वालों को भगाने के लिए कहा।","color":"aqua","italic":true}]}
+
+#PORTUGUESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Arruaceiros -°- : ","color":"gray","extra":[{"text":"Nepheris me pediu para expulsar os arruaceiros na taverna dele no andar de cima.","color":"aqua","italic":true}]}
