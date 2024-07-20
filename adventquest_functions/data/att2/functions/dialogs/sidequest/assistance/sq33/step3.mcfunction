@@ -17,3 +17,35 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Treasure of Silberländ -°- : ","
 #CHINESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=2}] {"text":"-°- Sylberländ的秘寶 -°- : ","color":"gray","extra":[{"text":"Mortimer從一塊石頭上得到了一些有用的訊息。Sylberland平原上那處遺跡裡似乎藏了些什麼。","color":"aqua","italic":true}]}
+
+#JAPANESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=3}] {"text":"-°- シルバーラントの宝物 -°- : ","color":"gray","extra":[{"text":"モーティマーは石に関する興味深い手がかりを解読しました。シルバーラントの平原にあるモノリスのある場所には何か隠されているようです。","color":"aqua","italic":true}]}
+
+#KOREAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=4}] {"text":"-°- 실버란드의 보물 -°- : ","color":"gray","extra":[{"text":"모티머가 돌에 관한 흥미로운 단서를 해독했습니다. 실버란드 평원의 모노리스가 있는 곳에는 무언가 숨겨져 있는 것 같습니다.","color":"aqua","italic":true}]}
+
+#ARABIC LANGUAGE
+
+tellraw @s[scores={LANGUAGE=5}] {"text":"-°- كنز سيلبرلاند -°- : ","color":"gray","extra":[{"text":"فكر مورتيمر بعض الدلائل المثيرة حول حجر. هناك شيء مخفي حيث تقع المعابد الضخمة في سهول سيلبرلاند.","color":"aqua","italic":true}]}
+
+#RUSSIAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=6}] {"text":"-°- Сокровище Сильберланд -°- : ","color":"gray","extra":[{"text":"Мортимер разгадал интересную загадку о камне. Что-то скрывается там, где расположены монолиты на равнинах Сильберланда.","color":"aqua","italic":true}]}
+
+#SPANISH LANGUAGE
+
+tellraw @s[scores={LANGUAGE=7}] {"text":"-°- Tesoro de Silberländ -°- : ","color":"gray","extra":[{"text":"Mortimer ha descifrado una pista interesante sobre una piedra. Parece que hay algo oculto donde están los monolitos en las llanuras de Silberländ.","color":"aqua","italic":true}]}
+
+#GERMAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=8}] {"text":"-°- Schatz von Silberländ -°- : ","color":"gray","extra":[{"text":"Mortimer hat einen interessanten Hinweis zu einem Stein entschlüsselt. Es scheint etwas versteckt zu sein, wo die Monolithen auf den Ebenen von Silberländ stehen.","color":"aqua","italic":true}]}
+
+#HINDI LANGUAGE
+
+tellraw @s[scores={LANGUAGE=9}] {"text":"-°- सिल्बरलैंड का खजाना -°- : ","color":"gray","extra":[{"text":"मोर्टिमर ने एक पत्थर के बारे में एक दिलचस्प संकेत को समझ लिया। ऐसा लगता है कि सिल्बरलैंड के मैदानों में मोनोलिथ्स के स्थान पर कुछ छिपा हुआ है।","color":"aqua","italic":true}]}
+
+#PORTUGUESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Tesouro de Silberländ -°- : ","color":"gray","extra":[{"text":"Mortimer decifrou uma pista interessante sobre uma pedra. Parece que há algo escondido onde estão os monólitos nas planícies de Silberländ.","color":"aqua","italic":true}]}
