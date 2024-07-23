@@ -15,3 +15,35 @@ title @a[scores={LANGUAGE=1}] subtitle {"text":"Time for regrets","color":"dark_
 #CHINESE LANGUAGE
 
 title @a[scores={LANGUAGE=2}] subtitle {"text":"悔憶之時","color":"dark_purple"}
+
+#JAPANESE LANGUAGE
+
+title @a[scores={LANGUAGE=3}] subtitle {"text":"後悔の時間","color":"dark_purple"}
+
+#KOREAN LANGUAGE
+
+title @a[scores={LANGUAGE=4}] subtitle {"text":"후회의 시간","color":"dark_purple"}
+
+#ARABIC LANGUAGE
+
+title @a[scores={LANGUAGE=5}] subtitle {"text":"وقت الندم","color":"dark_purple"}
+
+#RUSSIAN LANGUAGE
+
+title @a[scores={LANGUAGE=6}] subtitle {"text":"Время сожалений","color":"dark_purple"}
+
+#SPANISH LANGUAGE
+
+title @a[scores={LANGUAGE=7}] subtitle {"text":"Tiempo de arrepentimientos","color":"dark_purple"}
+
+#GERMAN LANGUAGE
+
+title @a[scores={LANGUAGE=8}] subtitle {"text":"Zeit der Reue","color":"dark_purple"}
+
+#HINDI LANGUAGE
+
+title @a[scores={LANGUAGE=9}] subtitle {"text":"पछतावे का समय","color":"dark_purple"}
+
+#PORTUGUESE LANGUAGE
+
+title @a[scores={LANGUAGE=10}] subtitle {"text":"Tempo de arrependimentos","color":"dark_purple"}
