@@ -17,3 +17,43 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Samal Eph : ","color":"green","e
 #CHINESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Samal Eph : ","color":"green","extra":[{"text":"我會永遠感謝你的， 沒有你我一定活不下來...","color":"dark_aqua"}]}
+
+
+#JAPANESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=3}] {"text":" °-° Samal Eph : ","color":"green","extra":[{"text":"私はあなたに永遠に感謝しています。あなたがいなければ私は死んでいたでしょう...","color":"dark_aqua"}]}
+
+
+#KOREAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=4}] {"text":" °-° Samal Eph : ","color":"green","extra":[{"text":"나는 당신에게 영원히 감사드립니다. 당신이 없었다면 나는 죽었을 것입니다...","color":"dark_aqua"}]}
+
+
+#ARABIC LANGUAGE
+
+tellraw @s[scores={LANGUAGE=5}] {"text":" °-° Samal Eph : ","color":"green","extra":[{"text":"أنا ممتن لك إلى الأبد، لولاك لكنت ميتًا...","color":"dark_aqua"}]}
+
+
+#RUSSIAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=6}] {"text":" °-° Samal Eph : ","color":"green","extra":[{"text":"Я бесконечно благодарен вам, без вас я бы умер...","color":"dark_aqua"}]}
+
+
+#SPANISH LANGUAGE
+
+tellraw @s[scores={LANGUAGE=7}] {"text":" °-° Samal Eph : ","color":"green","extra":[{"text":"Te estoy eternamente agradecido, sin ti habría muerto...","color":"dark_aqua"}]}
+
+
+#GERMAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=8}] {"text":" °-° Samal Eph : ","color":"green","extra":[{"text":"Ich bin dir ewig dankbar, ohne dich wäre ich gestorben...","color":"dark_aqua"}]}
+
+
+#HINDI LANGUAGE
+
+tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Samal Eph : ","color":"green","extra":[{"text":"मैं आपका हमेशा आभारी रहूँगा, आपके बिना मैं मर गया होता...","color":"dark_aqua"}]}
+
+
+#PORTUGUESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Samal Eph : ","color":"green","extra":[{"text":"Estou eternamente grato a você, sem você eu teria morrido...","color":"dark_aqua"}]}

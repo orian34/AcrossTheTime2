@@ -19,5 +19,38 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Alphonse Rae : ","color":"green"
 tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"有什麼東西一直在攻擊我的小屋！ 這週我已經失去了四隻兔子， 但我無能為力， 這傢伙總是打破障礙。它一定是一隻該死的大蟲子！ ","color":"dark_aqua"}]}
 
 
+#JAPANESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=3}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"何かが私の小屋を攻撃し続けている！今週はすでに4匹のウサギを失ったが、何もできない。この野郎はいつも障壁を破ってしまう。きっととんでもなく大きな獣だ！","color":"dark_aqua"}]}
+
+#KOREAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=4}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"뭔가가 내 우리를 계속 공격해! 이번 주에 이미 토끼 네 마리를 잃었는데, 어쩔 수가 없어. 그 녀석은 항상 장벽을 부숴버려. 엄청나게 큰 짐승일 거야!","color":"dark_aqua"}]}
+
+#ARABIC LANGUAGE
+
+tellraw @s[scores={LANGUAGE=5}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"هناك شيء يهاجم أقفاصي باستمرار! لقد فقدت بالفعل أربعة أرانب هذا الأسبوع، لكن لا أستطيع فعل أي شيء، هذا الرجل دائمًا يكسر الحاجز. يجب أن يكون وحشًا ضخمًا جدًا!","color":"dark_aqua"}]}
+
+#RUSSIAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=6}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"Что-то продолжает атаковать мои клетки! На этой неделе я уже потерял четырех кроликов, но ничего не могу сделать, этот парень всегда ломает преграду. Это должно быть чертовски большое животное!","color":"dark_aqua"}]}
+
+#SPANISH LANGUAGE
+
+tellraw @s[scores={LANGUAGE=7}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"¡Hay algo que sigue atacando mis jaulas! Ya he perdido cuatro conejos esta semana, pero no hay nada que pueda hacer, el tipo siempre rompe la barrera. ¡Debe ser una bestia increíblemente grande!","color":"dark_aqua"}]}
+
+#GERMAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=8}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"Etwas greift ständig meine Ställe an! Diese Woche habe ich bereits vier Kaninchen verloren, aber ich kann nichts tun, der Kerl bricht immer die Barriere. Das muss ein verdammt großes Tier sein!","color":"dark_aqua"}]}
+
+#HINDI LANGUAGE
+
+tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"कुछ है जो लगातार मेरी झोपड़ियों पर हमला कर रहा है! मैंने इस हफ्ते पहले ही चार खरगोश खो दिए हैं, लेकिन मैं कुछ नहीं कर सकता, वह आदमी हमेशा बाधा को तोड़ देता है। वह जानवर जरूर बहुत बड़ा होगा!","color":"dark_aqua"}]}
+
+#PORTUGUESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Alphonse Rae : ","color":"green","extra":[{"text":"Tem algo que continua atacando minhas gaiolas! Já perdi quatro coelhos esta semana, mas não posso fazer nada, o cara sempre quebra a barreira. Deve ser uma besta muito grande!","color":"dark_aqua"}]}
+
+
 function att2:dialogs/sidequest/sq5/alphonse_rae/player_proposal_1/choice_1
 function att2:dialogs/sidequest/sq5/alphonse_rae/player_proposal_1/choice_2
