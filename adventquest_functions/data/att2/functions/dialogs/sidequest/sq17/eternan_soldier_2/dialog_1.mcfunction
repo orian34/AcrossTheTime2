@@ -17,3 +17,36 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Eternan Soldier : ","color":"gre
 #CHINESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Eternan Soldier : ","color":"green","extra":[{"text":"我希望你能善用我的劍。祝英雄旅途愉快！ ","color":"dark_aqua"}]}
+
+
+#JAPANESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=3}] {"text":" °-° Eternan Soldier : ","color":"green","extra":[{"text":"私の剣をうまく使ってくれることを願っています。良い旅を、英雄。","color":"dark_aqua"}]}
+
+#KOREAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=4}] {"text":" °-° Eternan Soldier : ","color":"green","extra":[{"text":"내 검을 잘 활용해주길 바랍니다. 좋은 여행 되세요, 영웅.","color":"dark_aqua"}]}
+
+#ARABIC LANGUAGE
+
+tellraw @s[scores={LANGUAGE=5}] {"text":" °-° Eternan Soldier : ","color":"green","extra":[{"text":"أتمنى أن تستفيد جيدًا من سيفي. رحلتك سعيدة، بطل.","color":"dark_aqua"}]}
+
+#RUSSIAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=6}] {"text":" °-° Eternan Soldier : ","color":"green","extra":[{"text":"Надеюсь, ты хорошо воспользуешься моим мечом. Хорошего путешествия, герой.","color":"dark_aqua"}]}
+
+#SPANISH LANGUAGE
+
+tellraw @s[scores={LANGUAGE=7}] {"text":" °-° Eternan Soldier : ","color":"green","extra":[{"text":"Espero que hagas buen uso de mi espada. ¡Buen viaje, héroe!","color":"dark_aqua"}]}
+
+#GERMAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=8}] {"text":" °-° Eternan Soldier : ","color":"green","extra":[{"text":"Ich hoffe, du machst guten Gebrauch von meinem Schwert. Gute Reise, Held.","color":"dark_aqua"}]}
+
+#HINDI LANGUAGE
+
+tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Eternan Soldier : ","color":"green","extra":[{"text":"मुझे उम्मीद है कि आप मेरी तलवार का अच्छे से उपयोग करेंगे। शुभ यात्रा, नायक।","color":"dark_aqua"}]}
+
+#PORTUGUESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Eternan Soldier : ","color":"green","extra":[{"text":"Espero que você faça bom uso da minha espada. Boa viagem, herói.","color":"dark_aqua"}]}
