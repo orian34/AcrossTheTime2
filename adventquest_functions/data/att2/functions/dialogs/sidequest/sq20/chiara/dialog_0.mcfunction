@@ -21,3 +21,36 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Chiara : ","color":"green","extr
 #CHINESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"你以為我沒聽見嗎？ 繼續！ ","color":"dark_aqua"}]}
+
+
+#JAPANESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=3}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"私が聞こえていないと思っているの？さっさと行って！","color":"dark_aqua"}]}
+
+#KOREAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=4}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"내가 안 들었다고 생각해? 계속 가!","color":"dark_aqua"}]}
+
+#ARABIC LANGUAGE
+
+tellraw @s[scores={LANGUAGE=5}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"تظن أنني لم أسمعك؟ انطلق!","color":"dark_aqua"}]}
+
+#RUSSIAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=6}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"Ты думаешь, что я тебя не слышала? Продолжай!","color":"dark_aqua"}]}
+
+#SPANISH LANGUAGE
+
+tellraw @s[scores={LANGUAGE=7}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"¿Crees que no te oí? ¡Sigue adelante!","color":"dark_aqua"}]}
+
+#GERMAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=8}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"Denkst du, ich habe dich nicht gehört? Geh weiter!","color":"dark_aqua"}]}
+
+#HINDI LANGUAGE
+
+tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"क्या तुम सोचते हो कि मैंने तुम्हें नहीं सुना? आगे बढ़ो!","color":"dark_aqua"}]}
+
+#PORTUGUESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"Você acha que eu não te ouvi? Vá em frente!","color":"dark_aqua"}]}
