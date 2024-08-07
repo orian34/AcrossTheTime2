@@ -19,3 +19,36 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Sélène : ","color":"green","ex
 #CHINESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Sélène : ","color":"green","extra":[{"text":"但後來你知道媽媽已經死了， 你從來沒有告訴過我什麼？  Korlaph， 你能把我母親的靈魂帶回來嗎？ ","color":"dark_green"}]}
+
+
+#JAPANESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=3}] {"text":" °-° Sélène : ","color":"green","extra":[{"text":"それなら、母が死んでいることを知っていたのに、何も教えてくれなかったのですか？ Korlaph、私の母の魂を呼び戻すことができますか？","color":"dark_green"}]}
+
+#KOREAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=4}] {"text":" °-° Sélène : ","color":"green","extra":[{"text":"그렇다면 엄마가 죽었다는 걸 알고 있었으면서도 나에게 아무 말도 하지 않았다는 건가요? Korlaph, 내 어머니의 영혼을 되살릴 수 있겠어요?","color":"dark_green"}]}
+
+#ARABIC LANGUAGE
+
+tellraw @a[scores={LANGUAGE=5}] {"text":" °-° Sélène : ","color":"green","extra":[{"text":"فإذا كنت تعرف أن أمي قد ماتت ولم تخبرني بشيء؟ Korlaph، هل يمكنك إحياء روح أمي؟","color":"dark_green"}]}
+
+#RUSSIAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=6}] {"text":" °-° Sélène : ","color":"green","extra":[{"text":"Так ты знал, что мама мертва, и никогда ничего не сказал мне? Korlaph, сможешь ли ты вернуть дух моей матери?","color":"dark_green"}]}
+
+#SPANISH LANGUAGE
+
+tellraw @a[scores={LANGUAGE=7}] {"text":" °-° Sélène : ","color":"green","extra":[{"text":"Entonces sabías que mamá estaba muerta y nunca me dijiste nada? Korlaph, ¿serías capaz de devolver el espíritu de mi madre?","color":"dark_green"}]}
+
+#GERMAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=8}] {"text":" °-° Sélène : ","color":"green","extra":[{"text":"Aber du wusstest doch, dass Mama tot ist, und hast mir nie etwas darüber gesagt? Korlaph, könntest du den Geist meiner Mutter zurückbringen?","color":"dark_green"}]}
+
+#HINDI LANGUAGE
+
+tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Sélène : ","color":"green","extra":[{"text":"तो तुम जानते थे कि माँ मर चुकी है और तुमने कभी मुझसे कुछ नहीं कहा? Korlaph, क्या तुम मेरी माँ की आत्मा को वापस ला सकते हो?","color":"dark_green"}]}
+
+#PORTUGUESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Sélène : ","color":"green","extra":[{"text":"Então você sabia que mamãe estava morta e nunca me contou nada? Korlaph, você seria capaz de trazer de volta o espírito da minha mãe?","color":"dark_green"}]}

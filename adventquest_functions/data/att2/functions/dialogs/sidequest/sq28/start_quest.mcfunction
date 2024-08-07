@@ -19,3 +19,36 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"[The end of a journey]","color":"gold"}
 #CHINESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=2}] {"text":"[旅途終點]","color":"gold"}
+
+
+#JAPANESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=3}] {"text":"[旅の終わり]","color":"gold"}
+
+#KOREAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=4}] {"text":"[여정의 끝]","color":"gold"}
+
+#ARABIC LANGUAGE
+
+tellraw @s[scores={LANGUAGE=5}] {"text":"[نهاية الرحلة]","color":"gold"}
+
+#RUSSIAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=6}] {"text":"[Конец путешествия]","color":"gold"}
+
+#SPANISH LANGUAGE
+
+tellraw @s[scores={LANGUAGE=7}] {"text":"[El final de un viaje]","color":"gold"}
+
+#GERMAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=8}] {"text":"[Das Ende einer Reise]","color":"gold"}
+
+#HINDI LANGUAGE
+
+tellraw @s[scores={LANGUAGE=9}] {"text":"[यात्रा का अंत]","color":"gold"}
+
+#PORTUGUESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=10}] {"text":"[O fim de uma jornada]","color":"gold"}

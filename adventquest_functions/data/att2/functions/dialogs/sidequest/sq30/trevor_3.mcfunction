@@ -19,3 +19,36 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Commandant Trevor : ","color":"g
 #CHINESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Commandant Trevor : ","color":"green","extra":[{"text":"不用等！ 請不要對國王說你剛才看到的事！ 因為如果這是你的本意， 我還是寧願馬上把你藏起來， 也不願面對我王的怒火！ ","color":"dark_aqua"}]}
+
+
+#JAPANESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=3}] {"text":" °-° Commandant Trevor : ","color":"green","extra":[{"text":"待ってください！ 今見たことを王様に何も言わないでください！ もしそれがあなたの意図であれば、私は王様の怒りと対峙するよりも、むしろすぐにあなたを隠しておきたいと思います！","color":"dark_aqua"}]}
+
+#KOREAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=4}] {"text":" °-° Commandant Trevor : ","color":"green","extra":[{"text":"기다려주세요! 방금 본 것을 왕에게 말하지 마세요! 만약 그것이 당신의 의도라면, 저는 왕의 분노와 마주하기보다는 당신을 즉시 숨기겠다고 생각합니다!","color":"dark_aqua"}]}
+
+#ARABIC LANGUAGE
+
+tellraw @a[scores={LANGUAGE=5}] {"text":" °-° Commandant Trevor : ","color":"green","extra":[{"text":"انتظر! من فضلك لا تخبر الملك بما رأيته للتو! لأن إذا كان ذلك نيتك، فإنني أفضل إخفائك على الفور بدلاً من مواجهة غضب الملك!","color":"dark_aqua"}]}
+
+#RUSSIAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=6}] {"text":" °-° Commandant Trevor : ","color":"green","extra":[{"text":"Не стойте! Пожалуйста, не говорите королю о том, что вы только что увидели! Потому что если это ваше намерение, я предпочел бы скрыть вас сразу, чем сталкиваться с гневом моего короля!","color":"dark_aqua"}]}
+
+#SPANISH LANGUAGE
+
+tellraw @a[scores={LANGUAGE=7}] {"text":" °-° Commandant Trevor : ","color":"green","extra":[{"text":"¡No, espere! ¡Por favor, no le diga al rey lo que acaba de ver! Porque si esa es su intención, prefiero ocultarlo de inmediato que enfrentar la ira de mi rey.","color":"dark_aqua"}]}
+
+#GERMAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=8}] {"text":" °-° Commandant Trevor : ","color":"green","extra":[{"text":"Warten Sie! Bitte sagen Sie dem König nichts über das, was Sie gerade gesehen haben! Denn wenn das Ihre Absicht ist, würde ich es vorziehen, Sie sofort zu verstecken, als mich dem Zorn meines Königs zu stellen!","color":"dark_aqua"}]}
+
+#HINDI LANGUAGE
+
+tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Commandant Trevor : ","color":"green","extra":[{"text":"रुको! कृपया राजा से उस चीज़ के बारे में कुछ न कहें जो आपने अभी देखा! क्योंकि अगर यही आपकी मंशा है, तो मैं अपने राजा के क्रोध का सामना करने की बजाय आपको तुरंत छुपाना पसंद करूंगा!","color":"dark_aqua"}]}
+
+#PORTUGUESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Commandant Trevor : ","color":"green","extra":[{"text":"Não espere! Por favor, não conte ao rei o que você acabou de ver! Porque se essa é a sua intenção, eu prefiro esconder você imediatamente do que enfrentar a ira do meu rei!","color":"dark_aqua"}]}
