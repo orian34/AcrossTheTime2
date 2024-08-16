@@ -17,3 +17,36 @@ tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra
 #CHINESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[我對金錢遊戲不感興趣。無論如何都要帶上這 300 台 Chronotons 給自己買一些家具和更體面的生活... -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-040a-0000-00000000040a if entity @s[distance=..7] if score edwin_vortid_PNJ DIALOG matches 1 run function att2:cinematic/sidequest/44/edwin_vortid/chronoton_trigger_3"},"hoverEvent":{"action":"show_text","value":"點擊這裡 - 回答 3"}}]}
+
+
+#JAPANESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=3}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[お金のゲームには興味がありません。それでも、この300 Chronotonsを受け取って、いくつかの家具を買い、もう少しまともな生活を送ってください... -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-040a-0000-00000000040a if entity @s[distance=..7] if score edwin_vortid_PNJ DIALOG matches 1 run function att2:cinematic/sidequest/44/edwin_vortid/chronoton_trigger_3"},"hoverEvent":{"action":"show_text","value":"ここをクリック - 回答 3"}}]}
+
+#KOREAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=4}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[돈 게임에는 관심이 없습니다. 그래도 이 300 Chronotons을 받아서 가구를 사고 조금 더 나은 삶을 사세요... -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-040a-0000-00000000040a if entity @s[distance=..7] if score edwin_vortid_PNJ DIALOG matches 1 run function att2:cinematic/sidequest/44/edwin_vortid/chronoton_trigger_3"},"hoverEvent":{"action":"show_text","value":"여기를 클릭 - 답변 3"}}]}
+
+#ARABIC LANGUAGE
+
+tellraw @s[scores={LANGUAGE=5}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[ألعاب المال لا تثير اهتمامي. على أي حال، خذ هذه الـ 300 Chronotons لشراء بعض الأثاث وحياة أكثر كرامة... -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-040a-0000-00000000040a if entity @s[distance=..7] if score edwin_vortid_PNJ DIALOG matches 1 run function att2:cinematic/sidequest/44/edwin_vortid/chronoton_trigger_3"},"hoverEvent":{"action":"show_text","value":"انقر هنا - إجابة 3"}}]}
+
+#RUSSIAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=6}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Игры с деньгами меня не интересуют. Возьмите эти 300 Chronotons, чтобы купить себе мебель и немного улучшить свою жизнь... -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-040a-0000-00000000040a if entity @s[distance=..7] if score edwin_vortid_PNJ DIALOG matches 1 run function att2:cinematic/sidequest/44/edwin_vortid/chronoton_trigger_3"},"hoverEvent":{"action":"show_text","value":"Нажмите здесь - ответ 3"}}]}
+
+#SPANISH LANGUAGE
+
+tellraw @s[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Los juegos de azar no me interesan. De todos modos, toma estos 300 Chronotons para comprarte algunos muebles y una vida un poco más decente... -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-040a-0000-00000000040a if entity @s[distance=..7] if score edwin_vortid_PNJ DIALOG matches 1 run function att2:cinematic/sidequest/44/edwin_vortid/chronoton_trigger_3"},"hoverEvent":{"action":"show_text","value":"Haz clic aquí - respuesta 3"}}]}
+
+#GERMAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Geldspiele interessieren mich nicht. Nimm trotzdem diese 300 Chronotons, um dir etwas Möbel zu kaufen und ein bisschen besser zu leben... -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-040a-0000-00000000040a if entity @s[distance=..7] if score edwin_vortid_PNJ DIALOG matches 1 run function att2:cinematic/sidequest/44/edwin_vortid/chronoton_trigger_3"},"hoverEvent":{"action":"show_text","value":"Hier klicken - Antwort 3"}}]}
+
+#HINDI LANGUAGE
+
+tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[पैसे के खेल में मेरी दिलचस्पी नहीं है। फिर भी, इन 300 Chronotons को ले लो और खुद के लिए कुछ फर्नीचर और थोड़ा बेहतर जीवन खरीदो... -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-040a-0000-00000000040a if entity @s[distance=..7] if score edwin_vortid_PNJ DIALOG matches 1 run function att2:cinematic/sidequest/44/edwin_vortid/chronoton_trigger_3"},"hoverEvent":{"action":"show_text","value":"यहाँ क्लिक करें - उत्तर 3"}}]}
+
+#PORTUGUESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Jogos de dinheiro não me interessam. Mesmo assim, pegue esses 300 Chronotons para comprar alguns móveis e uma vida um pouco mais decente... -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-040a-0000-00000000040a if entity @s[distance=..7] if score edwin_vortid_PNJ DIALOG matches 1 run function att2:cinematic/sidequest/44/edwin_vortid/chronoton_trigger_3"},"hoverEvent":{"action":"show_text","value":"Clique aqui - resposta 3"}}]}

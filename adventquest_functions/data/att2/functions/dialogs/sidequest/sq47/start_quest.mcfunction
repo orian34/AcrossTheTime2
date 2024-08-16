@@ -8,14 +8,4 @@ function att2:dialogs/sidequest/accepted_effect
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"[Rukyrion]","color":"gold"}
-
-
-#ENGLISH LANGUAGE
-
-tellraw @s[scores={LANGUAGE=1}] {"text":"[Rukyrion]","color":"gold"}
-
-
-#CHINESE LANGUAGE
-
-tellraw @s[scores={LANGUAGE=2}] {"text":"[Rukyrion]","color":"gold"}
+tellraw @s[scores={LANGUAGE=0..}] {"text":"[Rukyrion]","color":"gold"}

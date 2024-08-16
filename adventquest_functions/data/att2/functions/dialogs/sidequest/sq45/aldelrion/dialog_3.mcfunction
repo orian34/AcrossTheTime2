@@ -25,6 +25,62 @@ tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Aldelrion : ","color":"green","e
 tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我明白你為什麼要恢復它。這真是一個了不起的工具。","color":"aqua"}]}
 
 
+#JAPANESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=3}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"Nekr al Felèvsil、原初の優雅さと荒々しい力が混ざり合っている。","color":"dark_aqua"}]}
+
+tellraw @s[scores={LANGUAGE=3}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"なぜあなたがそれを取り戻したいと思ったのか理解できました。これは本当に素晴らしい道具です。","color":"aqua"}]}
+
+
+#KOREAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=4}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"Nekr al Felèvsil, 원초적인 우아함과 거친 힘이 결합되어 있습니다.","color":"dark_aqua"}]}
+
+tellraw @s[scores={LANGUAGE=4}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"당신이 그것을 되찾고 싶어했던 이유를 이해합니다. 정말 멋진 도구입니다.","color":"aqua"}]}
+
+
+#ARABIC LANGUAGE
+
+tellraw @s[scores={LANGUAGE=5}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"Nekr al Felèvsil، النعمة البدائية ممزوجة بالقوة الخام.","color":"dark_aqua"}]}
+
+tellraw @s[scores={LANGUAGE=5}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"أفهم لماذا أردت استعادتها. إنها أداة رائعة حقًا.","color":"aqua"}]}
+
+
+#RUSSIAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=6}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"Nekr al Felèvsil, первобытная грация, смешанная с грубой силой.","color":"dark_aqua"}]}
+
+tellraw @s[scores={LANGUAGE=6}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Я понимаю, почему вы хотели её вернуть. Это действительно великолепный инструмент.","color":"aqua"}]}
+
+
+#SPANISH LANGUAGE
+
+tellraw @s[scores={LANGUAGE=7}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"Nekr al Felèvsil, la gracia primordial mezclada con la fuerza bruta.","color":"dark_aqua"}]}
+
+tellraw @s[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Entiendo por qué querías recuperarla. Es una herramienta verdaderamente magnífica.","color":"aqua"}]}
+
+
+#GERMAN LANGUAGE
+
+tellraw @s[scores={LANGUAGE=8}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"Nekr al Felèvsil, die ursprüngliche Anmut, vermischt mit roher Kraft.","color":"dark_aqua"}]}
+
+tellraw @s[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Ich verstehe, warum du es zurückholen wolltest. Es ist wirklich ein großartiges Werkzeug.","color":"aqua"}]}
+
+
+#HINDI LANGUAGE
+
+tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"Nekr al Felèvsil, आदिम कृपा जो कच्ची ताकत के साथ मिलती है।","color":"dark_aqua"}]}
+
+tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"मैं समझता हूँ कि आप इसे क्यों पुनः प्राप्त करना चाहते थे। यह वास्तव में एक अद्भुत उपकरण है।","color":"aqua"}]}
+
+
+#PORTUGUESE LANGUAGE
+
+tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"Nekr al Felèvsil, a graça primordial misturada com força bruta.","color":"dark_aqua"}]}
+
+tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Eu entendo por que você queria recuperá-la. É realmente uma ferramenta magnífica.","color":"aqua"}]}
+
+
 function att2:dialogs/sidequest/sq45/aldelrion/player_proposal_2/choice_1
 function att2:dialogs/sidequest/sq45/aldelrion/player_proposal_2/choice_2
 function att2:dialogs/sidequest/sq45/aldelrion/player_proposal_2/choice_3
