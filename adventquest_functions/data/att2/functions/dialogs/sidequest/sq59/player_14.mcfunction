@@ -19,3 +19,36 @@ tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 #CHINESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"哦， 那...你不能建議一個捷徑來避免這種折磨嗎？ ","color":"aqua"}]}
+
+
+#JAPANESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=3}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"ああ、それは…この苦痛を避けるためのショートカットを提案してくれなかったのですか？","color":"aqua"}]}
+
+#KOREAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=4}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"아, 그거… 이 고난을 피할 수 있는 지름길을 제안해줄 수 없었나요?","color":"aqua"}]}
+
+#ARABIC LANGUAGE
+
+tellraw @a[scores={LANGUAGE=5}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"آه، ذلك... ألم يكن بإمكانك اقتراح اختصار لتجنب هذه المحنة؟","color":"aqua"}]}
+
+#RUSSIAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=6}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Ах, это... Не мог бы ты предложить какой-нибудь короткий путь, чтобы избежать этого мучения?","color":"aqua"}]}
+
+#SPANISH LANGUAGE
+
+tellraw @a[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Oh eso... ¿No podrías haber sugerido un atajo para evitar esta agonía?","color":"aqua"}]}
+
+#GERMAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Oh das... Hättest du nicht eine Abkürzung vorschlagen können, um diese Qual zu vermeiden?","color":"aqua"}]}
+
+#HINDI LANGUAGE
+
+tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"अरे, वह... क्या आप इस कष्ट को टालने के लिए एक शॉर्टकट का सुझाव नहीं दे सकते थे?","color":"aqua"}]}
+
+#PORTUGUESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Ah, isso... Não poderia ter sugerido um atalho para evitar este suplício?","color":"aqua"}]}

@@ -19,3 +19,36 @@ tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Triss : ","color":"green","extra
 #CHINESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"*罵* 不， j'zargo， 我可不比<玩家的名字>好！ 只有你一直聽我的 ","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":"! 在你的旅程中幫助了你， 儘管你敢於給予他一點考慮， 但還是這樣做了！ ","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":" ","color":"dark_aqua"}]}
+
+
+#JAPANESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=3}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"*叱責して* いいえ、J'zargo、私は ","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":" より優しくはありません！ただ、あなたはいつも私の言うことを聞いてくれたのです。 ","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":" があなたの旅の途中で助けてくれたにもかかわらず、あなたが彼に少しの配慮しか示さなかったことを無視して手助けしました！","color":"dark_aqua"}]}
+
+#KOREAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=4}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"*꾸짖으며* 아니, J'zargo, 나는 ","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":" 보다 더 친절하지 않다! 다만, 너는 항상 내 말을 들었어! ","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":"이 너의 여정 동안 도와줬고, 너가 그에게 조금도 배려를 하지 않았음에도 불구하고 도와줬다!","color":"dark_aqua"}]}
+
+#ARABIC LANGUAGE
+
+tellraw @a[scores={LANGUAGE=5}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"*يوبخ* لا، J'zargo، أنا لست ألطف من ","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":"! فقط أنك دائمًا استمعت إليّ! ","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":" ساعدك خلال رحلتك وفعل ذلك على الرغم من القليل من الاعتبار الذي أعطيته له!","color":"dark_aqua"}]}
+
+#RUSSIAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=6}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"*ругая* Нет, J'zargo, я не добрее чем ","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":"! Только ты всегда слушал меня! ","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":" помог тебе во время твоего путешествия и сделал это, несмотря на то, что ты не проявил к нему особого уважения!","color":"dark_aqua"}]}
+
+#SPANISH LANGUAGE
+
+tellraw @a[scores={LANGUAGE=7}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"*regañando* No, J'zargo, no soy más amable que ","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":"! Solo que siempre me escuchaste. ","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":" te ayudó durante tu viaje y lo hizo a pesar de la poca consideración que le diste. ","color":"dark_aqua"}]}
+
+#GERMAN LANGUAGE
+
+tellraw @a[scores={LANGUAGE=8}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"*tadelnd* Nein, J'zargo, ich bin nicht freundlicher als ","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":"! Du hast mir nur immer zugehört! ","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":" hat dir auf deiner Reise geholfen und das getan, obwohl du ihm wenig Beachtung geschenkt hast!","color":"dark_aqua"}]}
+
+#HINDI LANGUAGE
+
+tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"*डांटते हुए* नहीं, J'zargo, मैं ","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":" की तुलना में अधिक दयालु नहीं हूँ! बस तुमने हमेशा मेरी सुनी! ","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":" ने तुम्हारी यात्रा के दौरान तुम्हारी मदद की और ऐसा किया, हालांकि तुमने उसे बहुत कम सम्मान दिया!","color":"dark_aqua"}]}
+
+#PORTUGUESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Triss : ","color":"green","extra":[{"text":"*repreendendo* Não, J'zargo, eu não sou mais gentil do que ","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":"! Só que você sempre me ouviu! ","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":" ajudou você durante sua jornada e fez isso apesar da pouca consideração que você deu a ele!","color":"dark_aqua"}]}
