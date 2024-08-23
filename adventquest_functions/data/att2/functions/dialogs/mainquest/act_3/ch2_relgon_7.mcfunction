@@ -59,5 +59,5 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Relgon : ","color":"red","extra"
 
 #PORTUGUESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=10}] {"text":"Certo.... Então você quer nos ajudar. Infelizmente, o reino está em guerra. Mas deixe-me contar sobre os eventos que mergulharam nosso mundo no caos.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"Certo.... Então você quer nos ajudar. Infelizmente, o reino está em guerra. Mas deixe-me contar sobre os eventos que mergulharam nosso mundo no caos.","color":"dark_aqua"}]}
 

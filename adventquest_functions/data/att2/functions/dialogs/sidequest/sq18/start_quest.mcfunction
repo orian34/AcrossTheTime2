@@ -51,4 +51,4 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[एक अच्छी तरह स�
 
 #PORTUGUESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=10}] {"text":"[Uma vingança bem merecida]","color":"gold"]}
+tellraw @s[scores={LANGUAGE=10}] {"text":"[Uma vingança bem merecida]","color":"gold"}

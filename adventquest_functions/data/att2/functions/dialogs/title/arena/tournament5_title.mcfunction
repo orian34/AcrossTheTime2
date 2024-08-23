@@ -46,4 +46,4 @@ title @s[scores={LANGUAGE=9}] title {"text":"- टूर्नामेंट V 
 
 #PORTUGUESE LANGUAGE
 
-title @s[scores={LANGUAGE=10}] title {"text":"- Torneio V -","color":"dark_red","underlined":true"}
+title @s[scores={LANGUAGE=10}] title {"text":"- Torneio V -","color":"dark_red","underlined":true}

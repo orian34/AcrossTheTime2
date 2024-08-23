@@ -45,4 +45,4 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"सीक्रेट सीकर क�
 
 #PORTUGUESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=10}] {"text":"Novo nível desbloqueado para Buscador de Segredos!","color":"
+tellraw @s[scores={LANGUAGE=10}] {"text":"Novo nível desbloqueado para Buscador de Segredos!","color":"gold"}

@@ -56,7 +56,7 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Nestor : ","color":"green","extr
 
 #PORTUGUESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Nestor : ","color":"green","extra":[{"text":"Desculpe, não posso te ajudar, atualmente estou lidando com um... problema... de vizinhança. Mas me diga, ouvi falar de alguém que chegou recentemente à região e que não poupava esforços para ajudar os outros. Se você é essa pessoa, tenho um tr
+tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Nestor : ","color":"green","extra":[{"text":"Desculpe, não posso te ajudar, estou atualmente lidando com um... problema de vizinhança... Mas me diga, ouvi falar de alguém que chegou recentemente na região e que não mediu esforços para ajudar os outros. Se você é essa pessoa, tenho um trabalho para te oferecer!","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq35/nestor/player_proposal_1/choice_1

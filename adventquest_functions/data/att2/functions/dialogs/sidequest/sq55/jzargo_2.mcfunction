@@ -47,4 +47,8 @@ tellraw @a[scores={LANGUAGE=8}] {"text":" °-° J'zargo : ","color":"green","ext
 
 #HINDI LANGUAGE
 
-tellraw @a[scores={LANGUAGE=9}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"ओह, यहाँ J'zargo का छात्र वापस आ गया। उसे उसे आते देखकर डर लग रहा था और J'zargo को उम्मीद थी कि ठंड और ऊँचाई उसे हरा देगी। लेकिन उसकी छोटी-छोटी चूहे जैसी आँखें और उसकी घमंडी बातची
+tellraw @a[scores={LANGUAGE=9}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"अरे, J'zargo का शिष्य वापस आ गया। वह उसे आते हुए देखकर डर गया था और J'zargo ने उम्मीद की थी कि ठंड और ऊँचाई उसे हरा देंगे। लेकिन उसकी छोटी चूहे जैसी आंखें और उसकी घमंडी बात करने की तरीका बहुत ही मूर्खतापूर्ण हैं कि Gaya उसकी दीन-हीन स्थिति को समाप्त नहीं कर सके...","color":"dark_aqua"}]}
+
+#PORTUGUESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=10}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"Ah, aqui está o pupilo de J'zargo de volta. Ele temia vê-lo chegar e J'zargo esperava que o frio e a altitude fossem vencê-lo. Mas seus pequenos olhos de rato e seu jeito arrogante de falar são ridiculamente pequenos para que Gaya ponha fim à sua existência miserável...","color":"dark_aqua"}]}

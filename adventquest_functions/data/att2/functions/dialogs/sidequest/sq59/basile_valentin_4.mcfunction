@@ -51,4 +51,4 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Basile Valentin : ","color":"gre
 
 #PORTUGUESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"Este é o resultado de anos de pesquisa para completar a busca dos alquimistas: a pedra dos filósofos. Se escolhi este lugar preciso para depositar esta sub
+tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"É o resultado de anos de pesquisa para completar a busca dos alquimistas: a pedra filosofal. Se eu escolhi este lugar exato para depositar esta substância no centro do templo de Earndhel, é para usar os poderes das 9 gemas que você trouxe na época para alcançar a quintessência e absorver suas emanações.","color":"dark_aqua"}]}

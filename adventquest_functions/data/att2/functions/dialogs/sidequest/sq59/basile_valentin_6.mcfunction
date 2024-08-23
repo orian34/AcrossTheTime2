@@ -47,4 +47,8 @@ tellraw @a[scores={LANGUAGE=8}] {"text":" °-° Basile Valentin : ","color":"gre
 
 #HINDI LANGUAGE
 
-tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"मेरे अनुभव का परिणाम तुम जानते हो... लेकिन यह वह नहीं था जिसकी मैं उम्मीद कर रहा था क्योंकि यह मुझ पर काम नहीं किया... 
+tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"मेरे अनुभव का परिणाम तुम जानते हो... लेकिन यह वह नहीं है जिसकी मुझे उम्मीद थी क्योंकि यह मुझ पर काम नहीं आया... स्थिति विडंबनात्मक हो गई है, अब जब मैं तुम्हारे सामने खड़ा होता हूँ, तो मैं अब सबसे अनुभवी व्यक्ति नहीं हूँ...","color":"dark_aqua"}]}
+
+#PORTUGUESE LANGUAGE
+
+tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"O resultado da minha experiência você conhece... Mas não é o que eu esperava, pois não funcionou em mim... A situação se tornou irônica, não sou mais a pessoa mais experiente quando me coloco na sua frente a partir de agora...","color":"dark_aqua"}]}

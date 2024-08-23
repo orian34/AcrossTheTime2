@@ -49,4 +49,4 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Linda Shelly : ","color":"green"
 
 #PORTUGUESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Linda Shelly : ","color":"green","extra":[{"text":"Você o matou? Eu não havia pensado nisso... Mas, bem, ele deve ter procurado por isso. Agora eu não tenho nada, Sylvain era a única
+tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Linda Shelly : ","color":"green","extra":[{"text":"Você o matou? Eu não tinha pensado nisso... Mas, de qualquer forma, ele deve ter procurado por isso. Agora eu não tenho nada, Sylvain era a única pessoa que me era querida... Deixe-me, eu quero ficar sozinha.","color":"dark_aqua"}]}

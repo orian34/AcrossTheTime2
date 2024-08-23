@@ -48,4 +48,4 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- विलंबित वितर
 
 #PORTUGUESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Uma entrega atrasada -°- : ","color":"gray","extra":[{"text":" : "},{"text":"O entregador de Sigfrid Barkon não voltou, e ele realmente precisa que a carne seja entregue em Méleïm. Preciso pegar os 8 ","color
+tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Entrega atrasada -°- : ","color":"gray","extra":[{"text":" : "},{"text":"O entregador de Sigfrid Barkon não voltou, e ele precisa muito que a carne seja entregue em Méleïm. Preciso pegar as 8 ","color":"aqua","extra":[{"text":"<Carnes cruas>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:beef\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Viande crue\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Raw meat\\\"}\"]}}}"},"extra":[{"text":" na cave dele e entregá-las na taberna de Méleïm, localizada na base de um penhasco. Espero não acabar comendo-as ''acidentalmente''.","color":"aqua"}]}]}]}
