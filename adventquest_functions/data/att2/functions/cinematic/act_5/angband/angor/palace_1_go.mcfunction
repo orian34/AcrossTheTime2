@@ -176,7 +176,7 @@ execute if score Neth0 TIMER matches 8400 run function att2:dialogs/title/credit
 execute if score Neth0 TIMER matches 8440 run function att2:dialogs/title/credits/thanks_subtitle42
 
 execute if score Neth0 TIMER matches 8500 run title @a times 20 1700 50
-execute if score Neth0 TIMER matches 8540 run function att2:dialogs/title/credits/voice_acting_french_title0
+execute if score Neth0 TIMER matches 8540 run function att2:dialogs/title/credits/voice_acting_title0
 execute if score Neth0 TIMER matches 8580 run function att2:dialogs/title/credits/voice_acting_french_subtitle0
 execute if score Neth0 TIMER matches 8620 run function att2:dialogs/title/credits/voice_acting_french_subtitle1
 execute if score Neth0 TIMER matches 8660 run function att2:dialogs/title/credits/voice_acting_french_subtitle2
