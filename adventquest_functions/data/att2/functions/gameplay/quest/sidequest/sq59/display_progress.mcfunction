@@ -22,4 +22,4 @@ execute if score SQ59 SIDEQUEST matches 15 run function att2:gameplay/quest/side
 execute if score SQ59 SIDEQUEST matches 16 run function att2:gameplay/quest/sidequest/sq59/step16
 execute if score SQ59 SIDEQUEST matches 17 run function att2:gameplay/quest/sidequest/sq59/step17
 execute if score SQ59 SIDEQUEST matches 18 run function att2:gameplay/quest/sidequest/sq59/step18
-execute if score SQ59 SIDEQUEST matches 19 run function att2:gameplay/quest/sidequest/sq59/step19
+execute if score SQ59 SIDEQUEST matches 19..20 run function att2:gameplay/quest/sidequest/sq59/step19

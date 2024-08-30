@@ -217,14 +217,14 @@ execute if score Neth0 TIMER matches 10020 run function att2:dialogs/title/credi
 execute if score Neth0 TIMER matches 10060 run function att2:dialogs/title/credits/voice_acting_french_subtitle37
 execute if score Neth0 TIMER matches 10100 run function att2:dialogs/title/credits/voice_acting_french_subtitle38
 execute if score Neth0 TIMER matches 10140 run function att2:dialogs/title/credits/voice_acting_french_subtitle39
-execute if score Neth0 TIMER matches 10180 run function att2:dialogs/title/credits/voice_acting_french_subtitle40
+# execute if score Neth0 TIMER matches 10180 run function att2:dialogs/title/credits/voice_acting_french_subtitle40
 
 
-execute if score Neth0 TIMER matches 10260 run title @a times 50 200 100
-execute if score Neth0 TIMER matches 10260 run function att2:dialogs/title/subtitle_empty
-execute if score Neth0 TIMER matches 10260 run function att2:dialogs/title/credits/final_title0
-execute if score Neth0 TIMER matches 10360 run function att2:dialogs/title/credits/final_title1
-execute if score Neth0 TIMER matches 10360 run function att2:dialogs/title/credits/final_subtitle0
+execute if score Neth0 TIMER matches 10200 run title @a times 50 200 100
+execute if score Neth0 TIMER matches 10200 run function att2:dialogs/title/subtitle_empty
+execute if score Neth0 TIMER matches 10200 run function att2:dialogs/title/credits/final_title0
+execute if score Neth0 TIMER matches 10300 run function att2:dialogs/title/credits/final_title1
+execute if score Neth0 TIMER matches 10300 run function att2:dialogs/title/credits/final_subtitle0
 execute if score Neth0 TIMER matches 10408 as @a run function att2:gameplay/checkpoint/remove_dimtag
 execute if score Neth0 TIMER matches 10409 in minecraft:overworld run spawnpoint @a 1543 15 1495
 execute if score Neth0 TIMER matches 10410 run scoreboard objectives setdisplay sidebar DAHAL
