@@ -2,7 +2,8 @@
 #Made by Adventquest											#
 #Process the level for player									#
 #################################################################
-                  execute as @s[scores={GAMELEVEL=0},level=20..,tag=LVLUpReady] run function att2:gameplay/leveling/player/lvl1
+
+execute as @s[scores={GAMELEVEL=0},level=20..,tag=LVLUpReady] run function att2:gameplay/leveling/player/lvl1
 execute as @s[scores={GAMELEVEL=1},level=25..,tag=LVLUpReady] run function att2:gameplay/leveling/player/lvl2
 execute as @s[scores={GAMELEVEL=2},level=30..,tag=LVLUpReady] run function att2:gameplay/leveling/player/lvl3
 execute as @s[scores={GAMELEVEL=3},level=35..,tag=LVLUpReady] run function att2:gameplay/leveling/player/lvl4
