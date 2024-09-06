@@ -3,8 +3,8 @@
 #Process level master for player								#
 #################################################################
 
-experience add @s -205 levels
-scoreboard players set @s LVL_UPGRADE_REQ 220
+experience add @s -118770 points
+scoreboard players set @s LVL_UPGRADE_REQ 180
 tag @s remove LVLUpReady
 scoreboard players add @s LEVELMASTER 1
 scoreboard players add @s SKILLPOINT 2

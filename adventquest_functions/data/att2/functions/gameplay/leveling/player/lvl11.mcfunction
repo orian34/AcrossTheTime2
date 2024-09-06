@@ -4,7 +4,7 @@
 #################################################################
 
 
-experience add @s -65 levels
+experience add @s -10670 points
 scoreboard players set @s LVL_UPGRADE_REQ 69
 tag @s remove LVLUpReady
 scoreboard players set @s GAMELEVEL 11
