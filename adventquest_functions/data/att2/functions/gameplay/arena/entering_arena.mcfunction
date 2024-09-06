@@ -4,7 +4,7 @@
 ##################################################
 
 function att2:physicmod/reg1/arena/lobby_rewards_off
-function att2:physicmod/reg1/arena/enter_barrier_on
+execute if score Tournament ARENA matches 3 run function att2:physicmod/reg1/arena/enter_barrier_on
 function att2:gameplay/checkpoint/lobby
 tag @s add InArena
 scoreboard players set in_fight BOSS 1

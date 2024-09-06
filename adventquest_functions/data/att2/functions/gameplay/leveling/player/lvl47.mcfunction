@@ -4,6 +4,7 @@
 #################################################################
 
 
+effect give @s minecraft:instant_health 1 20 true
 experience add @s -72132 points
 scoreboard players set @s LVL_UPGRADE_REQ 146
 tag @s remove LVLUpReady

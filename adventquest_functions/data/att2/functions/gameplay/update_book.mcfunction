@@ -3,6 +3,9 @@
 #Use function to process the update of assistance book 			#
 #################################################################
 
+# Securty set only for update 4.1.2
+function att2:gameplay/leveling/initialize_update
+
 clear @s minecraft:written_book{title:"§6Conscience"}
 clear @s minecraft:written_book{title:"§6Consciousness"}
 clear @s minecraft:written_book{title:"§6意識"}

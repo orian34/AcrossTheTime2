@@ -26,13 +26,12 @@ scoreboard players set @a XPGAIN 13
 scoreboard players operation @a XPGAIN += BonusXP RUNE
 execute as @a run scoreboard players operation @s XPGAIN *= closestClass XPPROCESS
 execute as @a run scoreboard players operation @s XPGAIN *= maxAddedOne XPPROCESS
-execute as @a run scoreboard players operation @s XPGAIN *= 6 XPPROCESS
-
+execute if score level DIFFICULTY matches -1 as @a run scoreboard players operation @s XPGAIN *= 5 XPPROCESS
+execute if score level DIFFICULTY matches 0..1 as @a run scoreboard players operation @s XPGAIN *= 6 XPPROCESS
+execute if score level DIFFICULTY matches 2 as @a run scoreboard players operation @s XPGAIN *= 7 XPPROCESS
 
 # Final division
 execute as @a run scoreboard players operation @s XPGAIN /= @s XPPROCESS
-
-
 
 #tellraw @a {"score":{"name":"closestClass","objective":"XPPROCESS"},"color":"dark_red","extra":[{"text":" pour clostest class","color":"dark_gray"}]}
 #tellraw @a {"score":{"name":"maxAddedOne","objective":"XPPROCESS"},"color":"dark_red","extra":[{"text":" pour max +1","color":"dark_gray"}]}

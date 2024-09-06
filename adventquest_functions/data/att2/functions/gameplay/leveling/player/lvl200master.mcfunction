@@ -3,6 +3,7 @@
 #Process level master for player								#
 #################################################################
 
+effect give @s minecraft:instant_health 1 20 true
 experience add @s -118770 points
 scoreboard players set @s LVL_UPGRADE_REQ 180
 tag @s remove LVLUpReady

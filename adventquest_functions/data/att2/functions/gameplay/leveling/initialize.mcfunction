@@ -31,9 +31,13 @@ scoreboard players set @s LEVELMASTER 0
 scoreboard players set @s LEVELETERNAN 0
 scoreboard players set @s BASE_HEM 0
 scoreboard players set playerCoeff DIFFICULTY 3
+scoreboard players set 7 XPPROCESS 7
 scoreboard players set 6 XPPROCESS 6
+scoreboard players set 5 XPPROCESS 5
+scoreboard players set 4 XPPROCESS 4
+scoreboard players set 3 XPPROCESS 3
+scoreboard players set 2 XPPROCESS 2
 scoreboard players set superelite RANDOM 1
-
 
 #Also adding teams 
 team add hostile "hostile"
