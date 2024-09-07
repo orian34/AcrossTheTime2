@@ -8,6 +8,7 @@ function att2:gameplay/recycler/estimate
 
 scoreboard players operation @s CHRONOTON += total RECYCLER
 function att2:dialogs/gameplay/shop/buyer/player_incomes
+function att2:dialogs/gameplay/shop/buyer/level_info
 execute at @s run function att2:sound/shop/selling
 
 function att2:gameplay/recycler/itemtotal_sold

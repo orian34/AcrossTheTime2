@@ -4,6 +4,7 @@
 #################################################################
 
 effect give @s minecraft:instant_health 1 20 true
+scoreboard players operation @s DAHAL = @s DAHALMAX
 experience add @s -133795 points
 scoreboard players set @s LVL_UPGRADE_REQ 190
 tag @s remove LVLUpReady
