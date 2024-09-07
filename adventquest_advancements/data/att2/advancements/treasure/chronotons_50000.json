@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:gold_block"
+        },
+        "title": {"translate":"Moneybags"},
+        "description": {"translate":"Raise 50000 Chronotons"},
+        "frame": "goal"
+    },
+    "parent": "att2:treasure/chronotons_25000",
+        "rewards": {
+            "function": "att2:advancement/exploit_50",
+            "experience": 50000
+    },
+    "criteria": {
+        "chronotons_50000": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

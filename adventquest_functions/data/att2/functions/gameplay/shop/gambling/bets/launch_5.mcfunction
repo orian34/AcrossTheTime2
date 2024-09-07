@@ -23,3 +23,8 @@ function att2:summon/gambling_bets3
 function att2:summon/gambling_bets3
 function att2:summon/gambling_bets3
 function att2:summon/gambling_bets3
+
+execute positioned -4961 97 -5802 run summon minecraft:experience_orb ~ ~ ~ {Value:50}
+execute positioned -4961 97 -5802 run summon minecraft:experience_orb ~ ~0.5 ~ {Value:100}
+execute positioned -4961 97 -5802 run summon minecraft:experience_orb ~ ~1 ~ {Value:500}
+execute positioned -4961 97 -5802 run summon minecraft:experience_orb ~ ~2 ~ {Value:1000}
