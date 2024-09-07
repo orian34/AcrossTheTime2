@@ -7,7 +7,7 @@
         "description": {"translate":"Raise 100000 Chronotons"},
         "frame": "challenge"
     },
-    "parent": "att2:treasure/chronotons_10000",
+    "parent": "att2:treasure/chronotons_50000",
         "rewards": {
             "function": "att2:advancement/exploit_100",
             "experience": 100000
