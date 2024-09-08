@@ -279,6 +279,8 @@ execute positioned -4412 69 -5935 if block ~ ~ ~ minecraft:mangrove_button[power
 execute positioned -4412 69 -5935 if block ~ ~ ~ minecraft:mangrove_button[powered=false] run function att2:gameplay/runes/mining/mineral_effect
 execute positioned -4548 36 -5187 if block ~ ~ ~ minecraft:mangrove_button[powered=true] run function att2:gameplay/runes/mining/loot_c
 execute positioned -4548 36 -5187 if block ~ ~ ~ minecraft:mangrove_button[powered=false] run function att2:gameplay/runes/mining/mineral_effect
+execute positioned -4431 38 -6038 if block ~ ~ ~ minecraft:mangrove_button[powered=true] run function att2:gameplay/runes/mining/loot_c
+execute positioned -4431 38 -6038 if block ~ ~ ~ minecraft:mangrove_button[powered=false] run function att2:gameplay/runes/mining/mineral_effect
 
 execute positioned -4558 40 -5244 if block ~ ~ ~ minecraft:cherry_button[powered=true] run function att2:gameplay/runes/mining/loot_b
 execute positioned -4558 40 -5244 if block ~ ~ ~ minecraft:cherry_button[powered=false] run function att2:gameplay/runes/mining/mineral_effect
