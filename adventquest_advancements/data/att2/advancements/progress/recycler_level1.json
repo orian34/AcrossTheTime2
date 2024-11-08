@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:glow_ink_sac"
         },
-        "title": {"translate":"Seller Apprentice"},
+        "title": {"translate":"Apprentice Seller"},
         "description": {"translate":"Reach the level 1 of the recycler item."}
     },
     "parent": "att2:progress/root",

@@ -39,6 +39,7 @@ execute if score level RECYCLER matches 2 run function att2:gameplay/recycler/le
 execute if score level RECYCLER matches 3 run function att2:gameplay/recycler/leveling/estimate_3
 execute if score level RECYCLER matches 4 run function att2:gameplay/recycler/leveling/estimate_4
 execute if score level RECYCLER matches 5 run function att2:gameplay/recycler/leveling/estimate_5
+execute if score level RECYCLER matches 6 run function att2:gameplay/recycler/leveling/estimate_6
 
 scoreboard players operation total RECYCLER += arrow RECYCLER
 scoreboard players operation total RECYCLER += misc RECYCLER

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:beacon"
+        },
+        "title": {"translate":"Are you some sort of magician?"},
+        "description": {"translate":"Use a waypoint 100 times."},
+        "frame": "challenge"
+    },
+    "parent": "att2:progress/waypoint_50",
+    "rewards": {
+        "function": "att2:advancement/exploit_50",
+        "experience": 10000
+    },
+    "criteria": {
+        "waypoint_100": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -3,9 +3,9 @@
         "icon": {
             "item": "minecraft:glow_ink_sac"
         },
-        "title": {"translate":"Seller Eminent"},
+        "title": {"translate":"Eminent Seller"},
         "description": {"translate":"Reach the level 5 of the recycler item."},
-        "frame": "challenge"
+        "frame": "goal"
     },
     "parent": "att2:progress/recycler_level4",
     "rewards": {

@@ -3,15 +3,15 @@
 #Prosses all recipes detection for player 	                            #
 #########################################################################
 
-# 1 x ESC
-execute if block ~ ~ ~ minecraft:hopper{Items:[{Count:1b,Slot:0b,tag:{Rarity:"com"}},{Count:1b,Slot:1b,tag:{Rarity:"unc"}},{Count:1b,Slot:2b,tag:{Rarity:"rar"}},{Count:1b,Slot:3b,tag:{Rarity:"epi"}}]} run function att2:items/chronoton/esc
-execute if block ~ ~ ~ minecraft:hopper{Items:[{Count:1b,Slot:0b,tag:{Rarity:"com"}},{Count:1b,Slot:1b,tag:{Rarity:"unc"}},{Count:1b,Slot:2b,tag:{Rarity:"rar"}},{Count:1b,Slot:3b,tag:{Rarity:"epi_set"}}]} run function att2:items/chronoton/esc
+# 2 x ESC
+execute if block ~ ~ ~ minecraft:hopper{Items:[{Count:1b,Slot:0b,tag:{Rarity:"com"}},{Count:1b,Slot:1b,tag:{Rarity:"unc"}},{Count:1b,Slot:2b,tag:{Rarity:"rar"}},{Count:1b,Slot:3b,tag:{Rarity:"epi"}}]} run function att2:items/chronoton/esc_2
+execute if block ~ ~ ~ minecraft:hopper{Items:[{Count:1b,Slot:0b,tag:{Rarity:"com"}},{Count:1b,Slot:1b,tag:{Rarity:"unc"}},{Count:1b,Slot:2b,tag:{Rarity:"rar"}},{Count:1b,Slot:3b,tag:{Rarity:"epi_set"}}]} run function att2:items/chronoton/esc_2
 
-# 5 x ESC
-execute if block ~ ~ ~ minecraft:hopper{Items:[{Count:1b,Slot:0b,tag:{Rarity:"com"}},{Count:1b,Slot:1b,tag:{Rarity:"unc"}},{Count:1b,Slot:2b,tag:{Rarity:"rar"}},{Count:1b,Slot:3b,tag:{Rarity:"epi"}},{Count:1b,Slot:4b,tag:{Rarity:"leg"}}]} run function att2:items/chronoton/esc_5
-execute if block ~ ~ ~ minecraft:hopper{Items:[{Count:1b,Slot:0b,tag:{Rarity:"com"}},{Count:1b,Slot:1b,tag:{Rarity:"unc"}},{Count:1b,Slot:2b,tag:{Rarity:"rar"}},{Count:1b,Slot:3b,tag:{Rarity:"epi_set"}},{Count:1b,Slot:4b,tag:{Rarity:"leg"}}]} run function att2:items/chronoton/esc_5
-execute if block ~ ~ ~ minecraft:hopper{Items:[{Count:1b,Slot:0b,tag:{Rarity:"com"}},{Count:1b,Slot:1b,tag:{Rarity:"unc"}},{Count:1b,Slot:2b,tag:{Rarity:"rar"}},{Count:1b,Slot:3b,tag:{Rarity:"epi_set"}},{Count:1b,Slot:4b,tag:{Rarity:"leg_armset"}}]} run function att2:items/chronoton/esc_5
-execute if block ~ ~ ~ minecraft:hopper{Items:[{Count:1b,Slot:0b,tag:{Rarity:"com"}},{Count:1b,Slot:1b,tag:{Rarity:"unc"}},{Count:1b,Slot:2b,tag:{Rarity:"rar"}},{Count:1b,Slot:3b,tag:{Rarity:"epi"}},{Count:1b,Slot:4b,tag:{Rarity:"leg_armset"}}]} run function att2:items/chronoton/esc_5
+# 7 x ESC
+execute if block ~ ~ ~ minecraft:hopper{Items:[{Count:1b,Slot:0b,tag:{Rarity:"com"}},{Count:1b,Slot:1b,tag:{Rarity:"unc"}},{Count:1b,Slot:2b,tag:{Rarity:"rar"}},{Count:1b,Slot:3b,tag:{Rarity:"epi"}},{Count:1b,Slot:4b,tag:{Rarity:"leg"}}]} run function att2:items/chronoton/esc_7
+execute if block ~ ~ ~ minecraft:hopper{Items:[{Count:1b,Slot:0b,tag:{Rarity:"com"}},{Count:1b,Slot:1b,tag:{Rarity:"unc"}},{Count:1b,Slot:2b,tag:{Rarity:"rar"}},{Count:1b,Slot:3b,tag:{Rarity:"epi_set"}},{Count:1b,Slot:4b,tag:{Rarity:"leg"}}]} run function att2:items/chronoton/esc_7
+execute if block ~ ~ ~ minecraft:hopper{Items:[{Count:1b,Slot:0b,tag:{Rarity:"com"}},{Count:1b,Slot:1b,tag:{Rarity:"unc"}},{Count:1b,Slot:2b,tag:{Rarity:"rar"}},{Count:1b,Slot:3b,tag:{Rarity:"epi_set"}},{Count:1b,Slot:4b,tag:{Rarity:"leg_armset"}}]} run function att2:items/chronoton/esc_7
+execute if block ~ ~ ~ minecraft:hopper{Items:[{Count:1b,Slot:0b,tag:{Rarity:"com"}},{Count:1b,Slot:1b,tag:{Rarity:"unc"}},{Count:1b,Slot:2b,tag:{Rarity:"rar"}},{Count:1b,Slot:3b,tag:{Rarity:"epi"}},{Count:1b,Slot:4b,tag:{Rarity:"leg_armset"}}]} run function att2:items/chronoton/esc_7
 
 # 500 XP
 execute if block ~ ~ ~ minecraft:hopper{Items:[{Count:1b,Slot:0b,tag:{Rarity:"com"}},{Count:1b,Slot:1b,tag:{Rarity:"com"}},{Count:1b,Slot:2b,tag:{Rarity:"com"}},{Count:1b,Slot:3b,tag:{Rarity:"com"}},{Count:1b,Slot:4b,tag:{Rarity:"com"}}]} run function att2:items/xp/500
