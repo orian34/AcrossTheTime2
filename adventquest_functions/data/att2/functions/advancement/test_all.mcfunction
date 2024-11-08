@@ -61,3 +61,6 @@ function att2:advancement/test_all/mobskilled
 
 # Quest
 function att2:advancement/test_all/quest
+
+# Collection
+function att2:advancement/test_all/collection

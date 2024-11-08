@@ -203,6 +203,7 @@ execute as @s[nbt={Inventory:[{Slot:103b,tag:{Effect:"str3_luc1"}}]}] run functi
 execute as @s[nbt={Inventory:[{Slot:102b,tag:{Effect:"res1_has2"}}]}] run function att2:gameplay/equipment/effect/eq2/res1_has2
 execute as @s[nbt={Inventory:[{Slot:101b,tag:{Effect:"str2_spd2_hun_1"}}]}] run function att2:gameplay/equipment/effect/eq3/str2_spd2_hun_1
 execute as @s[nbt={Inventory:[{Slot:100b,tag:{Effect:"has3_her1"}}]}] run function att2:gameplay/equipment/effect/eq4/has3_her1
+execute as @s[nbt={Inventory:[{Slot:100b,tag:{Effect:"has3_her2"}}]}] run function att2:gameplay/equipment/effect/eq4/has3_her2
 execute as @s[nbt={Inventory:[{Slot:103b,tag:{Effect:"str4_has1"}}]}] run function att2:gameplay/equipment/effect/eq1/str4_has1
 execute as @s[nbt={Inventory:[{Slot:102b,tag:{Effect:"str3_spd2_has2"}}]}] run function att2:gameplay/equipment/effect/eq2/str3_spd2_has2
 execute as @s[nbt={Inventory:[{Slot:101b,tag:{Effect:"str2_res1_her1"}}]}] run function att2:gameplay/equipment/effect/eq3/str2_res1_her1
