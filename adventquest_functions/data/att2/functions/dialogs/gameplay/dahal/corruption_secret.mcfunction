@@ -39,3 +39,5 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"Môt \n","color":"black","obfuscated":t
 
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"text":"Môt \n","color":"black","obfuscated":true,"extra":[{"text":"Você consegue sentir o poder da absolvição, do medo, do tempo ou do caos? Se orgulhe, filho de Irilion, seu destino será apenas desespero e desolação...","obfuscated":false,"color":"dark_gray"}]}
+
+advancement grant @s only att2:dahal/spell40_secret
