@@ -67,7 +67,7 @@ execute if score bets_total GAMBLING matches 5.. run advancement grant @a only a
 execute if score bets_total GAMBLING matches 25.. run advancement grant @a only att2:treasure/bets_25
 execute if score bets_total GAMBLING matches 100.. run advancement grant @a only att2:treasure/bets_100
 execute if score bets_total GAMBLING matches 777.. run advancement grant @a only att2:treasure/bets_777
-execute if score launch6 GAMBLING matches 1 run advancement grant @a only att2:treasure/bet_risky
+execute if score launch7 GAMBLING matches 1 run advancement grant @a only att2:treasure/bet_risky
 
 # CHEST
 advancement grant @a[scores={statCHEST=1..}] only att2:treasure/root

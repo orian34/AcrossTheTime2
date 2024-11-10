@@ -11,3 +11,4 @@ function att2:dialogs/gameplay/shop/gambling/bet3
 function att2:dialogs/gameplay/shop/gambling/bet4
 function att2:dialogs/gameplay/shop/gambling/bet5
 function att2:dialogs/gameplay/shop/gambling/bet6
+function att2:dialogs/gameplay/shop/gambling/bet7
