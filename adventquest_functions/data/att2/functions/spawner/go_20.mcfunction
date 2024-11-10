@@ -346,7 +346,7 @@ execute in minecraft:overworld if score SQ26 SIDEQUEST matches 1..2 positioned -
 execute in minecraft:overworld if score SQ26 SIDEQUEST matches 1..2 positioned -3998 81 -5523 if entity @a[distance=5..20] run function att2:spawner/reg1/adanoi/graveyard/undead3_class7_sq26_1651
 execute in minecraft:overworld positioned -3936 86 -5609 if entity @a[distance=3..15] run function att2:spawner/reg1/adanoi/catacomb/undeadarcher0_class5_1665
 execute in minecraft:overworld positioned -3916 92 -5609 if entity @a[distance=5..20] run function att2:spawner/reg1/adanoi/catacomb/undeadarcher1_class6_1669
-execute in minecraft:overworld positioned -3885 85 -5604 if entity @a[distance=5..20] run function att2:spawner/reg1/adanoi/catacomb/undead0_class5_1671
+execute in minecraft:overworld positioned -3879 84 -5599 if entity @a[distance=5..20] run function att2:spawner/reg1/adanoi/catacomb/undead0_class5_1671
 execute in minecraft:overworld positioned -3903 56 -5459 if entity @a[distance=5..25] run function att2:spawner/reg1/adanoi/sea/drowned0_class5_1677
 execute in minecraft:overworld positioned -3843 61 -5582 if entity @a[distance=5..25] run function att2:spawner/reg1/adanoi/sea/drowned0_class5_1681
 execute in minecraft:overworld positioned -3805 58 -5688 if entity @a[distance=5..25] run function att2:spawner/reg1/adanoi/sea/drowned0_class6_1685

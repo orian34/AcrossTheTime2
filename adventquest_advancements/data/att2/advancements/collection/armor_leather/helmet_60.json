@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_helmet"
+        },
+        "title": {"translate":"Coiffure des Otauriens"},
+        "description": {"translate":"From the abyssal depths to the stream of inaccessible mounts, grants the power of Otaur's heirs."},
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true
+    },
+    "parent": "att2:collection/armor_leather/helmet_56",
+    "rewards": {
+        "function": "att2:advancement/exploit_1"
+        },
+    "criteria": {
+        "leather_helmet_60": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:leather_helmet"],
+                    "nbt": "{display:{Name:\"\\\"§9Coiffure des Otauriens\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Des profondeurs abyssales jusqu'au ruisseau des monts\\\"}\",\"{\\\"text\\\":\\\"§7 inaccessibles, octroie le pouvoir des héritiers d'Otaur.\\\"}\",\"{\\\"text\\\":\\\"§7From the abyssal depths to the stream of inaccessible\\\"}\",\"{\\\"text\\\":\\\"§7mounts, grants the power of Otaur's heirs.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§c-1\\\"}\"],color:749566}}"
+                    }
+                ]
+            }
+        }
+    }
+}

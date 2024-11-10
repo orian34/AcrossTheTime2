@@ -10,4 +10,4 @@ function att2:gameplay/boss/adanoi/myrath/summoning_minion
 function att2:gameplay/boss/adanoi/myrath/init_bossbar
 effect give 00000000-0000-001c-0000-00000000001c minecraft:instant_damage 1 10 true
 function att2:sound/mobs/myrath_horror
-function att2:dialogs/sidequest/sq26/myrath_1
+execute if score SQ26 SIDEQUEST matches 1..99 run function att2:dialogs/sidequest/sq26/myrath_1

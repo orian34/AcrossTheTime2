@@ -37,4 +37,4 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"काला बाजार स्त�
 tellraw @s[scores={LANGUAGE=10}] {"text":"Nível do mercado negro: ","color":"gold"}
 
 
-tellraw @s {"text":"~ ","color":"dark_red","extra":[{"score":{"name":"level","objective":"RECYCLER"},"color":"red"},{"text":"/","color":"gray"},{"text":"5","color":"gold"},{"text":" ~","color":"dark_red"}]}
+tellraw @s {"text":"~ ","color":"dark_red","extra":[{"score":{"name":"level","objective":"RECYCLER"},"color":"red"},{"text":"/","color":"gray"},{"text":"6","color":"gold"},{"text":" ~","color":"dark_red"}]}
