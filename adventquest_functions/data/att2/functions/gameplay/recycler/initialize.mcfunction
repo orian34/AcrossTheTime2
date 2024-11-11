@@ -4,13 +4,13 @@
 #################################################################
 
 scoreboard objectives add RECYCLER dummy
-scoreboard players set itemtotal_sold RECYCLER 0
-scoreboard players set itemtotal_sold_misc RECYCLER 0
-scoreboard players set itemtotal_sold_com RECYCLER 0
-scoreboard players set itemtotal_sold_unc RECYCLER 0
-scoreboard players set itemtotal_sold_rar RECYCLER 0
-scoreboard players set itemtotal_sold_epi RECYCLER 0
-scoreboard players set itemtotal_sold_leg RECYCLER 0
+execute unless score itemtotal_sold RECYCLER matches 1.. run scoreboard players set itemtotal_sold RECYCLER 0
+execute unless score itemtotal_sold_misc RECYCLER matches 1.. run scoreboard players set itemtotal_sold_misc RECYCLER 0
+execute unless score itemtotal_sold_com RECYCLER matches 1.. run scoreboard players set itemtotal_sold_com RECYCLER 0
+execute unless score itemtotal_sold_unc RECYCLER matches 1.. run scoreboard players set itemtotal_sold_unc RECYCLER 0
+execute unless score itemtotal_sold_rar RECYCLER matches 1.. run scoreboard players set itemtotal_sold_rar RECYCLER 0
+execute unless score itemtotal_sold_epi RECYCLER matches 1.. run scoreboard players set itemtotal_sold_epi RECYCLER 0
+execute unless score itemtotal_sold_leg RECYCLER matches 1.. run scoreboard players set itemtotal_sold_leg RECYCLER 0
 scoreboard players set itemtotal_misc_points RECYCLER 0
 scoreboard players set itemtotal_com_points RECYCLER 0
 scoreboard players set itemtotal_unc_points RECYCLER 0
@@ -53,5 +53,5 @@ scoreboard players set 4 RECYCLER 4
 scoreboard players set 3 RECYCLER 3
 scoreboard players set 2 RECYCLER 2
 scoreboard players set 1 RECYCLER 1
-scoreboard players set points RECYCLER 0
-scoreboard players set level RECYCLER 0
+execute unless score points RECYCLER matches 1.. run scoreboard players set points RECYCLER 0
+execute unless score level RECYCLER matches 1.. run scoreboard players set level RECYCLER 0

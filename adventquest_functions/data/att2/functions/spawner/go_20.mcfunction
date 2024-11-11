@@ -623,7 +623,6 @@ execute in minecraft:overworld positioned -7730 38 -4198 if entity @a[distance=3
 execute in minecraft:overworld positioned -7690 44 -4321 if entity @a[distance=3..30] run function att2:spawner/reg1/nojelanth/forest_past/hoglin0_class20_3836
 execute in minecraft:overworld positioned -7587 33 -4350 if entity @a[distance=3..30] run function att2:spawner/reg1/nojelanth/forest_past/putridsmall1_class20_3840
 execute in minecraft:overworld positioned -7526 9 -4187 if entity @a[distance=5..20] run function att2:spawner/reg1/nojelanth/cave/hoglin0_class17_3854
-execute in minecraft:overworld positioned -7569 67 -4169 if entity @a[distance=5..20] run function att2:spawner/reg1/nojelanth/hive/bee0_class17_3877
 execute in minecraft:overworld positioned -5476 28 -4096 if entity @a[distance=3..15] run function att2:spawner/reg1/desert/lost_area/creeper3_class15_3900
 execute in minecraft:overworld positioned -5527 22 -4054 if entity @a[distance=3..15] run function att2:spawner/reg1/desert/lost_area/husk5_class20_3906
 execute in minecraft:overworld positioned -5548 23 -4131 if entity @a[distance=3..15] run function att2:spawner/reg1/desert/lost_area/undeadarcher2_class19_3912

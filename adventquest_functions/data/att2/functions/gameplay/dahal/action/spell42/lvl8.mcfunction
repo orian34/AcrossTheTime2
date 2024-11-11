@@ -9,7 +9,7 @@ particle minecraft:dust 0.95 0.11 0.23 2.75 ~ ~1 ~ 0.2 1 0.2 0 24 normal @a[dist
 particle minecraft:crimson_spore ~ ~1 ~ 0.2 1 0.2 0 80 normal @a
 effect give @s minecraft:instant_health 1 4 true
 execute as @s[scores={RES_LVL_DAB=..5}] run scoreboard players set @s RES_LVL_DAB 5
-execute as @s[scores={RES_LVL_DAB=..5}] run scoreboard players set @s TIMER_RES_DAB 40
+execute as @s[scores={RES_LVL_DAB=..5}] run scoreboard players set @s TIMER_RES_DAB 80
 scoreboard players remove @s DAHAL 200
 function att2:gameplay/dahal/action/spell42/cooldown
 scoreboard players add @s SPELL42_LVL 4

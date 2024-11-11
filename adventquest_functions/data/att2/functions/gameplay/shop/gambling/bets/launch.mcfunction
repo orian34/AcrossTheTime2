@@ -3,7 +3,8 @@
 #Launch processing												#
 #################################################################
 
-function att2:gameplay/shop/gambling/bets/launch_effect
+function att2:sound/misc/gambling_launch
+function att2:gameplay/shop/gambling/initialize
 
 scoreboard players set timer GAMBLING 75
 scoreboard players set launch GAMBLING 1

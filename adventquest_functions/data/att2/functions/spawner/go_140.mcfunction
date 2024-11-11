@@ -445,6 +445,10 @@ execute in minecraft:overworld positioned -7497 15 -4182 if entity @a[distance=5
 execute in minecraft:overworld positioned -7537 20 -4190 if entity @a[distance=5..25] run function att2:spawner/reg1/nojelanth/cave/hoglin0_class17_3862
 execute in minecraft:overworld positioned -7569 60 -4172 if entity @a[distance=5..25] run function att2:spawner/reg1/nojelanth/hive/bee0_class20_3873
 execute in minecraft:overworld positioned -7537 118 -4163 if entity @a[distance=5..25] run function att2:spawner/reg1/nojelanth/hive/bee0_class17_3885
+execute in minecraft:overworld positioned -7544 104 -4160 if entity @a[distance=5..20] run function att2:spawner/reg1/nojelanth/hive/bee0_class18_3882
+execute in minecraft:overworld positioned -7542 93 -4179 if entity @a[distance=5..20] run function att2:spawner/reg1/nojelanth/hive/bee0_class20_3880
+execute in minecraft:overworld positioned -7569 67 -4169 if entity @a[distance=5..20] run function att2:spawner/reg1/nojelanth/hive/bee0_class17_3877
+execute in minecraft:overworld positioned -7587 25 -4144 if entity @a[distance=5..20] run function att2:spawner/reg1/nojelanth/hive/bee0_class19_3868
 execute in minecraft:overworld positioned -5449 25 -3961 if entity @a[distance=5..25] run function att2:spawner/reg1/desert/lost_area/creeper0_class16_3892
 execute in minecraft:overworld positioned -5428 39 -4083 if entity @a[distance=5..30] run function att2:spawner/reg1/desert/lost_area/undead6_class20_3898
 execute in minecraft:overworld positioned -5565 37 -4048 if entity @a[distance=5..25] run function att2:spawner/reg1/desert/lost_area/husk0_class17_3908
@@ -857,3 +861,5 @@ execute in minecraft:overworld positioned -4738 24 -6049 if entity @a[distance=5
 execute in minecraft:overworld positioned -4624 45 -6120 if entity @a[distance=3..15] run function att2:spawner/reg1/silberland/secret_dungeon/wardenarcher1_class19_6141
 execute in minecraft:overworld positioned -4557 16 -6104 if entity @a[distance=3..20] run function att2:spawner/reg1/silberland/secret_dungeon/drowned0_class20_6144
 execute in minecraft:overworld positioned -4594 11 -6047 if entity @a[distance=3..15] run function att2:spawner/reg1/silberland/secret_dungeon/drowned0_class19_6151
+
+execute in minecraft:overworld positioned -7557 125 -4172 if entity @a[distance=5..20] run function att2:spawner/reg1/nojelanth/hive/bee0_class18_3886
