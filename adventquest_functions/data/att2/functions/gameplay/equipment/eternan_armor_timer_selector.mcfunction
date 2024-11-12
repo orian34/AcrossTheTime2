@@ -24,12 +24,12 @@ execute as @s[nbt={Inventory:[{Slot:102b,tag:{Manufacturer:"eternan",Rarity:"epi
 execute as @s[nbt={Inventory:[{Slot:101b,tag:{Manufacturer:"eternan",Rarity:"epi_set"}}]}] run scoreboard players set @s ETERN_ARM_TIMER 250
 execute as @s[nbt={Inventory:[{Slot:100b,tag:{Manufacturer:"eternan",Rarity:"epi_set"}}]}] run scoreboard players set @s ETERN_ARM_TIMER 250
 
-execute as @s[nbt={Inventory:[{Slot:103b,tag:{Manufacturer:"eternan",Rarity:"leg"}}]}] run scoreboard players set @s ETERN_ARM_TIMER 150
-execute as @s[nbt={Inventory:[{Slot:102b,tag:{Manufacturer:"eternan",Rarity:"leg"}}]}] run scoreboard players set @s ETERN_ARM_TIMER 150
-execute as @s[nbt={Inventory:[{Slot:101b,tag:{Manufacturer:"eternan",Rarity:"leg"}}]}] run scoreboard players set @s ETERN_ARM_TIMER 150
-execute as @s[nbt={Inventory:[{Slot:100b,tag:{Manufacturer:"eternan",Rarity:"leg"}}]}] run scoreboard players set @s ETERN_ARM_TIMER 150
+execute as @s[nbt={Inventory:[{Slot:103b,tag:{Manufacturer:"eternan",Rarity:"leg"}}]}] run scoreboard players set @s ETERN_ARM_TIMER 125
+execute as @s[nbt={Inventory:[{Slot:102b,tag:{Manufacturer:"eternan",Rarity:"leg"}}]}] run scoreboard players set @s ETERN_ARM_TIMER 125
+execute as @s[nbt={Inventory:[{Slot:101b,tag:{Manufacturer:"eternan",Rarity:"leg"}}]}] run scoreboard players set @s ETERN_ARM_TIMER 125
+execute as @s[nbt={Inventory:[{Slot:100b,tag:{Manufacturer:"eternan",Rarity:"leg"}}]}] run scoreboard players set @s ETERN_ARM_TIMER 125
 
-execute as @s[nbt={Inventory:[{Slot:103b,tag:{Manufacturer:"eternan",Rarity:"leg_armset"}}]}] run scoreboard players set @s ETERN_ARM_TIMER 150
-execute as @s[nbt={Inventory:[{Slot:102b,tag:{Manufacturer:"eternan",Rarity:"leg_armset"}}]}] run scoreboard players set @s ETERN_ARM_TIMER 150
-execute as @s[nbt={Inventory:[{Slot:101b,tag:{Manufacturer:"eternan",Rarity:"leg_armset"}}]}] run scoreboard players set @s ETERN_ARM_TIMER 150
-execute as @s[nbt={Inventory:[{Slot:100b,tag:{Manufacturer:"eternan",Rarity:"leg_armset"}}]}] run scoreboard players set @s ETERN_ARM_TIMER 150
+execute as @s[nbt={Inventory:[{Slot:103b,tag:{Manufacturer:"eternan",Rarity:"leg_armset"}}]}] run scoreboard players set @s ETERN_ARM_TIMER 125
+execute as @s[nbt={Inventory:[{Slot:102b,tag:{Manufacturer:"eternan",Rarity:"leg_armset"}}]}] run scoreboard players set @s ETERN_ARM_TIMER 125
+execute as @s[nbt={Inventory:[{Slot:101b,tag:{Manufacturer:"eternan",Rarity:"leg_armset"}}]}] run scoreboard players set @s ETERN_ARM_TIMER 125
+execute as @s[nbt={Inventory:[{Slot:100b,tag:{Manufacturer:"eternan",Rarity:"leg_armset"}}]}] run scoreboard players set @s ETERN_ARM_TIMER 125

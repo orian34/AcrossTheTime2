@@ -55,4 +55,4 @@ scoreboard objectives add TIMER_RES_SET dummy
 scoreboard objectives add TIMER_RES_EXT dummy
 
 scoreboard objectives add RES_UPGRADE_REQ dummy
-scoreboard players set @s RES_UPGRADE_REQ 2
+scoreboard players set @s RES_UPGRADE_REQ 4
