@@ -14,7 +14,6 @@ function att2:dialogs/gameplay/shop/showcase/spell/geyser
 function att2:dialogs/gameplay/shop/showcase/spell/tiid_klo_ul
 
 function att2:dialogs/gameplay/shop/items_selled_list/spell_summon_list
-function att2:dialogs/gameplay/shop/showcase/spell/stock
 function att2:dialogs/gameplay/shop/showcase/spell/appat
 function att2:dialogs/gameplay/shop/showcase/spell/hache_spectrale
 function att2:dialogs/gameplay/shop/showcase/spell/arc_spectral

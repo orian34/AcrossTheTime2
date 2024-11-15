@@ -15,12 +15,12 @@ function att2:gameplay/recycler/itemtotal_sold
 
 kill @e[type=item,distance=..1,nbt={Item:{id:"minecraft:arrow"}}]
 kill @e[type=item,distance=..1,nbt={Item:{id:"minecraft:spectral_arrow"}}]
-execute unless entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:written_book"}}] run kill @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"misc"}}}]
+execute as @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"misc"}}}] unless entity @s[type=minecraft:item,nbt={Item:{id:"minecraft:written_book"}}] run kill @s
 kill @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"com"}}}]
 kill @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"unc"}}}]
 kill @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"rar"}}}]
 kill @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"epi"}}}]
 kill @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"epi_set"}}}]
 kill @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"epi_esc"}}}]
-execute unless entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:written_book"}}] run kill @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"leg"}}}]
+execute as @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"leg"}}}] unless entity @s[type=minecraft:item,nbt={Item:{id:"minecraft:written_book"}}] run kill @s
 kill @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"leg_armset"}}}]

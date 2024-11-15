@@ -21,7 +21,7 @@ scoreboard players set number RECYCLER 0
 
 execute as @e[type=item,distance=..1,nbt={Item:{id:"minecraft:arrow"}}] run function att2:gameplay/recycler/total_arrow
 execute as @e[type=item,distance=..1,nbt={Item:{id:"minecraft:spectral_arrow"}}] run function att2:gameplay/recycler/total_arrow
-execute as @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"misc"}}}] unless entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:written_book"}}] run function att2:gameplay/recycler/total_misc
+execute as @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"misc"}}}] unless entity @s[type=minecraft:item,nbt={Item:{id:"minecraft:written_book"}}] run function att2:gameplay/recycler/total_misc
 execute as @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"leg"}}}] unless entity @s[type=minecraft:item,nbt={Item:{id:"minecraft:written_book"}}] run scoreboard players add leg RECYCLER 1
 execute store result score com RECYCLER if entity @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"com"}}}]
 execute store result score unc RECYCLER if entity @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"unc"}}}]

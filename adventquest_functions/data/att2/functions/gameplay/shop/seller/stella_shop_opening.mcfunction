@@ -12,7 +12,6 @@ function att2:dialogs/gameplay/shop/showcase/spell/tonnerre
 function att2:dialogs/gameplay/shop/showcase/spell/secousse
 
 function att2:dialogs/gameplay/shop/items_selled_list/spell_summon_list
-function att2:dialogs/gameplay/shop/showcase/spell/stock
 function att2:dialogs/gameplay/shop/showcase/spell/familier_vitalite
 function att2:dialogs/gameplay/shop/showcase/spell/familier_obstination
 function att2:dialogs/gameplay/shop/showcase/spell/golem
