@@ -9,4 +9,4 @@ execute as @s[scores={SPELL_OP=0..}] run scoreboard players set @s SPELL_SLCT 19
 execute as @s[scores={SPELL_OP=0..}] run function att2:gameplay/dahal/action/loadingsuccess
 execute unless entity @s[scores={SPELL_OP=0..}] run function att2:gameplay/dahal/action/loadingfail
 scoreboard players set @s SPELL_OP -1
-function att2:gameplay/dahal/action/launch
+execute if entity @s[scores={SPELL20_LVL=1..}] run function att2:gameplay/dahal/action/launch

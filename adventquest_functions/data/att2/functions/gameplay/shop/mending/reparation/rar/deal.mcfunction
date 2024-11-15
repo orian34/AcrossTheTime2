@@ -4,6 +4,7 @@
 #################################################################
 
 function att2:gameplay/shop/smith_leveling/add_mending_rar
+function att2:sound/misc/mending
 execute if score level statSMITH matches 0 run function att2:gameplay/shop/mending/validate_level0
 execute if score level statSMITH matches 1 run function att2:gameplay/shop/mending/validate_level1
 execute if score level statSMITH matches 2 run function att2:gameplay/shop/mending/validate_level2

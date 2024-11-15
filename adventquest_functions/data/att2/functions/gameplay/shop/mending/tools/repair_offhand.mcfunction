@@ -3,6 +3,7 @@
 #Deal mending for com item										#
 #################################################################
 
+function att2:sound/misc/mending
 execute if score level statSMITH matches 0 run function att2:gameplay/shop/mending/tools/validate_offhand_level0
 execute if score level statSMITH matches 1 run function att2:gameplay/shop/mending/tools/validate_offhand_level1
 execute if score level statSMITH matches 2 run function att2:gameplay/shop/mending/tools/validate_offhand_level2
