@@ -134,3 +134,6 @@ execute if block ~ ~ ~ minecraft:hopper{Items:[{id:"minecraft:glowstone_dust",Co
 
 # 2 x Zen + 3 x ESC = Mot
 execute if block ~ ~ ~ minecraft:hopper{Items:[{id:"minecraft:glowstone_dust",Count:1b,Slot:0b,tag:{EquipmentType:"rune",Rarity:"spe",CustomModelData:10000026}},{id:"minecraft:glowstone_dust",Count:1b,Slot:1b,tag:{EquipmentType:"rune",Rarity:"spe",CustomModelData:10000026}},{id:"minecraft:quartz",Count:1b,Slot:2b,tag:{EquipmentType:"misc",Rarity:"unk"}},{id:"minecraft:quartz",Count:1b,Slot:3b,tag:{EquipmentType:"misc",Rarity:"unk"}},{id:"minecraft:quartz",Count:1b,Slot:4b,tag:{EquipmentType:"misc",Rarity:"unk"}}]} run function att2:items/runes/26_mot
+
+# 1 x ESC = Mot
+execute if block ~ ~ ~ minecraft:hopper{Items:[{id:"minecraft:glowstone_dust",Count:1b,Slot:0b,tag:{EquipmentType:"rune",Rarity:"spe",CustomModelData:10000027}}]} run function att2:items/xp/1000000
