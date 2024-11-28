@@ -5,6 +5,8 @@
 
 scoreboard players remove @s DAHAL 27
 scoreboard players add @s SPELL40_LVL 1
+function att2:gameplay/dahal/bonus_xp
+scoreboard players operation @s SPELL40_LVL += @s BONUS_XP_SPELL
 
 scoreboard players set @s[scores={STR_LVL_DAB=..10}] STR_LVL_DAB 10
 scoreboard players set @s TIMER_STR_DAB 20
