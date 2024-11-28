@@ -4,7 +4,7 @@
             "item": "minecraft:glistering_melon_slice"
         },
         "title": {"translate":"High risk bet"},
-        "description": {"translate":"Deal a bet with 5000 Chronotons"},
+        "description": {"translate":"Deal a bet with 7777 Chronotons"},
         "frame": "goal"
     },
     "parent": "att2:treasure/bets_1",

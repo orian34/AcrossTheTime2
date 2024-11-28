@@ -13,6 +13,9 @@ execute store result score c7 GAMBLING at @e[tag=Gambling,sort=nearest,limit=1] 
 execute store result score c8 GAMBLING at @e[tag=Gambling,sort=nearest,limit=1] if entity @e[type=item,distance=..2,nbt={Item:{tag:{Rarity:"c8"}}}]
 execute store result score c9 GAMBLING at @e[tag=Gambling,sort=nearest,limit=1] if entity @e[type=item,distance=..2,nbt={Item:{tag:{Rarity:"c9"}}}]
 execute store result score c10 GAMBLING at @e[tag=Gambling,sort=nearest,limit=1] if entity @e[type=item,distance=..2,nbt={Item:{tag:{Rarity:"c10"}}}]
+execute store result score c11 GAMBLING at @e[tag=Gambling,sort=nearest,limit=1] if entity @e[type=item,distance=..2,nbt={Item:{tag:{Rarity:"c11"}}}]
+execute store result score c12 GAMBLING at @e[tag=Gambling,sort=nearest,limit=1] if entity @e[type=item,distance=..2,nbt={Item:{tag:{Rarity:"c12"}}}]
+execute store result score c13 GAMBLING at @e[tag=Gambling,sort=nearest,limit=1] if entity @e[type=item,distance=..2,nbt={Item:{tag:{Rarity:"c13"}}}]
 
 scoreboard players operation estimate_c1 GAMBLING = c1 GAMBLING
 scoreboard players operation estimate_c2 GAMBLING = c2 GAMBLING
@@ -24,6 +27,9 @@ scoreboard players operation estimate_c7 GAMBLING = c7 GAMBLING
 scoreboard players operation estimate_c8 GAMBLING = c8 GAMBLING
 scoreboard players operation estimate_c9 GAMBLING = c9 GAMBLING
 scoreboard players operation estimate_c10 GAMBLING = c10 GAMBLING
+scoreboard players operation estimate_c11 GAMBLING = c11 GAMBLING
+scoreboard players operation estimate_c12 GAMBLING = c12 GAMBLING
+scoreboard players operation estimate_c13 GAMBLING = c13 GAMBLING
 
 scoreboard players operation estimate_c1 GAMBLING *= 1 GAMBLING
 scoreboard players operation estimate_c2 GAMBLING *= 2 GAMBLING
@@ -35,6 +41,9 @@ scoreboard players operation estimate_c7 GAMBLING *= 7 GAMBLING
 scoreboard players operation estimate_c8 GAMBLING *= 8 GAMBLING
 scoreboard players operation estimate_c9 GAMBLING *= 9 GAMBLING
 scoreboard players operation estimate_c10 GAMBLING *= 10 GAMBLING
+scoreboard players operation estimate_c11 GAMBLING *= 11 GAMBLING
+scoreboard players operation estimate_c12 GAMBLING *= 12 GAMBLING
+scoreboard players operation estimate_c13 GAMBLING *= 13 GAMBLING
 
 scoreboard players operation estimate GAMBLING += estimate_c1 GAMBLING
 scoreboard players operation estimate GAMBLING += estimate_c2 GAMBLING
@@ -46,3 +55,6 @@ scoreboard players operation estimate GAMBLING += estimate_c7 GAMBLING
 scoreboard players operation estimate GAMBLING += estimate_c8 GAMBLING
 scoreboard players operation estimate GAMBLING += estimate_c9 GAMBLING
 scoreboard players operation estimate GAMBLING += estimate_c10 GAMBLING
+scoreboard players operation estimate GAMBLING += estimate_c11 GAMBLING
+scoreboard players operation estimate GAMBLING += estimate_c12 GAMBLING
+scoreboard players operation estimate GAMBLING += estimate_c13 GAMBLING

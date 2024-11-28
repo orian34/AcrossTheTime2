@@ -15,15 +15,11 @@ function att2:summon/gambling_bets2
 function att2:summon/gambling_bets2
 function att2:summon/gambling_bets2
 function att2:summon/gambling_bets2
-function att2:summon/gambling_bets2
 
 function att2:summon/gambling_bets3
 function att2:summon/gambling_bets3
 function att2:summon/gambling_bets3
-function att2:summon/gambling_bets3
-function att2:summon/gambling_bets3
 
-function att2:summon/gambling_bets4
 function att2:summon/gambling_bets4
 function att2:summon/gambling_bets4
 
