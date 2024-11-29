@@ -3,16 +3,16 @@
 #Process Tiid Klo Ul incantation								#
 #################################################################
 
-execute as @s[scores={SPELL_SLCT=81,DAHAL=10..}] at @s run function att2:gameplay/dahal/action/spell9/lvl1
-execute as @s[scores={SPELL_SLCT=82,DAHAL=25..}] at @s run function att2:gameplay/dahal/action/spell9/lvl2
-execute as @s[scores={SPELL_SLCT=83,DAHAL=50..}] at @s run function att2:gameplay/dahal/action/spell9/lvl3
-execute as @s[scores={SPELL_SLCT=84,DAHAL=75..}] at @s run function att2:gameplay/dahal/action/spell9/lvl4
-execute as @s[scores={SPELL_SLCT=85,DAHAL=100..}] at @s run function att2:gameplay/dahal/action/spell9/lvl5
-execute as @s[scores={SPELL_SLCT=86,DAHAL=125..}] at @s run function att2:gameplay/dahal/action/spell9/lvl6
-execute as @s[scores={SPELL_SLCT=87,DAHAL=150..}] at @s run function att2:gameplay/dahal/action/spell9/lvl7
-execute as @s[scores={SPELL_SLCT=88,DAHAL=175..}] at @s run function att2:gameplay/dahal/action/spell9/lvl8
-execute as @s[scores={SPELL_SLCT=89,DAHAL=200..}] at @s run function att2:gameplay/dahal/action/spell9/lvl9
-execute as @s[scores={SPELL_SLCT=90,DAHAL=250..}] at @s run function att2:gameplay/dahal/action/spell9/lvl10
+execute as @s[scores={SPELL_SLCT=81,DAHAL=25..}] at @s run function att2:gameplay/dahal/action/spell9/lvl1
+execute as @s[scores={SPELL_SLCT=82,DAHAL=50..}] at @s run function att2:gameplay/dahal/action/spell9/lvl2
+execute as @s[scores={SPELL_SLCT=83,DAHAL=75..}] at @s run function att2:gameplay/dahal/action/spell9/lvl3
+execute as @s[scores={SPELL_SLCT=84,DAHAL=100..}] at @s run function att2:gameplay/dahal/action/spell9/lvl4
+execute as @s[scores={SPELL_SLCT=85,DAHAL=125..}] at @s run function att2:gameplay/dahal/action/spell9/lvl5
+execute as @s[scores={SPELL_SLCT=86,DAHAL=150..}] at @s run function att2:gameplay/dahal/action/spell9/lvl6
+execute as @s[scores={SPELL_SLCT=87,DAHAL=175..}] at @s run function att2:gameplay/dahal/action/spell9/lvl7
+execute as @s[scores={SPELL_SLCT=88,DAHAL=200..}] at @s run function att2:gameplay/dahal/action/spell9/lvl8
+execute as @s[scores={SPELL_SLCT=89,DAHAL=225..}] at @s run function att2:gameplay/dahal/action/spell9/lvl9
+execute as @s[scores={SPELL_SLCT=90,DAHAL=275..}] at @s run function att2:gameplay/dahal/action/spell9/lvl10
 
 # Retrieving The lvl up (cap) value to compare it to current xp level
 scoreboard players operation @s SPELL_OP = @s SPELL9_LVL

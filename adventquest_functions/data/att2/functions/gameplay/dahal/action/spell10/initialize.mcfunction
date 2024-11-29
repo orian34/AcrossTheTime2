@@ -19,4 +19,4 @@ scoreboard players set cap6 SPELL10_LVL 223
 scoreboard players set cap7 SPELL10_LVL 400
 scoreboard players set cap8 SPELL10_LVL 750
 scoreboard players set cap9 SPELL10_LVL 1250
-scoreboard players set cap10 SPELL10_LVL 2000
+scoreboard players set cap10 SPELL10_LVL 2500

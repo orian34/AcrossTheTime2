@@ -12,4 +12,4 @@ scoreboard players set @s[scores={SPELL4_CAP=6}] COOLDOWN4 110
 scoreboard players set @s[scores={SPELL4_CAP=7}] COOLDOWN4 100
 scoreboard players set @s[scores={SPELL4_CAP=8}] COOLDOWN4 80
 scoreboard players set @s[scores={SPELL4_CAP=9}] COOLDOWN4 50
-scoreboard players set @s[scores={SPELL4_CAP=10}] COOLDOWN4 10
+scoreboard players set @s[scores={SPELL4_CAP=10}] COOLDOWN4 25
