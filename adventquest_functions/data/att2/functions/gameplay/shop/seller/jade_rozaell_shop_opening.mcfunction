@@ -12,6 +12,7 @@ function att2:dialogs/gameplay/shop/showcase/weapon/epi_esc/diamond_shovel_170
 function att2:dialogs/gameplay/shop/showcase/weapon/epi_esc/diamond_sword_171
 function att2:dialogs/gameplay/shop/showcase/weapon/epi_esc/netherite_hoe_334
 function att2:dialogs/gameplay/shop/showcase/weapon/epi_esc/netherite_shovel_332
+function att2:dialogs/gameplay/shop/showcase/weapon/epi_esc/netherite_sword_333
 function att2:dialogs/gameplay/shop/showcase/weapon/epi_esc/crossbow_336
 function att2:dialogs/gameplay/shop/showcase/weapon/epi_esc/bow_173
 function att2:dialogs/gameplay/shop/showcase/weapon/epi_esc/shield_174
