@@ -7,10 +7,10 @@ function att2:dialogs/gameplay/assist/decoration_up
 
 
 #FRENCH LANGUAGE
-tellraw @s[scores={LANGUAGE=0}] {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"Il existe plus de 400 <Checkpoints> disponible à travers toutes dimensions.","color":"gray","bold":false}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"Le dernier pari à 7777 Chronotons peut donner également des objets venant de la dimension <Angband>, <Billgart> et <Ouranos>.","color":"gray","bold":false}]}
 
 #ENGLISH LANGUAGE
-tellraw @s[scores={LANGUAGE=1..}] {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"There are over 400 <Checkpoints> available across all dimensions.","color":"gray","bold":false}]}
+tellraw @s[scores={LANGUAGE=1..}] {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"The last bet at 7777 Chronotons can also give objects from the <Angband>, <Billgart> and <Ouranos> dimensions.","color":"gray","bold":false}]}
 
 
 function att2:dialogs/gameplay/assist/decoration_down

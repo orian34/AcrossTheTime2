@@ -7,10 +7,10 @@ function att2:dialogs/gameplay/assist/decoration_up
 
 
 #FRENCH LANGUAGE
-tellraw @s[scores={LANGUAGE=0}] {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"Chaque niveau de forge débloque une capacité supplémentaire de vente d'armes ou armures et augmente le taux de réparation des objets.","color":"gray","bold":false}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"Plus de 1300 symboles <Adventquest> sont dissimulés dans toutes les dimensions du jeu. Les récupérer vous offrira des chronotons.","color":"gray","bold":false}]}
 
 #ENGLISH LANGUAGE
-tellraw @s[scores={LANGUAGE=1..}] {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"Each level of blacksmithing unlocks an additional ability to sell weapons or armor and increases the repair rate of items.","color":"gray","bold":false}]}
+tellraw @s[scores={LANGUAGE=1..}] {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"Over 1300 <Adventquest> symbols are hidden in all dimensions of the game. Collecting them will grant you chronotons.","color":"gray","bold":false}]}
 
 
 function att2:dialogs/gameplay/assist/decoration_down

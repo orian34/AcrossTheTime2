@@ -7,10 +7,10 @@ function att2:dialogs/gameplay/assist/decoration_up
 
 
 #FRENCH LANGUAGE
-tellraw @s[scores={LANGUAGE=0}] {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"Il existerait un donjon caché à l'est de la région de Sylberländ, certains parle d'une entrée accessible verrouillé par d'anciennes runes...","color":"gray","bold":false}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"Dispersé dans les profondeurs de Sylberländ, vous pouvez trouver des minerais runiques et les miner avec un clique droit. De 3 raretés différentes, ils donnent des runes plus ou moins rare.","color":"gray","bold":false}]}
 
 #ENGLISH LANGUAGE
-tellraw @s[scores={LANGUAGE=1..}] {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"There is said to be a hidden dungeon to the east of the Sylberländ region, some speak of an accessible entrance locked by ancient runes...","color":"gray","bold":false}]}
+tellraw @s[scores={LANGUAGE=1..}] {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"Scattered throughout the depths of Sylberländ, you can find runic ores and mine them with a right click. Of 3 different rarities, they give more or less rare runes.","color":"gray","bold":false}]}
 
 
 function att2:dialogs/gameplay/assist/decoration_down
