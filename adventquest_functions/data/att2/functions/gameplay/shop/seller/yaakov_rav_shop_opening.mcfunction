@@ -24,3 +24,6 @@ function att2:dialogs/gameplay/shop/items_selled_list/spell_alteration_list
 function att2:dialogs/gameplay/shop/showcase/spell/cicatrisation
 function att2:dialogs/gameplay/shop/showcase/spell/insaisissable
 function att2:dialogs/gameplay/shop/showcase/spell/berserk
+
+execute if entity @s[advancements={att2:hunting/extratellur=true}] run function att2:dialogs/gameplay/shop/items_selled_list/misc_list
+execute if entity @s[advancements={att2:hunting/extratellur=true}] run function att2:dialogs/gameplay/shop/showcase/spell/secret_seeker
