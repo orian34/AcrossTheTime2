@@ -16,7 +16,7 @@
                 "items": [
                     {
                     "items": ["minecraft:diamond_hoe"],
-                    "nbt": "{display:{Name:\"\\\"§7Reste de joute\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Lance usé.\\\"}\",\"{\\\"text\\\":\\\"§7Worn spear.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§c-1\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§7Reste de joute\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Lance usée.\\\"}\",\"{\\\"text\\\":\\\"§7Worn spear.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§c-1\\\"}\"]}}"
                     }
                 ]
             }

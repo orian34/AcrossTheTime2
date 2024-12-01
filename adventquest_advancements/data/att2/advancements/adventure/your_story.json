@@ -4,7 +4,7 @@
             "item": "minecraft:written_book"
         },
         "title": {"translate":"Your Story!"},
-        "description": {"translate":"Write note and make a book."}
+        "description": {"translate":"Write notes and make a book."}
     },
     "parent": "att2:adventure/root",
     "rewards": {

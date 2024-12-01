@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:deepslate_gold_ore"
         },
-        "title": {"translate":"All Eternän Weapon"},
-        "description": {"translate":"Find all Eternän weapon"},
+        "title": {"translate":"All Eternän Weapons"},
+        "description": {"translate":"Find all Eternän weapons"},
         "frame": "challenge"
     },
     "parent": "att2:collection/weapon_angband",

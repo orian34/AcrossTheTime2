@@ -4,7 +4,7 @@
             "item": "minecraft:netherite_leggings"
         },
         "title": {"translate":"Béquille d'obsidienne"},
-        "description": {"translate":"In honor of those who have died, waiting for the sequel to the elder scroll 5."},
+        "description": {"translate":"In honor of those who have died, waiting for the sequel to the elder scrolls 5."},
         "show_toast": false,
         "announce_to_chat": true
     },
@@ -16,7 +16,7 @@
                 "items": [
                     {
                     "items": ["minecraft:netherite_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§2Béquille d'obsidienne\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7En l'honneur de ceux qui sont morts,\\\"}\",\"{\\\"text\\\":\\\"§7en attendant la suite du parchemin des anciens 5.\\\"}\",\"{\\\"text\\\":\\\"§7In honor of those who have died,\\\"}\",\"{\\\"text\\\":\\\"§7waiting for the sequel to the elder scroll 5.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a2 §7HAS§c-1\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§2Béquille d'obsidienne\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7En l'honneur de ceux qui sont morts,\\\"}\",\"{\\\"text\\\":\\\"§7en attendant la suite de The Elder Scrolls 5.\\\"}\",\"{\\\"text\\\":\\\"§7In honor of those who have died,\\\"}\",\"{\\\"text\\\":\\\"§7waiting for the sequel to the elder scrolls 5.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a2 §7HAS§c-1\\\"}\"]}}"
                     }
                 ]
             }

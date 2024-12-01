@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:green_candle"
         },
-        "title": {"translate":"All Uncommon"},
+        "title": {"translate":"All Uncommons"},
         "description": {"translate":"Find all uncommon items"},
         "frame": "challenge"
     },

@@ -4,7 +4,7 @@
             "item": "minecraft:crossbow"
         },
         "title": {"translate":"Tir défaillant "},
-        "description": {"translate":"One in two chance of working."},
+        "description": {"translate":"One in two chances of working."},
         "show_toast": false,
         "announce_to_chat": true
     },
@@ -16,7 +16,7 @@
                 "items": [
                     {
                     "items": ["minecraft:crossbow"],
-                    "nbt": "{display:{Name:\"\\\"§7Tir défaillant \\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Une chance sur deux de fonctionner.\\\"}\",\"{\\\"text\\\":\\\"§7One in two chance of working.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§c-1 §7DAR§c-1\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§7Tir défaillant \\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Une chance sur deux de fonctionner.\\\"}\",\"{\\\"text\\\":\\\"§7One in two chances of working.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§c-1 §7DAR§c-1\\\"}\"]}}"
                     }
                 ]
             }

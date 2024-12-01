@@ -4,7 +4,7 @@
             "item": "minecraft:white_bed"
         },
         "title": {"translate":"A little nap!"},
-        "description": {"translate":"Booked a room in a inn to sleep."}
+        "description": {"translate":"Booked a room in an inn to sleep."}
     },
     "parent": "att2:adventure/root",
     "rewards": {

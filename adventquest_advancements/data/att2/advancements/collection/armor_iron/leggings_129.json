@@ -20,7 +20,7 @@
                 "items": [
                     {
                     "items": ["minecraft:iron_leggings"],
-                    "nbt": "{display:{Name:\"\\\"§6Porte-nuit\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Rampante, traînant sur le sol glacial,\\\"}\",\"{\\\"text\\\":\\\"§7l'ombre ténue ne meure jamais.\\\"}\",\"{\\\"text\\\":\\\"§7Crawling, crawling on the icy ground,\\\"}\",\"{\\\"text\\\":\\\"§7the tenuous shadow never dies.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HER§a2\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§6Porte-nuit\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Rampante, traînant sur le sol glacial,\\\"}\",\"{\\\"text\\\":\\\"§7l'ombre ténue ne meurt jamais.\\\"}\",\"{\\\"text\\\":\\\"§7Crawling, crawling on the icy ground,\\\"}\",\"{\\\"text\\\":\\\"§7the tenuous shadow never dies.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HER§a2\\\"}\"]}}"
                     }
                 ]
             }

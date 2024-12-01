@@ -16,7 +16,7 @@
                 "items": [
                     {
                     "items": ["minecraft:wooden_sword"],
-                    "nbt": "{display:{Name:\"\\\"§2Aïeul\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Puisses-tu être fier de moi, ancêtre.\\\"}\",\"{\\\"text\\\":\\\"§7May you be proud of me, ancestor.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a2 §7HER§c-1\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§2Aïeul\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Puisse-tu être fier de moi, ancêtre.\\\"}\",\"{\\\"text\\\":\\\"§7May you be proud of me, ancestor.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a2 §7HER§c-1\\\"}\"]}}"
                     }
                 ]
             }

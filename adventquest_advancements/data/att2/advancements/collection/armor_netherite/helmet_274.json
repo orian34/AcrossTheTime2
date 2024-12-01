@@ -16,7 +16,7 @@
                 "items": [
                     {
                     "items": ["minecraft:netherite_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§2Bourguignotte\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7On y vois pas grand chose, mais ça protège...\\\"}\",\"{\\\"text\\\":\\\"§7You can't see much, but it protects...\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§2Bourguignotte\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7On y voit pas grand chose, mais ça protège...\\\"}\",\"{\\\"text\\\":\\\"§7You can't see much, but it protects...\\\"}\"]}}"
                     }
                 ]
             }

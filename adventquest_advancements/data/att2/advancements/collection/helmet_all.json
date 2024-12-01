@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:stripped_jungle_log"
         },
-        "title": {"translate":"All Helmet"},
+        "title": {"translate":"All Helmets"},
         "description": {"translate":"Find all helmet items"},
         "frame": "challenge"
     },

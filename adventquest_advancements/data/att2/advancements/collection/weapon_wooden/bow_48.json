@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:bow"
         },
-        "title": {"translate":"Sompteuse célérité"},
+        "title": {"translate":"Somptueuse célérité"},
         "description": {"translate":"Like shooting stars, your arrows are blasting."},
         "frame": "challenge",
         "show_toast": true,
@@ -20,7 +20,7 @@
                 "items": [
                     {
                     "items": ["minecraft:bow"],
-                    "nbt": "{display:{Name:\"\\\"§6Sompteuse célérité\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Telles des étoiles filantes, \\\"}\",\"{\\\"text\\\":\\\"§7fusent tes flèches.\\\"}\",\"{\\\"text\\\":\\\"§7Like shooting stars,\\\"}\",\"{\\\"text\\\":\\\"§7your arrows are blasting.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7LUC§a1 §7HUN§a2\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§6Somptueuse célérité\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Telles des étoiles filantes, \\\"}\",\"{\\\"text\\\":\\\"§7fusent tes flèches.\\\"}\",\"{\\\"text\\\":\\\"§7Like shooting stars,\\\"}\",\"{\\\"text\\\":\\\"§7your arrows are blasting.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7LUC§a1 §7HUN§a2\\\"}\"]}}"
                     }
                 ]
             }

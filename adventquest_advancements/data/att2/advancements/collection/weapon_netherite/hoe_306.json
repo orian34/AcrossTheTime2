@@ -20,7 +20,7 @@
                 "items": [
                     {
                     "items": ["minecraft:netherite_hoe"],
-                    "nbt": "{display:{Name:\"\\\"§9Sommité\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7A l'orée de la pointe, tu ne saurais\\\"}\",\"{\\\"text\\\":\\\"§7apsirer à moins de létalité.\\\"}\",\"{\\\"text\\\":\\\"§7At the edge of the point, you could\\\"}\",\"{\\\"text\\\":\\\"§7not aspire to less lethality.\\\"}\",\"{\\\"text\\\":\\\"§7HUN§a2 §7DAR§c-1\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§9Sommité\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7A l'orée de la pointe, tu ne saurais\\\"}\",\"{\\\"text\\\":\\\"§7aspirer à moins de létalité.\\\"}\",\"{\\\"text\\\":\\\"§7At the edge of the point, you could\\\"}\",\"{\\\"text\\\":\\\"§7not aspire to less lethality.\\\"}\",\"{\\\"text\\\":\\\"§7HUN§a2 §7DAR§c-1\\\"}\"]}}"
                     }
                 ]
             }

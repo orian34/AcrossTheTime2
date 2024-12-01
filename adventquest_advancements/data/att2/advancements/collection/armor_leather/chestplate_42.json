@@ -20,7 +20,7 @@
                 "items": [
                     {
                     "items": ["minecraft:leather_chestplate"],
-                    "nbt": "{display:{Name:\"\\\"§9Souselet\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Orné de trace de combat.\\\"}\",\"{\\\"text\\\":\\\"§7Marked with a trace of combat.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7SPD§a1 §7RES§c-2\\\"}\"],color:12693170}}"
+                    "nbt": "{display:{Name:\"\\\"§9Souselet\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Orné d'une trace de combat.\\\"}\",\"{\\\"text\\\":\\\"§7Marked with a trace of combat.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7SPD§a1 §7RES§c-2\\\"}\"],color:12693170}}"
                     }
                 ]
             }

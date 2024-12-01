@@ -20,7 +20,7 @@
                 "items": [
                     {
                     "items": ["minecraft:diamond_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§9Protège crâne du voyageur\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Une flêche perdue peut arriver vite...\\\"}\",\"{\\\"text\\\":\\\"§7A stray arrow can happen quickly...\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HUN§a1 §7HER§c-1\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§9Protège crâne du voyageur\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Une flèche perdue peut arriver vite...\\\"}\",\"{\\\"text\\\":\\\"§7A stray arrow can happen quickly...\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HUN§a1 §7HER§c-1\\\"}\"]}}"
                     }
                 ]
             }

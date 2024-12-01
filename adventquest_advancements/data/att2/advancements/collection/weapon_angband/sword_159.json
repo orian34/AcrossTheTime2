@@ -20,7 +20,7 @@
                 "items": [
                     {
                     "items": ["minecraft:golden_sword"],
-                    "nbt": "{display:{Name:\"\\\"§6Kron ganth dinjir\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Souviens-toi du temps avant le temps,\\\"}\",\"{\\\"text\\\":\\\"§7et transcendes-toi dans les mains du vrai maître.\\\"}\",\"{\\\"text\\\":\\\"§7Remember the time before time, and transcend\\\"}\",\"{\\\"text\\\":\\\"§7yourself through the hands of the true master.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HER§a2 §7DAR§a2\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§6Kron ganth dinjir\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Souviens-toi du temps avant le temps,\\\"}\",\"{\\\"text\\\":\\\"§7et transcende-toi dans les mains du vrai maître.\\\"}\",\"{\\\"text\\\":\\\"§7Remember the time before time, and transcend\\\"}\",\"{\\\"text\\\":\\\"§7yourself through the hands of the true master.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HER§a2 §7DAR§a2\\\"}\"]}}"
                     }
                 ]
             }

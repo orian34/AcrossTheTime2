@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:orange_candle"
         },
-        "title": {"translate":"All Legendary"},
+        "title": {"translate":"All Legendaries"},
         "description": {"translate":"Find all legendary items"},
         "frame": "challenge"
     },

@@ -20,7 +20,7 @@
                 "items": [
                     {
                     "items": ["minecraft:diamond_boots"],
-                    "nbt": "{display:{Name:\"\\\"§9Marque-terre\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Une emprunte pour laquelle aucun\\\"}\",\"{\\\"text\\\":\\\"§7sol ne résiste, pas même la roche.\\\"}\",\"{\\\"text\\\":\\\"§7A footprint for which no soil\\\"}\",\"{\\\"text\\\":\\\"§7can resist, not even rock.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a4 §7HER§c-1\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§9Marque-terre\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Une empreinte pour laquelle aucun\\\"}\",\"{\\\"text\\\":\\\"§7sol ne résiste, pas même la roche.\\\"}\",\"{\\\"text\\\":\\\"§7A footprint for which no soil\\\"}\",\"{\\\"text\\\":\\\"§7can resist, not even rock.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a4 §7HER§c-1\\\"}\"]}}"
                     }
                 ]
             }

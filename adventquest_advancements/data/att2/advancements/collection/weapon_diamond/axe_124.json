@@ -20,7 +20,7 @@
                 "items": [
                     {
                     "items": ["minecraft:diamond_axe"],
-                    "nbt": "{display:{Name:\"\\\"§6Songes fulgurants\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Clair comme obscure, rien ne peut bouleverser\\\"}\",\"{\\\"text\\\":\\\"§7l'éclat de la plus splendide des nuits.\\\"}\",\"{\\\"text\\\":\\\"§7Light as dark, nothing can upset\\\"}\",\"{\\\"text\\\":\\\"§7the brightness of the most splendid night.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7SPD§a2 §7HAS§a2 §7LUC§a1\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§6Songes fulgurants\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Claire comme obscure, rien ne peut bouleverser\\\"}\",\"{\\\"text\\\":\\\"§7l'éclat de la plus splendide des nuits.\\\"}\",\"{\\\"text\\\":\\\"§7Light as dark, nothing can upset\\\"}\",\"{\\\"text\\\":\\\"§7the brightness of the most splendid night.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7SPD§a2 §7HAS§a2 §7LUC§a1\\\"}\"]}}"
                     }
                 ]
             }

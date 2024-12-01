@@ -4,7 +4,7 @@
             "item": "minecraft:leather_boots"
         },
         "title": {"translate":"Souliers stupéfiants"},
-        "description": {"translate":"Drasticaly increase your Dahäl regeneration."},
+        "description": {"translate":"Drastically increase your Dahäl regeneration."},
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true
@@ -20,7 +20,7 @@
                 "items": [
                     {
                     "items": ["minecraft:leather_boots"],
-                    "nbt": "{display:{Name:\"\\\"§6Souliers stupéfiants\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aAugmente drastiquement votre\\\"}\",\"{\\\"text\\\":\\\"§arécupération de Dahäl.\\\"}\",\"{\\\"text\\\":\\\"§aDrasticaly increase your\\\"}\",\"{\\\"text\\\":\\\"§aDahäl regeneration.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§a2 §7STR§c-1\\\"}\"],color:0}}"
+                    "nbt": "{display:{Name:\"\\\"§6Souliers stupéfiants\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§aAugmente drastiquement votre\\\"}\",\"{\\\"text\\\":\\\"§arécupération de Dahäl.\\\"}\",\"{\\\"text\\\":\\\"§aDrastically increase your\\\"}\",\"{\\\"text\\\":\\\"§aDahäl regeneration.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§a2 §7STR§c-1\\\"}\"],color:0}}"
                     }
                 ]
             }

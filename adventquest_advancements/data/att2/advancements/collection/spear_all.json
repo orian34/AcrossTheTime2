@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:muddy_mangrove_roots"
         },
-        "title": {"translate":"All Spear"},
+        "title": {"translate":"All Spears"},
         "description": {"translate":"Find all spear items"},
         "frame": "challenge"
     },

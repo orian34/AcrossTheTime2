@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:stripped_dark_oak_log"
         },
-        "title": {"translate":"All Dagger"},
+        "title": {"translate":"All Daggers"},
         "description": {"translate":"Find all dagger items"},
         "frame": "challenge"
     },

@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:stripped_birch_log"
         },
-        "title": {"translate":"All Chestplate"},
+        "title": {"translate":"All Chestplates"},
         "description": {"translate":"Find all chestplate items"},
         "frame": "challenge"
     },

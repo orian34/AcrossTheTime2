@@ -20,7 +20,7 @@
                 "items": [
                     {
                     "items": ["minecraft:stone_shovel"],
-                    "nbt": "{display:{Name:\"\\\"§9Dernier recours\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Le sage à toujours un second plan.\\\"}\",\"{\\\"text\\\":\\\"§7The wise man always has a back seat.\\\"}\",\"{\\\"text\\\":\\\"§7HER§a1 §7LUC§a1 §7HUN§c-2\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§9Dernier recours\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Le sage a toujours un second plan.\\\"}\",\"{\\\"text\\\":\\\"§7The wise man always has a back seat.\\\"}\",\"{\\\"text\\\":\\\"§7HER§a1 §7LUC§a1 §7HUN§c-2\\\"}\"]}}"
                     }
                 ]
             }

@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:pumpkin"
         },
-        "title": {"translate":"All Shield"},
+        "title": {"translate":"All Shields"},
         "description": {"translate":"Find all shield items"},
         "frame": "challenge"
     },

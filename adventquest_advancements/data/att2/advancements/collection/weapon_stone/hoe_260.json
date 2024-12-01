@@ -4,7 +4,7 @@
             "item": "minecraft:wooden_hoe"
         },
         "title": {"translate":"Esponton saillant"},
-        "description": {"translate":"Brandishes vertically, is the pride of the soldier and the plague of the rascal."},
+        "description": {"translate":"Brandished vertically, is the pride of the soldier and the plague of the rascal."},
         "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true
@@ -20,7 +20,7 @@
                 "items": [
                     {
                     "items": ["minecraft:wooden_hoe"],
-                    "nbt": "{display:{Name:\"\\\"§5Esponton saillant\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Brandie verticalement,\\\"}\",\"{\\\"text\\\":\\\"§7 fait la fierté du soldat et la peste du faquin.\\\"}\",\"{\\\"text\\\":\\\"§7Brandishes vertically,\\\"}\",\"{\\\"text\\\":\\\"§7is the pride of the soldier and the plague of the rascal.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HER§a1 §7HAS§c-2\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§5Esponton saillant\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Brandie verticalement,\\\"}\",\"{\\\"text\\\":\\\"§7 fait la fierté du soldat et la peste du faquin.\\\"}\",\"{\\\"text\\\":\\\"§7Brandished vertically,\\\"}\",\"{\\\"text\\\":\\\"§7is the pride of the soldier and the plague of the rascal.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HER§a1 §7HAS§c-2\\\"}\"]}}"
                     }
                 ]
             }

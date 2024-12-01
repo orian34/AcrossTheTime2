@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:raw_copper_block"
         },
-        "title": {"translate":"All Teran Weapon"},
-        "description": {"translate":"Find all Teran weapon"},
+        "title": {"translate":"All Teran Weapons"},
+        "description": {"translate":"Find all Teran weapons"},
         "frame": "challenge"
     },
     "parent": "att2:collection/weapon_wooden",

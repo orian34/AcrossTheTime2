@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:golden_boots"
         },
-        "title": {"translate":"Chaussettes dorée"},
+        "title": {"translate":"Chaussettes dorées"},
         "description": {"translate":"Keep your feet on the spawning ground."},
         "show_toast": false,
         "announce_to_chat": true
@@ -16,7 +16,7 @@
                 "items": [
                     {
                     "items": ["minecraft:golden_boots"],
-                    "nbt": "{display:{Name:\"\\\"§7Chaussettes dorée\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Garde les pieds au frai.\\\"}\",\"{\\\"text\\\":\\\"§7Keep your feet on the spawning ground.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§c-2\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§7Chaussettes dorées\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Garde les pieds au frais.\\\"}\",\"{\\\"text\\\":\\\"§7Keep your feet on the spawning ground.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§c-2\\\"}\"]}}"
                     }
                 ]
             }

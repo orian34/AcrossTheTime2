@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:light_gray_candle"
         },
-        "title": {"translate":"All Common"},
+        "title": {"translate":"All Commons"},
         "description": {"translate":"Find all common items"},
         "frame": "challenge"
     },

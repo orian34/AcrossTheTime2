@@ -20,7 +20,7 @@
                 "items": [
                     {
                     "items": ["minecraft:stone_shovel"],
-                    "nbt": "{display:{Name:\"\\\"§6Nuage des cités endormies\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Et ne me rappellez pas la maison\\\"}\",\"{\\\"text\\\":\\\"§7ou je pourrais réaliser où je suis.\\\"}\",\"{\\\"text\\\":\\\"§7And don't remind me of home or\\\"}\",\"{\\\"text\\\":\\\"§7I might notice where I am.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7DAR§a3\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§6Nuage des cités endormies\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Et ne me rappelez pas la maison\\\"}\",\"{\\\"text\\\":\\\"§7ou je pourrais réaliser où je suis.\\\"}\",\"{\\\"text\\\":\\\"§7And don't remind me of home or\\\"}\",\"{\\\"text\\\":\\\"§7I might notice where I am.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7DAR§a3\\\"}\"]}}"
                     }
                 ]
             }

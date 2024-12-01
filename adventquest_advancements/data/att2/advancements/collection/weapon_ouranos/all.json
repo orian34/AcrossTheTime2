@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:raw_gold_block"
         },
-        "title": {"translate":"All Ouranos Weapon"},
-        "description": {"translate":"Find all Ouranos weapon"},
+        "title": {"translate":"All Ouranos Weapons"},
+        "description": {"translate":"Find all Ouranos weapons"},
         "frame": "challenge"
     },
     "parent": "att2:collection/weapon_ouranos",

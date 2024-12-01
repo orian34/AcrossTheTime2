@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:deepslate_coal_ore"
         },
-        "title": {"translate":"All Harmonious Weapon"},
-        "description": {"translate":"Find all Harmonious weapon"},
+        "title": {"translate":"All Harmonious Weapons"},
+        "description": {"translate":"Find all Harmonious weapons"},
         "frame": "challenge"
     },
     "parent": "att2:collection/weapon_netherite",

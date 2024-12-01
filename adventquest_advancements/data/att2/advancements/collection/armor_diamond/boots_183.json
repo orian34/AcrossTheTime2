@@ -16,7 +16,7 @@
                 "items": [
                     {
                     "items": ["minecraft:diamond_boots"],
-                    "nbt": "{display:{Name:\"\\\"§2Botte du premier enfant\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Il ne reste plus que des reliques\\\"}\",\"{\\\"text\\\":\\\"§7des vielles traditions.\\\"}\",\"{\\\"text\\\":\\\"§7All that remains are relics\\\"}\",\"{\\\"text\\\":\\\"§7of the old traditions.\\\"}\",\"{\\\"text\\\":\\\"§7HER§c-1\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§2Botte du premier enfant\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Il ne reste plus que des reliques\\\"}\",\"{\\\"text\\\":\\\"§7des vieilles traditions.\\\"}\",\"{\\\"text\\\":\\\"§7All that remains are relics\\\"}\",\"{\\\"text\\\":\\\"§7of the old traditions.\\\"}\",\"{\\\"text\\\":\\\"§7HER§c-1\\\"}\"]}}"
                     }
                 ]
             }

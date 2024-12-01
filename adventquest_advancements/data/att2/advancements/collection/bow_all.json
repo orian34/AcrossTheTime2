@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:bamboo_block"
         },
-        "title": {"translate":"All Bow"},
+        "title": {"translate":"All Bows"},
         "description": {"translate":"Find all bow items"},
         "frame": "challenge"
     },

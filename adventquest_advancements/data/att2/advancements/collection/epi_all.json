@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:purple_candle"
         },
-        "title": {"translate":"All Epic"},
+        "title": {"translate":"All Epics"},
         "description": {"translate":"Find all epic items"},
         "frame": "challenge"
     },

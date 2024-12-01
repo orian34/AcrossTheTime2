@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:melon"
         },
-        "title": {"translate":"All Crossbow"},
+        "title": {"translate":"All Crossbows"},
         "description": {"translate":"Find all crossbow items"},
         "frame": "challenge"
     },
