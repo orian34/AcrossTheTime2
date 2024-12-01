@@ -5,7 +5,8 @@
 
 function att2:gameplay/pnj_talk/dialog_playsound/yaakov_rav
 
-function att2:gameplay/reputation/add_2
+execute if score yaakov_rav_PNJ onceDIALOG matches 1 run function att2:gameplay/reputation/add_2
+scoreboard players set yaakov_rav_PNJ onceDIALOG 2
 
 
 #FRENCH LANGUAGE

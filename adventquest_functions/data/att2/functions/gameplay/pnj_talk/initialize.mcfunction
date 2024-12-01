@@ -6,6 +6,7 @@
 scoreboard objectives add pnjTALK minecraft.custom:minecraft.talked_to_villager
 scoreboard objectives add DIALOG dummy
 scoreboard objectives add statDIALOG dummy
+scoreboard objectives add onceDIALOG dummy
 
 scoreboard players set serile_PNJ DIALOG 1
 scoreboard players set gonon_PNJ DIALOG 1
@@ -307,6 +308,9 @@ scoreboard players set chryses_aleria_PNJ statDIALOG 0
 scoreboard players set jade_rozaell_PNJ statDIALOG 0
 scoreboard players set cassandre_PNJ statDIALOG 0
 scoreboard players set barry_PNJ statDIALOG 0
+
+scoreboard players set brutus_PNJ onceDIALOG 0
+scoreboard players set yaakov_rav_PNJ onceDIALOG 0
 
 team join ally 00000000-0000-001a-0000-00000000001a
 team join ally 00000000-0000-002a-0000-00000000002a

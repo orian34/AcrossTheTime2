@@ -4,7 +4,8 @@
 #################################################################
 
 function att2:gameplay/pnj_talk/dialog_playsound/brutus
-function att2:gameplay/reputation/add_2
+execute if score brutus_PNJ onceDIALOG matches 0 run function att2:gameplay/reputation/add_2
+scoreboard players set brutus_PNJ onceDIALOG 1
 
 
 #FRENCH LANGUAGE
