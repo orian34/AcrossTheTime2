@@ -20,7 +20,7 @@
                 "items": [
                     {
                     "items": ["minecraft:crossbow"],
-                    "nbt": "{display:{Name:\"\\\"§5Inspiration de Lucas\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Si créativité naît de patience,\\\"}\",\"{\\\"text\\\":\\\"§7persévérence est mère d'efficacité...\\\"}\",\"{\\\"text\\\":\\\"§7If creativity is born of patience,\\\"}\",\"{\\\"text\\\":\\\"§7perseverance is the mother of efficiency...\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7SPD§a2 §7HAS§c-2\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§5Inspiration de Lucas\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Si créativité naît de patience,\\\"}\",\"{\\\"text\\\":\\\"§7persévérance est mère d'efficacité...\\\"}\",\"{\\\"text\\\":\\\"§7If creativity is born of patience,\\\"}\",\"{\\\"text\\\":\\\"§7perseverance is the mother of efficiency...\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7SPD§a2 §7HAS§c-2\\\"}\"]}}"
                     }
                 ]
             }
