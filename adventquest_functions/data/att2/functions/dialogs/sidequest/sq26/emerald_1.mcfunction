@@ -11,7 +11,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Emerald : ","color":"green","ext
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"Ah, you again! Here we are in Adanoi, which is a historically recognized place in the region apparently. There are catacombs in the underground of this cemetery. We have to find a way to get in there to look for more clues to my daughter's path. Could you help me again?","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"Ah, you again! Here we are in Adanoï, which is a historically recognized place in the region apparently. There are catacombs in the underground of this cemetery. We have to find a way to get in there to look for more clues to my daughter's path. Could you help me again?","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

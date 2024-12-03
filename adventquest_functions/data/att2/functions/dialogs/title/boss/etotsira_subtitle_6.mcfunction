@@ -10,7 +10,7 @@ title @s[scores={LANGUAGE=0}] subtitle {"text":"Sage, espoir des héros","color"
 
 #ENGLISH LANGUAGE
 
-title @s[scores={LANGUAGE=1}] subtitle {"text":"Wise, heros' hope","color":"gray"}
+title @s[scores={LANGUAGE=1}] subtitle {"text":"Wise, heroes' hope","color":"gray"}
 
 #CHINESE LANGUAGE
 

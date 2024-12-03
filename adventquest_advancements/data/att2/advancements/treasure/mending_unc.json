@@ -4,7 +4,7 @@
             "item": "minecraft:lime_dye"
         },
         "title": {"translate":"Uncommon mending"},
-        "description": {"translate":"Repairs an uncommon item"},
+        "description": {"translate":"Repair an uncommon item"},
         "frame": "goal"
     },
     "parent": "att2:treasure/mending_com",

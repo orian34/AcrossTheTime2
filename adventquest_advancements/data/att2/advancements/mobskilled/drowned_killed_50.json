@@ -4,7 +4,7 @@
             "item": "minecraft:zombie_head"
         },
         "title": {"translate":"Drowned Eliminator"},
-        "description": {"translate":"Kill 50 Drowned zombies"},
+        "description": {"translate":"Kill 50 Drowned Zombies"},
         "frame": "goal"
     },
     "parent": "att2:mobskilled/drowned_killed_10",

@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:redstone_ore"
         },
-        "title": {"translate":"Angor palace Checkpoint"},
-        "description": {"translate":"Discover all Checkpoint of Angor palace"},
+        "title": {"translate":"Angor palace Checkpoints"},
+        "description": {"translate":"Discover all Checkpoints of Angor palace"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_angor_palace",

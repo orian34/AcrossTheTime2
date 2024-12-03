@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:slime_block"
         },
-        "title": {"translate":"Slimes Genocide"},
+        "title": {"translate":"Slime Genocider"},
         "description": {"translate":"Kill 500 Slimes"},
         "frame": "challenge"
     },

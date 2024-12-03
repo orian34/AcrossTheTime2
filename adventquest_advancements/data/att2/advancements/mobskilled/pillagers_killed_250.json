@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:conduit"
         },
-        "title": {"translate":"Pillagers Slayer"},
+        "title": {"translate":"Pillager Slayer"},
         "description": {"translate":"Kill 250 Pillagers"},
         "frame": "goal"
     },

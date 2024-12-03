@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:redstone_ore"
         },
-        "title": {"translate":"Sathnok Checkpoint"},
-        "description": {"translate":"Discover all Checkpoint of Sathnok"},
+        "title": {"translate":"Sathnok Checkpoints"},
+        "description": {"translate":"Discover all Checkpoints of Sathnok"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_sathnok",

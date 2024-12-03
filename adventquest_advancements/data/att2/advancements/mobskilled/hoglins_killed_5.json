@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:leather"
         },
-        "title": {"translate":"Hoglins Killer"},
+        "title": {"translate":"Hoglin Killer"},
         "description": {"translate":"Kill 5 Hoglins"}
     },
     "parent": "att2:mobskilled/root",

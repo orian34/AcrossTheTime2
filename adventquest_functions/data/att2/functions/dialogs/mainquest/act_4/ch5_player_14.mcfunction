@@ -8,12 +8,12 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Me voilà encore coincé dans cette station... Trouvons rapidement un autre portail pour retourner à Nojelanth !","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Me voilà encore coincé dans cette station... Trouvons rapidement un autre portail pour retourner à Nojélanth !","color":"aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Here I am, stuck in this station again... Let's find out quickly another portal to come back Nojelanth!","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Here I am, stuck in this station again... Let's find out quickly another portal to come back Nojélanth!","color":"aqua"}]}
 
 
 #CHINESE LANGUAGE
@@ -39,11 +39,11 @@ tellraw @a[scores={LANGUAGE=6}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 # SPANISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Aquí estoy, atrapado de nuevo en esta estación... ¡Encontremos rápidamente otro portal para volver a Nojelanth!","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Aquí estoy, atrapado de nuevo en esta estación... ¡Encontremos rápidamente otro portal para volver a Nojélanth!","color":"aqua"}]}
 
 # GERMAN LANGUAGE
 
-tellraw @a[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Hier bin ich wieder, stecke mal wieder in dieser Station fest... Lasst uns schnell ein anderes Portal finden, um nach Nojelanth zurückzukehren!","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Hier bin ich wieder, stecke mal wieder in dieser Station fest... Lasst uns schnell ein anderes Portal finden, um nach Nojélanth zurückzukehren!","color":"aqua"}]}
 
 # HINDI LANGUAGE
 
@@ -51,4 +51,4 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 # PORTUGUESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Aqui estou eu, preso nesta estação novamente... Vamos encontrar rapidamente outro portal para voltar para Nojelanth!","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Aqui estou eu, preso nesta estação novamente... Vamos encontrar rapidamente outro portal para voltar para Nojélanth!","color":"aqua"}]}

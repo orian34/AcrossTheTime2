@@ -4,7 +4,7 @@
             "item": "minecraft:target"
         },
         "title": {"translate":"Super Elite Killer"},
-        "description": {"translate":"Kill your first Super elite"}
+        "description": {"translate":"Kill your first Super Elite"}
     },
     "parent": "att2:mobskilled/root",
     "rewards": {

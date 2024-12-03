@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:zombie_head"
         },
-        "title": {"translate":"Zombies Genocide"},
+        "title": {"translate":"Zombie Genocider"},
         "description": {"translate":"Kill 500 Zombies"},
         "frame": "challenge"
     },

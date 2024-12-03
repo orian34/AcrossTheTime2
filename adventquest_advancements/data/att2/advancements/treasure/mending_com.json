@@ -4,7 +4,7 @@
             "item": "minecraft:gray_dye"
         },
         "title": {"translate":"Common mending"},
-        "description": {"translate":"Repairs a common item"}
+        "description": {"translate":"Repair a common item"}
     },
     "parent": "att2:treasure/root",
         "rewards": {

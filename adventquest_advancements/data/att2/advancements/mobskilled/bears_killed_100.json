@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:rabbit_foot"
         },
-        "title": {"translate":"Bears Genocide"},
+        "title": {"translate":"Bear Genocider"},
         "description": {"translate":"Kill 100 Bears"},
         "frame": "challenge"
     },

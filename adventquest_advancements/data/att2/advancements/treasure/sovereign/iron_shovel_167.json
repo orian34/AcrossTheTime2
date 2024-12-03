@@ -4,7 +4,7 @@
             "item": "minecraft:iron_shovel"
         },
         "title": {"translate":"Poignard acéré"},
-        "description": {"translate":"Pierce until the bowels of your enemies."},
+        "description": {"translate":"Pierce through to the bowels of your enemies."},
         "frame": "goal"
     },
     "parent": "att2:treasure/sovereign",

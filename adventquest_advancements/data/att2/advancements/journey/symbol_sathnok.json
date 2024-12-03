@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:music_disc_pigstep"
         },
-        "title": {"translate":"Sathnok Symbol"},
+        "title": {"translate":"Sathnok Symbols"},
         "description": {"translate":"Discover all Exploration symbols of Sathnok"},
         "frame": "challenge"
     },

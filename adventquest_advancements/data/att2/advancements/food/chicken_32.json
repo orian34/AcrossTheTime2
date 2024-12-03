@@ -4,7 +4,7 @@
             "item": "minecraft:cooked_chicken"
         },
         "title": {"translate":"Chicken addict"},
-        "description": {"translate":"Eat 32 chicken thigh"},
+        "description": {"translate":"Eat 32 chicken thighs"},
         "frame": "challenge"
     },
     "parent": "att2:food/chicken_16",

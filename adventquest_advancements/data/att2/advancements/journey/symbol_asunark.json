@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:music_disc_pigstep"
         },
-        "title": {"translate":"Asunark Symbol"},
+        "title": {"translate":"Asunark Symbols"},
         "description": {"translate":"Discover all Exploration symbols of Asunark"},
         "frame": "challenge"
     },

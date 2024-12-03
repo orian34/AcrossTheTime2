@@ -10,11 +10,11 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 4","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Ithil n'a plus d'autres informations à me donner à propos de l'emplacement d'une gemme de temps. Etotsira semble être ma meilleure option pour trouver ce que je cherche. Allons à Earndhel lui parler.","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Ithil n'a plus d'autres informations à me donner à propos de l'emplacement d'une gemme de temps. Etotsira semble être ma meilleure option pour trouver ce que je cherche. Allons à Ëarndhel lui parler.","color":"aqua"}]}
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Ithil has no further information to give me about the location of a time gem. Etotsira seems to be my best option for finding what I'm looking for. Let's go to Earndhel to talk to him.","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Ithil has no further information to give me about the location of a time gem. Etotsira seems to be my best option for finding what I'm looking for. Let's go to Ëarndhel to talk to him.","color":"aqua"}]}
 
 #CHINESE LANGUAGE
 
@@ -39,11 +39,11 @@ tellraw @s[scores={LANGUAGE=6}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 # SPANISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Ithil no tiene más información que darme sobre la ubicación de una gema de tiempo. Etotsira parece ser mi mejor opción para encontrar lo que estoy buscando. Vamos a Earndhel para hablar con él.","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Ithil no tiene más información que darme sobre la ubicación de una gema de tiempo. Etotsira parece ser mi mejor opción para encontrar lo que estoy buscando. Vamos a Ëarndhel para hablar con él.","color":"aqua"}]}
 
 # GERMAN LANGUAGE
 
-tellraw @s[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Ithil hat keine weiteren Informationen über den Standort eines Zeitjuwels für mich. Etotsira scheint meine beste Option zu sein, um zu finden, wonach ich suche. Lass uns zu Earndhel gehen, um mit ihm zu sprechen.","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Ithil hat keine weiteren Informationen über den Standort eines Zeitjuwels für mich. Etotsira scheint meine beste Option zu sein, um zu finden, wonach ich suche. Lass uns zu Ëarndhel gehen, um mit ihm zu sprechen.","color":"aqua"}]}
 
 # HINDI LANGUAGE
 
@@ -51,4 +51,4 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 # PORTUGUESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Ithil não tem mais informações para me dar sobre a localização de uma gema do tempo. Etotsira parece ser minha melhor opção para encontrar o que estou procurando. Vamos até Earndhel para conversar com ele.","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Ithil não tem mais informações para me dar sobre a localização de uma gema do tempo. Etotsira parece ser minha melhor opção para encontrar o que estou procurando. Vamos até Ëarndhel para conversar com ele.","color":"aqua"}]}

@@ -4,7 +4,7 @@
             "item": "minecraft:iron_boots"
         },
         "title": {"translate":"Insane Bolt"},
-        "description": {"translate":"Sprint on 333km"},
+        "description": {"translate":"Sprint 333km"},
         "frame": "challenge"
     },
     "parent": "att2:progress/sprint_10000000",

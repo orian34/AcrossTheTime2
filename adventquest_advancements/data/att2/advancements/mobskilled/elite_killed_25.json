@@ -4,7 +4,7 @@
             "item": "minecraft:glow_item_frame"
         },
         "title": {"translate":"Elite Eliminator"},
-        "description": {"translate":"Kill 25 elites"},
+        "description": {"translate":"Kill 25 Elites"},
         "frame": "goal"
     },
     "parent": "att2:mobskilled/elite_killed_5",

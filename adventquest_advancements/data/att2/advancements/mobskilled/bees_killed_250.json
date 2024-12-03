@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:honeycomb"
         },
-        "title": {"translate":"Bees Slayer"},
+        "title": {"translate":"Bee Slayer"},
         "description": {"translate":"Kill 250 Bees"},
         "frame": "goal"
     },

@@ -4,7 +4,7 @@
             "item": "minecraft:chest"
         },
         "title": {"translate":"Rapacious"},
-        "description": {"translate":"Open 2500 Chest"},
+        "description": {"translate":"Open 2500 Chests"},
         "frame": "goal"
     },
     "parent": "att2:treasure/chest_1000",

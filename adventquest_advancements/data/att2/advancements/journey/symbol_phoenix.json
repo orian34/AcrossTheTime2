@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:music_disc_pigstep"
         },
-        "title": {"translate":"Pheonix village Symbol"},
-        "description": {"translate":"Discover all Exploration symbols of Pheonix village"},
+        "title": {"translate":"Phoenix village Symbols"},
+        "description": {"translate":"Discover all Exploration symbols of Phoenix village"},
         "frame": "challenge"
     },
     "parent": "att2:journey/discover_phoenix",

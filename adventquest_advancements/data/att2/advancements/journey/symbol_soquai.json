@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:music_disc_pigstep"
         },
-        "title": {"translate":"Soquaï Symbol"},
+        "title": {"translate":"Soquaï Symbols"},
         "description": {"translate":"Discover all Exploration symbols of Soquaï"},
         "frame": "challenge"
     },

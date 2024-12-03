@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:spider_eye"
         },
-        "title": {"translate":"Spider Genocide"},
+        "title": {"translate":"Spider Genocider"},
         "description": {"translate":"Kill 500 Spiders"},
         "frame": "challenge"
     },

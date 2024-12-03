@@ -4,7 +4,7 @@
             "item": "minecraft:chest"
         },
         "title": {"translate":"Loot Addiction"},
-        "description": {"translate":"Open 5000 Chest"},
+        "description": {"translate":"Open 5000 Chests"},
         "frame": "challenge"
     },
     "parent": "att2:treasure/chest_2500",

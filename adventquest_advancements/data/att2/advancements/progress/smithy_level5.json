@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:anvil"
         },
-        "title": {"translate":"Black Smith Eminent"},
+        "title": {"translate":"Eminent Black Smith"},
         "description": {"translate":"Reach the level 5 of the smithy"},
         "frame": "challenge"
     },

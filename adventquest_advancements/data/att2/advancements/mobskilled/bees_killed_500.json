@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:honeycomb"
         },
-        "title": {"translate":"Bees Genocide"},
+        "title": {"translate":"Bee Genocider"},
         "description": {"translate":"Kill 500 Bees"},
         "frame": "challenge"
     },

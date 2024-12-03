@@ -4,7 +4,7 @@
             "item": "minecraft:feather"
         },
         "title": {"translate":"Beach Panorama"},
-        "description": {"translate":"Discover the panorama of Stray Beach"},
+        "description": {"translate":"Discover the panorama of Astray Beach"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_beach",

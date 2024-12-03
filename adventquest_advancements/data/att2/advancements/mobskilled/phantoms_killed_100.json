@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:phantom_membrane"
         },
-        "title": {"translate":"Phantoms Slayer"},
+        "title": {"translate":"Phantom Slayer"},
         "description": {"translate":"Kill 100 Phantoms"},
         "frame": "goal"
     },

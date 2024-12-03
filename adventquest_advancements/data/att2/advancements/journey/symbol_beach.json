@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:music_disc_pigstep"
         },
-        "title": {"translate":"Astray beach Symbol"},
+        "title": {"translate":"Astray beach Symbols"},
         "description": {"translate":"Discover all Exploration symbols of the Astray beach"},
         "frame": "challenge"
     },

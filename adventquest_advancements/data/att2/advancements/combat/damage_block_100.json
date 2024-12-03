@@ -4,7 +4,7 @@
             "item": "minecraft:shield"
         },
         "title": {"translate":"Barrage"},
-        "description": {"translate":"Block 100 damages with your shield"},
+        "description": {"translate":"Block 100 damage with your shield"},
         "frame": "goal"
     },
     "parent": "att2:combat/damage_block",

@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:totem_of_undying"
         },
-        "title": {"translate":"Worlest NPC"},
-        "description": {"translate":"Talk to all Worlest people"},
+        "title": {"translate":"Worlëst NPC"},
+        "description": {"translate":"Talk to all Worlëst people"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_worlest",

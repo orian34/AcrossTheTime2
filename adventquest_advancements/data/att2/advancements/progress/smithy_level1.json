@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:damaged_anvil"
         },
-        "title": {"translate":"Black Smith Apprentice"},
+        "title": {"translate":"Apprentice Black Smith"},
         "description": {"translate":"Reach the level 1 of the smithy"}
     },
     "parent": "att2:progress/root",

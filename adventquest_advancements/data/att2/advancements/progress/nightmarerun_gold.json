@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:clock"
         },
-        "title": {"translate":"Race against dimension."},
+        "title": {"translate":"Race against dimensions"},
         "description": {"translate":"Complete a nightmare run before the allotted time of 20 minutes."},
         "frame": "challenge"
     },

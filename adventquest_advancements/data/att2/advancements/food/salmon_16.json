@@ -4,7 +4,7 @@
             "item": "minecraft:cooked_salmon"
         },
         "title": {"translate":"Salmon craving"},
-        "description": {"translate":"Eat 16 cooked salmon"},
+        "description": {"translate":"Eat 16 cooked salmons"},
         "frame": "goal"
     },
     "parent": "att2:food/salmon_4",

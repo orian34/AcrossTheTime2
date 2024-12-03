@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:totem_of_undying"
         },
-        "title": {"translate":"Exile_camp NPC"},
-        "description": {"translate":"Talk to all Exile_camp people"},
+        "title": {"translate":"Exiles Camp NPC"},
+        "description": {"translate":"Talk to all Exiles Camp people"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_exiles",

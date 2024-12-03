@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:blaze_powder"
         },
-        "title": {"translate":"Blazes Killer"},
+        "title": {"translate":"Blaze Killer"},
         "description": {"translate":"Kill 5 Blazes"}
     },
     "parent": "att2:mobskilled/root",

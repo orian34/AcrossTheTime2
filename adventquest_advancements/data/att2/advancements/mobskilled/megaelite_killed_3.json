@@ -4,7 +4,7 @@
             "item": "minecraft:target"
         },
         "title": {"translate":"Ultimate Elite Eliminator"},
-        "description": {"translate":"Kill 3 Ultimate Elite"},
+        "description": {"translate":"Kill 3 Ultimate Elites"},
         "frame": "goal"
     },
     "parent": "att2:mobskilled/megaelite_killed_1",

@@ -4,7 +4,7 @@
             "item": "minecraft:pumpkin_pie"
         },
         "title": {"translate":"Pumpkin pie addict"},
-        "description": {"translate":"Eat 64 pumpkin pie"},
+        "description": {"translate":"Eat 64 pumpkin pies"},
         "frame": "challenge"
     },
     "parent": "att2:food/pumpkin_32",

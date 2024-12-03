@@ -4,7 +4,7 @@
             "item": "minecraft:cooked_rabbit"
         },
         "title": {"translate":"Rabbit craving"},
-        "description": {"translate":"Eat 16 cooked rabbit"},
+        "description": {"translate":"Eat 16 cooked rabbits"},
         "frame": "goal"
     },
     "parent": "att2:food/rabbit_4",

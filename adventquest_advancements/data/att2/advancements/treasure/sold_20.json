@@ -4,7 +4,7 @@
             "item": "minecraft:nether_star"
         },
         "title": {"translate":"Sell-Off"},
-        "description": {"translate":"Sell 20 items from a buyer"},
+        "description": {"translate":"Sell 20 items to a buyer"},
         "frame": "goal"
     },
     "parent": "att2:treasure/sold_1",

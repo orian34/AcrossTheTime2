@@ -5,7 +5,7 @@
 
 #FRENCH LANGUAGE
 
-title @a[scores={LANGUAGE=0}] subtitle {"text":"Presente","color":"dark_aqua"}
+title @a[scores={LANGUAGE=0}] subtitle {"text":"Présente","color":"dark_aqua"}
 
 #ENGLISH LANGUAGE
 

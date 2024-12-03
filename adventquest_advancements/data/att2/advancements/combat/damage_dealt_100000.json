@@ -4,7 +4,7 @@
             "item": "minecraft:wooden_sword"
         },
         "title": {"translate":"More Damage"},
-        "description": {"translate":"Deal 100k melee damages"},
+        "description": {"translate":"Deal 100k melee damage"},
         "frame": "goal"
     },
     "parent": "att2:combat/damage_dealt_1000",

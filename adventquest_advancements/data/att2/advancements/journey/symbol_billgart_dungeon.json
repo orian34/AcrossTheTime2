@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:music_disc_pigstep"
         },
-        "title": {"translate":"Billgart dungeon Symbol"},
+        "title": {"translate":"Billgart dungeon Symbols"},
         "description": {"translate":"Discover all Exploration symbols of Billgart dungeon"},
         "frame": "challenge"
     },

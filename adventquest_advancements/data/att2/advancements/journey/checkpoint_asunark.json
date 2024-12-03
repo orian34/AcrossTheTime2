@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:redstone_ore"
         },
-        "title": {"translate":"Asunark Checkpoint"},
-        "description": {"translate":"Discover all Checkpoint of Asunark"},
+        "title": {"translate":"Asunark Checkpoints"},
+        "description": {"translate":"Discover all Checkpoints of Asunark"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_asunark",

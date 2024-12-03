@@ -8,17 +8,17 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Je vois... Bon, je crois que nous n'avons plus le choix... Je vais devoir t'envoyer dans le lieu le plus dangereux de Sylberländ. Nojelanth fut un jour une ville prospère, mais un sombre évènement la plongea dans le chaos et il n'en reste que des ruines à ce jour...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Je vois... Bon, je crois que nous n'avons plus le choix... Je vais devoir t'envoyer dans le lieu le plus dangereux de Sylberländ. Nojélanth fut un jour une ville prospère, mais un sombre évènement la plongea dans le chaos et il n'en reste que des ruines à ce jour...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"I see... Well, I think that we don't have the choice anymore... I'll have to send you in the most dangerous place of Sylberländ. Nojelanth was once a prosperous city, but a dark event plunged it into chaos and only ruins remains nowadays...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"I see... Well, I think that we don't have the choice anymore... I'll have to send you in the most dangerous place of Sylberländ. Nojélanth was once a prosperous city, but a dark event plunged it into chaos and only ruins remains nowadays...","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"我明白了...好吧， 我想我們別無選擇了...我必須把你送到西爾伯蘭最危險的地方。 Nojelanth曾經是一座繁華的城市， 但一場黑暗的事件使它陷入了混亂， 如今只剩下廢墟...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"我明白了...好吧， 我想我們別無選擇了...我必須把你送到西爾伯蘭最危險的地方。 Nojélanth曾經是一座繁華的城市， 但一場黑暗的事件使它陷入了混亂， 如今只剩下廢墟...","color":"dark_aqua"}]}
 
 
 # JAPANESE LANGUAGE
@@ -39,11 +39,11 @@ tellraw @a[scores={LANGUAGE=6}] {"text":" °-° Etotsira : ","color":"blue","ext
 
 # SPANISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=7}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Ya veo... Bueno, creo que no tenemos opción... Tendré que enviarte al lugar más peligroso de Sylberländ. Nojelanth fue una vez una ciudad próspera, pero un oscuro evento la sumió en el caos y hoy solo quedan ruinas...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=7}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Ya veo... Bueno, creo que no tenemos opción... Tendré que enviarte al lugar más peligroso de Sylberländ. Nojélanth fue una vez una ciudad próspera, pero un oscuro evento la sumió en el caos y hoy solo quedan ruinas...","color":"dark_aqua"}]}
 
 # GERMAN LANGUAGE
 
-tellraw @a[scores={LANGUAGE=8}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Verstehe... Nun gut, ich glaube, wir haben keine Wahl mehr... Ich muss dich an den gefährlichsten Ort in Sylberländ schicken. Nojelanth war einst eine blühende Stadt, aber ein dunkles Ereignis stürzte sie ins Chaos und es bleiben nur noch Ruinen...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=8}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Verstehe... Nun gut, ich glaube, wir haben keine Wahl mehr... Ich muss dich an den gefährlichsten Ort in Sylberländ schicken. Nojélanth war einst eine blühende Stadt, aber ein dunkles Ereignis stürzte sie ins Chaos und es bleiben nur noch Ruinen...","color":"dark_aqua"}]}
 
 # HINDI LANGUAGE
 
@@ -51,4 +51,4 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Etotsira : ","color":"blue","ext
 
 # PORTUGUESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Entendi... Bem, acho que não temos mais escolha... Vou ter que te enviar para o lugar mais perigoso de Sylberländ. Nojelanth já foi uma cidade próspera, mas um evento sombrio a mergulhou no caos e hoje só restam ruínas...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Entendi... Bem, acho que não temos mais escolha... Vou ter que te enviar para o lugar mais perigoso de Sylberländ. Nojélanth já foi uma cidade próspera, mas um evento sombrio a mergulhou no caos e hoje só restam ruínas...","color":"dark_aqua"}]}

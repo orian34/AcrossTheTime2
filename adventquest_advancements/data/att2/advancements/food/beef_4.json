@@ -4,7 +4,7 @@
             "item": "minecraft:cooked_beef"
         },
         "title": {"translate":"Beef desire"},
-        "description": {"translate":"Eat 4 beef steak"},
+        "description": {"translate":"Eat 4 beef steaks"},
         "frame": "goal"
     },
     "parent": "att2:food/beef_1",

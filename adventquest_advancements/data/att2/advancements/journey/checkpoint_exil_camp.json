@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:redstone_ore"
         },
-        "title": {"translate":"Exiles Camp Checkpoint"},
-        "description": {"translate":"Discover all Checkpoint of Exiles Camp"},
+        "title": {"translate":"Exiles Camp Checkpoints"},
+        "description": {"translate":"Discover all Checkpoints of Exiles Camp"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_exiles",

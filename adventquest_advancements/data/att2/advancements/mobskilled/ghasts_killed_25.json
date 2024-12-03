@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:skeleton_skull"
         },
-        "title": {"translate":"Ghasts Slayer"},
+        "title": {"translate":"Ghast Slayer"},
         "description": {"translate":"Kill 25 Ghasts"},
         "frame": "goal"
     },

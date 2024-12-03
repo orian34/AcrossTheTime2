@@ -8,12 +8,12 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"C'est le résultat d'années de recherches pour achever la quête des alchimistes : la pierre des philosophes. Si j'ai choisi ce lieu précis pour déposer cette substance au centre du temple d'Earndhel, c'est pour utiliser les pouvoirs des 9 gemmes que tu as ramenés à l'époque afin d'atteindre la quintessence et en absorber ses émanations. ","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"C'est le résultat d'années de recherches pour achever la quête des alchimistes : la pierre des philosophes. Si j'ai choisi ce lieu précis pour déposer cette substance au centre du temple d'Ëarndhel, c'est pour utiliser les pouvoirs des 9 gemmes que tu as ramenés à l'époque afin d'atteindre la quintessence et en absorber ses émanations. ","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"It is the result of years of research to complete the quest of the alchemists: the stone of the philosophers. If I chose this precise place to deposit this substance in the center of the temple of Earndhel, it is to use the powers of the 9 gems that you brought back at the time in order to reach the quintessence and absorb its emanations.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"It is the result of years of research to complete the quest of the alchemists: the stone of the philosophers. If I chose this precise place to deposit this substance in the center of the temple of Ëarndhel, it is to use the powers of the 9 gems that you brought back at the time in order to reach the quintessence and absorb its emanations.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE
@@ -39,11 +39,11 @@ tellraw @a[scores={LANGUAGE=6}] {"text":" °-° Basile Valentin : ","color":"gre
 
 #SPANISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=7}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"Este es el resultado de años de investigación para completar la búsqueda de los alquimistas: la piedra filosofal. Si elegí este lugar preciso para depositar esta sustancia en el centro del templo de Earndhel, es para utilizar los poderes de las 9 gemas que trajiste en su momento para alcanzar la quintaesencia y absorber sus emanaciones.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=7}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"Este es el resultado de años de investigación para completar la búsqueda de los alquimistas: la piedra filosofal. Si elegí este lugar preciso para depositar esta sustancia en el centro del templo de Ëarndhel, es para utilizar los poderes de las 9 gemas que trajiste en su momento para alcanzar la quintaesencia y absorber sus emanaciones.","color":"dark_aqua"}]}
 
 #GERMAN LANGUAGE
 
-tellraw @a[scores={LANGUAGE=8}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"Dies ist das Ergebnis jahrelanger Forschung, um die Suche der Alchemisten abzuschließen: der Stein der Weisen. Wenn ich diesen genauen Ort gewählt habe, um diese Substanz in der Mitte des Tempels von Earndhel zu platzieren, dann um die Kräfte der 9 Edelsteine zu nutzen, die du damals zurückgebracht hast, um die Quintessenz zu erreichen und ihre Ausstrahlungen zu absorbieren.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=8}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"Dies ist das Ergebnis jahrelanger Forschung, um die Suche der Alchemisten abzuschließen: der Stein der Weisen. Wenn ich diesen genauen Ort gewählt habe, um diese Substanz in der Mitte des Tempels von Ëarndhel zu platzieren, dann um die Kräfte der 9 Edelsteine zu nutzen, die du damals zurückgebracht hast, um die Quintessenz zu erreichen und ihre Ausstrahlungen zu absorbieren.","color":"dark_aqua"}]}
 
 #HINDI LANGUAGE
 
@@ -51,4 +51,4 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Basile Valentin : ","color":"gre
 
 #PORTUGUESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"É o resultado de anos de pesquisa para completar a busca dos alquimistas: a pedra filosofal. Se eu escolhi este lugar exato para depositar esta substância no centro do templo de Earndhel, é para usar os poderes das 9 gemas que você trouxe na época para alcançar a quintessência e absorver suas emanações.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"É o resultado de anos de pesquisa para completar a busca dos alquimistas: a pedra filosofal. Se eu escolhi este lugar exato para depositar esta substância no centro do templo de Ëarndhel, é para usar os poderes das 9 gemas que você trouxe na época para alcançar a quintessência e absorver suas emanações.","color":"dark_aqua"}]}

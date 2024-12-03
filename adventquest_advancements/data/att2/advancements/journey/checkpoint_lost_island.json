@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:redstone_ore"
         },
-        "title": {"translate":"Lost island Checkpoint"},
-        "description": {"translate":"Discover all Checkpoint of lost island"},
+        "title": {"translate":"Lost island Checkpoints"},
+        "description": {"translate":"Discover all Checkpoints of lost island"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_island",

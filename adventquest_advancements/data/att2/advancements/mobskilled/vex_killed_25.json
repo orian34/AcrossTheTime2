@@ -4,7 +4,7 @@
             "item": "minecraft:skeleton_skull"
         },
         "title": {"translate":"Vex Eliminator"},
-        "description": {"translate":"Kill 25 Vex"},
+        "description": {"translate":"Kill 25 Vexes"},
         "frame": "goal"
     },
     "parent": "att2:mobskilled/vex_killed_5",

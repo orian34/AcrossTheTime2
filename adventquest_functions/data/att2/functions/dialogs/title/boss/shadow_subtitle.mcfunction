@@ -10,7 +10,7 @@ title @s[scores={LANGUAGE=0}] subtitle {"text":"Engeance du néant, l'anachorèt
 
 #ENGLISH LANGUAGE
 
-title @s[scores={LANGUAGE=1}] subtitle {"text":"Bane of nothingness, the disembodied anchorite","color":"gray"}
+title @s[scores={LANGUAGE=1}] subtitle {"text":"Spawn of nothingness, the disembodied anchorite","color":"gray"}
 
 #CHINESE LANGUAGE
 

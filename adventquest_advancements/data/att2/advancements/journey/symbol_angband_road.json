@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:music_disc_pigstep"
         },
-        "title": {"translate":"Angband road Symbol"},
+        "title": {"translate":"Angband road Symbols"},
         "description": {"translate":"Discover all Exploration symbols of Angband road"},
         "frame": "challenge"
     },

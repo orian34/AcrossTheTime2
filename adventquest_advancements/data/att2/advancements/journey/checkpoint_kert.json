@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:redstone_ore"
         },
-        "title": {"translate":"Kert Checkpoint"},
-        "description": {"translate":"Discover all Checkpoint of Kert desert"},
+        "title": {"translate":"Kert Checkpoints"},
+        "description": {"translate":"Discover all Checkpoints of Kert desert"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_kert",

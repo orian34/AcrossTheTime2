@@ -8,12 +8,12 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"A Earndhel ? Je me rappelle vous avoir aidé il y a de cela quatre ans auparavant pour des histoires de... gnoles... Enfin bon, c'est du passé maintenant. Allez, bonne route !","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"A Ëarndhel ? Je me rappelle vous avoir aidé il y a de cela quatre ans auparavant pour des histoires de... gnoles... Enfin bon, c'est du passé maintenant. Allez, bonne route !","color":"aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"In Earndhel? I remember helping you there four years ago in the business of... hooch ... Anyway, it's in the past now. Come on, have a good trip!","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"In Ëarndhel? I remember helping you there four years ago in the business of... hooch ... Anyway, it's in the past now. Come on, have a good trip!","color":"aqua"}]}
 
 
 #CHINESE LANGUAGE
@@ -39,11 +39,11 @@ tellraw @a[scores={LANGUAGE=6}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #SPANISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"¿En Earndhel? Recuerdo haberte ayudado allí hace cuatro años con el tema de... alcohol... En fin, ya es pasado. ¡Que tengas un buen viaje!","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"¿En Ëarndhel? Recuerdo haberte ayudado allí hace cuatro años con el tema de... alcohol... En fin, ya es pasado. ¡Que tengas un buen viaje!","color":"aqua"}]}
 
 #GERMAN LANGUAGE
 
-tellraw @a[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"In Earndhel? Ich erinnere mich, dass ich dir vor vier Jahren bei... Hochprozentigem geholfen habe... Nun, es ist jetzt Vergangenheit. Also, gute Reise!","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"In Ëarndhel? Ich erinnere mich, dass ich dir vor vier Jahren bei... Hochprozentigem geholfen habe... Nun, es ist jetzt Vergangenheit. Also, gute Reise!","color":"aqua"}]}
 
 #HINDI LANGUAGE
 
@@ -51,4 +51,4 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #PORTUGUESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Em Earndhel? Lembro-me de ter ajudado você lá há quatro anos com o negócio de... bebidas alcoólicas... Enfim, é passado agora. Bom viagem!","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Em Ëarndhel? Lembro-me de ter ajudado você lá há quatro anos com o negócio de... bebidas alcoólicas... Enfim, é passado agora. Bom viagem!","color":"aqua"}]}

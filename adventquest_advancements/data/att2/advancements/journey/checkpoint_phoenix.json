@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:redstone_ore"
         },
-        "title": {"translate":"Phoenix village Checkpoint"},
-        "description": {"translate":"Discover all Checkpoint of Phoenix village"},
+        "title": {"translate":"Phoenix village Checkpoints"},
+        "description": {"translate":"Discover all Checkpoints of Phoenix village"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_phoenix",

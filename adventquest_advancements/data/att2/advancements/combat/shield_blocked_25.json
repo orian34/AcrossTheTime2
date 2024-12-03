@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:shield"
         },
-        "title": {"translate":"Shield Veteran."},
+        "title": {"translate":"Shield Veteran"},
         "description": {"translate":"Deflect 25 attacks with your shield"},
         "frame": "goal"
     },

@@ -4,7 +4,7 @@
             "item": "minecraft:oak_hanging_sign"
         },
         "title": {"translate":"No time"},
-        "description": {"translate":"Force store reset one time!"}
+        "description": {"translate":"Force a store reset one time!"}
     },
     "parent": "att2:treasure/root",
         "rewards": {

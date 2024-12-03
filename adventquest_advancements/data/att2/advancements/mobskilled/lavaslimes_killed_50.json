@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:wither_skeleton_skull"
         },
-        "title": {"translate":"Lava Slimes Eliminator"},
+        "title": {"translate":"Lava Slime Eliminator"},
         "description": {"translate":"Kill 50 Lava Slimes"},
         "frame": "goal"
     },

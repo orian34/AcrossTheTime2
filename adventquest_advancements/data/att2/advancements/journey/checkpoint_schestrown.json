@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:redstone_ore"
         },
-        "title": {"translate":"Schestrown Checkpoint"},
-        "description": {"translate":"Discover all Checkpoint of Schestrown"},
+        "title": {"translate":"Schestrown Checkpoints"},
+        "description": {"translate":"Discover all Checkpoints of Schestrown"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_tears_forest",

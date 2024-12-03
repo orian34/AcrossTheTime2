@@ -4,7 +4,7 @@
             "item": "minecraft:zombie_head"
         },
         "title": {"translate":"Drowned Killer"},
-        "description": {"translate":"Kill 10 Drowned zombies"}
+        "description": {"translate":"Kill 10 Drowned Zombies"}
     },
     "parent": "att2:mobskilled/root",
     "rewards": {

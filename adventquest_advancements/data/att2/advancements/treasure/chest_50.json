@@ -4,7 +4,7 @@
             "item": "minecraft:chest"
         },
         "title": {"translate":"More Treasure"},
-        "description": {"translate":"Open 50 Chest"}
+        "description": {"translate":"Open 50 Chests"}
     },
     "parent": "att2:treasure/root",
     "rewards": {

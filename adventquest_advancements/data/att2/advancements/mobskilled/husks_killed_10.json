@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:zombie_head"
         },
-        "title": {"translate":"Husks Killer"},
+        "title": {"translate":"Husk Killer"},
         "description": {"translate":"Kill 10 Husks"}
     },
     "parent": "att2:mobskilled/root",

@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:anvil"
         },
-        "title": {"translate":"Strenght!"},
+        "title": {"translate":"Strength!"},
         "description": {"translate":"Build up strength"}
     },
     "parent": "att2:combat/root",

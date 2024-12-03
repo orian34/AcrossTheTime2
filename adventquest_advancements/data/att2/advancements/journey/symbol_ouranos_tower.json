@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:music_disc_pigstep"
         },
-        "title": {"translate":"Ouranos towers Symbol"},
-        "description": {"translate":"Discover all Exploration symbols of Ouranos towers"},
+        "title": {"translate":"Ouranos tower Symbols"},
+        "description": {"translate":"Discover all Exploration symbols of Ouranos tower"},
         "frame": "challenge"
     },
     "parent": "att2:journey/discover_ouranos",

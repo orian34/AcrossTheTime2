@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:music_disc_pigstep"
         },
-        "title": {"translate":"Mangroove Symbol"},
+        "title": {"translate":"Mangroove Symbols"},
         "description": {"translate":"Discover all Exploration symbols of Mangroove"},
         "frame": "challenge"
     },

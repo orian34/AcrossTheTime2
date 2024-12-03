@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:music_disc_pigstep"
         },
-        "title": {"translate":"Sylberländ plain Symbol"},
+        "title": {"translate":"Sylberländ plain Symbols"},
         "description": {"translate":"Discover all Exploration symbols of Sylberländ plain"},
         "frame": "challenge"
     },

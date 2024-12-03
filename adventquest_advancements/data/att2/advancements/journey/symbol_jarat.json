@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:music_disc_pigstep"
         },
-        "title": {"translate":"Jarat Symbol"},
+        "title": {"translate":"Jarat Symbols"},
         "description": {"translate":"Discover all Exploration symbols of Jarat"},
         "frame": "challenge"
     },

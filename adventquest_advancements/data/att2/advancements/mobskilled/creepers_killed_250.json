@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:creeper_head"
         },
-        "title": {"translate":"Creepers Genocide"},
+        "title": {"translate":"Creeper Genocider"},
         "description": {"translate":"Kill 250 Creepers"},
         "frame": "challenge"
     },

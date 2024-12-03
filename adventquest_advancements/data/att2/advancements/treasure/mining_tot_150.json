@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:raw_iron"
         },
-        "title": {"translate":"Professional miner"},
+        "title": {"translate":"Professional Miner"},
         "description": {"translate":"Mine 150 Runic Minerals"},
         "frame": "goal"
     },

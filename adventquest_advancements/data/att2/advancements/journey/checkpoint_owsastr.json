@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:redstone_ore"
         },
-        "title": {"translate":"Owsästr Checkpoint"},
-        "description": {"translate":"Discover all Checkpoint of Owsästr"},
+        "title": {"translate":"Owsästr Checkpoints"},
+        "description": {"translate":"Discover all Checkpoints of Owsästr"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_owsastr",

@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:totem_of_undying"
         },
-        "title": {"translate":"Earndhel NPC"},
-        "description": {"translate":"Talk to all Earndhel people"},
+        "title": {"translate":"Ëarndhel NPC"},
+        "description": {"translate":"Talk to all Ëarndhel people"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_earndhel",

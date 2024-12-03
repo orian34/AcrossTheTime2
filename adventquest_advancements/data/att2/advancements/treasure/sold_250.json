@@ -4,7 +4,7 @@
             "item": "minecraft:nether_star"
         },
         "title": {"translate":"Negotiator"},
-        "description": {"translate":"Sell 250 items from a buyer"},
+        "description": {"translate":"Sell 250 items to a buyer"},
         "frame": "goal"
     },
     "parent": "att2:treasure/sold_100",

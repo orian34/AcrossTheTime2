@@ -4,7 +4,7 @@
             "item": "minecraft:netherite_pickaxe"
         },
         "title": {"translate":"Onde de choc"},
-        "description": {"translate":"its blows come down with enough strength to pulverize the hardest of rocks."},
+        "description": {"translate":"Its blows come down with enough strength to pulverize the hardest of rocks."},
         "frame": "goal"
     },
     "parent": "att2:treasure/sovereign/diamond_pickaxe_169",

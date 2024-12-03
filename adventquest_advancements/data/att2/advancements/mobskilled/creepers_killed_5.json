@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:creeper_head"
         },
-        "title": {"translate":"Creepers Killer"},
+        "title": {"translate":"Creeper Killer"},
         "description": {"translate":"Kill 5 Creepers"}
     },
     "parent": "att2:mobskilled/root",

@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:music_disc_pigstep"
         },
-        "title": {"translate":"Méleïm Symbol"},
+        "title": {"translate":"Méleïm Symbols"},
         "description": {"translate":"Discover all Exploration symbols of Méleïm"},
         "frame": "challenge"
     },

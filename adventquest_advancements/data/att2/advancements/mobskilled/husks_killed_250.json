@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:zombie_head"
         },
-        "title": {"translate":"Husks Slayer"},
+        "title": {"translate":"Husk Slayer"},
         "description": {"translate":"Kill 250 Husks"},
         "frame": "goal"
     },

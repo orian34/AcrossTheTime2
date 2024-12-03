@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:chipped_anvil"
         },
-        "title": {"translate":"Black Smith Veteran"},
+        "title": {"translate":"Veteran Black Smith"},
         "description": {"translate":"Reach the level 2 of the smithy"},
         "frame": "goal"
     },

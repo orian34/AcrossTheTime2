@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:music_disc_pigstep"
         },
-        "title": {"translate":"Angor palace Symbol"},
+        "title": {"translate":"Angor palace Symbols"},
         "description": {"translate":"Discover all Exploration symbols of Angor palace"},
         "frame": "challenge"
     },

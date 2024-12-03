@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:redstone_ore"
         },
-        "title": {"translate":"Angor Checkpoint"},
-        "description": {"translate":"Discover all Checkpoint of Angor"},
+        "title": {"translate":"Angor Checkpoints"},
+        "description": {"translate":"Discover all Checkpoints of Angor"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_angor",

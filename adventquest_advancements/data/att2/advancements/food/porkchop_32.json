@@ -4,7 +4,7 @@
             "item": "minecraft:cooked_porkchop"
         },
         "title": {"translate":"Porkchop addict"},
-        "description": {"translate":"Eat 32 cooked porkchop"},
+        "description": {"translate":"Eat 32 cooked porkchops"},
         "frame": "challenge"
     },
     "parent": "att2:food/porkchop_16",

@@ -4,7 +4,7 @@
             "item": "minecraft:dark_oak_boat"
         },
         "title": {"translate":"Exiles Camp"},
-        "description": {"translate":"Discover Exiles campement"}
+        "description": {"translate":"Discover the Exiles campement"}
     },
     "parent": "att2:journey/discover_angband",
     "rewards": {

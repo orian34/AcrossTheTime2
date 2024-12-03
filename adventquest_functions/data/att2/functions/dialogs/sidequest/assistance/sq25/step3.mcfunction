@@ -12,11 +12,11 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Le périple d'Emerald -°- : ","co
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The journey of Emerald -°- : ","color":"gray","extra":[{"text":"Apparently Emerald thinks his daughter went to the Adanoi Cemetery near Meleim.... I absolutely must join Emerald there to continue to help him...","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The journey of Emerald -°- : ","color":"gray","extra":[{"text":"Apparently Emerald thinks his daughter went to the Adanoï Cemetery near Méleïm.... I absolutely must join Emerald there to continue to help him...","color":"aqua","italic":true}]}
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- Emerald的冒險之旅 -°- : ","color":"gray","extra":[{"text":"毫無疑問， Emerald覺得他女兒前往了Meleim旁的Adanoi墓園。我應該去那裡和Emerald碰面看看我還能幫他什麼。","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- Emerald的冒險之旅 -°- : ","color":"gray","extra":[{"text":"毫無疑問， Emerald覺得他女兒前往了Méleïm旁的Adanoï墓園。我應該去那裡和Emerald碰面看看我還能幫他什麼。","color":"aqua","italic":true}]}
 
 # JAPANESE LANGUAGE
 
@@ -36,11 +36,11 @@ tellraw @s[scores={LANGUAGE=6}] {"text":"-°- Путешествие Изумр�
 
 # SPANISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=7}] {"text":"-°- El viaje de Esmeralda -°- : ","color":"gray","extra":[{"text":"Al parecer, Esmeralda cree que su hija fue al cementerio de Adanoi cerca de Meleim. Debo unirme a Esmeralda allí para seguir ayudándole...","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=7}] {"text":"-°- El viaje de Esmeralda -°- : ","color":"gray","extra":[{"text":"Al parecer, Esmeralda cree que su hija fue al cementerio de Adanoï cerca de Méleïm. Debo unirme a Esmeralda allí para seguir ayudándole...","color":"aqua","italic":true}]}
 
 # GERMAN LANGUAGE
 
-tellraw @s[scores={LANGUAGE=8}] {"text":"-°- Die Reise von Smaragd -°- : ","color":"gray","extra":[{"text":"Offensichtlich glaubt Smaragd, dass seine Tochter zum Friedhof von Adanoi in der Nähe von Meleim gegangen ist. Ich muss unbedingt zu Smaragd dorthin gehen, um ihm weiter zu helfen...","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=8}] {"text":"-°- Die Reise von Smaragd -°- : ","color":"gray","extra":[{"text":"Offensichtlich glaubt Smaragd, dass seine Tochter zum Friedhof von Adanoï in der Nähe von Méleïm gegangen ist. Ich muss unbedingt zu Smaragd dorthin gehen, um ihm weiter zu helfen...","color":"aqua","italic":true}]}
 
 # HINDI LANGUAGE
 
@@ -48,4 +48,4 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- एमराल्ड की य�
 
 # PORTUGUESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=10}] {"text":"-°- A jornada de Esmeralda -°- : ","color":"gray","extra":[{"text":"Parece que Esmeralda acha que sua filha foi para o cemitério de Adanoi perto de Meleim. Preciso me juntar a Esmeralda lá para continuar ajudando...","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=10}] {"text":"-°- A jornada de Esmeralda -°- : ","color":"gray","extra":[{"text":"Parece que Esmeralda acha que sua filha foi para o cemitério de Adanoï perto de Méleïm. Preciso me juntar a Esmeralda lá para continuar ajudando...","color":"aqua","italic":true}]}

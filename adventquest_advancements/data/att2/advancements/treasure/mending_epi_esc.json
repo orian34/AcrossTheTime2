@@ -4,7 +4,7 @@
             "item": "minecraft:magenta_dye"
         },
         "title": {"translate":"Sovereign mending"},
-        "description": {"translate":"Repairs a sovereign item"},
+        "description": {"translate":"Repair a sovereign item"},
         "frame": "goal"
     },
     "parent": "att2:treasure/mending_epi",

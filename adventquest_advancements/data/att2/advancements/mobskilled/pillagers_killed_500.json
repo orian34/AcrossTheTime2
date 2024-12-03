@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:conduit"
         },
-        "title": {"translate":"Pillagers Genocide"},
+        "title": {"translate":"Pillager Genocider"},
         "description": {"translate":"Kill 500 Pillagers"},
         "frame": "challenge"
     },

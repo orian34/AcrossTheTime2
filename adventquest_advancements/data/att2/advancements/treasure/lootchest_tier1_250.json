@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:chest"
         },
-        "title": {"translate":"Obvious chest"},
-        "description": {"translate":"Open 250 Obvious chest"},
+        "title": {"translate":"Obvious Chest Addict"},
+        "description": {"translate":"Open 250 Obvious Chests"},
         "frame": "challenge"
     },
     "parent": "att2:treasure/lootchest_tier1_100",
@@ -18,4 +18,3 @@
         }
     }
 }
-    

@@ -8,12 +8,12 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Rien du tout... Cependant je suis peut-être en mesure de t'aiguiller un peu. En effet, après quelques recherches, il semblerait que cette émanation ait le résultat d'une mixture préparé avec la plus grande précaution. Je ne m'y connais pas assez dans cet art, c'est pourquoi je te conseille d'aller voir Basile Valentin notre alchimiste. Il est de retour à Earndhel, tu pourras le trouver dans son laboratoire chez lui.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Rien du tout... Cependant je suis peut-être en mesure de t'aiguiller un peu. En effet, après quelques recherches, il semblerait que cette émanation ait le résultat d'une mixture préparé avec la plus grande précaution. Je ne m'y connais pas assez dans cet art, c'est pourquoi je te conseille d'aller voir Basile Valentin notre alchimiste. Il est de retour à Ëarndhel, tu pourras le trouver dans son laboratoire chez lui.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Nothing at all... However, I may be able to guide you a little. Indeed, after some research, it seems that this emanation has the result of a mixture prepared with the greatest care. I don't know enough about this art, that's why I advise you to go see Basil Valentin our alchemist. He's back in Earndhel, you can find him in his lab at his house.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Nothing at all... However, I may be able to guide you a little. Indeed, after some research, it seems that this emanation has the result of a mixture prepared with the greatest care. I don't know enough about this art, that's why I advise you to go see Basil Valentin our alchemist. He's back in Ëarndhel, you can find him in his lab at his house.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE
@@ -39,11 +39,11 @@ tellraw @a[scores={LANGUAGE=6}] {"text":" °-° Etotsira : ","color":"blue","ext
 
 #SPANISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=7}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Nada en absoluto... Sin embargo, puedo guiarte un poco. De hecho, después de algunas investigaciones, parece que esta emanación es el resultado de una mezcla preparada con el mayor cuidado. No sé lo suficiente sobre este arte, por eso te aconsejo que vayas a ver a Basil Valentin, nuestro alquimista. Ha vuelto a Earndhel, puedes encontrarlo en su laboratorio en su casa.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=7}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Nada en absoluto... Sin embargo, puedo guiarte un poco. De hecho, después de algunas investigaciones, parece que esta emanación es el resultado de una mezcla preparada con el mayor cuidado. No sé lo suficiente sobre este arte, por eso te aconsejo que vayas a ver a Basil Valentin, nuestro alquimista. Ha vuelto a Ëarndhel, puedes encontrarlo en su laboratorio en su casa.","color":"dark_aqua"}]}
 
 #GERMAN LANGUAGE
 
-tellraw @a[scores={LANGUAGE=8}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Überhaupt nichts... Allerdings kann ich dir vielleicht ein wenig helfen. Tatsächlich scheint es, dass diese Emanation das Ergebnis einer Mischung ist, die mit größter Sorgfalt zubereitet wurde. Ich kenne mich nicht gut genug in dieser Kunst aus, deshalb rate ich dir, Basil Valentin, unseren Alchemisten, aufzusuchen. Er ist zurück in Earndhel, du kannst ihn in seinem Labor zu Hause finden.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=8}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Überhaupt nichts... Allerdings kann ich dir vielleicht ein wenig helfen. Tatsächlich scheint es, dass diese Emanation das Ergebnis einer Mischung ist, die mit größter Sorgfalt zubereitet wurde. Ich kenne mich nicht gut genug in dieser Kunst aus, deshalb rate ich dir, Basil Valentin, unseren Alchemisten, aufzusuchen. Er ist zurück in Ëarndhel, du kannst ihn in seinem Labor zu Hause finden.","color":"dark_aqua"}]}
 
 #HINDI LANGUAGE
 
@@ -51,4 +51,4 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Etotsira : ","color":"blue","ext
 
 #PORTUGUESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Nada mesmo... No entanto, posso guiá-lo um pouco. De fato, após algumas pesquisas, parece que esta emanação é o resultado de uma mistura preparada com o maior cuidado. Não sei o suficiente sobre essa arte, por isso aconselho você a procurar Basil Valentin, nosso alquimista. Ele está de volta a Earndhel, você pode encontrá-lo em seu laboratório em casa.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Nada mesmo... No entanto, posso guiá-lo um pouco. De fato, após algumas pesquisas, parece que esta emanação é o resultado de uma mistura preparada com o maior cuidado. Não sei o suficiente sobre essa arte, por isso aconselho você a procurar Basil Valentin, nosso alquimista. Ele está de volta a Ëarndhel, você pode encontrá-lo em seu laboratório em casa.","color":"dark_aqua"}]}

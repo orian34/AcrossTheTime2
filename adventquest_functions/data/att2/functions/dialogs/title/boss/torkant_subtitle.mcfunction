@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-title @s[scores={LANGUAGE=0}] subtitle {"text":"Lamentation amer, le dévoyé croupissant","color":"gray"}
+title @s[scores={LANGUAGE=0}] subtitle {"text":"Lamentation amère, le dévoyé croupissant","color":"gray"}
 
 #ENGLISH LANGUAGE
 

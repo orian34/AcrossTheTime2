@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:redstone_ore"
         },
-        "title": {"translate":"Adanoï Checkpoint"},
-        "description": {"translate":"Discover all Checkpoint of Adanoï"},
+        "title": {"translate":"Adanoï Checkpoints"},
+        "description": {"translate":"Discover all Checkpoints of Adanoï"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_adanoi",

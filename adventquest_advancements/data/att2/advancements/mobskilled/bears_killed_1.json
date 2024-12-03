@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:rabbit_foot"
         },
-        "title": {"translate":"Bears Killer"},
+        "title": {"translate":"Bear Killer"},
         "description": {"translate":"Kill 1 Bear"}
     },
     "parent": "att2:mobskilled/root",

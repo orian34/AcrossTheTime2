@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:honeycomb"
         },
-        "title": {"translate":"Bees Killer"},
+        "title": {"translate":"Bee Killer"},
         "description": {"translate":"Kill 10 Bees"}
     },
     "parent": "att2:mobskilled/root",

@@ -4,7 +4,7 @@
             "item": "minecraft:orange_dye"
         },
         "title": {"translate":"Legendary mending"},
-        "description": {"translate":"Repairs a lengendary item"},
+        "description": {"translate":"Repair a legendary item"},
         "frame": "challenge"
     },
     "parent": "att2:treasure/mending_epi_esc",

@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:music_disc_pigstep"
         },
-        "title": {"translate":"Worlëst Symbol"},
+        "title": {"translate":"Worlëst Symbols"},
         "description": {"translate":"Discover all Exploration symbols of Worlëst"},
         "frame": "challenge"
     },

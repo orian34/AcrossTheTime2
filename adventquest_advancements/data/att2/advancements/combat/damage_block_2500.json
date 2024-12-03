@@ -4,7 +4,7 @@
             "item": "minecraft:shield"
         },
         "title": {"translate":"Concrete wall"},
-        "description": {"translate":"Block 2500 damages with your shield"},
+        "description": {"translate":"Block 2500 damage with your shield"},
         "frame": "goal"
     },
     "parent": "att2:combat/damage_block_100",

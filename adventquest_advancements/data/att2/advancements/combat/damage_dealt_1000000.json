@@ -4,7 +4,7 @@
             "item": "minecraft:wooden_sword"
         },
         "title": {"translate":"Abuse of Power"},
-        "description": {"translate":"Deal 1M melee damages"},
+        "description": {"translate":"Deal 1M melee damage"},
         "frame": "goal"
     },
     "parent": "att2:combat/damage_dealt_100000",

@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:redstone_ore"
         },
-        "title": {"translate":"Vonaheim Checkpoint"},
-        "description": {"translate":"Discover all Checkpoint of Vonaheim"},
+        "title": {"translate":"Vonaheim Checkpoints"},
+        "description": {"translate":"Discover all Checkpoints of Vonaheim"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_vonaheim",

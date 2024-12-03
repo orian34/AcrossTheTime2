@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:skeleton_skull"
         },
-        "title": {"translate":"Skeletons Genocide"},
+        "title": {"translate":"Skeleton Genocider"},
         "description": {"translate":"Kill 500 Skeletons"},
         "frame": "challenge"
     },

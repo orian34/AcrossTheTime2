@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-title @s[scores={LANGUAGE=0}] subtitle {"text":"Gardien éternellement dévoué au temple Worlëst","color":"gray"}
+title @s[scores={LANGUAGE=0}] subtitle {"text":"Gardien éternellement dévoué au temple de Worlëst","color":"gray"}
 
 #ENGLISH LANGUAGE
 

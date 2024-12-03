@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:phantom_membrane"
         },
-        "title": {"translate":"Phantoms Killer"},
+        "title": {"translate":"Phantom Killer"},
         "description": {"translate":"Kill 5 Phantoms"}
     },
     "parent": "att2:mobskilled/root",

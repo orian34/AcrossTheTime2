@@ -4,7 +4,7 @@
             "item": "minecraft:pumpkin_pie"
         },
         "title": {"translate":"Pumpkin pie desire"},
-        "description": {"translate":"Eat 8 pumpkin pie"},
+        "description": {"translate":"Eat 8 pumpkin pies"},
         "frame": "goal"
     },
     "parent": "att2:food/pumpkin_1",

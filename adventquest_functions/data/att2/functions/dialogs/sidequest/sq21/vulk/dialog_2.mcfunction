@@ -6,12 +6,12 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"Te souviens-tu d'Henry Jones Senior ? L'ouverture du portail vers Ryliath lui a redonné le goût de l'aventure ! Il l'a d'ailleurs emprunté... Avant de partir il m'a parlé, d'une légende : il y aurait une sorte d'arme très étrange avec des ornements verdâtres de matières inconnues de notre monde. Elle sommeillerait dans un temple de la forêt dite de ''Worlest''. Etant moi-même collectionneur, je serais ravi que tu me la rapportes si tu mets la main dessus !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"Te souviens-tu d'Henry Jones Senior ? L'ouverture du portail vers Ryliath lui a redonné le goût de l'aventure ! Il l'a d'ailleurs emprunté... Avant de partir il m'a parlé, d'une légende : il y aurait une sorte d'arme très étrange avec des ornements verdâtres de matières inconnues de notre monde. Elle sommeillerait dans un temple de la forêt dite de ''Worlëst''. Etant moi-même collectionneur, je serais ravi que tu me la rapportes si tu mets la main dessus !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"Do you remember Henry Jones Senior? The opening of the portal to Rylaith has given him a taste for adventure! He also borrowed it... Before leaving he told me about a legend: there is a very strange kind of weapon with greenish ornaments of materials unknown to our world. She sleeps in a forest temple called ''Worlest''. Being a collector myself, I would be delighted if you brought it back to me if you got your hands on it!","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"Do you remember Henry Jones Senior? The opening of the portal to Rylaith has given him a taste for adventure! He also borrowed it... Before leaving he told me about a legend: there is a very strange kind of weapon with greenish ornaments of materials unknown to our world. She sleeps in a forest temple called ''Worlëst''. Being a collector myself, I would be delighted if you brought it back to me if you got your hands on it!","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE
@@ -29,19 +29,19 @@ tellraw @s[scores={LANGUAGE=4}] {"text":" °-° 불크 : ","color":"green","extr
 
 #ARABIC LANGUAGE
 
-tellraw @s[scores={LANGUAGE=5}] {"text":" °-° فلك : ","color":"green","extra":[{"text":"هل تتذكر هنري جونز الأب؟ فتح البوابة إلى رايلايث أعطاه طعم المغامرة! وقد استعاره أيضًا... قبل مغادرته، أخبرني عن أسطورة: هناك نوع غريب جدًا من السلاح مزين بزخارف خضراء من مواد غير معروفة في عالمنا. إنه نائم في معبد غابي يُسمى ''Worlest''. كجامع أنا أيضًا، سأكون سعيدًا إذا أحضرته إليّ إذا حصلت عليه!","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=5}] {"text":" °-° فلك : ","color":"green","extra":[{"text":"هل تتذكر هنري جونز الأب؟ فتح البوابة إلى رايلايث أعطاه طعم المغامرة! وقد استعاره أيضًا... قبل مغادرته، أخبرني عن أسطورة: هناك نوع غريب جدًا من السلاح مزين بزخارف خضراء من مواد غير معروفة في عالمنا. إنه نائم في معبد غابي يُسمى ''Worlëst''. كجامع أنا أيضًا، سأكون سعيدًا إذا أحضرته إليّ إذا حصلت عليه!","color":"dark_aqua"}]}
 
 #RUSSIAN LANGUAGE
 
-tellraw @s[scores={LANGUAGE=6}] {"text":" °-° Вулк : ","color":"green","extra":[{"text":"Помнишь Генри Джонса-старшего? Открытие портала в Рилайт пробудило в нем вкус к приключениям! Он также взял его в долг... Перед тем как уехать, он рассказал мне легенду: существует очень странное оружие с зелеными украшениями из материалов, неизвестных нашему миру. Оно спит в лесном храме, называемом ''Worlest''. Будучи коллекционером, я был бы рад, если бы ты принес его мне, если сможешь его найти!","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=6}] {"text":" °-° Вулк : ","color":"green","extra":[{"text":"Помнишь Генри Джонса-старшего? Открытие портала в Рилайт пробудило в нем вкус к приключениям! Он также взял его в долг... Перед тем как уехать, он рассказал мне легенду: существует очень странное оружие с зелеными украшениями из материалов, неизвестных нашему миру. Оно спит в лесном храме, называемом ''Worlëst''. Будучи коллекционером, я был бы рад, если бы ты принес его мне, если сможешь его найти!","color":"dark_aqua"}]}
 
 #SPANISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=7}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"¿Recuerdas a Henry Jones Senior? ¡La apertura del portal a Rylaith le dio un gusto por la aventura! También lo tomó prestado... Antes de partir, me habló de una leyenda: existe un tipo muy extraño de arma con adornos verdosos de materiales desconocidos para nuestro mundo. Está dormida en un templo forestal llamado ''Worlest''. Como coleccionista, estaría encantado si me lo trajeras si lo encuentras.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=7}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"¿Recuerdas a Henry Jones Senior? ¡La apertura del portal a Rylaith le dio un gusto por la aventura! También lo tomó prestado... Antes de partir, me habló de una leyenda: existe un tipo muy extraño de arma con adornos verdosos de materiales desconocidos para nuestro mundo. Está dormida en un templo forestal llamado ''Worlëst''. Como coleccionista, estaría encantado si me lo trajeras si lo encuentras.","color":"dark_aqua"}]}
 
 #GERMAN LANGUAGE
 
-tellraw @s[scores={LANGUAGE=8}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"Erinnerst du dich an Henry Jones Senior? Die Öffnung des Portals nach Rylaith hat ihm die Abenteuerlust gegeben! Er hat es sich auch geliehen... Bevor er ging, erzählte er mir von einer Legende: Es gibt eine sehr seltsame Waffe mit grünlichen Verzierungen aus Materialien, die unserer Welt unbekannt sind. Sie schläft in einem Waldtempel namens ''Worlest''. Als Sammler würde ich mich freuen, wenn du sie mir bringst, wenn du sie findest!","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=8}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"Erinnerst du dich an Henry Jones Senior? Die Öffnung des Portals nach Rylaith hat ihm die Abenteuerlust gegeben! Er hat es sich auch geliehen... Bevor er ging, erzählte er mir von einer Legende: Es gibt eine sehr seltsame Waffe mit grünlichen Verzierungen aus Materialien, die unserer Welt unbekannt sind. Sie schläft in einem Waldtempel namens ''Worlëst''. Als Sammler würde ich mich freuen, wenn du sie mir bringst, wenn du sie findest!","color":"dark_aqua"}]}
 
 #HINDI LANGUAGE
 
@@ -49,7 +49,7 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° वुल्क : ","color":"gre
 
 #PORTUGUESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"Você se lembra de Henry Jones Senior? A abertura do portal para Rylaith lhe deu um gosto por aventura! Ele também o pegou emprestado... Antes de partir, ele me contou sobre uma lenda: existe um tipo muito estranho de arma com ornamentos esverdeados de materiais desconhecidos para o nosso mundo. Ela está adormecida em um templo florestal chamado ''Worlest''. Sendo um colecionador, eu ficaria encantado se você a trouxesse de volta para mim se conseguir encontrá-la!","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"Você se lembra de Henry Jones Senior? A abertura do portal para Rylaith lhe deu um gosto por aventura! Ele também o pegou emprestado... Antes de partir, ele me contou sobre uma lenda: existe um tipo muito estranho de arma com ornamentos esverdeados de materiais desconhecidos para o nosso mundo. Ela está adormecida em um templo florestal chamado ''Worlëst''. Sendo um colecionador, eu ficaria encantado se você a trouxesse de volta para mim se conseguir encontrá-la!","color":"dark_aqua"}]}
 
 
 function att2:dialogs/sidequest/sq21/vulk/player_proposal_1/choice_1

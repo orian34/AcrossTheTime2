@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:music_disc_pigstep"
         },
-        "title": {"translate":"Kert Symbol"},
+        "title": {"translate":"Kert Symbols"},
         "description": {"translate":"Discover all Exploration symbols of Kert"},
         "frame": "challenge"
     },

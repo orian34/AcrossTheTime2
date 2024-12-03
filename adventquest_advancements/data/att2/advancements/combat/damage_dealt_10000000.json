@@ -4,7 +4,7 @@
             "item": "minecraft:wooden_sword"
         },
         "title": {"translate":"Bulldozer"},
-        "description": {"translate":"Deal 10M melee damages"},
+        "description": {"translate":"Deal 10M melee damage"},
         "frame": "challenge"
     },
     "parent": "att2:combat/damage_dealt_1000000",

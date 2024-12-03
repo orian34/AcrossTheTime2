@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:music_disc_pigstep"
         },
-        "title": {"translate":"Exiles camp Symbol"},
-        "description": {"translate":"Discover all Exploration symbols of Exiles camp"},
+        "title": {"translate":"Exiles Camp Symbols"},
+        "description": {"translate":"Discover all Exploration symbols of Exiles Camp"},
         "frame": "challenge"
     },
     "parent": "att2:journey/discover_exiles",

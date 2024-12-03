@@ -4,7 +4,7 @@
             "item": "minecraft:anvil"
         },
         "title": {"translate":"Reparation"},
-        "description": {"translate":"Repairs 25 items"},
+        "description": {"translate":"Repair 25 items"},
         "frame": "goal"
     },
     "parent": "att2:treasure/mending_5",

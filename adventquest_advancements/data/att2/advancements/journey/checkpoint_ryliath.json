@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:redstone_ore"
         },
-        "title": {"translate":"Ryliath Checkpoint"},
-        "description": {"translate":"Discover all Checkpoint of Ryliath"},
+        "title": {"translate":"Ryliath Checkpoints"},
+        "description": {"translate":"Discover all Checkpoints of Ryliath"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_ryliath",

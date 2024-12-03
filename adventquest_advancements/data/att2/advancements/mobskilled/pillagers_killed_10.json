@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:conduit"
         },
-        "title": {"translate":"Pillagers Killer"},
+        "title": {"translate":"Pillager Killer"},
         "description": {"translate":"Kill 10 Pillagers"}
     },
     "parent": "att2:mobskilled/root",

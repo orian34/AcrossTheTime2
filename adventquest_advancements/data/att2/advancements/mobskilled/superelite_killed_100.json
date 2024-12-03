@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:target"
         },
-        "title": {"translate":"Super Elite Genocide"},
-        "description": {"translate":"Kill 100 Super Elite"},
+        "title": {"translate":"Super Elite Genocider"},
+        "description": {"translate":"Kill 100 Super Elites"},
         "frame": "goal"
     },
     "parent": "att2:mobskilled/superelite_killed_25",

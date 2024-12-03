@@ -8,12 +8,12 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Calypso : ","color":"green","extra":[{"text":"*Rougie* C'est... c'est normal voyons. Je suis de retour à Earndhel pour un bon moment. Tu peux repasser me voir au temple quand tu en as envie...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Calypso : ","color":"green","extra":[{"text":"*Rougie* C'est... c'est normal voyons. Je suis de retour à Ëarndhel pour un bon moment. Tu peux repasser me voir au temple quand tu en as envie...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Calypso : ","color":"green","extra":[{"text":"*blushes* It's... it's normal, come on. I'm back in Earndhel for quite a while. You can come see me at the temple whenever you want...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Calypso : ","color":"green","extra":[{"text":"*blushes* It's... it's normal, come on. I'm back in Ëarndhel for quite a while. You can come see me at the temple whenever you want...","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE
@@ -39,11 +39,11 @@ tellraw @a[scores={LANGUAGE=6}] {"text":" °-° Calypso : ","color":"green","ext
 
 #SPANISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=7}] {"text":" °-° Calypso : ","color":"green","extra":[{"text":"*se sonroja* Esto... esto es normal, vamos. He vuelto a Earndhel por un buen rato. Puedes venir a verme al templo cuando quieras...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=7}] {"text":" °-° Calypso : ","color":"green","extra":[{"text":"*se sonroja* Esto... esto es normal, vamos. He vuelto a Ëarndhel por un buen rato. Puedes venir a verme al templo cuando quieras...","color":"dark_aqua"}]}
 
 #GERMAN LANGUAGE
 
-tellraw @a[scores={LANGUAGE=8}] {"text":" °-° Calypso : ","color":"green","extra":[{"text":"*errötet* Das... das ist normal, komm schon. Ich bin für eine Weile zurück in Earndhel. Du kannst mich im Tempel besuchen, wann immer du willst...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=8}] {"text":" °-° Calypso : ","color":"green","extra":[{"text":"*errötet* Das... das ist normal, komm schon. Ich bin für eine Weile zurück in Ëarndhel. Du kannst mich im Tempel besuchen, wann immer du willst...","color":"dark_aqua"}]}
 
 #HINDI LANGUAGE
 
@@ -51,4 +51,4 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Calypso : ","color":"green","ext
 
 #PORTUGUESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Calypso : ","color":"green","extra":[{"text":"*corando* Isso... isso é normal, vamos. Estou de volta a Earndhel por um bom tempo. Você pode me visitar no templo quando quiser...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Calypso : ","color":"green","extra":[{"text":"*corando* Isso... isso é normal, vamos. Estou de volta a Ëarndhel por um bom tempo. Você pode me visitar no templo quando quiser...","color":"dark_aqua"}]}

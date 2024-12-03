@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:redstone_ore"
         },
-        "title": {"translate":"Sylberländ cave Checkpoint"},
-        "description": {"translate":"Discover all Checkpoint of Sylberländ cave"},
+        "title": {"translate":"Sylberländ cave Checkpoints"},
+        "description": {"translate":"Discover all Checkpoints of Sylberländ cave"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_sylberland_cave",

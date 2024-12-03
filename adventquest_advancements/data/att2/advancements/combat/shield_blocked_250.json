@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:shield"
         },
-        "title": {"translate":"Shield Master."},
+        "title": {"translate":"Shield Hero"},
         "description": {"translate":"Deflect 250 attacks with your shield"},
         "frame": "goal"
     },

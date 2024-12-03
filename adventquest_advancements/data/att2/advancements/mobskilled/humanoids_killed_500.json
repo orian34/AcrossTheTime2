@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:player_head"
         },
-        "title": {"translate":"Humanoids Genocide"},
+        "title": {"translate":"Humanoids Genocider"},
         "description": {"translate":"Kill 500 Humanoids"},
         "frame": "challenge"
     },

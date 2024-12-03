@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:zombie_head"
         },
-        "title": {"translate":"Vindicators Genocide"},
+        "title": {"translate":"Vindicator Genocider"},
         "description": {"translate":"Kill 500 Vindicators"},
         "frame": "challenge"
     },

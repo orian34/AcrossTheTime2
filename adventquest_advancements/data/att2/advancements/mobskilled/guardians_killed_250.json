@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:pufferfish"
         },
-        "title": {"translate":"Guardian Genocide"},
+        "title": {"translate":"Guardian Genocider"},
         "description": {"translate":"Kill 250 Guardians"},
         "frame": "challenge"
     },

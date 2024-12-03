@@ -4,7 +4,7 @@
             "item": "minecraft:glow_item_frame"
         },
         "title": {"translate":"Elite Exterminator"},
-        "description": {"translate":"Kill 500 elites"},
+        "description": {"translate":"Kill 500 Elites"},
         "frame": "challenge"
     },
     "parent": "att2:mobskilled/elite_killed_250",

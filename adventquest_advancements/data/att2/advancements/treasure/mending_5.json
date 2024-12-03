@@ -4,7 +4,7 @@
             "item": "minecraft:anvil"
         },
         "title": {"translate":"Tinkering"},
-        "description": {"translate":"Repairs 5 items"},
+        "description": {"translate":"Repair 5 items"},
         "frame": "goal"
     },
     "parent": "att2:treasure/mending_1",

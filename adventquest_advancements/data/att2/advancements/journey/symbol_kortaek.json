@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:music_disc_pigstep"
         },
-        "title": {"translate":"Kortaek Symbol"},
+        "title": {"translate":"Kortaek Symbols"},
         "description": {"translate":"Discover all Exploration symbols of Kortaek"},
         "frame": "challenge"
     },
