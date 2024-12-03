@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:iron_helmet"
         },
-        "title": {"translate":"Distinciton du capitaine"},
+        "title": {"translate":"Distinction du capitaine"},
         "description": {"translate":"May your head shine proudly in the eyes of both your own and your enemies."},
         "frame": "goal",
         "show_toast": true,
@@ -20,7 +20,7 @@
                 "items": [
                     {
                     "items": ["minecraft:iron_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§5Distinciton du capitaine\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Puisse ta tête briller fièrement\\\"}\",\"{\\\"text\\\":\\\"§7aux yeux des tiens et ceux de tes ennemis.\\\"}\",\"{\\\"text\\\":\\\"§7May your head shine proudly in the eyes\\\"}\",\"{\\\"text\\\":\\\"§7of both your own and your enemies.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HER§a1 §7DAR§c-1\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§5Distinction du capitaine\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Puisse ta tête briller fièrement\\\"}\",\"{\\\"text\\\":\\\"§7aux yeux des tiens et ceux de tes ennemis.\\\"}\",\"{\\\"text\\\":\\\"§7May your head shine proudly in the eyes\\\"}\",\"{\\\"text\\\":\\\"§7of both your own and your enemies.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HER§a1 §7DAR§c-1\\\"}\"]}}"
                     }
                 ]
             }

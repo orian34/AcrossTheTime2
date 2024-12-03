@@ -16,7 +16,7 @@
                 "items": [
                     {
                     "items": ["minecraft:netherite_pickaxe"],
-                    "nbt": "{display:{Name:\"\\\"§7Batte nulle\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Utilisé seulement pour les sorties de taverne.\\\"}\",\"{\\\"text\\\":\\\"§7Used only at tavern exits.\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§7Batte nulle\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Utilisée seulement pour les sorties de taverne.\\\"}\",\"{\\\"text\\\":\\\"§7Used only at tavern exits.\\\"}\"]}}"
                     }
                 ]
             }

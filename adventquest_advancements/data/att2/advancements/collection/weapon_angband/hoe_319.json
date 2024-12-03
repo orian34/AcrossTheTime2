@@ -4,7 +4,7 @@
             "item": "minecraft:golden_hoe"
         },
         "title": {"translate":"Echarde"},
-        "description": {"translate":"Bobo toddler."},
+        "description": {"translate":"Toddler hurdle."},
         "show_toast": false,
         "announce_to_chat": true
     },
@@ -16,7 +16,7 @@
                 "items": [
                     {
                     "items": ["minecraft:golden_hoe"],
-                    "nbt": "{display:{Name:\"\\\"§7Echarde\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Bobo de bambin.\\\"}\",\"{\\\"text\\\":\\\"§7Bobo toddler.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§c-1\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§7Echarde\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Bobo de bambin.\\\"}\",\"{\\\"text\\\":\\\"§7Toddler hurdle.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§c-1\\\"}\"]}}"
                     }
                 ]
             }

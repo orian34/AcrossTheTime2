@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:stripped_mangrove_log"
         },
-        "title": {"translate":"All Sword"},
+        "title": {"translate":"All Swords"},
         "description": {"translate":"Find all sword items"},
         "frame": "challenge"
     },

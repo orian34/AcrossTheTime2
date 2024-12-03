@@ -20,7 +20,7 @@
                 "items": [
                     {
                     "items": ["minecraft:wooden_hoe"],
-                    "nbt": "{display:{Name:\"\\\"§9Dard affûté\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7La piqure douloureuse du frelon des plaines.\\\"}\",\"{\\\"text\\\":\\\"§7The painful sting of the plains hornet.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7SPD§c-2\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§9Dard affûté\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7La piqûre douloureuse du frelon des plaines.\\\"}\",\"{\\\"text\\\":\\\"§7The painful sting of the plains hornet.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7SPD§c-2\\\"}\"]}}"
                     }
                 ]
             }

@@ -20,7 +20,7 @@
                 "items": [
                     {
                     "items": ["minecraft:bow"],
-                    "nbt": "{display:{Name:\"\\\"§9Rossignol\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Puisses tes flèches voler\\\"}\",\"{\\\"text\\\":\\\"§7à la manière du rossignol.\\\"}\",\"{\\\"text\\\":\\\"§7May your arrows fly\\\"}\",\"{\\\"text\\\":\\\"§7like a nightingale.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HER§a1 §7RES§c-1 §7DAR§c-1\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§9Rossignol\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Puissent tes flèches voler\\\"}\",\"{\\\"text\\\":\\\"§7à la manière du rossignol.\\\"}\",\"{\\\"text\\\":\\\"§7May your arrows fly\\\"}\",\"{\\\"text\\\":\\\"§7like a nightingale.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HER§a1 §7RES§c-1 §7DAR§c-1\\\"}\"]}}"
                     }
                 ]
             }

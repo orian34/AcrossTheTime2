@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:deepslate_diamond_ore"
         },
-        "title": {"translate":"All Delightful Weapon"},
-        "description": {"translate":"Find all Delightful weapon"},
+        "title": {"translate":"All Delightful Weapons"},
+        "description": {"translate":"Find all Delightful weapons"},
         "frame": "challenge"
     },
     "parent": "att2:collection/weapon_diamond",

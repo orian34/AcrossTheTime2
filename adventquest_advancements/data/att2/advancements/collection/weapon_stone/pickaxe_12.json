@@ -4,7 +4,7 @@
             "item": "minecraft:wooden_pickaxe"
         },
         "title": {"translate":"Frappeur"},
-        "description": {"translate":"Knock, knock..."},
+        "description": {"translate":"Break bones."},
         "show_toast": false,
         "announce_to_chat": true
     },

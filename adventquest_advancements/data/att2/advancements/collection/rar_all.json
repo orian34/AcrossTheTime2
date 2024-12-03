@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:blue_candle"
         },
-        "title": {"translate":"All Rare"},
+        "title": {"translate":"All Rares"},
         "description": {"translate":"Find all rare items"},
         "frame": "challenge"
     },

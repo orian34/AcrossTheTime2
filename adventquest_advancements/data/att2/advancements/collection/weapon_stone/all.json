@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:raw_copper_block"
         },
-        "title": {"translate":"All Graceful Weapon"},
-        "description": {"translate":"Find all Graceful weapon"},
+        "title": {"translate":"All Graceful Weapons"},
+        "description": {"translate":"Find all Graceful weapons"},
         "frame": "challenge"
     },
     "parent": "att2:collection/weapon_stone",

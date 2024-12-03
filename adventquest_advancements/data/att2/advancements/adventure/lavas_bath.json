@@ -4,7 +4,7 @@
             "item": "minecraft:lava_bucket"
         },
         "title": {"translate":"It's Hot"},
-        "description": {"translate":"Swim in the lava"},
+        "description": {"translate":"Swim in lava"},
         "frame": "challenge"
     },
     "parent": "att2:adventure/like_a_fish",

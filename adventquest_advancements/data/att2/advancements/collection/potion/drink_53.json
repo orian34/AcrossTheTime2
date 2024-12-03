@@ -21,7 +21,7 @@
                 "items": [
                     {
                     "items": ["minecraft:potion"],
-                    "nbt": "{display:{Name:\"\\\"§9Cataplasme\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Bouillie médicinale effectif favorisant\\\"}\",\"{\\\"text\\\":\\\"§7ainsi l'élimination rapide des toxines.\\\"}\",\"{\\\"text\\\":\\\"§7Effective medicinal porridge thus promoting\\\"}\",\"{\\\"text\\\":\\\"§7the rapid elimination of toxins.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HAS§a1 §7SPD§a1 §7HUN§c-4\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§9Cataplasme\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Bouillie médicinale effective favorisant\\\"}\",\"{\\\"text\\\":\\\"§7ainsi l'élimination rapide des toxines.\\\"}\",\"{\\\"text\\\":\\\"§7Effective medicinal porridge thus promoting\\\"}\",\"{\\\"text\\\":\\\"§7the rapid elimination of toxins.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a1 §7HAS§a1 §7SPD§a1 §7HUN§c-4\\\"}\"]}}"
                     }
                 ]
             }

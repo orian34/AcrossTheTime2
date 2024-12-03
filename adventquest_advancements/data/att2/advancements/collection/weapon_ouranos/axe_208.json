@@ -20,7 +20,7 @@
                 "items": [
                     {
                     "items": ["minecraft:stone_axe"],
-                    "nbt": "{display:{Name:\"\\\"§5Lame de l'ancien\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Le temps ne fais pas ta décadence,\\\"}\",\"{\\\"text\\\":\\\"§7mais il te rendra nostalgique.\\\"}\",\"{\\\"text\\\":\\\"§7Time doesn't make you decadent,\\\"}\",\"{\\\"text\\\":\\\"§7but it will make you nostalgic.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HAS§a2 §7SPD§c-1\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§5Lame de l'ancien\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Le temps ne fait pas ta décadence,\\\"}\",\"{\\\"text\\\":\\\"§7mais il te rendra nostalgique.\\\"}\",\"{\\\"text\\\":\\\"§7Time doesn't make you decadent,\\\"}\",\"{\\\"text\\\":\\\"§7but it will make you nostalgic.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HAS§a2 §7SPD§c-1\\\"}\"]}}"
                     }
                 ]
             }

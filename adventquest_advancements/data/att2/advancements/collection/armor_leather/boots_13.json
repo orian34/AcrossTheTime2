@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:leather_boots"
         },
-        "title": {"translate":"Soulier d'agerri"},
+        "title": {"translate":"Soulier d'aguerri"},
         "description": {"translate":"Increase your Dahäl regeneration."},
         "frame": "goal",
         "show_toast": false,
@@ -20,7 +20,7 @@
                 "items": [
                     {
                     "items": ["minecraft:leather_boots"],
-                    "nbt": "{display:{Name:\"\\\"§9Soulier d'agerri\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Augmente votre\\\"}\",\"{\\\"text\\\":\\\"§7récupération de Dahäl.\\\"}\",\"{\\\"text\\\":\\\"§7Increase your\\\"}\",\"{\\\"text\\\":\\\"§7Dahäl regeneration.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§a2 §7SPD§c-2\\\"}\"],color:2890408}}"
+                    "nbt": "{display:{Name:\"\\\"§9Soulier d'aguerri\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Augmente votre\\\"}\",\"{\\\"text\\\":\\\"§7récupération de Dahäl.\\\"}\",\"{\\\"text\\\":\\\"§7Increase your\\\"}\",\"{\\\"text\\\":\\\"§7Dahäl regeneration.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§a2 §7SPD§c-2\\\"}\"],color:2890408}}"
                     }
                 ]
             }

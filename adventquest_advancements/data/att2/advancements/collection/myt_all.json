@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:cyan_candle"
         },
-        "title": {"translate":"All Mythical"},
+        "title": {"translate":"All Mythicals"},
         "description": {"translate":"Find all mythical items"},
         "frame": "challenge"
     },

@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:mangrove_roots"
         },
-        "title": {"translate":"All Mass"},
-        "description": {"translate":"Find all mass items"},
+        "title": {"translate":"All Maces"},
+        "description": {"translate":"Find all mace items"},
         "frame": "challenge"
     },
     "parent": "att2:collection/root",

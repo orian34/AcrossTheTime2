@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:stripped_bamboo_block"
         },
-        "title": {"translate":"All Axe"},
+        "title": {"translate":"All Axes"},
         "description": {"translate":"Find all axe items"},
         "frame": "challenge"
     },

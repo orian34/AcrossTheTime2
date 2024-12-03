@@ -4,7 +4,7 @@
             "item": "minecraft:green_bed"
         },
         "title": {"translate":"The world is the traveler's inn!"},
-        "description": {"translate":"Booked a room in all inn of Sylberländ."},
+        "description": {"translate":"Booked a room in all inns of Sylberländ."},
         "frame": "challenge"
     },
     "parent": "att2:adventure/inn_10",
