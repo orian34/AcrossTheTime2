@@ -77,8 +77,8 @@ advancement grant @a[scores={SPELL11_CAP=10..}] only att2:dahal/spell11_lvl10
 
 # STOCK
 advancement grant @a[scores={SPELL20_CAP=3..}] only att2:dahal/spell20_lvl3
-advancement grant @a[scores={SPELL20_CAP=4..}] only att2:dahal/spell20_lvl4
 advancement grant @a[scores={SPELL20_CAP=5..}] only att2:dahal/spell20_lvl5
+advancement grant @a[scores={SPELL20_CAP=7..}] only att2:dahal/spell20_lvl7
 
 # FAMILIER VITALITE
 advancement grant @a[scores={SPELL21_CAP=2..}] only att2:dahal/spell21_lvl2

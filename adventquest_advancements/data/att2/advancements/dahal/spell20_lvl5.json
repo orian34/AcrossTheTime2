@@ -3,14 +3,14 @@
         "icon": {
             "item": "minecraft:enchanted_book"
         },
-        "title": {"translate":"Stock Master"},
+        "title": {"translate":"Stock Veteran"},
         "description": {"translate":"Reach level 5 with Stock spell"},
-        "frame": "challenge"
+        "frame": "goal"
     },
-    "parent": "att2:dahal/spell20_lvl4",
+    "parent": "att2:dahal/spell20_lvl3",
     "rewards": {
-        "function": "att2:advancement/exploit_10",
-        "experience": 10000
+        "function": "att2:advancement/exploit_5",
+        "experience": 1000
                 },
     "criteria": {
         "spell20_lvl5": {
