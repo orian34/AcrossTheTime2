@@ -4,7 +4,7 @@
             "item": "minecraft:orange_candle"
         },
         "title": {"translate":"Legendary selling"},
-        "description": {"translate":"Sell 1 legendary items"},
+        "description": {"translate":"Sell 1 legendary item"},
         "frame": "challenge"
     },
     "parent": "att2:treasure/sold_1000",

@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-title @s[scores={LANGUAGE=0}] subtitle {"text":"Serviteur des ténèbres, l'illusion mortel","color":"gray"}
+title @s[scores={LANGUAGE=0}] subtitle {"text":"Serviteur des ténèbres, l'illusion mortelle","color":"gray"}
 
 #ENGLISH LANGUAGE
 

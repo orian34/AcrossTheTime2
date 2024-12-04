@@ -4,7 +4,7 @@
             "item": "minecraft:skeleton_skull"
         },
         "title": {"translate":"Vex Killer"},
-        "description": {"translate":"Kill 5 Vex"}
+        "description": {"translate":"Kill 5 Vexes"}
     },
     "parent": "att2:mobskilled/root",
     "rewards": {

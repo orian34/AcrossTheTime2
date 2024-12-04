@@ -4,7 +4,7 @@
             "item": "minecraft:shield"
         },
         "title": {"translate":"Testudo formation"},
-        "description": {"translate":"Block 50000 damages with your shield"},
+        "description": {"translate":"Block 50000 damage with your shield"},
         "frame": "challenge"
     },
     "parent": "att2:combat/damage_block_10000",

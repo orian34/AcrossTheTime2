@@ -4,7 +4,7 @@
             "item": "minecraft:target"
         },
         "title": {"translate":"Super Elite Exterminator"},
-        "description": {"translate":"Kill 250 Super Elite"},
+        "description": {"translate":"Kill 250 Super Elites"},
         "frame": "challenge"
     },
     "parent": "att2:mobskilled/superelite_killed_100",

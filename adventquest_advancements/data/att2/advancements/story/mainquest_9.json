@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:barrier"
         },
-        "title": {"translate":"Earndhel here I am again!"},
+        "title": {"translate":"Ëarndhel here I am again!"},
         "description": {"translate":"The emergence of hatred"},
         "frame": "goal"
     },

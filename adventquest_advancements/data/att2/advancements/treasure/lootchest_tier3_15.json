@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:trapped_chest"
         },
-        "title": {"translate":"Isolated chest"},
-        "description": {"translate":"Open 15 Isolated chest"},
+        "title": {"translate":"Isolated Chest Amateur"},
+        "description": {"translate":"Open 15 Isolated Chests"},
         "frame": "goal"
     },
     "parent": "att2:treasure/lootchest_tier3_3",
@@ -18,4 +18,3 @@
         }
     }
 }
-    

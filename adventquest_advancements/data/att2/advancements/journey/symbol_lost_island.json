@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:music_disc_pigstep"
         },
-        "title": {"translate":"Lost island Symbol"},
+        "title": {"translate":"Lost island Symbols"},
         "description": {"translate":"Discover all Exploration symbols of Lost island"},
         "frame": "challenge"
     },

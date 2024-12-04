@@ -4,7 +4,7 @@
             "item": "minecraft:chest"
         },
         "title": {"translate":"I Need Loot"},
-        "description": {"translate":"Open 1000 Chest"},
+        "description": {"translate":"Open 1000 Chests"},
         "frame": "goal"
     },
     "parent": "att2:treasure/chest_250",

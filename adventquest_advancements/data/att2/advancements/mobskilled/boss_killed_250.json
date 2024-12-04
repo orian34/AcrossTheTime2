@@ -4,7 +4,7 @@
             "item": "minecraft:structure_void"
         },
         "title": {"translate":"Boss Genocider"},
-        "description": {"translate":"Kill 250 Boss"},
+        "description": {"translate":"Kill 250 Bosses"},
         "frame": "challenge"
     },
     "parent": "att2:mobskilled/boss_killed_100",

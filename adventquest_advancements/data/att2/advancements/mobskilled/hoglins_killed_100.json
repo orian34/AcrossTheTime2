@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:leather"
         },
-        "title": {"translate":"Hoglins Slayer"},
+        "title": {"translate":"Hoglin Slayer"},
         "description": {"translate":"Kill 100 Hoglins"},
         "frame": "goal"
     },

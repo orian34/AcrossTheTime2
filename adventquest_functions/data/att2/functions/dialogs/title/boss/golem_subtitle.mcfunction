@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-title @s[scores={LANGUAGE=0}] subtitle {"text":"Grand architect, Démence de la création","color":"gray"}
+title @s[scores={LANGUAGE=0}] subtitle {"text":"Grand Architecte, Démence de la Création","color":"gray"}
 
 #ENGLISH LANGUAGE
 

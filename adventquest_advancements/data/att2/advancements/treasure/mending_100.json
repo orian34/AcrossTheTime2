@@ -4,7 +4,7 @@
             "item": "minecraft:anvil"
         },
         "title": {"translate":"Consolidation"},
-        "description": {"translate":"Repairs 100 items"},
+        "description": {"translate":"Repair 100 items"},
         "frame": "goal"
     },
     "parent": "att2:treasure/mending_25",

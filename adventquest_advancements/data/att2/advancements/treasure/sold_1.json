@@ -4,7 +4,7 @@
             "item": "minecraft:nether_star"
         },
         "title": {"translate":"Cost and profit"},
-        "description": {"translate":"Sell 1 item from a buyer"}
+        "description": {"translate":"Sell 1 item to a buyer"}
     },
     "parent": "att2:treasure/root",
         "rewards": {

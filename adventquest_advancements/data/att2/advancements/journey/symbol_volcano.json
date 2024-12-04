@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:music_disc_pigstep"
         },
-        "title": {"translate":"Volcano Symbol"},
+        "title": {"translate":"Volcano Symbols"},
         "description": {"translate":"Discover all Exploration symbols of Volcano"},
         "frame": "challenge"
     },

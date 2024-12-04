@@ -12,9 +12,9 @@ playsound entity.experience_orb.touch master @a ~ ~ ~ 10 0.1 1
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"°|°._.°|° : ","color":"gray","extra":[{"text":"Point de passage de la ville de Meleim découvert!","color":"yellow"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":"°|°._.°|° : ","color":"gray","extra":[{"text":"Point de passage de la ville de Méleïm découvert!","color":"yellow"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":"°|°._.°|° : ","color":"gray","extra":[{"text":"WAYPOINT of Meleim discovered!","color":"yellow"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":"°|°._.°|° : ","color":"gray","extra":[{"text":"WAYPOINT of Méleïm discovered!","color":"yellow"}]}

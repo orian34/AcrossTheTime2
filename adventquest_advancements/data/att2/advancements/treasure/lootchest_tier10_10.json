@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:gold_ingot"
         },
-        "title": {"translate":"Lost chest"},
-        "description": {"translate":"Open 10 Lost chest"}
+        "title": {"translate":"Lost Chest Neophyte"},
+        "description": {"translate":"Open 10 Lost Chests"}
     },
     "parent": "att2:treasure/root",
     "rewards": {
@@ -17,4 +17,3 @@
         }
     }
 }
-    

@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:skeleton_skull"
         },
-        "title": {"translate":"Skeletons Eliminator"},
+        "title": {"translate":"Skeleton Eliminator"},
         "description": {"translate":"Kill 50 Skeletons"},
         "frame": "goal"
     },

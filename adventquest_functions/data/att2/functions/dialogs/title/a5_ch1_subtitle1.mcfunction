@@ -10,7 +10,7 @@ title @a[scores={LANGUAGE=0}] subtitle {"text":"La princesse d'Angband","color":
 
 #ENGLISH LANGUAGE
 
-title @a[scores={LANGUAGE=1}] subtitle {"text":"Angband's princesse","color":"dark_red"}
+title @a[scores={LANGUAGE=1}] subtitle {"text":"Angband's princess","color":"dark_red"}
 
 #CHINESE LANGUAGE
 

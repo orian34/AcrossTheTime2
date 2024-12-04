@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:slime_block"
         },
-        "title": {"translate":"Slimes Killer"},
+        "title": {"translate":"Slime Killer"},
         "description": {"translate":"Kill 10 Slimes"}
     },
     "parent": "att2:mobskilled/root",

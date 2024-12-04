@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:arrow"
         },
-        "title": {"translate":"Shield Apprentice."},
+        "title": {"translate":"Shield Apprentice"},
         "description": {"translate":"Deflect 5 attacks with your shield"}
     },
     "parent": "att2:combat/deflect_arrow",

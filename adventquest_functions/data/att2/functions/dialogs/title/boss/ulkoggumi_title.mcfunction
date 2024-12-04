@@ -1,7 +1,7 @@
 ##############################################
 #Made by Adventquest						 #
-#Use function to activate the title Ulkuggumi#
+#Use function to activate the title Ulkoggumi#
 ##############################################
 
 
-title @s title {"text":"     Ulkuggumi     ","color":"dark_red","underlined":true}
+title @s title {"text":"     Ulkoggumi     ","color":"dark_red","underlined":true}

@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-title @s[scores={LANGUAGE=0}] subtitle {"text":"Alliance des Donjons'","color":"gray"}
+title @s[scores={LANGUAGE=0}] subtitle {"text":"Alliance des Donjons","color":"gray"}
 
 #ENGLISH LANGUAGE
 

@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:trapped_chest"
         },
-        "title": {"translate":"Lost chest"},
-        "description": {"translate":"Open 30 Lost chest"},
+        "title": {"translate":"Lost Chest Amateur"},
+        "description": {"translate":"Open 30 Lost Chests"},
         "frame": "goal"
     },
     "parent": "att2:treasure/lootchest_tier10_10",
@@ -18,4 +18,3 @@
         }
     }
 }
-    

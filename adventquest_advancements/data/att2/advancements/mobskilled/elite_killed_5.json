@@ -4,7 +4,7 @@
             "item": "minecraft:glow_item_frame"
         },
         "title": {"translate":"Elite Killer"},
-        "description": {"translate":"Kill 5 elites"}
+        "description": {"translate":"Kill 5 Elites"}
     },
     "parent": "att2:mobskilled/root",
     "rewards": {

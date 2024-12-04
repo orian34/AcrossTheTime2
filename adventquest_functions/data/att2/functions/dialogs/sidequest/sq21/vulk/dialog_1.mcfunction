@@ -6,12 +6,12 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"Je ne rêve pas ? ","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":" ! Quel bon vent te ramène à Earndhel ?","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"Je ne rêve pas ? ","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":" ! Quel bon vent te ramène à Ëarndhel ?","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"I do not dream?","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":"! What good wind takes you back to Earndhel?","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"I do not dream?","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":"! What good wind takes you back to Ëarndhel?","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE
@@ -37,11 +37,11 @@ tellraw @s[scores={LANGUAGE=6}] {"text":" °-° Вулк : ","color":"green","ex
 
 #SPANISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=7}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"¿No estoy soñando?","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":"¡Qué buen viento te trae de vuelta a Earndhel?","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=7}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"¿No estoy soñando?","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":"¡Qué buen viento te trae de vuelta a Ëarndhel?","color":"dark_aqua"}]}
 
 #GERMAN LANGUAGE
 
-tellraw @s[scores={LANGUAGE=8}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"Träume ich?","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":"! Welcher gute Wind hat dich zurück nach Earndhel gebracht?","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=8}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"Träume ich?","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":"! Welcher gute Wind hat dich zurück nach Ëarndhel gebracht?","color":"dark_aqua"}]}
 
 #HINDI LANGUAGE
 
@@ -49,4 +49,4 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° वुल्क : ","color":"gre
 
 #PORTUGUESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"Eu não estou sonhando?","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":"! Que bom vento te trouxe de volta a Earndhel?","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"Eu não estou sonhando?","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":"! Que bom vento te trouxe de volta a Ëarndhel?","color":"dark_aqua"}]}

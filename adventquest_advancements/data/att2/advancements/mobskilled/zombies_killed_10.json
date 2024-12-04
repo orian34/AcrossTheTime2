@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:zombie_head"
         },
-        "title": {"translate":"Zombies Killer"},
+        "title": {"translate":"Zombie Killer"},
         "description": {"translate":"Kill 10 Zombies"}
     },
     "parent": "att2:mobskilled/root",

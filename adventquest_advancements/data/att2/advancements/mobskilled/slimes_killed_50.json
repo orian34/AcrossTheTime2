@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:slime_block"
         },
-        "title": {"translate":"Slimes Eliminator"},
+        "title": {"translate":"Slime Eliminator"},
         "description": {"translate":"Kill 50 Slimes"},
         "frame": "goal"
     },

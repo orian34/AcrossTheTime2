@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:enchanted_book"
         },
-        "title": {"translate":"Dahäl Eaternän"},
+        "title": {"translate":"Dahäl Eternän"},
         "description": {"translate":"Reach level max for all spells"},
         "frame": "challenge"
     },

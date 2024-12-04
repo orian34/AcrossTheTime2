@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:music_disc_pigstep"
         },
-        "title": {"translate":"Angor south Symbol"},
+        "title": {"translate":"Angor south Symbols"},
         "description": {"translate":"Discover all Exploration symbols of Angor south"},
         "frame": "challenge"
     },

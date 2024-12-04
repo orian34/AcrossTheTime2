@@ -4,7 +4,7 @@
             "item": "minecraft:light_blue_dye"
         },
         "title": {"translate":"Rare mending"},
-        "description": {"translate":"Repairs a rare item"},
+        "description": {"translate":"Repair a rare item"},
         "frame": "goal"
     },
     "parent": "att2:treasure/mending_unc",

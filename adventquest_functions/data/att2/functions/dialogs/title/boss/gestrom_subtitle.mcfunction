@@ -1,16 +1,16 @@
 #################################################
 #Made by Adventquest							#
-#Use function to activate the subtitle Golem	#
+#Use function to activate the subtitle Geström	#
 #################################################
 
 
 #FRENCH LANGUAGE
 
-title @s[scores={LANGUAGE=0}] subtitle {"text":"Protecteur Infaillible, Dernier rempart","color":"gray"}
+title @s[scores={LANGUAGE=0}] subtitle {"text":"Protecteur Infaillible, Dernier Rempart","color":"gray"}
 
 #ENGLISH LANGUAGE
 
-title @s[scores={LANGUAGE=1}] subtitle {"text":"Unwavering protector, The last bastion","color":"gray"}
+title @s[scores={LANGUAGE=1}] subtitle {"text":"Unwavering Protector, The Last Bastion","color":"gray"}
 
 #CHINESE LANGUAGE
 

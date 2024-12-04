@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-title @s[scores={LANGUAGE=0}] subtitle {"text":"Ligue d'Espace","color":"gray"}
+title @s[scores={LANGUAGE=0}] subtitle {"text":"Ligue de l'Espace","color":"gray"}
 
 #ENGLISH LANGUAGE
 

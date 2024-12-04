@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:gold_ingot"
         },
-        "title": {"translate":"Accessible chest"},
-        "description": {"translate":"Open 5 Accessible chest"}
+        "title": {"translate":"Accessible Chest Neophyte"},
+        "description": {"translate":"Open 5 Accessible Chests"}
     },
     "parent": "att2:treasure/root",
     "rewards": {
@@ -17,4 +17,3 @@
         }
     }
 }
-    

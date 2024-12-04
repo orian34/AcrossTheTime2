@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:lectern"
         },
-        "title": {"translate":"The knowledge of the runes."},
+        "title": {"translate":"The knowledge of the runes"},
         "description": {"translate":"Make 250 recipes"},
         "frame": "goal"
     },

@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:skeleton_skull"
         },
-        "title": {"translate":"Ghasts Genocide"},
+        "title": {"translate":"Ghast Genocider"},
         "description": {"translate":"Kill 100 Ghasts"},
         "frame": "challenge"
     },

@@ -4,7 +4,7 @@
             "item": "minecraft:netherite_sword"
         },
         "title": {"translate":"Claymore souveraine"},
-        "description": {"translate":"The slide of his blade, in a whisper, instills respect in the hearts of those who hear it."},
+        "description": {"translate":"The slide of his blade, in a whisper, instills respect in the heart of those who hear it."},
         "frame": "goal"
     },
     "parent": "att2:treasure/sovereign/diamond_sword_171",

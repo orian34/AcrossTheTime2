@@ -4,7 +4,7 @@
             "item": "minecraft:structure_void"
         },
         "title": {"translate":"Boss Persecutor"},
-        "description": {"translate":"Kill 10 Boss"},
+        "description": {"translate":"Kill 10 Bosses"},
         "frame": "goal"
     },
     "parent": "att2:mobskilled/boss_killed_5",

@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:clock"
         },
-        "title": {"translate":"Race against time."},
+        "title": {"translate":"Race against time"},
         "description": {"translate":"Complete a nightmare run before the allotted time of 30 minutes."},
         "frame": "goal"
     },

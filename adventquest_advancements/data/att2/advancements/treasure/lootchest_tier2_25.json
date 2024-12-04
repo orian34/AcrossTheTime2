@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:trapped_chest"
         },
-        "title": {"translate":"Accessible chest"},
-        "description": {"translate":"Open 25 Accessible chest"},
+        "title": {"translate":"Accessible Chest Amateur"},
+        "description": {"translate":"Open 25 Accessible Chests"},
         "frame": "goal"
     },
     "parent": "att2:treasure/lootchest_tier2_5",
@@ -18,4 +18,3 @@
         }
     }
 }
-    

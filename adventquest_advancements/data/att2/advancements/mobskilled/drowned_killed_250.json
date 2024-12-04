@@ -4,7 +4,7 @@
             "item": "minecraft:zombie_head"
         },
         "title": {"translate":"Drowned Slayer"},
-        "description": {"translate":"Kill 250 Drowned zombies"},
+        "description": {"translate":"Kill 250 Drowned Zombies"},
         "frame": "goal"
     },
     "parent": "att2:mobskilled/drowned_killed_50",

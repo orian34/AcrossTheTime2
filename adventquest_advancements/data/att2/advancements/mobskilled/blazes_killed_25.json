@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:blaze_powder"
         },
-        "title": {"translate":"Blazes Eliminator"},
+        "title": {"translate":"Blaze Eliminator"},
         "description": {"translate":"Kill 25 Blazes"},
         "frame": "goal"
     },

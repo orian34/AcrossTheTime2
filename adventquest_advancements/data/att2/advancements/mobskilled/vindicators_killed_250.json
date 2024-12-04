@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:zombie_head"
         },
-        "title": {"translate":"Vindicators Slayer"},
+        "title": {"translate":"Vindicator Slayer"},
         "description": {"translate":"Kill 250 Vindicators"},
         "frame": "goal"
     },

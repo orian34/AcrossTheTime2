@@ -4,7 +4,7 @@
             "item": "minecraft:purple_dye"
         },
         "title": {"translate":"Epic mending"},
-        "description": {"translate":"Repairs an epic item"},
+        "description": {"translate":"Repair an epic item"},
         "frame": "goal"
     },
     "parent": "att2:treasure/mending_rar",

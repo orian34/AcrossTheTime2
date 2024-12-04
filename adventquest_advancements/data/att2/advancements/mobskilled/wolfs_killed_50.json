@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:bone"
         },
-        "title": {"translate":"Wolfs Eliminator"},
-        "description": {"translate":"Kill 50 Wolfs"},
+        "title": {"translate":"Wolf Eliminator"},
+        "description": {"translate":"Kill 50 Wolves"},
         "frame": "goal"
     },
     "parent": "att2:mobskilled/wolfs_killed_10",

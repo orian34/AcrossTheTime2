@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:music_disc_pigstep"
         },
-        "title": {"translate":"Ryliath Symbol"},
+        "title": {"translate":"Ryliath Symbols"},
         "description": {"translate":"Discover all Exploration symbols of Ryliath"},
         "frame": "challenge"
     },

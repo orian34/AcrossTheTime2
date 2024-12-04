@@ -4,7 +4,7 @@
             "item": "minecraft:wooden_sword"
         },
         "title": {"translate":"Damage Control"},
-        "description": {"translate":"Deal 1k melee damages"},
+        "description": {"translate":"Deal 1k melee damage"},
         "frame": "goal"
     },
     "parent": "att2:combat/damage_dealt",

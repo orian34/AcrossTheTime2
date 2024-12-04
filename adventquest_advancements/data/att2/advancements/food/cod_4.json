@@ -4,7 +4,7 @@
             "item": "minecraft:cooked_cod"
         },
         "title": {"translate":"Cod desire"},
-        "description": {"translate":"Eat 4 cooked cod"},
+        "description": {"translate":"Eat 4 cooked cods"},
         "frame": "goal"
     },
     "parent": "att2:food/cod_1",

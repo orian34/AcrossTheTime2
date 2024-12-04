@@ -11,7 +11,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Emerald : ","color":"green","ext
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"Did you find her jacket? So this track is the right one. She follows in her mother's footsteps and the trail leads to the Adanoi cemetery near the town of Meleim on the east coast . Maybe we'll cross paths again. Good luck, sir.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"Did you find her jacket? So this track is the right one. She follows in her mother's footsteps and the trail leads to the Adanoï cemetery near the town of Méleïm on the east coast . Maybe we'll cross paths again. Good luck, sir.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE
@@ -37,11 +37,11 @@ tellraw @a[scores={LANGUAGE=6}] {"text":" °-° Emerald : ","color":"green","ext
 
 #SPANISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=7}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"¿Encontraste su chaqueta? Entonces esta pista es la correcta. Ella sigue los pasos de su madre y el sendero conduce al cementerio de Adanoi cerca del pueblo de Meleim en la costa este. Quizás nos crucemos de nuevo. Buena suerte, señor.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=7}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"¿Encontraste su chaqueta? Entonces esta pista es la correcta. Ella sigue los pasos de su madre y el sendero conduce al cementerio de Adanoï cerca del pueblo de Méleïm en la costa este. Quizás nos crucemos de nuevo. Buena suerte, señor.","color":"dark_aqua"}]}
 
 #GERMAN LANGUAGE
 
-tellraw @a[scores={LANGUAGE=8}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"Haben Sie ihre Jacke gefunden? Dann ist dieser Weg der richtige. Sie folgt den Spuren ihrer Mutter, und der Weg führt zum Adanoi-Friedhof in der Nähe der Stadt Meleim an der Ostküste. Vielleicht kreuzen sich unsere Wege wieder. Viel Glück, mein Herr.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=8}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"Haben Sie ihre Jacke gefunden? Dann ist dieser Weg der richtige. Sie folgt den Spuren ihrer Mutter, und der Weg führt zum Adanoï-Friedhof in der Nähe der Stadt Méleïm an der Ostküste. Vielleicht kreuzen sich unsere Wege wieder. Viel Glück, mein Herr.","color":"dark_aqua"}]}
 
 #HINDI LANGUAGE
 
@@ -49,4 +49,4 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Emerald : ","color":"green","ext
 
 #PORTUGUESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"Você encontrou o casaco dela? Então este caminho é o correto. Ela segue os passos da mãe dela e o trilho leva ao cemitério de Adanoi perto da cidade de Meleim na costa leste. Talvez nos encontremos novamente. Boa sorte, senhor.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"Você encontrou o casaco dela? Então este caminho é o correto. Ela segue os passos da mãe dela e o trilho leva ao cemitério de Adanoï perto da cidade de Méleïm na costa leste. Talvez nos encontremos novamente. Boa sorte, senhor.","color":"dark_aqua"}]}

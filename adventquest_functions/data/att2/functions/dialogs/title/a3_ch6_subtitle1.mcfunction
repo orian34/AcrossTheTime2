@@ -10,7 +10,7 @@ title @a[scores={LANGUAGE=0}] subtitle {"text":"Retour en Tellurön","color":"da
 
 #ENGLISH LANGUAGE
 
-title @a[scores={LANGUAGE=1}] subtitle {"text":"Return to Telluron","color":"dark_red"}
+title @a[scores={LANGUAGE=1}] subtitle {"text":"Return to Tellurön","color":"dark_red"}
 
 #CHINESE LANGUAGE
 
@@ -34,11 +34,11 @@ title @a[scores={LANGUAGE=6}] subtitle {"text":"Возвращение в Тел
 
 #SPANISH LANGUAGE
 
-title @a[scores={LANGUAGE=7}] subtitle {"text":"Regreso a Telluron","color":"dark_red"}
+title @a[scores={LANGUAGE=7}] subtitle {"text":"Regreso a Tellurön","color":"dark_red"}
 
 #GERMAN LANGUAGE
 
-title @a[scores={LANGUAGE=8}] subtitle {"text":"Rückkehr nach Telluron","color":"dark_red"}
+title @a[scores={LANGUAGE=8}] subtitle {"text":"Rückkehr nach Tellurön","color":"dark_red"}
 
 #HINDI LANGUAGE
 
@@ -46,4 +46,4 @@ title @a[scores={LANGUAGE=9}] subtitle {"text":"टेलुरोन में 
 
 #PORTUGUESE LANGUAGE
 
-title @a[scores={LANGUAGE=10}] subtitle {"text":"Retorno a Telluron","color":"dark_red"}
+title @a[scores={LANGUAGE=10}] subtitle {"text":"Retorno a Tellurön","color":"dark_red"}

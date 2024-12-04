@@ -4,7 +4,7 @@
             "item": "minecraft:cooked_porkchop"
         },
         "title": {"translate":"Porkchop desire"},
-        "description": {"translate":"Eat 4 cooked porkchop"},
+        "description": {"translate":"Eat 4 cooked porkchops"},
         "frame": "goal"
     },
     "parent": "att2:food/porkchop_1",

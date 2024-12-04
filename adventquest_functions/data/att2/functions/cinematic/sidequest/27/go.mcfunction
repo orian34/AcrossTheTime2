@@ -10,7 +10,7 @@
 # Step2 when Player is entering in catacomb
 execute if score SQ27 SIDEQUEST matches 1 if entity @a[x=-4383,y=39,z=-5983,distance=..20,gamemode=adventure] run function att2:cinematic/sidequest/27/step2
 
-# End when Player is close to Emerald in Meleïm with Tina's information
+# End when Player is close to Emerald in Méleïm with Tina's information
 execute if score SQ27 SIDEQUEST matches 3 at 00000000-0000-005a-0000-00000000005a if entity @a[distance=..5] run function att2:cinematic/sidequest/27/end
 
 # Move PNJ Emerald from Méleïm

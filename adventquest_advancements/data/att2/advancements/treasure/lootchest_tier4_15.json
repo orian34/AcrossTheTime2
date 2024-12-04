@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:gold_ingot"
         },
-        "title": {"translate":"Arduous chest"},
-        "description": {"translate":"Open 15 Arduous chest"}
+        "title": {"translate":"Arduous Chest Neophyte"},
+        "description": {"translate":"Open 15 Arduous Chests"}
     },
     "parent": "att2:treasure/root",
     "rewards": {
@@ -17,4 +17,3 @@
         }
     }
 }
-    

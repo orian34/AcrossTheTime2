@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:trapped_chest"
         },
-        "title": {"translate":"Unseen chest"},
-        "description": {"translate":"Open 100 Unseen chest"},
+        "title": {"translate":"Unseen Chest Connoisseur"},
+        "description": {"translate":"Open 100 Unseen Chests"},
         "frame": "goal"
     },
     "parent": "att2:treasure/lootchest_tier8_50",
@@ -18,4 +18,3 @@
         }
     }
 }
-    

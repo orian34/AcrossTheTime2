@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:chipped_anvil"
         },
-        "title": {"translate":"Black Smith Expert"},
+        "title": {"translate":"Expert Black Smith"},
         "description": {"translate":"Reach the level 4 of the smithy"},
         "frame": "goal"
     },

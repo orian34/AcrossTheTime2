@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:bone"
         },
-        "title": {"translate":"Wolfs Genocide"},
-        "description": {"translate":"Kill 500 Wolfs"},
+        "title": {"translate":"Wolf Genocider"},
+        "description": {"translate":"Kill 500 Wolves"},
         "frame": "challenge"
     },
     "parent": "att2:mobskilled/wolfs_killed_250",

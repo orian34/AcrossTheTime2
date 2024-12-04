@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:redstone_ore"
         },
-        "title": {"translate":"Billgart road Checkpoint"},
-        "description": {"translate":"Discover all Checkpoint of Billgart road"},
+        "title": {"translate":"Billgart road Checkpoints"},
+        "description": {"translate":"Discover all Checkpoints of Billgart road"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_bilgart",

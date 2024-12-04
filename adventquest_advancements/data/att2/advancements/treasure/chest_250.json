@@ -4,7 +4,7 @@
             "item": "minecraft:chest"
         },
         "title": {"translate":"Even More Treasure"},
-        "description": {"translate":"Open 250 Chest"},
+        "description": {"translate":"Open 250 Chests"},
         "frame": "goal"
     },
     "parent": "att2:treasure/chest_50",

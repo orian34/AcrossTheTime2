@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:music_disc_pigstep"
         },
-        "title": {"translate":"Adanoï Symbol"},
+        "title": {"translate":"Adanoï Symbols"},
         "description": {"translate":"Discover all Exploration symbols of Adanoï"},
         "frame": "challenge"
     },

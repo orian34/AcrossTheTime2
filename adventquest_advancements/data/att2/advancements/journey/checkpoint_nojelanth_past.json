@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:redstone_ore"
         },
-        "title": {"translate":"Nojelanth past Checkpoint"},
-        "description": {"translate":"Discover all Checkpoint of Nojelanth past"},
+        "title": {"translate":"Nojélanth past Checkpoints"},
+        "description": {"translate":"Discover all Checkpoints of Nojélanth past"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_nojelanth_past",

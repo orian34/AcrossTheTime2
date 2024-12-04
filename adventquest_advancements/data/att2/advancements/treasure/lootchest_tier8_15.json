@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:gold_ingot"
         },
-        "title": {"translate":"Unseen chest"},
-        "description": {"translate":"Open 15 Unseen chest"}
+        "title": {"translate":"Unseen Chest Neophyte"},
+        "description": {"translate":"Open 15 Unseen Chests"}
     },
     "parent": "att2:treasure/root",
     "rewards": {
@@ -17,4 +17,3 @@
         }
     }
 }
-    

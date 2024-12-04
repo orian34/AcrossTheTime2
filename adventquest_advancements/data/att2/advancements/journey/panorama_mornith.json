@@ -4,7 +4,7 @@
             "item": "minecraft:feather"
         },
         "title": {"translate":"Mornith Mine Panorama"},
-        "description": {"translate":"Discover the panorama of Mornith mining exploitation"},
+        "description": {"translate":"Discover the panorama of the Mornith mining exploitation"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_mornith",

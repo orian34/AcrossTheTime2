@@ -4,7 +4,7 @@
             "item": "minecraft:wooden_hoe"
         },
         "title": {"translate":"Brawler"},
-        "description": {"translate":"Engage your first fight!"}
+        "description": {"translate":"Engage in your first fight!"}
     },
     "parent": "att2:combat/root",
     "rewards": {

@@ -3,7 +3,7 @@
 #Process all test of Symbol Exploration 			            #
 #################################################################
 
-### Stray Beach
+### Astray Beach
 #0
 execute in minecraft:overworld positioned -4018 71 -5296 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/beach
 execute in minecraft:overworld positioned -3910 70 -5321 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/beach

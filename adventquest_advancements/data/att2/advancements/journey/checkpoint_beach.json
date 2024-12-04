@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:redstone_ore"
         },
-        "title": {"translate":"Beach Checkpoint"},
-        "description": {"translate":"Discover all Checkpoint of Stray Beach"},
+        "title": {"translate":"Beach Checkpoints"},
+        "description": {"translate":"Discover all Checkpoints of Astray Beach"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_beach",

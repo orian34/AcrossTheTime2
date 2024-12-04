@@ -10,7 +10,7 @@ title @a[scores={LANGUAGE=0}] subtitle {"text":"Le temps des regrets","color":"d
 
 #ENGLISH LANGUAGE
 
-title @a[scores={LANGUAGE=1}] subtitle {"text":"Time for regrets","color":"dark_purple"}
+title @a[scores={LANGUAGE=1}] subtitle {"text":"Time For Regrets","color":"dark_purple"}
 
 #CHINESE LANGUAGE
 

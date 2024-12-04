@@ -4,7 +4,7 @@
             "item": "minecraft:structure_void"
         },
         "title": {"translate":"Boss Hunter"},
-        "description": {"translate":"Kill 25 Boss"},
+        "description": {"translate":"Kill 25 Bosses"},
         "frame": "goal"
     },
     "parent": "att2:mobskilled/boss_killed_10",

@@ -4,7 +4,7 @@
             "item": "minecraft:glow_ink_sac"
         },
         "title": {"translate":"Veteran Seller"},
-        "description": {"translate":"Reach the level 2 of the recycler item."},
+        "description": {"translate":"Reach the level 2 of the item recycler."},
         "frame": "goal"
     },
     "parent": "att2:progress/recycler_level1",

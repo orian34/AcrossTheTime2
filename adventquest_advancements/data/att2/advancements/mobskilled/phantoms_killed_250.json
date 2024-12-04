@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:phantom_membrane"
         },
-        "title": {"translate":"Phantoms Genocide"},
+        "title": {"translate":"Phantom Genocider"},
         "description": {"translate":"Kill 250 Phantoms"},
         "frame": "challenge"
     },

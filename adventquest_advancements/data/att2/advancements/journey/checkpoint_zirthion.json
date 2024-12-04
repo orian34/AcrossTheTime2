@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:redstone_ore"
         },
-        "title": {"translate":"Zirthion Checkpoint"},
-        "description": {"translate":"Discover all Checkpoint of Zirthion"},
+        "title": {"translate":"Zirthion Checkpoints"},
+        "description": {"translate":"Discover all Checkpoints of Zirthion"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_ouranos",

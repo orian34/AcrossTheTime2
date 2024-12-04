@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-title @s[scores={LANGUAGE=0}] subtitle {"text":"Union des dimensions","color":"gray"}
+title @s[scores={LANGUAGE=0}] subtitle {"text":"Union des Dimensions","color":"gray"}
 
 #ENGLISH LANGUAGE
 

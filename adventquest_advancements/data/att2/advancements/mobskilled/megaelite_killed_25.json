@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:target"
         },
-        "title": {"translate":"Ultimate Elite Genocid"},
-        "description": {"translate":"Kill 25 Ultimate Elite"},
+        "title": {"translate":"Ultimate Elite Genocider"},
+        "description": {"translate":"Kill 25 Ultimate Elites"},
         "frame": "goal"
     },
     "parent": "att2:mobskilled/megaelite_killed_10",

@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:music_disc_pigstep"
         },
-        "title": {"translate":"Billgart road Symbol"},
+        "title": {"translate":"Billgart road Symbols"},
         "description": {"translate":"Discover all Exploration symbols of Billgart road"},
         "frame": "challenge"
     },

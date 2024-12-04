@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-title @s[scores={LANGUAGE=0}] subtitle {"text":"Alliance de Schestrow'","color":"gray"}
+title @s[scores={LANGUAGE=0}] subtitle {"text":"Alliance de Schestrow","color":"gray"}
 
 #ENGLISH LANGUAGE
 

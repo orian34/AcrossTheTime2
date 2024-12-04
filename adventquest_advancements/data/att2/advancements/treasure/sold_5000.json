@@ -4,7 +4,7 @@
             "item": "minecraft:nether_star"
         },
         "title": {"translate":"Merchant"},
-        "description": {"translate":"Sell 5000 items from a buyer"},
+        "description": {"translate":"Sell 5000 items to a buyer"},
         "frame": "challenge"
     },
     "parent": "att2:treasure/sold_1000",

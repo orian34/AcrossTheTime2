@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:wither_skeleton_skull"
         },
-        "title": {"translate":"Lava Slimes Killer"},
+        "title": {"translate":"Lava Slime Killer"},
         "description": {"translate":"Kill 10 Lava Slimes"}
     },
     "parent": "att2:mobskilled/root",

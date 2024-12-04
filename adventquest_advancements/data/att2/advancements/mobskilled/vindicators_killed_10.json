@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:zombie_head"
         },
-        "title": {"translate":"Vindicators Killer"},
+        "title": {"translate":"Vindicator Killer"},
         "description": {"translate":"Kill 10 Vindicators"}
     },
     "parent": "att2:mobskilled/root",

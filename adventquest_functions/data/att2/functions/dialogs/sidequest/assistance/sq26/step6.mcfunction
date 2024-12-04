@@ -12,11 +12,11 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Les catacombes Adanoï -°- : ","c
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The Adanoï Catacombs -°- : ","color":"gray","extra":[{"text":"Myrath, this undead being, spoke of a thief. By the way, Meleim is mentioned in Myrath's invitation. These are very good leads for the future. Let's go back to Emerald at the entrance to the south if the cemetery.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The Adanoï Catacombs -°- : ","color":"gray","extra":[{"text":"Myrath, this undead being, spoke of a thief. By the way, Méleïm is mentioned in Myrath's invitation. These are very good leads for the future. Let's go back to Emerald at the entrance to the south if the cemetery.","color":"aqua","italic":true}]}
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- Adanoï之墓 -°- : ","color":"gray","extra":[{"text":"活死人Myrath在他遺留的文獻裡提及到了一位女性盜墓者和Meleim城， 說明兩者有一定的聯繫。我該回墓穴入口把新線索告訴Emerald。","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- Adanoï之墓 -°- : ","color":"gray","extra":[{"text":"活死人Myrath在他遺留的文獻裡提及到了一位女性盜墓者和Méleïm城， 說明兩者有一定的聯繫。我該回墓穴入口把新線索告訴Emerald。","color":"aqua","italic":true}]}
 
 #JAPANESE LANGUAGE
 
@@ -36,11 +36,11 @@ tellraw @s[scores={LANGUAGE=6}] {"text":"-°- Катакомбы Аданои -�
 
 #SPANISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=7}] {"text":"-°- Las Catacumbas de Adanoï -°- : ","color":"gray","extra":[{"text":"Myrath, este ser no muerto, habló de una ladrona. Por cierto, Meleim se menciona en la invitación de Myrath. Estas son pistas muy buenas para el futuro. Volvamos con Esmeralda en la entrada sur del cementerio.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=7}] {"text":"-°- Las Catacumbas de Adanoï -°- : ","color":"gray","extra":[{"text":"Myrath, este ser no muerto, habló de una ladrona. Por cierto, Méleïm se menciona en la invitación de Myrath. Estas son pistas muy buenas para el futuro. Volvamos con Esmeralda en la entrada sur del cementerio.","color":"aqua","italic":true}]}
 
 #GERMAN LANGUAGE
 
-tellraw @s[scores={LANGUAGE=8}] {"text":"-°- Die Adanoï-Katakomben -°- : ","color":"gray","extra":[{"text":"Myrath, dieser untote Wesen, sprach von einem Dieb. Übrigens, Meleim wird in Myraths Einladung erwähnt. Das sind sehr gute Hinweise für die Zukunft. Kehren wir zurück zu Smaragd am südlichen Eingang des Friedhofs.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=8}] {"text":"-°- Die Adanoï-Katakomben -°- : ","color":"gray","extra":[{"text":"Myrath, dieser untote Wesen, sprach von einem Dieb. Übrigens, Méleïm wird in Myraths Einladung erwähnt. Das sind sehr gute Hinweise für die Zukunft. Kehren wir zurück zu Smaragd am südlichen Eingang des Friedhofs.","color":"aqua","italic":true}]}
 
 #HINDI LANGUAGE
 
@@ -48,4 +48,4 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- एडानोई काटाक
 
 #PORTUGUESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=10}] {"text":"-°- As Catacumbas de Adanoï -°- : ","color":"gray","extra":[{"text":"Myrath, este ser morto-vivo, falou de uma ladra. Aliás, Meleim é mencionado no convite de Myrath. Estas são pistas muito boas para o futuro. Vamos voltar para Esmeralda na entrada sul do cemitério.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=10}] {"text":"-°- As Catacumbas de Adanoï -°- : ","color":"gray","extra":[{"text":"Myrath, este ser morto-vivo, falou de uma ladra. Aliás, Méleïm é mencionado no convite de Myrath. Estas são pistas muito boas para o futuro. Vamos voltar para Esmeralda na entrada sul do cemitério.","color":"aqua","italic":true}]}

@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:trapped_chest"
         },
-        "title": {"translate":"Wanted chest"},
-        "description": {"translate":"Open 350 Wanted chest"},
+        "title": {"translate":"Wanted Chest Fanatic"},
+        "description": {"translate":"Open 350 Wanted Chests"},
         "frame": "goal"
     },
     "parent": "att2:treasure/lootchest_tier6_150",
@@ -18,4 +18,3 @@
         }
     }
 }
-    

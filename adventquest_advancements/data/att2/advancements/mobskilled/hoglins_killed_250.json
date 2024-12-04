@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:leather"
         },
-        "title": {"translate":"Hoglins Genocide"},
+        "title": {"translate":"Hoglin Genocider"},
         "description": {"translate":"Kill 250 Hoglins"},
         "frame": "challenge"
     },

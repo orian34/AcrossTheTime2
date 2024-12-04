@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:zombie_head"
         },
-        "title": {"translate":"Zombies Eliminator"},
+        "title": {"translate":"Zombie Eliminator"},
         "description": {"translate":"Kill 50 Zombies"},
         "frame": "goal"
     },

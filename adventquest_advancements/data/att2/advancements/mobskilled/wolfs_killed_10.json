@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:bone"
         },
-        "title": {"translate":"Wolfs Killer"},
-        "description": {"translate":"Kill 10 Wolfs"}
+        "title": {"translate":"Wolf Killer"},
+        "description": {"translate":"Kill 10 Wolves"}
     },
     "parent": "att2:mobskilled/root",
     "rewards": {

@@ -4,7 +4,7 @@
             "item": "minecraft:nether_star"
         },
         "title": {"translate":"Marging call"},
-        "description": {"translate":"Sell 100 items from a buyer"},
+        "description": {"translate":"Sell 100 items to a buyer"},
         "frame": "goal"
     },
     "parent": "att2:treasure/sold_20",

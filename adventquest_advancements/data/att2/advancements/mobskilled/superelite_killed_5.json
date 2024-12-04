@@ -4,7 +4,7 @@
             "item": "minecraft:target"
         },
         "title": {"translate":"Super Elite Eliminator"},
-        "description": {"translate":"Kill 5 Super Elite"},
+        "description": {"translate":"Kill 5 Super Elites"},
         "frame": "goal"
     },
     "parent": "att2:mobskilled/superelite_killed_1",

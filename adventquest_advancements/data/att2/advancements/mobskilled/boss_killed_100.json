@@ -4,7 +4,7 @@
             "item": "minecraft:structure_void"
         },
         "title": {"translate":"Boss Slaughter"},
-        "description": {"translate":"Kill 100 Boss"},
+        "description": {"translate":"Kill 100 Bosses"},
         "frame": "goal"
     },
     "parent": "att2:mobskilled/boss_killed_25",

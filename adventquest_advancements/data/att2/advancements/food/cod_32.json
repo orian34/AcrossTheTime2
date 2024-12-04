@@ -4,7 +4,7 @@
             "item": "minecraft:cooked_cod"
         },
         "title": {"translate":"Cod addict"},
-        "description": {"translate":"Eat 32 cooked cod"},
+        "description": {"translate":"Eat 32 cooked cods"},
         "frame": "challenge"
     },
     "parent": "att2:food/cod_16",

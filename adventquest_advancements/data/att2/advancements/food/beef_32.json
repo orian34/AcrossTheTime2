@@ -4,7 +4,7 @@
             "item": "minecraft:cooked_beef"
         },
         "title": {"translate":"Beef addict"},
-        "description": {"translate":"Eat 32 beef steak"},
+        "description": {"translate":"Eat 32 beef steaks"},
         "frame": "challenge"
     },
     "parent": "att2:food/beef_16",

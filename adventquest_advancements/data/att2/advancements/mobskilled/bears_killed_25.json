@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:rabbit_foot"
         },
-        "title": {"translate":"Bears Slayer"},
+        "title": {"translate":"Bear Slayer"},
         "description": {"translate":"Kill 25 Bears"},
         "frame": "goal"
     },

@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:redstone_ore"
         },
-        "title": {"translate":"Sylberländ plain Checkpoint"},
-        "description": {"translate":"Discover all Checkpoint of Sylberländ plain"},
+        "title": {"translate":"Sylberländ plain Checkpoints"},
+        "description": {"translate":"Discover all Checkpoints of Sylberländ plain"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_plain",

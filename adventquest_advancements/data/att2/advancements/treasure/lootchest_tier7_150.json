@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:trapped_chest"
         },
-        "title": {"translate":"Secret chest"},
-        "description": {"translate":"Open 150 Secret chest"},
+        "title": {"translate":"Secret Chest Fanatic"},
+        "description": {"translate":"Open 150 Secret Chests"},
         "frame": "goal"
     },
     "parent": "att2:treasure/lootchest_tier7_75",
@@ -18,4 +18,3 @@
         }
     }
 }
-    

@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:redstone_ore"
         },
-        "title": {"translate":"Méleïm Checkpoint"},
-        "description": {"translate":"Discover all Checkpoint of Méleïm"},
+        "title": {"translate":"Méleïm Checkpoints"},
+        "description": {"translate":"Discover all Checkpoints of Méleïm"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_meleim",

@@ -4,7 +4,7 @@
             "item": "minecraft:target"
         },
         "title": {"translate":"Ultimate Elite Exterminator"},
-        "description": {"translate":"Kill 50 Ultimate Elite"},
+        "description": {"translate":"Kill 50 Ultimate Elites"},
         "frame": "challenge"
     },
     "parent": "att2:mobskilled/megaelite_killed_25",

@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:redstone_ore"
         },
-        "title": {"translate":"Worlest Mine Checkpoint"},
-        "description": {"translate":"Discover all Checkpoint of Worlest Mine"},
+        "title": {"translate":"Worlëst Mine Checkpoints"},
+        "description": {"translate":"Discover all Checkpoints of Worlëst Mine"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_worlest_mine",

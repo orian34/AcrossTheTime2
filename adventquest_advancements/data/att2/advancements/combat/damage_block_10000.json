@@ -4,7 +4,7 @@
             "item": "minecraft:shield"
         },
         "title": {"translate":"Iron barrier"},
-        "description": {"translate":"Block 10000 damages with your shield"},
+        "description": {"translate":"Block 10000 damage with your shield"},
         "frame": "goal"
     },
     "parent": "att2:combat/damage_block_2500",
