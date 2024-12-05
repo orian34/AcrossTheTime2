@@ -27,7 +27,7 @@ execute if score Kortaek_launch WAYPOINT matches 4 run function att2:gameplay/wa
 execute if score Kortaek_launch WAYPOINT matches 5 run function att2:gameplay/waypoint/tp/ryliath
 execute if score Kortaek_launch WAYPOINT matches 6 run function att2:gameplay/waypoint/tp/soquai
 
-# Meleim to
+# Méleïm to
 execute if score Meleim_launch WAYPOINT matches 1 run function att2:gameplay/waypoint/tp/asunark
 execute if score Meleim_launch WAYPOINT matches 2 run function att2:gameplay/waypoint/tp/eolorion
 execute if score Meleim_launch WAYPOINT matches 3 run function att2:gameplay/waypoint/tp/kortaek

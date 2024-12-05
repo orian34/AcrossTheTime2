@@ -9,7 +9,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"Nouveau niveau débloqué pour Trait de
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":"New level unlock for Fire Line!","color":"gold"}
+tellraw @s[scores={LANGUAGE=1}] {"text":"New level unlocked for Fire Line!","color":"gold"}
 
 #CHINESE LANGUAGE
 

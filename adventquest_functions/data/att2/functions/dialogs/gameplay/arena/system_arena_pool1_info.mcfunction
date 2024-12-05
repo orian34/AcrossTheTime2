@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-title @a[scores={LANGUAGE=0}] actionbar {"text":"~ ","color":"dark_red","extra":[{"text":"Tournois : ","color":"gray"},{"text":"2","color":"red"},{"text":"/","color":"gray"},{"text":"4","color":"gold"},{"text":" - ","color":"dark_gray"},{"text":"Arène : ","color":"gray"},{"score":{"name":"Pool1","objective":"ARENA"},"color":"red"},{"text":"/","color":"gray"},{"text":"4","color":"gold"},{"text":" ~","color":"dark_red"}]}
+title @a[scores={LANGUAGE=0}] actionbar {"text":"~ ","color":"dark_red","extra":[{"text":"Tournoi : ","color":"gray"},{"text":"2","color":"red"},{"text":"/","color":"gray"},{"text":"4","color":"gold"},{"text":" - ","color":"dark_gray"},{"text":"Arène : ","color":"gray"},{"score":{"name":"Pool1","objective":"ARENA"},"color":"red"},{"text":"/","color":"gray"},{"text":"4","color":"gold"},{"text":" ~","color":"dark_red"}]}
 
 
 #ENGLISH LANGUAGE

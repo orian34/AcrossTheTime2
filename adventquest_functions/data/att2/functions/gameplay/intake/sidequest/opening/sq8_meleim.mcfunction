@@ -1,6 +1,6 @@
 ##################################################
 #Made by Adventquest                             #
-#Manage intake raw meat in meleim 				 #
+#Manage intake raw meat in Méleïm 				 #
 ##################################################
 
 clear @s minecraft:beef{display:{"Lore":["{\"text\":\"§4§oRaw meat\"}"]}} 1

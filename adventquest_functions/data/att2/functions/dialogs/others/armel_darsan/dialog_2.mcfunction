@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Armel Darsan : ","color":"green"
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Armel Darsan : ","color":"green","extra":[{"text":"So you have the famous lava key. I hope the chief gives it to you for a good reason.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Armel Darsan : ","color":"green","extra":[{"text":"So you have the famous lava key. I hope the chief gave it to you for a good reason.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

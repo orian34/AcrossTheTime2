@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Intendant Marta : ","color":"green","extra":[{"text":"Ah désolé mais il semble que vous n'avez pas toute la somme. Revenez me voir quand vous aurez l'argent sur vous.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Intendant Marta : ","color":"green","extra":[{"text":"Ah désolé mais il me semble que vous n'avez pas toute la somme. Revenez me voir quand vous aurez l'argent sur vous.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

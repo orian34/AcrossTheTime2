@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest											#
-#Process swarm arrow incantation								#
+#Process Arrow Swarm incantation								#
 #################################################################
 
 execute as @s[scores={SPELL_SLCT=71,DAHAL=40..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell8/lvl1

@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Secret Seeker>","bold":false,"color":"dark_green","hoverEvent":{"action":"show_text","value":"Révélez tout les secrets oubliés."},"extra":[{"text":" [Gratuit]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/dahal/action/spell34/obtain"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour acheter !"}}]}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Cherche Secret>","bold":false,"color":"dark_green","hoverEvent":{"action":"show_text","value":"Révélez tous les secrets oubliés."},"extra":[{"text":" [Gratuit]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/dahal/action/spell34/obtain"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour acheter !"}}]}]}
 
 #ENGLISH LANGUAGE
 

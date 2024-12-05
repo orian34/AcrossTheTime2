@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Lioras : ","color":"green","extra":[{"text":"Hey toi l'étranger! C'est toi qui a vaincu Vonaheim ? Tes prouesses sont inspirantes, on ne trouve pas un aventurier aguerri comme ça tout les jours. J'ai envie d'échanger mes connaissances avec toi, peut-être vous serez plus curieux que mon camarade là...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Lioras : ","color":"green","extra":[{"text":"Hé toi l'étranger! C'est toi qui a vaincu Vonaheim ? Tes prouesses sont inspirantes, on ne trouve pas un aventurier aguerri comme ça tout les jours. J'ai envie d'échanger mes connaissances avec toi, peut-être vous serez plus curieux que mon camarade là...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

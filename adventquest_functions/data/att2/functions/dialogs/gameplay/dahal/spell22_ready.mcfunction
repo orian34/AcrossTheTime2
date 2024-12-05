@@ -8,11 +8,11 @@ function att2:sound/dahal/spell_ready
 
 #FRENCH LANGUAGE
 
-title @s[scores={LANGUAGE=0}] actionbar {"text":"⧼〈","color":"dark_red","extra":[{"text":"Familier d'obstination prêt","color":"gray"},{"text":"〉⧽","color":"dark_red"}]}
+title @s[scores={LANGUAGE=0}] actionbar {"text":"⧼〈","color":"dark_red","extra":[{"text":"Familier d'Obstination Prêt","color":"gray"},{"text":"〉⧽","color":"dark_red"}]}
 
 #ENGLISH LANGUAGE
 
-title @s[scores={LANGUAGE=1}] actionbar {"text":"⧼〈","color":"dark_red","extra":[{"text":"Obstinacy pet ready","color":"gray"},{"text":"〉⧽","color":"dark_red"}]}
+title @s[scores={LANGUAGE=1}] actionbar {"text":"⧼〈","color":"dark_red","extra":[{"text":"Obstinacy Pet Ready","color":"gray"},{"text":"〉⧽","color":"dark_red"}]}
 
 #CHINESE LANGUAGE
 

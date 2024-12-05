@@ -6,12 +6,12 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Lioras : ","color":"green","extra":[{"text":"Tu as réussi à ouvrir l'entrer des sous-terrain ? C'est fascinant, le grimoir disais juste alors. J'aimerai tellement t'accompagner, mais si tu me dit qu'il est infesté d'être puissant, je vais rester là, je tiens à ma vie...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Lioras : ","color":"green","extra":[{"text":"Tu as réussi à ouvrir l'entrée des souterrains ? C'est fascinant, le grimoire disait juste alors. J'aimerais tellement t'accompagner, mais si tu me dit que c'est infesté d'êtres puissants, je vais rester là, je tiens à ma vie...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Lioras : ","color":"green","extra":[{"text":"Did you manage to open the entrance to the underground? It's fascinating, the grimoir said right then. I would love to accompany you, but if you tell me that he is infested with being powerful, I will stay there, I value my life...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Lioras : ","color":"green","extra":[{"text":"Did you manage to open the entrance to the underground? It's fascinating, the grimoire was right then. I would love to accompany you, but if you tell me that it is infested with powerful beings, I will stay there, I value my life...","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

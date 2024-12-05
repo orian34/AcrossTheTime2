@@ -5,7 +5,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"Pas de sort séléctionné...","color":"gray"}
+tellraw @s[scores={LANGUAGE=0}] {"text":"Pas de sort sélectionné...","color":"gray"}
 
 #ENGLISH LANGUAGE
 

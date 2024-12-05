@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Les alchimistes ont toujours eu le gout de parler en énigme pour leur quête fantasque... Va le voir, il serait même peut-être lié à cet évènement.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Les alchimistes ont toujours eu le gout de parler en énigmes pour leur quête fantasque... Va le voir, il serait même peut-être lié à cet évènement.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

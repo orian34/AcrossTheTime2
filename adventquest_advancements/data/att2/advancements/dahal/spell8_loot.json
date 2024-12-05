@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:written_book"
         },
-        "title": {"translate":"Swarm arrow"},
-        "description": {"translate":"Find Swarm arrow spell"}
+        "title": {"translate":"Arrow Swarm"},
+        "description": {"translate":"Find Arrow Swarm spell"}
     },
     "parent": "att2:dahal/root",
     "rewards": {

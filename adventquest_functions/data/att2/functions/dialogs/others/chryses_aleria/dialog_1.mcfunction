@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Chryses Aleria : ","color":"green","extra":[{"text":"Salutation, j'ai pour vous tout une gamme de vêtements servant à maîtriser votre Dahäl. Regardez donc ce que j'ai en stock.","color":"dark_aqua","extra":[{"text":" [Voir la marchandise -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/chryses_aleria_shop_opening"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour voir ce que vend Chryses."}}]}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Chryses Aleria : ","color":"green","extra":[{"text":"Salutations, j'ai pour vous toute une gamme de vêtements servant à maîtriser votre Dahäl. Regardez donc ce que j'ai en stock.","color":"dark_aqua","extra":[{"text":" [Voir la marchandise -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/chryses_aleria_shop_opening"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour voir ce que vend Chryses."}}]}]}
 
 
 #ENGLISH LANGUAGE

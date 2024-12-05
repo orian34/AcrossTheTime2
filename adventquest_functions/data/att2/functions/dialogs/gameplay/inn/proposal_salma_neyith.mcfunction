@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"selector":"@s","color":"dark_red","extra":[{"t
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"selector":"@s","color":"dark_red","extra":[{"text":" : "},{"text":"[Pay a room and rest -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-029a-0000-00000000029a if entity @s[distance=..7] as @a[distance=..7] run function att2:gameplay/misc/inn/trigger_salma_neyith"},"hoverEvent":{"action":"show_text","value":"Click here to pay the room and rest at the inn"}}]}
+tellraw @s[scores={LANGUAGE=1}] {"selector":"@s","color":"dark_red","extra":[{"text":" : "},{"text":"[Pay a room and rest -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-029a-0000-00000000029a if entity @s[distance=..7] as @a[distance=..7] run function att2:gameplay/misc/inn/trigger_salma_neyith"},"hoverEvent":{"action":"show_text","value":"Click here to pay the room and rest at the inn."}}]}
 
 
 #CHINESE LANGUAGE

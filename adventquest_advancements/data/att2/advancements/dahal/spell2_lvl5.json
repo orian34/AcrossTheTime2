@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:enchanted_book"
         },
-        "title": {"translate":"Fire line Veteran"},
-        "description": {"translate":"Reach level 5 with Fire line spell"},
+        "title": {"translate":"Fire Line Veteran"},
+        "description": {"translate":"Reach level 5 with Fire Line spell"},
         "frame": "goal"
     },
     "parent": "att2:dahal/spell2_lvl2",

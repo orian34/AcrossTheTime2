@@ -9,7 +9,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"Nouveau niveau débloqué pour Secousse
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":"New level unlock for Earthquake!","color":"gold"}
+tellraw @s[scores={LANGUAGE=1}] {"text":"New level unlocked for Earthquake!","color":"gold"}
 
 #CHINESE LANGUAGE
 

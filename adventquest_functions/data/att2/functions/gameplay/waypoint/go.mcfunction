@@ -56,7 +56,7 @@ execute if score Kortaek_launch WAYPOINT matches 1.. if score timer WAYPOINT mat
 execute if score Kortaek_launch WAYPOINT matches 1.. if score timer WAYPOINT matches 15 as @a[x=-5533,y=87,z=-4678,distance=..5] at @s run tp @s ~ ~0.1 ~
 execute if score Kortaek_launch WAYPOINT matches 1.. if score timer WAYPOINT matches 10 as @e[type=!minecraft:item,type=!minecraft:player,x=-5533,y=87,z=-4678,distance=..5] at @s run tp @s 756 81 843
 execute if score Kortaek_launch WAYPOINT matches 1.. if score timer WAYPOINT matches 9 as @a[x=-5533,y=87,z=-4678,distance=..5] at @s run function att2:gameplay/waypoint/tp_launch
-# Meleim
+# Méleïm
 execute if score Meleim_launch WAYPOINT matches 1.. if score timer WAYPOINT matches 50..75 positioned -3845 103 -5808 run function att2:gameplay/waypoint/effect2
 execute if score Meleim_launch WAYPOINT matches 1.. if score timer WAYPOINT matches 10..49 positioned -3845 103 -5808 run function att2:gameplay/waypoint/effect3
 execute if score Meleim_launch WAYPOINT matches 1.. if score timer WAYPOINT matches 15 as @a[x=-3845,y=103,z=-5808,distance=..5] at @s run tp @s ~ ~0.1 ~

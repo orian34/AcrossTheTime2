@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Eradon : ","color":"green","extra":[{"text":"Salut, si tu as de bonnes armes et armures te débarrasser, je serais prêt à bien te payer en Chronotons !","color":"dark_aqua","extra":[{"text":" [Echanger -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/recycler/ask"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour commencer l'échange avec Eradon."}}]}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Eradon : ","color":"green","extra":[{"text":"Salut, si tu as de bonnes armes et armures à te débarrasser, je serais prêt à bien te payer en Chronotons !","color":"dark_aqua","extra":[{"text":" [Echanger -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/recycler/ask"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour commencer l'échange avec Eradon."}}]}]}
 
 
 #ENGLISH LANGUAGE

@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:written_book"
         },
-        "title": {"translate":"Fire line"},
-        "description": {"translate":"Find Fire line spell"}
+        "title": {"translate":"Fire Line"},
+        "description": {"translate":"Find Fire Line spell"}
     },
     "parent": "att2:dahal/root",
     "rewards": {

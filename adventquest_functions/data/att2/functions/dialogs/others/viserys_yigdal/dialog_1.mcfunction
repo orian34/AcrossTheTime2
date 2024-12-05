@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Viserys Yigdal : ","color":"gree
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Viserys Yigdal : ","color":"green","extra":[{"text":"Hello, I can make you good ready meals and if you need cooked meat I also sell it.","color":"dark_aqua","extra":[{"text":" [See the merchandise -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/viserys_yigdal_shop_opening"},"hoverEvent":{"action":"show_text","value":"Click here to look at what Viserys is selling."}}]}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Viserys Yigdal : ","color":"green","extra":[{"text":"Hello, I can make you delicious ready meals and if you need cooked meat I also sell it.","color":"dark_aqua","extra":[{"text":" [See the merchandise -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/viserys_yigdal_shop_opening"},"hoverEvent":{"action":"show_text","value":"Click here to look at what Viserys is selling."}}]}]}
 
 
 #CHINESE LANGUAGE

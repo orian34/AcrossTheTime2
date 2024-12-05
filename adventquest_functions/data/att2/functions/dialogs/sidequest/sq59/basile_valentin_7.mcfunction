@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Basile Valentin : ","color":"gre
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"The culmination of my research was surely not only to serve myself, but to help others and the person who saved the world from cataclysm... So I will help you in your last quest and guide you to reach your test!","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"The culmination of my research was surely not only to serve myself, but to help others and the person who saved the world from cataclysm... So I will help you in your last quest and guide you to reach your trial!","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest											#
-#Apply sound effect for Swarm arrow 							#
+#Apply sound effect for Arrow Swarm 							#
 #################################################################
 
 execute as @a[distance=..15] run function att2:sound/dahal/spell8_effect

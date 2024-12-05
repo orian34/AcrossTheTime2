@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Feanorth : ","color":"green","extra":[{"text":"Avez-vous trouvez le nid d'Atricanth ? Fouillez bien les ruines vers les quartiers ouest d'Angor.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Feanorth : ","color":"green","extra":[{"text":"Avez-vous trouvé le nid d'Atricanth ? Fouillez bien les ruines vers les quartiers Ouest d'Angor.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

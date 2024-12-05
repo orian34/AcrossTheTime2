@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest											#
-#Level and Cooldown	for swarm arrow								#
+#Level and Cooldown	for Arrow Swarm								#
 #################################################################
 
 scoreboard players set @s[scores={SPELL8_CAP=1}] COOLDOWN8 200

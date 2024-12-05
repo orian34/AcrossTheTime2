@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Alfonso : ","color":"green","extra":[{"text":"Psst... Je t'échange un bon paquet de Chronotons contre toutes sortes d'items de qualités !","color":"dark_aqua","extra":[{"text":" [Echanger -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/recycler/ask"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour commencer l'échange avec Alfonso."}}]}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Alfonso : ","color":"green","extra":[{"text":"Psst... Je t'échange un bon paquet de Chronotons contre toutes sortes d'objets de qualité !","color":"dark_aqua","extra":[{"text":" [Echanger -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/recycler/ask"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour commencer l'échange avec Alfonso."}}]}]}
 
 
 #ENGLISH LANGUAGE

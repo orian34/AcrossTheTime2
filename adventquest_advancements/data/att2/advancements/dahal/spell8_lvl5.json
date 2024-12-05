@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:enchanted_book"
         },
-        "title": {"translate":"Swarm arrow Veteran"},
-        "description": {"translate":"Reach level 5 with Swarm arrow spell"},
+        "title": {"translate":"Arrow Swarm Veteran"},
+        "description": {"translate":"Reach level 5 with Arrow Swarm spell"},
         "frame": "goal"
     },
     "parent": "att2:dahal/spell8_lvl2",

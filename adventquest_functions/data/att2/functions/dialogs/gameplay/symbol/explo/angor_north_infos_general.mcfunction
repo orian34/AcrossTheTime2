@@ -3,4 +3,4 @@
 #Use function to process the System Symbol Info 			    #
 #################################################################
 
-tellraw @s {"text":"⚙ ","color":"dark_red","extra":[{"text":"Angor north : ","color":"gray"},{"score":{"name":"Angor_north","objective":"SYMBOL"},"color":"red"},{"text":"/","color":"gray"},{"text":"84","color":"gold"},{"text":" ⚙","color":"dark_red"}]}
+tellraw @s {"text":"⚙ ","color":"dark_red","extra":[{"text":"Angor North : ","color":"gray"},{"score":{"name":"Angor_north","objective":"SYMBOL"},"color":"red"},{"text":"/","color":"gray"},{"text":"84","color":"gold"},{"text":" ⚙","color":"dark_red"}]}

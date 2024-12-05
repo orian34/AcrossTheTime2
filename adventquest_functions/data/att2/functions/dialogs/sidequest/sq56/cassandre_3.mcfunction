@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Cassandre : ","color":"green","e
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Cassandre : ","color":"green","extra":[{"text":"Really? He might not be as wicked at he wishes, in the end...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Cassandre : ","color":"green","extra":[{"text":"Really? He might not be as wicked as he wishes, in the end...","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

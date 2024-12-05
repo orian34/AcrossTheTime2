@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Feanorth : ","color":"green","extra":[{"text":"Hmm très bien, comme j'ai pu réunir quelques trésors de guerre dans les restes d'Angor, je pourrai vous donner 750 Chronotons pour cette mission. Allez dans le quartier ouest d'Angor, vous trouverez le nid dans les ruines.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Feanorth : ","color":"green","extra":[{"text":"Hmm très bien, comme j'ai pu réunir quelques trésors de guerre dans les restes d'Angor, je pourrais vous donner 750 Chronotons pour cette mission. Allez dans le quartier Ouest d'Angor, vous trouverez le nid dans les ruines.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

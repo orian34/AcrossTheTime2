@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@s","color":"dark_red","extra":[{"text":" : "},{"text":"[Marché conclut ! -->]","color":"green","clickEvent":{"action":"run_command","value":"/execute at @e[tag=Recycler,sort=nearest,limit=1] run function att2:gameplay/recycler/deal"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour accepter l'offre."}}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@s","color":"dark_red","extra":[{"text":" : "},{"text":"[Marché conclu ! -->]","color":"green","clickEvent":{"action":"run_command","value":"/execute at @e[tag=Recycler,sort=nearest,limit=1] run function att2:gameplay/recycler/deal"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour accepter l'offre."}}]}
 
 
 #ENGLISH LANGUAGE
