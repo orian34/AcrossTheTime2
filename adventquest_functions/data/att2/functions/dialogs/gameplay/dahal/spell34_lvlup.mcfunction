@@ -9,7 +9,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"Nouveau niveau débloqué pour Cherche 
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":"New level unlock for Secret Seeker!","color":"gold"}
+tellraw @s[scores={LANGUAGE=1}] {"text":"New level unlocked for Secret Seeker!","color":"gold"}
 
 #CHINESE LANGUAGE
 

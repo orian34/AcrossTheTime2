@@ -8,13 +8,13 @@
       "translate": "Serial Killer"
     },
     "description": {
-      "translate": "Kill all hostile animal and monster types"
+      "translate": "Kill all types of animals and monsters."
     },
     "frame": "challenge"
   },
   "rewards": {
     "function": "att2:advancement/exploit_50",
-    "experience": 10000
+    "experience": 25000
   },
   "criteria": {
     "minecraft:cave_spider": {

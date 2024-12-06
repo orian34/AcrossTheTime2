@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest											#
-#Level up for spell Swarm arrow									#
+#Level up for spell Arrow Swarm									#
 #################################################################
 
 function att2:dialogs/gameplay/dahal/spell8_lvlup

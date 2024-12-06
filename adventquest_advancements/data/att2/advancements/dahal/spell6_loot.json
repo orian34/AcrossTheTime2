@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:written_book"
         },
-        "title": {"translate":"Explosive trap"},
-        "description": {"translate":"Find Explosive trap spell"}
+        "title": {"translate":"Explosive Trap"},
+        "description": {"translate":"Find Explosive Trap spell"}
     },
     "parent": "att2:dahal/root",
     "rewards": {

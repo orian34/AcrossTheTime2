@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:enchanted_book"
         },
-        "title": {"translate":"Power ray Veteran"},
-        "description": {"translate":"Reach level 5 with Power ray spell"},
+        "title": {"translate":"Power Ray Veteran"},
+        "description": {"translate":"Reach level 5 with Power Ray spell"},
         "frame": "goal"
     },
     "parent": "att2:dahal/spell4_lvl2",

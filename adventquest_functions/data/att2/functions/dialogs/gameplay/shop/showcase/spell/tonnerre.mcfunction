@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" ° ","bold":true,"color":"dark_red","e
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Thunder>","bold":false,"color":"red","hoverEvent":{"action":"show_text","value":"Concentrate the lightning at one spot and make the reckless ones who approach it feel its anger."},"extra":[{"text":" [1400 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/spell/tonnerre"},"hoverEvent":{"action":"show_text","value":"Click here to buy!"}}]}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Thunder>","bold":false,"color":"red","hoverEvent":{"action":"show_text","value":"Concentrate lightning in one spot and make the reckless ones who approach it feel its anger."},"extra":[{"text":" [1400 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/spell/tonnerre"},"hoverEvent":{"action":"show_text","value":"Click here to buy!"}}]}]}
 
 
 #CHINESE LANGUAGE

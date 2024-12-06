@@ -5,7 +5,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"Score de rareté du paris obtenu : ","color":"gray","extra":[{"score":{"name":"estimate","objective":"GAMBLING"},"color":"gold"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"Score de rareté du pari obtenu : ","color":"gray","extra":[{"score":{"name":"estimate","objective":"GAMBLING"},"color":"gold"}]}
 
 #ENGLISH LANGUAGE
 

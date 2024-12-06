@@ -5,7 +5,7 @@
 
 #Ryliath
 execute in minecraft:overworld positioned -5083 78 -5030 if entity @s[distance=..150,gamemode=adventure] run function att2:gameplay/shop/indication/food/ryliath
-#Meleim
+#Méleïm
 execute in minecraft:overworld positioned -3807 70 -5825 if entity @s[distance=..150,gamemode=adventure] run function att2:gameplay/shop/indication/food/meleim
 #Eolorion
 execute in minecraft:overworld positioned -5272 101 -6210 if entity @s[distance=..150,gamemode=adventure] run function att2:gameplay/shop/indication/food/eolorion

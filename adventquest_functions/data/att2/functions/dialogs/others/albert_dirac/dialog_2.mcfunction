@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Albert Dirac : ","color":"green"
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Albert Dirac : ","color":"green","extra":[{"text":"To rent a room there that day it will make you 30 Chronotons!","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Albert Dirac : ","color":"green","extra":[{"text":"To rent a room there one day it will make you 30 Chronotons!","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

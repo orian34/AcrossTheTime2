@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Intendant Joffrey : ","color":"green","extra":[{"text":"Eh bien il y a beaucoup de visite en ce moment. Que voulez-vous ? Ah, vous êtes bien celui dont le roi m'a parlé. Il m'a averti que je devais vous faire une petite remise sur une de nos plus belles maisons. Je ne peux pas vous en faire cadeau, mais je peux vous vendre ce bien à un très bon prix. 1000 Chrontons au lieu de 5000, c'est une offre à ne pas refuser !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Intendant Joffrey : ","color":"green","extra":[{"text":"Eh bien il y a beaucoup de visite en ce moment. Que voulez-vous ? Ah, vous êtes bien celui dont le roi m'a parlé. Il m'a averti que je devais vous faire une petite remise sur une de nos plus belles maisons. Je ne peux pas vous en faire cadeau, mais je peux vous vendre ce bien à un très bon prix. 1000 Chronotons au lieu de 5000, c'est une offre à ne pas refuser !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

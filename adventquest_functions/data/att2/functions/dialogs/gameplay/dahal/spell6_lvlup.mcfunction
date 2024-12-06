@@ -5,11 +5,11 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"Nouveau niveau débloqué pour Piège explosif !","color":"gold"}
+tellraw @s[scores={LANGUAGE=0}] {"text":"Nouveau niveau débloqué pour Piège Explosif !","color":"gold"}
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":"New level unlock for Explosive trap!","color":"gold"}
+tellraw @s[scores={LANGUAGE=1}] {"text":"New level unlocked for Explosive Trap!","color":"gold"}
 
 #CHINESE LANGUAGE
 
@@ -46,4 +46,3 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"Explosive trap के लिए नय�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"Novo nível desbloqueado para Armadilha Explosiva!","color":"gold"}
-

@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:written_book"
         },
-        "title": {"translate":"Power ray"},
-        "description": {"translate":"Find Power ray spell"}
+        "title": {"translate":"Power Ray"},
+        "description": {"translate":"Find Power Ray spell"}
     },
     "parent": "att2:dahal/root",
     "rewards": {

@@ -1,6 +1,6 @@
 ##################################################
 #Made by Adventquest                             #
-#Obtain Key of Meleim House    	 	 		 	 #
+#Obtain Key of Méleïm House    	 	 		 	 #
 ##################################################
 
-give @s minecraft:brick{EquipmentType:"misc",Rarity:"que",display:{Name:"\"§9Clef Maison Méleïm\"","Lore":["{\"text\":\"§3§oKey of Meleïm House\"}"]}} 1
+give @s minecraft:brick{EquipmentType:"misc",Rarity:"que",display:{Name:"\"§9Clef Maison Méleïm\"","Lore":["{\"text\":\"§3§oKey of Méleïm House\"}"]}} 1

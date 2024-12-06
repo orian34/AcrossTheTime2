@@ -11,7 +11,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":"RECORD BATTU !","color":"gold"}
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":"NEW RECORD!","color":"gold"}
+tellraw @a[scores={LANGUAGE=1}] {"text":"NEW HIGH SCORE!","color":"gold"}
 
 
 #CHINESE LANGUAGE

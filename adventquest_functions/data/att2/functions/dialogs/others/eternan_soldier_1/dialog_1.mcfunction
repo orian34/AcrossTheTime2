@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Eternän Soldier : ","color":"gr
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Eternän Soldier : ","color":"green","extra":[{"text":"Have you seen the sword of Relgon? She's beautiful, don't you think? It is a legendary and very powerful sword that Relgon forged from extremely rare materials.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Eternän Soldier : ","color":"green","extra":[{"text":"Have you seen Relgon's sword? She's beautiful, don't you think? It is a legendary and very powerful sword that Relgon forged from extremely rare materials.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

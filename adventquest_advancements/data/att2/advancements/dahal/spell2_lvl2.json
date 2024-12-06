@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:enchanted_book"
         },
-        "title": {"translate":"Fire line Apprentice"},
-        "description": {"translate":"Reach level 2 with Fire line spell"}
+        "title": {"translate":"Fire Line Apprentice"},
+        "description": {"translate":"Reach level 2 with Fire Line spell"}
     },
     "parent": "att2:dahal/spell2_loot",
     "rewards": {

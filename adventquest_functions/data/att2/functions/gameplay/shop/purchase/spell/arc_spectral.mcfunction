@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest											#
-#Use function to process the sell of Arc Spectrale 				#
+#Use function to process the sell of Arc Spectral 				#
 #################################################################
 
 execute as @s[scores={CHRONOTON=..399}] at @s run function att2:dialogs/gameplay/shop/not_enough_chronotons

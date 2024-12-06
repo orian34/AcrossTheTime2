@@ -1,6 +1,6 @@
 ##################################################
 #Made by Adventquest                             #
-#Play sound for swarm arrow effect         	     #
+#Play sound for Arrow Swarm effect         	     #
 ##################################################
 
 playsound crashmetal1 ambient @s ~ ~ ~ 5 2

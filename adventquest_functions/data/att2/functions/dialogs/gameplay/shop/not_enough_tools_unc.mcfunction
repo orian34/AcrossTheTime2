@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"Vous n'avez plus assez de : ","color":"gray","extra":[{"text":"<Outil de réparation - Peu commun>","color":"dark_green"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"Vous n'avez plus assez de : ","color":"gray","extra":[{"text":"<Outil de réparation - Peu Commun>","color":"dark_green"}]}
 
 
 #ENGLISH LANGUAGE

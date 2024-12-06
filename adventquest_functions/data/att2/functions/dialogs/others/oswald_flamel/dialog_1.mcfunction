@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Oswald Flamel : ","color":"green
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Oswald Flamel : ","color":"green","extra":[{"text":"Good morning, are you here to buy my stuff? I probably have something that can be useful to you.","color":"dark_aqua","extra":[{"text":" [See the merchandise -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/oswald_flamel_shop_opening"},"hoverEvent":{"action":"show_text","value":"Click here to look at what Oswald is selling."}}]}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Oswald Flamel : ","color":"green","extra":[{"text":"Good morning, are you here to buy my stuff? I'm sure to have something that can be useful to you.","color":"dark_aqua","extra":[{"text":" [See the merchandise -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/oswald_flamel_shop_opening"},"hoverEvent":{"action":"show_text","value":"Click here to look at what Oswald is selling."}}]}]}
 
 
 #CHINESE LANGUAGE

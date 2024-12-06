@@ -4,7 +4,7 @@
             "item": "minecraft:enchanted_book"
         },
         "title": {"translate":"Dahäl Eternän"},
-        "description": {"translate":"Reach level max for all spells"},
+        "description": {"translate":"Reach max level for all spells"},
         "frame": "challenge"
     },
     "parent": "att2:dahal/spell_all_loot",

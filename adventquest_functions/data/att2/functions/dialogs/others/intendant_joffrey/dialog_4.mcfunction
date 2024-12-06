@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Intendant Joffrey : ","color":"g
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Intendant Joffrey : ","color":"green","extra":[{"text":"Yes, what can I do for you? Oh you are the traveller who activated the space portal in the the city. The king's subjects asked me to give you a little discount on one of the most beautiful houses in Ryliath! It's yours for only 3000 Chronotons! Deal?","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Intendant Joffrey : ","color":"green","extra":[{"text":"Yes, what can I do for you? Oh you are the traveller who activated the space portal in the city. The king's subjects asked me to give you a little discount on one of the most beautiful houses in Ryliath! It's yours for only 3000 Chronotons! Deal?","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

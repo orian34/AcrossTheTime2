@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"Activation des mots runiques installés
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":"Activation of installed rune words...","color":"gray"}
+tellraw @s[scores={LANGUAGE=1}] {"text":"Activation of installed runic words...","color":"gray"}
 
 
 #CHINESE LANGUAGE

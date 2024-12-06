@@ -5,11 +5,11 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"Nouveau niveau débloqué pour Nuée de flèches !","color":"gold"}
+tellraw @s[scores={LANGUAGE=0}] {"text":"Nouveau niveau débloqué pour Nuée de Flèches !","color":"gold"}
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":"New level unlock for Swarm arrow!","color":"gold"}
+tellraw @s[scores={LANGUAGE=1}] {"text":"New level unlocked for Arrow Swarm!","color":"gold"}
 
 #CHINESE LANGUAGE
 
@@ -25,11 +25,11 @@ tellraw @s[scores={LANGUAGE=4}] {"text":"스웜 화살의 새로운 레벨이 �
 
 #ARABIC LANGUAGE
 
-tellraw @s[scores={LANGUAGE=5}] {"text":"تم فتح مستوى جديد لـ Swarm arrow!","color":"gold"}
+tellraw @s[scores={LANGUAGE=5}] {"text":"تم فتح مستوى جديد لـ Arrow Swarm!","color":"gold"}
 
 #RUSSIAN LANGUAGE
 
-tellraw @s[scores={LANGUAGE=6}] {"text":"Новый уровень для Swarm arrow разблокирован!","color":"gold"}
+tellraw @s[scores={LANGUAGE=6}] {"text":"Новый уровень для Arrow Swarm разблокирован!","color":"gold"}
 
 #SPANISH LANGUAGE
 

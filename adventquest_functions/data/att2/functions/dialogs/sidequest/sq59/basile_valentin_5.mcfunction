@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"Bien sûr que non, le pouvoir s'est estompé depuis les évènements passés il y a 4 ans. Cependant, en questionnant Etotsira sur les gemmes, il m'avait fait part de son inquiétude à propos d'une nouvelle ouverture d'un portail temporelle. En effet, un regain du pouvoir des gemmes était à envisager, selon lui. Je me suis alors dit que c'était le moment parfait pour avoir la puissance nécessaire afin de transmuter la matière de la pierre.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Basile Valentin : ","color":"green","extra":[{"text":"Bien sûr que non, le pouvoir s'est estompé depuis les évènements passés il y a 4 ans. Cependant, en questionnant Etotsira sur les gemmes, il m'avait fait part de son inquiétude à propos d'une nouvelle ouverture d'un portail temporel. En effet, un regain du pouvoir des gemmes était à envisager, selon lui. Je me suis alors dit que c'était le moment parfait pour avoir la puissance nécessaire afin de transmuter la matière de la pierre.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

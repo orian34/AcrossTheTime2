@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Calypso : ","color":"green","extra":[{"text":"Oui, je suis heureuse de te revoir. J'espérais que tu reviennes nous voir un jour. Repose toi encore un peu, je t'ai fait quelques potions.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Calypso : ","color":"green","extra":[{"text":"Oui, je suis heureuse de te revoir. J'espérais que tu reviennes nous voir un jour. Repose-toi encore un peu, je t'ai fait quelques potions.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

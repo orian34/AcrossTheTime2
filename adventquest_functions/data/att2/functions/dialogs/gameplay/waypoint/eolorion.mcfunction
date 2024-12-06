@@ -11,7 +11,7 @@ execute if score Asunark WAYPOINT matches 1 run tellraw @s {"text":" °-° : ","
 
 execute if score Kortaek WAYPOINT matches 1 run tellraw @s {"text":" °-° : ","color":"dark_gray","extra":[{"text":"<Kortaek>","color":"blue","clickEvent":{"action":"run_command","value":"/execute as @a[x=-5248,y=100,z=-6202,distance=..5,gamemode=adventure] at @s run function att2:gameplay/waypoint/tp/eolorion/kortaek"},"hoverEvent":{"action":"show_text","value":"<TP Kortaek>"}}]}
 
-execute if score Meleim WAYPOINT matches 1 run tellraw @s {"text":" °-° : ","color":"dark_gray","extra":[{"text":"<Meleïm>","color":"blue","clickEvent":{"action":"run_command","value":"/execute as @a[x=-5248,y=100,z=-6202,distance=..5,gamemode=adventure] at @s run function att2:gameplay/waypoint/tp/eolorion/meleim"},"hoverEvent":{"action":"show_text","value":"<TP Meleïm>"}}]}
+execute if score Meleim WAYPOINT matches 1 run tellraw @s {"text":" °-° : ","color":"dark_gray","extra":[{"text":"<Méleïm>","color":"blue","clickEvent":{"action":"run_command","value":"/execute as @a[x=-5248,y=100,z=-6202,distance=..5,gamemode=adventure] at @s run function att2:gameplay/waypoint/tp/eolorion/meleim"},"hoverEvent":{"action":"show_text","value":"<TP Méleïm>"}}]}
 
 execute if score Owsastr WAYPOINT matches 1 run tellraw @s {"text":" °-° : ","color":"dark_gray","extra":[{"text":"<Owsästr>","color":"blue","clickEvent":{"action":"run_command","value":"/execute as @a[x=-5248,y=100,z=-6202,distance=..5,gamemode=adventure] at @s run function att2:gameplay/waypoint/tp/eolorion/owsastr"},"hoverEvent":{"action":"show_text","value":"<TP Owsästr>"}}]}
 

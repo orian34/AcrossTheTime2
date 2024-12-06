@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Marc Aboth : ","color":"green","extra":[{"text":"Bonjour, avez-vous besoin d'un cheval ? J'en ai peu, mais ils sont rapides et très endurcis !","color":"dark_aqua","extra":[{"text":" [Voir les offres de Marc -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/marc_aboth_shop_opening"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour voir ce que vend Marc."}}]}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Marc Aboth : ","color":"green","extra":[{"text":"Bonjour, avez-vous besoin d'un cheval ? J'en ai peu, mais ils sont rapides et très robustes !","color":"dark_aqua","extra":[{"text":" [Voir les offres de Marc -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/marc_aboth_shop_opening"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour voir ce que vend Marc."}}]}]}
 
 
 #ENGLISH LANGUAGE

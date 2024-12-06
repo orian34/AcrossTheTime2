@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest											#
-#Swarm arrow lvl10												#
+#Arrow Swarm lvl10												#
 #################################################################
 
 execute at @s run function att2:gameplay/dahal/action/spell8/effect/10

@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest											#
-#Apply effect for Swarm arrow lvl4								#
+#Apply effect for Arrow Swarm lvl4								#
 #################################################################
 
 function att2:gameplay/dahal/action/spell8/effect

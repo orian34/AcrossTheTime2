@@ -5,7 +5,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"Impossible ! Si vous avez choisi la difficulté <CAUCHEMAR> vous ne pourrez plus revenir en arrière...","color":"gray"}
+tellraw @s[scores={LANGUAGE=0}] {"text":"Impossible ! Si vous avez choisi la difficulté <CAUCHEMAR> vous ne pouvez plus revenir en arrière...","color":"gray"}
 
 #ENGLISH LANGUAGE
 

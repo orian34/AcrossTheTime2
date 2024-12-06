@@ -8,11 +8,11 @@ function att2:sound/dahal/spell_ready
 
 #FRENCH LANGUAGE
 
-title @s[scores={LANGUAGE=0}] actionbar {"text":"⧼〈","color":"dark_red","extra":[{"text":"Tonnerre prêt","color":"gray"},{"text":"〉⧽","color":"dark_red"}]}
+title @s[scores={LANGUAGE=0}] actionbar {"text":"⧼〈","color":"dark_red","extra":[{"text":"Tonnerre Prêt","color":"gray"},{"text":"〉⧽","color":"dark_red"}]}
 
 #ENGLISH LANGUAGE
 
-title @s[scores={LANGUAGE=1}] actionbar {"text":"⧼〈","color":"dark_red","extra":[{"text":"Thunder ready","color":"gray"},{"text":"〉⧽","color":"dark_red"}]}
+title @s[scores={LANGUAGE=1}] actionbar {"text":"⧼〈","color":"dark_red","extra":[{"text":"Thunder Ready","color":"gray"},{"text":"〉⧽","color":"dark_red"}]}
 
 #CHINESE LANGUAGE
 
@@ -49,4 +49,3 @@ title @s[scores={LANGUAGE=9}] actionbar {"text":"⧼〈","color":"dark_red","ext
 #PORTUGUESE LANGUAGE
 
 title @s[scores={LANGUAGE=10}] actionbar {"text":"⧼〈","color":"dark_red","extra":[{"text":"Trovoada pronta","color":"gray"},{"text":"〉⧽","color":"dark_red"}]}
-

@@ -1,6 +1,6 @@
 #####################################################################
 #Made by Adventquest												#
-#Use function to process the discover of Meleim 					#
+#Use function to process the discover of Méleïm 					#
 #####################################################################
 
 playsound magicrevealed master @a -3845 102 -5808 10 1.5 1

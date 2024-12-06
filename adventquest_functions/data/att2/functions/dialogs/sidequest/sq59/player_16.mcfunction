@@ -8,12 +8,12 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Tient donc un défi, comme c'est original. Allez pourquoi pas, c'est un peu devenu mon passe-temps favori. Où est cette épreuve ?","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Tiens donc un défi, comme c'est original. Allez pourquoi pas, c'est un peu devenu mon passe-temps favori. Où est cette épreuve ?","color":"aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Hm... a challenge, as it is original. Come on, why not, it's kind of become my favorite pastime. Where is this test?","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Hm... a challenge, how unique. Come on, why not, it's kind of become my favorite pastime. Where is this test?","color":"aqua"}]}
 
 
 #CHINESE LANGUAGE
