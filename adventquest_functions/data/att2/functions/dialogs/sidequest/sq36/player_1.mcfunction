@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"I opened the crypt of her deceased parents, I can go back to see Violette to tell her the news.","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"I opened the crypt of her deceased parents, I can go back to Violette and tell her the news.","color":"aqua"}]}
 
 
 #CHINESE LANGUAGE

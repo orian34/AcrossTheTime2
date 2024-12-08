@@ -12,7 +12,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-°- La Clef d'Hurriel -°- : ","color"
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The Hurriel's Keys -°- : ","color":"gray","extra":[{"text":"Hurriel Sun lost her house key in the Ryliath Sewers. I need to find ","color":"aqua","italic":true,"extra":[{"text":"<Clef d'Hurriel>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:brick\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Clef d'Hurriel\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Hurriel's Key\\\"}\"]}}}"},"extra":[{"text":" by going down in the city sewers.","color":"aqua","italic":true}]}]}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Hurriel's Key -°- : ","color":"gray","extra":[{"text":"Hurriel Sun lost her house key in the Ryliath sewers. I need to find ","color":"aqua","italic":true,"extra":[{"text":"<Hurriel's Key>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:brick\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Clef d'Hurriel\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Hurriel's Key\\\"}\"]}}}"},"extra":[{"text":" by going down in the city sewers.","color":"aqua","italic":true}]}]}]}
 
 #CHINESE LANGUAGE
 
@@ -49,4 +49,3 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- हुर्रिएल की �
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- A Chave de Hurriel -°- : ","color":"gray","extra":[{"text":"Hurriel Sun perdeu a chave de sua casa nos esgotos de Ryliath. Eu preciso encontrar ","color":"aqua","italic":true,"extra":[{"text":"<Chave de Hurriel>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:brick\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Clef d'Hurriel\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Hurriel's Key\\\"}\"]}}}"},"extra":[{"text":" descendo nos esgotos da cidade.","color":"aqua","italic":true}]}]}]}}
-

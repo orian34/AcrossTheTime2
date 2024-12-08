@@ -6,12 +6,12 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Jack Arrow : ","color":"green","extra":[{"text":"Il n'y a plus aucun trésor ici, les pirates d'Asunarks nous ont tout volé ! S'il te plaît, on ne veut plus de problèmes, on en a déjà assez eu comme ça... Attends, je peux t'indiquer le lieu d'un de leurs navires échoués renfermant un important pactole. L'épave se trouve au sud d'ici, sur la côte. Elle n'est pas facile d'accès, je suis sûr que personne ne l'a encore pillé.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Jack Arrow : ","color":"green","extra":[{"text":"Il n'y a plus aucun trésor ici, les pirates d'Asunark nous ont tout volé ! S'il te plaît, on ne veut plus de problèmes, on en a déjà assez eu comme ça... Attends, je peux t'indiquer le lieu d'un de leurs navires échoués renfermant un important pactole. L'épave se trouve au Sud d'ici, sur la côte. Elle n'est pas facile d'accès, je suis sûr que personne ne l'a encore pillée.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Jack Arrow : ","color":"green","extra":[{"text":"There is no longer any treasure here, the pirates of Asunarks stole everything from us! Please, we don't want any trouble, we've had enough already... Wait, I can show you the place where one of their ship stranded containing a huge jackpot. The wreck is located south from here, on the coast. It's not easy to reach, that's why I am sure nobody stole it yet.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Jack Arrow : ","color":"green","extra":[{"text":"There is no longer any treasure here, the pirates of Asunark stole everything from us! Please, we don't want any trouble, we've had enough already... Wait, I can show you the place where one of their ships stranded containing a huge jackpot. The wreck is located south from here, on the coast. It's not easy to reach, that's why I am sure nobody stole it yet.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE
@@ -41,12 +41,12 @@ tellraw @s[scores={LANGUAGE=6}] {"text":" °-° Джек Эроу : ","color":"g
 
 #SPANISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=7}] {"text":" °-° Jack Arrow : ","color":"green","extra":[{"text":"Ya no hay tesoros aquí, ¡los piratas de Asunarks nos robaron todo! Por favor, no queremos problemas, ya hemos tenido suficientes... Espera, puedo mostrarte el lugar donde uno de sus barcos naufragó, que contiene un gran premio. El naufragio está ubicado al sur de aquí, en la costa. No es fácil de alcanzar, por eso estoy seguro de que nadie lo ha robado todavía.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=7}] {"text":" °-° Jack Arrow : ","color":"green","extra":[{"text":"Ya no hay tesoros aquí, ¡los piratas de Asunark nos robaron todo! Por favor, no queremos problemas, ya hemos tenido suficientes... Espera, puedo mostrarte el lugar donde uno de sus barcos naufragó, que contiene un gran premio. El naufragio está ubicado al sur de aquí, en la costa. No es fácil de alcanzar, por eso estoy seguro de que nadie lo ha robado todavía.","color":"dark_aqua"}]}
 
 
 #GERMAN LANGUAGE
 
-tellraw @s[scores={LANGUAGE=8}] {"text":" °-° Jack Arrow : ","color":"green","extra":[{"text":"Hier gibt es keinen Schatz mehr, die Piraten von Asunarks haben uns alles gestohlen! Bitte, wir wollen keinen Ärger, wir hatten schon genug... Warte, ich kann dir den Ort zeigen, an dem eines ihrer Schiffe gestrandet ist, das einen großen Jackpot enthält. Das Wrack befindet sich südlich von hier an der Küste. Es ist schwer zu erreichen, deshalb bin ich sicher, dass es noch niemand gestohlen hat.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=8}] {"text":" °-° Jack Arrow : ","color":"green","extra":[{"text":"Hier gibt es keinen Schatz mehr, die Piraten von Asunark haben uns alles gestohlen! Bitte, wir wollen keinen Ärger, wir hatten schon genug... Warte, ich kann dir den Ort zeigen, an dem eines ihrer Schiffe gestrandet ist, das einen großen Jackpot enthält. Das Wrack befindet sich südlich von hier an der Küste. Es ist schwer zu erreichen, deshalb bin ich sicher, dass es noch niemand gestohlen hat.","color":"dark_aqua"}]}
 
 
 #HINDI LANGUAGE
@@ -56,4 +56,4 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° जैक एरो : ","color":
 
 #PORTUGUESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Jack Arrow : ","color":"green","extra":[{"text":"Não há mais nenhum tesouro aqui, os piratas de Asunarks roubaram tudo de nós! Por favor, não queremos problemas, já tivemos o suficiente... Espere, posso te mostrar o lugar onde um dos seus navios encalhou contendo um grande prêmio. O naufrágio está localizado ao sul daqui, na costa. Não é fácil de alcançar, por isso tenho certeza de que ninguém o roubou ainda.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Jack Arrow : ","color":"green","extra":[{"text":"Não há mais nenhum tesouro aqui, os piratas de Asunark roubaram tudo de nós! Por favor, não queremos problemas, já tivemos o suficiente... Espere, posso te mostrar o lugar onde um dos seus navios encalhou contendo um grande prêmio. O naufrágio está localizado ao sul daqui, na costa. Não é fácil de alcançar, por isso tenho certeza de que ninguém o roubou ainda.","color":"dark_aqua"}]}

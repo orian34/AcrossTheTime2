@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Lucimène : ","color":"green","e
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Lucimène : ","color":"green","extra":[{"text":"Kor ... Korlaph? Are you my ... my love?","color":"blue"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Lucimène : ","color":"green","extra":[{"text":"Kor... Korlaph? Are you my... my love?","color":"blue"}]}
 
 
 #CHINESE LANGUAGE

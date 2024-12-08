@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Babbu : ","color":"green","extra":[{"text":"Je vous remercie l'ami, je vais me faire un casse croute digne de ce nom avec un 'tit bouteille de gnole bien sûr...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Babbu : ","color":"green","extra":[{"text":"Je vous remercie l'ami, je vais me faire un casse-croute digne de ce nom avec une 'tite bouteille de gnole bien sûr...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

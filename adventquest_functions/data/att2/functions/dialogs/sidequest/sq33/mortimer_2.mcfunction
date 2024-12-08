@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"Tu les as tous trouvés ! Merci infiniment, ça va grandement faire avancer mes recherches...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"Tu les as toutes trouvées ! Merci infiniment, ça va grandement faire avancer mes recherches...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

@@ -8,15 +8,15 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Les chevaux d'Hélèna -°- : ","color":"gray","extra":[{"text":"C'est Elisa Meli la responsable de l'empoisonnement des chevaux d'Héléna. Allons donc retrouver sa sœur pour la prévenir que cela ne se reproduira plus.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Les chevaux d'Hélèna -°- : ","color":"gray","extra":[{"text":"C'est Elisa Meli la responsable de l'empoisonnement des chevaux d'Hélèna. Allons donc retrouver sa sœur pour la prévenir que cela ne se reproduira plus.","color":"aqua","italic":true}]}
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Hélèna's horses -°- : ","color":"gray","extra":[{"text":"Elisa Meli is responsible for the poisoning of Helena's horses. So let's go find her sister and tell her that it won't happen again.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Hélèna's horses -°- : ","color":"gray","extra":[{"text":"Elisa Meli is responsible for the poisoning of Hélèna's horses. So let's go find her sister and tell her that it won't happen again.","color":"aqua","italic":true}]}
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 毒馬兇手 -°- : ","color":"gray","extra":[{"text":"嫌疑犯鎖定了， 是Elisa Meli將有毒的蘋果餵給Helena的馬兒們吃。Elisa保證之後不再做類似的事情， 是時候回去和Helena談談了。","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 毒馬兇手 -°- : ","color":"gray","extra":[{"text":"嫌疑犯鎖定了， 是Elisa Meli將有毒的蘋果餵給Hélèna的馬兒們吃。Elisa保證之後不再做類似的事情， 是時候回去和Hélèna談談了。","color":"aqua","italic":true}]}
 
 # JAPANESE LANGUAGE
 
@@ -36,11 +36,11 @@ tellraw @s[scores={LANGUAGE=6}] {"text":"-°- Лошади Хелены -°- : "
 
 # SPANISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=7}] {"text":"-°- Los caballos de Hélèna -°- : ","color":"gray","extra":[{"text":"Elisa Meli es responsable de envenenar a los caballos de Helena. Vamos a buscar a su hermana y decirle que no volverá a ocurrir.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=7}] {"text":"-°- Los caballos de Hélèna -°- : ","color":"gray","extra":[{"text":"Elisa Meli es responsable de envenenar a los caballos de Hélèna. Vamos a buscar a su hermana y decirle que no volverá a ocurrir.","color":"aqua","italic":true}]}
 
 # GERMAN LANGUAGE
 
-tellraw @s[scores={LANGUAGE=8}] {"text":"-°- Hélènas Pferde -°- : ","color":"gray","extra":[{"text":"Elisa Meli ist verantwortlich für die Vergiftung von Helenas Pferden. Lass uns ihre Schwester finden und ihr versichern, dass so etwas nicht wieder passieren wird.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=8}] {"text":"-°- Hélènas Pferde -°- : ","color":"gray","extra":[{"text":"Elisa Meli ist verantwortlich für die Vergiftung von Hélènas Pferden. Lass uns ihre Schwester finden und ihr versichern, dass so etwas nicht wieder passieren wird.","color":"aqua","italic":true}]}
 
 # HINDI LANGUAGE
 
@@ -48,4 +48,4 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- हेलेना के घो�
 
 # PORTUGUESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Os cavalos de Hélèna -°- : ","color":"gray","extra":[{"text":"Elisa Meli é responsável pela intoxicação dos cavalos de Helena. Vamos encontrar sua irmã e dizer a ela que isso não vai acontecer novamente.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Os cavalos de Hélèna -°- : ","color":"gray","extra":[{"text":"Elisa Meli é responsável pela intoxicação dos cavalos de Hélèna. Vamos encontrar sua irmã e dizer a ela que isso não vai acontecer novamente.","color":"aqua","italic":true}]}

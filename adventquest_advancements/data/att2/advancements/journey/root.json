@@ -4,7 +4,7 @@
             "item": "minecraft:compass"
         },
         "title": {"translate":"The Journey"},
-        "description": {"translate":"Discover Silberländ"},
+        "description": {"translate":"Discover Sylberländ"},
         "background": "minecraft:textures/block/magenta_stained_glass.png",
         "show_toast": true,
         "announce_to_chat": true

@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Gregor Gacko : ","color":"green"
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Gregor Gacko : ","color":"green","extra":[{"text":"My brother Tyrgols embarked on the convoy hijacking goods. I refused to be part of his plan, but because of that, he got caught. Now he's in jail... Could you help me get out of it?","bold":false,"color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Gregor Gacko : ","color":"green","extra":[{"text":"My brother Tyrgols embarked on goods convoy hijacking. I refused to be part of his plan, but because of that, he got caught. Now he's in jail... Could you help me get him out of there?","bold":false,"color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest											#
-#Process bet1 Trigger if player have enough chronoton			#
+#Process bet1 Trigger if player have enough Chronotons			#
 #################################################################
 
 execute as @s[scores={CHRONOTON=..2499}] at @s run function att2:dialogs/gameplay/shop/not_enough_chronotons

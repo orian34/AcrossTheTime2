@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Courage Raphael, the inhabitants of Eolorion are counting on you. So you're going to make it. -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-093a-0000-00000000093a if entity @a[distance=..7] if score raphael_PNJ DIALOG matches 3 run function att2:cinematic/sidequest/31/raphael/answer_4_1"},"hoverEvent":{"action":"show_text","value":"Click here - answer 4"}}]}
+tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Chin up Raphaël, the inhabitants of Eolorion are counting on you. So you're going to make it. -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-093a-0000-00000000093a if entity @a[distance=..7] if score raphael_PNJ DIALOG matches 3 run function att2:cinematic/sidequest/31/raphael/answer_4_1"},"hoverEvent":{"action":"show_text","value":"Click here - answer 4"}}]}
 
 
 #CHINESE LANGUAGE
@@ -41,12 +41,12 @@ tellraw @s[scores={LANGUAGE=6}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra
 
 #SPANISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Ánimo Raphael, los habitantes de Eolorion cuentan contigo. Así que lo lograrás. -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-093a-0000-00000000093a if entity @a[distance=..7] if score raphael_PNJ DIALOG matches 3 run function att2:cinematic/sidequest/31/raphael/answer_4_1"},"hoverEvent":{"action":"show_text","value":"Haz clic aquí - respuesta 4"}}]}
+tellraw @s[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Ánimo Raphaël, los habitantes de Eolorion cuentan contigo. Así que lo lograrás. -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-093a-0000-00000000093a if entity @a[distance=..7] if score raphael_PNJ DIALOG matches 3 run function att2:cinematic/sidequest/31/raphael/answer_4_1"},"hoverEvent":{"action":"show_text","value":"Haz clic aquí - respuesta 4"}}]}
 
 
 #GERMAN LANGUAGE
 
-tellraw @s[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Mut, Raphael, die Bewohner von Eolorion zählen auf dich. Du wirst es schaffen. -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-093a-0000-00000000093a if entity @a[distance=..7] if score raphael_PNJ DIALOG matches 3 run function att2:cinematic/sidequest/31/raphael/answer_4_1"},"hoverEvent":{"action":"show_text","value":"Hier klicken - Antwort 4"}}]}
+tellraw @s[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Mut, Raphaël, die Bewohner von Eolorion zählen auf dich. Du wirst es schaffen. -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-093a-0000-00000000093a if entity @a[distance=..7] if score raphael_PNJ DIALOG matches 3 run function att2:cinematic/sidequest/31/raphael/answer_4_1"},"hoverEvent":{"action":"show_text","value":"Hier klicken - Antwort 4"}}]}
 
 
 #HINDI LANGUAGE
@@ -56,4 +56,4 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra
 
 #PORTUGUESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Coragem, Raphael, os habitantes de Eolorion estão contando com você. Então você vai conseguir. -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-093a-0000-00000000093a if entity @a[distance=..7] if score raphael_PNJ DIALOG matches 3 run function att2:cinematic/sidequest/31/raphael/answer_4_1"},"hoverEvent":{"action":"show_text","value":"Clique aqui - resposta 4"}}]}
+tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Coragem, Raphaël, os habitantes de Eolorion estão contando com você. Então você vai conseguir. -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-093a-0000-00000000093a if entity @a[distance=..7] if score raphael_PNJ DIALOG matches 3 run function att2:cinematic/sidequest/31/raphael/answer_4_1"},"hoverEvent":{"action":"show_text","value":"Clique aqui - resposta 4"}}]}

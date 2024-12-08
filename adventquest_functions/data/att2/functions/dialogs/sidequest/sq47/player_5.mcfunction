@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"To remove the crown from it's owner. A feat Relgon only could demonstrate.","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"To remove the crown from its owner. A feat only Relgon could demonstrate.","color":"aqua"}]}
 
 
 #CHINESE LANGUAGE

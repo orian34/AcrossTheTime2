@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest											#
-#Initialize chronoton for a given player						#
+#Initialize Chronotons for a given player						#
 #################################################################
 
 scoreboard objectives add CHRONOTON dummy

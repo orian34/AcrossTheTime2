@@ -11,12 +11,12 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Marlène : ","color":"green","ex
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"You come along at just the right time. The winters here are harsh and we are very dependent on the valley for food. Everyone is counting on Raphael, our main conveyor, but hey! There are no stories without an incident! We haven't heard from him in a week. Sometimes he's late, but this is worrying, we have to eat here!","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"You come along at just the right time. The winters here are harsh and we are very dependent on the valley for food. Everyone is counting on Raphaël, our main conveyor, but hey! There are no stories without an incident! We haven't heard from him in a week. Sometimes he's late, but this is worrying, we have to eat here!","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"你來的正是時候。這裡的冬天很嚴酷， 我們非常依賴山谷作為食物。每個人都在指望我們的主要輸送機 Raphael， 但是， 嘿！ 沒有沒有事件的故事！ 我們已經一周沒有他的消息了。有時他會遲到， 但這很令人擔憂， 我們必須在這裡吃飯！ ","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"你來的正是時候。這裡的冬天很嚴酷， 我們非常依賴山谷作為食物。每個人都在指望我們的主要輸送機 Raphaël， 但是， 嘿！ 沒有沒有事件的故事！ 我們已經一周沒有他的消息了。有時他會遲到， 但這很令人擔憂， 我們必須在這裡吃飯！ ","color":"dark_aqua"}]}
 
 
 #JAPANESE LANGUAGE
@@ -37,11 +37,11 @@ tellraw @s[scores={LANGUAGE=6}] {"text":" °-° Marlène : ","color":"green","ex
 
 #SPANISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=7}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"¿Necesitas ayuda? Estoy encantada de ayudarte. Los inviernos aquí son duros y dependemos mucho del valle para obtener alimentos. Todos cuentan con Raphael, nuestro principal transportista, ¡pero, eh! ¡No hay historias sin incidentes! No hemos tenido noticias de él durante una semana. A veces se retrasa, pero esto es preocupante, ¡tenemos que comer aquí!","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=7}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"¿Necesitas ayuda? Estoy encantada de ayudarte. Los inviernos aquí son duros y dependemos mucho del valle para obtener alimentos. Todos cuentan con Raphaël, nuestro principal transportista, ¡pero, eh! ¡No hay historias sin incidentes! No hemos tenido noticias de él durante una semana. A veces se retrasa, pero esto es preocupante, ¡tenemos que comer aquí!","color":"dark_aqua"}]}
 
 #GERMAN LANGUAGE
 
-tellraw @s[scores={LANGUAGE=8}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"Brauchen Sie Hilfe? Ich helfe gerne. Die Winter hier sind hart, und wir sind stark auf das Tal für Nahrung angewiesen. Jeder zählt auf Raphael, unseren Haupttransporter, aber hey! Es gibt keine Geschichten ohne Zwischenfälle! Wir haben seit einer Woche nichts von ihm gehört. Manchmal ist er spät, aber das ist besorgniserregend, wir müssen hier essen!","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=8}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"Brauchen Sie Hilfe? Ich helfe gerne. Die Winter hier sind hart, und wir sind stark auf das Tal für Nahrung angewiesen. Jeder zählt auf Raphaël, unseren Haupttransporter, aber hey! Es gibt keine Geschichten ohne Zwischenfälle! Wir haben seit einer Woche nichts von ihm gehört. Manchmal ist er spät, aber das ist besorgniserregend, wir müssen hier essen!","color":"dark_aqua"}]}
 
 #HINDI LANGUAGE
 
@@ -49,4 +49,4 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Marlène : ","color":"green","ex
 
 #PORTUGUESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"Precisa de ajuda? Eu ficarei feliz em ajudar. Os invernos aqui são rigorosos e dependemos muito do vale para obter alimentos. Todos estão contando com Raphael, nosso principal transportador, mas, ei! Não há histórias sem incidentes! Não tivemos notícias dele há uma semana. Às vezes ele se atrasa, mas isso é preocupante, precisamos comer aqui!","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"Precisa de ajuda? Eu ficarei feliz em ajudar. Os invernos aqui são rigorosos e dependemos muito do vale para obter alimentos. Todos estão contando com Raphaël, nosso principal transportador, mas, ei! Não há histórias sem incidentes! Não tivemos notícias dele há uma semana. Às vezes ele se atrasa, mas isso é preocupante, precisamos comer aqui!","color":"dark_aqua"}]}

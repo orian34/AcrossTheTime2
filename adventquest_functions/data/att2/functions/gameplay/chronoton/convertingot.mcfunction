@@ -1,6 +1,6 @@
 #################################################################################
 #Made by Adventquest															#
-#Process the transformation of gold ingots into chronoton for a given player	#
+#Process the transformation of gold ingots into Chronotons for a given player	#
 #################################################################################
 
 clear @s minecraft:gold_ingot{display:{Name:"{\"text\":\"§e§oGrande pièce\"}","Lore":["{\"text\":\"§e§oBig coin\"}","{\"text\":\"§6+5 Chronotons\"}"]}} 1

@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest											#
-#Use function to process answer rewards of Helena Meli 			#
+#Use function to process answer rewards of Hélèna Meli 			#
 #################################################################
 
 

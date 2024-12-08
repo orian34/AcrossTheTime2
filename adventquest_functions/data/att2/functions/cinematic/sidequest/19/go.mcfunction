@@ -7,5 +7,5 @@
 #100.. - the quest is completed    							#
 #############################################################
 
-# Quest Completed when player is close to PNJ Helena Meli
+# Quest Completed when player is close to PNJ Hélèna Meli
 execute if score SQ19 SIDEQUEST matches 2 at 00000000-0000-027a-0000-00000000027a if entity @a[distance=..5] run function att2:cinematic/sidequest/19/end

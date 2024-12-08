@@ -1,6 +1,6 @@
 #####################################################################
 #Made by Adventquest												#
-#Detect and collect nearby grounded chronotons                  	#
+#Detect and collect nearby grounded Chronotons                  	#
 #####################################################################
 
 execute as @e[type=item,distance=..2,nbt={Item:{id:"minecraft:gold_nugget",tag:{display:{Name:"{\"text\":\"§e§oPetite pièce\"}","Lore":["{\"text\":\"§e§oSmall coin\"}","{\"text\":\"§6+1 Chronoton\"}"]}}},PickupDelay:0s}] run function att2:gameplay/chronoton/ground/pick_small

@@ -8,7 +8,7 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Les vestiges du passé -°- : ","color":"gray","extra":[{"text":"Il semblerait que des expériences se soient mal passé ici. Je dois continuer, je ne veux pas revenir bredouille de cet endroit...","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Les vestiges du passé -°- : ","color":"gray","extra":[{"text":"Il semblerait que des expériences se soient mal passées ici. Je dois continuer, je ne veux pas revenir bredouille de cet endroit...","color":"aqua","italic":true}]}
 
 #ENGLISH LANGUAGE
 

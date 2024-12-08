@@ -11,7 +11,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Malak : ","color":"green","extra
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Malak : ","color":"green","extra":[{"text":"Yep! Sweet and tender cereals, which I am happy to have you again... This is my little one, here is your reward...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Malak : ","color":"green","extra":[{"text":"Yippee! Sweet and tender cereals, how happy I am to have you again... There it is sweetie, your reward...","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"*hushed, to himself* Why didn't I kill this lunatic at first sight... Thats what happens when you're too patient.","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"*hushed, to himself* Why didn't I kill this lunatic on first sight... That's what happens when you're too patient.","color":"aqua"}]}
 
 
 #CHINESE LANGUAGE

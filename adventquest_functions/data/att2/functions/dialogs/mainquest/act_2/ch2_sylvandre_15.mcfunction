@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Sylvandre : ","color":"green","e
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"The master of Dahäl will buy and sell books of incantation. It's quite a little frequented shop, but it's such an intriguing one! I'd love to master this art.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"The Dahäl master will buy and sell books of incantation. It's quite a little frequented shop, but it's such an intriguing one! I'd love to master this art.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

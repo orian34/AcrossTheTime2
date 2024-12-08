@@ -16,7 +16,7 @@ execute if score SQ46 SIDEQUEST matches 1 if score cinematic SQ46 matches 1 if e
 # Step2 Play Cinematic2 Namrin with player
 execute if score SQ46 SIDEQUEST matches 1 if score cinematic SQ46 matches 3 if entity @a run function att2:cinematic/sidequest/46/namrin/cinematic2
 
-# Start cinematic3 when player is entering Elcheol temple
+# Start cinematic3 when player is entering Elchéol temple
 execute if score SQ28 SIDEQUEST matches 4.. if score SQ46 SIDEQUEST matches 2 if score cinematic SQ46 matches 4 if entity @a[x=-5112,y=165,z=-6756,distance=..10,gamemode=adventure] run function att2:cinematic/sidequest/46/elcheol_temple/start_cinematic3
 
 # Play Cinematic3 Crown stolen by Umbra

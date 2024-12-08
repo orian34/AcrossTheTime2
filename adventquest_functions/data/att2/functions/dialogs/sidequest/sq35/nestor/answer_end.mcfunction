@@ -11,7 +11,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Nestor : ","color":"green","extr
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Nestor : ","color":"green","extra":[{"text":"Did you get them out for good? Excellent! I will finally be able to resume business. Here, it's for you.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Nestor : ","color":"green","extra":[{"text":"Did you get them out for good? Excellent! I will finally be able to resume my business. Here, it's for you.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

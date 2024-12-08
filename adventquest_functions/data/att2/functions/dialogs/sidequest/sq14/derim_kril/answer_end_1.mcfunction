@@ -11,7 +11,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Derim Kril : ","color":"green","
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Derim Kril : ","color":"green","extra":[{"text":"Hey but! You lied to me, you thief! You will pay for that!","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Derim Kril : ","color":"green","extra":[{"text":"Hey! You lied to me, you thief! You will pay for that!","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

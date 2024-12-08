@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° J'zargo : ","color":"green","ext
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"There, these are the ruins of the burried sanctuary! J'zargo never gets lost, and the idiotic pupil would have without him!","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"There, these are the ruins of the buried sanctuary! J'zargo never gets lost, and the idiotic pupil would have without him!","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

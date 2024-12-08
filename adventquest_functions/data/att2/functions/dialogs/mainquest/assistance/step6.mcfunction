@@ -14,7 +14,7 @@ tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"This sculpture in the center of Ryliath is intriguing... I should follow Sylvandre's advice and check with the Master of Dahäl Yaakov Rav. He lives in the heights of Ryliath, near the waterfall.","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"This sculpture in the center of Ryliath is intriguing... I should follow Sylvandre's advice and check with the Dahäl Master Yaakov Rav. He lives in the heights of Ryliath, near the waterfall.","color":"aqua"}]}
 
 #CHINESE LANGUAGE
 

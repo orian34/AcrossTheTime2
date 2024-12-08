@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Hermona : ","color":"green","extra":[{"text":"Dommage... Bon il va falloir faire avec, si jamais vous changez d'avis savez où me trouver.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Hermona : ","color":"green","extra":[{"text":"Dommage... Bon il va falloir faire avec, si jamais vous changez d'avis vous savez où me trouver.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

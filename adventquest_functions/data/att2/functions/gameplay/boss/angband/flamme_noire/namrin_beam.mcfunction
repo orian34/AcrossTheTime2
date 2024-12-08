@@ -1,6 +1,6 @@
 #####################################################################
 #Made by Adventquest												#
-#Process the Namrin beam            								#
+#Process the Namrïn beam            								#
 #####################################################################
 
 function att2:sound/misc/loading_energy

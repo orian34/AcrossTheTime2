@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Warren : ","color":"green","extr
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Warren : ","color":"green","extra":[{"text":"Hmm is half the value of my goods, but without you I lose everything ... Well I will give them to you when you have brought back the goods. I advise you to go by another path, this one is blocked.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Warren : ","color":"green","extra":[{"text":"Hmm this is half the value of my goods, but without you I lose everything... Well I will give them to you when you have brought back the goods. I advise you to go by another path, this one is blocked.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

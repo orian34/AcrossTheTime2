@@ -12,7 +12,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Le devoir immémorial -°- : ","co
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The immemorial duty -°- : ","color":"gray","extra":[{"text":"I found a bow lost in the rubble of old structures. It is of a rare quality, it is perhaps the one Trias told me about.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The immemorial duty -°- : ","color":"gray","extra":[{"text":"I found a bow lost in the rubble of old structures. It is of rare quality, it is perhaps the one Trias told me about.","color":"aqua","italic":true}]}
 
 #CHINESE LANGUAGE
 

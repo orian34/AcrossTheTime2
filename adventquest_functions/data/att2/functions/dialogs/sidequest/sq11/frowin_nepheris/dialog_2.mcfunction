@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Frowin Nepheris : ","color":"gre
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Frowin Nepheris : ","color":"green","extra":[{"text":"Hey there, are you the hero who restored the gate? Ya someone resourceful! If you like fighting, I have something to offer you: a group of thugs often comes to the brothel and scares the customers. They are just upstairs. There will be a reward, of course.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Frowin Nepheris : ","color":"green","extra":[{"text":"Hey there, are you the hero who restored the gate? Ya someone resourceful! If you like fighting, I have something for you: a group of thugs often comes to wreak havoc and scares the customers. They are just upstairs. There will be a reward, of course.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

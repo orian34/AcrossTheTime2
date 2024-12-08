@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Aldelrion : ","color":"green","e
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"May ask you a question now? I don't think that you went through the worlds and braved war by mere kindness. You were searching for something, were you not? But for what?","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"May I ask you a question now? I don't think that you went through the worlds and braved war by mere kindness. You were searching for something, were you not? But what?","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

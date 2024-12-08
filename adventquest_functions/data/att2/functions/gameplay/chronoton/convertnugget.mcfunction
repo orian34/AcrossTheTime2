@@ -1,6 +1,6 @@
 #################################################################################
 #Made by Adventquest															#
-#Process the transformation of gold nuggets into chronoton for a given player	#
+#Process the transformation of gold nuggets into Chronotons for a given player	#
 #################################################################################
 
 clear @s minecraft:gold_nugget{display:{Name:"{\"text\":\"§e§oPetite pièce\"}","Lore":["{\"text\":\"§e§oSmall coin\"}","{\"text\":\"§6+1 Chronoton\"}"]}} 1

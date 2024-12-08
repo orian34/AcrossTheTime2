@@ -1,6 +1,6 @@
 #####################################################
 #Made by Adventquest                                #
-#Process Schestrown Shadow effect2					#
+#Process Scheströwn Shadow effect2					#
 #####################################################
 
 particle minecraft:item minecraft:black_wool ~ ~1.9 ~ 0.01 0.01 0.01 1 5 normal

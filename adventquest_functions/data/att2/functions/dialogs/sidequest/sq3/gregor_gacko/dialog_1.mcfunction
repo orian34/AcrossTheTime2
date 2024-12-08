@@ -6,12 +6,12 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Gregor Gacko : ","color":"green","extra":[{"text":"... Mon frère... Emprisonné... J'aurais dû être là... ","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Gregor Gacko : ","color":"green","extra":[{"text":"... Mon frère... emprisonné... J'aurais dû être là... ","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Gregor Gacko : ","color":"green","extra":[{"text":"... my brother ... imprisoned ... I should have been there...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Gregor Gacko : ","color":"green","extra":[{"text":"... My brother... imprisoned... I should have been there...","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

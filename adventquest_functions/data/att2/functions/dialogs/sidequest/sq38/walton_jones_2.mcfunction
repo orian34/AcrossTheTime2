@@ -8,7 +8,7 @@ execute as @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"Vous-croyez que j'allais vous laisser profiter seul de cette découverte ?","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"Vous croyiez que j'allais vous laisser profiter seul de cette découverte ?","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

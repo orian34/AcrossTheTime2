@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Korlaph : ","color":"green","ext
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Korlaph : ","color":"green","extra":[{"text":"You don't know anything about what happened in those damn mountains! You don't suspect how much I suffered from your wife's unconscious decisions! But thanks to this crown, I was able to draw a new and creative energy from that pain... Now, GO AWAY OR I WILL KILL YOU ALL!","color":"dark_red"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Korlaph : ","color":"green","extra":[{"text":"You don't know anything about what happened in those damn mountains! You don't suspect how much I suffered from your wife's ignorant decisions! But thanks to this crown, I was able to draw a new and creative energy from that pain... Now, GO AWAY OR I WILL KILL YOU ALL!","color":"dark_red"}]}
 
 
 #CHINESE LANGUAGE

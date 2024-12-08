@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:music_disc_pigstep"
         },
-        "title": {"translate":"Schestrown Symbols"},
-        "description": {"translate":"Discover all Exploration symbols of Schestrown"},
+        "title": {"translate":"Scheströwn Symbols"},
+        "description": {"translate":"Discover all Exploration symbols of Scheströwn"},
         "frame": "challenge"
     },
     "parent": "att2:journey/discover_tears_forest",

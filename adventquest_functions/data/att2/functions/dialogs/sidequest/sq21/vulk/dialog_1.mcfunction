@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Vulk : ","color":"green","extra"
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"I do not dream?","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":"! What good wind takes you back to Ëarndhel?","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Vulk : ","color":"green","extra":[{"text":"I'm not dreaming?","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":"! What good wind takes you back to Ëarndhel?","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

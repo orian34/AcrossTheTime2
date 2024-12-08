@@ -14,11 +14,11 @@ tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Very well I must find this Raphael for Marlene. He is in charge of supply and he usually drives from Ryliath to Eolorion. I have to check the main route where I climbed to Eolorion, it may have been attacked or had a problem along the way ...","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Very well I must find this Raphaël for Marlene. He is in charge of supply and he usually drives from Ryliath to Eolorion. I have to check the main route where I climbed to Eolorion, it may have been attacked or had a problem along the way ...","color":"aqua"}]}
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"好， 我現在得幫Marlene找到Raphael。負責供給的Raphael通常會坐馬車往返於Ryliath和Eolorion。我必須沿來Eolorion時的路綫看看， 沒準他在半路上受到了襲擊， 或是遇上了什麽別的問題...","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"好， 我現在得幫Marlene找到Raphaël。負責供給的Raphaël通常會坐馬車往返於Ryliath和Eolorion。我必須沿來Eolorion時的路綫看看， 沒準他在半路上受到了襲擊， 或是遇上了什麽別的問題...","color":"aqua"}]}
 
 
 #JAPANESE LANGUAGE
@@ -31,7 +31,7 @@ tellraw @s[scores={LANGUAGE=4}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #ARABIC LANGUAGE
 
-tellraw @s[scores={LANGUAGE=5}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"حسنًا، يجب أن أجد هذا Raphael من أجل Marlène. إنه مسؤول عن الإمدادات وعادة ما يسافر من Ryliath إلى Eolorion. يجب أن أتحقق من الطريق الرئيسي الذي صعدت منه إلى Eolorion، ربما تعرض للهجوم أو واجه مشكلة في الطريق ...","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=5}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"حسنًا، يجب أن أجد هذا Raphaël من أجل Marlène. إنه مسؤول عن الإمدادات وعادة ما يسافر من Ryliath إلى Eolorion. يجب أن أتحقق من الطريق الرئيسي الذي صعدت منه إلى Eolorion، ربما تعرض للهجوم أو واجه مشكلة في الطريق ...","color":"aqua"}]}
 
 #RUSSIAN LANGUAGE
 
@@ -39,11 +39,11 @@ tellraw @s[scores={LANGUAGE=6}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #SPANISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Muy bien, debo encontrar a este Raphael para Marlène. Está a cargo del suministro y generalmente viaja desde Ryliath hasta Eolorion. Debo revisar la ruta principal por donde subí a Eolorion, puede haber sido atacado o haber tenido un problema en el camino...","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Muy bien, debo encontrar a este Raphaël para Marlène. Está a cargo del suministro y generalmente viaja desde Ryliath hasta Eolorion. Debo revisar la ruta principal por donde subí a Eolorion, puede haber sido atacado o haber tenido un problema en el camino...","color":"aqua"}]}
 
 #GERMAN LANGUAGE
 
-tellraw @s[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Sehr gut, ich muss diesen Raphael für Marlène finden. Er ist für die Versorgung zuständig und fährt normalerweise von Ryliath nach Eolorion. Ich muss die Hauptstrecke überprüfen, auf der ich nach Eolorion geklettert bin, vielleicht wurde er angegriffen oder hatte unterwegs ein Problem ...","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Sehr gut, ich muss diesen Raphaël für Marlène finden. Er ist für die Versorgung zuständig und fährt normalerweise von Ryliath nach Eolorion. Ich muss die Hauptstrecke überprüfen, auf der ich nach Eolorion geklettert bin, vielleicht wurde er angegriffen oder hatte unterwegs ein Problem ...","color":"aqua"}]}
 
 #HINDI LANGUAGE
 
@@ -51,4 +51,4 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #PORTUGUESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Muito bem, preciso encontrar esse Raphael para Marlène. Ele é responsável pelo fornecimento e geralmente vai de Ryliath a Eolorion. Tenho que verificar a rota principal por onde subi para Eolorion, pode ter sido atacado ou ter tido um problema no caminho ...","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Muito bem, preciso encontrar esse Raphaël para Marlène. Ele é responsável pelo fornecimento e geralmente vai de Ryliath a Eolorion. Tenho que verificar a rota principal por onde subi para Eolorion, pode ter sido atacado ou ter tido um problema no caminho ...","color":"aqua"}]}

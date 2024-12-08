@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Chiara : ","color":"green","extr
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"Hey! Who allowed you to enter? Maybe you hope to steal from my chests? Get out of here or I call the guard!","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"Hey! Who allowed you to enter? Maybe you hope to steal from my chests? Get out of here or I call the guards!","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

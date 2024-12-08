@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Namrïn : ","color":"dark_purple
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"None gets crowned savior of worlds when all they did was to protect only a portion of it. Relgon, in his case, truly saved Angband from vanishing. And i'mnot talking about only the human kind, or about life in general, no, it's about the complete reality that constructs Angband!","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"None gets crowned savior of worlds when all they did was to protect only a portion of it. Relgon, in his case, truly saved Angband from vanishing. And I'm not talking about only humankind, or life in general, no, it's about the complete reality that shapes Angband!","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

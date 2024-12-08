@@ -12,7 +12,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Un Mystérieux Vol -°- : ","color
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":"-°- A Mysterious Theft -°- : ","color":"gray","extra":[{"text":"Apparently, secret plans of the Palace were stolen. The commander is informed of this case but the king is counting on me to look for clues and find the thief.... The commander is waiting for me on the floor of the palace in the library.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":"-°- A Mysterious Theft -°- : ","color":"gray","extra":[{"text":"Apparently, secret plans of the Palace were stolen. The commander is informed of this case but the king is counting on me to look for clues and find the thief... The commander is waiting for me in the library on the palace floor.","color":"aqua","italic":true}]}
 
 #CHINESE LANGUAGE
 

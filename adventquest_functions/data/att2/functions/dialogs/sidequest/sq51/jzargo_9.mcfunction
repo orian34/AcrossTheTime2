@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"J'zargo n'a plus besoin de fouiller ici. Il part pour la limite méridionale des marais d'Owsästr. ","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"J'zargo n'a plus besoin de fouiller ici. Il part pour la limite méridionale des marais d'Owsästr.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

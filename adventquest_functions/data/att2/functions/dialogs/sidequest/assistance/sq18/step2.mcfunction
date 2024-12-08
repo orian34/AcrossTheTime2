@@ -12,7 +12,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Une vengeance bien mérité -°- :
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":"-°- A well-deserved revenge -°- : ","color":"gray","extra":[{"text":"I must bring Dermist's head back to Daril Gram in order to prove revenge to him.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":"-°- A well-deserved revenge -°- : ","color":"gray","extra":[{"text":"I must bring Dermist's head back to Daril Gram in order to confirm his revenge was fulfilled.","color":"aqua","italic":true}]}
 
 #CHINESE LANGUAGE
 

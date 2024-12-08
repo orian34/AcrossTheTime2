@@ -4,7 +4,7 @@
             "item": "minecraft:elytra"
         },
         "title": {"translate":"The Voyager"},
-        "description": {"translate":"Discover all regions of Silberländ and all the dimensions"},
+        "description": {"translate":"Discover all regions of Sylberländ and all the dimensions"},
         "frame": "challenge"
     },
     "parent": "att2:journey/root",

@@ -13,7 +13,7 @@ tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[There, there, let's calm down a bit. It's probably not very far, this academy is not that huge. You'll see it run back soon! -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-153a-0000-00000000153a if entity @s[distance=..7] if score cassandre_PNJ DIALOG matches 2 run function att2:cinematic/sidequest/50/cassandre/answer_1_1"},"hoverEvent":{"action":"show_text","value":"Click here - answer 1"}}]}
+tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[There, there, let's calm down a bit. He's probably not very far, this academy is not that huge. You'll see him run back soon! -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-153a-0000-00000000153a if entity @s[distance=..7] if score cassandre_PNJ DIALOG matches 2 run function att2:cinematic/sidequest/50/cassandre/answer_1_1"},"hoverEvent":{"action":"show_text","value":"Click here - answer 1"}}]}
 
 
 #CHINESE LANGUAGE

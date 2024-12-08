@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Alexandre : ","color":"green","extra":[{"text":"A l'aide ! Ils vont me tuer !!","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Alexandre : ","color":"green","extra":[{"text":"À l'aide ! Ils vont me tuer !!","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

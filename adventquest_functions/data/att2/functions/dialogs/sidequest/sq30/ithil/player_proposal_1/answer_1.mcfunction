@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Jaris : ","color":"green","extra":[{"text":"Nous nous reverrons mon amour ! Ne t'en fait pas, tout va s'arranger !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Jaris : ","color":"green","extra":[{"text":"Nous nous reverrons mon amour ! Ne t'en fais pas, tout va s'arranger !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

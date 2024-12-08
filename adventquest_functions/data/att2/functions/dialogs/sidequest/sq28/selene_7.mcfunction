@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Sélène : ","color":"green","extra":[{"text":"Mais alors tu savais que maman était morte et tu ne m'as tu jamais rien dit ? Korlaph, serais-tu capable de faire revenir l'esprit de ma mère ?","color":"dark_green"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Sélène : ","color":"green","extra":[{"text":"Mais alors tu savais que maman était morte et tu ne m'as jamais rien dit ? Korlaph, serais-tu capable de faire revenir l'esprit de ma mère ?","color":"dark_green"}]}
 
 
 #ENGLISH LANGUAGE

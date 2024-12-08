@@ -37,11 +37,11 @@ tellraw @s[scores={LANGUAGE=6}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra
 
 #SPANISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[No, no quiero tus manzanas... ¿Tienes alguna queja sobre los caballos de Helena? -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-064a-0000-00000000064a if entity @s[distance=..7] if score elisa_meli_PNJ DIALOG matches 1..2 run function att2:cinematic/sidequest/19/elisa_meli/answer_3_1"},"hoverEvent":{"action":"show_text","value":"Haz clic aquí - respuesta 3"}}]}
+tellraw @s[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[No, no quiero tus manzanas... ¿Tienes alguna queja sobre los caballos de Hélèna? -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-064a-0000-00000000064a if entity @s[distance=..7] if score elisa_meli_PNJ DIALOG matches 1..2 run function att2:cinematic/sidequest/19/elisa_meli/answer_3_1"},"hoverEvent":{"action":"show_text","value":"Haz clic aquí - respuesta 3"}}]}
 
 #GERMAN LANGUAGE
 
-tellraw @s[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Nein, ich will deine Äpfel nicht... Hast du Beschwerden über Helenas Pferde? -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-064a-0000-00000000064a if entity @s[distance=..7] if score elisa_meli_PNJ DIALOG matches 1..2 run function att2:cinematic/sidequest/19/elisa_meli/answer_3_1"},"hoverEvent":{"action":"show_text","value":"Hier klicken - Antwort 3"}}]}
+tellraw @s[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Nein, ich will deine Äpfel nicht... Hast du Beschwerden über Hélènas Pferde? -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-064a-0000-00000000064a if entity @s[distance=..7] if score elisa_meli_PNJ DIALOG matches 1..2 run function att2:cinematic/sidequest/19/elisa_meli/answer_3_1"},"hoverEvent":{"action":"show_text","value":"Hier klicken - Antwort 3"}}]}
 
 #HINDI LANGUAGE
 

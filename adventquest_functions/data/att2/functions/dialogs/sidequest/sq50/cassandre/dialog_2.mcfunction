@@ -16,7 +16,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Cassandre : ","color":"green","e
 
 tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Something's not right, huh? What is bothering you? ","color":"aqua"}]}
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Cassandre : ","color":"green","extra":[{"text":"*sobbing* It's... I... There, i can't find my kitten Totoro... I haven't seen him in two days and I fear that...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Cassandre : ","color":"green","extra":[{"text":"*sobbing* It's... I... There, I can't find my kitten Totoro... I haven't seen him in two days and I fear that...","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

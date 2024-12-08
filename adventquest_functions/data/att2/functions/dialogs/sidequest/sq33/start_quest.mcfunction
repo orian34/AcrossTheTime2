@@ -8,7 +8,7 @@ function att2:dialogs/sidequest/accepted_effect
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"[Trésor de Sylberländ]","color":"gold"}
+tellraw @s[scores={LANGUAGE=0}] {"text":"[Trésor du Sylberländ]","color":"gold"}
 
 
 #ENGLISH LANGUAGE

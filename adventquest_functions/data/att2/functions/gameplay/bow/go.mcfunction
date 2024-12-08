@@ -10,7 +10,7 @@ execute as @a run scoreboard players operation @s SHOOTING += @s SHOOTING_CB
 execute as @a[scores={SHOOTING=1..,SHOOTING_B=1..}] run function att2:gameplay/bow/righthandbow
 execute as @a[scores={SHOOTING=1..,SHOOTING_CB=1..}] run function att2:gameplay/bow/righthandcrossbow
 
-#adding strenght of the player to the arrow power
+#adding strength of the player to the arrow power
 execute as @a[scores={SHOOTING=1..}] run function att2:gameplay/bow/strengthpower
 
 #converting calculate power into real power

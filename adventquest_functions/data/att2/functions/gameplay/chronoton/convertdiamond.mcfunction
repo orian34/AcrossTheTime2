@@ -1,6 +1,6 @@
 #################################################################################
 #Made by Adventquest															#
-#Process the transformation of diamond into chronoton for a given player		#
+#Process the transformation of diamond into Chronotons for a given player		#
 #################################################################################
 
 clear @s minecraft:diamond{display:{Name:"{\"text\":\"§b§oDiamant\"}","Lore":["{\"text\":\"§b§oDiamond\"}","{\"text\":\"§6+50 Chronotons\"}"]}} 1

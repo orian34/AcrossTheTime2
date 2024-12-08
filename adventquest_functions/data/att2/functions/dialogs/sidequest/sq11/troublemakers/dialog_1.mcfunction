@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0},x=-4980,y=82,z=-5027,distance=..7] {"text":" 째-�
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1},x=-4980,y=82,z=-5027,distance=..7] {"text":" 째-째 Troublemakers : ","color":"green","extra":[{"text":"What do you want kid!?","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1},x=-4980,y=82,z=-5027,distance=..7] {"text":" 째-째 Troublemakers : ","color":"green","extra":[{"text":"Whaddya want kid!?","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

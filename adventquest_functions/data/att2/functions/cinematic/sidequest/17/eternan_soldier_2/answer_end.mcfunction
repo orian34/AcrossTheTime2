@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest											#
-#Use function to process the answer end of Eternan Soldier 2 	#
+#Use function to process the answer end of Eternän Soldier 2 	#
 #################################################################
 
 scoreboard players set choice SQ17 4

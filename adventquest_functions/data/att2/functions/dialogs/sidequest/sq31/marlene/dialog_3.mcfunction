@@ -6,12 +6,12 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"Alors ? Des nouvelles de Raphaël ? L'gamin est à coup sûr pas loin de la route qui lie Ryliath à Eolorion. Son chariot n'est pas fait pour les balades en forêt ou l'escalade des montagnes...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"Alors ? Des nouvelles de Raphaël ? L'gamin est à coup sûr pas loin de la route qui lie Ryliath à Eolorion. Son chariot n'est pas fait pour les balades en forêt ou l'escalade de montagnes...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"So? Any news of Raphael? The kid is certainly not far from the road that connects Ryliath to Eolorion. His cart is not made for walks in the forest or mountain climbing...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"So? Any news of Raphaël? The kid is certainly not far from the road that connects Ryliath to Eolorion. His cart is not made for walks in the forest or mountain climbing...","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE
@@ -41,7 +41,7 @@ tellraw @s[scores={LANGUAGE=7}] {"text":" °-° Marlène : ","color":"green","ex
 
 #GERMAN LANGUAGE
 
-tellraw @s[scores={LANGUAGE=8}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"Also? Gibt es Neuigkeiten von Raphael? Der Junge ist sicherlich nicht weit von der Straße entfernt, die Ryliath mit Eolorion verbindet. Sein Wagen ist nicht für Spaziergänge im Wald oder Bergsteigen geeignet...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=8}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"Also? Gibt es Neuigkeiten von Raphaël? Der Junge ist sicherlich nicht weit von der Straße entfernt, die Ryliath mit Eolorion verbindet. Sein Wagen ist nicht für Spaziergänge im Wald oder Bergsteigen geeignet...","color":"dark_aqua"}]}
 
 #HINDI LANGUAGE
 
@@ -49,4 +49,4 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Marlène : ","color":"green","ex
 
 #PORTUGUESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"Então? Alguma notícia do Raphael? O garoto certamente não está longe da estrada que liga Ryliath a Eolorion. Sua carroça não é feita para passeios na floresta ou escalada em montanhas...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Marlène : ","color":"green","extra":[{"text":"Então? Alguma notícia do Raphaël? O garoto certamente não está longe da estrada que liga Ryliath a Eolorion. Sua carroça não é feita para passeios na floresta ou escalada em montanhas...","color":"dark_aqua"}]}

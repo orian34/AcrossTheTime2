@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Commandant Trevor : ","color":"green","extra":[{"text":"Merci, mais ne venez pas à changer d'avis, vous pourriez le regretter. ","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Commandant Trevor : ","color":"green","extra":[{"text":"Merci, mais ne venez pas à changer d'avis, vous pourriez le regretter.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

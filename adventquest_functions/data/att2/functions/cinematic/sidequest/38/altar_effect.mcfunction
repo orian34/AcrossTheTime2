@@ -1,6 +1,6 @@
 #####################################################
 #Made by Adventquest                                #
-#Process Schestrown Altar effect					#
+#Process Scheströwn Altar effect					#
 #####################################################
 
 particle minecraft:falling_dust minecraft:glass ~ ~0.4 ~ 0.15 0.05 0.15 0.5 5

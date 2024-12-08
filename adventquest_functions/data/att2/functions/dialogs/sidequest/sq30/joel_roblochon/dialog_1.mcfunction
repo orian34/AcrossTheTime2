@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Joël Roblochon : ","color":"gre
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Joël Roblochon : ","color":"green","extra":[{"text":"Hello! Normally it is forbidden to enter my kitchen, but hey I will make an exception with you. Above all, don't touch anything!","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Joël Roblochon : ","color":"green","extra":[{"text":"Hello! Usually it is forbidden to enter my kitchen, but hey I will make an exception with you. Above all, don't touch anything!","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

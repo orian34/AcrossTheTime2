@@ -10,7 +10,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Les champs infestés -°- : ","col
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The infested fields -°- : ","color":"gray","extra":[{"text":"I'm going to have to kill at least 15 zombies in the fields and barn in front of Ryliath to get Rob Harth to work.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The infested fields -°- : ","color":"gray","extra":[{"text":"I'm going to have to kill at least 15 zombies in the fields and barn in front of Ryliath to allow Rob Harth to work without worry.","color":"aqua","italic":true}]}
 
 #CHINESE LANGUAGE
 

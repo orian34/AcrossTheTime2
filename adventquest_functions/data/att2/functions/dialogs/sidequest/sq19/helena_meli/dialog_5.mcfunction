@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest											#
-#Use function to process the Dialog 1 of Helena Meli 			#
+#Use function to process the Dialog 1 of Hélèna Meli 			#
 #################################################################
 
 
@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Hélèna Meli : ","color":"green
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Hélèna Meli : ","color":"green","extra":[{"text":"Ola, come back to see me when my horses are in better shape. You have to give them a little time.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Hélèna Meli : ","color":"green","extra":[{"text":"Heya, come back see me when my horsies are in b'tter shape. You got ta give 'em a little time.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

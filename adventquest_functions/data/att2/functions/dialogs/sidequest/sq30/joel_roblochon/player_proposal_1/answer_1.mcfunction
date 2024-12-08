@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Joël Roblochon : ","color":"green","extra":[{"text":"Soit. La seule issue secrète que je connaisse se trouve juste en face, après le couloir menant dans ma réserve de viande. Activez le levier caché derrière le mur de l'étagère illuminé de deux torches.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Joël Roblochon : ","color":"green","extra":[{"text":"Soit. La seule issue secrète que je connaisse se trouve juste en face, après le couloir menant dans ma réserve de viande. Activez le levier caché derrière le mur de l'étagère illuminée de deux torches.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

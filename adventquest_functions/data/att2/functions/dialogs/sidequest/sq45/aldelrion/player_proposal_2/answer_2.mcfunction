@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Aldelrion : ","color":"green","e
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"Your compensation, you will get it. But if I am not the one that will distribute it, life will be. Have faith in me.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"Your compensation, you will get it. But if I am not the one that will distribute it, life will. Have faith in me.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

@@ -12,7 +12,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Chat perché -°- : ","color":"gra
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Catch cat -°- : ","color":"gray","extra":[{"text":"I found Cassandre's cat. Let's go take him home.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Chasing tails -°- : ","color":"gray","extra":[{"text":"I found Cassandre's cat. Let's go take him home.","color":"aqua","italic":true}]}
 
 #CHINESE LANGUAGE
 

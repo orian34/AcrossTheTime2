@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Roi Adrian : ","color":"gold","e
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° King Adrian : ","color":"gold","extra":[{"text":"Have you found any clues? You are authorized to use our secret passages for your investigation. Do not deprive yourself!","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° King Adrian : ","color":"gold","extra":[{"text":"Have you found any clues? You are authorized to use our secret passages for your investigation. Do not hesitate!","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

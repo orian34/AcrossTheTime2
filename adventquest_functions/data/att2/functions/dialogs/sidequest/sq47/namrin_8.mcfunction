@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Namrïn : ","color":"dark_purple
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"He explained to me that it was the very place he forged the sword Rukyrion : ''divine blood''. It is a legendary sword that only him could wield without being injured by it's aura. I hid it here after he pased away.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"He explained to me that it was the very place he forged the sword Rukyrion : ''divine blood''. It is a legendary sword that only him could wield without being injured by its aura. I hid it here after he passed away.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

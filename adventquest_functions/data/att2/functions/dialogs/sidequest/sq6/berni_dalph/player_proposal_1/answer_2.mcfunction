@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Berni Dalph : ","color":"green","extra":[{"text":"Disons que ça aidera, mais si vous vous faites prendre, ne dites pas que je vous aie laissé passer.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Berni Dalph : ","color":"green","extra":[{"text":"Disons que ça aidera, mais si vous vous faites prendre, ne dites pas que je vous ai laissé passer.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Vous me devez 64 chronotons rien que pour les bûches. -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-022a-0000-00000000022a if entity @s[distance=..7] if score patrick_corth_PNJ DIALOG matches 3 run function att2:cinematic/sidequest/9/patrick_corth/answer_4_3"},"hoverEvent":{"action":"show_text","value":"Cliquez ici - réponse 4"}}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Vous me devez 64 Chronotons rien que pour les bûches. -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-022a-0000-00000000022a if entity @s[distance=..7] if score patrick_corth_PNJ DIALOG matches 3 run function att2:cinematic/sidequest/9/patrick_corth/answer_4_3"},"hoverEvent":{"action":"show_text","value":"Cliquez ici - réponse 4"}}]}
 
 
 #ENGLISH LANGUAGE
@@ -37,7 +37,7 @@ tellraw @s[scores={LANGUAGE=6}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra
 
 #SPANISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Me debes 64 cronotones solo por los troncos. -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-022a-0000-00000000022a if entity @s[distance=..7] if score patrick_corth_PNJ DIALOG matches 3 run function att2:cinematic/sidequest/9/patrick_corth/answer_4_3"},"hoverEvent":{"action":"show_text","value":"Haz clic aquí - respuesta 4"}}]}
+tellraw @s[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Me debes 64 Cronotones solo por los troncos. -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-022a-0000-00000000022a if entity @s[distance=..7] if score patrick_corth_PNJ DIALOG matches 3 run function att2:cinematic/sidequest/9/patrick_corth/answer_4_3"},"hoverEvent":{"action":"show_text","value":"Haz clic aquí - respuesta 4"}}]}
 
 #GERMAN LANGUAGE
 

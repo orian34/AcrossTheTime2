@@ -12,7 +12,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-째- Un business en perte de vitesse -�
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":"-째- A declining business -째- : ","color":"gray","extra":[{"text":"I have to get rid of the bandits so Nestor can work in his inn again normally. Let's go kill some thieves, just to teach them some manners!","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":"-째- A declining business -째- : ","color":"gray","extra":[{"text":"I have to get rid of the bandits so Nestor can work in his inn again. Let's go kill some thieves, to teach them some manners!","color":"aqua","italic":true}]}
 
 #CHINESE LANGUAGE
 

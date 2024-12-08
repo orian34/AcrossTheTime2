@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° J'zargo : ","color":"green","ext
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"It is but one of J'zargo's many skills. The pupil might know some day, but for now it stays stupid and stinky.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"It is but one of J'zargo's many skills. The pupil might know some day, but for now he stays stupid and stinky.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

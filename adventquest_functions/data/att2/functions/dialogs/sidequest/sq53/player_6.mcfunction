@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"*sarcasm* Guess what J'zargo, I bring you this stone by sheer luck so you can describe it to me and then explain how idiotic I am for not understanding it's worth...","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"*sarcasm* Guess what J'zargo, I bring you this stone by sheer luck so you can describe it to me and then explain how idiotic I am for not understanding its worth...","color":"aqua"}]}
 
 
 #CHINESE LANGUAGE

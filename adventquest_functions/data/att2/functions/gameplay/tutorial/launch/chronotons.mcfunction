@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest											#
-#Launch chronotons tutorial 									#
+#Launch Chronotons tutorial 									#
 #################################################################
 
 scoreboard players set chronotons_first_launch TUTORIAL -1

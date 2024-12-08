@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Feanorth : ","color":"green","ex
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Feanorth : ","color":"green","extra":[{"text":"Great you did it! I knew it would be easy for you. Thank you, we will be able to dig a little deeper into the ruins without taking the risk of being bothered by these critters. Take these Chronotons!","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Feanorth : ","color":"green","extra":[{"text":"Great you did it! I knew it would be easy for you. Thank you, we will be able to dig a little deeper into the ruins without taking the risk of being bothered by these monsters. Take these Chronotons!","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

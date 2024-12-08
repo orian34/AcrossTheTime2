@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Namrïn : ","color":"dark_purple
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Maybe, but without wanting to seem rude, Relgon was responsible for exploits going far beyond anything anyone has ever accomplished.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Maybe, but without wanting to seem rude, Relgon was responsible for accomplishments going far beyond anything anyone has ever achieved.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

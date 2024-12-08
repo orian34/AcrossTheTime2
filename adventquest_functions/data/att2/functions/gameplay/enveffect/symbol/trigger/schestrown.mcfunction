@@ -3,7 +3,7 @@
 #Process all test of Symbol Exploration 			            #
 #################################################################
 
-### Schestrown
+### Scheströwn
 #0
 execute in minecraft:overworld positioned -4485 72 -5090 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/schestrown
 execute in minecraft:overworld positioned -4615 71 -5012 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/schestrown

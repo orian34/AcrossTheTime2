@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Lilith : ","color":"green","extr
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Lilith : ","color":"green","extra":[{"text":"You save my life! I live at the end of this muddy path on my right in the swamps. Join me there, I'll show you where to drop the goods.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Lilith : ","color":"green","extra":[{"text":"You're saving my life! I live at the end of this muddy path on my right in the swamps. Join me there, I'll show you where to drop the goods.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

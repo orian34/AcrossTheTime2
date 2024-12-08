@@ -8,7 +8,7 @@ function att2:dialogs/sidequest/accepted_effect
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"[A court de munitions]","color":"gold"}
+tellraw @s[scores={LANGUAGE=0}] {"text":"[À court de munitions]","color":"gold"}
 
 
 #ENGLISH LANGUAGE

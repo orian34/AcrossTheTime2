@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Jaris : ","color":"green","extra":[{"text":"Mon amour, c'est pour toi que je l'ai fait ! Ne t'inquiète pas, je vais les remettre bientôt à leur place. Vois-tu, mon intuition avait vu juste, je peux te rejoindre quand je le veux sans éveiller de qui que ce soit grâce à ce passage...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Jaris : ","color":"green","extra":[{"text":"Mon amour, c'est pour toi que je l'ai fait ! Ne t'inquiète pas, je vais les remettre bientôt à leur place. Vois-tu, mon intuition avait vu juste, je peux te rejoindre quand je le veux sans éveiller qui que ce soit grâce à ce passage...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

@@ -12,7 +12,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-°- La légendaire quête de J'zargo -
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":"-°- J'zargo's legendary quest - Part 6 -°- : ","color":"gray","extra":[{"text":"It is true that this medallion belongs to Cassandra, let's give it back to him.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":"-°- J'zargo's legendary quest - Part 6 -°- : ","color":"gray","extra":[{"text":"It is true that this medallion belongs to Cassandre, let's give it back to her.","color":"aqua","italic":true}]}
 
 #CHINESE LANGUAGE
 
@@ -36,16 +36,16 @@ tellraw @s[scores={LANGUAGE=6}] {"text":"-°- Легендарное задан�
 
 #SPANISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=7}] {"text":"-°- La legendaria búsqueda de J'zargo - Parte 6 -°- : ","color":"gray","extra":[{"text":"Es cierto que este medallón pertenece a Cassandra, vamos a devolvérselo.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=7}] {"text":"-°- La legendaria búsqueda de J'zargo - Parte 6 -°- : ","color":"gray","extra":[{"text":"Es cierto que este medallón pertenece a Cassandre, vamos a devolvérselo.","color":"aqua","italic":true}]}
 
 #GERMAN LANGUAGE
 
-tellraw @s[scores={LANGUAGE=8}] {"text":"-°- J'zargos legendäre Quest - Teil 6 -°- : ","color":"gray","extra":[{"text":"Es ist wahr, dass dieses Medaillon Cassandra gehört, lassen Sie uns es ihr zurückgeben.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=8}] {"text":"-°- J'zargos legendäre Quest - Teil 6 -°- : ","color":"gray","extra":[{"text":"Es ist wahr, dass dieses Medaillon Cassandre gehört, lassen Sie uns es ihr zurückgeben.","color":"aqua","italic":true}]}
 
 #HINDI LANGUAGE
 
-tellraw @s[scores={LANGUAGE=9}] {"text":"-°- J'zargo की महान खोज - भाग 6 -°- : ","color":"gray","extra":[{"text":"यह सच है कि यह पदक Cassandra का है, आइए इसे उसे लौटा दें।","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=9}] {"text":"-°- J'zargo की महान खोज - भाग 6 -°- : ","color":"gray","extra":[{"text":"यह सच है कि यह पदक Cassandre का है, आइए इसे उसे लौटा दें।","color":"aqua","italic":true}]}
 
 #PORTUGUESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=10}] {"text":"-°- A lendária busca de J'zargo - Parte 6 -°- : ","color":"gray","extra":[{"text":"É verdade que este medalhão pertence a Cassandra, vamos devolvê-lo a ela.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=10}] {"text":"-°- A lendária busca de J'zargo - Parte 6 -°- : ","color":"gray","extra":[{"text":"É verdade que este medalhão pertence a Cassandre, vamos devolvê-lo a ela.","color":"aqua","italic":true}]}

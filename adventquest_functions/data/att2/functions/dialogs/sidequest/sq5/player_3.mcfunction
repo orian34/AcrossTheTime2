@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"There, he had his count the old fool. I'll take the dogs and go back to Romuald.","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"There, the old fool got what was coming for him. I'll take the dogs and go back to Romuald.","color":"aqua"}]}
 
 
 #CHINESE LANGUAGE

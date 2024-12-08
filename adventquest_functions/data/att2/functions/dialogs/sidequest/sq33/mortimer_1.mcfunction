@@ -6,17 +6,17 @@
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"C'est un échantillon intéressant ! Voilà comme convenu tes chronotons.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"C'est un échantillon intéressant ! Voilà comme convenu tes Chronotons.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"It's an interesting sample! As agreed here are your chronotons.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"It's an interesting sample! As agreed here are your Chronotons.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"這是一個有趣的樣本！ 正如這裡所同意的是你的chronotons。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"這是一個有趣的樣本！ 正如這裡所同意的是你的Chronotons。","color":"dark_aqua"}]}
 
 
 #JAPANESE LANGUAGE
@@ -41,7 +41,7 @@ tellraw @a[scores={LANGUAGE=6}] {"text":" °-° Mortimer : ","color":"green","ex
 
 #SPANISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=7}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"¡Es una muestra interesante! Como acordamos, aquí están tus cronotones.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=7}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"¡Es una muestra interesante! Como acordamos, aquí están tus Cronotones.","color":"dark_aqua"}]}
 
 
 #GERMAN LANGUAGE
@@ -56,4 +56,4 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Mortimer : ","color":"green","ex
 
 #PORTUGUESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"É uma amostra interessante! Como acordado, aqui estão seus cronotons.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"É uma amostra interessante! Como acordado, aqui estão seus Cronotons.","color":"dark_aqua"}]}

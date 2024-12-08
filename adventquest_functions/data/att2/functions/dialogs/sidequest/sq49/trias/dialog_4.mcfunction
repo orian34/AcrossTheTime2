@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Trias : ","color":"green","extra
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"Sure. Unfortunately for you, I will not content myself with this refusal. Cede it to me, or I guarantee that you will regret it.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"Sure. Unfortunately for you, I will not content myself with this refusal. Yield it to me, or I guarantee that you will regret it.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

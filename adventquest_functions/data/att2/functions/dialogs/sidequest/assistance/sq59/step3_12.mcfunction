@@ -8,7 +8,7 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"-°- L'accomplissement du héros -°- : ","color":"gray","extra":[{"text":"Je me retrouve dans un endroit étrange me rappellant des souvenirs douloureux passés lors de mon ancien périple. Essayons de sortir en franchissant à nouveau ces épreuves...","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"-°- L'accomplissement du héros -°- : ","color":"gray","extra":[{"text":"Je me retrouve dans un endroit étrange me rappelant des souvenirs douloureux passés lors de mon ancien périple. Essayons de sortir en franchissant à nouveau ces épreuves...","color":"aqua","italic":true}]}
 
 #ENGLISH LANGUAGE
 

@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Derim Kril : ","color":"green","extra":[{"text":"Alors, tu l'as trouvé ?","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Derim Kril : ","color":"green","extra":[{"text":"Alors, tu l'as trouvée ?","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

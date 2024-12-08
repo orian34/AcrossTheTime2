@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Abrock : ","color":"green","extra":[{"text":"Salut l'étranger tu veux du bois ? Je fais 3 chronotons la bûche.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Abrock : ","color":"green","extra":[{"text":"Salut l'étranger tu veux du bois ? Je fais 3 Chronotons la bûche.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

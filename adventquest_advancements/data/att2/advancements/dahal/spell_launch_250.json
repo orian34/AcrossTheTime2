@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:enchanting_table"
         },
-        "title": {"translate":"Dahäl insider"},
+        "title": {"translate":"Dahäl Insider"},
         "description": {"translate":"Launch spells 250 times"},
         "frame": "goal"
     },

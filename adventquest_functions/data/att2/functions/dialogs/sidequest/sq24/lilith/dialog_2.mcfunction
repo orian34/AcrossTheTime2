@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Lilith : ","color":"green","extra":[{"text":"Excusez-moi voulez-vous bien m'aider maintenant ? Il n'y a personne d'autres ici et je suis bien trop faible pour transporter seule toute ma marchandise jusqu'à chez moi. Je ne vais pas l'abandonner ici...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Lilith : ","color":"green","extra":[{"text":"Excusez-moi voulez-vous bien m'aider maintenant ? Il n'y a personne d'autre ici et je suis bien trop faible pour transporter seule toute ma marchandise jusqu'à chez moi. Je ne vais pas l'abandonner ici...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

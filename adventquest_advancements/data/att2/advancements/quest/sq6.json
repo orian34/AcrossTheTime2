@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:barrier"
         },
-        "title": {"translate":"The Hurriel's Key"},
+        "title": {"translate":"Hurriel's Key"},
         "description": {"translate":"Successfully complete this side quest"},
         "frame": "goal"
     },

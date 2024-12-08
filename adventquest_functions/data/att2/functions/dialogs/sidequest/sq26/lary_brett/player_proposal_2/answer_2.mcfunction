@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Lary Brett : ","color":"green","
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Lary Brett : ","color":"green","extra":[{"text":"Wh .. What? You would not dare! Yes? V ... Ve ... Very well, here are the keys k .. kee .. keep them ...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Lary Brett : ","color":"green","extra":[{"text":"Wh.. What? You would not dare! Yes? V... Ve... Very well, here are the keys k.. kee.. keep them...","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

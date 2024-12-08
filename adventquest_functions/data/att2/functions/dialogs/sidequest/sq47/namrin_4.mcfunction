@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Namrïn : ","color":"dark_purple
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Of course, only Relgon was able to defeat the ultimate error! The kingdom of Angband saw his near death that day...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Of course, only Relgon was able to defeat the ultimate error! The kingdom of Angband was on death's door that day...","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

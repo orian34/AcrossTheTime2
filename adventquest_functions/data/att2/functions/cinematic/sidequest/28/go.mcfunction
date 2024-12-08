@@ -4,17 +4,17 @@
 #The SQ28 state (for SIDEQUEST) :							#
 #..0 - the quest is not active    							#
 #1..99 - trigg the quest and execute cinematic 				#
-#1 - The player go to elcheol temple						#
+#1 - The player go to Elchéol temple						#
 #2 - The player fight Korlaph								#
 #3 - The player talk to Sélène and Emerald					#
 #4 - The player go to Owsastr secret area					#
 #100.. - the quest is completed    							#
 #############################################################
 
-# Opening path to elcheol temple
+# Opening path to Elchéol temple
 execute if score SQ28 SIDEQUEST matches 1 if score path SQ28 matches 0 if entity @a[x=-5087,y=130,z=-6421,distance=..30,gamemode=adventure] run function att2:cinematic/sidequest/28/elcheolpath_opening
 
-# Start Cinematic Korlaph-Sélène when Player is entering in the elcheol temple
+# Start Cinematic Korlaph-Sélène when Player is entering in the Elchéol temple
 execute if score SQ28 SIDEQUEST matches 1 if entity @a[x=-5121,y=163,z=-6762,dx=-4,dy=5,dz=12,gamemode=adventure] run function att2:cinematic/sidequest/28/start_korlaph_cinematic
 
 # Play Cinematic Korlaph-Sélène-Emerald to step2

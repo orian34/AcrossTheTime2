@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Gonon : ","color":"green","extra
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"A warrior who is a master of Dahäl! Those don't grow on trees! Today's my lucky day!... or night...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"A warrior who is a Dahäl master! Those don't grow on trees! Today's my lucky day!... or night...","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:music_disc_pigstep"
         },
-        "title": {"translate":"Elcheol Symbols"},
-        "description": {"translate":"Discover all Exploration symbols of Elcheol"},
+        "title": {"translate":"Elchéol Symbols"},
+        "description": {"translate":"Discover all Exploration symbols of Elchéol"},
         "frame": "challenge"
     },
     "parent": "att2:journey/discover_eolorion",

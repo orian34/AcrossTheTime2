@@ -9,5 +9,5 @@
 #3 - the player choose to see soldier to take rewards 				#
 #####################################################################
 
-# Quest is already Completed but the player is close to PNJ Soldier Eternan 2 to take rewards.
+# Quest is already Completed but the player is close to PNJ Soldier Eternän 2 to take rewards.
 execute at 00000000-0000-063a-0000-00000000063a if entity @a[distance=..5] run function att2:cinematic/sidequest/17/eternan_soldier_2/answer_end

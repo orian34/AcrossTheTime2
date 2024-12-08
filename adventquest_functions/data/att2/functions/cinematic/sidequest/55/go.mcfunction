@@ -7,7 +7,7 @@
 #100.. - the quest is completed    							#
 #############################################################
 
-# Move PNJ J'zargo to Elcheol
+# Move PNJ J'zargo to Elchéol
 execute if score SQ55 SIDEQUEST matches 1 if score move_jzargo SQ55 matches 1 positioned -5074.5 140 -6575.5 if entity @a[distance=25..30,gamemode=adventure] run function att2:cinematic/sidequest/55/jzargo/summon_pnj
 execute if score SQ55 SIDEQUEST matches 2..5 if score move_jzargo SQ55 matches 3 positioned -5058.5 128 -6362.5 if entity @a[distance=25..30,gamemode=adventure] run function att2:cinematic/sidequest/55/jzargo/summon_pnj
 

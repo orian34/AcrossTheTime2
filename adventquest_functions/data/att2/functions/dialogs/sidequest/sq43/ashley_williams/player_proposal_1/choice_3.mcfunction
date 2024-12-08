@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[You will pay for lying to these young people... You knew the dangerous Sathnok manor and you led them to an almost certain death! -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-140a-0000-00000000140a if entity @s[distance=..7] if score ashley_williams_PNJ DIALOG matches 2 run function att2:cinematic/sidequest/43/ashley_williams/answer_3_1"},"hoverEvent":{"action":"show_text","value":"Click here - answer 3"}}]}
+tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[You will pay for lying to these young people... You knew the Sathnok manor was dangerous and you led them to an almost certain death! -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-140a-0000-00000000140a if entity @s[distance=..7] if score ashley_williams_PNJ DIALOG matches 2 run function att2:cinematic/sidequest/43/ashley_williams/answer_3_1"},"hoverEvent":{"action":"show_text","value":"Click here - answer 3"}}]}
 
 
 #CHINESE LANGUAGE

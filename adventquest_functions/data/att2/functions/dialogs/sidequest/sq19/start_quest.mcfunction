@@ -43,7 +43,7 @@ tellraw @s[scores={LANGUAGE=7}] {"text":"[Los caballos de Hélèna]","color":"go
 
 #GERMAN LANGUAGE
 
-tellraw @s[scores={LANGUAGE=8}] {"text":"[Helena's Pferde]","color":"gold"}
+tellraw @s[scores={LANGUAGE=8}] {"text":"[Hélèna's Pferde]","color":"gold"}
 
 #HINDI LANGUAGE
 

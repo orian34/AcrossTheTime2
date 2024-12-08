@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Ithil : ","color":"green","extra
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"Yes I know, but I would be reassured when you're rid of these damn plans. Father won't let me see you, so if he learns more that you're the author of this robbery, he would throw you in jail without hesitation!","color":"blue"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"Yes I know, but I would be reassured when you're rid of these damn plans. Father won't let me see you, so if he learns that you're even the author of this robbery, he would throw you in jail without hesitation!","color":"blue"}]}
 
 
 #CHINESE LANGUAGE

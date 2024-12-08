@@ -11,7 +11,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Philipo Tisdal : ","color":"gree
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"No more critters roam my fields? All right, I hope they don't come back... Take these Chronotons.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"No more vermin roam my fields? All right, I hope they won't come back... Take these Chronotons.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE
@@ -38,7 +38,7 @@ tellraw @a[scores={LANGUAGE=6}] {"text":" °-° Philipo Tisdal : ","color":"gree
 
 #SPANISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=7}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"¿Ya no hay criaturas rondando mis campos? Muy bien, espero que no vuelvan... Toma estos cronotones.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=7}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"¿Ya no hay criaturas rondando mis campos? Muy bien, espero que no vuelvan... Toma estos Cronotones.","color":"dark_aqua"}]}
 
 #GERMAN LANGUAGE
 
@@ -50,4 +50,4 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Philipo Tisdal : ","color":"gree
 
 #PORTUGUESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"Não há mais criaturas vagando pelos meus campos? Muito bem, espero que não voltem... Pegue esses cronotons.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"Não há mais criaturas vagando pelos meus campos? Muito bem, espero que não voltem... Pegue esses Cronotons.","color":"dark_aqua"}]}

@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"'Essentiel à son maître comme il l'est pour tout être, mais bien différent des autres par son immuabilité, il porte l'énergie, les émotions et jusqu'aux valeurs d'une lignée.''","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"''Essentiel à son maître comme il l'est pour tout être, mais bien différent des autres par son immuabilité, il porte l'énergie, les émotions et jusqu'aux valeurs d'une lignée.''","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

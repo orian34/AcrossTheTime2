@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"-°- L'ultime challenge -°- : ","color":"gray","extra":[{"text":"Je ne veux plus retourner à mon époque. Il y a tant de choses à faire de bien plus existant ici...","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"-°- L'ultime challenge -°- : ","color":"gray","extra":[{"text":"Je ne veux plus retourner à mon époque. Il y a tant de choses à faire de bien plus excitant ici...","color":"aqua","italic":true}]}
 
 #ENGLISH LANGUAGE
 

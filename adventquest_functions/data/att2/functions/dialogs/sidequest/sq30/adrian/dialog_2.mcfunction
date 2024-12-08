@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Roi Adrian : ","color":"gold","e
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° King Adrian : ","color":"gold","extra":[{"text":"Good timing, I wanted to talk to you about some mischief that occurred in the palace. We were robbed of the plans of the palace made by the famous architect Corbus. These plans are part of Ryliath's secret archives and reveal number of hidden passages in the structures of the city and the palace. It is imperative to find these plans. Will you help us? You will be rewarded, you have the word of a king!","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° King Adrian : ","color":"gold","extra":[{"text":"Good timing, I wanted to talk to you about some mischief that occurred in the palace. We were robbed of the plans of the palace made by the famous architect Corbus. These plans are part of Ryliath's secret archives and reveal a number of hidden passages in the structure of the city and palace. It is imperative to find these plans. Will you help us? You will be rewarded, you have the word of a king!","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

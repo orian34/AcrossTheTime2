@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Romuald : ","color":"green","ext
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Romuald : ","color":"green","extra":[{"text":"Hi my friend, I'm so happy now, you can't know. I am eternally grateful to you for bringing me Mia and all her family, now I wonder which dog can be the father of her puppies...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Romuald : ","color":"green","extra":[{"text":"Hi my friend, I'm so happy now, you have no idea. I am eternally grateful to you for bringing me Mia and all her family, now I wonder which dog is supposed to be the father of her puppies...","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

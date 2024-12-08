@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Ormack : ","color":"green","extr
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Ormack : ","color":"green","extra":[{"text":"What did you not understand abroad? Leave while you still can...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Ormack : ","color":"green","extra":[{"text":"What did you not understand stranger? Leave while you still can...","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Wulk : ","color":"green","extra"
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Wulk : ","color":"green","extra":[{"text":"So have you found time for the mission I would like to entrust to you? Never forget that you can count on me to provide you with new weapons and armor.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Wulk : ","color":"green","extra":[{"text":"So have you found time for the mission I would like to entrust you with? Never forget that you can count on me to provide you with new weapons and armor.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

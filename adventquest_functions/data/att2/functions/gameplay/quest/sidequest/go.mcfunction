@@ -83,13 +83,13 @@ execute if score SQ48 SIDEQUEST matches 0 run function att2:dialogs/sidequest/as
 execute if score SQ48 SIDEQUEST matches 1..99 run function att2:dialogs/sidequest/assistance/sq48/progress
 execute if score SQ48 SIDEQUEST matches 100 run function att2:dialogs/sidequest/assistance/sq48/complete
 
-#SQ47 - Rukyrion (PNJ : Namrin)
+#SQ47 - Rukyrion (PNJ : Namrïn)
 execute if score SQ47 SIDEQUEST matches -1 run function att2:dialogs/sidequest/assistance/fail
 execute if score SQ47 SIDEQUEST matches 0 run function att2:dialogs/sidequest/assistance/unknow
 execute if score SQ47 SIDEQUEST matches 1..99 run function att2:dialogs/sidequest/assistance/sq47/progress
 execute if score SQ47 SIDEQUEST matches 100 run function att2:dialogs/sidequest/assistance/sq47/complete
 
-#SQ46 - L'obscurité qui dors (PNJ : Namrin)
+#SQ46 - L'obscurité qui dort (PNJ : Namrïn)
 execute if score SQ46 SIDEQUEST matches -1 run function att2:dialogs/sidequest/assistance/fail
 execute if score SQ46 SIDEQUEST matches 0 run function att2:dialogs/sidequest/assistance/unknow
 execute if score SQ46 SIDEQUEST matches 1..99 run function att2:dialogs/sidequest/assistance/sq46/progress
@@ -101,7 +101,7 @@ execute if score SQ45 SIDEQUEST matches 0 run function att2:dialogs/sidequest/as
 execute if score SQ45 SIDEQUEST matches 1..99 run function att2:dialogs/sidequest/assistance/sq45/progress
 execute if score SQ45 SIDEQUEST matches 100 run function att2:dialogs/sidequest/assistance/sq45/complete
 
-#SQ44 - Addicte à vie (PNJ : Edwin Vortid)
+#SQ44 - Addict à vie (PNJ : Edwin Vortid)
 execute if score SQ44 SIDEQUEST matches -1 run function att2:dialogs/sidequest/assistance/fail
 execute if score SQ44 SIDEQUEST matches 0 run function att2:dialogs/sidequest/assistance/unknow
 execute if score SQ44 SIDEQUEST matches 1..99 run function att2:dialogs/sidequest/assistance/sq44/progress
@@ -167,7 +167,7 @@ execute if score SQ34 SIDEQUEST matches 0 run function att2:dialogs/sidequest/as
 execute if score SQ34 SIDEQUEST matches 1..99 run function att2:dialogs/sidequest/assistance/sq34/progress
 execute if score SQ34 SIDEQUEST matches 100 run function att2:dialogs/sidequest/assistance/sq34/complete
 
-#SQ33 - Trésor de Silberländ (PNJ : Mortimer)
+#SQ33 - Trésor du Sylberländ (PNJ : Mortimer)
 execute if score SQ33 SIDEQUEST matches -1 run function att2:dialogs/sidequest/assistance/fail
 execute if score SQ33 SIDEQUEST matches 0 run function att2:dialogs/sidequest/assistance/unknow
 execute if score SQ33 SIDEQUEST matches 1..99 run function att2:dialogs/sidequest/assistance/sq33/progress
@@ -269,7 +269,7 @@ execute if score SQ17 SIDEQUEST matches 0 run function att2:dialogs/sidequest/as
 execute if score SQ17 SIDEQUEST matches 1..99 run function att2:dialogs/sidequest/assistance/sq17/progress
 execute if score SQ17 SIDEQUEST matches 100 run function att2:dialogs/sidequest/assistance/sq17/complete
 
-#SQ16 - A court de munitions (PNJ : Garret Temeral)
+#SQ16 - À court de munitions (PNJ : Garret Temeral)
 execute if score SQ16 SIDEQUEST matches -1 run function att2:dialogs/sidequest/assistance/fail
 execute if score SQ16 SIDEQUEST matches 0 run function att2:dialogs/sidequest/assistance/unknow
 execute if score SQ16 SIDEQUEST matches 1..99 run function att2:dialogs/sidequest/assistance/sq16/progress

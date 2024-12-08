@@ -1,6 +1,6 @@
 #################################################################################
 #Made by Adventquest															#
-#Drop chronotons on the ground													#
+#Drop Chronotons on the ground													#
 #################################################################################
 
 scoreboard players remove @s[scores={CHRONOTON_TODROP=500..}] CHRONOTON 500

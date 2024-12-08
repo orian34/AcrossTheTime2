@@ -8,7 +8,7 @@
 execute in minecraft:overworld run function att2:cinematic/act_2/owsastr/final
 # Irilion graveyard
 execute in minecraft:the_nether run function att2:cinematic/act_3/angband/irilion/go
-# Elcheol malus
+# Elchéol malus
 execute in minecraft:overworld run function att2:cinematic/act_4/elcheol/go
 # Vonaheim air flow
 execute in minecraft:overworld if score Mainquest SIDEQUEST matches 115.. run function att2:cinematic/act_4/vonaheim/center_n/go

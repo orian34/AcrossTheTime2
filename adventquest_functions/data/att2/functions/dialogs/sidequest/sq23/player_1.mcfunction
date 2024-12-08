@@ -11,7 +11,7 @@ tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Here I have killed enough, these filth should not reproduce any more... I will return to see Philipo to announce the good news to him.","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Here I have killed enough, the vermin should not reproduce any more... I will return to see Philipo and announce him the good news.","color":"aqua"}]}
 
 
 #CHINESE LANGUAGE

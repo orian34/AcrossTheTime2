@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Roi Adrian : ","color":"gold","e
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° King Adrian : ","color":"gold","extra":[{"text":"Very well, the commander is informed of this affair and with his paranoia he already speaks of a conspiracy. He is a very good tactician and strategist but mediocre in the deduction of facts and search for clues ... Join him on the floor of the palace in the library, I'm counting on you!","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° King Adrian : ","color":"gold","extra":[{"text":"Very well, the commander is informed of this affair and with his paranoia he already speaks of a conspiracy. He is a very good tactician and strategist but mediocre in the deduction of facts and search for clues... Join him on the floor of the palace in the library, I'm counting on you!","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE
