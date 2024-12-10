@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° J'zargo : ","color":"green","ext
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"J'zargo is bored of them... It is time nor for J'zargo to leave, what he searched for is not in this kingdom. He must attain Billgart.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"J'zargo is bored of them... It is time now for J'zargo to leave, what he searched for is not in this kingdom. He must go to Billgart.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

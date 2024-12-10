@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Garde : ","color":"green","extra":[{"text":"La famille royale de... Vous n'êtes pas n'importe qui dirait-on. Navré pour cette interruption, mais notre ville est pauvre malgré ses apparences. Je ne suis pas autorisé à laisser entrer les mendiants et vagabonds, nous avons à peine de quoi tenir l'hiver et nous comptons beaucoup sur le commerce pour subsister... Enfin, si c'est le savoir que vous cherchez, vous n'auriez pas pu mieux tomber ! L'académie du Dahäl se trouve à l'autre bout de la ville, dos à la montagne : vous ne pouvez pas la manquer. Ils accepteront sans doute de vous aider contre quelques chronotons.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Garde : ","color":"green","extra":[{"text":"La famille royale de... Vous n'êtes pas n'importe qui dirait-on. Navré pour cette interruption, mais notre ville est pauvre malgré ses apparences. Je ne suis pas autorisé à laisser entrer les mendiants et vagabonds, nous avons à peine de quoi tenir l'hiver et nous comptons beaucoup sur le commerce pour subsister... Enfin, si c'est le savoir que vous cherchez, vous n'auriez pas pu mieux tomber ! L'académie du Dahäl se trouve à l'autre bout de la ville, dos à la montagne : vous ne pouvez pas la manquer. Ils accepteront sans doute de vous aider contre quelques Chronotons.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
@@ -43,7 +43,7 @@ tellraw @a[scores={LANGUAGE=6}] {"text":" °-° Страж : ","color":"green","
 
 #SPANISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=7}] {"text":" °-° Guardia : ","color":"green","extra":[{"text":"La familia real de... No eres cualquier persona, parece. Perdón por la interrupción, pero nuestra ciudad es pobre a pesar de su apariencia. No se permite la entrada de mendigos y vagabundos, ya que apenas tenemos suficiente para sobrevivir el invierno y dependemos mucho del comercio para subsistir... Quiero decir, si eso es el conocimiento que estás buscando, ¡no podrías haber llegado a un mejor lugar! La Academia Dahäl está al otro extremo de la ciudad, frente a las montañas: no puedes perderla. Probablemente aceptarán ayudarte a cambio de algunos cronotones.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=7}] {"text":" °-° Guardia : ","color":"green","extra":[{"text":"La familia real de... No eres cualquier persona, parece. Perdón por la interrupción, pero nuestra ciudad es pobre a pesar de su apariencia. No se permite la entrada de mendigos y vagabundos, ya que apenas tenemos suficiente para sobrevivir el invierno y dependemos mucho del comercio para subsistir... Quiero decir, si eso es el conocimiento que estás buscando, ¡no podrías haber llegado a un mejor lugar! La Academia Dahäl está al otro extremo de la ciudad, frente a las montañas: no puedes perderla. Probablemente aceptarán ayudarte a cambio de algunos Cronotones.","color":"dark_aqua"}]}
 
 
 #GERMAN LANGUAGE
@@ -58,5 +58,4 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° गार्ड : ","color":"gre
 
 #PORTUGUESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Guarda : ","color":"green","extra":[{"text":"A família real de... Você não é qualquer pessoa, parece. Desculpe pela interrupção, mas nossa cidade é pobre apesar de sua aparência. Não posso permitir a entrada de mendigos e vagabundos, pois mal temos o suficiente para sobreviver ao inverno e dependemos muito do comércio para subsistir... Quer dizer, se é conhecimento que você está procurando, não poderia ter vindo a um lugar melhor! A Academia Dahäl fica na outra extremidade da cidade, de frente para as montanhas: você não pode perdê-la. Provavelmente concordarão em ajudá-lo em troca de alguns cronotons.","color":"dark_aqua"}]}
-
+tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Guarda : ","color":"green","extra":[{"text":"A família real de... Você não é qualquer pessoa, parece. Desculpe pela interrupção, mas nossa cidade é pobre apesar de sua aparência. Não posso permitir a entrada de mendigos e vagabundos, pois mal temos o suficiente para sobreviver ao inverno e dependemos muito do comércio para subsistir... Quer dizer, se é conhecimento que você está procurando, não poderia ter vindo a um lugar melhor! A Academia Dahäl fica na outra extremidade da cidade, de frente para as montanhas: você não pode perdê-la. Provavelmente concordarão em ajudá-lo em troca de alguns Cronotons.","color":"dark_aqua"}]}

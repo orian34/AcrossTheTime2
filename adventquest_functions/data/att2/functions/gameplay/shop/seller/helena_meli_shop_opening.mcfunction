@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest											#
-#Use function to process the Helena Meli shop 					#
+#Use function to process the Hélèna Meli shop 					#
 #################################################################
 
 function att2:sound/shop/opening

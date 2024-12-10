@@ -8,11 +8,11 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Trésor de Silberländ -°- : ","color":"gray","extra":[{"text":"J'ai terminé l'exploration. Je dois maintenant rentrer afin de prévenir Mortimer de la découverte et lui dire ce que j'ai trouvé là-bas.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Trésor du Sylberländ -°- : ","color":"gray","extra":[{"text":"J'ai terminé l'exploration. Je dois maintenant rentrer afin de prévenir Mortimer de la découverte et lui dire ce que j'ai trouvé là-bas.","color":"aqua","italic":true}]}
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Treasure of Silberländ -°- : ","color":"gray","extra":[{"text":"I have finished exploring. I must now go back to inform Mortimer on the discovery and tell him what I found there.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Treasure of Sylberländ -°- : ","color":"gray","extra":[{"text":"I have finished exploring. I must now go back to inform Mortimer on the discovery and tell him what I found there.","color":"aqua","italic":true}]}
 
 #CHINESE LANGUAGE
 
@@ -36,11 +36,11 @@ tellraw @s[scores={LANGUAGE=6}] {"text":"-°- Сокровище Сильбер�
 
 #SPANISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=7}] {"text":"-°- Tesoro de Silberländ -°- : ","color":"gray","extra":[{"text":"He terminado la exploración. Ahora debo regresar para informar a Mortimer sobre el descubrimiento y contarle lo que encontré allí.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=7}] {"text":"-°- Tesoro de Sylberländ -°- : ","color":"gray","extra":[{"text":"He terminado la exploración. Ahora debo regresar para informar a Mortimer sobre el descubrimiento y contarle lo que encontré allí.","color":"aqua","italic":true}]}
 
 #GERMAN LANGUAGE
 
-tellraw @s[scores={LANGUAGE=8}] {"text":"-°- Schatz von Silberländ -°- : ","color":"gray","extra":[{"text":"Ich habe die Erkundung abgeschlossen. Jetzt muss ich zurückgehen, um Mortimer über die Entdeckung zu informieren und ihm zu erzählen, was ich dort gefunden habe.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=8}] {"text":"-°- Schatz von Sylberländ -°- : ","color":"gray","extra":[{"text":"Ich habe die Erkundung abgeschlossen. Jetzt muss ich zurückgehen, um Mortimer über die Entdeckung zu informieren und ihm zu erzählen, was ich dort gefunden habe.","color":"aqua","italic":true}]}
 
 #HINDI LANGUAGE
 
@@ -48,4 +48,4 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- सिल्बरलैंड क
 
 #PORTUGUESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Tesouro de Silberländ -°- : ","color":"gray","extra":[{"text":"Terminei a exploração. Agora devo voltar para informar Mortimer sobre a descoberta e contar o que encontrei lá.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Tesouro de Sylberländ -°- : ","color":"gray","extra":[{"text":"Terminei a exploração. Agora devo voltar para informar Mortimer sobre a descoberta e contar o que encontrei lá.","color":"aqua","italic":true}]}

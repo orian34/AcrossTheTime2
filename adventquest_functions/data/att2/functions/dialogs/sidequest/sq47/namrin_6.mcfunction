@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Namrïn : ","color":"dark_purple
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Here is the cemetery of Irilion. The greatest sanctuary to ever be, since it is the place itself where Angbang's divine creator disappeared, a hunded of thousand cycles ago, under the violence of Môt's actions.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Here is the cemetery of Irilion. The greatest sanctuary to ever be, since it is the place itself where Angbang's divine creator disappeared, a hundred of thousand cycles ago, under the violence of Môt's actions.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

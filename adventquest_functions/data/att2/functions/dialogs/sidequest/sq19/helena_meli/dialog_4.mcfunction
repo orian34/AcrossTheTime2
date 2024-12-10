@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest											#
-#Use function to process the Dialog 4 of Helena Meli 			#
+#Use function to process the Dialog 4 of Hélèna Meli 			#
 #################################################################
 
 
@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Hélèna Meli : ","color":"green
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Hélèna Meli : ","color":"green","extra":[{"text":"Why poison my horses... Would someone from Ryliath be mad at me?","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Hélèna Meli : ","color":"green","extra":[{"text":"Why poison my horses... Would someone from R'liath be mad at me?","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

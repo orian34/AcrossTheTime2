@@ -12,7 +12,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Souvenir d'outre-temps -°- : ","c
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Memories from outer-time -°- : ","color":"gray","extra":[{"text":"Aldelrion is looking for a weapon called ''Nekr al Felèvsil''. It should be in the rubble of the city. I'll have to roam Angor and deal with these mortals, hoping that one of them has this weapon...","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Memories from outer-time -°- : ","color":"gray","extra":[{"text":"Aldelrion is looking for a weapon called ''Nekr al Felèvsil''. It should be in the rubble of the city. I'll have to roam Angor and deal with these mortals, hoping that one of them has the weapon...","color":"aqua","italic":true}]}
 
 #CHINESE LANGUAGE
 

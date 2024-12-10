@@ -8,7 +8,7 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"-°- L'obscurité qui dors -°- : ","color":"gray","extra":[{"text":"Cette couronne est étrange, je lui trouverai peut-être une utilité plus tard...","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"-°- L'obscurité qui dort -°- : ","color":"gray","extra":[{"text":"Cette couronne est étrange, je lui trouverais peut-être une utilité plus tard...","color":"aqua","italic":true}]}
 
 #ENGLISH LANGUAGE
 

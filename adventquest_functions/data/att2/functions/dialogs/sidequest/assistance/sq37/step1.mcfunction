@@ -12,7 +12,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Archéologue en herbe -°- : ","co
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Budding archaeologist -°- : ","color":"gray","extra":[{"text":"Well, Walton tasked me with clearing the slimy monsters out of the Soquaï Stream. I have to kill some of them to get them off...","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Budding archaeologist -°- : ","color":"gray","extra":[{"text":"Alright, Walton tasked me with clearing the slimy monsters out of the Soquaï Stream. I have to kill enough of them to get them to leave...","color":"aqua","italic":true}]}
 
 #CHINESE LANGUAGE
 

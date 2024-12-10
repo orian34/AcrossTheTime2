@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Sigfrid Barkon : ","color":"gree
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Sigfrid Barkon : ","color":"green","extra":[{"text":"You are an adventurer, aren't you? Do you have time on your hands? My meat shipper to other cities has not shown any sign of life for a week and I will not be able to keep all of this cool for long. Could you deliver this stock of beef to Méleïm? I'll pay you, of course.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Sigfrid Barkon : ","color":"green","extra":[{"text":"You are an adventurer, aren't you? Do you have time on your hands? My meat shipper to other cities has not shown any sign of life for a week and I will not be able to keep all of this cooled for long. Could you deliver this stock of beef to Méleïm? I'll pay you, of course.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

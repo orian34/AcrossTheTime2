@@ -41,7 +41,7 @@ tellraw @s[scores={LANGUAGE=6}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra
 
 #SPANISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Aquí tienes 100 cronotones, y también te confío mi caballo. Con esto podrás llegar rápidamente a una ciudad y comprar un nuevo carro. -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-093a-0000-00000000093a if entity @a[distance=..7] if score raphael_PNJ DIALOG matches 3 run function att2:cinematic/sidequest/31/raphael/chronoton_trigger_1"},"hoverEvent":{"action":"show_text","value":"Haz clic aquí - respuesta 1"}}]}
+tellraw @s[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Aquí tienes 100 Cronotones, y también te confío mi caballo. Con esto podrás llegar rápidamente a una ciudad y comprar un nuevo carro. -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-093a-0000-00000000093a if entity @a[distance=..7] if score raphael_PNJ DIALOG matches 3 run function att2:cinematic/sidequest/31/raphael/chronoton_trigger_1"},"hoverEvent":{"action":"show_text","value":"Haz clic aquí - respuesta 1"}}]}
 
 
 #GERMAN LANGUAGE
@@ -56,4 +56,4 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra
 
 #PORTUGUESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Aqui estão 100 cronotons, e estou confiando em você com meu cavalo também. Com isso você poderá chegar rapidamente a uma cidade e comprar uma nova carroça. -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-093a-0000-00000000093a if entity @a[distance=..7] if score raphael_PNJ DIALOG matches 3 run function att2:cinematic/sidequest/31/raphael/chronoton_trigger_1"},"hoverEvent":{"action":"show_text","value":"Clique aqui - resposta 1"}}]}
+tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Aqui estão 100 Cronotons, e estou confiando em você com meu cavalo também. Com isso você poderá chegar rapidamente a uma cidade e comprar uma nova carroça. -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-093a-0000-00000000093a if entity @a[distance=..7] if score raphael_PNJ DIALOG matches 3 run function att2:cinematic/sidequest/31/raphael/chronoton_trigger_1"},"hoverEvent":{"action":"show_text","value":"Clique aqui - resposta 1"}}]}

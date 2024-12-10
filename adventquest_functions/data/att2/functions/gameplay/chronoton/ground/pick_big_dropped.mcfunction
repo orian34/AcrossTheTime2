@@ -1,6 +1,6 @@
 #####################################################################
 #Made by Adventquest												#
-#Pick small chronotons pieces                                    	#
+#Pick small Chronotons pieces                                    	#
 #####################################################################
 
 execute store result score @s CHRONOTONquart run data get entity @s Item.Count

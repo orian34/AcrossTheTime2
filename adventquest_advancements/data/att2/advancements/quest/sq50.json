@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:barrier"
         },
-        "title": {"translate":"Catch cat"},
+        "title": {"translate":"Chasing tails"},
         "description": {"translate":"Successfully complete this side quest"},
         "frame": "goal"
     },

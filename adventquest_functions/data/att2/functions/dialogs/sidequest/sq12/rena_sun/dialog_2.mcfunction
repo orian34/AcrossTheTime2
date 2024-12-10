@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Rena Sun : ","color":"green","ex
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Rena Sun : ","color":"green","extra":[{"text":"Ah you are back, then you will give me a hand to unlock my door nearby? I have yet to find anyone else to help me ...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Rena Sun : ","color":"green","extra":[{"text":"Ah you are back, then you will give me a hand to unlock my door nearby? I have yet to find anyone else to help me...","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

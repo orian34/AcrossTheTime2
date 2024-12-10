@@ -6,12 +6,12 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Frowin Nepheris : ","color":"green","extra":[{"text":"Les agitateurs n'ont pas l'air décidé à partir ! Allez leur botter le train...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Frowin Nepheris : ","color":"green","extra":[{"text":"Les agitateurs n'ont pas l'air décidés à partir ! Allez leur botter le train...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Frowin Nepheris : ","color":"green","extra":[{"text":"The agitators don't seem to have decided to leave! Go and kick their train ...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Frowin Nepheris : ","color":"green","extra":[{"text":"The troublemakers don't seem inclined to leave! Go and kick their butt...","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

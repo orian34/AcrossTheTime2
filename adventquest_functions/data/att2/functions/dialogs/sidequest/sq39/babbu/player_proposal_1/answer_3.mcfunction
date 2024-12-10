@@ -11,12 +11,12 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Babbu : ","color":"green","extra
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Babbu : ","color":"green","extra":[{"text":"All... All of this? But, you are the incarnation of generosity!! I shall make good use of these Chronothons... Thank you very much, my friend!","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Babbu : ","color":"green","extra":[{"text":"All... All of this? But, you are the incarnation of generosity!! I shall make good use of these Chronotons... Thank you very much, my friend!","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Babbu : ","color":"green","extra":[{"text":"所有...所有這些？ 但是， 你是慷慨的化身！ ！ 我會好好利用這些 Chronothons... 非常感謝你， 我的朋友！ ","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Babbu : ","color":"green","extra":[{"text":"所有...所有這些？ 但是， 你是慷慨的化身！ ！ 我會好好利用這些 Chronotons... 非常感謝你， 我的朋友！ ","color":"dark_aqua"}]}
 
 
 #JAPANESE LANGUAGE

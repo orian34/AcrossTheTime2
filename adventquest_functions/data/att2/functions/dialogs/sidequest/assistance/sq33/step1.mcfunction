@@ -8,11 +8,11 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Trésor de Silberländ -°- : ","color":"gray","extra":[{"text":"Mortimer m'a parlé de structures monolithiques disposées dans différents endroits de Sylberländ. Il m'a demandé de prendre puis de rapporter des échantillons de pierre à chaque endroit où je trouverai ces structures. Il y aurait huit différentes structures disséminées dans toute la région d'après ses informations.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Trésor du Sylberländ -°- : ","color":"gray","extra":[{"text":"Mortimer m'a parlé de structures monolithiques disposées dans différents endroits du Sylberländ. Il m'a demandé de prendre puis de rapporter des échantillons de pierre à chaque endroit où je trouverai ces structures. Il y aurait huit différentes structures disséminées dans toute la région d'après ses informations.","color":"aqua","italic":true}]}
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Treasure of Silberländ -°- : ","color":"gray","extra":[{"text":"Mortimer spoke to me about monolithic structures arranged in different places of Sylberländ. He asked me to take the opportunity to bring back samples of stone from each place where I find these structures. According to his information, there are eigt different structures scattered throughout the region.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Treasure of Sylberländ -°- : ","color":"gray","extra":[{"text":"Mortimer spoke to me about monolithic structures arranged in different places of Sylberländ. He asked me to take the opportunity to bring back stone samples from each place where I find these structures. According to his information, there are eight different structures scattered throughout the region.","color":"aqua","italic":true}]}
 
 #CHINESE LANGUAGE
 
@@ -36,11 +36,11 @@ tellraw @s[scores={LANGUAGE=6}] {"text":"-°- Сокровище Сильбер�
 
 #SPANISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=7}] {"text":"-°- Tesoro de Silberländ -°- : ","color":"gray","extra":[{"text":"Mortimer me habló sobre estructuras monolíticas dispuestas en diferentes lugares de Silberländ. Me pidió que aprovechara la oportunidad de traer muestras de piedra de cada lugar donde encuentre estas estructuras. Según su información, hay ocho estructuras diferentes dispersas por toda la región.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=7}] {"text":"-°- Tesoro de Sylberländ -°- : ","color":"gray","extra":[{"text":"Mortimer me habló sobre estructuras monolíticas dispuestas en diferentes lugares de Sylberländ. Me pidió que aprovechara la oportunidad de traer muestras de piedra de cada lugar donde encuentre estas estructuras. Según su información, hay ocho estructuras diferentes dispersas por toda la región.","color":"aqua","italic":true}]}
 
 #GERMAN LANGUAGE
 
-tellraw @s[scores={LANGUAGE=8}] {"text":"-°- Schatz von Silberländ -°- : ","color":"gray","extra":[{"text":"Mortimer hat mir von monolithischen Strukturen erzählt, die an verschiedenen Orten in Silberländ angeordnet sind. Er bat mich, die Gelegenheit zu nutzen und Proben von jedem Ort mitzubringen, an dem ich diese Strukturen finde. Seinen Informationen zufolge gibt es acht verschiedene Strukturen, die über die gesamte Region verstreut sind.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=8}] {"text":"-°- Schatz von Sylberländ -°- : ","color":"gray","extra":[{"text":"Mortimer hat mir von monolithischen Strukturen erzählt, die an verschiedenen Orten in Sylberländ angeordnet sind. Er bat mich, die Gelegenheit zu nutzen und Proben von jedem Ort mitzubringen, an dem ich diese Strukturen finde. Seinen Informationen zufolge gibt es acht verschiedene Strukturen, die über die gesamte Region verstreut sind.","color":"aqua","italic":true}]}
 
 #HINDI LANGUAGE
 
@@ -48,4 +48,4 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- सिल्बरलैंड क
 
 #PORTUGUESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Tesouro de Silberländ -°- : ","color":"gray","extra":[{"text":"Mortimer falou comigo sobre estruturas monolíticas dispostas em diferentes lugares de Silberländ. Ele me pediu para aproveitar a oportunidade e trazer amostras de pedra de cada lugar onde eu encontrar essas estruturas. Segundo suas informações, existem oito estruturas diferentes espalhadas por toda a região.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Tesouro de Sylberländ -°- : ","color":"gray","extra":[{"text":"Mortimer falou comigo sobre estruturas monolíticas dispostas em diferentes lugares de Sylberländ. Ele me pediu para aproveitar a oportunidade e trazer amostras de pedra de cada lugar onde eu encontrar essas estruturas. Segundo suas informações, existem oito estruturas diferentes espalhadas por toda a região.","color":"aqua","italic":true}]}

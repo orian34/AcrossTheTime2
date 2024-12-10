@@ -8,11 +8,11 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Trésor de Silberländ -°- : ","color":"gray","extra":[{"text":"Mortimer a déchiffré un indice intéressant à propos d'une pierre. Il se cacherait quelque chose à l'endroit où sont les monolithes dans les plaines de Sylberländ.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Trésor du Sylberländ -°- : ","color":"gray","extra":[{"text":"Mortimer a déchiffré un indice intéressant à propos d'une pierre. Il se cacherait quelque chose à l'endroit où sont les monolithes dans les plaines de Sylberländ.","color":"aqua","italic":true}]}
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Treasure of Silberländ -°- : ","color":"gray","extra":[{"text":"Mortimer deciphered an interesting clue about a stone. There is something hidden where the monoliths are located on the plains of Sylberländ.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Treasure of Sylberländ -°- : ","color":"gray","extra":[{"text":"Mortimer deciphered an interesting clue about a stone. There is something hidden where the monoliths are located on the plains of Sylberländ.","color":"aqua","italic":true}]}
 
 #CHINESE LANGUAGE
 
@@ -36,11 +36,11 @@ tellraw @s[scores={LANGUAGE=6}] {"text":"-°- Сокровище Сильбер�
 
 #SPANISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=7}] {"text":"-°- Tesoro de Silberländ -°- : ","color":"gray","extra":[{"text":"Mortimer ha descifrado una pista interesante sobre una piedra. Parece que hay algo oculto donde están los monolitos en las llanuras de Silberländ.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=7}] {"text":"-°- Tesoro de Sylberländ -°- : ","color":"gray","extra":[{"text":"Mortimer ha descifrado una pista interesante sobre una piedra. Parece que hay algo oculto donde están los monolitos en las llanuras de Sylberländ.","color":"aqua","italic":true}]}
 
 #GERMAN LANGUAGE
 
-tellraw @s[scores={LANGUAGE=8}] {"text":"-°- Schatz von Silberländ -°- : ","color":"gray","extra":[{"text":"Mortimer hat einen interessanten Hinweis zu einem Stein entschlüsselt. Es scheint etwas versteckt zu sein, wo die Monolithen auf den Ebenen von Silberländ stehen.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=8}] {"text":"-°- Schatz von Sylberländ -°- : ","color":"gray","extra":[{"text":"Mortimer hat einen interessanten Hinweis zu einem Stein entschlüsselt. Es scheint etwas versteckt zu sein, wo die Monolithen auf den Ebenen von Sylberländ stehen.","color":"aqua","italic":true}]}
 
 #HINDI LANGUAGE
 
@@ -48,4 +48,4 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- सिल्बरलैंड क
 
 #PORTUGUESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Tesouro de Silberländ -°- : ","color":"gray","extra":[{"text":"Mortimer decifrou uma pista interessante sobre uma pedra. Parece que há algo escondido onde estão os monólitos nas planícies de Silberländ.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Tesouro de Sylberländ -°- : ","color":"gray","extra":[{"text":"Mortimer decifrou uma pista interessante sobre uma pedra. Parece que há algo escondido onde estão os monólitos nas planícies de Sylberländ.","color":"aqua","italic":true}]}

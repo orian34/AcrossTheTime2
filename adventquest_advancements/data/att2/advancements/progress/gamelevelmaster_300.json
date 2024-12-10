@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:experience_bottle"
         },
-        "title": {"translate":"MASTER ETERNAN"},
+        "title": {"translate":"MASTER ETERNÄN"},
         "description": {"translate":"Reach the level Master MAX"},
         "frame": "challenge",
         "hidden": true

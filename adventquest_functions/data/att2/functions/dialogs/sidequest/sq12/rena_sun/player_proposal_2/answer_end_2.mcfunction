@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Rena Sun : ","color":"green","ex
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Rena Sun : ","color":"green","extra":[{"text":"Ahhh! But! There are no more doors, for sure I would have no problem going through... Where am I going to sleep now? ... Well, hold on, but leave here, I don't want to see you anymore. But why...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Rena Sun : ","color":"green","extra":[{"text":"Ahhh! But! There are no more doors, for sure I would have no problem going through... Where am I going to sleep now?... Well take this but leave from here, I don't want to see you anymore. What a...","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

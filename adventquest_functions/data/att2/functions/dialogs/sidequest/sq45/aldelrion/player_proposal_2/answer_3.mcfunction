@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"Alors j'attendrais que vous ne vous décidiez à me la céder.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Aldelrion : ","color":"green","extra":[{"text":"Alors j'attendrais que vous vous décidiez à me la céder.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

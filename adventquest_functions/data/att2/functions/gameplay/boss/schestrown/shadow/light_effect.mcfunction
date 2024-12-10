@@ -1,6 +1,6 @@
 #####################################################
 #Made by Adventquest                                #
-#Process Schestrown Shadow light effect				#
+#Process Scheströwn Shadow light effect				#
 #####################################################
 
 particle minecraft:instant_effect ~ ~ ~ 0.25 0.25 0.25 0 5

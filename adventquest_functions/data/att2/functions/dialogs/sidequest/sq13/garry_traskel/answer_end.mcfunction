@@ -11,7 +11,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Garry Traskel : ","color":"green
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Garry Traskel : ","color":"green","extra":[{"text":"Well, you did not stumble! Thank you, that is for you!","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Garry Traskel : ","color":"green","extra":[{"text":"Well, you did a good job! Thanks, that is for you!","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

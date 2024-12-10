@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Warren : ","color":"green","extra":[{"text":"Alors, vous avez trouvé une autre entrée pour atteindre ma marchandise perdue ? Il y a d'autres grottes en montant vers le nord.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Warren : ","color":"green","extra":[{"text":"Alors, vous avez trouvé une autre entrée pour atteindre ma marchandise perdue ? Il y a d'autres grottes en montant vers le Nord.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

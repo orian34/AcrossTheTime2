@@ -1,6 +1,6 @@
 #############################################################
 #Made by Adventquest										#
-#Transform the item to recycle into chronotons              #
+#Transform the item to recycle into Chronotons              #
 #############################################################
 
 # The estimation must be done again in case the player withdraw some of the items... (or incase two players are selling at the same time)

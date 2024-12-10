@@ -4,7 +4,7 @@
             "item": "minecraft:feather"
         },
         "title": {"translate":"The Crossroads Panorama"},
-        "description": {"translate":"Discover the panorama of Silberländ Crossroads"},
+        "description": {"translate":"Discover the panorama of Sylberländ Crossroads"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_plain",

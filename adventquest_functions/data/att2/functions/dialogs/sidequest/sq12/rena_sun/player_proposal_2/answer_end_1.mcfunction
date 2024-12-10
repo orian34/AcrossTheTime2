@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Rena Sun : ","color":"green","ex
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Rena Sun : ","color":"green","extra":[{"text":"Phew, thank you very much! Look, it's not much, but I want you to have it...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Rena Sun : ","color":"green","extra":[{"text":"Phew, thank you very much! Look, it's not a lot, but I want you to have it...","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

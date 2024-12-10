@@ -12,7 +12,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-°- On ne sait jamais sur quoi on va t
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":"-°- You never know what you're gonna get -°- : ","color":"gray","extra":[{"text":"Here we are, now the secret passage open, I will be able to infiltrate inside the lair and finally find a priceless treasure worthy of the name!","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":"-°- You never know what you're gonna get -°- : ","color":"gray","extra":[{"text":"Here we are, now the secret passage open, I will be able to infiltrate inside the lair and finally find a priceless treasure worthy of its name!","color":"aqua","italic":true}]}
 
 #CHINESE LANGUAGE
 

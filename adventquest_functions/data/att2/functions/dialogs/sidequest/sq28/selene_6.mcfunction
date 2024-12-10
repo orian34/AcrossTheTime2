@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Sélène : ","color":"green","ex
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Sélène : ","color":"green","extra":[{"text":"Father, I never thought you would have had wanted to look for me in your state...","color":"dark_green"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Sélène : ","color":"green","extra":[{"text":"Father, I never thought you would have went to look for me in your state...","color":"dark_green"}]}
 
 
 #CHINESE LANGUAGE

@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Violette : ","color":"green","ex
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Violette : ","color":"green","extra":[{"text":"How are you? Thank you again for your help.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Violette : ","color":"green","extra":[{"text":"How are you? Thanks again for your help.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

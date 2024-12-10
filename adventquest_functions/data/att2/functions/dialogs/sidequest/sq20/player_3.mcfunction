@@ -8,7 +8,7 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"C'est le mur dont Chiara m'a parlé.  Il est effectivement bien endommagé, un simple coup le fera tomber. Espérons que personne n'entende...","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"C'est le mur dont Chiara m'a parlé. Il est effectivement bien endommagé, un simple coup le fera tomber. Espérons que personne n'entende...","color":"aqua"}]}
 
 
 #ENGLISH LANGUAGE

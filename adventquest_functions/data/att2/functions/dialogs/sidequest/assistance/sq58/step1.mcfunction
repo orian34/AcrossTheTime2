@@ -8,7 +8,7 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Les vestiges du passé -°- : ","color":"gray","extra":[{"text":"J'ai trouvé une clef dans un coffre perdu dans le désert de Nojélanth. Elle devrait sûrement ouvrir un lieu dans Nojélanth dans le passé.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Les vestiges du passé -°- : ","color":"gray","extra":[{"text":"J'ai trouvé une clef dans un coffre perdu dans le désert de Nojélanth. Elle devrait sûrement ouvrir un lieu en Nojélanth dans le passé.","color":"aqua","italic":true}]}
 
 #ENGLISH LANGUAGE
 

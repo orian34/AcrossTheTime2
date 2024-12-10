@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Sélène : ","color":"green","ex
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Sélène : ","color":"green","extra":[{"text":"But, is she dead?","color":"dark_green"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Sélène : ","color":"green","extra":[{"text":"But, isn't she dead?","color":"dark_green"}]}
 
 
 #CHINESE LANGUAGE

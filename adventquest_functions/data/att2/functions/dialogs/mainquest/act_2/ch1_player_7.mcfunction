@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"If I spend the night outside, I'll freeze to death! And don't get me started on what types of beasts I might encounter... Wait a second! I'm an expert in fighting and hunting with my blade! And I'm a master of Dahäl! I beg you! Isn't there anything I can do to pay you back the night?","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"If I spend the night outside, I'll freeze to death! And don't get me started on what types of beasts I might encounter... Wait a second! I'm an expert in fighting and hunting with my blade! And I'm a Dahäl master! I beg you! Isn't there anything I can do to pay you back the night?","color":"aqua"}]}
 
 
 #CHINESE LANGUAGE

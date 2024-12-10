@@ -1,6 +1,6 @@
 #####################################################
 #Made by Adventquest                                #
-#Process Schestrown Umbra Tyanth tp effect			#
+#Process Scheströwn Umbra Tyanth tp effect			#
 #####################################################
 
 execute as 00000000-0000-012c-0000-00000000012c at 00000000-0000-013c-0000-00000000013c run tp @s ~ ~ ~ ~ ~

@@ -6,12 +6,12 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Hurriel Sun : ","color":"green","extra":[{"text":"M'aiderez-vous pour mes clefs ?","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Hurriel Sun : ","color":"green","extra":[{"text":"M'aiderez-vous pour ma clef ?","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Hurriel Sun : ","color":"green","extra":[{"text":"Will you help me with my keys?","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Hurriel Sun : ","color":"green","extra":[{"text":"Will you help me with my key?","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

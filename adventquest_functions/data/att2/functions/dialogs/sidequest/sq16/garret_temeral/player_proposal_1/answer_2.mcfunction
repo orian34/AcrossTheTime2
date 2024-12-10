@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Garret : ","color":"green","extra":[{"text":"Oui, je m'en doute bien, et lorsque tu y seras parvenu nous aurions plus besoin de ces flèches.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Garret : ","color":"green","extra":[{"text":"Oui, je m'en doute bien, et lorsque tu y seras parvenu nous n'aurions plus besoin de ces flèches.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

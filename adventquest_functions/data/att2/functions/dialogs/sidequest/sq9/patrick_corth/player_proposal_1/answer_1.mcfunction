@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Patrick Corth : ","color":"green","extra":[{"text":"Je vous adore déjà ! Vous n'aurez pas besoin de couper du bois, allez simplement au camp Jarat, il vous cédera les 16 bûches qu'il m'a promis.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Patrick Corth : ","color":"green","extra":[{"text":"Je vous adore déjà ! Vous n'aurez pas besoin de couper du bois, allez simplement au camp Jarat, il vous cèdera les 16 bûches qu'il m'a promis.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

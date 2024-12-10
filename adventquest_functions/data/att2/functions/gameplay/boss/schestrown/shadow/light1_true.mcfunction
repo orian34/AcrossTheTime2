@@ -1,6 +1,6 @@
 #####################################################
 #Made by Adventquest                                #
-#Process Schestrown Shadow light1 true				#
+#Process Scheströwn Shadow light1 true				#
 #####################################################
 
 scoreboard players set Shadow_light1 SQ38 1

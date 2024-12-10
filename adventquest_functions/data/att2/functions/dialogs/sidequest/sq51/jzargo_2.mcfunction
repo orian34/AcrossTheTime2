@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° J'zargo : ","color":"green","ext
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"What does this stranger wants from J'zargo, is he looking for a master? How much of a fool can he be to not have heard of the Dahäl academy?","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"What does this stranger want from J'zargo, is he looking for a master? How much of a fool can he be to not have heard of the Dahäl academy?","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

@@ -1,6 +1,6 @@
 #####################################################
 #Made by Adventquest                                #
-#Process Schestrown Shadow effect1					#
+#Process Scheströwn Shadow effect1					#
 #####################################################
 
 particle minecraft:falling_dust minecraft:glass ~ ~1.5 ~ 0.15 0.05 0.15 0.5 5

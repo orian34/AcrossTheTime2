@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"Tu as déjà oublié le plan ? Sans blague, bon attend la nuit pour entrer dans les égouts puis casse le mur fragilisé sous la banque. Simple non ?","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Chiara : ","color":"green","extra":[{"text":"Tu as déjà oublié le plan ? Sans blague, bon attends la nuit pour entrer dans les égouts puis casse le mur fragilisé sous la banque. Simple non ?","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

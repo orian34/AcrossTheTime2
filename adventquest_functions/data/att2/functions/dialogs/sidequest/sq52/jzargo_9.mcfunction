@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° J'zargo : ","color":"green","ext
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"The pupil is impatient, but for which purpose? J'zargo doubts it remembers the reason of our coming here...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"The pupil is impatient, but for which purpose? J'zargo doubts he remembers the reason of our coming here...","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

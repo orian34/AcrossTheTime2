@@ -8,7 +8,7 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Nettoyer le nid -°- : ","color":"gray","extra":[{"text":"Feanorth m'a demander de l'aider pour nettoyer un nid d'Atricanth installé dans les quartier ouest d'Angor...","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Nettoyer le nid -°- : ","color":"gray","extra":[{"text":"Feanorth m'a demandé de l'aider pour nettoyer un nid d'Atricanth installé dans les quartier Ouest d'Angor...","color":"aqua","italic":true}]}
 
 #ENGLISH LANGUAGE
 

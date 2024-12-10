@@ -13,7 +13,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Hermona : ","color":"green","ext
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Hermona : ","color":"green","extra":[{"text":"Here you are again! Is it not going so well? Here, I'l take care of you.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Hermona : ","color":"green","extra":[{"text":"Here you are again! Is it not going so well? Here, I'll take care of you.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Violette : ","color":"green","ex
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Violette : ","color":"green","extra":[{"text":"What do you still want with me ? Wait ! I heard about you. I heard you were helping some of us in the area ... See, I lost my parents a couple of years ago. They are buried in the cemetery in the valley of Eol on the heights. Unfortunately, a few months ago, monsters started to spread there. Strangely, the entrance to my parents' crypt has been sealed and I would like to be able to access it again. Will you help me ?","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Violette : ","color":"green","extra":[{"text":"What do you still want with me ? Wait ! I heard about you. I was told you were helping some of us in the area... See, I lost my parents a couple years ago. They are buried in the cemetery in the valley of Eol on the heights. Unfortunately, a few months ago, monsters started to spread there. Strangely, the entrance to my parents' crypt has been sealed and I would like to be able to access it again. Will you help me ?","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Gustave : ","color":"green","ext
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Gustave : ","color":"green","extra":[{"text":"What the hell are they doing!? This bridge is not going to be built by itself ... You there! Please move away, it's under construction here. No wait ... Perhaps you could help me: wouldn't you have seen a caravan on the road? These are my colleagues, I'm starting to worry, they haven't come back. Would you help me find them?","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Gustave : ","color":"green","extra":[{"text":"What the hell are they doing!? This bridge is not going to build itself... You there! Please move away, it's under construction here. No wait... Perhaps you could help me: wouldn't you have seen a caravan on the road? These are my colleagues, I'm starting to worry, they haven't come back. Would you help me find them?","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

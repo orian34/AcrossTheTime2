@@ -12,7 +12,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":"-°- Une invasion incontrôlable -°- :
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":"-°- An uncontrollable invasion -°- : ","color":"gray","extra":[{"text":"I have to kill about fifteen slimes in the Mine of the Phoenix village and go back to Gary to receive my reward","color":"aqua","italic":true}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":"-°- An uncontrollable invasion -°- : ","color":"gray","extra":[{"text":"I have to kill about fifteen slimes in the mine of the Phoenix village and go back to Gary to receive my reward.","color":"aqua","italic":true}]}
 
 #CHINESE LANGUAGE
 

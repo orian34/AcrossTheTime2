@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest											#
-#Use function to process the Dialog 2 of Helena Meli 			#
+#Use function to process the Dialog 2 of Hélèna Meli 			#
 #################################################################
 
 
@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Hélèna Meli : ","color":"green
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Hélèna Meli : ","color":"green","extra":[{"text":"Hey there! You come for horses, right? I'm sorry, but they're not in shape at the moment. I think we tried to poison them, 'well don't wonder how I came to this conclusion... I found these weird apples in the stable, don't taste them, huh! The stomach ache almost took me away! Would you search Ryliath to find our poisoner? I'll reward you, huh!","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Hélèna Meli : ","color":"green","extra":[{"text":"Hey there! You come for horsies, right? I'm sorry, but they're not in shape at the 'ment. I think someone tried to poison 'em, well don't wonder how I came to this conclusion... I found these weird apples in the stable, don't taste them tho! The stomach ache almost took me away! Would ye search Ryliath to find our pois'ner? I'll reward you, huh!","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

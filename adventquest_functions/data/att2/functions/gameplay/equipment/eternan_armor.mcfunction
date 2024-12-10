@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest											#
-#Process eternan armor hability	    							#
+#Process Eternän armor hability	    							#
 #################################################################
 
 execute as @s[nbt={Inventory:[{Slot:103b,tag:{Manufacturer:"eternan"}}]}] run item modify entity @s armor.head att2:eternan_automending/head

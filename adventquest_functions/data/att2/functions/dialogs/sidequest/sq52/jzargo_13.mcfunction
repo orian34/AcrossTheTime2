@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° J'zargo : ","color":"green","ext
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"Now, the apprentice must leave J'zargo to his studies. It can go play in the ruins, since this travel must have worn its ability to concentrate and to stop stinking.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"Now, the apprentice must leave J'zargo to his studies. He can go play in the ruins, since this travel must have worn his ability to concentrate and to stop stinking.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

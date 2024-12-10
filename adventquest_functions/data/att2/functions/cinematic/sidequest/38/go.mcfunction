@@ -4,7 +4,7 @@
 #The SQ38 state (for SIDEQUEST) :							#
 #..0 - the quest is not active    							#
 #1..99 - trigg the quest and execute go 					#
-#2 - Player go into schestrown dungeon to place artefact 	#
+#2 - Player go into Scheströwn dungeon to place artefact 	#
 #100.. - the quest is completed    							#
 #############################################################
 

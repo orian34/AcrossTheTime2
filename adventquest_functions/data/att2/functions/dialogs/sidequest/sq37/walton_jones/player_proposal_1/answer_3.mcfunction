@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"Hmm, bon c'est une bonne affaire. J'espère que je trouverai ces fossiles à un autre endroit...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"Hmm, bon c'est une bonne affaire. J'espère que je trouverais ces fossiles à un autre endroit...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

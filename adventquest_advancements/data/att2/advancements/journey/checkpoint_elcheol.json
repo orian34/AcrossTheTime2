@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:redstone_ore"
         },
-        "title": {"translate":"Elcheol Checkpoints"},
-        "description": {"translate":"Discover all Checkpoints of Elcheol"},
+        "title": {"translate":"Elchéol Checkpoints"},
+        "description": {"translate":"Discover all Checkpoints of Elchéol"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_eolorion",

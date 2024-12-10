@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"''The most primordial of knowledges is engraved on the ultimate remain of what they were.'', this must be the object that J'zargo is looking for.","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"''The most primordial of knowledges is engraved on the ultimate remainder of what they were.'', this must be the object that J'zargo is looking for.","color":"aqua"}]}
 
 
 #CHINESE LANGUAGE

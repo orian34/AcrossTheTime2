@@ -8,7 +8,7 @@ function att2:dialogs/sidequest/accepted_effect
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"[Addicte à vie]","color":"gold"}
+tellraw @s[scores={LANGUAGE=0}] {"text":"[Addict à vie]","color":"gold"}
 
 
 #ENGLISH LANGUAGE

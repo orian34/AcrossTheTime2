@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Violette : ","color":"green","ex
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Violette : ","color":"green","extra":[{"text":"Have you found my parents' crypt? Don't know how to get into the catacombs? Damn, I forgot to tell you about the fountain in the center of the cemetery. It contains a mechanism opening the catacombs. My neighbor Walton told me about it, you have to press the buttons in a certain order: diamond > iron > gold > emerald.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Violette : ","color":"green","extra":[{"text":"Have you found my parents' crypt? You don't know how to get into the catacombs? Damn, I forgot to tell you about the fountain in the center of the cemetery. It contains a mechanism opening the catacombs. My neighbor Walton told me about it, you have to press the buttons in a certain order: diamond > iron > gold > emerald.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

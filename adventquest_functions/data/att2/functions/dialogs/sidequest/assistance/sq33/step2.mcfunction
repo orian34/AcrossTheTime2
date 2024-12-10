@@ -8,11 +8,11 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Trésor de Silberländ -°- : ","color":"gray","extra":[{"text":"J'ai rapporté tous les échantillons de pierres à Mortimer. Je devrais patienter le temps qu'il finisse ses recherches à propos des structures. Je reviendrai plus tard prendre de ses nouvelles.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Trésor du Sylberländ -°- : ","color":"gray","extra":[{"text":"J'ai rapporté tous les échantillons de pierre à Mortimer. Je devrais patienter le temps qu'il finisse ses recherches à propos des structures. Je reviendrai plus tard prendre de ses nouvelles.","color":"aqua","italic":true}]}
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Treasure of Silberländ -°- : ","color":"gray","extra":[{"text":"I brought all of the stone samples back to Mortimer. I should wait for him to finish his research on the structures. I will come back later to hear from him.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Treasure of Sylberländ -°- : ","color":"gray","extra":[{"text":"I brought all of the stone samples back to Mortimer. I should wait for him to finish his research on the structures. I will come back later to hear from him.","color":"aqua","italic":true}]}
 
 #CHINESE LANGUAGE
 
@@ -36,11 +36,11 @@ tellraw @s[scores={LANGUAGE=6}] {"text":"-°- Сокровище Сильбер�
 
 #SPANISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=7}] {"text":"-°- Tesoro de Silberländ -°- : ","color":"gray","extra":[{"text":"He devuelto todas las muestras de piedra a Mortimer. Debo esperar a que termine su investigación sobre las estructuras. Volveré más tarde para saber de él.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=7}] {"text":"-°- Tesoro de Sylberländ -°- : ","color":"gray","extra":[{"text":"He devuelto todas las muestras de piedra a Mortimer. Debo esperar a que termine su investigación sobre las estructuras. Volveré más tarde para saber de él.","color":"aqua","italic":true}]}
 
 #GERMAN LANGUAGE
 
-tellraw @s[scores={LANGUAGE=8}] {"text":"-°- Schatz von Silberländ -°- : ","color":"gray","extra":[{"text":"Ich habe alle Steinproben zu Mortimer zurückgebracht. Ich sollte warten, bis er seine Forschungen über die Strukturen abgeschlossen hat. Später werde ich mich wieder bei ihm melden.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=8}] {"text":"-°- Schatz von Sylberländ -°- : ","color":"gray","extra":[{"text":"Ich habe alle Steinproben zu Mortimer zurückgebracht. Ich sollte warten, bis er seine Forschungen über die Strukturen abgeschlossen hat. Später werde ich mich wieder bei ihm melden.","color":"aqua","italic":true}]}
 
 #HINDI LANGUAGE
 
@@ -48,4 +48,4 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- सिल्बरलैंड क
 
 #PORTUGUESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Tesouro de Silberländ -°- : ","color":"gray","extra":[{"text":"Eu trouxe todas as amostras de pedra de volta para Mortimer. Devo esperar ele terminar suas pesquisas sobre as estruturas. Voltarei mais tarde para ouvir dele.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=10}] {"text":"-°- Tesouro de Sylberländ -°- : ","color":"gray","extra":[{"text":"Eu trouxe todas as amostras de pedra de volta para Mortimer. Devo esperar ele terminar suas pesquisas sobre as estruturas. Voltarei mais tarde para ouvir dele.","color":"aqua","italic":true}]}

@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° J'zargo : ","color":"green","ext
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"Oh, here comes back J'zargo's pupil. He was dreading to see him come and J'zargo hoped the cold and the altitude would get the best of him. But his small rat eyes and his arrogant way of speaking are too silly for Gaya to put it's miserable existence to term.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"Oh, here comes back J'zargo's pupil. He was dreading to see him come and J'zargo hoped the cold and the altitude would get the best of him. But his small rat eyes and his arrogant way of speaking are too silly for Gaya to put his miserable existence to term.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

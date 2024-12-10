@@ -7,7 +7,7 @@
 scoreboard players set @a TEMPERATURE 0
 
 # -- Location
-# Elcheol Mountain
+# Elchéol Mountain
 execute as @a[x=-5381,y=158,z=-6300,distance=..350,gamemode=adventure] run scoreboard players set @s TEMPERATURE -2
 # Eolorion
 execute as @a[x=-5172,y=65,z=-6016,dx=-194,dy=87,dz=-333,gamemode=adventure] run scoreboard players set @s TEMPERATURE -2

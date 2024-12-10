@@ -6,12 +6,12 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Gaelle : ","color":"green","extra":[{"text":"Désolé, mais vous n'avez pas assez de chronotons sur votre compte pour en retirer autant...","color":"gold"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Gaelle : ","color":"green","extra":[{"text":"Désolé, mais vous n'avez pas assez de Chronotons sur votre compte pour en retirer autant...","color":"gold"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Gaelle : ","color":"green","extra":[{"text":"Sorry, but you don't have enough chronotons on your account to withdraw that amount...","color":"gold"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Gaelle : ","color":"green","extra":[{"text":"Sorry, but you don't have enough Chronotons on your account to withdraw that amount...","color":"gold"}]}
 
 
 #CHINESE LANGUAGE
@@ -32,7 +32,7 @@ tellraw @s[scores={LANGUAGE=5}] {"text":" °-° Gaelle : ","color":"green","extr
 tellraw @s[scores={LANGUAGE=6}] {"text":" °-° Gaelle : ","color":"green","extra":[{"text":"Извините, но у вас недостаточно хронотонов на счету для снятия этой суммы...","color":"gold"}]}
 
 #SPANISH LANGUAGE
-tellraw @s[scores={LANGUAGE=7}] {"text":" °-° Gaelle : ","color":"green","extra":[{"text":"Lo siento, pero no tienes suficientes cronotones en tu cuenta para retirar esa cantidad...","color":"gold"}]}
+tellraw @s[scores={LANGUAGE=7}] {"text":" °-° Gaelle : ","color":"green","extra":[{"text":"Lo siento, pero no tienes suficientes Cronotones en tu cuenta para retirar esa cantidad...","color":"gold"}]}
 
 #GERMAN LANGUAGE
 tellraw @s[scores={LANGUAGE=8}] {"text":" °-° Gaelle : ","color":"green","extra":[{"text":"Entschuldigung, aber du hast nicht genug Chronoton auf deinem Konto, um diesen Betrag abzuheben...","color":"gold"}]}
@@ -41,4 +41,4 @@ tellraw @s[scores={LANGUAGE=8}] {"text":" °-° Gaelle : ","color":"green","extr
 tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Gaelle : ","color":"green","extra":[{"text":"क्षमा करें, लेकिन आपके खाते में इस राशि को निकालने के लिए पर्याप्त क्रोनोटोन नहीं है...","color":"gold"}]}
 
 #PORTUGUESE LANGUAGE
-tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Gaelle : ","color":"green","extra":[{"text":"Desculpe, mas você não tem chronotons suficientes na sua conta para retirar essa quantidade...","color":"gold"}]}
+tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Gaelle : ","color":"green","extra":[{"text":"Desculpe, mas você não tem Chronotons suficientes na sua conta para retirar essa quantidade...","color":"gold"}]}

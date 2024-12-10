@@ -12,7 +12,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Les catacombes Adanoï -°- : ","c
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The Adanoï Catacombs -°- : ","color":"gray","extra":[{"text":"I cleaned the area ... Let's go ask Lary Brett to open the Adanoï catacombs for me.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The Adanoï Catacombs -°- : ","color":"gray","extra":[{"text":"I cleaned the area... Let's go ask Lary Brett to open the Adanoï catacombs for me.","color":"aqua","italic":true}]}
 
 #CHINESE LANGUAGE
 

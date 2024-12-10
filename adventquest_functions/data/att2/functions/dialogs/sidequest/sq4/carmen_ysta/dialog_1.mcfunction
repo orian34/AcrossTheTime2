@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Carmen Ysta : ","color":"green",
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Carmen Ysta : ","color":"green","extra":[{"text":"Hello traveler, my name is Carmen Ysta and I run Ryliath's grocery store. Here you will have a multitude of choices in food and small treats. Otherwise, if you are looking for work, I need mushrooms to develop a mushroom soup recipe ... And with a little extra something, I will give you a bowl if you help me. Would you do that for me?","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Carmen Ysta : ","color":"green","extra":[{"text":"Hello traveler, my name is Carmen Ysta and I run Ryliath's grocery store. Here you will have a multitude of choices in food and small treats. Otherwise, if you are looking for work, I need mushrooms to develop a mushroom soup recipe... And if you help me, alongside a little extra something, I will give you a bowl. Would you do that for me?","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

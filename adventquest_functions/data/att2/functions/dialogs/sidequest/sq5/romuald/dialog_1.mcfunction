@@ -6,12 +6,12 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Romuald : ","color":"green","extra":[{"text":"*Ronflement bruyant*","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Romuald : ","color":"green","extra":[{"text":"*ronflement bruyant*","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Romuald : ","color":"green","extra":[{"text":"*Loud snoring*","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Romuald : ","color":"green","extra":[{"text":"*loud snoring*","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

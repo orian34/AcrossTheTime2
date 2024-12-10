@@ -3,7 +3,7 @@
 #Use function to process the complete sidequest					#
 #################################################################
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"[Une ville dans le besoin]","color":"green","hoverEvent":{"action":"show_text","value":"Terminé!"}}
+tellraw @s[scores={LANGUAGE=0}] {"text":"[Une ville dans le besoin]","color":"green","hoverEvent":{"action":"show_text","value":"Terminée!"}}
 
 tellraw @s[scores={LANGUAGE=1}] {"text":"[A city in need]","color":"green","hoverEvent":{"action":"show_text","value":"Completed!"}}
 

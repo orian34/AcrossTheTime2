@@ -8,5 +8,5 @@
 #-1 - the detection is disable 										#
 #####################################################################
 
-# Rewards when player is enter in storage of Gregor Gacko house
+# Rewards when player has entered the storage of Gregor Gacko house
 execute if entity @a[x=-4717,y=72,z=-5116,dx=4,dy=3,dz=5,gamemode=adventure] run function att2:cinematic/sidequest/3/gregor_gacko/rewards

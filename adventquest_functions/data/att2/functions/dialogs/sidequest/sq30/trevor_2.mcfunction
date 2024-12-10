@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Commandant Trevor : ","color":"g
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Commandant Trevor : ","color":"green","extra":[{"text":"... unannounced visits ... I wish you, more than once a moon, my dear ... What!? Who are you!? And how did you get here?!","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Commandant Trevor : ","color":"green","extra":[{"text":"... unannounced visits... I wish you, more than once a moon, my dear... What!? Who are you!? And how did you get here?!","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

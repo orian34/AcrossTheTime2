@@ -12,11 +12,11 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Une ville dans le besoin -°- : ",
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":"-°- A Town in Need -°- : ","color":"gray","extra":[{"text":"I found Raphaël, he is alive but his cart is broken and wolves attacked him. Fortunately he was able to take refuge at the height of the stream, I should help him !","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":"-°- A Town in Need -°- : ","color":"gray","extra":[{"text":"I found Raphaël, he is alive but his cart is broken and wolves are attacking him. Fortunately he was able to take refuge above the stream, I should help him !","color":"aqua","italic":true}]}
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 一個需要幫助的城市 -°- : ","color":"gray","extra":[{"text":"Raphael沒有大礙， 不過他的馬車壞了而且有一群狼正在攻擊他。還好他在水流上游的高地裡躲了起來。我必須幫助他！ ","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 一個需要幫助的城市 -°- : ","color":"gray","extra":[{"text":"Raphaël沒有大礙， 不過他的馬車壞了而且有一群狼正在攻擊他。還好他在水流上游的高地裡躲了起來。我必須幫助他！ ","color":"aqua","italic":true}]}
 
 #JAPANESE LANGUAGE
 

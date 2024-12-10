@@ -11,12 +11,12 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Philipo Tisdal : ","color":"gree
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"You're back? I think we got carried away a little too quickly, I always need help. So please, tell me that a few chronotons will make you change your mind...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"You're back? I think we got carried away a little too quickly, I always need help. So please, tell me that a few Chronotons will make you change your mind...","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"你回來了？ 我覺得我們走得太快了， 我總是需要幫助。所以， 請告訴我， 幾個chronoton會讓你改變主意...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"你回來了？ 我覺得我們走得太快了， 我總是需要幫助。所以， 請告訴我， 幾個Chronotons會讓你改變主意...","color":"dark_aqua"}]}
 
 
 
@@ -38,7 +38,7 @@ tellraw @s[scores={LANGUAGE=6}] {"text":" °-° Philipo Tisdal : ","color":"gree
 
 #SPANISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=7}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"¿Has vuelto? Creo que nos dejamos llevar un poco demasiado rápido, siempre necesito ayuda. Así que, por favor, dime que unos pocos cronotones te harán cambiar de opinión...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=7}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"¿Has vuelto? Creo que nos dejamos llevar un poco demasiado rápido, siempre necesito ayuda. Así que, por favor, dime que unos pocos Cronotones te harán cambiar de opinión...","color":"dark_aqua"}]}
 
 #GERMAN LANGUAGE
 
@@ -50,7 +50,7 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Philipo Tisdal : ","color":"gree
 
 #PORTUGUESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"Você voltou? Acho que nos empolgamos um pouco rápido demais, sempre preciso de ajuda. Então, por favor, diga-me que alguns cronotons farão você mudar de ideia...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"Você voltou? Acho que nos empolgamos um pouco rápido demais, sempre preciso de ajuda. Então, por favor, diga-me que alguns Cronotons farão você mudar de ideia...","color":"dark_aqua"}]}
 
 
 

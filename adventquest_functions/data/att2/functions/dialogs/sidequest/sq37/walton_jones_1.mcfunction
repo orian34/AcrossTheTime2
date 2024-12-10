@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Walton Jones : ","color":"green"
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"Show me the object you told me about. Don't you have it with you? Okay, come see me later when you get it...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"Show me the object you told me about. You don't have it with you? Okay, come see me later when you get it...","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

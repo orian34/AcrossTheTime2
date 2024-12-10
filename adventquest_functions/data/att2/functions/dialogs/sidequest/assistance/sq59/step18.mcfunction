@@ -8,7 +8,7 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"-°- L'accomplissement du héros -°- : ","color":"gray","extra":[{"text":"Je connais maintenant l'origine de l'anomalie, mais ce que j'ai vécu est toujours sans réponses... Je dois aller au bout de l'épreuve dont m'a parlé ce Mercurius ! Basile Valentin m'a affirmé que j'en saurais plus avec la pierre qu'il m'a donné mais je dois d'abord trouver un livre à bibliothèque du palais de Ryliath et faire une sorte de rituel.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"-°- L'accomplissement du héros -°- : ","color":"gray","extra":[{"text":"Je connais maintenant l'origine de l'anomalie, mais ce que j'ai vécu est toujours sans réponses... Je dois aller au bout de l'épreuve dont m'a parlé ce Mercurius ! Basile Valentin m'a affirmé que j'en saurais plus avec la pierre qu'il m'a donnée mais je dois d'abord trouver un livre à la bibliothèque du palais de Ryliath et faire une sorte de rituel.","color":"aqua","italic":true}]}
 
 #ENGLISH LANGUAGE
 

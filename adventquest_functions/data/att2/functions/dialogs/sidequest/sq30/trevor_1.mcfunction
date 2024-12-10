@@ -13,7 +13,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Commandant Trevor : ","color":"g
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Commandant Trevor : ","color":"green","extra":[{"text":"Are you the one the king sent to investigate? Hm ... very good but I'm watching you ! The thief had to infiltrate through a crack at the top of the secret room where the plans are hidden, that's all we know for the moment. Go to the back of the library, the entrance was hidden by a row of books but is now open.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Commandant Trevor : ","color":"green","extra":[{"text":"Are you the one the king sent to investigate? Hm... very well but I'm watching you ! The thief had to infiltrate through a crack at the top of the secret room where the plans are hidden, that's all we know for the moment. Go to the back of the library, the entrance was hidden by a row of books but is now open.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

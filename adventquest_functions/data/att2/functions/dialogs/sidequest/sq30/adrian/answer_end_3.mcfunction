@@ -11,7 +11,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Roi Adrian : ","color":"gold","e
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° King Adrian : ","color":"gold","extra":[{"text":"I was waiting for you! The plans are returned to their place. The thief will surely have been intimidated by the means we have raised to find him... The guard will remain on the alert, and the plans will now be safe. Go see the Intendant of our town for your reward, his house is next to the blacksmith in front of the paddle wheel.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° King Adrian : ","color":"gold","extra":[{"text":"I was waiting for you! The plans are returned to their place. The thief will surely have been intimidated by the means we have raised to find him... The guards will remain on high alert, and the plans will now be safe. Go see the Intendant of our town for your reward, his house is next to the blacksmith in front of the paddle wheel.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

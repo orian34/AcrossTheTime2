@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° J'zargo : ","color":"green","ext
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"Now that is done. J'zargo is cold, he will continue his studies lower in the mountain. Now, the pupil gets along without him.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"Now that is done. J'zargo is cold, he will continue his studies lower in the mountain. Now, the pupil manages without him.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

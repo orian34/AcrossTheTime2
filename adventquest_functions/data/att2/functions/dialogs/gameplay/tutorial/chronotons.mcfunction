@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest											#
-#Display chronotons tutorial									#
+#Display Chronotons tutorial									#
 #################################################################
 
 

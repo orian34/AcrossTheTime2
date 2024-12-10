@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Lary Brett : ","color":"green","
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Lary Brett : ","color":"green","extra":[{"text":"Well. Come back to me when the way is clear and I will open the doors for you myself!","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Lary Brett : ","color":"green","extra":[{"text":"Very well. Come back to me when the way is clear and I will open the doors for you myself!","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Garry Traskel : ","color":"green
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Garry Traskel : ","color":"green","extra":[{"text":"Hey there, the traveling warrior! Monsters have invaded our cultures at the bottom of the tunnels, but no one here wants to risk moving them out. Could you help us?","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Garry Traskel : ","color":"green","extra":[{"text":"Hey there, the traveling warrior! Monsters have invaded our fields at the bottom of the tunnels, but no one here wants to risk moving them out. Could you help us?","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

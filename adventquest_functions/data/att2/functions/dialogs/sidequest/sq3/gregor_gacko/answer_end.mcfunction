@@ -11,7 +11,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Gregor Gacko : ","color":"green"
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Gregor Gacko : ","color":"green","extra":[{"text":"Great, without you I would never have been able to free him. I have only one word, all my reserves and to you.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Gregor Gacko : ","color":"green","extra":[{"text":"Great, without you I would never have been able to free him. I have only one word, all my treasure is to you.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

@@ -3,9 +3,9 @@
 #Use function to process the complete sidequest					#
 #################################################################
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"[Trésor de Silberländ]","color":"green","hoverEvent":{"action":"show_text","value":"Terminé!"}}
+tellraw @s[scores={LANGUAGE=0}] {"text":"[Trésor du Sylberländ]","color":"green","hoverEvent":{"action":"show_text","value":"Terminée!"}}
 
-tellraw @s[scores={LANGUAGE=1}] {"text":"[Treasure of Silberländ]","color":"green","hoverEvent":{"action":"show_text","value":"Completed!"}}
+tellraw @s[scores={LANGUAGE=1}] {"text":"[Treasure of Sylberländ]","color":"green","hoverEvent":{"action":"show_text","value":"Completed!"}}
 
 tellraw @s[scores={LANGUAGE=2}] {"text":"[Sylberländ的秘寶]","color":"green","hoverEvent":{"action":"show_text","value":"完全的！ "}}
 
@@ -27,11 +27,11 @@ tellraw @s[scores={LANGUAGE=6}] {"text":"[Сокровище Сильберла�
 
 #SPANISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=7}] {"text":"[Tesoro de Silberländ]","color":"green","hoverEvent":{"action":"show_text","value":"¡Completado!"}}
+tellraw @s[scores={LANGUAGE=7}] {"text":"[Tesoro de Sylberländ]","color":"green","hoverEvent":{"action":"show_text","value":"¡Completado!"}}
 
 #GERMAN LANGUAGE
 
-tellraw @s[scores={LANGUAGE=8}] {"text":"[Schatz von Silberländ]","color":"green","hoverEvent":{"action":"show_text","value":"Abgeschlossen!"}}
+tellraw @s[scores={LANGUAGE=8}] {"text":"[Schatz von Sylberländ]","color":"green","hoverEvent":{"action":"show_text","value":"Abgeschlossen!"}}
 
 #HINDI LANGUAGE
 
@@ -39,4 +39,4 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[सिल्बरलैंड का 
 
 #PORTUGUESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=10}] {"text":"[Tesouro de Silberländ]","color":"green","hoverEvent":{"action":"show_text","value":"Completo!"}}
+tellraw @s[scores={LANGUAGE=10}] {"text":"[Tesouro de Sylberländ]","color":"green","hoverEvent":{"action":"show_text","value":"Completo!"}}

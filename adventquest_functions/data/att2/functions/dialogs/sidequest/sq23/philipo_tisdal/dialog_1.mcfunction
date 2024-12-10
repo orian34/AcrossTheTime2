@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Philipo Tisdal : ","color":"gree
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"There, that is the face of a traveler looking for work! You're in luckl, I am overwhelmed, I have to manage all my harvests alone since my wife is... gone... However, these filthy critters, these funny rats have devoured my pumpkins! They are tough and reproduce at some speed! I don't know what to do to get rid of them, would you be able to for a few Chronotons?","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"There, that is the face of a traveler looking for work! You're in luck, I am overwhelmed, I have to manage all my harvests alone since my wife is... gone... However, the filthy vermin, these weird rats are devouring my pumpkins! They are tough and reproduce at some speed! I don't know what to do to get rid of them, would you be able to help for a few Chronotons?","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE
@@ -38,7 +38,7 @@ tellraw @s[scores={LANGUAGE=6}] {"text":" °-° Philipo Tisdal : ","color":"gree
 
 #SPANISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=7}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"¡Ahí está, la cara de un viajero en busca de trabajo! Tienes suerte, estoy abrumado, tengo que gestionar todas mis cosechas solo desde que mi esposa... se fue... Sin embargo, estas criaturas sucias, estas ratas divertidas han devorado mis calabazas. ¡Son fuertes y se reproducen a una velocidad increíble! No sé qué hacer para deshacerme de ellos, ¿podrías hacerlo por unos pocos cronotones?","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=7}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"¡Ahí está, la cara de un viajero en busca de trabajo! Tienes suerte, estoy abrumado, tengo que gestionar todas mis cosechas solo desde que mi esposa... se fue... Sin embargo, estas criaturas sucias, estas ratas divertidas han devorado mis calabazas. ¡Son fuertes y se reproducen a una velocidad increíble! No sé qué hacer para deshacerme de ellos, ¿podrías hacerlo por unos pocos Cronotones?","color":"dark_aqua"}]}
 
 #GERMAN LANGUAGE
 
@@ -50,7 +50,7 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Philipo Tisdal : ","color":"gree
 
 #PORTUGUESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"Lá está o rosto de um viajante em busca de trabalho! Você está com sorte, estou sobrecarregado, tenho que gerenciar toda a minha colheita sozinho desde que minha esposa... se foi... No entanto, essas criaturas imundas, esses ratos engraçados devoraram minhas abóboras! Eles são fortes e se reproduzem com uma velocidade incrível! Não sei o que fazer para me livrar deles, você conseguiria por alguns cronotons?","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"Lá está o rosto de um viajante em busca de trabalho! Você está com sorte, estou sobrecarregado, tenho que gerenciar toda a minha colheita sozinho desde que minha esposa... se foi... No entanto, essas criaturas imundas, esses ratos engraçados devoraram minhas abóboras! Eles são fortes e se reproduzem com uma velocidade incrível! Não sei o que fazer para me livrar deles, você conseguiria por alguns Cronotons?","color":"dark_aqua"}]}
 
 
 scoreboard players set philipo_tisdal_PNJ DIALOG 2

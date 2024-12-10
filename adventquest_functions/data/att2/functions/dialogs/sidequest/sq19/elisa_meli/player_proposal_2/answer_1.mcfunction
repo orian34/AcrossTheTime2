@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Elisa Meli : ","color":"green","
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Elisa Meli : ","color":"green","extra":[{"text":"Killing horses? I haven't gone that far!... Well, I admit, I did that. Still, she has always been privileged, the parents gave her the stable, and now she stings my Gregor... All I ask is her respect! And my man!","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Elisa Meli : ","color":"green","extra":[{"text":"Killing horses? I haven't gone that far!... Well, I admit, I did that. Still, she has always been privileged, the parents gave her the stable, and now she steals my Gregor... All I ask is her respect! And my man!","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

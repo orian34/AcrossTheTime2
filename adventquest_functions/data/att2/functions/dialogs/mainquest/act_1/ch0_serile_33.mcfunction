@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° S : ","color":"gray","extra":[{"
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° S : ","color":"gray","extra":[{"text":"Good luck on your quest, Hero of Tellurön.","color":"yellow","italic":true}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° S : ","color":"gray","extra":[{"text":"Good luck on your quest, Hero in Tellurön.","color":"yellow","italic":true}]}
 
 
 #CHINESE LANGUAGE

@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest											#
-#Apply loss for chronoton when dying							#
+#Apply loss for Chronotons when dying							#
 #################################################################
 
 scoreboard players operation @s CHRONOTONquart = @s CHRONOTON

@@ -8,12 +8,12 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Lucimène : ","color":"green","extra":[{"text":"*Hurlement de douleur* Qu'est ce.... Q. Q..? Arrêtez-ça !!","color":"blue"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Lucimène : ","color":"green","extra":[{"text":"*hurlement de douleur* Qu'est ce.... Q. Q..? Arrêtez-ça !!","color":"blue"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Lucimène : ","color":"green","extra":[{"text":"*Howling with pain* What is .... Wh. Wh ..? Stop it!!","color":"blue"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Lucimène : ","color":"green","extra":[{"text":"*howling with pain* What is.... Wh. Wh..? Stop it!!","color":"blue"}]}
 
 
 #CHINESE LANGUAGE

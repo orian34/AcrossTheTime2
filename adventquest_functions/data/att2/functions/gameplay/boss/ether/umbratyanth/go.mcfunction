@@ -34,7 +34,7 @@ execute if score Boss UMBRATYANTH matches 3 run function att2:gameplay/boss/ethe
 execute if score Sonar UMBRATYANTH matches 0.. run scoreboard players add Sonar UMBRATYANTH 1
 execute if score Sonar UMBRATYANTH matches 0..10 as @a[x=-5158,y=119,z=-6911,distance=..300] at @s run particle minecraft:falling_dust minecraft:coal_block ~ ~0.5 ~ 0.2 0.2 0.2 0.25 1 normal
 execute if score Sonar UMBRATYANTH matches 5 as @a[x=-5158,y=119,z=-6911,distance=..300,gamemode=adventure] at @s run effect give @s minecraft:blindness 1 1 true
-execute if score Sonar UMBRATYANTH matches 5 if score Boss UMBRATYANTH matches -2..-1 run time set 6000 
+execute if score Sonar UMBRATYANTH matches 5 if score Boss UMBRATYANTH matches -2..-1 run time set 6000
 execute if score Sonar UMBRATYANTH matches 10.. run scoreboard players set Sonar UMBRATYANTH 0
 
 # Fire effect immune
@@ -59,7 +59,7 @@ execute if score Boss UMBRATYANTH matches 0.. if entity @a[x=-5158,y=119,z=-6911
 execute if score Boss UMBRATYANTH matches 0.. if entity @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] store result bossbar minecraft:umbratyanth max run data get entity 00000000-0000-012c-0000-00000000012c Attributes[{Name:"minecraft:generic.max_health"}].Base
 execute if score Boss UMBRATYANTH matches 0.. store result score 00000000-0000-012c-0000-00000000012c UMBRATYANTH run data get entity 00000000-0000-012c-0000-00000000012c Health 1
 
-# Portal transition between elcheol temple and boss arena
+# Portal transition between Elchéol temple and boss arena
 execute if score Boss UMBRATYANTH matches -1.. run function att2:gameplay/boss/ether/umbratyanth/portal_effect
 
 # ESC trigger to activate the portal to the boss

@@ -1,6 +1,6 @@
 #####################################################################
 #Made by Adventquest												#
-#Delete processed chronotons and add score                         	#
+#Delete processed Chronotons and add score                         	#
 #####################################################################
 
 scoreboard players operation @s CHRONOTONquart *= @p OP_CHRONOTON1

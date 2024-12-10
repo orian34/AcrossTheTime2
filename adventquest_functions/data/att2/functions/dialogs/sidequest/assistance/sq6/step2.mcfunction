@@ -12,7 +12,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-°- La Clef d'Hurriel -°- : ","color"
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":"-°- The Hurriel's Keys -°- : ","color":"gray","extra":[{"text":"Berni Dalph opened me the entrance of the sewers, I should find there the ","color":"aqua","italic":true,"extra":[{"text":"<Clef d'Hurriel>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:brick\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Clef d'Hurriel\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Hurriel's Key\\\"}\"]}}}"},"extra":[{"text":".","color":"aqua","italic":true}]}]}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":"-°- Hurriel's Key -°- : ","color":"gray","extra":[{"text":"Berni Dalph opened me the entrance of the sewers, there I should find ","color":"aqua","italic":true,"extra":[{"text":"<Hurriel's Key>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:brick\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Clef d'Hurriel\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Hurriel's Key\\\"}\"]}}}"},"extra":[{"text":".","color":"aqua","italic":true}]}]}]}
 
 #CHINESE LANGUAGE
 
@@ -49,4 +49,3 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"-°- हुर्रिएल की �
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":"-°- A Chave de Hurriel -°- : ","color":"gray","extra":[{"text":"Berni Dalph abriu-me a entrada dos esgotos, devo encontrar lá a ","color":"aqua","italic":true,"extra":[{"text":"<Chave de Hurriel>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:brick\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Clef d'Hurriel\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Hurriel's Key\\\"}\"]}}}"},"extra":[{"text":".","color":"aqua","italic":true}]}]}]}}
-

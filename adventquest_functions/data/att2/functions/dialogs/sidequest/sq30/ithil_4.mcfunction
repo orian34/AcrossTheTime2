@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Ithil : ","color":"green","extra
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"He was just going to put them back in their place! Isn't that essential? It was for an unfortunate secret passage leading to my room. Please don't say anything to the guards and my father. We love eachother ! I beg you, if you have a heart you will understand our situation!","color":"blue"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"He was just going to put them back in their place! Isn't that essential? It was only for a secret passage leading to my room. Please don't say anything to the guards and my father. We love each other ! I beg you, if you have a heart you will understand our situation!","color":"blue"}]}
 
 
 #CHINESE LANGUAGE

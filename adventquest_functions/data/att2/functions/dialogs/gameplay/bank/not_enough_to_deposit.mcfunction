@@ -6,12 +6,12 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Gaelle : ","color":"green","extra":[{"text":"Désolé, mais vous n'avez pas assez de chronotons sur vous pour en déposer autant...","color":"gold"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Gaelle : ","color":"green","extra":[{"text":"Désolé, mais vous n'avez pas assez de Chronotons sur vous pour en déposer autant...","color":"gold"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Gaelle : ","color":"green","extra":[{"text":"Sorry, but you don't have enough chronotons to deposit that amount...","color":"gold"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Gaelle : ","color":"green","extra":[{"text":"Sorry, but you don't have enough Chronotons to deposit that amount...","color":"gold"}]}
 
 
 #CHINESE LANGUAGE
@@ -32,7 +32,7 @@ tellraw @s[scores={LANGUAGE=5}] {"text":" °-° Gaelle : ","color":"green","extr
 tellraw @s[scores={LANGUAGE=6}] {"text":" °-° Gaelle : ","color":"green","extra":[{"text":"Извините, но у вас недостаточно хронотонов для внесения этой суммы...","color":"gold"}]}
 
 #SPANISH LANGUAGE
-tellraw @s[scores={LANGUAGE=7}] {"text":" °-° Gaelle : ","color":"green","extra":[{"text":"Lo siento, pero no tienes suficientes cronotones para depositar esa cantidad...","color":"gold"}]}
+tellraw @s[scores={LANGUAGE=7}] {"text":" °-° Gaelle : ","color":"green","extra":[{"text":"Lo siento, pero no tienes suficientes Cronotones para depositar esa cantidad...","color":"gold"}]}
 
 #GERMAN LANGUAGE
 tellraw @s[scores={LANGUAGE=8}] {"text":" °-° Gaelle : ","color":"green","extra":[{"text":"Entschuldigung, aber du hast nicht genug Chronoton, um diesen Betrag einzuzahlen...","color":"gold"}]}
@@ -41,4 +41,4 @@ tellraw @s[scores={LANGUAGE=8}] {"text":" °-° Gaelle : ","color":"green","extr
 tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Gaelle : ","color":"green","extra":[{"text":"क्षमा करें, लेकिन आपके पास इस राशि को जमा करने के लिए पर्याप्त क्रोनोटोन नहीं है...","color":"gold"}]}
 
 #PORTUGUESE LANGUAGE
-tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Gaelle : ","color":"green","extra":[{"text":"Desculpe, mas você não tem chronoton suficiente para depositar essa quantidade...","color":"gold"}]}
+tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Gaelle : ","color":"green","extra":[{"text":"Desculpe, mas você não tem Chronoton suficiente para depositar essa quantidade...","color":"gold"}]}

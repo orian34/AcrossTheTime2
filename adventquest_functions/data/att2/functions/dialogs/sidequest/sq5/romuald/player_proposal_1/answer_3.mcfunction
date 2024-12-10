@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Romuald : ","color":"green","ext
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Romuald : ","color":"green","extra":[{"text":"Ahh ... Huh ... Thanksh *hiccups*, sleep. *falls into a coma*","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Romuald : ","color":"green","extra":[{"text":"Ahh ... Huh ... Thanksh *hiccups*, sleep. *falls into coma*","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

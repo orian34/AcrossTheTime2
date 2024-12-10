@@ -3,9 +3,9 @@
 #Use function to process the progress of each sidequest step	#
 #################################################################
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"[Trésor de Silberländ]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/quest/sidequest/sq33/display_progress"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour connaître votre progression de la quête et avoir quelques indices."}}
+tellraw @s[scores={LANGUAGE=0}] {"text":"[Trésor du Sylberländ]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/quest/sidequest/sq33/display_progress"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour connaître votre progression de la quête et avoir quelques indices."}}
 
-tellraw @s[scores={LANGUAGE=1}] {"text":"[Treasure of Silberländ]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/quest/sidequest/sq33/display_progress"},"hoverEvent":{"action":"show_text","value":"Click here to check your progress for this quest and get some clues."}}
+tellraw @s[scores={LANGUAGE=1}] {"text":"[Treasure of Sylberländ]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/quest/sidequest/sq33/display_progress"},"hoverEvent":{"action":"show_text","value":"Click here to check your progress on this quest and get some clues."}}
 
 tellraw @s[scores={LANGUAGE=2}] {"text":"[Sylberländ的秘寶]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/quest/sidequest/sq33/display_progress"},"hoverEvent":{"action":"show_text","value":"單擊此處檢查您的任務進度並獲取一些線索。"}}
 
@@ -27,11 +27,11 @@ tellraw @s[scores={LANGUAGE=6}] {"text":"[Сокровище Сильберла�
 
 #SPANISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=7}] {"text":"[Tesoro de Silberländ]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/quest/sidequest/sq33/display_progress"},"hoverEvent":{"action":"show_text","value":"Haz clic aquí para verificar tu progreso en esta misión y obtener algunas pistas."}}
+tellraw @s[scores={LANGUAGE=7}] {"text":"[Tesoro de Sylberländ]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/quest/sidequest/sq33/display_progress"},"hoverEvent":{"action":"show_text","value":"Haz clic aquí para verificar tu progreso en esta misión y obtener algunas pistas."}}
 
 #GERMAN LANGUAGE
 
-tellraw @s[scores={LANGUAGE=8}] {"text":"[Schatz von Silberländ]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/quest/sidequest/sq33/display_progress"},"hoverEvent":{"action":"show_text","value":"Klicke hier, um deinen Fortschritt für diese Quest zu überprüfen und einige Hinweise zu erhalten."}}
+tellraw @s[scores={LANGUAGE=8}] {"text":"[Schatz von Sylberländ]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/quest/sidequest/sq33/display_progress"},"hoverEvent":{"action":"show_text","value":"Klicke hier, um deinen Fortschritt für diese Quest zu überprüfen und einige Hinweise zu erhalten."}}
 
 #HINDI LANGUAGE
 
@@ -39,4 +39,4 @@ tellraw @s[scores={LANGUAGE=9}] {"text":"[सिल्बरलैंड का 
 
 #PORTUGUESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=10}] {"text":"[Tesouro de Silberländ]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/quest/sidequest/sq33/display_progress"},"hoverEvent":{"action":"show_text","value":"Clique aqui para verificar o seu progresso nesta missão e obter algumas pistas."}}
+tellraw @s[scores={LANGUAGE=10}] {"text":"[Tesouro de Sylberländ]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/quest/sidequest/sq33/display_progress"},"hoverEvent":{"action":"show_text","value":"Clique aqui para verificar o seu progresso nesta missão e obter algumas pistas."}}

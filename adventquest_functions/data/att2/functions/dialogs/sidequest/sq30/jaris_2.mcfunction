@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Jaris : ","color":"green","extra
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Jaris : ","color":"green","extra":[{"text":"Do not say that! I must assume my responsibilities! It was my idea, I stole them to see Ithil, she didn't know. However I am ready to give the plans...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Jaris : ","color":"green","extra":[{"text":"Do not say that! I must assume my responsibilities! It was my idea, I stole them to see Ithil, she didn't know. However I am ready to give the plans back...","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

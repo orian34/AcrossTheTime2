@@ -1,6 +1,6 @@
 ##################################################
 #Made by Adventquest                             #
-#Manage lock opening for schestrown dungeon key  #
+#Manage lock opening for Scheströwn dungeon key  #
 ##################################################
 
 clear @s minecraft:brick{display:{"Lore":["{\"text\":\"§4Scheströwn Key\"}"]}} 1

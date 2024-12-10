@@ -2,7 +2,7 @@
 #Made by Adventquest											#
 #Process dahal regeneration for a given player,					#
 #process persistance of corruption      					    #
-#process eternan equipment health regeneration                  #
+#process Eternän equipment health regeneration                  #
 #################################################################
 
 scoreboard players operation @s DAHAL1 = @s DAHALMAX

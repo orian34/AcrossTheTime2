@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Gregor Gacko : ","color":"green"
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Gregor Gacko : ","color":"green","extra":[{"text":"The contents of my treasures, all that I could win in my old life ... Our plan will be as follows: recover explosives and place them behind the prison. You will find these explosives in the old mine which is not far from here, a forest path leads there. Okay, we'll just have to be here when you get them.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Gregor Gacko : ","color":"green","extra":[{"text":"The contents of my treasures, all that I could win in my old life... Our plan will be as follows: recover explosives and place them behind the prison. You will find these explosives in the old mine which is not far from here, a forest path leads there. Okay, we'll just have to meet up when you get them.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

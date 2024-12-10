@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° J'zargo : ","color":"green","ext
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"Good thing J'zargo was there, otherwise the ignorant would have been chopped to the smallest bits...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° J'zargo : ","color":"green","extra":[{"text":"Good thing J'zargo was there, otherwise the ignorant one would have been chopped into the smallest bits...","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

@@ -1,6 +1,6 @@
 #####################################################
 #Made by Adventquest                                #
-#Process Schestrown Shadow tp effect1				#
+#Process Scheströwn Shadow tp effect1				#
 #####################################################
 
 execute if score Shadow_attack SQ38 matches 1.. as 00000000-0000-009c-0000-00000000009c at 00000000-0000-008c-0000-00000000008c run tp @s ~ ~ ~ ~ ~

@@ -3,7 +3,7 @@
 #Process all test of Symbol Exploration 			            #
 #################################################################
 
-### Elcheol
+### Elchéol
 #0
 execute in minecraft:overworld positioned -5137 90 -6335 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/elcheol
 execute in minecraft:overworld positioned -5132 155 -6236 if block ~ ~ ~ minecraft:light run function att2:gameplay/enveffect/symbol/detection/elcheol

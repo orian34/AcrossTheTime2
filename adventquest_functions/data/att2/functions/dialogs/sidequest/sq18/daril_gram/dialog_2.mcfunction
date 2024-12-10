@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Daril Gram : ","color":"green","
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Daril Gram : ","color":"green","extra":[{"text":"The fanatics? Are they dead? Make them suffer, they will know the bitterness of desolation...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Daril Gram : ","color":"green","extra":[{"text":"The fanatics? Are they dead? Make them suffer, so they know the bitterness of desolation...","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Joël Roblochon : ","color":"gre
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Joël Roblochon : ","color":"green","extra":[{"text":"What!? Do you know who i am? I am Joël Roblochon, the great and respected cook of the royal family ! I do not tolerate being spoken to in this tone, especially from someone coming from my chimney ! Besides, I don't know anything about the secret passages of the palace...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Joël Roblochon : ","color":"green","extra":[{"text":"What!? Don't you know who I am? I am Joël Roblochon, the great and respected cook of the royal family ! I do not tolerate being spoken to in this tone, especially from someone coming from my fireplace ! Besides, I don't know anything about the secret passages of the palace...","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

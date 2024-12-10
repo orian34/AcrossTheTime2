@@ -45,11 +45,11 @@ execute if score BonusChronoton RUNE matches 4 as @a[scores={CHRONOTONbis=90}] r
 execute if score BonusChronoton RUNE matches 5 run scoreboard players set @a[nbt={Inventory:[{id:"minecraft:diamond",tag:{display:{Name:"{\"text\":\"§b§oDiamant\"}","Lore":["{\"text\":\"§b§oDiamond\"}","{\"text\":\"§6+50 Chronotons\"}"]}}}]}] CHRONOTONbis 100
 execute if score BonusChronoton RUNE matches 5 as @a[scores={CHRONOTONbis=100}] run function att2:gameplay/chronoton/convertdiamond
 
-# Pick nearby chronotons from the ground
+# Pick nearby Chronotons from the ground
 execute as @a[gamemode=adventure] at @s run function att2:gameplay/chronoton/ground/go
 
 #Use scoreboard players operation @s CHRONOTON_TODROP = @s CHRONOTON
-#To drop all the chronoton of a give player
+#To drop all the Chronotons of a give player
 
 execute as @a[scores={CHRONOTON_TODROP=1..}] run scoreboard players operation @s OP_CHRONOTON3 = @s CHRONOTON
 execute as @a[scores={CHRONOTON_TODROP=1..}] run scoreboard players operation @s OP_CHRONOTON3 -= @s CHRONOTON_TODROP

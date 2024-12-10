@@ -8,7 +8,7 @@ function att2:cinematic/sidequest/17/hermona_frihax/healing_effect
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Hermona : ","color":"green","extra":[{"text":"Avez-vous trouvé les bandages ? Déposez-les à côté quand vous aurez tout. Voilà, vous devriez vous sentir un peu mieu à présent...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Hermona : ","color":"green","extra":[{"text":"Avez-vous trouvé les bandages ? Déposez-les à côté quand vous aurez tout. Voilà, vous devriez vous sentir un peu mieux à présent...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

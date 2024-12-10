@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Babbu : ","color":"green","extra":[{"text":"Salut, ça va toujours bien ? J'espère que la carte t'auras servi à quelque chose.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Babbu : ","color":"green","extra":[{"text":"Salut, ça va toujours bien ? J'espère que la carte t'aura servi à quelque chose.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

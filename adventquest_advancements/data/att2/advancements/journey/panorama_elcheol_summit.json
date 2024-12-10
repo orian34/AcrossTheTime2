@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:feather"
         },
-        "title": {"translate":"Elcheol summit Panorama"},
-        "description": {"translate":"Discover the panorama of Elcheol summit"},
+        "title": {"translate":"Elchéol summit Panorama"},
+        "description": {"translate":"Discover the panorama of Elchéol summit"},
         "frame": "goal"
     },
     "parent": "att2:journey/discover_eolorion",

@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Sélène : ","color":"green","ex
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Sélène : ","color":"green","extra":[{"text":"What he did to mother is unforgivable and he got what he deserved, let's not talk about him anymore... But wait, I found this card during my trip... It will be more useful to you than to me. Take it as a thank you.","color":"dark_green"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Sélène : ","color":"green","extra":[{"text":"What he did to mother is unforgivable and he got what he deserved, let's not talk about him anymore... But wait, I found this map during my trip... It will be more useful to you than to me. Take it as a thank you.","color":"dark_green"}]}
 
 
 #CHINESE LANGUAGE

@@ -12,7 +12,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Une nuit à Sathnok -°- : ","colo
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":"-°- A night in Sathnok -°- : ","color":"gray","extra":[{"text":"I found someone's corpse. Certainly Sylvain's... I must reurn come back to Linda and announce to her the macabre discovery.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":"-°- A night in Sathnok -°- : ","color":"gray","extra":[{"text":"I found someone's corpse. Certainly Sylvain's... I must come back to Linda and announce to her the macabre discovery.","color":"aqua","italic":true}]}
 
 #CHINESE LANGUAGE
 

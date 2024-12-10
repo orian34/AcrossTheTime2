@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"Dépêchez-vous ! Empruntez le petit chemin qui monte vers le nord-est longeant l'académie de magie d'Eolorion !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"Dépêchez-vous ! Empruntez le petit chemin qui monte vers le Nord-Est longeant l'académie de magie d'Eolorion !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

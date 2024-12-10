@@ -12,7 +12,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Nettoyer le nid -°- : ","color":"
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":"-°- clean the nest -°- : ","color":"gray","extra":[{"text":"Here I got rid of those critters, let's go bring the news to Feanorth.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":"-°- clean the nest -°- : ","color":"gray","extra":[{"text":"Here I got rid of those beasts, let's go bring the news to Feanorth.","color":"aqua","italic":true}]}
 
 #CHINESE LANGUAGE
 

@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Emerald : ","color":"green","ext
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"I see that I am not the only traveler in the region... Good morning, I am looking for a person very dear to me. I am getting old and the long journey I have taken has exhausted me. Do you have a moment to help me in my quest? I would be enormously grateful to you.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"I see that I am not the only traveler in the region... Good morning, I am looking for a person very dear to me. I am getting old and the long journey I have taken has exhausted me. Do you have a moment to help me in my quest? I would be abundantly grateful to you.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

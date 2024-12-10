@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Samal Eph : ","color":"green","e
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Samal Eph : ","color":"green","extra":[{"text":"But It's a miracle!? I thought I saw my last hours coming to the bottom of this hole after a jolt blocked the only exit. Many thanks ! I was supposed to bring iron ore to Ryliath's blacksmith. Surely he is the one sending you?","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Samal Eph : ","color":"green","extra":[{"text":"But it's a miracle!? I thought I saw my last hours coming to the bottom of this hole after a collapse blocked the only exit. Many thanks ! I was supposed to bring iron ore to Ryliath's blacksmith. Surely he is the one sending you?","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

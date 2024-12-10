@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"Comment ? Tu as trouvé un temple sous un grand arbre ? Intéressant ! Il faut que je vois ça de mes propres yeux... Merci encore pour tout, tiens voilà le reste de mes économies, tu le mérites.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"Comment ? Tu as trouvé un temple sous un grand arbre ? Intéressant ! Il faut que je voie ça de mes propres yeux... Merci encore pour tout, tiens voilà le reste de mes économies, tu le mérites.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

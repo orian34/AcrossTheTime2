@@ -8,7 +8,7 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":"-°- Retrouver Mia -°- : ","color":"gray","extra":[{"text":"Ce n'est pas compliqué, je dois maintenant ramener Mia et les chiots à Romulad. Il est à la taverne de Ryliath.","color":"aqua","italic":true}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":"-°- Retrouver Mia -°- : ","color":"gray","extra":[{"text":"Ce n'est pas compliqué, je dois maintenant ramener Mia et les chiots à Romuald. Il est à la taverne de Ryliath.","color":"aqua","italic":true}]}
 
 #ENGLISH LANGUAGE
 
@@ -20,7 +20,7 @@ tellraw @s[scores={LANGUAGE=2}] {"text":"-°- 尋狗大作戰 -°- : ","color":"
 
 #PORTUGUESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=10}] {"text":"-°- Encontrar Mia -°- : ","color":"gray","extra":[{"text":"Não é complicado, agora devo levar Mia e os filhotes de volta para Romulad. Ele está na taverna de Ryliath.","color":"aqua","italic":true}]}
+tellraw @a[scores={LANGUAGE=10}] {"text":"-°- Encontrar Mia -°- : ","color":"gray","extra":[{"text":"Não é complicado, agora devo levar Mia e os filhotes de volta para Romuald. Ele está na taverna de Ryliath.","color":"aqua","italic":true}]}
 
 #JAPANESE LANGUAGE
 

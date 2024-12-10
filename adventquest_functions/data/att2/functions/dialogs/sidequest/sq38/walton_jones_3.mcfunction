@@ -13,7 +13,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Walton Jones : ","color":"green"
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"The temptation is too great ... Do something to activate it to see what's going on.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Walton Jones : ","color":"green","extra":[{"text":"The temptation is too great... Do something to activate it and see what's going on.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE
