@@ -3,7 +3,7 @@
 #Keep Recycler working   					    #
 #################################################
 
-# execute if score total SPELL30 matches 1.. run function att2:gameplay/dahal/action/spell30/xpattribution
+execute as @e[type=minecraft:armor_stand,tag=RecyclerSpell,scores={SPELL30_EFFECT=60..100}] at @s run function att2:gameplay/dahal/action/spell30/light_particles
 execute as @e[type=minecraft:armor_stand,tag=RecyclerSpell,scores={SPELL30_EFFECT=1..60}] at @s run function att2:gameplay/dahal/action/spell30/xpsummon
 execute as @e[type=minecraft:armor_stand,tag=RecyclerSpell,scores={SPELL30_EFFECT=0..}] at @s run function att2:gameplay/dahal/action/spell30/particle_effect
 execute as @e[type=minecraft:armor_stand,tag=RecyclerSpell,scores={SPELL30_EFFECT=60},tag=!NewInvo] run function att2:gameplay/invocation/action/despawn
