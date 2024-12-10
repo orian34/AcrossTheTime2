@@ -1,6 +1,6 @@
 ##################################################
 #Made by Adventquest                             #
-#Display gem of time placement particle effect   #
+#Display Gem of Time placement particle effect   #
 ##################################################
 
 particle minecraft:item minecraft:redstone_block ~ ~ ~ 0 0 0 0.5 200 force @a

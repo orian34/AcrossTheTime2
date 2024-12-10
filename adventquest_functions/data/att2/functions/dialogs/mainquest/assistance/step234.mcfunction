@@ -14,7 +14,7 @@ tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"I am in the academy, but it is not the main building. I have to look for a way to get out of here in order to reach the more secure sections in the temporality where the bridge is not broken ... For that I will have to open the main door. There could be hidden systems and keys in the different time frames.","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"I am in the academy, but it is not the main building. I have to look for a way to get out of here in order to reach the more secure sections in the temporality where the bridge is not broken... For that I will have to open the main door. There could be hidden systems and keys in the different time frames.","color":"aqua"}]}
 
 #CHINESE LANGUAGE
 

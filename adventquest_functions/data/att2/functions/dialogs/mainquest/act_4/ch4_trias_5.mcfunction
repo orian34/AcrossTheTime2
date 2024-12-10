@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Trias : ","color":"green","extra
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"Then I won't take your time anymore and I'll get right to the point : I'm searching for an object that is important to me. What a noble adventurer like you would call a relic, I see it like an object to which I attach a great deal of personal value. It is a large bow, having quite singular caracteristics but inconspicious out of context of its use.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Trias : ","color":"green","extra":[{"text":"Then I won't take your time anymore and I'll get right to the point : I'm searching for an object that is important to me. What a noble adventurer like you would call a relic, I see it like an object to which I attach a great deal of personal value. It is a large bow, having quite singular characteristics but inconspicuous out of context of its use.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

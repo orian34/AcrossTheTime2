@@ -13,4 +13,4 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Bob L. : ","color":"green","extr
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1..}] {"text":" °-° Bob L. : ","color":"green","extra":[{"text":"Attention! Hot in front! Buuuuuuliiiaaaaaaaa bblblbllbl! ...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1..}] {"text":" °-° Bob L. : ","color":"green","extra":[{"text":"Careful! Incoming! Buuuuuuliiiaaaaaaaa bblblbllbl! ...","color":"dark_aqua"}]}

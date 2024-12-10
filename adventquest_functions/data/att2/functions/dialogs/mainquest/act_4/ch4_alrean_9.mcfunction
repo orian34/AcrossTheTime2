@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Alréan : ","color":"gold","extr
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Alréan : ","color":"gold","extra":[{"text":"Oh, this is not a trivial matter. I regret that I can't help you by myself. but those are the kind of secrets that our king own.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Alréan : ","color":"gold","extra":[{"text":"Oh, this is not a trivial matter. I regret that I can't help you myself. but those are the kind of secrets that our king owns.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

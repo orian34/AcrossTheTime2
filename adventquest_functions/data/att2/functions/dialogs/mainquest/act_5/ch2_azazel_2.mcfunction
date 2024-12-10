@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Azazel : ","color":"gold","extra
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Azazel : ","color":"gold","extra":[{"text":"Who are you, insignificant mortal, and for what trivial reason do you dare to present yourself before me?...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Azazel : ","color":"gold","extra":[{"text":"Who are you, puny mortal, and for what trivial reason do you dare to present yourself before me?...","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

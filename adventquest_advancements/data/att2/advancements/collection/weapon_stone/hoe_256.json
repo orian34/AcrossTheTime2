@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:wooden_hoe"
         },
-        "title": {"translate":"Epieu"},
+        "title": {"translate":"Épieu"},
         "description": {"translate":"Useful for game hunting."},
         "show_toast": false,
         "announce_to_chat": true
@@ -16,7 +16,7 @@
                 "items": [
                     {
                     "items": ["minecraft:wooden_hoe"],
-                    "nbt": "{display:{Name:\"\\\"§2Epieu\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Utile pour la chasse au gibier.\\\"}\",\"{\\\"text\\\":\\\"§7Useful for game hunting.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a1\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§2Épieu\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Utile pour la chasse au gibier.\\\"}\",\"{\\\"text\\\":\\\"§7Useful for game hunting.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a1\\\"}\"]}}"
                     }
                 ]
             }

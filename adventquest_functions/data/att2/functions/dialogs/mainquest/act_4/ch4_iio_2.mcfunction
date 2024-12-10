@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Iio : ","color":"yellow","extra"
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Iio : ","color":"yellow","extra":[{"text":"Mean, Don't say that... Didn't you have fun? That's right, he's strong, but you are much more sweet than him.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Iio : ","color":"yellow","extra":[{"text":"Mean? Don't say that... Didn't you have fun? That's right, he's strong, but you are much sweeter than him.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"Nous accueillons tout homme qui soit : qu'il soit citoyen du pays de Sylberländ, qu'il appartienne au peuple Jarat, ou même qu'il soit un simple voyageur ! Nous ne voulons d'ennui avec personne !","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"Nous accueillons tout homme qui soit : qu'il soit citoyen du pays de Sylberländ, qu'il appartienne au peuple Jarat, ou même qu'il soit un simple voyageur ! Nous ne voulons d'ennuis avec personne !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

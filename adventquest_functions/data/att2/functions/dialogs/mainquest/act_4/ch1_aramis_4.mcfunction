@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Aramis : ","color":"green","extr
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"Wait a minute. Vonaheim is already in possession of the gem. You will have to face it...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"Wait a minute. Vonaheim is already in possession of the gem. You will have to face him...","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

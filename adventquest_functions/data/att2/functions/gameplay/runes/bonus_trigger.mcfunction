@@ -33,7 +33,7 @@ execute as @e[type=minecraft:armor_stand,tag=runicwordStand] if data entity @s {
 #12 Ave Qi Gal Jo Wej
 execute as @e[type=minecraft:armor_stand,tag=runicwordStand] if data entity @s {HandItems:[{id:"minecraft:miner_pottery_sherd",tag:{display:{Name:"\"§5Cicatrice\""}}},{}]} run function att2:gameplay/runes/bonus/12_ave_qi_gal_jo_wej
 #13 Tha Bex For
-execute as @e[type=minecraft:armor_stand,tag=runicwordStand] if data entity @s {HandItems:[{id:"minecraft:mourner_pottery_sherd",tag:{display:{Name:"\"§5Eternité\""}}},{}]} run function att2:gameplay/runes/bonus/13_tha_bex_for
+execute as @e[type=minecraft:armor_stand,tag=runicwordStand] if data entity @s {HandItems:[{id:"minecraft:mourner_pottery_sherd",tag:{display:{Name:"\"§5Éternité\""}}},{}]} run function att2:gameplay/runes/bonus/13_tha_bex_for
 #14 Puh Wej Von Org
 execute as @e[type=minecraft:armor_stand,tag=runicwordStand] if data entity @s {HandItems:[{id:"minecraft:plenty_pottery_sherd",tag:{display:{Name:"\"§5Esprit\""}}},{}]} run function att2:gameplay/runes/bonus/14_puh_wej_von_org
 #15 Syl Da Ave Qi Ra

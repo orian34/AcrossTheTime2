@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest											#
-#Stop space gem ambiance                             			#
+#Stop Gem of Space ambiance                             			#
 #################################################################
 
 tag @s remove NoAutoMusic

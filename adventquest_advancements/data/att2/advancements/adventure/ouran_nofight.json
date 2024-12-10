@@ -4,7 +4,7 @@
             "item": "minecraft:sunflower"
             },
         "title": {"translate":"Smooth talker"},
-        "description": {"translate":"Find a way to get the Time Gem without fighting Ouran."},
+        "description": {"translate":"Find a way to get the Gem of Time without fighting Ouran."},
         "frame": "challenge",
         "hidden": true
     },

@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Iio : ","color":"yellow","extra"
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Iio : ","color":"yellow","extra":[{"text":"There's nothing that you owe that he can really steal. Because your valor remains in your heart of gold and not in your material properties","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Iio : ","color":"yellow","extra":[{"text":"There's nothing that you owe that he can really steal. Because your worth remains in your heart of gold and not in your material properties","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

@@ -1,6 +1,6 @@
 #############################################
 #Made by Adventquest						#
-#Use function to activate the title Serile	#
+#Use function to activate the title Sérile	#
 #############################################
 
 

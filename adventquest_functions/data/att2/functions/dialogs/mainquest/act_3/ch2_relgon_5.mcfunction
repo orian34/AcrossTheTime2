@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Relgon : ","color":"red","extra"
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"From Tellurön?..... I present to you Etotsira, wise and warrior who comes to us from the same world. I still don't know your ancestry, but if it is similar to his, your help will not be too much.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"From Tellurön?..... I present to you Etotsira, wise and warrior who comes to us from the same world. I still don't know your ancestry, but if it is similar to his, your help will be appreciated.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE
@@ -60,4 +60,3 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Relgon : ","color":"red","extra"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"De Tellurön?..... Apresento a você Etotsira, sábio e guerreiro que vem do mesmo mundo. Ainda não conheço sua ascendência, mas se for semelhante à dele, sua ajuda será muito valiosa.","color":"dark_aqua"}]}
-

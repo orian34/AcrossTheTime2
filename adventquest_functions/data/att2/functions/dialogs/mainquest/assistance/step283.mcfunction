@@ -14,7 +14,7 @@ tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Sérile is determined, I must try to stop it before it destroys the whole city ... It generates a kind of Dahäl sphere, I must destroy it before it fully charges its full power.","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Sérile is determined, I must try to stop her before she destroys the whole city... She generated a kind of Dahäl sphere, I must destroy it before she fully charges her full power.","color":"aqua"}]}
 
 #CHINESE LANGUAGE
 
@@ -34,13 +34,13 @@ tellraw @s[scores={LANGUAGE=5}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 tellraw @s[scores={LANGUAGE=6}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Серил настроена решительно, я должен попытаться остановить ее, прежде чем она уничтожит весь город... Она генерирует своего рода сферу Дахаля, мне нужно уничтожить ее, пока она полностью не зарядится.","color":"aqua"}]}
 
 # SPANISH LANGUAGE
-tellraw @s[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Serile está decidida, debo intentar detenerla antes de que destruya toda la ciudad ... Ella genera una especie de esfera de Dahäl, debo destruirla antes de que cargue completamente su poder.","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Sérile está decidida, debo intentar detenerla antes de que destruya toda la ciudad ... Ella genera una especie de esfera de Dahäl, debo destruirla antes de que cargue completamente su poder.","color":"aqua"}]}
 
 # GERMAN LANGUAGE
-tellraw @s[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Serile ist entschlossen, ich muss versuchen, sie aufzuhalten, bevor sie die ganze Stadt zerstört ... Sie erzeugt eine Art Dahäl-Kugel, die ich zerstören muss, bevor sie vollständig aufgeladen ist.","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Sérile ist entschlossen, ich muss versuchen, sie aufzuhalten, bevor sie die ganze Stadt zerstört ... Sie erzeugt eine Art Dahäl-Kugel, die ich zerstören muss, bevor sie vollständig aufgeladen ist.","color":"aqua"}]}
 
 # HINDI LANGUAGE
 tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"सेरील निर्धारित है, मुझे इसे रोकने का प्रयास करना चाहिए कि वह सभी शहर को नष्ट करने से पहले... यह डाहल गोला का एक प्रकार उत्पन्न करता है, मुझे इसे पूरी तरह से चार्ज होने से पहले नष्ट करना होगा।","color":"aqua"}]}
 
 # PORTUGUESE LANGUAGE
-tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Serile está determinada, devo tentar detê-lo antes que destrua toda a cidade... Ele gera uma espécie de esfera de Dahäl, devo destruí-la antes que ela carregue completamente seu poder.","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Sérile está determinada, devo tentar detê-lo antes que destrua toda a cidade... Ele gera uma espécie de esfera de Dahäl, devo destruí-la antes que ela carregue completamente seu poder.","color":"aqua"}]}

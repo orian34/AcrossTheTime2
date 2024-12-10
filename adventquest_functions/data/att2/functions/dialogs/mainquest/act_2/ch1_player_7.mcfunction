@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Je mourrai de froid si je passe la nuit dehors, et qui sait, quelle bête je pourrais rencontrer... Attendez ! Je suis un expert en combat et chasse à la lame, de plus je suis un maître du Dahäl ! Je vous en prie ! N'y a-t'il rien que je puisse faire pour payer ma nuit ?","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Je mourrai de froid si je passe la nuit dehors, et qui sait quelle bête je pourrais rencontrer... Attendez ! Je suis un expert en combat et chasse à la lame, de plus je suis un maître du Dahäl ! Je vous en prie ! N'y a-t'il rien que je puisse faire pour payer ma nuit ?","color":"aqua"}]}
 
 
 #ENGLISH LANGUAGE

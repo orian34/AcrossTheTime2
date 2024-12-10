@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest											#
-#Stop time gem ambiance                             			#
+#Stop Gem of Time ambiance                             			#
 #################################################################
 
 tag @s remove NoAutoMusic

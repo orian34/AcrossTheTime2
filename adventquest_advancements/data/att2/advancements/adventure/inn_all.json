@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:green_bed"
         },
-        "title": {"translate":"The world is the traveler's inn!"},
+        "title": {"translate":"The world is the traveller's inn!"},
         "description": {"translate":"Booked a room in all inns of Sylberländ."},
         "frame": "challenge"
     },

@@ -13,19 +13,19 @@ tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Pff... Where could I find another Neleptron... There's a strange mechanism a little higher, I should probably start with this.","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Pff... Where could I find another Néleptron... There's a strange mechanism a little higher, I should probably start with this.","color":"aqua"}]}
 
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"噗...我在哪裡可以找到另一個Neleptron...有點奇怪的機制， 我應該從這個開始。","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"噗...我在哪裡可以找到另一個Néleptron...有點奇怪的機制， 我應該從這個開始。","color":"aqua"}]}
 
 
 # GERMAN LANGUAGE
-tellraw @a[scores={LANGUAGE=3}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Pff... Wo könnte ich einen anderen Neleptron finden... Es gibt eine seltsame Mechanik etwas höher, ich sollte vielleicht damit anfangen.","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=3}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Pff... Wo könnte ich einen anderen Néleptron finden... Es gibt eine seltsame Mechanik etwas höher, ich sollte vielleicht damit anfangen.","color":"aqua"}]}
 
 # SPANISH LANGUAGE
-tellraw @a[scores={LANGUAGE=4}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Pff... ¿Dónde podría encontrar otro Neleptron... Hay un extraño mecanismo un poco más arriba, probablemente debería empezar por ahí.","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=4}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Pff... ¿Dónde podría encontrar otro Néleptron... Hay un extraño mecanismo un poco más arriba, probablemente debería empezar por ahí.","color":"aqua"}]}
 
 # RUSSIAN LANGUAGE
 tellraw @a[scores={LANGUAGE=5}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Фф... Где я могу найти еще один Нелептрон... Есть странный механизм чуть выше, я, вероятно, должен начать с этого.","color":"aqua"}]}
@@ -43,4 +43,4 @@ tellraw @a[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"फफ... मैं एक और नेलेप्ट्रॉन कहाँ पा सकता हूँ... वहाँ ऊपर एक अजीब मेकेनिज़्म है, मुझे शायद उससे शुरू करना चाहिए।","color":"aqua"}]}
 
 # PORTUGUESE LANGUAGE
-tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Pff... Onde posso encontrar outro Neleptron... Há um mecanismo estranho um pouco acima, eu deveria começar por aí.","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Pff... Onde posso encontrar outro Néleptron... Há um mecanismo estranho um pouco acima, eu deveria começar por aí.","color":"aqua"}]}

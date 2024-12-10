@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:diamond_sword"
         },
-        "title": {"translate":"Epée de Dramio"},
+        "title": {"translate":"Épée de Dramio"},
         "description": {"translate":"Worthless... for some of us..."},
         "show_toast": false,
         "announce_to_chat": true
@@ -16,7 +16,7 @@
                 "items": [
                     {
                     "items": ["minecraft:diamond_sword"],
-                    "nbt": "{display:{Name:\"\\\"§7Epée de Dramio\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Sans valeur... pour certains...\\\"}\",\"{\\\"text\\\":\\\"§7Worthless... for some of us...\\\"}\",\"{\\\"text\\\":\\\"§7HAS§c-1 §7DAR§c-1\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§7Épée de Dramio\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Sans valeur... pour certains...\\\"}\",\"{\\\"text\\\":\\\"§7Worthless... for some of us...\\\"}\",\"{\\\"text\\\":\\\"§7HAS§c-1 §7DAR§c-1\\\"}\"]}}"
                     }
                 ]
             }

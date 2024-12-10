@@ -13,12 +13,12 @@ tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"It's a Neleptron, it should be enough to make the bridge's mechanism work again. I must get it.","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"It's a Néleptron, it should be enough to make the bridge's mechanism work again. I must get it.","color":"aqua"}]}
 
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"是Neleptron， 應該足以讓橋樑的機制再次工作。我必須得到它。","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"是Néleptron， 應該足以讓橋樑的機制再次工作。我必須得到它。","color":"aqua"}]}
 
 
 #JAPANESE LANGUAGE
@@ -33,7 +33,7 @@ tellraw @a[scores={LANGUAGE=4}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #ARABIC LANGUAGE
 
-tellraw @a[scores={LANGUAGE=5}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"إنه Neleptron، يجب أن يكون كافياً لجعل آلية الجسر تعمل مرة أخرى. يجب أن أحصل عليه.","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=5}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"إنه Néleptron، يجب أن يكون كافياً لجعل آلية الجسر تعمل مرة أخرى. يجب أن أحصل عليه.","color":"aqua"}]}
 
 
 #RUSSIAN LANGUAGE
@@ -43,12 +43,12 @@ tellraw @a[scores={LANGUAGE=6}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #SPANISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Es un Neleptron, debería ser suficiente para que el mecanismo del puente vuelva a funcionar. Debo conseguirlo.","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Es un Néleptron, debería ser suficiente para que el mecanismo del puente vuelva a funcionar. Debo conseguirlo.","color":"aqua"}]}
 
 
 #GERMAN LANGUAGE
 
-tellraw @a[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Es ist ein Neleptron, es sollte ausreichen, um den Mechanismus der Brücke wieder zum Laufen zu bringen. Ich muss es bekommen.","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Es ist ein Néleptron, es sollte ausreichen, um den Mechanismus der Brücke wieder zum Laufen zu bringen. Ich muss es bekommen.","color":"aqua"}]}
 
 
 #HINDI LANGUAGE
@@ -58,4 +58,4 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #PORTUGUESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"É um Neleptron, deve ser suficiente para fazer o mecanismo da ponte funcionar novamente. Eu preciso consegui-lo.","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"É um Néleptron, deve ser suficiente para fazer o mecanismo da ponte funcionar novamente. Eu preciso consegui-lo.","color":"aqua"}]}

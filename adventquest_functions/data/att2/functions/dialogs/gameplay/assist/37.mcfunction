@@ -7,7 +7,7 @@ function att2:dialogs/gameplay/assist/decoration_up
 
 
 #FRENCH LANGUAGE
-tellraw @s[scores={LANGUAGE=0}] {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"Les potions à boire possèdent aussi des bonus et malus d'aptitudes, cependant ce sont les seuls objets ayant un temps limité d'application d'effet.","color":"gray","bold":false}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"Les potions à boire possèdent aussi des bonus et malus d'aptitude, cependant ce sont les seuls objets ayant un temps limité d'application d'effet.","color":"gray","bold":false}]}
 
 #ENGLISH LANGUAGE
 tellraw @s[scores={LANGUAGE=1..}] {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"Drinking potions also have skill bonuses and penalties, however these are the only items with a limited time of effect application.","color":"gray","bold":false}]}

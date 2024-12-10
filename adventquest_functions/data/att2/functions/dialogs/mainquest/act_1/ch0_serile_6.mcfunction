@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° S : ","color":"gray","extra":[{"
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° S : ","color":"gray","extra":[{"text":"And I imagine someone has already told you why it holds its name?","color":"yellow","italic":true}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° S : ","color":"gray","extra":[{"text":"And I assume someone has already told you why it holds this name?","color":"yellow","italic":true}]}
 
 
 #CHINESE LANGUAGE

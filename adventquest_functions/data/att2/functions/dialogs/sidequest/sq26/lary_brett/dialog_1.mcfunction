@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Lary Brett : ","color":"green","
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Lary Brett : ","color":"green","extra":[{"text":"Hello, what are you doing around here? Ah a traveler, again... A word of advice, avoid the cemetery at this time: some of the dead have come back to life and are attacking everyone. The city of Méleïm does not intend to help me settle this... In short, alone, I do not dare to venture there...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Lary Brett : ","color":"green","extra":[{"text":"Hello, what are you doing around here? Ah a traveller, again... A word of advice, avoid the cemetery at this time: some of the dead have come back to life and are attacking everyone. The city of Méleïm does not intend to help me settle this... In short, alone, I do not dare to venture there...","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Soldat Mortel : ","color":"green","extra":[{"text":"C'est qui celui-là? Aller les gars, attrapez-le, je déteste les mauvaises surprises !","color":"red"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Soldat Mortel : ","color":"green","extra":[{"text":"C'est qui celui-là? Allez les gars, attrapez-le, je déteste les mauvaises surprises !","color":"red"}]}
 
 
 #ENGLISH LANGUAGE

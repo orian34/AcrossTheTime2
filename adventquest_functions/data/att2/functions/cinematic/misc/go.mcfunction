@@ -40,7 +40,7 @@ execute if score Mainquest SIDEQUEST matches 220..275 run function att2:gameplay
 execute if score Mainquest SIDEQUEST matches 275..279 run function att2:cinematic/act_4/ithax/temporal_anomaly_go
 # Umbra'Tyanth
 execute if score SQ46 SIDEQUEST matches 3.. run function att2:gameplay/boss/ether/umbratyanth/go
-# Serile
+# Sérile
 execute if score Mainquest SIDEQUEST matches 282..285 run function att2:gameplay/boss/serile/go
 
 ### Process Secret dungeon

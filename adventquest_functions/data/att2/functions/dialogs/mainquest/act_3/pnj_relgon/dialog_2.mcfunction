@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"Etes-vous prêt pour l'ultime bataille?","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"Êtes-vous prêt pour l'ultime bataille?","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

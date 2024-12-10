@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:golden_hoe"
         },
-        "title": {"translate":"Epine Obelcanth"},
+        "title": {"translate":"Épine Obelcanth"},
         "description": {"translate":"Borrowed from one of the oldest of them"},
         "frame": "goal",
         "show_toast": false,
@@ -20,7 +20,7 @@
                 "items": [
                     {
                     "items": ["minecraft:golden_hoe"],
-                    "nbt": "{display:{Name:\"\\\"§9Epine Obelcanth\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Emprunté à un des plus anciens d'entre eux\\\"}\",\"{\\\"text\\\":\\\"§7Borrowed from one of the oldest of them\\\"}\",\"{\\\"text\\\":\\\"§7DAR§a2 §7SPD§a1 §7HAS§c-2\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§9Épine Obelcanth\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Emprunté à un des plus anciens d'entre eux\\\"}\",\"{\\\"text\\\":\\\"§7Borrowed from one of the oldest of them\\\"}\",\"{\\\"text\\\":\\\"§7DAR§a2 §7SPD§a1 §7HAS§c-2\\\"}\"]}}"
                     }
                 ]
             }

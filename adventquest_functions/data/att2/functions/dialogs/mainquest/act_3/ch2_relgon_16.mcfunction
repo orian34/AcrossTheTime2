@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"Malgré qu'aucun signe annonciateur de conflit ne vint, la peur d'une guerre violente comme celles de lointains passés, frappa le peuple Eternän.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"Malgré qu'aucun signe annonciateur de conflit ne vint, la peur d'une guerre violente comme celles de lointains passés frappa le peuple Eternän.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

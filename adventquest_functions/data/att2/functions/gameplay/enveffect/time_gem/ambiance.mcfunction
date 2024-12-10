@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest											#
-#Start time gem ambiance                             			#
+#Start Gem of Time ambiance                             			#
 #################################################################
 
 scoreboard players set @s[scores={TG_AMBIANCE=0}] TG_AMBIANCE 600

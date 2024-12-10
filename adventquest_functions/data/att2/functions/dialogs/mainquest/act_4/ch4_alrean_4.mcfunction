@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Alréan : ","color":"gold","extr
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Alréan : ","color":"gold","extra":[{"text":"Then you are more special than we were thinking of. You went through the portal nearby, aren't you?","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Alréan : ","color":"gold","extra":[{"text":"Then you are more special than we were thinking. You went through the portal nearby, aren't you?","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

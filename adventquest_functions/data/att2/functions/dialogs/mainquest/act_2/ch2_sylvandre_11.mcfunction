@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"Ce bâtiment est la banque. Ici tu pourras stoquer tes Chronoton pour ne pas les perdre si ton chemin te mène vers le danger.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"Ce bâtiment est la banque. Ici tu pourras stocker tes Chronotons pour ne pas les perdre si ton chemin te mène vers le danger.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

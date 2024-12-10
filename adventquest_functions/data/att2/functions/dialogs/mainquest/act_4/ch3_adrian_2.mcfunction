@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Roi Adrian : ","color":"gold","e
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° King Adrian : ","color":"gold","extra":[{"text":"No, not me, but go find my daughter, Ithil : you'll find her upstairs. She shall guid you.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° King Adrian : ","color":"gold","extra":[{"text":"No, not me, but go find my daughter, Ithil : you'll find her upstairs. She shall guide you.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

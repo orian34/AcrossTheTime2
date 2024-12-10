@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Philipo Tisdal : ","color":"gree
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"There, that is the face of a traveler looking for work! You're in luck, I am overwhelmed, I have to manage all my harvests alone since my wife is... gone... However, the filthy vermin, these weird rats are devouring my pumpkins! They are tough and reproduce at some speed! I don't know what to do to get rid of them, would you be able to help for a few Chronotons?","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Philipo Tisdal : ","color":"green","extra":[{"text":"There, that is the face of a traveller looking for work! You're in luck, I am overwhelmed, I have to manage all my harvests alone since my wife is... gone... However, the filthy vermin, these weird rats are devouring my pumpkins! They are tough and reproduce at some speed! I don't know what to do to get rid of them, would you be able to help for a few Chronotons?","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

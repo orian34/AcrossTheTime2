@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"J'allais oublier ! Hé toi, le mortel qui à l'air complétement perdu ! Que s'est-t'il passé ici ? Que fais-tu là ?","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"J'allais oublier ! Hé toi, le mortel qui a l'air complètement perdu ! Que s'est-il passé ici ? Que fais-tu là ?","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

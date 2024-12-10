@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Look, miss, I didn't come here to get money extorted, but if it's the trouble you're looking for, I can guarantee you'll find it. -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-041a-0000-00000000041a if entity @s[distance=..7] if score syri_lorth_meleim_PNJ DIALOG matches 1..2 run function att2:dialogs/mainquest/act_2/pnj_syri_lorth/answer_red_1"},"hoverEvent":{"action":"show_text","value":"Click here - answer 3"}}]}
+tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Look, miss, I didn't come here to get money extorted, but if it's trouble you're looking for, I can guarantee you'll find it. -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute at 00000000-0000-041a-0000-00000000041a if entity @s[distance=..7] if score syri_lorth_meleim_PNJ DIALOG matches 1..2 run function att2:dialogs/mainquest/act_2/pnj_syri_lorth/answer_red_1"},"hoverEvent":{"action":"show_text","value":"Click here - answer 3"}}]}
 
 
 #CHINESE LANGUAGE

@@ -10,11 +10,11 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 2","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Selon les dires d'Indra Lorth, une grande structure abriterait une gemme d'espace dans les marécages d'Owsästr. Je dois partir en direction du Sud, mais j'ai beaucoup de chemins à parcourir. Indra m'a conseillé d'aller à l'écurie de Méleïm prendre un cheval afin de faciliter mes déplacements.","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Selon les dires d'Indra Lorth, une grande structure abriterait une Gemme d'Espace dans les marécages d'Owsästr. Je dois partir en direction du Sud, mais j'ai beaucoup de chemin à parcourir. Indra m'a conseillé d'aller à l'écurie de Méleïm prendre un cheval afin de faciliter mes déplacements.","color":"aqua"}]}
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"According to Indra Lorth, a large structure would house a space gemme in the Owsästr swamps, so I have to head south, but I have a long way to go. Indra advised me to go to Méleïm's stable and take a horse to make my movements easier.","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"According to Indra Lorth, a large structure would house a Gem of Space in the Owsästr swamps, so I have to head south, but I have a long way to go. Indra advised me to go to Méleïm's stables and get a horse to make my travels easier.","color":"aqua"}]}
 
 #CHINESE LANGUAGE
 

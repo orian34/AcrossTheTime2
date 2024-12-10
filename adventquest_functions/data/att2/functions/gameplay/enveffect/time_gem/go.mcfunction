@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest											#
-#Process ambiance for players close to a time gem  				#
+#Process ambiance for players close to a Gem of Time  				#
 #################################################################
 
 # Vonaheim TimeGem

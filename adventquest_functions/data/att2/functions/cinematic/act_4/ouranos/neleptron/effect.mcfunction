@@ -1,6 +1,6 @@
 #############################################################
 #Made by Adventquest										#
-#Process give neleptron effect 								#
+#Process give Néleptron effect 								#
 #############################################################
 
 particle minecraft:dust 1 1 0 0.5 ~ ~1 ~ 0.5 0.7 0.5 0 100 normal

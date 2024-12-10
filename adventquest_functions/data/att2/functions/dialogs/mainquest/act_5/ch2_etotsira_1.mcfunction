@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Etotsira : ","color":"blue","ext
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Congratulations ","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":" ! You couldn't have done better, because, by freeing Sérile from here curse and by making hope rebirth in her, you saved a lot more than only she, you and Tellurön.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Congratulations ","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":"! You couldn't have done better, because, by freeing Sérile from her curse and by making hope rebirth in her, you saved a lot more than only she, you and Tellurön.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

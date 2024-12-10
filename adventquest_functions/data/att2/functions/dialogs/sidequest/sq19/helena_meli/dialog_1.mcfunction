@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Hélèna Meli : ","color":"green
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Hélèna Meli : ","color":"green","extra":[{"text":"Hey traveler! Here we take care of the horses of city dwellers and nomads like you! There aren't any horses for sale right now, they dun' fall from the trees these beasts! 'end I have some, but I don't know what's with 'em in these times: them on edge, panicking at a breeze. I got ta settle this, but come back soon!","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Hélèna Meli : ","color":"green","extra":[{"text":"Hey traveller! Here we take care of the horses of city dwellers and nomads like you! There aren't any horses for sale right now, they dun' fall from the trees these beasts! 'end I have some, but I don't know what's with 'em in these times: them on edge, panicking at a breeze. I got ta settle this, but come back soon!","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

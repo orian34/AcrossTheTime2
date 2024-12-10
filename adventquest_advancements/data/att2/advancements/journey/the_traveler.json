@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:music_disc_pigstep"
         },
-        "title": {"translate":"The Traveler"},
+        "title": {"translate":"The Traveller"},
         "description": {"translate":"Discover all exploration symbols"},
         "frame": "challenge"
     },

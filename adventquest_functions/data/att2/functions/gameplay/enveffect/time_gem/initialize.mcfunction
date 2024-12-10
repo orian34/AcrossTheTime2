@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest											#
-#Initialize Time gem music timer								#
+#Initialize Gem of Time music timer								#
 #################################################################
 
 scoreboard objectives add TG_AMBIANCE dummy

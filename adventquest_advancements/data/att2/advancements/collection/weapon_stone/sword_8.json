@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:wooden_sword"
         },
-        "title": {"translate":"Epée"},
+        "title": {"translate":"Épée"},
         "description": {"translate":"Blunt."},
         "show_toast": false,
         "announce_to_chat": true
@@ -16,7 +16,7 @@
                 "items": [
                     {
                     "items": ["minecraft:wooden_sword"],
-                    "nbt": "{display:{Name:\"\\\"§7Epée\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Emoussée.\\\"}\",\"{\\\"text\\\":\\\"§7Blunt.\\\"}\",\"{\\\"text\\\":\\\"§7RES§c-1\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§7Épée\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Emoussée.\\\"}\",\"{\\\"text\\\":\\\"§7Blunt.\\\"}\",\"{\\\"text\\\":\\\"§7RES§c-1\\\"}\"]}}"
                     }
                 ]
             }

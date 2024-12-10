@@ -14,11 +14,11 @@ tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Here I am finally back home, just when I jumped from the balcony up there. I see Serile, let's talk to it !","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Here I am finally back home, just when I jumped from the balcony up there. I see Sérile, let's talk to her!","color":"aqua"}]}
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我終於回到家了， 就在我從陽台上跳下來的時候。我看到了 Serile， 我們來談談吧！ ","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"我終於回到家了， 就在我從陽台上跳下來的時候。我看到了 Sérile， 我們來談談吧！ ","color":"aqua"}]}
 
 
 # JAPANESE LANGUAGE
@@ -34,13 +34,13 @@ tellraw @s[scores={LANGUAGE=5}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 tellraw @s[scores={LANGUAGE=6}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Наконец-то я вернулся домой, как раз тогда, когда прыгнул с балкона там наверху. Вижу Сериля, поговорим с ним!","color":"aqua"}]}
 
 # SPANISH LANGUAGE
-tellraw @s[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Aquí estoy finalmente de vuelta en casa, justo cuando salté desde el balcón allá arriba. Veo a Serile, ¡vamos a hablar con él!","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Aquí estoy finalmente de vuelta en casa, justo cuando salté desde el balcón allá arriba. Veo a Sérile, ¡vamos a hablar con él!","color":"aqua"}]}
 
 # GERMAN LANGUAGE
-tellraw @s[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Hier bin ich endlich wieder zu Hause, genau als ich von dort oben vom Balkon gesprungen bin. Ich sehe Serile, lass uns mit ihm sprechen!","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Hier bin ich endlich wieder zu Hause, genau als ich von dort oben vom Balkon gesprungen bin. Ich sehe Sérile, lass uns mit ihm sprechen!","color":"aqua"}]}
 
 # HINDI LANGUAGE
 tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"यहां मैं अंत में घर वापस हूं, बालकनी से ऊपर जाकर जब मैंने कूदा था। मैं सेरिल को देख रहा हूँ, चलो उससे बात करें!","color":"aqua"}]}
 
 # PORTUGUESE LANGUAGE
-tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Aqui estou finalmente de volta em casa, justo quando pulei da sacada lá em cima. Vejo Serile, vamos conversar com ele!","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Aqui estou finalmente de volta em casa, justo quando pulei da sacada lá em cima. Vejo Sérile, vamos conversar com ele!","color":"aqua"}]}

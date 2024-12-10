@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"Si tu le souhaites, le maître des compétences pourra ré-initialiser tes points d'aptitudes... Pardon je veux dire, réorienter tes appétences...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"Si tu le souhaites, le maître des compétences pourra ré-initialiser tes points d'aptitude... Pardon je veux dire, réorienter tes appétences...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

@@ -10,11 +10,11 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 5","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Le portail temporel de Ryliath est maintenant activé, mais si je l'emprunte je ne pourrai peut-être pas revenir... Je devrais donc avant-tout bien me préparer.","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Le portail temporel de Ryliath est maintenant activé, mais si je l'emprunte je pourrais ne peut-être pas revenir... Je devrais donc avant-tout bien me préparer.","color":"aqua"}]}
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Ryliath's time portal is now activated, but if I take it I may not be able to come back ... So I should first of all prepare myself well.","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Ryliath's time portal is now activated, but if I take it I may not be able to turn back... So I should first of all prepare myself well.","color":"aqua"}]}
 
 #CHINESE LANGUAGE
 

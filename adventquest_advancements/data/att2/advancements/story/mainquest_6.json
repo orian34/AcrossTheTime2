@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:barrier"
         },
-        "title": {"translate":"Second space gem"},
+        "title": {"translate":"Second Gem of Space"},
         "description": {"translate":"A painful awakening"},
         "frame": "goal"
     },

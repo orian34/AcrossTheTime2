@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest											#
-#Start space gem ambiance                             			#
+#Start Gem of Space ambiance                             			#
 #################################################################
 
 tag @s add NoAutoMusic

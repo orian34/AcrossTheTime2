@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Relgon : ","color":"red","extra"
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"It did not end there. In a single hour, she ruined the city of Angor, spitting out its black fire everywhere, which never went out. A large part of the Eternän people died that day.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"It did not end there. In a single hour, she ruined the city of Angor, spitting out her black fire which never goes out everywhere. A large part of the Eternän people died that day.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

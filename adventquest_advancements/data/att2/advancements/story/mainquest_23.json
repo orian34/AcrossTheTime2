@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:barrier"
         },
-        "title": {"translate":"Dimensional traveler"},
+        "title": {"translate":"Dimensional traveller"},
         "description": {"translate":"Across The Time"},
         "frame": "goal"
     },

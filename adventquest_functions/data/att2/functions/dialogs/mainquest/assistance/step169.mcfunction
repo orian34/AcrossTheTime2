@@ -14,7 +14,7 @@ tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"The last emerald is ready to be released, I just need to find the two Emerald keys to open the door in the center. They must be at the very top of the tower. I could then activate the drop mechanism !","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"The last emerald is ready to be released, I just need to find the two emerald keys to open the door in the center. They must be at the very top of the tower. I could then activate the drop mechanism!","color":"aqua"}]}
 
 #CHINESE LANGUAGE
 

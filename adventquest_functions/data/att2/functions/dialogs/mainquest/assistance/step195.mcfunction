@@ -14,7 +14,7 @@ tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"A glass wall blocks the way. I have to find a way to unlock the big bell in front and ring it to hope for the opening of the passage ...","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"A glass wall blocks the way. I have to find a way to unblock the big bell in front and ring it in hopes of opening the passage...","color":"aqua"}]}
 
 #CHINESE LANGUAGE
 

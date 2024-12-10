@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"Il y a trente cycles, soit environs trente de tes années, une médium est venue dans la cité d'Angor, emportant avec elle une sombre prophétie...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"Il y a trente cycles, soit environ trente de tes années, une médium est venue dans la cité d'Angor, emportant avec elle une sombre prophétie...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
@@ -60,4 +60,3 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Relgon : ","color":"red","extra"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"Há trinta ciclos, cerca de trinta de seus anos, uma médium veio à cidade de Angor, trazendo consigo uma profecia sombria...","color":"dark_aqua"}]}
-

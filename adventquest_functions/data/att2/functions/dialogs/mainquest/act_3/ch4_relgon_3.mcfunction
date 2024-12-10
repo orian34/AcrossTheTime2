@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"L'heure approche où nous devrons affronter La Flamme Noire. Si tout se passe comme nous l'espérons, que nous sortons vivants et vaincœurs de cette épreuve, je ne pourrai rester sur le trône d'Angband. Ce n'est pas ma place.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"L'heure approche où nous devrons affronter La Flamme Noire. Si tout se passe comme nous l'espérons, que nous sortons vivants et vainqueurs de cette épreuve, je ne pourrai rester sur le trône d'Angband. Ce n'est pas ma place.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

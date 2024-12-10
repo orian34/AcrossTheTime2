@@ -8,12 +8,12 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"*Sans enthousiasme, sérieux* Bienvenue voyageur. Je suis Relgon, Général des armées Eternäns et représentant du trône d'Angband. Comment vous appelez-vous et de quel royaume venez-vous ?","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"*sans enthousiasme, sérieux* Bienvenu voyageur. Je suis Relgon, Général des armées Eternäns et représentant du trône d'Angband. Comment vous appelez-vous et de quel royaume venez-vous ?","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"*Without enthusiasm, seriously* Welcome traveller. I am Relgon, General of the Eternäns armies and representative of the throne of Angband. What is your name and what kingdom do you come from?","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"*without enthusiasm, seriously* Welcome traveller. I am Relgon, General of the Eternän armies and representative of the throne of Angband. What is your name and which kingdom do you come from?","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE
@@ -60,4 +60,3 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Relgon : ","color":"red","extra"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"*Sem entusiasmo, seriamente* Bem-vindo viajante. Eu sou Relgon, General dos exércitos de Eternäns e representante do trono de Angband. Qual é o seu nome e de que reino você vem?","color":"dark_aqua"}]}
-

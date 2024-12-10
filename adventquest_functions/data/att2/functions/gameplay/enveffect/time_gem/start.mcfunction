@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest											#
-#Start time gem ambiance                             			#
+#Start Gem of Time ambiance                             			#
 #################################################################
 
 tag @s add NoAutoMusic

@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Skaolon : ","color":"green","ext
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"So what? Warriors are respectable people, but nothing's too good for our revered excellence.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"So what? Warriors are respectable people, but nothing's too good for our revered excellency.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

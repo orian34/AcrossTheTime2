@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Gerard : ","color":"green","extr
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Gerard : ","color":"green","extra":[{"text":"What else do you want? I was very nice to let you enter my house but do not abuse the hospitality. It seemed to me that you were a traveler right? So go travel somewhere else please...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Gerard : ","color":"green","extra":[{"text":"What else do you want? I was very nice to let you enter my house but do not abuse the hospitality. It seemed to me that you were a traveller right? So go travel somewhere else please...","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

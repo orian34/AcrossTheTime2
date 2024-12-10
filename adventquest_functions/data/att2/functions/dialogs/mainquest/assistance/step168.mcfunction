@@ -14,7 +14,7 @@ tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"I can climb on the rail that holds the emerald in suspension and unlock the mechanism that prevents it from moving. After doing this I could return to the center to activate the mechanism which, I hope, will transport the emerald directly in front of the hole ...","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"I can climb on the rail that holds the emerald in suspension and unlock the mechanism that prevents it from moving. After doing this I can return to the center to activate the mechanism which, I hope, will transport the emerald directly in front of the hole...","color":"aqua"}]}
 
 #CHINESE LANGUAGE
 

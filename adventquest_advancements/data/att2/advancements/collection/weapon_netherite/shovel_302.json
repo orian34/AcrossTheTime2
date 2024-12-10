@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:netherite_shovel"
         },
-        "title": {"translate":"Epluchoir"},
+        "title": {"translate":"Épluchoir"},
         "description": {"translate":"The heads look like igname."},
         "frame": "goal",
         "show_toast": false,
@@ -20,7 +20,7 @@
                 "items": [
                     {
                     "items": ["minecraft:netherite_shovel"],
-                    "nbt": "{display:{Name:\"\\\"§9Epluchoir\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Les têtes ressemblent à des patates douces.\\\"}\",\"{\\\"text\\\":\\\"§7The heads look like igname.\\\"}\",\"{\\\"text\\\":\\\"§7HER§a1 §7DAR§a1 §7HAS§c-1\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§9Épluchoir\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Les têtes ressemblent à des patates douces.\\\"}\",\"{\\\"text\\\":\\\"§7The heads look like igname.\\\"}\",\"{\\\"text\\\":\\\"§7HER§a1 §7DAR§a1 §7HAS§c-1\\\"}\"]}}"
                     }
                 ]
             }

@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Wirth Razgork : ","color":"green","extra":[{"text":"Que cherchez-vous dans ma maison ? Vous avez plutôt intérêt à déguerpir d'ici si vous ne voulez pas de problème !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Wirth Razgork : ","color":"green","extra":[{"text":"Que cherchez-vous dans ma maison ? Vous avez plutôt intérêt à déguerpir d'ici si vous ne voulez pas de problèmes !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

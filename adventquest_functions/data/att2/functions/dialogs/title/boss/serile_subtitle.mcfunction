@@ -1,6 +1,6 @@
 #################################################
 #Made by Adventquest							#
-#Use function to activate the subtitle Serile   #
+#Use function to activate the subtitle Sérile   #
 #################################################
 
 

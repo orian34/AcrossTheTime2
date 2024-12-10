@@ -1,6 +1,6 @@
 ##################################################
 #Made by Adventquest                             #
-#Execute the visual effect for serile's tp		 #
+#Execute the visual effect for Sérile's tp		 #
 ##################################################
 
 execute as 00000000-0000-001a-0000-00000000001a at @s run particle minecraft:item minecraft:obsidian ~ ~ ~ 0 0 0 1.2 250 force @a

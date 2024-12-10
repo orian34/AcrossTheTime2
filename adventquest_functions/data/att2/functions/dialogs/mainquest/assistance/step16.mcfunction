@@ -8,11 +8,11 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"J'ai ma première gemme d'espace, je vais devoir la déposer sur l'autel à l'entrée de la ville de Ryliath.","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"J'ai ma première Gemme d'Espace, je vais devoir la déposer sur l'autel à l'entrée de la ville de Ryliath.","color":"aqua"}]}
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"I have my first space gem, I will have to place it on the altar at the entrance of the city of Ryliath.","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"I have my first Gem of Space, I will have to place it on the altar at the entrance of the city of Ryliath.","color":"aqua"}]}
 
 #CHINESE LANGUAGE
 

@@ -17,7 +17,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Ouran : ","color":"gold","extra"
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"Disrespectful, you really don't know the power of a king-demigod! Last time you was just lucky! You shall die!","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"Arrogant fool, you really don't know the power of a king-demigod! Last time you were just lucky! You shall die!","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

@@ -824,7 +824,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{EquipmentType:\"potion\",Rarity:\"unc\",Effect:\"spd4_str_3\",display:{Name:\"\\\"§2Ecran de Fumée\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Pas vu, pas pris.\\\"}\",\"{\\\"text\\\":\\\"§7Vu, mais pas pris quand même.\\\"}\",\"{\\\"text\\\":\\\"§7Out of sight, out of mind.\\\"}\",\"{\\\"text\\\":\\\"§7Still, anyway out of mind.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a4 §7STR§c-3\\\"}\"]},CustomPotionColor:16777108,custom_potion_effects:[{id:invisibility,amplifier:0,duration:4000,show_particles:0b},{id:blindness,amplifier:0,duration:200,show_particles:0b}]}"
+                            "tag": "{EquipmentType:\"potion\",Rarity:\"unc\",Effect:\"spd4_str_3\",display:{Name:\"\\\"§2Écran de Fumée\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Pas vu, pas pris.\\\"}\",\"{\\\"text\\\":\\\"§7Vu, mais pas pris quand même.\\\"}\",\"{\\\"text\\\":\\\"§7Out of sight, out of mind.\\\"}\",\"{\\\"text\\\":\\\"§7Still, anyway out of mind.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a4 §7STR§c-3\\\"}\"]},CustomPotionColor:16777108,custom_potion_effects:[{id:invisibility,amplifier:0,duration:4000,show_particles:0b},{id:blindness,amplifier:0,duration:200,show_particles:0b}]}"
                         }
                     ]
                 },
@@ -984,7 +984,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{EquipmentType:\"potion\",Rarity:\"epi\",Effect:\"dar4_has_2\",display:{Name:\"\\\"§5Elixir Prestigieux\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Le Dahäl ne peut manquer,\\\"}\",\"{\\\"text\\\":\\\"§7à celui qui goute à ce breuvage.\\\"}\",\"{\\\"text\\\":\\\"§7The Dahäl cannot be missed\\\"}\",\"{\\\"text\\\":\\\"§7by anyone who tastes this beverage.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§a4 §7HAS§c-2\\\"}\"]},CustomPotionColor:11735039,custom_potion_effects:[{id:instant_health,amplifier:4,duration:2,show_particles:0b}]}"
+                            "tag": "{EquipmentType:\"potion\",Rarity:\"epi\",Effect:\"dar4_has_2\",display:{Name:\"\\\"§5Élixir Prestigieux\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Le Dahäl ne peut manquer,\\\"}\",\"{\\\"text\\\":\\\"§7à celui qui goute à ce breuvage.\\\"}\",\"{\\\"text\\\":\\\"§7The Dahäl cannot be missed\\\"}\",\"{\\\"text\\\":\\\"§7by anyone who tastes this beverage.\\\"}\",\"{\\\"text\\\":\\\"§7DAR§a4 §7HAS§c-2\\\"}\"]},CustomPotionColor:11735039,custom_potion_effects:[{id:instant_health,amplifier:4,duration:2,show_particles:0b}]}"
                         }
                     ]
                 },
@@ -2911,7 +2911,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"rar\",Manufacturer:\"graceful\",Effect:\"has2_luc1_str_1\",display:{Name:\"\\\"§9Botte d'élite\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Allèrent, vont et iront encore.\\\"}\",\"{\\\"text\\\":\\\"§7Go, go, go and go again.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a2 §7LUC§a1 §7STR§c-1\\\"}\"]},Damage:50,AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:1.32,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.68,Operation:0,Slot:feet,UUID:[I;0,20004,0,20000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:2.0,Operation:0,Slot:feet,UUID:[I;0,30004,0,20000]}]}"
+                            "tag": "{EquipmentType:\"armor\",Rarity:\"rar\",Manufacturer:\"graceful\",Effect:\"has2_luc1_str_1\",display:{Name:\"\\\"§9Bottes d'élite\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Allèrent, vont et iront encore.\\\"}\",\"{\\\"text\\\":\\\"§7Go, go, go and go again.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a2 §7LUC§a1 §7STR§c-1\\\"}\"]},Damage:50,AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:1.32,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.68,Operation:0,Slot:feet,UUID:[I;0,20004,0,20000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:2.0,Operation:0,Slot:feet,UUID:[I;0,30004,0,20000]}]}"
                         }
                     ]
                 },
@@ -3839,7 +3839,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"unc\",Manufacturer:\"delightful\",Effect:\"her_1\",display:{Name:\"\\\"§2Botte du premier enfant\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Il ne reste plus que des reliques\\\"}\",\"{\\\"text\\\":\\\"§7des vieilles traditions.\\\"}\",\"{\\\"text\\\":\\\"§7All that remains are relics\\\"}\",\"{\\\"text\\\":\\\"§7of the old traditions.\\\"}\",\"{\\\"text\\\":\\\"§7HER§c-1\\\"}\"]},Damage:295,AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:0.95,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.38,Operation:0,Slot:feet,UUID:[I;0,20004,0,20000]}]}"
+                            "tag": "{EquipmentType:\"armor\",Rarity:\"unc\",Manufacturer:\"delightful\",Effect:\"her_1\",display:{Name:\"\\\"§2Bottes du premier enfant\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Il ne reste plus que des reliques\\\"}\",\"{\\\"text\\\":\\\"§7des vieilles traditions.\\\"}\",\"{\\\"text\\\":\\\"§7All that remains are relics\\\"}\",\"{\\\"text\\\":\\\"§7of the old traditions.\\\"}\",\"{\\\"text\\\":\\\"§7HER§c-1\\\"}\"]},Damage:295,AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:0.95,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.38,Operation:0,Slot:feet,UUID:[I;0,20004,0,20000]}]}"
                         }
                     ]
                 },
@@ -3967,7 +3967,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"rar\",Manufacturer:\"delightful\",Effect:\"spd3_res_1\",display:{Name:\"\\\"§9Ecrin de célérité\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Ils vous portent partout alors soyez-en\\\"}\",\"{\\\"text\\\":\\\"§7digne et donnez leur la plus belle des protections.\\\"}\",\"{\\\"text\\\":\\\"§7They carry you everywhere so be worthy\\\"}\",\"{\\\"text\\\":\\\"§7and give them the best protection.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a3 §7RES§c-1\\\"}\"]},Damage:275,Enchantments:[{id:\"minecraft:protection\",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:1.08,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:1.04,Operation:0,Slot:feet,UUID:[I;0,20004,0,20000]}]}"
+                            "tag": "{EquipmentType:\"armor\",Rarity:\"rar\",Manufacturer:\"delightful\",Effect:\"spd3_res_1\",display:{Name:\"\\\"§9Écrin de célérité\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Ils vous portent partout alors soyez-en\\\"}\",\"{\\\"text\\\":\\\"§7digne et donnez leur la plus belle des protections.\\\"}\",\"{\\\"text\\\":\\\"§7They carry you everywhere so be worthy\\\"}\",\"{\\\"text\\\":\\\"§7and give them the best protection.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a3 §7RES§c-1\\\"}\"]},Damage:275,Enchantments:[{id:\"minecraft:protection\",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:1.08,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:1.04,Operation:0,Slot:feet,UUID:[I;0,20004,0,20000]}]}"
                         }
                     ]
                 },
@@ -4479,7 +4479,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{EquipmentType:\"armor\",Rarity:\"unc\",Manufacturer:\"harmonious\",Effect:\"hun1_dar_1\",display:{Name:\"\\\"§2Cothurne \\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Tant d'efforts juste pour les enfiler...\\\"}\",\"{\\\"text\\\":\\\"§7So much effort just to put them on...\\\"}\",\"{\\\"text\\\":\\\"§7HUN§a1 §7DAR§c-1\\\"}\"]},Damage:345,Enchantments:[{id:\"minecraft:fire_protection\",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:1.08,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.33,Operation:0,Slot:feet,UUID:[I;0,20004,0,20000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:1.0,Operation:0,Slot:feet,UUID:[I;0,30004,0,20000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.01,Operation:0,Slot:feet,UUID:[I;0,30004,0,20000]}]}"
+                            "tag": "{EquipmentType:\"armor\",Rarity:\"unc\",Manufacturer:\"harmonious\",Effect:\"hun1_dar_1\",display:{Name:\"\\\"§2Cothurne\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Tant d'efforts juste pour les enfiler...\\\"}\",\"{\\\"text\\\":\\\"§7So much effort just to put them on...\\\"}\",\"{\\\"text\\\":\\\"§7HUN§a1 §7DAR§c-1\\\"}\"]},Damage:345,Enchantments:[{id:\"minecraft:fire_protection\",lvl:1s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:1.08,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:0.33,Operation:0,Slot:feet,UUID:[I;0,20004,0,20000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:1.0,Operation:0,Slot:feet,UUID:[I;0,30004,0,20000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.01,Operation:0,Slot:feet,UUID:[I;0,30004,0,20000]}]}"
                         }
                     ]
                 },
@@ -4991,7 +4991,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"com\",Manufacturer:\"teran\",Effect:\"res_1\",display:{Name:\"\\\"§7Epée\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Emoussée.\\\"}\",\"{\\\"text\\\":\\\"§7Blunt.\\\"}\",\"{\\\"text\\\":\\\"§7RES§c-1\\\"}\"]},Damage:0,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:2.74,Operation:0,Slot:mainhand,UUID:[I;0,10004,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.9299999999999999,Operation:1,Slot:mainhand,UUID:[I;0,20004,0,10000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.02,Operation:0,Slot:mainhand,UUID:[I;0,30004,0,10000]}]}"
+                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"com\",Manufacturer:\"teran\",Effect:\"res_1\",display:{Name:\"\\\"§7Épée\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Emoussée.\\\"}\",\"{\\\"text\\\":\\\"§7Blunt.\\\"}\",\"{\\\"text\\\":\\\"§7RES§c-1\\\"}\"]},Damage:0,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:2.74,Operation:0,Slot:mainhand,UUID:[I;0,10004,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.9299999999999999,Operation:1,Slot:mainhand,UUID:[I;0,20004,0,10000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.02,Operation:0,Slot:mainhand,UUID:[I;0,30004,0,10000]}]}"
                         }
                     ]
                 },
@@ -5119,7 +5119,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"unc\",Manufacturer:\"teran\",Effect:\"has_1\",display:{Name:\"\\\"§2Epée\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Prêt pour le combat.\\\"}\",\"{\\\"text\\\":\\\"§7Ready for the fight.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§c-1\\\"}\"]},Damage:0,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:4.24,Operation:0,Slot:mainhand,UUID:[I;0,10004,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.84,Operation:1,Slot:mainhand,UUID:[I;0,20004,0,10000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.02,Operation:0,Slot:mainhand,UUID:[I;0,30004,0,10000]}]}"
+                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"unc\",Manufacturer:\"teran\",Effect:\"has_1\",display:{Name:\"\\\"§2Épée\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Prêt pour le combat.\\\"}\",\"{\\\"text\\\":\\\"§7Ready for the fight.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§c-1\\\"}\"]},Damage:0,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:4.24,Operation:0,Slot:mainhand,UUID:[I;0,10004,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.84,Operation:1,Slot:mainhand,UUID:[I;0,20004,0,10000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.02,Operation:0,Slot:mainhand,UUID:[I;0,30004,0,10000]}]}"
                         }
                     ]
                 },
@@ -5999,7 +5999,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"com\",Manufacturer:\"traditional\",Effect:\"has_2_luc_1\",display:{Name:\"\\\"§7Epée\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Entraîne-toi avec moi.\\\"}\",\"{\\\"text\\\":\\\"§7Practice with me.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§c-2 §7LUC§c-1\\\"}\"]},Damage:200,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:6.49,Operation:0,Slot:mainhand,UUID:[I;0,10004,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.96,Operation:1,Slot:mainhand,UUID:[I;0,20004,0,10000]}]}"
+                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"com\",Manufacturer:\"traditional\",Effect:\"has_2_luc_1\",display:{Name:\"\\\"§7Épée\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Entraîne-toi avec moi.\\\"}\",\"{\\\"text\\\":\\\"§7Practice with me.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§c-2 §7LUC§c-1\\\"}\"]},Damage:200,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:6.49,Operation:0,Slot:mainhand,UUID:[I;0,10004,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.96,Operation:1,Slot:mainhand,UUID:[I;0,20004,0,10000]}]}"
                         }
                     ]
                 },
@@ -6511,7 +6511,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"com\",Manufacturer:\"delightful\",Effect:\"has_1_dar_1\",display:{Name:\"\\\"§7Epée de Dramio\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Sans valeur... pour certains...\\\"}\",\"{\\\"text\\\":\\\"§7Worthless... for some of us...\\\"}\",\"{\\\"text\\\":\\\"§7HAS§c-1 §7DAR§c-1\\\"}\"]},Damage:1450,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:2.19,Operation:0,Slot:mainhand,UUID:[I;0,10004,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.88,Operation:1,Slot:mainhand,UUID:[I;0,20004,0,10000]}]}"
+                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"com\",Manufacturer:\"delightful\",Effect:\"has_1_dar_1\",display:{Name:\"\\\"§7Épée de Dramio\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Sans valeur... pour certains...\\\"}\",\"{\\\"text\\\":\\\"§7Worthless... for some of us...\\\"}\",\"{\\\"text\\\":\\\"§7HAS§c-1 §7DAR§c-1\\\"}\"]},Damage:1450,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:2.19,Operation:0,Slot:mainhand,UUID:[I;0,10004,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.88,Operation:1,Slot:mainhand,UUID:[I;0,20004,0,10000]}]}"
                         }
                     ]
                 },
@@ -6591,7 +6591,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"unc\",Manufacturer:\"delightful\",Effect:\"\",display:{Name:\"\\\"§2Eternité\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Tel que tu es, tu resteras.\\\"}\",\"{\\\"text\\\":\\\"§7As you are, you will persist.\\\"}\"]},Damage:1425,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:1.5,Operation:0,Slot:mainhand,UUID:[I;0,10003,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.5700000000000001,Operation:1,Slot:mainhand,UUID:[I;0,20003,0,10000]}]}"
+                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"unc\",Manufacturer:\"delightful\",Effect:\"\",display:{Name:\"\\\"§2Éternité\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Tel que tu es, tu resteras.\\\"}\",\"{\\\"text\\\":\\\"§7As you are, you will persist.\\\"}\"]},Damage:1425,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:1.5,Operation:0,Slot:mainhand,UUID:[I;0,10003,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.5700000000000001,Operation:1,Slot:mainhand,UUID:[I;0,20003,0,10000]}]}"
                         }
                     ]
                 },
@@ -6927,7 +6927,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{EquipmentType:\"rangeWeapon\",Rarity:\"com\",Manufacturer:\"traditional\",Effect:\"has_1_dar_1\",display:{Name:\"\\\"§7Tir défaillant \\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Une chance sur deux de fonctionner.\\\"}\",\"{\\\"text\\\":\\\"§7One in two chances of working.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§c-1 §7DAR§c-1\\\"}\"]},Damage:300,Enchantments:[{id:\"minecraft:quick_charge\",lvl:1s}],AttributeModifiers:[{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.7,Operation:1,Slot:mainhand,UUID:[I;0,50002,0,50001]}]}"
+                            "tag": "{EquipmentType:\"rangeWeapon\",Rarity:\"com\",Manufacturer:\"traditional\",Effect:\"has_1_dar_1\",display:{Name:\"\\\"§7Tir défaillant\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Une chance sur deux de fonctionner.\\\"}\",\"{\\\"text\\\":\\\"§7One in two chances of working.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§c-1 §7DAR§c-1\\\"}\"]},Damage:300,Enchantments:[{id:\"minecraft:quick_charge\",lvl:1s}],AttributeModifiers:[{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.7,Operation:1,Slot:mainhand,UUID:[I;0,50002,0,50001]}]}"
                         }
                     ]
                 },
@@ -7119,7 +7119,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"unc\",Manufacturer:\"teran\",Type:\"spear\",Effect:\"has1\",display:{Name:\"\\\"§2Epieu\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Utile pour la chasse au gibier.\\\"}\",\"{\\\"text\\\":\\\"§7Useful for game hunting.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a1\\\"}\"]},Damage:0,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:6.57,Operation:0,Slot:mainhand,UUID:[I;0,10005,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.81,Operation:1,Slot:mainhand,UUID:[I;0,20005,0,10000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.02,Operation:0,Slot:mainhand,UUID:[I;0,30005,0,10000]}]}"
+                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"unc\",Manufacturer:\"teran\",Type:\"spear\",Effect:\"has1\",display:{Name:\"\\\"§2Épieu\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Utile pour la chasse au gibier.\\\"}\",\"{\\\"text\\\":\\\"§7Useful for game hunting.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a1\\\"}\"]},Damage:0,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:6.57,Operation:0,Slot:mainhand,UUID:[I;0,10005,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.81,Operation:1,Slot:mainhand,UUID:[I;0,20005,0,10000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.02,Operation:0,Slot:mainhand,UUID:[I;0,30005,0,10000]}]}"
                         }
                     ]
                 },
@@ -7855,7 +7855,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"rar\",Manufacturer:\"harmonious\",Effect:\"her1_dar1_has_1\",display:{Name:\"\\\"§9Epluchoir\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Les têtes ressemblent à des patates douces.\\\"}\",\"{\\\"text\\\":\\\"§7The heads look like igname.\\\"}\",\"{\\\"text\\\":\\\"§7HER§a1 §7DAR§a1 §7HAS§c-1\\\"}\"]},Damage:1800,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:3.96,Operation:0,Slot:mainhand,UUID:[I;0,10003,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.47,Operation:1,Slot:mainhand,UUID:[I;0,20003,0,10000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:1.0,Operation:0,Slot:mainhand,UUID:[I;0,30003,0,10000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.01,Operation:0,Slot:mainhand,UUID:[I;0,30003,0,10000]}]}"
+                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"rar\",Manufacturer:\"harmonious\",Effect:\"her1_dar1_has_1\",display:{Name:\"\\\"§9Épluchoir\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Les têtes ressemblent à des patates douces.\\\"}\",\"{\\\"text\\\":\\\"§7The heads look like igname.\\\"}\",\"{\\\"text\\\":\\\"§7HER§a1 §7DAR§a1 §7HAS§c-1\\\"}\"]},Damage:1800,AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:3.96,Operation:0,Slot:mainhand,UUID:[I;0,10003,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.47,Operation:1,Slot:mainhand,UUID:[I;0,20003,0,10000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:1.0,Operation:0,Slot:mainhand,UUID:[I;0,30003,0,10000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.01,Operation:0,Slot:mainhand,UUID:[I;0,30003,0,10000]}]}"
                         }
                     ]
                 },

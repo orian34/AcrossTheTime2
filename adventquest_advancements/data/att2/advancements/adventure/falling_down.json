@@ -3,9 +3,9 @@
         "icon": {
             "item": "minecraft:black_wool"
         },
-        "title": {"translate":"Falling Down"},
-        "description": {"translate":"Falling into the void"},
-        "frame": "goal"
+        "title": {"translate":"Isolation"},
+        "description": {"translate":"Stepped into true void"},
+        "frame": "challenge"
     },
     "parent": "att2:adventure/root",
     "rewards": {
@@ -13,15 +13,8 @@
         "experience": 100
                 },
     "criteria": {
-        "world_height": {
-            "trigger": "minecraft:location",
-            "conditions": {
-				"position": {
-					"y": {
-						"max": 1.0
-					}
-				}
-            }
-        }	
+        "space": {
+            "trigger": "minecraft:impossible"
+        }
     }
 }

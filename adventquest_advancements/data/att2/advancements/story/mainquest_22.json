@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:barrier"
         },
-        "title": {"translate":"First time gem"},
+        "title": {"translate":"First Gem of Time"},
         "description": {"translate":"Across The Time"},
         "frame": "goal"
     },

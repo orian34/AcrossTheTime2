@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:wooden_sword"
         },
-        "title": {"translate":"Epée"},
+        "title": {"translate":"Épée"},
         "description": {"translate":"Ready for the fight."},
         "show_toast": false,
         "announce_to_chat": true
@@ -16,7 +16,7 @@
                 "items": [
                     {
                     "items": ["minecraft:wooden_sword"],
-                    "nbt": "{display:{Name:\"\\\"§2Epée\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Prêt pour le combat.\\\"}\",\"{\\\"text\\\":\\\"§7Ready for the fight.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§c-1\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§2Épée\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Prêt pour le combat.\\\"}\",\"{\\\"text\\\":\\\"§7Ready for the fight.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§c-1\\\"}\"]}}"
                     }
                 ]
             }
