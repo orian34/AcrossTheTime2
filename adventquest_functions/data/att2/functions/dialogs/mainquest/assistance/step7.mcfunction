@@ -10,7 +10,7 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 2","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Si j'ai bien compris, l'aventurier que je cherche est Wirth Razgork. C'est le père de Sylvandre. S'il peut m'aider à retrouver ces Gemmes d'Espace, je ferais mieux d'aller lui parler. Sa maison se trouve à l'Est de la ville.","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Si j'ai bien compris, l'aventurier que je cherche est Wirth Razgork. C'est le père de Sylvandre. S'il peut m'aider à retrouver ces Gemmes d'Espace, je ferais mieux d'aller lui parler. Sa maison se trouve à l'est de la ville.","color":"aqua"}]}
 
 #ENGLISH LANGUAGE
 

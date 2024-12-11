@@ -10,11 +10,11 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 2","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"La salle centrale est immense. Apparemment seule l'aile Nord du temple semble accessible. Je vais devoir explorer ce côté-ci en premier...","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"La salle centrale est immense. Apparemment seule l'aile nord du temple semble accessible. Je vais devoir explorer ce côté-ci en premier...","color":"aqua"}]}
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"The central room is huge. Apparently only the northern wing of the temple seems accessible. I'll have to explore this side first....","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"The central room is huge. Apparently only the north wing of the temple seems accessible. I'll have to explore this side first....","color":"aqua"}]}
 
 #CHINESE LANGUAGE
 

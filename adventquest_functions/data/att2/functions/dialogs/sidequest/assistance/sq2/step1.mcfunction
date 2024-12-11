@@ -8,7 +8,7 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Wulk a besoin de fer -°- : ","color":"gray","extra":[{"text":"Wulk le forgeron m'a donné pour mission de récupérer du minerai de fer à la mine située à l'Est de Ryliath dans la forêt.","bold":false,"color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Wulk a besoin de fer -°- : ","color":"gray","extra":[{"text":"Wulk le forgeron m'a donné pour mission de récupérer du minerai de fer à la mine située à l'est de Ryliath dans la forêt.","bold":false,"color":"aqua","italic":true}]}
 
 #ENGLISH LANGUAGE
 

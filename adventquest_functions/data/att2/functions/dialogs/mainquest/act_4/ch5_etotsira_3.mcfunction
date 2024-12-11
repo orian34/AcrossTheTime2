@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Il te faudra passer par le désert de Kert. Va à l'Ouest de Ryliath, là où les montagnes crachent le feu et trouve un moyen de traverser les rivières de lave.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Il te faudra passer par le désert de Kert. Va à l'ouest de Ryliath, là où les montagnes crachent le feu et trouve un moyen de traverser les rivières de lave.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

@@ -8,7 +8,7 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Ne jamais rien laisser derrière soi -°- : ","color":"gray","extra":[{"text":"J'ai trouvé l'entrée d'une grotte au Nord des montagnes volcaniques. Je peux à présent continuer mon chemin et trouver la marchandise perdue de Warren.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Ne jamais rien laisser derrière soi -°- : ","color":"gray","extra":[{"text":"J'ai trouvé l'entrée d'une grotte au nord des montagnes volcaniques. Je peux à présent continuer mon chemin et trouver la marchandise perdue de Warren.","color":"aqua","italic":true}]}
 
 #ENGLISH LANGUAGE
 

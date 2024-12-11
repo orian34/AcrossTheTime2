@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Gustave : ","color":"green","extra":[{"text":"Oui... En fonction de la nature de votre retour, je vous verserai 200 Chronotons. Maintenant dirigez-vous vers le Sud. Mes collègues ont pris la route vers la mine de Kert. Après le pont traversant le grand canyon, continuez sur le chemin, c'est là qu'ils devraient être, j'espère.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Gustave : ","color":"green","extra":[{"text":"Oui... En fonction de la nature de votre retour, je vous verserai 200 Chronotons. Maintenant dirigez-vous vers le sud. Mes collègues ont pris la route vers la mine de Kert. Après le pont traversant le grand canyon, continuez sur le chemin, c'est là qu'ils devraient être, j'espère.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

@@ -10,7 +10,7 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 4","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"La ville d'Eolorion se fait attaquer. Aramis compte sur moi pour aider l'armée à repousser l'ennemi, je dois me rendre devant la grande porte à l'Ouest de la ville.","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"La ville d'Eolorion se fait attaquer. Aramis compte sur moi pour aider l'armée à repousser l'ennemi, je dois me rendre devant la grande porte à l'ouest de la ville.","color":"aqua"}]}
 
 #ENGLISH LANGUAGE
 
