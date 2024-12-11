@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"Es-tu sûr ? Très bien, faisons comme ça alors. Ramène-moi des échantillons de structures anciennes des différentes régions de Sylberländ et je te paierai en conséquence.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Mortimer : ","color":"green","extra":[{"text":"Es-tu sûr ? Très bien, faisons comme ça alors. Ramène-moi des échantillons de structures anciennes des différentes régions du Sylberländ et je te paierai en conséquence.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

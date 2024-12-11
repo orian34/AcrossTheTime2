@@ -14,11 +14,11 @@ tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Skaolon considers that a Néleptron will not be enough to have an audience with the king. It begins to enrage me ... So be it! Let's go get another Neleptron, there should be another path leading there.","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Skaolon considers that a Néleptron will not be enough to have an audience with the king. He's beginning to piss me off... So be it! Let's go get another Néleptron, there should be another path leading there.","color":"aqua"}]}
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Skaolon 認為 Néleptron 不足以覲見國王。它開始激怒我...就這樣吧！ 我們去找另一個 Neleptron， 那裡應該有另一條路。","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Skaolon 認為 Néleptron 不足以覲見國王。它開始激怒我...就這樣吧！ 我們去找另一個 Néleptron， 那裡應該有另一條路。","color":"aqua"}]}
 
 
 # JAPANESE LANGUAGE
@@ -39,11 +39,11 @@ tellraw @s[scores={LANGUAGE=6}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 # SPANISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Skaolon considera que un Néleptron no será suficiente para tener una audiencia con el rey. Empieza a enfurecerme ... ¡Así sea! Vamos a buscar otro Neleptron, debe haber otro camino que lleve allí.","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Skaolon considera que un Néleptron no será suficiente para tener una audiencia con el rey. Empieza a enfurecerme ... ¡Así sea! Vamos a buscar otro Néleptron, debe haber otro camino que lleve allí.","color":"aqua"}]}
 
 # GERMAN LANGUAGE
 
-tellraw @s[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Skaolon ist der Meinung, dass ein Néleptron nicht ausreicht, um eine Audienz beim König zu bekommen. Es fängt an, mich zu ärgern... Na gut! Lass uns einen anderen Neleptron holen, es sollte einen anderen Weg dahin geben.","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Skaolon ist der Meinung, dass ein Néleptron nicht ausreicht, um eine Audienz beim König zu bekommen. Es fängt an, mich zu ärgern... Na gut! Lass uns einen anderen Néleptron holen, es sollte einen anderen Weg dahin geben.","color":"aqua"}]}
 
 # HINDI LANGUAGE
 

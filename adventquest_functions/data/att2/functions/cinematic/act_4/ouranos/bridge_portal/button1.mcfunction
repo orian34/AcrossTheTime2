@@ -4,7 +4,7 @@
 # (OURANOS scoreboard) default : 0     		 	 #
 #Process for bridge_button1		 		 		 #
 # (OURANOS scoreboard) :     		 			 #
-# 0 - Trigg neleptron ON						 #
+# 0 - Trigg Néleptron ON						 #
 # 11 - Button1 bridge south enable				 #
 # 12 - Button2 bridge north enable				 #
 ##################################################

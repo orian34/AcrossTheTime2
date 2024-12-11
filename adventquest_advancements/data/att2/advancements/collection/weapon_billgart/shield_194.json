@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:shield"
         },
-        "title": {"translate":"Emeraude tenace"},
+        "title": {"translate":"Émeraude tenace"},
         "description": {"translate":"The color of hope will enliven	your will, sister."},
         "frame": "goal",
         "show_toast": false,
@@ -20,7 +20,7 @@
                 "items": [
                     {
                     "items": ["minecraft:shield"],
-                    "nbt": "{display:{Name:\"\\\"§9Emeraude tenace\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7La couleur de l'espoir animera\\\"}\",\"{\\\"text\\\":\\\"§7ta volonté, ma sœur.\\\"}\",\"{\\\"text\\\":\\\"§7The color of hope will enliven\\\"}\",\"{\\\"text\\\":\\\"§7your will, sister.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a2 §7HUN§a1 §7DAR§c-3\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§9Émeraude tenace\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7La couleur de l'espoir animera\\\"}\",\"{\\\"text\\\":\\\"§7ta volonté, ma sœur.\\\"}\",\"{\\\"text\\\":\\\"§7The color of hope will enliven\\\"}\",\"{\\\"text\\\":\\\"§7your will, sister.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a2 §7HUN§a1 §7DAR§c-3\\\"}\"]}}"
                     }
                 ]
             }

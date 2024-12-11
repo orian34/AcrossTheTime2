@@ -13,7 +13,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"Alerte de niveau maximal ! Fusion du g√
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":"High level alert! Fusion of main generator of Ithax. Safety fencing compromised! Attention : All passengers must evacuate the station! Error, malfunctionning of the security systems... Error...","color":"gray","italic":true}
+tellraw @s[scores={LANGUAGE=1}] {"text":"High level alert! Fusion of main generator of Ithax. Safety perimeter compromised! Attention : All passengers must evacuate the station! Error, malfunctionning of the security systems... Error...","color":"gray","italic":true}
 
 
 #CHINESE LANGUAGE

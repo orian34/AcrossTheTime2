@@ -14,7 +14,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Ouran : ","color":"gold","extra"
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"Hey I recognize you! You are the bug that dares to challenge me four cycles ago!","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"Hey I recognize you! You are the bug that dared to challenge me four cycles ago!","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

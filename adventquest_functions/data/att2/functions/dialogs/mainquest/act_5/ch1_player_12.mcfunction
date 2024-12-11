@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"No, Sérile, listen to me. Relgon never wanted to remove you from your queen's place. He wished to test your humility and your patience a last time by making you believe that you won't take your role. But he didn't have the time to explain himself...","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"No, Sérile, listen to me. Relgon never wanted to remove you from your queen's place. He wished to test your humility and your patience one last time by making you believe that you wouldn't get this role. But he didn't have the time to explain himself...","color":"aqua"}]}
 
 
 #CHINESE LANGUAGE

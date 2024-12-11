@@ -10,11 +10,11 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 4","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Voilà je n'ai plus qu'à descendre à partir du sommet au centre dans cette sorte d'ascenseur. La gemme de temps m'attend en bas !","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Voilà je n'ai plus qu'à descendre au centre à partir du sommet dans cette sorte d'ascenseur. La Gemme de Temps m'attend en bas !","color":"aqua"}]}
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Now I just have to go down from the top to the center in this kind of elevator. The time gem is waiting for me downstairs !","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Now I just have to go down to the center from the top in this kind of elevator. The Gem of Time is waiting for me downstairs!","color":"aqua"}]}
 
 #CHINESE LANGUAGE
 

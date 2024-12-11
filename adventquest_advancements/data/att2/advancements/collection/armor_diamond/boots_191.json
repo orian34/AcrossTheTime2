@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:diamond_boots"
         },
-        "title": {"translate":"Ecrin de célérité"},
+        "title": {"translate":"Écrin de célérité"},
         "description": {"translate":"They carry you everywhere so be worthy and give them the best protection."},
         "frame": "goal",
         "show_toast": false,
@@ -20,7 +20,7 @@
                 "items": [
                     {
                     "items": ["minecraft:diamond_boots"],
-                    "nbt": "{display:{Name:\"\\\"§9Ecrin de célérité\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Ils vous portent partout alors soyez-en\\\"}\",\"{\\\"text\\\":\\\"§7digne et donnez leur la plus belle des protections.\\\"}\",\"{\\\"text\\\":\\\"§7They carry you everywhere so be worthy\\\"}\",\"{\\\"text\\\":\\\"§7and give them the best protection.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a3 §7RES§c-1\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§9Écrin de célérité\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Ils vous portent partout alors soyez-en\\\"}\",\"{\\\"text\\\":\\\"§7digne et donnez leur la plus belle des protections.\\\"}\",\"{\\\"text\\\":\\\"§7They carry you everywhere so be worthy\\\"}\",\"{\\\"text\\\":\\\"§7and give them the best protection.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a3 §7RES§c-1\\\"}\"]}}"
                     }
                 ]
             }

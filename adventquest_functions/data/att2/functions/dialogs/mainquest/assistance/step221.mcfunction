@@ -14,7 +14,7 @@ tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Etotsira told me about a old academy : Nojélanth, located in a distant desert. I have to head to the Kert Desert near the volcanic area.","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Etotsira told me about an old academy : Nojélanth, located in a distant desert. I have to head to the Kert Desert near the volcanic area.","color":"aqua"}]}
 
 #CHINESE LANGUAGE
 

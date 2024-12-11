@@ -13,12 +13,12 @@ tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"I sweated blood and water to get you these Neleptrons and... I've heard that his excellence is more generous than anybody in that kingdom and that his splendor was matched only by his gratitude...","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"I sweated blood and water to get you these Néleptrons and... I've heard that his excellence is more generous than anybody in that kingdom and that his splendor was matched only by his gratitude...","color":"aqua"}]}
 
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"為了給你這些Neleptrons， 我付出了鮮血和水...我聽說他的卓越比那個王國的任何人都慷慨， 他的輝煌只有他的感激之情才能與之匹敵...","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"為了給你這些Néleptrons， 我付出了鮮血和水...我聽說他的卓越比那個王國的任何人都慷慨， 他的輝煌只有他的感激之情才能與之匹敵...","color":"aqua"}]}
 
 
 #JAPANESE LANGUAGE
@@ -39,11 +39,11 @@ tellraw @a[scores={LANGUAGE=6}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #SPANISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Sudé sangre y agua para conseguirte estos Neleptrones y... He oído que su excelencia es más generosa que cualquier otro en ese reino y que su esplendor solo es igualado por su gratitud...","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Sudé sangre y agua para conseguirte estos Néleptrones y... He oído que su excelencia es más generosa que cualquier otro en ese reino y que su esplendor solo es igualado por su gratitud...","color":"aqua"}]}
 
 #GERMAN LANGUAGE
 
-tellraw @a[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Ich habe Blut und Wasser geschwitzt, um euch diese Neleptrons zu besorgen und... Ich habe gehört, dass seine Exzellenz großzügiger ist als jeder andere in diesem Königreich und dass seine Pracht nur von seiner Dankbarkeit übertroffen wird...","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Ich habe Blut und Wasser geschwitzt, um euch diese Néleptrons zu besorgen und... Ich habe gehört, dass seine Exzellenz großzügiger ist als jeder andere in diesem Königreich und dass seine Pracht nur von seiner Dankbarkeit übertroffen wird...","color":"aqua"}]}
 
 #HINDI LANGUAGE
 
@@ -51,4 +51,4 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #PORTUGUESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Suei sangue e água para conseguir esses Neleptrons para vocês e... Ouvi dizer que Sua Excelência é mais generosa do que qualquer outro nesse reino e que seu esplendor só é igualado por sua gratidão...","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Suei sangue e água para conseguir esses Néleptrons para vocês e... Ouvi dizer que Sua Excelência é mais generosa do que qualquer outro nesse reino e que seu esplendor só é igualado por sua gratidão...","color":"aqua"}]}

@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° AUTOMATE : ","color":"green","ex
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° AUTOMATON : ","color":"green","extra":[{"text":"Thank you for your services.","color":"gray"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° AUTOMATON : ","color":"green","extra":[{"text":"Thank you for your work.","color":"gray"}]}
 
 
 #CHINESE LANGUAGE

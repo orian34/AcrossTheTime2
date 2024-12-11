@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest											#
-#Start space gem ambiance                             			#
+#Start Gem of Space ambiance                             			#
 #################################################################
 
 scoreboard players set @s[scores={SG_AMBIANCE=0}] SG_AMBIANCE 600

@@ -14,7 +14,7 @@ tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"I finally arrived in the immense house of Vonaheim. There is no way to climb higher, I should try to find access through the basement ...","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"I finally arrived in the immense lair of Vonaheim. There is no way to climb higher, I should try to find access through the basement...","color":"aqua"}]}
 
 #CHINESE LANGUAGE
 

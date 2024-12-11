@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:chainmail_boots"
         },
-        "title": {"translate":"Botte d'élite"},
+        "title": {"translate":"Bottes d'élite"},
         "description": {"translate":"Go, go, go and go again."},
         "frame": "goal",
         "show_toast": false,
@@ -20,7 +20,7 @@
                 "items": [
                     {
                     "items": ["minecraft:chainmail_boots"],
-                    "nbt": "{display:{Name:\"\\\"§9Botte d'élite\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Allèrent, vont et iront encore.\\\"}\",\"{\\\"text\\\":\\\"§7Go, go, go and go again.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a2 §7LUC§a1 §7STR§c-1\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§9Bottes d'élite\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Allèrent, vont et iront encore.\\\"}\",\"{\\\"text\\\":\\\"§7Go, go, go and go again.\\\"}\",\"{\\\"text\\\":\\\"§7HAS§a2 §7LUC§a1 §7STR§c-1\\\"}\"]}}"
                     }
                 ]
             }

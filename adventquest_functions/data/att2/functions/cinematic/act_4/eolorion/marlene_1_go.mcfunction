@@ -1,6 +1,6 @@
 ##################################################
 #Made by Adventquest                             #
-#Process cinematic eolorion marlene 1  			 #
+#Process cinematic eolorion Marlène 1  			 #
 ##################################################
 
 execute if score Real0 TIMER matches 1 run scoreboard players set Mainquest SIDEQUEST 95

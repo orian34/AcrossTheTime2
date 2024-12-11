@@ -14,7 +14,7 @@ tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"I am in a room with a door locked by a mechanism, I must find a code. Maybe if I activate all the green buttons, the door will unlock ...","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"I am in a room with a door locked by a mechanism, I must find a code. Maybe if I activate all the green buttons, the door will unlock...","color":"aqua"}]}
 
 #CHINESE LANGUAGE
 

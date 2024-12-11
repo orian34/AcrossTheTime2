@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest											#
-#Initialize Space gem music timer								#
+#Initialize Gem of Space music timer								#
 #################################################################
 
 scoreboard objectives add SG_AMBIANCE dummy

@@ -8,17 +8,17 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Euhh, oui en effet. Je suis à la recherche d'un Néleptron, vous saurez peut-être m'indiquer où je pourrais en trouver.","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Euhh, oui en effet. Je suis à la recherche d'un Néleptron, vous sauriez peut-être m'indiquer où je pourrais en trouver.","color":"aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Uhh, yes, indeed. I'm searching a Neleptron, maybe you'll know where to find some?","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Uhh, yes, indeed. I'm searching for a Néleptron, maybe you'll know where to find some?","color":"aqua"}]}
 
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"嗯， 是的， 確實。我正在尋找一個 Neleptron， 也許你會知道在哪裡可以找到一些？ ","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"嗯， 是的， 確實。我正在尋找一個 Néleptron， 也許你會知道在哪裡可以找到一些？ ","color":"aqua"}]}
 
 
 #JAPANESE LANGUAGE
@@ -43,7 +43,7 @@ tellraw @a[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #GERMAN LANGUAGE
 
-tellraw @a[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Ähh, ja, in der Tat. Ich suche einen Neleptron, vielleicht wissen Sie, wo man einige finden könnte?","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Ähh, ja, in der Tat. Ich suche einen Néleptron, vielleicht wissen Sie, wo man einige finden könnte?","color":"aqua"}]}
 
 #HINDI LANGUAGE
 
@@ -51,4 +51,4 @@ tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #PORTUGUESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"É, sim, de fato. Estou procurando um Neleptron, talvez você saiba onde encontrar alguns?","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"É, sim, de fato. Estou procurando um Néleptron, talvez você saiba onde encontrar alguns?","color":"aqua"}]}

@@ -14,7 +14,7 @@ tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Sérile is too powerful. I have to weaken it, try to survive at all costs and reason with it before it destroys everything with the power of the source!","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Sérile is too powerful. I have to weaken her, try to survive at all costs and reason with her before she destroys everything with the power of the source!","color":"aqua"}]}
 
 #CHINESE LANGUAGE
 
@@ -43,4 +43,4 @@ tellraw @s[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"सेरिल बहुत शक्तिशाली है। मुझे उसे कमजोर करना होगा, हर कीमत पर जीवित रहने की कोशिश करनी होगी और उससे समझाने की कोशिश करनी होगी कि वह स्रोत की शक्ति से सब कुछ नष्ट न कर दे!","color":"aqua"}]}
 
 # PORTUGUESE LANGUAGE
-tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Serile é muito poderosa. Tenho que enfraquecê-la, tentar sobreviver a todo custo e argumentar com ela antes que ela destrua tudo com o poder da fonte!","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Sérile é muito poderosa. Tenho que enfraquecê-la, tentar sobreviver a todo custo e argumentar com ela antes que ela destrua tudo com o poder da fonte!","color":"aqua"}]}

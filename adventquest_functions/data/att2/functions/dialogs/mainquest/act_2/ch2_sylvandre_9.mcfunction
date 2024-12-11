@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"On est chez Maria, c'était une grande archère. Bien qu'elle ne court plus les forêts, elle reste notre expert en confection d'arc et de flèches.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"On est chez Maria, c'était une grande archère. Bien qu'elle ne coure plus les forêts, elle reste notre expert en confection d'arc et de flèches.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

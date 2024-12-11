@@ -14,7 +14,7 @@ tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Indra is the mother of the head of Méleïm. It is located in the house above the arch-shaped rock, next to the highest tower in the village. I'll talk to him and we'll see.","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Indra is the mother of the head of Méleïm. She is located in the house above the arch-shaped rock, next to the highest tower in the village. I'll talk to her and we'll see.","color":"aqua"}]}
 
 #CHINESE LANGUAGE
 

@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest											#
-#Process ambiance for players close to a space gem  			#
+#Process ambiance for players close to a Gem of Space  			#
 #################################################################
 
 # Worlest SpaceGem

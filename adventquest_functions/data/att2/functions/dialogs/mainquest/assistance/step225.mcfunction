@@ -10,7 +10,7 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 4","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Etotsira a activé le portail temporel au bout de l'escalier. Je dois le traverser, cela me transportera dans le passé et me permettra d'aller à Nojélanth. ","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Etotsira a activé le portail temporel au bout de l'escalier. Je dois le traverser, cela me transportera dans le passé et me permettra d'aller à Nojélanth.","color":"aqua"}]}
 
 #ENGLISH LANGUAGE
 

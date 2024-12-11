@@ -13,49 +13,49 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Skaolon : ","color":"green","ext
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"Uh uh uh, no second Neleptron, no passage.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"Uh uh uh, no second Néleptron, no passage.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"呃呃呃， 沒有第二個 Neleptron， 沒有通道。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"呃呃呃， 沒有第二個 Néleptron， 沒有通道。","color":"dark_aqua"}]}
 
 
 #JAPANESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=3}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"タタタ、二つ目のNeleptronがなければ通れません。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=3}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"タタタ、二つ目のNéleptronがなければ通れません。","color":"dark_aqua"}]}
 
 
 #KOREAN LANGUAGE
 
-tellraw @a[scores={LANGUAGE=4}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"우우우, 두 번째 Neleptron이 없으면 통과할 수 없습니다.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=4}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"우우우, 두 번째 Néleptron이 없으면 통과할 수 없습니다.","color":"dark_aqua"}]}
 
 
 #ARABIC LANGUAGE
 
-tellraw @a[scores={LANGUAGE=5}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"اه اه اه، لا Neleptron الثاني، لا مرور.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=5}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"اه اه اه، لا Néleptron الثاني، لا مرور.","color":"dark_aqua"}]}
 
 
 #RUSSIAN LANGUAGE
 
-tellraw @a[scores={LANGUAGE=6}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"Ту ту ту, нет второго Neleptron, нет прохода.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=6}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"Ту ту ту, нет второго Néleptron, нет прохода.","color":"dark_aqua"}]}
 
 
 #SPANISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=7}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"Eh eh eh, sin el segundo Neleptron, no hay paso.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=7}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"Eh eh eh, sin el segundo Néleptron, no hay paso.","color":"dark_aqua"}]}
 
 
 #GERMAN LANGUAGE
 
-tellraw @a[scores={LANGUAGE=8}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"Uh uh uh, kein zweiter Neleptron, kein Durchgang.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=8}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"Uh uh uh, kein zweiter Néleptron, kein Durchgang.","color":"dark_aqua"}]}
 
 
 #HINDI LANGUAGE
 
-tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"अह अह अह, दूसरा Neleptron नहीं, कोई रास्ता नहीं।","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"अह अह अह, दूसरा Néleptron नहीं, कोई रास्ता नहीं।","color":"dark_aqua"}]}
 
 
 #PORTUGUESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"Uh uh uh, sem o segundo Neleptron, sem passagem.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"Uh uh uh, sem o segundo Néleptron, sem passagem.","color":"dark_aqua"}]}

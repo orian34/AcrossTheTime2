@@ -9,12 +9,12 @@ scoreboard players set ouran_PNJ DIALOG 10
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"Et quoi alors, tu espères que je vais te laisser ma gemme de temps, comme ça ?","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"Et quoi alors, tu espères que je vais te laisser ma Gemme de Temps, comme ça ?","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"So what? Do you hope that I'll let you take my time gem, like this?","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"So what? Are you hoping that I'll let you take my Gem of Time, like this?","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

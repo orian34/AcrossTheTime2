@@ -11,12 +11,12 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Skaolon : ","color":"green","ext
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"Come on, hop hop hop. No Neleptron, no enter!","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"Come on, whoop whoop. No Néleptron, no entering!","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"來吧， 一跳一跳。沒有 Neleptron， 沒有進入！ ","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"來吧， 一跳一跳。沒有 Néleptron， 沒有進入！ ","color":"dark_aqua"}]}
 
 
 #JAPANESE LANGUAGE
@@ -41,7 +41,7 @@ tellraw @s[scores={LANGUAGE=7}] {"text":" °-° Skaolon : ","color":"green","ext
 
 #GERMAN LANGUAGE
 
-tellraw @s[scores={LANGUAGE=8}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"Los, hop hop hop. Ohne Neleptron, kein Zutritt!","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=8}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"Los, hop hop hop. Ohne Néleptron, kein Zutritt!","color":"dark_aqua"}]}
 
 #HINDI LANGUAGE
 
@@ -49,4 +49,4 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Skaolon : ","color":"green","ext
 
 #PORTUGUESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"Vamos lá, hop hop hop. Sem Neleptron, sem entrada!","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"Vamos lá, hop hop hop. Sem Néleptron, sem entrada!","color":"dark_aqua"}]}

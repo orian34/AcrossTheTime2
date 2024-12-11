@@ -91,7 +91,7 @@ scoreboard objectives remove statIRONDAG
 scoreboard objectives remove statIRONSPEAR
 scoreboard objectives remove statDIAMONDSWORD
 scoreboard objectives remove statDIAMONDAXE
-scoreboard objectives remove statDIAMONDMACE 
+scoreboard objectives remove statDIAMONDMACE
 scoreboard objectives remove statDIAMONDDAG
 scoreboard objectives remove statDIAMONDSPEAR
 
@@ -524,7 +524,7 @@ scoreboard objectives remove SQ59
 
 scoreboard objectives remove REPUTATION
 
-# Space/time gem effect
+# Gem of Space/Time effect
 scoreboard objectives remove SG_AMBIANCE
 scoreboard objectives remove TG_AMBIANCE
 

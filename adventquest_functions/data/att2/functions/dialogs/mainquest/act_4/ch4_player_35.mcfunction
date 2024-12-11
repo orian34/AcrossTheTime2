@@ -8,24 +8,24 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Un Neleptron, je vais pouvoir le ramener à Skaolon !","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Un Néleptron, je vais pouvoir le ramener à Skaolon !","color":"aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"A Neleptron, I can now bring it to Skaolon!","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"A Néleptron, I can now bring it to Skaolon!","color":"aqua"}]}
 
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"一個Neleptron， 我現在可以把它帶到Skaolon！ ","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"一個Néleptron， 我現在可以把它帶到Skaolon！ ","color":"aqua"}]}
 
 
 # GERMAN LANGUAGE
-tellraw @a[scores={LANGUAGE=3}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Ein Neleptron, ich kann es jetzt nach Skaolon bringen!","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=3}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Ein Néleptron, ich kann es jetzt nach Skaolon bringen!","color":"aqua"}]}
 
 # SPANISH LANGUAGE
-tellraw @a[scores={LANGUAGE=4}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"¡Un Neleptron, ahora puedo llevarlo a Skaolon!","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=4}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"¡Un Néleptron, ahora puedo llevarlo a Skaolon!","color":"aqua"}]}
 
 # RUSSIAN LANGUAGE
 tellraw @a[scores={LANGUAGE=5}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Нелиптрон, теперь я могу его привести в Скаолон!","color":"aqua"}]}
@@ -43,4 +43,4 @@ tellraw @a[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 tellraw @a[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"एक नेलेप्ट्रॉन, मैं इसे अब स्कालोन ले जा सकता हूं!","color":"aqua"}]}
 
 # PORTUGUESE LANGUAGE
-tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Um Neleptron, agora posso levá-lo para Skaolon!","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Um Néleptron, agora posso levá-lo para Skaolon!","color":"aqua"}]}

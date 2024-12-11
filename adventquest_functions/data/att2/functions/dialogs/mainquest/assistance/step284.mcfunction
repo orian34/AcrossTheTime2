@@ -14,7 +14,7 @@ tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"It's not over, I have to face Serile ...","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"It's not over, I have to face Sérile...","color":"aqua"}]}
 
 #CHINESE LANGUAGE
 
@@ -34,13 +34,13 @@ tellraw @s[scores={LANGUAGE=5}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 tellraw @s[scores={LANGUAGE=6}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Это не закончено, мне нужно столкнуться с Серил...","color":"aqua"}]}
 
 # SPANISH LANGUAGE
-tellraw @s[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"No ha terminado, tengo que enfrentarme a Serile ...","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"No ha terminado, tengo que enfrentarme a Sérile ...","color":"aqua"}]}
 
 # GERMAN LANGUAGE
-tellraw @s[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Es ist noch nicht vorbei, ich muss Serile gegenübertreten...","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Es ist noch nicht vorbei, ich muss Sérile gegenübertreten...","color":"aqua"}]}
 
 # HINDI LANGUAGE
 tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"यह समाप्त नहीं हुआ है, मुझे सेरिल का सामना करना होगा...","color":"aqua"}]}
 
 # PORTUGUESE LANGUAGE
-tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Não acabou, tenho que enfrentar Serile ...","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Não acabou, tenho que enfrentar Sérile ...","color":"aqua"}]}

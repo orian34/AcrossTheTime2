@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° S : ","color":"gray","extra":[{"text":"Tous ceux qui y ont un jour goûtée sont tombés sous l'emprise de son pouvoir...","color":"yellow","italic":true}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° S : ","color":"gray","extra":[{"text":"Tous ceux qui y ont un jour goûté sont tombés sous l'emprise de son pouvoir...","color":"yellow","italic":true}]}
 
 
 #ENGLISH LANGUAGE

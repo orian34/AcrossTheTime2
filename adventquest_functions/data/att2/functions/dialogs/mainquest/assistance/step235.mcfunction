@@ -14,7 +14,7 @@ tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"There is surely a mechanism activating the opening of the chest in the center of the room. I have to find one and unlock the accesses to the different rooms.","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"There is surely a mechanism activating the opening of the chest in the center of the room. I have to find one and unlock access to the different rooms.","color":"aqua"}]}
 
 #CHINESE LANGUAGE
 

@@ -11,7 +11,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Golem : ","color":"green","extra
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"There is a deal. Limbs in decay, no longer obey his will. Whitout strength, he stays and nothing moves. Little flesh being, fix him and he will create a passage to Ulgok'keström, where slumbers the gem of eras.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Golem : ","color":"green","extra":[{"text":"There is a deal. Limbs in decay, no longer obey his will. Without strength, he stays and nothing moves. Little flesh being, fix him and he will create a passage to Ulgok'keström, where slumbers the gem of eras.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

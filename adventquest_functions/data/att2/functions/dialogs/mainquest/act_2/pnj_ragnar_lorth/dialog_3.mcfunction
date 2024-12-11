@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Ragnar Lorth : ","color":"green"
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"Don't you have nothing else to do but prowl around my house?","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"Don't you have anything else to do but prowl around my house?","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

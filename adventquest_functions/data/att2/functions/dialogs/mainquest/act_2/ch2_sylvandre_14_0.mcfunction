@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Sylvandre : ","color":"green","e
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"Here we are before the clairvoyant, or rather the mistress of the runes. She is a mystic working an art that I really still have difficulty understanding, you will surely have more affinity with this art than me...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"Here we are before the clairvoyant, or rather the mistress of runes. She is a mystic working an art that I really still have difficulty understanding, you will surely have more affinity with this art than me...","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

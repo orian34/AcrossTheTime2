@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Gonon : ","color":"green","extra
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"I've already tried to patch the hole in the wall with a door I made... But these stupid spiders keep on entering by other means. I don't dare to go back... But if you get rid of them for me, I'll offer you a room to in stay for the night!","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"I've already tried to patch the hole in the wall with a door I made... But these stupid spiders keep on entering by other means. I don't dare to go back... But if you get rid of them for me, I'll offer you a room to stay in for the night!","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:diamond_helmet"
         },
-        "title": {"translate":"Eclat du Neleptron"},
+        "title": {"translate":"Éclat du Néleptron"},
         "description": {"translate":"Once forged with the fragments of the endless light, its brilliance is deflagrating."},
         "frame": "challenge",
         "show_toast": true,
@@ -20,7 +20,7 @@
                 "items": [
                     {
                     "items": ["minecraft:diamond_helmet"],
-                    "nbt": "{display:{Name:\"\\\"§6Eclat du Neleptron\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Jadis forgé avec les fragments de la lumière\\\"}\",\"{\\\"text\\\":\\\"§7sans fin, son éclat est déflagrant.\\\"}\",\"{\\\"text\\\":\\\"§7Once forged with the fragments of the endless\\\"}\",\"{\\\"text\\\":\\\"§7light, its brilliance is deflagrating.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7RES§a1 §7SPD§a1\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§6Éclat du Néleptron\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Jadis forgé avec les fragments de la lumière\\\"}\",\"{\\\"text\\\":\\\"§7sans fin, son éclat est déflagrant.\\\"}\",\"{\\\"text\\\":\\\"§7Once forged with the fragments of the endless\\\"}\",\"{\\\"text\\\":\\\"§7light, its brilliance is deflagrating.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7RES§a1 §7SPD§a1\\\"}\"]}}"
                     }
                 ]
             }

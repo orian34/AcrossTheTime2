@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Capitaine : ","color":"green","e
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Captain : ","color":"green","extra":[{"text":"So you're leaving us already? I was told about your quest. I can only wish you good luck: too few have returned from the expeditions to the dungeon of Vonaheim... But, if there is anyone who can succeed, I'm sure it will be you! Come on, guys! Come on! Why don't you open the door for him?","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Captain : ","color":"green","extra":[{"text":"So you're leaving us already? I was told about your quest. I can only wish you good luck: too few have returned from the expeditions to the dungeon of Vonaheim... But, if there is anyone who can succeed, I'm sure it will be you! Come on, guys! Come on! Open the door for him!","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

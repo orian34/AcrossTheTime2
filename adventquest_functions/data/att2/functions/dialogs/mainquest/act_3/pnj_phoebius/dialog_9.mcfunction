@@ -14,7 +14,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Phoebius : ","color":"green","ex
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Phoebius : ","color":"green","extra":[{"text":"Oh... I see. Here, here's the lava seal.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Phoebius : ","color":"green","extra":[{"text":"Oh... I see. Here, the lava seal.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

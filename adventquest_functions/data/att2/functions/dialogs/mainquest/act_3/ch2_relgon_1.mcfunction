@@ -8,12 +8,12 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"... zone stratégique, nous ne pouvons guère nous permettre de la laisser tomber aux mains de l'ennemi.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"...zone stratégique, nous ne pouvons guère nous permettre de la laisser tomber aux mains de l'ennemi.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"... as a strategic area, we can hardly afford to leave it in the hands of the enemy.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"...as a strategic area, we can hardly afford to leave it in the hands of the enemy.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE
@@ -60,4 +60,3 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Relgon : ","color":"red","extra"
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"... como uma área estratégica, mal podemos nos dar ao luxo de deixá-la nas mãos do inimigo.","color":"dark_aqua"}]}
-

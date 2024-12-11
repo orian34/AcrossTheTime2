@@ -6,17 +6,17 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Prendre le Neleptron. -->]","color":"gold","clickEvent":{"action":"run_command","value":"/function att2:cinematic/act_4/ouranos/neleptron/trigger2"},"hoverEvent":{"action":"show_text","value":"Cliquez ici prendre le Neleptron."}}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Prendre le Néleptron. -->]","color":"gold","clickEvent":{"action":"run_command","value":"/function att2:cinematic/act_4/ouranos/neleptron/trigger2"},"hoverEvent":{"action":"show_text","value":"Cliquez ici prendre le Néleptron."}}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Take the Neleptron. -->]","color":"gold","clickEvent":{"action":"run_command","value":"/function att2:cinematic/act_4/ouranos/neleptron/trigger2"},"hoverEvent":{"action":"show_text","value":"Click here to take the Neleptron."}}]}
+tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Take the Néleptron. -->]","color":"gold","clickEvent":{"action":"run_command","value":"/function att2:cinematic/act_4/ouranos/neleptron/trigger2"},"hoverEvent":{"action":"show_text","value":"Click here to take the Néleptron."}}]}
 
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[以 Neleptron 為例。 -->]","color":"gold","clickEvent":{"action":"run_command","value":"/function att2:cinematic/act_4/ouranos/neleptron/trigger2"},"hoverEvent":{"action":"show_text","value":"單擊此處獲取 Neleptron。"}}]}
+tellraw @s[scores={LANGUAGE=2}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[以 Néleptron 為例。 -->]","color":"gold","clickEvent":{"action":"run_command","value":"/function att2:cinematic/act_4/ouranos/neleptron/trigger2"},"hoverEvent":{"action":"show_text","value":"單擊此處獲取 Néleptron。"}}]}
 
 
 # JAPANESE LANGUAGE
@@ -41,7 +41,7 @@ tellraw @s[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra
 
 # GERMAN LANGUAGE
 
-tellraw @s[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Den Neleptron nehmen. -->]","color":"gold","clickEvent":{"action":"run_command","value":"/function att2:cinematic/act_4/ouranos/neleptron/trigger2"},"hoverEvent":{"action":"show_text","value":"Klicke hier, um den Neleptron zu nehmen."}}]}
+tellraw @s[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Den Néleptron nehmen. -->]","color":"gold","clickEvent":{"action":"run_command","value":"/function att2:cinematic/act_4/ouranos/neleptron/trigger2"},"hoverEvent":{"action":"show_text","value":"Klicke hier, um den Néleptron zu nehmen."}}]}
 
 # HINDI LANGUAGE
 
@@ -49,4 +49,4 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra
 
 # PORTUGUESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Pegar o Neleptron. -->]","color":"gold","clickEvent":{"action":"run_command","value":"/function att2:cinematic/act_4/ouranos/neleptron/trigger2"},"hoverEvent":{"action":"show_text","value":"Clique aqui para pegar o Neleptron."}}]}
+tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Pegar o Néleptron. -->]","color":"gold","clickEvent":{"action":"run_command","value":"/function att2:cinematic/act_4/ouranos/neleptron/trigger2"},"hoverEvent":{"action":"show_text","value":"Clique aqui para pegar o Néleptron."}}]}

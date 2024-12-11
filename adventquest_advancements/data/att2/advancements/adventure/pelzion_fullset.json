@@ -4,7 +4,7 @@
             "item": "minecraft:elytra"
         },
         "title": {"translate":"Pelzion full set"},
-        "description": {"translate":"Complete the epic set of pelzion"},
+        "description": {"translate":"Complete the epic set of Pelzion"},
         "frame": "challenge"
     },
     "parent": "att2:adventure/epi",

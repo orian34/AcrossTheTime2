@@ -14,7 +14,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Ouran : ","color":"gold","extra"
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"You think so ? And for what foolish reason should I forgive the slight that a nobody gave me?","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"You think so ? And for what foolish reason should magnificent I forgive the slight that a nobody gave me?","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

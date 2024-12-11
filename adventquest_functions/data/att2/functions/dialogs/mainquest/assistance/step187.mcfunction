@@ -10,7 +10,7 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 4","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Clément un habitant de cette ville nommée Zirthion, m'a mené vers la cheffe. Allons dialoguer, elle pourra sûrement m'aider.","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Clément, un habitant de cette ville nommée Zirthion, m'a mené vers la cheffe. Allons dialoguer, elle pourra sûrement m'aider.","color":"aqua"}]}
 
 #ENGLISH LANGUAGE
 

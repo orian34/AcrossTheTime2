@@ -8,12 +8,12 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Excusez-moi maître, mais nous avons trouvé cette personne près du pont en direction d'Ocar. Elle dit être venue d'un autre royaume, et nous avons pu observer Sérile et moi le portail interdimensionnel. De plus, il dit chercher quelqu'un...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Excusez-moi maître, mais nous avons trouvé cette personne près du pont en direction d'Ocar. Il dit être venu d'un autre royaume, et Sérile et moi avons pu observer le portail interdimensionnel. De plus, il dit chercher quelqu'un...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Excuse me, master, but we found this person near the bridge towards Ocar. He says he came from another kingdom, and we were able to observe, Sérile and I the interdimensional portal. In addition, he says he's looking for someone....","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Excuse me, master, but we found this person near the bridge towards Ocar. He says he came from another kingdom, and Sérile and I were able to observe the interdimensional portal. In addition, he says he's looking for someone...","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE
@@ -39,11 +39,11 @@ tellraw @a[scores={LANGUAGE=6}] {"text":" °-° Namrïn : ","color":"dark_purple
 
 # SPANISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=7}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Disculpe, maestro, pero encontramos a esta persona cerca del puente hacia Ocar. Dice que viene de otro reino, y Serile y yo pudimos observar el portal interdimensional. Además, dice que está buscando a alguien....","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=7}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Disculpe, maestro, pero encontramos a esta persona cerca del puente hacia Ocar. Dice que viene de otro reino, y Sérile y yo pudimos observar el portal interdimensional. Además, dice que está buscando a alguien....","color":"dark_aqua"}]}
 
 # GERMAN LANGUAGE
 
-tellraw @a[scores={LANGUAGE=8}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Entschuldigen Sie, Herr, aber wir haben diese Person in der Nähe der Brücke Richtung Ocar gefunden. Er sagt, er kommt aus einem anderen Königreich, und Serile und ich konnten das interdimensionale Portal beobachten. Außerdem sagt er, dass er jemanden sucht....","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=8}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Entschuldigen Sie, Herr, aber wir haben diese Person in der Nähe der Brücke Richtung Ocar gefunden. Er sagt, er kommt aus einem anderen Königreich, und Sérile und ich konnten das interdimensionale Portal beobachten. Außerdem sagt er, dass er jemanden sucht....","color":"dark_aqua"}]}
 
 # HINDI LANGUAGE
 

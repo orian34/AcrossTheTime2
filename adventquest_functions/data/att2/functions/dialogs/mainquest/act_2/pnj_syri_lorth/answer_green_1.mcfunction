@@ -14,7 +14,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Syri Lorth : ","color":"green","
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"The count is good! We'll leave whenever you want. I'll be waiting for you on the big boat across the street.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"It's all there! We'll leave whenever you want. I'll be waiting for you on the big boat across the street.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

@@ -10,11 +10,11 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 4","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Me voilà entrée dans le passage menant vers un autre Néleptron. Continuons par la voie des airs, il n'y a pas d'autres choix...","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Me voilà entré dans le passage menant vers un autre Néleptron. Continuons par la voie des airs, il n'y a pas d'autres choix...","color":"aqua"}]}
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Here I am in the passage leading to another Néleptron. Let's continue by air, there are no other choices ...","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Here I am in the passage leading to another Néleptron. Let's continue by air, there are no other choices...","color":"aqua"}]}
 
 #CHINESE LANGUAGE
 
@@ -43,7 +43,7 @@ tellraw @s[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 # GERMAN LANGUAGE
 
-tellraw @s[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Hier bin ich im Durchgang zum nächsten Neleptron. Lass uns weiterhin durch die Luft gehen, es gibt keine anderen Optionen...","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Hier bin ich im Durchgang zum nächsten Néleptron. Lass uns weiterhin durch die Luft gehen, es gibt keine anderen Optionen...","color":"aqua"}]}
 
 # HINDI LANGUAGE
 

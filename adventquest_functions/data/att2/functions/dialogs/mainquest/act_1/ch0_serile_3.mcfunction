@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° S : ","color":"gray","extra":[{"
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° S : ","color":"gray","extra":[{"text":"Continue on, we are soon arriving to the shelter...","color":"yellow","italic":true}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° S : ","color":"gray","extra":[{"text":"Continue on, we are soon reaching a safe spot...","color":"yellow","italic":true}]}
 
 
 #CHINESE LANGUAGE

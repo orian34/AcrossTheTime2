@@ -15,7 +15,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Ragnar Lorth : ","color":"green"
 
 tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Greetings. Wirth Razgork, a friend of Indra's, sent me to meet her. I...","color":"aqua"}]}
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"What do you want? A friend of Indra's, you say? Wirth.... Hmmmm, ohh yes of course! He helped my mother a lot on her travels, how could I forget! If he sends you to see me, there must be a reason and I'd like to know what it is.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"What do you want? A friend of Indra's, you say? Wirth... Hmmmm, ohh yes of course! He helped my mother a lot on her travels, how could I forget! If he sends you to see me, there must be a reason and I'd like to know what it is.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Namrïn : ","color":"dark_purple
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Relgon is like a father to us. He introduced us to the use of Dahäl and knife fighting. I must say that I am better at the art of Dahäl than Sérile, but it is beyond me when it comes to combat.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Relgon is like a father to us. He introduced us to the use of Dahäl and sword fighting. I must say that I am better at the art of Dahäl than Sérile, but it is beyond me when it comes to combat.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Yaakov Rav : ","color":"green","
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"Indeed, I am a master of Dahäl art and I read many spellbooks during my initiation. I know the legends that are told about it. But these are not things that people generally like to hear. Not that my stories are not exciting, but it usually takes a certain taste of danger to appreciate them... I don't know if you are one of those who aren't afraid to travel across the country to understand a pun, or rather those who prefer a cup of tea by the fire to hear only the redundant anecdotes of their boring friends...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"Indeed, I am a master of Dahäl arts and I read many spellbooks during my initiation. I know the legends that are told about it. But these are not things that people generally like to hear. Not that my stories are not exciting, but it usually takes a certain taste of danger to appreciate them... I don't know if you are one of those who aren't afraid to travel across the country to understand a pun, or rather those who prefer a cup of tea by the fire to hear only the redundant anecdotes of their boring friends...","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

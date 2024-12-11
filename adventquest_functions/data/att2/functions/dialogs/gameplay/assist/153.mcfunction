@@ -7,7 +7,7 @@ function att2:dialogs/gameplay/assist/decoration_up
 
 
 #FRENCH LANGUAGE
-tellraw @s[scores={LANGUAGE=0}] {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"Il existerait un donjon caché à l'Est de la région de Sylberländ, certains parlent d'une entrée accessible verrouillée par d'anciennes runes...","color":"gray","bold":false}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"Il existerait un donjon caché à l'Est de la région du Sylberländ, certains parlent d'une entrée accessible verrouillée par d'anciennes runes...","color":"gray","bold":false}]}
 
 #ENGLISH LANGUAGE
 tellraw @s[scores={LANGUAGE=1..}] {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"There is said to be a hidden dungeon to the east of the Sylberländ region, some speak of an accessible entrance locked by ancient runes...","color":"gray","bold":false}]}

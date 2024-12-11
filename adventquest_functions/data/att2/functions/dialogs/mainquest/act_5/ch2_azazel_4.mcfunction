@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Azazel : ","color":"gold","extra":[{"text":"Toi, un Eternän ? Retire-donc cette capuche que je vois ton visage !","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Azazel : ","color":"gold","extra":[{"text":"Toi, un Eternän ? Retire-donc cette capuche que je voie ton visage !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

@@ -16,7 +16,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Aramis : ","color":"green","extr
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"Go see Marlene in the academy kitchen. She will tell you more about a delivery we have already waited too long for.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"Go see Marlène in the academy kitchen. She will tell you more about a delivery we have already waited too long for.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE
@@ -58,5 +58,3 @@ tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Aramis : ","color":"green","ext
 
 
 function att2:voice/aramis/aramis7
-
-

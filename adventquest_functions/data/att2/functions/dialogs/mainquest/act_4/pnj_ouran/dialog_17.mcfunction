@@ -12,7 +12,7 @@ scoreboard players set ouran_PNJ DIALOG -1
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"Je connais un autre moyen, mais pour ça, pas besoin de te donner ma gemme. ","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Ouran : ","color":"gold","extra":[{"text":"Je connais un autre moyen, mais pour ça, pas besoin de te donner ma gemme.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

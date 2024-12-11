@@ -14,7 +14,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Phoebius : ","color":"green","ex
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Phoebius : ","color":"green","extra":[{"text":"You don't impress me.... So come on, I'll wait for you!","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Phoebius : ","color":"green","extra":[{"text":"You don't impress me... So come on, I'll wait for you!","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

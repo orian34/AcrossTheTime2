@@ -10,11 +10,11 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 4","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Skaolon, un garde posté devant la grande porte du palais d'Ouranos, m'a dit qu'il me fallait chercher des Néleptrons pour obtenir une audience de leur roi. Continuons d'explorer et de chercher ces Nélpetrons. Il devrait y avoir un chemin assez visible y menant...","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Skaolon, un garde posté devant la grande porte du palais d'Ouranos, m'a dit qu'il me fallait chercher des Néleptrons pour obtenir une audience de leur roi. Continuons d'explorer et de chercher ces Néleptrons. Il devrait y avoir un chemin assez visible y menant...","color":"aqua"}]}
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Skaolon, a guard posted in front of the large door of the palace of Ouranos, told me that I had to look for Néleptrons to get an audience with their king. Let's continue to explore and search for these Nélpetrons. There should be a fairly visible path leading there ...","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Skaolon, a guard posted in front of the large door of the palace of Ouranos, told me that I had to look for Néleptrons to get an audience with their king. Let's continue to explore and search for these Néleptrons. There should be a fairly visible path leading there...","color":"aqua"}]}
 
 #CHINESE LANGUAGE
 
@@ -39,11 +39,11 @@ tellraw @s[scores={LANGUAGE=6}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 # SPANISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Skaolon, un guardia apostado frente a la gran puerta del palacio de Ouranos, me dijo que tenía que buscar Néleptrons para obtener una audiencia con su rey. Sigamos explorando y buscando estos Nélpetrons. Debería haber un camino bastante visible que lleve allí...","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=7}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Skaolon, un guardia apostado frente a la gran puerta del palacio de Ouranos, me dijo que tenía que buscar Néleptrons para obtener una audiencia con su rey. Sigamos explorando y buscando estos Néleptrons. Debería haber un camino bastante visible que lleve allí...","color":"aqua"}]}
 
 # GERMAN LANGUAGE
 
-tellraw @s[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Skaolon, ein Wächter vor der großen Tür des Palastes von Ouranos, sagte mir, dass ich Néleptrons suchen müsse, um eine Audienz bei ihrem König zu bekommen. Lass uns weiterhin erkunden und nach diesen Nélpetrons suchen. Es sollte einen ziemlich sichtbaren Weg dorthin geben...","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=8}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Skaolon, ein Wächter vor der großen Tür des Palastes von Ouranos, sagte mir, dass ich Néleptrons suchen müsse, um eine Audienz bei ihrem König zu bekommen. Lass uns weiterhin erkunden und nach diesen Néleptrons suchen. Es sollte einen ziemlich sichtbaren Weg dorthin geben...","color":"aqua"}]}
 
 # HINDI LANGUAGE
 
@@ -51,4 +51,4 @@ tellraw @s[scores={LANGUAGE=9}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 # PORTUGUESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Skaolon, um guarda postado em frente à grande porta do palácio de Ouranos, me disse que eu precisava procurar Néleptrons para conseguir uma audiência com seu rei. Vamos continuar explorando e procurando esses Nélpetrons. Deve haver um caminho bastante visível levando até lá...","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Skaolon, um guarda postado em frente à grande porta do palácio de Ouranos, me disse que eu precisava procurar Néleptrons para conseguir uma audiência com seu rei. Vamos continuar explorando e procurando esses Néleptrons. Deve haver um caminho bastante visível levando até lá...","color":"aqua"}]}

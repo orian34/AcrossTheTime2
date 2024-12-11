@@ -11,7 +11,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Wulk : ","color":"green","extra"
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Wulk : ","color":"green","extra":[{"text":"Good morning traveler! Come in! Do not be shy! My name is Wulk, and as you may have noticed I am a Blacksmith. I have been practicing this art for many years. Alas, forgive the lack of product today, but I lack the materials to make more equipment. Iron, that's what I need, but my assistant still hasn't returned... Do you have time to help me find iron ore? You will be generously rewarded.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Wulk : ","color":"green","extra":[{"text":"Good morning traveller! Come in! Do not be shy! My name is Wulk, and as you may have noticed I am a Blacksmith. I have been practicing this art for many years. Alas, forgive the lack of product today, but I lack the materials to make more equipment. Iron, that's what I need, but my assistant still hasn't returned... Do you have time to help me find iron ore? You will be generously rewarded.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

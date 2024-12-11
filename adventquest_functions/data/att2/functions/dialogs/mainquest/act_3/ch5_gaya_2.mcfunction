@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Gaya : ","color":"dark_green","e
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Gaya : ","color":"dark_green","extra":[{"text":"Unfortunately, he is not my child. Everything that has a beginning, also has an end, but you are not without ignoring it...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Gaya : ","color":"dark_green","extra":[{"text":"Unfortunately, he is not my child. Everything that has a beginning, also has an end, but it isn't something you ignore...","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

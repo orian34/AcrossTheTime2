@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Etotsira : ","color":"blue","ext
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Yes, I have no doubt about your capacities. But I'll help you when you'll be approaching Nojélanth...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Yes, I have no doubt about your abilities. But I'll help you when you'll be approaching Nojélanth...","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

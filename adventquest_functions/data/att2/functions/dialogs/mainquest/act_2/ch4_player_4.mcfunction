@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Hello, you're Indra, I think? I am a friend of Wirth's, he sent me to you to help me in my search for an object... unusual.","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Hello, you're Indra, I think? I am a friend of Wirth, he sent me to you so you can help me in my search for an... unusual object.","color":"aqua"}]}
 
 
 #CHINESE LANGUAGE

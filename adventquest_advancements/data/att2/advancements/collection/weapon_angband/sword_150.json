@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:golden_sword"
         },
-        "title": {"translate":"Epée du soldat"},
+        "title": {"translate":"Épée du soldat"},
         "description": {"translate":"A real sword for an immortal soldier of Angor."},
         "frame": "goal",
         "show_toast": false,
@@ -20,7 +20,7 @@
                 "items": [
                     {
                     "items": ["minecraft:golden_sword"],
-                    "nbt": "{display:{Name:\"\\\"§9Epée du soldat\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Une véritable épée pour un soldat\\\"}\",\"{\\\"text\\\":\\\"§7immortel d'Angor.\\\"}\",\"{\\\"text\\\":\\\"§7A real sword for an immortal\\\"}\",\"{\\\"text\\\":\\\"§7soldier of Angor.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a1 §7DAR§a1 §7LUC§a1 §7HAS§c-1\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§9Épée du soldat\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Une véritable épée pour un soldat\\\"}\",\"{\\\"text\\\":\\\"§7immortel d'Angor.\\\"}\",\"{\\\"text\\\":\\\"§7A real sword for an immortal\\\"}\",\"{\\\"text\\\":\\\"§7soldier of Angor.\\\"}\",\"{\\\"text\\\":\\\"§7SPD§a1 §7DAR§a1 §7LUC§a1 §7HAS§c-1\\\"}\"]}}"
                     }
                 ]
             }

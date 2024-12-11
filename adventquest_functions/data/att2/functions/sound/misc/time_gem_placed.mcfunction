@@ -1,6 +1,6 @@
 #########################################################
 #Made by Adventquest                             		#
-#Play sound for the placemetn of the time gem  			#
+#Play sound for the placemetn of the Gem of Time  			#
 #########################################################
 
 playsound minecraft:magicspell block @a ~ ~ ~ 1 2

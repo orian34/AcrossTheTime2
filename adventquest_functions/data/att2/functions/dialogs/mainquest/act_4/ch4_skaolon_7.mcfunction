@@ -13,12 +13,12 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Skaolon : ","color":"green","ext
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"You? A hero? Ahahahaha, no. Well, since you're funny, I'll make you a deal : our exquisite king loves the refined foodstuff that's the Neleptrons. Bring us some and maybe we'll let you in.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"You? A hero? Ahahahaha, no. Well, since you're funny, I'll make you a deal : our exquisite king loves the refined delicacy that are the Néleptrons. Bring us some and maybe you'll be let in.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"你？ 一個英雄？ 啊哈哈哈， 沒有。好吧， 既然你很有趣， 我就和你做個交易：我們精緻的國王喜歡 Neleptrons 的精緻食品。給我們帶來一些， 也許我們會讓你進來。","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=2}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"你？ 一個英雄？ 啊哈哈哈， 沒有。好吧， 既然你很有趣， 我就和你做個交易：我們精緻的國王喜歡 Néleptrons 的精緻食品。給我們帶來一些， 也許我們會讓你進來。","color":"dark_aqua"}]}
 
 
 # JAPANESE LANGUAGE
@@ -39,11 +39,11 @@ tellraw @a[scores={LANGUAGE=6}] {"text":" °-° Skaolon : ","color":"green","ext
 
 # SPANISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=7}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"¿Tú? ¿Un héroe? ¡Jajajaja, no! Bueno, como eres gracioso, te haré una oferta: nuestro exquisito rey adora el manjar refinado que son los Neleptrons. Tráenos algo y quizás te dejemos entrar.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=7}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"¿Tú? ¿Un héroe? ¡Jajajaja, no! Bueno, como eres gracioso, te haré una oferta: nuestro exquisito rey adora el manjar refinado que son los Néleptrons. Tráenos algo y quizás te dejemos entrar.","color":"dark_aqua"}]}
 
 # GERMAN LANGUAGE
 
-tellraw @a[scores={LANGUAGE=8}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"Du? Ein Held? Ahahaha, nein. Nun, da du so lustig bist, mach ich dir ein Angebot: Unser vorzüglicher König liebt die raffinierte Speise namens Neleptrons. Bring uns etwas davon und vielleicht lassen wir dich rein.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=8}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"Du? Ein Held? Ahahaha, nein. Nun, da du so lustig bist, mach ich dir ein Angebot: Unser vorzüglicher König liebt die raffinierte Speise namens Néleptrons. Bring uns etwas davon und vielleicht lassen wir dich rein.","color":"dark_aqua"}]}
 
 # HINDI LANGUAGE
 
@@ -51,4 +51,4 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Skaolon : ","color":"green","ext
 
 # PORTUGUESE LANGUAGE
 
-tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"Você? Um herói? Ahahahaha, não. Bem, como você é engraçado, vou te fazer uma proposta: nosso rei exímio adora a iguaria refinada que são os Neleptrons. Traga-nos alguns e talvez o deixemos entrar.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"Você? Um herói? Ahahahaha, não. Bem, como você é engraçado, vou te fazer uma proposta: nosso rei exímio adora a iguaria refinada que são os Néleptrons. Traga-nos alguns e talvez o deixemos entrar.","color":"dark_aqua"}]}

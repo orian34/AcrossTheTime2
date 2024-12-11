@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"A part héros, demi-dieu ou dieu, aucun ! ","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"À part héros, demi-dieu ou dieu, aucun ! ","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

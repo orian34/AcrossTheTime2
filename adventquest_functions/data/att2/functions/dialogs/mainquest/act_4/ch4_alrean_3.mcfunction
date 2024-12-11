@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Alréan : ","color":"gold","extr
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Alréan : ","color":"gold","extra":[{"text":"Of course not, Oh I think I understand, you come from far away... From a place that cannot be reached by walking or flying.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Alréan : ","color":"gold","extra":[{"text":"Of course not, oh I think I understand, you come from far away... From a place that cannot be reached by walking or flying.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

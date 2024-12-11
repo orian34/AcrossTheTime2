@@ -6,12 +6,12 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"*Voix sèche, usée* Bienvenue en notre académie, jeune voyageur. Je suis l'archimage Aramis, maître des lieux et intendant de la ville d'Eolorion. On m'a fait savoir que vous me cherchiez, que voulez-vous ?","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"*voix sèche, usée* Bienvenue en notre académie, jeune voyageur. Je suis l'archimage Aramis, maître des lieux et intendant de la ville d'Eolorion. On m'a fait savoir que vous me cherchiez, que voulez-vous ?","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"*Dry, worn-out voice* Welcome to our academy, young traveller. I am the archimage Aramis, master of the place and intendant of the city of Eolorion. I was told you were looking for me, what do you want?","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"*dry, worn-out voice* Welcome to our academy, young traveller. I am the archmage Aramis, master of the place and intendant of the city of Eolorion. I was told you were looking for me, what do you want?","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Sylvandre : ","color":"green","e
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"The tarverne is like my second home, that's where I work. It's a warm place where lots of travellers gather for a good drink!","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Sylvandre : ","color":"green","extra":[{"text":"The tavern is like my second home, that's where I work. It's a warm place where lots of travellers gather for a good drink!","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE

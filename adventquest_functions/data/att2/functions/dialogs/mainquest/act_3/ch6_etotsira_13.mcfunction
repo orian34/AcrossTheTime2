@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Ce n'est pas aussi simple, il me faudrait beaucoup de temps. D'autant plus que je viens juste d'en engendrer un pour toi. Mais il reste une solution : quand tu as voyagé de ton époque à maintenant, tu as du utiliser des gemmes dites 'de temps' ?","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Ce n'est pas aussi simple, il me faudrait beaucoup de temps. D'autant plus que je viens juste d'en engendrer un pour toi. Mais il reste une solution : quand tu as voyagé de ton époque à maintenant, tu as dû utiliser des gemmes dites 'de temps' ?","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

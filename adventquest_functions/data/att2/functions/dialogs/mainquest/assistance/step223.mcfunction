@@ -14,7 +14,7 @@ tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"The village chief of Kortaek showed me the way to Nojélanth. I have to rush into the grand canyon and go to the bottom in a cave.","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"The village chief of Kortaek showed me the way to Nojélanth. I have to rush into the great canyon and go to the bottom of a cave.","color":"aqua"}]}
 
 #CHINESE LANGUAGE
 
