@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ender_eye",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "title": {"translate":"Apotheosis"},
+        "description": {"translate":"Achieve everything this world has to offer. No feat undone, no secret unsolved, witnessed the end of a reality."},
+        "frame": "challenge",
+        "hidden": true
+    },
+    "parent": "att2:adventure/your_story",
+    "criteria": {
+        "apotheosis": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

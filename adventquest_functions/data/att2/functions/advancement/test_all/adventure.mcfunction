@@ -75,6 +75,9 @@ advancement grant @a[scores={TIMESINCEDEATH=72000..}] only att2:adventure/surviv
 advancement grant @a[scores={TIMESINCEDEATH=168000..}] only att2:adventure/survive_1week
 advancement grant @a[scores={TIMESINCEDEATH=720000..}] only att2:adventure/survive_1month
 
+# APOTHEOSIS
+execute if entity @a[advancements={att2:quest/sq60=true}] if entity @a[advancements={att2:story/nodeath_nightmare=true}] if entity @a[advancements={att2:secret/shulker_75=true}] if entity @a[advancements={att2:progress/reputation_less_100=true}] if entity @a[advancements={att2:progress/gamelevelmaster_300=true}] if entity @a[advancements={att2:hunting/umbratyanth_nightmare=true}] if entity @a[advancements={att2:hunting/suirucrem_nightmare=true}] if entity @a[advancements={att2:dahal/spell40_secret=true}] if entity @a[advancements={att2:adventure/ouran_nofight=true}] run advancement grant @a only att2:adventure/apotheosis
+
 # INN
 advancement grant @a[scores={INN=1..}] only att2:adventure/inn_1
 advancement grant @a[scores={INN=10..}] only att2:adventure/inn_10
