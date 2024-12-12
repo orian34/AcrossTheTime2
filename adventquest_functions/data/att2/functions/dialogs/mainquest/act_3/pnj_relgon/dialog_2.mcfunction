@@ -52,4 +52,5 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Relgon : ","color":"red","extra"
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Relgon : ","color":"red","extra":[{"text":"Está pronto para a batalha final?","color":"dark_aqua"}]}
 
 
+function att2:voice/relgon/relgon.dialogue2
 function att2:dialogs/mainquest/act_3/pnj_relgon/player_answer_proposal_1

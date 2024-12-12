@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° एटर्नेन सैन�
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Soldado Eternän : ","color":"green","extra":[{"text":"... Tudo bem, vou deixar você passar, mas você será responsável.","color":"dark_aqua"}]}
+
+
+function att2:voice/guard/guard5

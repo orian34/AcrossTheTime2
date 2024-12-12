@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° एटर्नेन सैन�
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Soldado Eternän : ","color":"green","extra":[{"text":"Bom te ver novamente, Namrïn, vejo que você está acompanhado. Não permitimos a entrada de mortais no acampamento sem permissão do General.","color":"dark_aqua"}]}
+
+
+function att2:voice/guard/guard4

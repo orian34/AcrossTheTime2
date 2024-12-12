@@ -59,3 +59,5 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Syri Lorth : ","color":"green","
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"Você não deveria estar aqui, esta ilha é perigosa... Volte para de onde você veio!","color":"dark_aqua"}]}
 
+
+function att2:voice/syri/syri.dialogue4

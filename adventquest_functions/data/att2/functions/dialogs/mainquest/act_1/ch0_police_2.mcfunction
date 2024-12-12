@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":"(-)=(-) Police : ","color":"gray","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":"(-)=(-) Police : ","color":"gray","extra":[{"text":"O PARLAMENTO ESTÁ CERCADO!! VOCÊ NÃO PODE ESCAPAR..! SAIA DO PRÉDIO E LEVANTE AS MÃOS!!","color":"dark_red"}]}
+
+
+function att2:voice/police/police2

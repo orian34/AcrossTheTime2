@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Skaolon : ","color":"green","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"Você conseguiu o que queria, agora vá encontrar o nosso rei...","color":"dark_aqua"}]}
+
+
+function att2:voice/skaolon/skaolon.dialogue2

@@ -44,4 +44,5 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Gonon : ","color":"green","extra
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"Olá! Como você está?","color":"dark_aqua"}]}
 
 
+function att2:voice/gonon/gonon.dialogue2
 function att2:dialogs/gameplay/inn/proposal_gonon

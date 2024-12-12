@@ -42,3 +42,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Clément : ","color":"green","ex
 
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Clément : ","color":"green","extra":[{"text":"Diz-se que um peixe sonhador está preso em uma nuvem por ciclos. O rei deste mundo o teria feito prisioneiro por capricho. Cheio de tristeza, o fluxo de lágrimas que derrama alimenta o grande riacho que atravessa nossa cidade. Uma história de partir o coração e um destino triste para esta criatura... Se tudo isso for verdade, eu gostaria de libertá-lo de suas correntes um dia. Mesmo que às vezes sejam perigosos, esses animais não merecem tanta crueldade!","color":"dark_aqua"}]}
+
+
+function att2:voice/clement/clement.dialogue2

@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° एस्टेल : ","color":"
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Estelle : ","color":"green","extra":[{"text":"Olá, você é amigo do Sylvandre? É a primeira vez que te vejo na cidade, no entanto. Ele sempre tenta me impressionar, ele é um pouco irritante e desajeitado, mas é gentil.","color":"dark_aqua"}]}
+
+
+function att2:voice/estelle/estelle.dialogue1

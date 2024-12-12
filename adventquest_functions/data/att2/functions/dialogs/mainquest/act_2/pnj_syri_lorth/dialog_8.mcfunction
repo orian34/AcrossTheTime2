@@ -52,4 +52,5 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Syri Lorth : ","color":"green","
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Syri Lorth : ","color":"green","extra":[{"text":"Quer voltar para Méleïm?","color":"dark_aqua"}]}
 
 
+function att2:voice/syri/syri.dialogue5
 function att2:dialogs/mainquest/act_2/pnj_syri_lorth/player_answer_proposal_3

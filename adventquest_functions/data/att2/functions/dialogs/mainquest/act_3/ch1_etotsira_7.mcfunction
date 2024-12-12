@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Etotsira : ","color":"blue","ext
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Gaya! Dê-me força!","color":"dark_aqua"}]}
+
+
+function att2:voice/etotsira/etotsira7
