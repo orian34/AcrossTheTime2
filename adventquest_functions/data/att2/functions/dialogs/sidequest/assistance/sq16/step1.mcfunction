@@ -8,7 +8,7 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"-°- À court de munitions -°- : ","color":"gray","extra":[{"text":"L'armée Eternän est à court de flèches, et Garret m'a demandé d'en chercher dans la ville d'Angor. Il faut que j'obtienne au moins 3x64 ","color":"aqua","italic":true,"extra":[{"text":"<Flèches de l'armée Eternän>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:arrow\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Flèches de l'armée Eternän\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Arrows of Eternän Army\\\"}\"]}}}"},"extra":[{"text":" dans la caserne à l'Est de la ville. La caserne serait un bâtiment plus grand que les autres et placé en-dessous de la seconde partie du grand pont qui monte vers l'Est.","color":"aqua","italic":true}]}]}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"-°- À court de munitions -°- : ","color":"gray","extra":[{"text":"L'armée Eternän est à court de flèches, et Garret m'a demandé d'en chercher dans la ville d'Angor. Il faut que j'obtienne au moins 3x64 ","color":"aqua","italic":true,"extra":[{"text":"<Flèches de l'armée Eternän>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:arrow\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Flèches de l'armée Eternän\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Arrows of Eternän Army\\\"}\"]}}}"},"extra":[{"text":" dans la caserne à l'est de la ville. La caserne serait un bâtiment plus grand que les autres et placé en-dessous de la seconde partie du grand pont qui monte vers l'est.","color":"aqua","italic":true}]}]}]}
 
 #ENGLISH LANGUAGE
 

@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"Vous avez trouvé sa veste ? Alors cette piste est la bonne. Elle suit bien les traces de sa mère et la piste mène au cimetière d'Adanoï près de la ville de Méleïm sur la côte Est... Peut-être nous croiserons-nous à nouveau. Bonne chance.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"Vous avez trouvé sa veste ? Alors cette piste est la bonne. Elle suit bien les traces de sa mère et la piste mène au cimetière d'Adanoï près de la ville de Méleïm sur la côte est... Peut-être nous croiserons-nous à nouveau. Bonne chance.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Edwin Vortid : ","color":"green","extra":[{"text":"Ah je le savais ! L'établissement se trouve au nord de la forêt de Soquaï accolé à la montagne. Pour trouver facilement il suffit de remonter le torrent en le longeant côté Est. Faites donc quelques paris et vous y prendrez vite goût, si bien sûr vous avez assez de Chronotons...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Edwin Vortid : ","color":"green","extra":[{"text":"Ah je le savais ! L'établissement se trouve au nord de la forêt de Soquaï accolé à la montagne. Pour trouver facilement il suffit de remonter le torrent en le longeant côté est. Faites donc quelques paris et vous y prendrez vite goût, si bien sûr vous avez assez de Chronotons...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

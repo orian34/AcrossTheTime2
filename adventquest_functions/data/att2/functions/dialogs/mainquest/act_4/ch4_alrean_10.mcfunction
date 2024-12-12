@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Alréan : ","color":"gold","extra":[{"text":"Oui, oui, il vous le faut. Mais vous ne pourrez le faire qu'en volant. Allez à la maison de l'artiste du vent, il vous apportera son aide. Pour le trouver, suivez la route devant moi, traversez le pont, puis continuez vers le Nord. Montez ensuite par les escaliers que vous trouverez au croisement et vous tomberez sur la seule maison excentrée de la ville...","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Alréan : ","color":"gold","extra":[{"text":"Oui, oui, il vous le faut. Mais vous ne pourrez le faire qu'en volant. Allez à la maison de l'artiste du vent, il vous apportera son aide. Pour le trouver, suivez la route devant moi, traversez le pont, puis continuez vers le nord. Montez ensuite par les escaliers que vous trouverez au croisement et vous tomberez sur la seule maison excentrée de la ville...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

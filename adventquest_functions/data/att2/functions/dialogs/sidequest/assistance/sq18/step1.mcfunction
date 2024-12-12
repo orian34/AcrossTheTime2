@@ -8,7 +8,7 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Une vengeance bien mérité -°- : ","color":"gray","extra":[{"text":"Le fils de Daril Gram a été mutilé par des fanatiques, son père veut que je le venge, que j'en finisse avec ces monstres. Leur campement se trouverait dans le quartier extrême-Ouest d'Angor.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Une vengeance bien mérité -°- : ","color":"gray","extra":[{"text":"Le fils de Daril Gram a été mutilé par des fanatiques, son père veut que je le venge, que j'en finisse avec ces monstres. Leur campement se trouverait dans le quartier extrême-ouest d'Angor.","color":"aqua","italic":true}]}
 
 #ENGLISH LANGUAGE
 

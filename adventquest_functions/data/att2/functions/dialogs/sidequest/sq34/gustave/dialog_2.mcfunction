@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Gustave : ","color":"green","extra":[{"text":"Je ne peux rien faire sans cette cargaison et si cela dure trop longtemps je vais devoir abandonner le chantier... S'il vous plaît, aidez-moi au moins à trouver mes collègues sur la route de la mine de Kert tout au Sud de la région...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Gustave : ","color":"green","extra":[{"text":"Je ne peux rien faire sans cette cargaison et si cela dure trop longtemps je vais devoir abandonner le chantier... S'il vous plaît, aidez-moi au moins à trouver mes collègues sur la route de la mine de Kert tout au sud de la région...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

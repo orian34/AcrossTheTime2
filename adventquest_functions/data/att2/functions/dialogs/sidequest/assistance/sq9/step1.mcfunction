@@ -8,7 +8,7 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Patrick manque de bois -°- : ","color":"gray","extra":[{"text":"Patrick aimerait que j'aille chercher du bois pour lui dans la forêt de Ryliath, plus précisément au campement Jarat au Nord-Est de la forêt. Il y aura sûrement quelqu'un ou un bûcheron pour m'échanger 16 ","color":"aqua","italic":true,"extra":[{"text":"<Buche de bois>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:log\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Buche de bois\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Log of Wood\\\"}\"]}}}"},"extra":[{"text":" dans le camp.","color":"aqua","italic":true}]}]}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Patrick manque de bois -°- : ","color":"gray","extra":[{"text":"Patrick aimerait que j'aille chercher du bois pour lui dans la forêt de Ryliath, plus précisément au campement Jarat au nord-est de la forêt. Il y aura sûrement quelqu'un ou un bûcheron pour m'échanger 16 ","color":"aqua","italic":true,"extra":[{"text":"<Buche de bois>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:log\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Buche de bois\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Log of Wood\\\"}\"]}}}"},"extra":[{"text":" dans le camp.","color":"aqua","italic":true}]}]}]}
 
 #ENGLISH LANGUAGE
 

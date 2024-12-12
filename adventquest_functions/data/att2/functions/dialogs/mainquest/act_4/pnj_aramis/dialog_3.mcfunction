@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"Hâtez-vous à la porte Ouest de la ville, nous reparlerons de la gemme plus tard.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"Hâtez-vous à la porte ouest de la ville, nous reparlerons de la gemme plus tard.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

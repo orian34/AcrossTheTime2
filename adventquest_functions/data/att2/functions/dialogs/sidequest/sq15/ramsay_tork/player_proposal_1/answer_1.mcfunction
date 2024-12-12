@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Ramsay Tork : ","color":"green","extra":[{"text":"Tu es très courageux, la ville d'Angor est un vrai labyrinthe en plus d'être envahie par les barbares... Le quartier de la fonderie se trouve en face du palais à l'Ouest. Bonne chance.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Ramsay Tork : ","color":"green","extra":[{"text":"Tu es très courageux, la ville d'Angor est un vrai labyrinthe en plus d'être envahie par les barbares... Le quartier de la fonderie se trouve en face du palais à l'ouest. Bonne chance.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

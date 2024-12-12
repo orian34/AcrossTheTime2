@@ -10,7 +10,7 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 4","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"D'après ce que m'a affirmé Aramis, Vonaheim aurait fait ériger une immense structure à l'aide de ses sbires. Il a sûrement trouvé la Gemme de Temps... Je dois donc chercher sa demeure. Commençons par prendre le chemin Ouest d'Eolorion.","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"D'après ce que m'a affirmé Aramis, Vonaheim aurait fait ériger une immense structure à l'aide de ses sbires. Il a sûrement trouvé la Gemme de Temps... Je dois donc chercher sa demeure. Commençons par prendre le chemin ouest d'Eolorion.","color":"aqua"}]}
 
 #ENGLISH LANGUAGE
 

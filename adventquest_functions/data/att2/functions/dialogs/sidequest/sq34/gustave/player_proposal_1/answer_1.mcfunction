@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Gustave : ","color":"green","extra":[{"text":"Ils ont pris la route vers la mine de Kert. Elle se trouve au Sud de la région. Allez par le désert jusqu'au grand pont qui surplombe le canyon, traversez-le et continuez sur la route. Pourvu qu'ils aillent bien, et que rien ne soit arrivé à la cargaison.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Gustave : ","color":"green","extra":[{"text":"Ils ont pris la route vers la mine de Kert. Elle se trouve au sud de la région. Allez par le désert jusqu'au grand pont qui surplombe le canyon, traversez-le et continuez sur la route. Pourvu qu'ils aillent bien, et que rien ne soit arrivé à la cargaison.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

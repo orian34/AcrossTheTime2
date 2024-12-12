@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Garret : ","color":"green","extra":[{"text":"Alors, tu as trouvé la caserne ? Repère le grand pont montant vers l'Est de la ville, la caserne se trouve en-dessous de la seconde partie de ce pont.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Garret : ","color":"green","extra":[{"text":"Alors, tu as trouvé la caserne ? Repère le grand pont montant vers l'est de la ville, la caserne se trouve en-dessous de la seconde partie de ce pont.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

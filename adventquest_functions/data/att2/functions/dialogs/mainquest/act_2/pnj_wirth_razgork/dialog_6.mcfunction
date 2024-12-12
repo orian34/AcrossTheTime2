@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Wirth Razgork : ","color":"green","extra":[{"text":"Dirigez-vous vers Méleïm, une petite ville accolée à une grande falaise tout à l'Est de la région. Pour y aller, il vous suffit de suivre la route vers le Nord puis après un grand pont, allez vers l'Est. Bref suivez les panneaux indiquant Méleïm. Là-bas, parlez au chef du village dont la maison est au sommet du pic rocheux... Il vous dira où habite Indra.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Wirth Razgork : ","color":"green","extra":[{"text":"Dirigez-vous vers Méleïm, une petite ville accolée à une grande falaise tout à l'est de la région. Pour y aller, il vous suffit de suivre la route vers le nord puis après un grand pont, allez vers l'est. Bref suivez les panneaux indiquant Méleïm. Là-bas, parlez au chef du village dont la maison est au sommet du pic rocheux... Il vous dira où habite Indra.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

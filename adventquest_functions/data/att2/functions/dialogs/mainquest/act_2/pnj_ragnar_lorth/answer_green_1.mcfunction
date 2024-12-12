@@ -12,7 +12,7 @@ scoreboard players set ragnar_lorth_PNJ DIALOG 2
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"..... ... Pffouahahaha !! Eh bien, cela ne fait aucun doute, vous êtes bien un aventurier ! J'ignore où vous trouvez l'inspiration pour ces histoires, quoique l'alcool doit beaucoup aider je crois, mais il n'y a qu'un aventurier pour inventer ça ! Sache que celle que tu veux voir est ma mère et elle ne court plus le pays depuis que l'âge l'a rattrapé. Cependant, elle sera ravie de rencontrer l'un de ses confrères, enfin tant que tu n'essaies pas de l'impliquer dans ton aventure. Elle se trouve dans une maison en surplomb de l'arche naturelle, au Nord de la ville. En fait, sa demeure est à côté de la plus haute tour du village.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"..... ... Pffouahahaha !! Eh bien, cela ne fait aucun doute, vous êtes bien un aventurier ! J'ignore où vous trouvez l'inspiration pour ces histoires, quoique l'alcool doit beaucoup aider je crois, mais il n'y a qu'un aventurier pour inventer ça ! Sache que celle que tu veux voir est ma mère et elle ne court plus le pays depuis que l'âge l'a rattrapé. Cependant, elle sera ravie de rencontrer l'un de ses confrères, enfin tant que tu n'essaies pas de l'impliquer dans ton aventure. Elle se trouve dans une maison en surplomb de l'arche naturelle, au nord de la ville. En fait, sa demeure est à côté de la plus haute tour du village.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

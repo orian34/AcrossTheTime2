@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Ormack : ","color":"green","extra":[{"text":"Le campement des voleurs est au Sud de notre village dans la forêt près d'une mine. En empruntant le chemin, ou en longeant les collines, vous trouverez facilement...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Ormack : ","color":"green","extra":[{"text":"Le campement des voleurs est au sud de notre village dans la forêt près d'une mine. En empruntant le chemin, ou en longeant les collines, vous trouverez facilement...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

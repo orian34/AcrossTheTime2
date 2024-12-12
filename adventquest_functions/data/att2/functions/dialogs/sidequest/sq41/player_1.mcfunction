@@ -8,7 +8,7 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Une grande clef ! Jack avait raison, je dois maintenant aller à l'île secrète au Sud d'Asunark et m'infiltrer dans le repaire de ces pirates.","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Une grande clef ! Jack avait raison, je dois maintenant aller à l'île secrète au sud d'Asunark et m'infiltrer dans le repaire de ces pirates.","color":"aqua"}]}
 
 
 #ENGLISH LANGUAGE

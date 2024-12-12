@@ -12,7 +12,7 @@ scoreboard players set ragnar_lorth_PNJ DIALOG 2
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"Très bien, très bien, puisque vous insistez... Mais qu'il ne lui arrive rien, ou je peux vous garantir que tous les hommes de Méleïm seront à vos trousses ! La demeure d'Indra se trouve en surplomb de l'arche naturelle, au Nord de la ville. En fait, elle est à côté de la plus haute tour du village.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Ragnar Lorth : ","color":"green","extra":[{"text":"Très bien, très bien, puisque vous insistez... Mais qu'il ne lui arrive rien, ou je peux vous garantir que tous les hommes de Méleïm seront à vos trousses ! La demeure d'Indra se trouve en surplomb de l'arche naturelle, au nord de la ville. En fait, elle est à côté de la plus haute tour du village.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

@@ -9,7 +9,7 @@ function att2:gameplay/reputation/remove_2
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Brutus : ","color":"green","extra":[{"text":"*changeant de voix* Attendez ! Je vous en supplie, n'en faites rien, je ne suis pas l'un des leurs et ne désire aucun ennuis ! Je suis en exil, voyez-vous. Vous êtes là pour entrer dans le temple j'imagine ? Allez à l'Ouest du temple, là il devrait y avoir une entrée.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Brutus : ","color":"green","extra":[{"text":"*changeant de voix* Attendez ! Je vous en supplie, n'en faites rien, je ne suis pas l'un des leurs et ne désire aucun ennuis ! Je suis en exil, voyez-vous. Vous êtes là pour entrer dans le temple j'imagine ? Allez à l'ouest du temple, là il devrait y avoir une entrée.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE
