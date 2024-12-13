@@ -8,7 +8,7 @@ execute positioned 7954 115 6772 run function att2:sound/dialogs/simple
 # Give tim gem
 function att2:gameplay/boss/ouranos/ouran/set_timegem
 advancement grant @a only att2:hunting/ouran
-scoreboard players set Real0 TIMER 1499
+scoreboard players set Real0 TIMER 1501
 scoreboard players set ouran_PNJ DIALOG -2
 scoreboard players set Ouran OURANOS -2
 
