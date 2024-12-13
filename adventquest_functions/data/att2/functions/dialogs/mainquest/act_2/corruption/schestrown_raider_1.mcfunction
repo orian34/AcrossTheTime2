@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Pillager : ","color":"green","ex
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Pillager : ","color":"green","extra":[{"text":"Ei você aí! Carlin te enviou? Perfeito, estávamos esperando por você para o saque.","color":"dark_aqua"}]}
+
+
+function att2:voice/truant/truant1

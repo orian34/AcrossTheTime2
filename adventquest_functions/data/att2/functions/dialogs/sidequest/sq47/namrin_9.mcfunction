@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Namrïn : ","color":"dark_purple
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Se você conseguir empunhá-la, eu reconhecerei que o que você me disse é verdade.","color":"dark_aqua"}]}
+
+
+function att2:voice/namrin/namrin.sidequest21

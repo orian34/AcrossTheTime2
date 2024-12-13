@@ -52,4 +52,4 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Aramis : ","color":"green","extr
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"Então, o que você está esperando para ajudar a Marlène? Eu não tenho tempo a perder com negociações.","color":"dark_aqua"}]}
 
 
-function att2:voice/aramis/aramis13
+function att2:voice/aramis/aramis.dialogue1

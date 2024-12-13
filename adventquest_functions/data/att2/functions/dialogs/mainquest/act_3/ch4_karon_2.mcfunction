@@ -52,3 +52,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Karön : ","color":"green","extr
 # PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Karön : ","color":"green","extra":[{"text":"Eu cuidarei disso!","color":"red"}]}
+
+
+function att2:voice/karon/karon2

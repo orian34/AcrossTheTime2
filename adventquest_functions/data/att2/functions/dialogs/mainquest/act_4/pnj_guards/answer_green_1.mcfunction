@@ -78,4 +78,4 @@ tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Guardas : ","color":"green","ex
 tellraw @a[scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Ok, eu te sigo, mas não vamos perder tempo...","color":"aqua"}]}
 
 
-function att2:voice/guard/guard13
+function att2:voice/guard/guard14

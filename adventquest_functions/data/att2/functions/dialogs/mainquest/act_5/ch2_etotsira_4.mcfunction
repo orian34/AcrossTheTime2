@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Etotsira : ","color":"blue","ext
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Apenas Gaya sabe o que o futuro reserva para você, mas claramente, para mim, sua história não termina aqui... Volte à era da sua epopeia, só lá você poderá se preparar para os próximos testes... Por mais difíceis que sejam...","color":"dark_aqua"}]}
+
+
+function att2:voice/etotsira/etotsira60

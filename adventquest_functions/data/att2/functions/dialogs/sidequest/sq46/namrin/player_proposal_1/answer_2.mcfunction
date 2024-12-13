@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Namrïn : ","color":"dark_purple
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Relgon realmente era invencível, e enfrentar semideuses fazia parte de sua rotina diária.","color":"dark_aqua"}]}
+
+
+function att2:voice/namrin/namrin.sidequest8

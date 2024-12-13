@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Namrïn : ","color":"dark_purple
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Aqui está o cemitério de Irilion. O maior santuário que existe, pois é o próprio lugar onde o criador divino de Angband desapareceu, há centenas de milhares de ciclos, sob a violência das ações de Môt.","color":"dark_aqua"}]}
+
+
+function att2:voice/namrin/namrin.sidequest18

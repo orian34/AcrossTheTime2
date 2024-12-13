@@ -42,3 +42,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Clément : ","color":"green","ex
 
 #PORTUGUESE LANGUAGE
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Clément : ","color":"green","extra":[{"text":"Eu adoraria ser um guerreiro viajante como você, mas não encontro a coragem.","color":"dark_aqua"}]}
+
+
+function att2:voice/clement/clement.dialogue1

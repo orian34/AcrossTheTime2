@@ -9,7 +9,7 @@ title @a[scores={LANGUAGE=0}] subtitle {"text":"Présente","color":"dark_aqua"}
 
 #ENGLISH LANGUAGE
 
-title @a[scores={LANGUAGE=1}] subtitle {"text":"Present","color":"dark_aqua"}
+title @a[scores={LANGUAGE=1}] subtitle {"text":"Presents","color":"dark_aqua"}
 
 #CHINESE LANGUAGE
 

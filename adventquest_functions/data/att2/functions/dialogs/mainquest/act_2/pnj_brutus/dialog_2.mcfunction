@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Brutus : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Brutus : ","color":"green","extra":[{"text":"（Com uma voz pouco convincente）Brutus muito cansado; não quer lutar hoje.","color":"dark_aqua"}]}
+
+
+function att2:voice/brutus/brutus.dialogue1

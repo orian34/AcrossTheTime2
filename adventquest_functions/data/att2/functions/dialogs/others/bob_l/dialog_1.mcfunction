@@ -57,3 +57,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Bob L. : ","color":"green","extr
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Bob L. : ","color":"green","extra":[{"text":"Ei! Cuidado aí, moleque! Eu, o grande Bob Laïnonne, estou praticando lançar bolas de fogo poderosas. Vai, afasta-se daqui agora.","color":"dark_aqua"}]}
+
+
+function att2:voice/bob/bob.dialogue1

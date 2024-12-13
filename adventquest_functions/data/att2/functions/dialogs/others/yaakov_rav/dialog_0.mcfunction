@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Yaakov Rav : ","color":"green","
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"Desculpe, não posso ajudá-lo no momento. Você se importaria de voltar mais tarde?","color":"dark_aqua"}]}
+
+
+function att2:voice/yaakov/yaakov.dialogue1

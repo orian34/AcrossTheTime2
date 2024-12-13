@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° बारबर : ","color":"gre
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Bárbaro : ","color":"green","extra":[{"text":"Quem diabos é você? Eu não te conheço! Alerta de intruso!","color":"dark_aqua"}]}
+
+
+function att2:voice/barbar/barbar2

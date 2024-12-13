@@ -52,3 +52,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Namrïn : ","color":"dark_purple
 #PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Claro, apenas Relgon foi capaz de derrotar o erro supremo! O reino de Angband esteve muito perto do seu fim naquele dia...","color":"dark_aqua"}]}
+
+
+function att2:voice/namrin/namrin.sidequest15

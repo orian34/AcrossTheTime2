@@ -50,3 +50,6 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° इंद्रा लोर्�
 #PORTUGUESE LANGUAGE
 
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Indra Lorth : ","color":"green","extra":[{"text":"Minha filha se parece tanto comigo! Ela é tão destemida quanto eu era quando tinha a idade dela. E então ela herdou meu gosto por viagens....","color":"dark_aqua"}]}
+
+
+function att2:voice/indra/indra.dialogue2

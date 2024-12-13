@@ -61,4 +61,5 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Syri Lorth : ","color":"green",
 
 
 
+function att2:voice/syri/syri.dialogue3
 function att2:dialogs/mainquest/act_2/pnj_syri_lorth/player_answer_proposal_2

@@ -59,3 +59,6 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Etotsira : ","color":"blue","ext
 # PORTUGUESE LANGUAGE
 
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Parabéns, ","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":"! Você não poderia ter feito melhor, pois ao libertar Sérile de sua maldição e fazer renascer a esperança nela, você salvou muito mais do que apenas ela, você e Tellurön.","color":"dark_aqua"}]}
+
+
+function att2:voice/etotsira/etotsira57

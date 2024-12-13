@@ -5,8 +5,7 @@
         },
         "title": {"translate":"Billgart weapon break"},
         "description": {"translate":"Destroy a Billgart weapon in battle"},
-        "frame": "goal",
-        "hidden":true
+        "frame": "goal"
     },
     "parent": "att2:combat/break_weapon",
     "rewards": {
