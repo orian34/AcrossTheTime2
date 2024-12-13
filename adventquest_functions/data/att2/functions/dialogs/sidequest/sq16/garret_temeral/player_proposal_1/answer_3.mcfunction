@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Garret : ","color":"green","extra":[{"text":"C'est vrai, tout a un prix pour vous, les mortels. Mais je vais essayer de rassembler les quelques pièces de Chronotons qu'il nous reste pour te récompenser si tu reviens avec une paire de centaines de flèches. Va à la caserne d'Angor qui se trouve à l'Est de la ville.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Garret : ","color":"green","extra":[{"text":"C'est vrai, tout a un prix pour vous, les mortels. Mais je vais essayer de rassembler les quelques pièces de Chronotons qu'il nous reste pour te récompenser si tu reviens avec une paire de centaines de flèches. Va à la caserne d'Angor qui se trouve à l'est de la ville.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

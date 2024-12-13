@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Derim Kril : ","color":"green","extra":[{"text":"Hum... Bon très bien, ramène moi cette clef et je te donnerai ce que tu veux. L'entrée de la galerie est sur la façade Ouest du village.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Derim Kril : ","color":"green","extra":[{"text":"Hum... Bon très bien, ramène moi cette clef et je te donnerai ce que tu veux. L'entrée de la galerie est sur la façade ouest du village.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

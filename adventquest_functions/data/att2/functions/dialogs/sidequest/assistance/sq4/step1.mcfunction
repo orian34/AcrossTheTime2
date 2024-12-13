@@ -8,7 +8,7 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"-°- La soupe aux champignons -°- : ","color":"gray","extra":[{"text":"Je dois rapporter 20 ","color":"aqua","italic":true,"extra":[{"text":"<Champignon Comestible>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:brown_mushroom\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Champignon Comestible\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Edible Mushroom\\\"}\"]}}}"},"extra":[{"text":" pour aider Carmen à faire sa recette de soupe aux champignons. Je devrais en trouver dans une grotte très sombre dans la forêt. L'entrée est dissimulée par des buissons et est à côté d'un petit étang. Je devrais longer la rivière qui sort de Ryliath, l'étang se trouvera peut-être à l'Est de cette rivière.","color":"aqua","italic":true}]}]}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"-°- La soupe aux champignons -°- : ","color":"gray","extra":[{"text":"Je dois rapporter 20 ","color":"aqua","italic":true,"extra":[{"text":"<Champignon Comestible>","color":"red","hoverEvent":{"action":"show_item","value":"{\"id\":\"minecraft:brown_mushroom\",\"Count\":1,\"tag\":{\"display\":{\"Name\":\"{\\\"text\\\":\\\"Champignon Comestible\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"Edible Mushroom\\\"}\"]}}}"},"extra":[{"text":" pour aider Carmen à faire sa recette de soupe aux champignons. Je devrais en trouver dans une grotte très sombre dans la forêt. L'entrée est dissimulée par des buissons et est à côté d'un petit étang. Je devrais longer la rivière qui sort de Ryliath, l'étang se trouvera peut-être à l'est de cette rivière.","color":"aqua","italic":true}]}]}]}
 
 #ENGLISH LANGUAGE
 

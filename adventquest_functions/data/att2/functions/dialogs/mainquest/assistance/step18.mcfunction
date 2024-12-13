@@ -10,7 +10,7 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 2","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Wirth m'a conseillé d'aller à Méleïm parler à Indra Lorth pour connaître l'emplacement d'une seconde Gemme d'Espace. C'est une petite ville accolée à une grande falaise tout à l'Est de la région. Je devrais suivre les panneaux d'indication sur la route.","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Wirth m'a conseillé d'aller à Méleïm parler à Indra Lorth pour connaître l'emplacement d'une seconde Gemme d'Espace. C'est une petite ville accolée à une grande falaise tout à l'est de la région. Je devrais suivre les panneaux d'indication sur la route.","color":"aqua"}]}
 
 #ENGLISH LANGUAGE
 

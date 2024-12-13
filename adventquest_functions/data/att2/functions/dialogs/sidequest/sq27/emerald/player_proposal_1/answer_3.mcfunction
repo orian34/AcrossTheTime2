@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"Je me doutais de votre intérêt pour ces choses-là. Les lieux qu'elle visite semblent en rapport avec tous ces morts revenant à la vie... Mais le plus important est de retrouver ma fille ! Les trésors ne m'intéressent pas, prenez ce que vous voulez dans ces endroits lugubres, mais aidez-moi à la retrouver vivante. Je suis sûr qu'elle sera en mesure de vous en dire plus sur les trésors qu'elle cherche... Allez dans les mines des Morniths en suivant le chemin à l'Ouest de Méleïm. Bon courage !","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Emerald : ","color":"green","extra":[{"text":"Je me doutais de votre intérêt pour ces choses-là. Les lieux qu'elle visite semblent en rapport avec tous ces morts revenant à la vie... Mais le plus important est de retrouver ma fille ! Les trésors ne m'intéressent pas, prenez ce que vous voulez dans ces endroits lugubres, mais aidez-moi à la retrouver vivante. Je suis sûr qu'elle sera en mesure de vous en dire plus sur les trésors qu'elle cherche... Allez dans les mines des Morniths en suivant le chemin à l'ouest de Méleïm. Bon courage !","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

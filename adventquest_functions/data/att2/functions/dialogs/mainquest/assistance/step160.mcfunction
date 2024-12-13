@@ -10,11 +10,11 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 4","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Voilà, je peux continuer de grimper dans la tour Sud-Est. Il va falloir encore activer quelques mécanismes...","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Voilà, je peux continuer de grimper dans la tour sud-est. Il va falloir encore activer quelques mécanismes...","color":"aqua"}]}
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Here, I can continue to climb in the southeastern tower. I'll have to activate some mechanisms...","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=1}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Here, I can continue to climb in the southeast tower. I'll have to activate some mechanisms...","color":"aqua"}]}
 
 #CHINESE LANGUAGE
 

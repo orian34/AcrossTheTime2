@@ -10,7 +10,7 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 4","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"D'après le roi et la reine de Ryliath, une Gemme de Temps se trouverait dans la légendaire cité d'Eolorion ! Située dans les hautes montagnes d'Elchéol au Nord de la région, la ville abriterait aussi une académie du Dahäl. Je devrais donc pouvoir en apprendre un peu plus sur l'emplacement précis de la gemme.","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"D'après le roi et la reine de Ryliath, une Gemme de Temps se trouverait dans la légendaire cité d'Eolorion ! Située dans les hautes montagnes d'Elchéol au nord de la région, la ville abriterait aussi une académie du Dahäl. Je devrais donc pouvoir en apprendre un peu plus sur l'emplacement précis de la gemme.","color":"aqua"}]}
 
 #ENGLISH LANGUAGE
 

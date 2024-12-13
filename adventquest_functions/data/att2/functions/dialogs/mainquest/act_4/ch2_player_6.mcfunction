@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Il me semble que la glace soit liée aux systèmes permettant de créer des flux d'air pouvant me hisser au sommet de la tour principale... Les deux tours secondaires doivent forcément renfermer le mécanisme d'activation. Je peux désormais me diriger vers la tour Ouest en faisant fondre la glace de la porte y donnant accès.","color":"aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Il me semble que la glace soit liée aux systèmes permettant de créer des flux d'air pouvant me hisser au sommet de la tour principale... Les deux tours secondaires doivent forcément renfermer le mécanisme d'activation. Je peux désormais me diriger vers la tour ouest en faisant fondre la glace de la porte y donnant accès.","color":"aqua"}]}
 
 
 #ENGLISH LANGUAGE

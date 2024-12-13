@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Lioras : ","color":"green","extra":[{"text":"Je t'assure ! Il existe un endroit dans Sylberländ avec des souterrains étranges, des écrits parlent même d'un peuple à l'Est de notre région. Si tu étais un peu curieux, tu lirais les anciens grimoires de l'académie et tu aurais su cela... Hmm attends, cet étranger nous écoute...","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Lioras : ","color":"green","extra":[{"text":"Je t'assure ! Il existe un endroit dans Sylberländ avec des souterrains étranges, des écrits parlent même d'un peuple à l'est de notre région. Si tu étais un peu curieux, tu lirais les anciens grimoires de l'académie et tu aurais su cela... Hmm attends, cet étranger nous écoute...","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

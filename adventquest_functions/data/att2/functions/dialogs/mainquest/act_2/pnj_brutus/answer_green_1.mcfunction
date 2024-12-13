@@ -10,7 +10,7 @@ scoreboard players set brutus_PNJ onceDIALOG 1
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Brutus : ","color":"green","extra":[{"text":"*chuchotant* Je ne suis pas vraiment d'ici, béni soyez-vous si vous ne devez jamais connaître l'exil... Enfin je vais vous aider : à l'Ouest du village, il y a un bosquet encombré par la végétation.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Brutus : ","color":"green","extra":[{"text":"*chuchotant* Je ne suis pas vraiment d'ici, béni soyez-vous si vous ne devez jamais connaître l'exil... Enfin je vais vous aider : à l'ouest du village, il y a un bosquet encombré par la végétation.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

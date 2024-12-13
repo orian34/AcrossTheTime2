@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Wulk : ","color":"green","extra":[{"text":"Super, il va vous falloir aller à la mine exploitée par les mineurs de Ryliath. Ce n'est pas bien compliqué, elle se trouve dans la forêt vers l'Est. Un petit chemin vous y conduira directement. Vous pourrez fondre le minerai et le raffiner facilement grâce à mes fours.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Wulk : ","color":"green","extra":[{"text":"Super, il va vous falloir aller à la mine exploitée par les mineurs de Ryliath. Ce n'est pas bien compliqué, elle se trouve dans la forêt vers l'est. Un petit chemin vous y conduira directement. Vous pourrez fondre le minerai et le raffiner facilement grâce à mes fours.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

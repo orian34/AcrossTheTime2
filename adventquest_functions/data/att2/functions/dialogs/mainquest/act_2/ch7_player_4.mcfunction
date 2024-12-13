@@ -8,7 +8,7 @@ execute at @a run function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Quelles impressionnantes structures ! Je vois la Gemme d'Espace, elle est là, juste au centre de la salle ! Mais je ne peux pas y accéder... Bon, je devrais d'abord trouver une grande clef pour ouvrir la grande porte côté Sud. Peut-être dans l'aile Nord...","color":"aqua","bold":false}]}
+tellraw @a[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Quelles impressionnantes structures ! Je vois la Gemme d'Espace, elle est là, juste au centre de la salle ! Mais je ne peux pas y accéder... Bon, je devrais d'abord trouver une grande clef pour ouvrir la grande porte côté sud. Peut-être dans l'aile nord...","color":"aqua","bold":false}]}
 
 
 #ENGLISH LANGUAGE

@@ -10,7 +10,7 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 4","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Aramis m'a enfin donné plus d'indices. Un ancien élève de l'académie aurait dérobé un artefact de nécromancie et serait en quête également de la Gemme de Temps. Je dois le trouver et m'en occuper personnellement ! Allons déjà à la porte Ouest de la ville où se trouve le Capitaine afin qu'il puisse m'ouvrir l'accès.","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Aramis m'a enfin donné plus d'indices. Un ancien élève de l'académie aurait dérobé un artefact de nécromancie et serait en quête également de la Gemme de Temps. Je dois le trouver et m'en occuper personnellement ! Allons déjà à la porte ouest de la ville où se trouve le Capitaine afin qu'il puisse m'ouvrir l'accès.","color":"aqua"}]}
 
 #ENGLISH LANGUAGE
 

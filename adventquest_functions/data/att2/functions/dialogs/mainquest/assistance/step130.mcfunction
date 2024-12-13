@@ -10,7 +10,7 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 4","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Je vais devoir monter au sommet du donjon par la seule tour ouverte au Sud, afin d'avoir un meilleur point de vue et trouver l'emplacement d'une gemme.","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Je vais devoir monter au sommet du donjon par la seule tour ouverte au sud, afin d'avoir un meilleur point de vue et trouver l'emplacement d'une gemme.","color":"aqua"}]}
 
 #ENGLISH LANGUAGE
 

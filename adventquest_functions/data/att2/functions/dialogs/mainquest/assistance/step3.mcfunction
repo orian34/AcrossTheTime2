@@ -10,7 +10,7 @@ tellraw @s {"text":"_.-*° ","color":"dark_red","extra":[{"text":"Act 2","color"
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Je dois me rendre à la ville de Ryliath afin d'avoir plus d'indices pour retrouver Etotsira. Gonon m'a conseillé de suivre la route vers le Sud.","color":"aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","color":"dark_red","extra":[{"text":" : "},{"text":"Je dois me rendre à la ville de Ryliath afin d'avoir plus d'indices pour retrouver Etotsira. Gonon m'a conseillé de suivre la route vers le sud.","color":"aqua"}]}
 
 #ENGLISH LANGUAGE
 

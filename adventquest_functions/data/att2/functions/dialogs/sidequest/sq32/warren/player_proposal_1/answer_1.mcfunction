@@ -6,7 +6,7 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Warren : ","color":"green","extra":[{"text":"Merci, l'entrée ici est bouchée. Mais il y a peut-être moyen de contourner en passant par le Nord. Faites attention à vous.","color":"dark_aqua"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":" °-° Warren : ","color":"green","extra":[{"text":"Merci, l'entrée ici est bouchée. Mais il y a peut-être moyen de contourner en passant par le nord. Faites attention à vous.","color":"dark_aqua"}]}
 
 
 #ENGLISH LANGUAGE

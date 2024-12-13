@@ -8,7 +8,7 @@ function att2:sound/dialogs/simple
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Archéologue en herbe -°- : ","color":"gray","extra":[{"text":"Walton cherchait l'artefact que j'ai trouvé dans les catacombes du cimetière d'Eol. Il avait l'air de savoir comment s'en servir. Il m'a dit de le retrouver dans les ruines de Scheströwn au Nord des marais d'Owsästr.","color":"aqua","italic":true}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"-°- Archéologue en herbe -°- : ","color":"gray","extra":[{"text":"Walton cherchait l'artefact que j'ai trouvé dans les catacombes du cimetière d'Eol. Il avait l'air de savoir comment s'en servir. Il m'a dit de le retrouver dans les ruines de Scheströwn au nord des marais d'Owsästr.","color":"aqua","italic":true}]}
 
 #ENGLISH LANGUAGE
 
