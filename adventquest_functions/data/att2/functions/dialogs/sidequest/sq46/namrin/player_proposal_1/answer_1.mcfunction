@@ -52,4 +52,4 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Namrïn : ","color":"dark_purple
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Ninguém se torna salvador do mundo quando tudo o que fez foi proteger apenas uma parte dele. Relgon, por outro lado, realmente salvou Angband de desaparecer. E não estou falando apenas da humanidade, ou da vida em geral, não, trata-se da realidade completa que constitui Angband!","color":"dark_aqua"}]}
 
 
-function att2:voice/namrin/namrin.sidequest7
+function att2:voice/namrin/namrin_sidequest7

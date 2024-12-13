@@ -52,4 +52,4 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Namrïn : ","color":"dark_purple
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"O que você está esperando? Volte com a espada de Relgon, se o que você afirma for verdade...","color":"dark_aqua"}]}
 
 
-function att2:voice/namrin/namrin.sidequest22
+function att2:voice/namrin/namrin_sidequest22

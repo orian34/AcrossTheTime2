@@ -52,4 +52,4 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Ithil : ","color":"green","extra
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"Estamos na sala dos portais dimensionais. Tenha cuidado, ou não...","color":"dark_aqua"}]}
 
 
-function att2:voice/ithil/ithil.dialogue2
+function att2:voice/ithil/ithil_dialogue2

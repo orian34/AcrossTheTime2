@@ -52,4 +52,4 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° इंद्रा लोर्�
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Indra Lorth : ","color":"green","extra":[{"text":"Então, você gosta da aventura? Eu viajei muito na minha vida e passei por muitos perigos. Às vezes penso que gostaria de voltar à estrada, se ao menos não tivesse essas dores nas costas... Aproveite enquanto a juventude é sua, há tantas belezas a descobrir no mundo.","color":"dark_aqua"}]}
 
 
-function att2:voice/indra/indra.dialogue1
+function att2:voice/indra/indra_dialogue1

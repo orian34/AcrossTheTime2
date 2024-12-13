@@ -54,4 +54,4 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Namrïn : ","color":"dark_purple
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Seu valor já é mais que reconhecido, mas ainda estou ansioso para ver isso, meu amigo!","color":"dark_aqua"}]}
 
 
-function att2:voice/namrin/namrin.sidequest11
+function att2:voice/namrin/namrin_sidequest11

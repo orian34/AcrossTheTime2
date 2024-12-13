@@ -52,4 +52,4 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Alréan : ","color":"gold","extr
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Alréan : ","color":"gold","extra":[{"text":"Ah! Então você encontrou asas. Se não for o caso, você deve ir encontrar nosso rei. A porta de entrada da casa dele está localizada no nordeste. Mas vou deixar você explorar, afinal, não é maravilhoso poder voar?!","color":"dark_aqua"}]}
 
 
-function att2:voice/alrean/alrean.dialogue1
+function att2:voice/alrean/alrean_dialogue1

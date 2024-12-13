@@ -54,4 +54,4 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Namrïn : ","color":"dark_purple
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Talvez, mas sem querer ser rude, Relgon foi responsável por façanhas que vão muito além de qualquer coisa que alguém já tenha conseguido.","color":"dark_aqua"}]}
 
 
-function att2:voice/namrin/namrin.sidequest6
+function att2:voice/namrin/namrin_sidequest6

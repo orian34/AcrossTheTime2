@@ -52,4 +52,4 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Yaakov Rav : ","color":"green","
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"Olá, como vai você? Sinta-se à vontade para dar uma olhada na minha loja, tenho vários feitiços para vender.","color":"dark_aqua","extra":[{"text":" [Ver a mercadoria -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/yaakov_rav_shop_opening"},"hoverEvent":{"action":"show_text","value":"Clique aqui para ver o que Yaakov está vendendo."}}]}]}
 
 
-function att2:voice/yaakov/yaakov.dialogue2
+function att2:voice/yaakov/yaakov_dialogue2

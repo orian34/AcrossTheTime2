@@ -155,7 +155,7 @@ execute if score Neth0 TIMER matches 6380 run function att2:dialogs/mainquest/ac
 execute if score Neth0 TIMER matches 6380 run function att2:voice/relgon/relgon34
 execute if score Neth0 TIMER matches 6400 run tellraw @a {"text":"[-->]","color":"green","clickEvent":{"action":"run_command","value":"/scoreboard players set Neth0 TIMER 6399"},"hoverEvent":{"action":"show_text","value":"..."}}
 execute if score Neth0 TIMER matches 6750 as @a run function att2:dialogs/mainquest/act_3/pnj_relgon/dialog_1
-execute if score Neth0 TIMER matches 6750 as @a run function att2:voice/relgon/relgon.dialogue1
+execute if score Neth0 TIMER matches 6750 as @a run function att2:voice/relgon/relgon_dialogue1
 execute if score Neth0 TIMER matches 7000 run function att2:cinematic/act_3/angband/camp_exile/relgon_2_action_6
 execute if score Neth0 TIMER matches 7001 run scoreboard players set Mainquest SIDEQUEST 64
 

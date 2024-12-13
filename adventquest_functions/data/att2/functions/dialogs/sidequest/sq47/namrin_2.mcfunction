@@ -54,4 +54,4 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Namrïn : ","color":"dark_purple
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Uma coroa que confere o poder da ressurreição? Posso inspecioná-la?","color":"dark_aqua"}]}
 
 
-function att2:voice/namrin/namrin.sidequest13
+function att2:voice/namrin/namrin_sidequest13

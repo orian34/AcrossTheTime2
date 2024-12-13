@@ -54,4 +54,4 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Namrïn : ","color":"dark_purple
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Perdoe-me por não ter acreditado em você. Então você realmente é a reencarnação de Relgon... É impressionante.","color":"dark_aqua"}]}
 
 
-function att2:voice/namrin/namrin.sidequest23
+function att2:voice/namrin/namrin_sidequest23

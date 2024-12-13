@@ -44,4 +44,4 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Gonon : ","color":"green","extra
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Gonon : ","color":"green","extra":[{"text":"Então, você conseguiu exterminar as malditas aranhas?","color":"dark_aqua"}]}
 
 
-function att2:voice/gonon/gonon.dialogue1
+function att2:voice/gonon/gonon_dialogue1

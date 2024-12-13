@@ -59,4 +59,4 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° कप्तान : ","color":"
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Capitão : ","color":"green","extra":[{"text":"Vamos! Vamos! Apressem-se e passem por aquela porta!","color":"dark_aqua"}]}
 
 
-function att2:voice/capitaine/capitaine.dialogue2
+function att2:voice/capitaine/capitaine_dialogue2
