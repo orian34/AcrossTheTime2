@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:netherite_helmet"
         },
-        "title": {"translate":"Hermetic full set"},
-        "description": {"translate":"Complete the Hermetic mythical set"},
+        "title": {"translate":"Hermetique full set"},
+        "description": {"translate":"Complete the Hermetique mythical set"},
         "frame": "challenge",
         "hidden":true
     },
@@ -14,7 +14,7 @@
         "experience": 50000
                 },
     "criteria": {
-        "hermetic_fullset": {
+        "hermetique_fullset": {
             "trigger": "minecraft:impossible"
         }
     }
