@@ -52,4 +52,4 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Namrïn : ","color":"dark_purple
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Relgon partiu muitas vezes para viagens solitárias que duraram várias dezenas de ciclos!","color":"dark_aqua"}]}
 
 
-function att2:voice/namrin/namrin.sidequest9
+function att2:voice/namrin/namrin_sidequest9

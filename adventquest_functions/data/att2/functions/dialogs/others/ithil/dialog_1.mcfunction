@@ -59,4 +59,4 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Ithil : ","color":"green","extra
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Ithil : ","color":"green","extra":[{"text":"O que você está fazendo aqui? Saia do meu quarto!","color":"dark_aqua"}]}
 
 
-function att2:voice/ithil/ithil.dialogue1
+function att2:voice/ithil/ithil_dialogue1

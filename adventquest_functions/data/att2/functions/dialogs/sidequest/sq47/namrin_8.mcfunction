@@ -54,4 +54,4 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Namrïn : ","color":"dark_purple
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Ele me explicou que foi aqui mesmo que ele forjou a espada Rukyrion: ''sangue divino''. É uma espada lendária que apenas ele poderia empunhar sem ser ferido pela sua aura. Eu a escondi aqui depois que ele faleceu.","color":"dark_aqua"}]}
 
 
-function att2:voice/namrin/namrin.sidequest20
+function att2:voice/namrin/namrin_sidequest20

@@ -54,4 +54,4 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Namrïn : ","color":"dark_purple
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Estas inscrições! É a coroa! A coroa do erro supremo! ","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":", você encontrou a coroa do erro supremo! Este artefato está entre os mais horríveis criados por Môt! Também é a razão por trás da guerra de Angband e de muitas outras guerras depois dela!","color":"dark_aqua"}]}
 
 
-function att2:voice/namrin/namrin.sidequest14
+function att2:voice/namrin/namrin_sidequest14

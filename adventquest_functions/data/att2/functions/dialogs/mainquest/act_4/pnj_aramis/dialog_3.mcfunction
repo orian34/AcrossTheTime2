@@ -52,4 +52,4 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Aramis : ","color":"green","extr
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"Apressa-te para o portão oeste da cidade, falaremos sobre a gema mais tarde.","color":"dark_aqua"}]}
 
 
-function att2:voice/aramis/aramis.dialogue2
+function att2:voice/aramis/aramis_dialogue2

@@ -54,4 +54,4 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Namrïn : ","color":"dark_purple
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Relgon me mostrou este lugar para me convencer da existência de Irilion, já que sou jovem demais para tê-lo conhecido...","color":"dark_aqua"}]}
 
 
-function att2:voice/namrin/namrin.sidequest19
+function att2:voice/namrin/namrin_sidequest19

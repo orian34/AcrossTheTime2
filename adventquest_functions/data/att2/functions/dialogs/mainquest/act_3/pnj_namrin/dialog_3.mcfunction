@@ -59,5 +59,5 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Namrïn : ","color":"dark_purple
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Eu sou um S, o último com Sérile no título. Sécar ou S é um título atribuído àqueles que passaram no antigo teste tradicional. Este é provavelmente o exercício mais difícil, longo e perigoso que existe. Os mestres voluntários, designados por La Flamme Noire, foram enviados ao glóbulo de Sécar e se perderam dentro dele. O objetivo era sair do glóbulo, o que poderia levar vários ciclos. Apesar do perigo, ninguém nunca morreu durante o teste: a semi-deusa sempre escolheu bem os contendores. Sérile e eu saímos no início da temporada, após uma estadia de dois ciclos...","color":"dark_aqua"}]}
 
 
-function att2:voice/namrin/namrin.dialogue3
+function att2:voice/namrin/namrin_dialogue3
 execute if score Mainquest SIDEQUEST matches 83.. run function att2:dialogs/mainquest/act_3/pnj_namrin/dialog_4

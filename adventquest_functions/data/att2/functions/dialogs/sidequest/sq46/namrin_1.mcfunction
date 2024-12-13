@@ -54,4 +54,4 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Namrïn : ","color":"dark_purple
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Ei! ","color":"dark_aqua"},{"selector":"@a[scores={NUMEROJOUEUR=1}]"},{"text":", é um prazer te ver novamente! Estamos trabalhando ativamente para restaurar a ordem em Angband, não é fácil, ainda não vemos resultados, mas o fim da guerra parece ter acalmado todos.","color":"dark_aqua"}]}
 
 
-function att2:voice/namrin/namrin.sidequest1
+function att2:voice/namrin/namrin_sidequest1

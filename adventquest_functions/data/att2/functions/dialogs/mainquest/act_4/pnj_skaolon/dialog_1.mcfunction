@@ -52,4 +52,4 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Skaolon : ","color":"green","ext
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Skaolon : ","color":"green","extra":[{"text":"Vamos lá, hop hop hop. Sem Néleptron, sem entrada!","color":"dark_aqua"}]}
 
 
-function att2:voice/skaolon/skaolon.dialogue1
+function att2:voice/skaolon/skaolon_dialogue1

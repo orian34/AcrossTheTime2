@@ -59,5 +59,5 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Namrïn : ","color":"dark_purple
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"Relgon é como um pai para nós. Ele nos apresentou o uso de Dahäl e a luta com facas. Devo dizer que sou melhor na arte de Dahäl do que Sérile, mas ela me supera quando se trata de combate.","color":"dark_aqua"}]}
 
 
-function att2:voice/namrin/namrin.dialogue2
+function att2:voice/namrin/namrin_dialogue2
 execute if score Mainquest SIDEQUEST matches 83.. run function att2:dialogs/mainquest/act_3/pnj_namrin/dialog_4

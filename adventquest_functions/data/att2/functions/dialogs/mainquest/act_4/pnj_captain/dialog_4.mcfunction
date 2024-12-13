@@ -59,4 +59,4 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° कप्तान : ","color":"
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Capitão : ","color":"green","extra":[{"text":"Terminado? Temos que garantir que todos os inimigos tenham sido eliminados. Se não se importar em ir um pouco mais adiante na estrada...","color":"dark_aqua"}]}
 
 
-function att2:voice/capitaine/capitaine.dialogue3
+function att2:voice/capitaine/capitaine_dialogue3

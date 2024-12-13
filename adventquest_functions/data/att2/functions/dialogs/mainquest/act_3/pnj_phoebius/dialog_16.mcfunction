@@ -54,4 +54,4 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Phoebius : ","color":"green","ex
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Phoebius : ","color":"green","extra":[{"text":"Que você tenha sorte.","color":"dark_aqua"}]}
 
 
-function att2:voice/phoebius/phoebius.dialogue1
+function att2:voice/phoebius/phoebius_dialogue1

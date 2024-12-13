@@ -52,4 +52,4 @@ tellraw @s[scores={LANGUAGE=9}] {"text":" °-° Yaakov Rav : ","color":"green","
 tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Yaakov Rav : ","color":"green","extra":[{"text":"Desculpe, não posso ajudá-lo no momento. Você se importaria de voltar mais tarde?","color":"dark_aqua"}]}
 
 
-function att2:voice/yaakov/yaakov.dialogue1
+function att2:voice/yaakov/yaakov_dialogue1

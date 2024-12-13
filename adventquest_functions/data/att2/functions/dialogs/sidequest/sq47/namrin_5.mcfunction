@@ -54,4 +54,4 @@ tellraw @a[scores={LANGUAGE=9}] {"text":" °-° Namrïn : ","color":"dark_purple
 tellraw @a[scores={LANGUAGE=10}] {"text":" °-° Namrïn : ","color":"dark_purple","extra":[{"text":"... Então seria verdade? Só conheço um jeito de saber. Eu preciso te levar para algum lugar. Agora. A coroa estará segura aqui, e eu absolutamente não quero carregá-la comigo para o lugar que estou prestes a te mostrar.","color":"dark_aqua"}]}
 
 
-function att2:voice/namrin/namrin.sidequest16
+function att2:voice/namrin/namrin_sidequest16
