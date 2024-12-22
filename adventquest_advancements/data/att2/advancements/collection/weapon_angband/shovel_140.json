@@ -8,7 +8,7 @@
         "show_toast": false,
         "announce_to_chat": true
     },
-    "parent": "att2:collection/weapon_angband/shovel_134",
+    "parent": "att2:collection/weapon_angband/shovel_133",
     "criteria": {
         "golden_shovel_140": {
             "trigger": "minecraft:inventory_changed",

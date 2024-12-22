@@ -20,9 +20,9 @@
                         "predicate": {
                 "dimension": "overworld",
                 "position": {
-                    "x": {"min":-4218.0,"max":-4855.0},
+                    "x": {"min":-4855.0,"max":-4218.0},
                     "y": {"min":0.0,"max":45.0},
-                    "z": {"min":-5275.0,"max":-5495.0}
+                    "z": {"min":-5495.0,"max":-5275.0}
                             }
                         }
                     }

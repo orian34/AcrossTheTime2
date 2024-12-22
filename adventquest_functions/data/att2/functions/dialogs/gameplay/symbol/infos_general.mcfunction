@@ -5,7 +5,7 @@
 
 tellraw @s {"text":"Exploration ","color":"gray","extra":[{"text":"⇶","color":"dark_gray"}]}
 
-tellraw @s {"text":"⚙ ","color":"dark_red","extra":[{"text":"Total : ","color":"gray"},{"score":{"name":"Exploration","objective":"SYMBOL"},"color":"red"},{"text":"/","color":"gray"},{"text":"1203","color":"gold"},{"text":" ⚙","color":"dark_red"}]}
+tellraw @s {"text":"⚙ ","color":"dark_red","extra":[{"text":"Total : ","color":"gray"},{"score":{"name":"Exploration","objective":"SYMBOL"},"color":"red"},{"text":"/","color":"gray"},{"text":"1305","color":"gold"},{"text":" ⚙","color":"dark_red"}]}
 
 function att2:dialogs/gameplay/symbol/explo/academy_past_infos_general
 function att2:dialogs/gameplay/symbol/explo/academy_present_infos_general

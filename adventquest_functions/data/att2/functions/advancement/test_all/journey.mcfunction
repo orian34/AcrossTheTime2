@@ -4,7 +4,7 @@
 #################################################################
 
 # PANORAMA
-advancement grant @a[scores={PANORAMA=42..}] only att2:journey/the_explorer
+advancement grant @a[scores={PANORAMA=44..}] only att2:journey/the_explorer
 
 # DIMENSION
 advancement grant @a[scores={TP_ANGBAND=1..,TP_BILLGART=1..,TP_OURANOS=1..}] only att2:journey/the_worlds_hunter
@@ -26,7 +26,7 @@ execute if score Adanoi SYMBOL matches 24 run advancement grant @a only att2:jou
 execute if score Angband_road SYMBOL matches 16 run advancement grant @a only att2:journey/symbol_angband_road
 execute if score Angor_north SYMBOL matches 84 run advancement grant @a only att2:journey/symbol_angor_north
 execute if score Angor_palace SYMBOL matches 45 run advancement grant @a only att2:journey/symbol_angor_palace
-execute if score Angor_south SYMBOL matches 68 run advancement grant @a only att2:journey/symbol_angor_south
+execute if score Angor_south SYMBOL matches 67 run advancement grant @a only att2:journey/symbol_angor_south
 execute if score Asunark SYMBOL matches 28 run advancement grant @a only att2:journey/symbol_asunark
 execute if score Beach SYMBOL matches 21 run advancement grant @a only att2:journey/symbol_beach
 execute if score Billgart_dungeon SYMBOL matches 94 run advancement grant @a only att2:journey/symbol_billgart_dungeon
@@ -64,7 +64,7 @@ execute if score Worlest_mine SYMBOL matches 14 run advancement grant @a only at
 execute if score Worlest SYMBOL matches 40 run advancement grant @a only att2:journey/symbol_worlest
 execute if score Zirthion SYMBOL matches 30 run advancement grant @a only att2:journey/symbol_zirthion
 
-execute if score Exploration SYMBOL matches 1309.. run advancement grant @a only att2:journey/the_traveler
+execute if score Exploration SYMBOL matches 1305.. run advancement grant @a only att2:journey/the_traveler
 
 # CHECKPOINT
 execute if score Angor CHECKPOINT matches 19 run advancement grant @a only att2:journey/checkpoint_angor
