@@ -3,17 +3,17 @@
         "icon": {
             "item": "minecraft:chest"
         },
-        "title": {"translate":"Wanted Chest Addict"},
-        "description": {"translate":"Open 700 Wanted Chests"},
+        "title": {"translate":"Hidden Chest Addict"},
+        "description": {"translate":"Open 150 Hidden Chests"},
         "frame": "challenge"
     },
-    "parent": "att2:treasure/lootchest_tier6_350",
+    "parent": "att2:treasure/lootchest_tier5_100",
     "rewards": {
         "function": "att2:advancement/exploit_25",
         "experience": 5000
                 },
     "criteria": {
-        "lootchest_tier6_700": {
+        "lootchest_tier5_150": {
             "trigger": "minecraft:impossible"
         }
     }

@@ -83,7 +83,7 @@ execute if score tier1 LOOTCHEST matches 5.. run advancement grant @a only att2:
 execute if score tier1 LOOTCHEST matches 25.. run advancement grant @a only att2:treasure/lootchest_tier1_25
 execute if score tier1 LOOTCHEST matches 50.. run advancement grant @a only att2:treasure/lootchest_tier1_50
 execute if score tier1 LOOTCHEST matches 100.. run advancement grant @a only att2:treasure/lootchest_tier1_100
-execute if score tier1 LOOTCHEST matches 250.. run advancement grant @a only att2:treasure/lootchest_tier1_250
+execute if score tier1 LOOTCHEST matches 200.. run advancement grant @a only att2:treasure/lootchest_tier1_200
 # PALIER 2
 execute if score tier2 LOOTCHEST matches 5.. run advancement grant @a only att2:treasure/lootchest_tier2_5
 execute if score tier2 LOOTCHEST matches 25.. run advancement grant @a only att2:treasure/lootchest_tier2_25
@@ -100,20 +100,20 @@ execute if score tier3 LOOTCHEST matches 150.. run advancement grant @a only att
 execute if score tier4 LOOTCHEST matches 15.. run advancement grant @a only att2:treasure/lootchest_tier4_15
 execute if score tier4 LOOTCHEST matches 50.. run advancement grant @a only att2:treasure/lootchest_tier4_50
 execute if score tier4 LOOTCHEST matches 100.. run advancement grant @a only att2:treasure/lootchest_tier4_100
-execute if score tier4 LOOTCHEST matches 250.. run advancement grant @a only att2:treasure/lootchest_tier4_250
-execute if score tier4 LOOTCHEST matches 500.. run advancement grant @a only att2:treasure/lootchest_tier4_500
+execute if score tier4 LOOTCHEST matches 200.. run advancement grant @a only att2:treasure/lootchest_tier4_200
+execute if score tier4 LOOTCHEST matches 300.. run advancement grant @a only att2:treasure/lootchest_tier4_300
 # PALIER 5
 execute if score tier5 LOOTCHEST matches 5.. run advancement grant @a only att2:treasure/lootchest_tier5_5
 execute if score tier5 LOOTCHEST matches 25.. run advancement grant @a only att2:treasure/lootchest_tier5_25
 execute if score tier5 LOOTCHEST matches 50.. run advancement grant @a only att2:treasure/lootchest_tier5_50
 execute if score tier5 LOOTCHEST matches 100.. run advancement grant @a only att2:treasure/lootchest_tier5_100
-execute if score tier5 LOOTCHEST matches 200.. run advancement grant @a only att2:treasure/lootchest_tier5_200
+execute if score tier5 LOOTCHEST matches 150.. run advancement grant @a only att2:treasure/lootchest_tier5_150
 # PALIER 6
 execute if score tier6 LOOTCHEST matches 25.. run advancement grant @a only att2:treasure/lootchest_tier6_25
 execute if score tier6 LOOTCHEST matches 75.. run advancement grant @a only att2:treasure/lootchest_tier6_75
 execute if score tier6 LOOTCHEST matches 150.. run advancement grant @a only att2:treasure/lootchest_tier6_150
 execute if score tier6 LOOTCHEST matches 350.. run advancement grant @a only att2:treasure/lootchest_tier6_350
-execute if score tier6 LOOTCHEST matches 700.. run advancement grant @a only att2:treasure/lootchest_tier6_700
+execute if score tier6 LOOTCHEST matches 550.. run advancement grant @a only att2:treasure/lootchest_tier6_550
 # PALIER 7
 execute if score tier7 LOOTCHEST matches 10.. run advancement grant @a only att2:treasure/lootchest_tier7_10
 execute if score tier7 LOOTCHEST matches 30.. run advancement grant @a only att2:treasure/lootchest_tier7_30
@@ -125,7 +125,7 @@ execute if score tier8 LOOTCHEST matches 15.. run advancement grant @a only att2
 execute if score tier8 LOOTCHEST matches 50.. run advancement grant @a only att2:treasure/lootchest_tier8_50
 execute if score tier8 LOOTCHEST matches 100.. run advancement grant @a only att2:treasure/lootchest_tier8_100
 execute if score tier8 LOOTCHEST matches 250.. run advancement grant @a only att2:treasure/lootchest_tier8_250
-execute if score tier8 LOOTCHEST matches 500.. run advancement grant @a only att2:treasure/lootchest_tier8_500
+execute if score tier8 LOOTCHEST matches 400.. run advancement grant @a only att2:treasure/lootchest_tier8_400
 # PALIER 9
 execute if score tier9 LOOTCHEST matches 10.. run advancement grant @a only att2:treasure/lootchest_tier9_10
 execute if score tier9 LOOTCHEST matches 40.. run advancement grant @a only att2:treasure/lootchest_tier9_40

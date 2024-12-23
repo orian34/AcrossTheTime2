@@ -4,7 +4,7 @@
             "item": "minecraft:trapped_chest"
         },
         "title": {"translate":"Arduous Chest Fanatic"},
-        "description": {"translate":"Open 250 Arduous Chests"},
+        "description": {"translate":"Open 200 Arduous Chests"},
         "frame": "goal"
     },
     "parent": "att2:treasure/lootchest_tier4_100",
@@ -13,7 +13,7 @@
         "experience": 2500
                 },
     "criteria": {
-        "lootchest_tier4_250": {
+        "lootchest_tier4_200": {
             "trigger": "minecraft:impossible"
         }
     }
