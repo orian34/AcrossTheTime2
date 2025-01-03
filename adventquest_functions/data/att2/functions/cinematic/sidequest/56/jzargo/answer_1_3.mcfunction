@@ -8,4 +8,4 @@ function att2:gameplay/reputation/remove_10
 scoreboard players set cinematic SQ56 9
 scoreboard players set proposal_3 SQ56 1
 function att2:gameplay/pnj_talk/dialog_playsound/jzargo
-execute as @a[distance=..10] run function att2:dialogs/sidequest/sq56/jzargo/player_proposal_3/answer_1
+execute as @a[distance=..10] run function att2:dialogs/sidequest/sq56/jzargo/player_proposal_3/choice_1
