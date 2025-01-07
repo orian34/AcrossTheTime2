@@ -1,0 +1,52 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:written_book"
+        },
+        "title": {"translate":"Spaceship Log 3"},
+        "description": {"translate":"Find “Spaceship Log 3”"},
+        "show_toast": false,
+        "hidden": true,
+        "announce_to_chat": true
+    },
+    "parent": "att2:books/ship_log_2",
+    "criteria": {
+        "sl3_fe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7 03/02/2489\\\"}\"]}}"    
+                    }
+                ]
+            }
+        },
+        "sl3_eg": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7 02/03/2489\\\"}\"]}}"    
+                    }
+                ]
+            }
+        },
+        "sl3_ch": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§72489/02/03\\\"}\"]}}"      
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "sl3_fe",
+            "sl3_eg",
+            "sl3_ch"
+        ]
+    ]
+}

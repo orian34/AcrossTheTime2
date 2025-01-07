@@ -1,0 +1,53 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:written_book"
+        },
+        "title": {"translate":"The Art Of Alchimancy - Part 4"},
+        "description": {"translate":"Find “My first results” book."},
+        "show_toast": false,
+        "hidden": true,
+        "announce_to_chat": true
+    },
+    "parent": "att2:books/alchimancy_p3",
+    "criteria": {
+        "al4_fe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7Mes premiers résultats - Partie 4\\\"}\"]}}"                        
+                    }
+                ]
+            }
+        },
+        "al4_eg": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7My first results - Part 4\\\"}\"]}}"                        
+                    }
+                ]
+            }
+        },
+        "al4_ch": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7我的第一个作品 - Part 4\\\"}\"]}}"                        
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "al4_fe",
+            "al4_eg",
+            "al4_ch"
+
+        ]
+    ]
+}

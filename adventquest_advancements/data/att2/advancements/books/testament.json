@@ -1,0 +1,52 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:written_book"
+        },
+        "title": {"translate":"Korlaph's Testament"},
+        "description": {"translate":"Find “Korlaph's Last Wish” book."},
+        "show_toast": false,
+        "hidden": true,
+        "announce_to_chat": true
+    },
+    "parent": "att2:books/my_last_words",
+    "criteria": {
+        "testament_fe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7Ma dernière volonté\\\"}\"]}}"    
+                    }
+                ]
+            }
+        },
+        "testament_eg": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7My last wish\\\"}\"]}}"    
+                    }
+                ]
+            }
+        },
+        "testament_ch": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7遗言\\\"}\"]}}"      
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "testament_fe",
+            "testament_eg",
+            "testament_ch"
+        ]
+    ]
+}

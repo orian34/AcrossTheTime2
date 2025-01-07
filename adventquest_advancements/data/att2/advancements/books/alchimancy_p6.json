@@ -1,0 +1,53 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:written_book"
+        },
+        "title": {"translate":"The Art Of Alchimancy - Part 6"},
+        "description": {"translate":"Find “The ghost” book."},
+        "show_toast": false,
+        "hidden": true,
+        "announce_to_chat": true
+    },
+    "parent": "att2:books/alchimancy_p5",
+    "criteria": {
+        "al6_fe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7Le revenant - Partie 6\\\"}\"]}}"                        
+                    }
+                ]
+            }
+        },
+        "al6_eg": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7The ghost - Part 6\\\"}\"]}}"                        
+                    }
+                ]
+            }
+        },
+        "al6_ch": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7幽魂 - Part 6\\\"}\"]}}"                        
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "al6_fe",
+            "al6_eg",
+            "al6_ch"
+
+        ]
+    ]
+}

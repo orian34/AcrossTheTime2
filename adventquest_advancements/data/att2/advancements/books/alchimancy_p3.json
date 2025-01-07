@@ -1,0 +1,53 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:written_book"
+        },
+        "title": {"translate":"The Art Of Alchimancy - Part 3"},
+        "description": {"translate":"Find “The 8 errors” book."},
+        "show_toast": false,
+        "hidden": true,
+        "announce_to_chat": true
+    },
+    "parent": "att2:books/alchimancy_p2",
+    "criteria": {
+        "al3_fe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7Les 8 erreurs - Partie 3\\\"}\"]}}"                        
+                    }
+                ]
+            }
+        },
+        "al3_eg": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7The 8 errors - Part 3\\\"}\"]}}"                        
+                    }
+                ]
+            }
+        },
+        "al3_ch": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7八大错误 - Part 3\\\"}\"]}}"                        
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "al3_fe",
+            "al3_eg",
+            "al3_ch"
+
+        ]
+    ]
+}

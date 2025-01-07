@@ -1,0 +1,53 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:written_book"
+        },
+        "title": {"translate":"The Art Of Alchimancy - Part 7"},
+        "description": {"translate":"Find “A great power” book."},
+        "show_toast": false,
+        "hidden": true,
+        "announce_to_chat": true
+    },
+    "parent": "att2:books/alchimancy_p6",
+    "criteria": {
+        "al7_fe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7Un immense pouvoir - Partie 7\\\"}\"]}}"                        
+                    }
+                ]
+            }
+        },
+        "al7_eg": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7A great power - Part 7\\\"}\"]}}"                        
+                    }
+                ]
+            }
+        },
+        "al7_ch": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7奇妙的力量 - Part 7\\\"}\"]}}"                        
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "al7_fe",
+            "al7_eg",
+            "al7_ch"
+
+        ]
+    ]
+}

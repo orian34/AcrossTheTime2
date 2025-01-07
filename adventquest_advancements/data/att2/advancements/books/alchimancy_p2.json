@@ -1,0 +1,55 @@
+
+
+
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:written_book"
+        },
+        "title": {"translate":"The Art Of Alchimancy - Part 2"},
+        "description": {"translate":"Find “A curse” book."},
+        "show_toast": false,
+        "hidden": true,
+        "announce_to_chat": true
+    },
+    "parent": "att2:books/alchimancy_p1",
+    "criteria": {
+        "al2_fe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7Une malédiction - Partie 2\\\"}\"]}}"    
+                    }
+                ]
+            }
+        },
+        "al2_eg": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7A curse - Part 2\\\"}\"]}}"    
+                    }
+                ]
+            }
+        },
+        "al2_ch": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7诅咒 - Part 2\\\"}\"]}}"      
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "al2_fe",
+            "al2_eg",
+            "al2_ch"
+        ]
+    ]
+}

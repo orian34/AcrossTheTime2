@@ -1,0 +1,19 @@
+
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ender_eye",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "title": {"translate":"Full of knowledge"},
+        "description": {"translate":"Collect all books."},
+        "frame": "challenge",
+        "hidden": true
+    },
+    "parent": "att2:books/root",
+    "criteria": {
+        "all_books": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

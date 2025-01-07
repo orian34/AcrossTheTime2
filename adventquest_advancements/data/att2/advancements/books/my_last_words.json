@@ -1,0 +1,55 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:written_book"
+        },
+        "title": {"translate":"Last words of Sélène"},
+        "description": {"translate":"Find “My last words” book."},
+        "show_toast": false,
+        "hidden": true,
+        "announce_to_chat": true
+    },
+    "parent": "att2:books/invitation_to_the_council",
+    "criteria": {
+        "fe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item":["minecraft:written_book"],
+                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7\\\"}\"]}}"    
+                    }
+                ]
+            }
+        },
+        "eg": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item":["minecraft:written_book"],
+                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7\\\"}\"]}}"    
+                    }
+                ]
+            }
+        },
+        "ch": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item":["minecraft:written_book"],
+                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7\\\"}\"]}}"      
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "fe",
+            "eg",
+            "ch"
+        ]
+    ]
+}

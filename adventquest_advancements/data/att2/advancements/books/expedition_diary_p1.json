@@ -1,0 +1,52 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:written_book"
+        },
+        "title": {"translate":"Myorain's Diary - Part 1"},
+        "description": {"translate":"Find “Testimony of a traveller” book."},
+        "show_toast": false,
+        "hidden": true,
+        "announce_to_chat": true
+    },
+    "parent": "att2:books/invitation_to_the_council",
+    "criteria": {
+        "myorain_fe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7Témoignage d'un voyageur\\\"}\"]}}"    
+                    }
+                ]
+            }
+        },
+        "myorain_eg": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7Testimony of a traveller\\\"}\"]}}"    
+                    }
+                ]
+            }
+        },
+        "myorain_ch": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{display:{\"Lore\":[\"{\\\"text\\\":\\\"§7旅行者的陈述\\\"}\"]}}"      
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "myorain_fe",
+            "myorain_eg",
+            "myorain_ch"
+        ]
+    ]
+}
