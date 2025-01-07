@@ -64,3 +64,6 @@ function att2:advancement/test_all/quest
 
 # Collection
 function att2:advancement/test_all/collection
+
+# Books
+function att2:advancement/test_all/books
