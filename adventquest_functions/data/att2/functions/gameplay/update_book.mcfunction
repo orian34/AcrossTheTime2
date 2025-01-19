@@ -15,6 +15,7 @@ clear @s minecraft:written_book{title:"§6وعي"}
 clear @s minecraft:written_book{title:"§6Сознание"}
 clear @s minecraft:written_book{title:"§6Conciencia"}
 clear @s minecraft:written_book{title:"§6Bewusstsein"}
+clear @s minecraft:written_book{title:"§6सचेतना"}
 clear @s minecraft:written_book{title:"§6Consciência"}
 
 advancement grant @s only att2:adventure/your_story
