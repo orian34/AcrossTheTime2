@@ -256,8 +256,6 @@ execute unless score Schestrown SYMBOL matches 44.. positioned -4414 77 -5061 if
 execute unless score Schestrown SYMBOL matches 44.. positioned -4427 74 -5062 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
 execute unless score Schestrown SYMBOL matches 44.. positioned -4328 68 -5054 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
 
-execute unless score Worlest_mine SYMBOL matches 14.. positioned -4625 73 -5091 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
-
 execute unless score Secret_dungeon SYMBOL matches 34.. positioned -4375 64 -6223 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
 execute unless score Secret_dungeon SYMBOL matches 34.. positioned -4321 52 -6192 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
 execute unless score Secret_dungeon SYMBOL matches 34.. positioned -4386 63 -6225 if block ~ ~ ~ minecraft:light run function att2:gameplay/dahal/action/spell34/create_symbol_marker
