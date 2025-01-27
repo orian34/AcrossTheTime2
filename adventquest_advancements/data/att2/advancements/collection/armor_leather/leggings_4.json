@@ -4,7 +4,7 @@
             "item": "minecraft:leather_leggings"
         },
         "title": {"translate":"Braies délabrées"},
-        "description": {"translate":"Slightly increase your	Dahäl regeneration."},
+        "description": {"translate":"Slightly increase your Dahäl regeneration."},
         "show_toast": false,
         "announce_to_chat": true
     },

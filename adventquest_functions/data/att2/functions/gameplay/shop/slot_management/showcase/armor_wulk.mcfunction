@@ -80,10 +80,10 @@ execute if score @s SHOP_OP1 matches 966..967 at @e[name="WULK"] as @a[distance=
 execute if score @s SHOP_OP1 matches 968..969 at @e[name="WULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/epi/leather_chestplate_49
 execute if score @s SHOP_OP1 matches 970..971 at @e[name="WULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/epi/leather_leggings_50
 execute if score @s SHOP_OP1 matches 972..973 at @e[name="WULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/epi/leather_boots_51
-execute if score @s SHOP_OP1 matches 974..975 at @e[name="WULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/epi/leather_helmet_64
-execute if score @s SHOP_OP1 matches 976..977 at @e[name="WULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/epi/leather_chestplate_65
-execute if score @s SHOP_OP1 matches 978..979 at @e[name="WULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/epi/leather_leggings_66
-execute if score @s SHOP_OP1 matches 980..981 at @e[name="WULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/epi/leather_boots_67
+execute if score @s SHOP_OP1 matches 974..975 at @e[name="WULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/epi_set/leather_helmet_64
+execute if score @s SHOP_OP1 matches 976..977 at @e[name="WULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/epi_set/leather_chestplate_65
+execute if score @s SHOP_OP1 matches 978..979 at @e[name="WULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/epi_set/leather_leggings_66
+execute if score @s SHOP_OP1 matches 980..981 at @e[name="WULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/epi_set/leather_boots_67
 execute if score @s SHOP_OP1 matches 982..983 at @e[name="WULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/epi/chainmail_helmet_90
 execute if score @s SHOP_OP1 matches 984..985 at @e[name="WULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/epi/chainmail_helmet_91
 execute if score @s SHOP_OP1 matches 986..987 at @e[name="WULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/epi/chainmail_chestplate_92
