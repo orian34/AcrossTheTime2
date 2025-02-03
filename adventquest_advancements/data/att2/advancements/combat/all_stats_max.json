@@ -4,7 +4,7 @@
             "item": "minecraft:goat_horn"
         },
         "title": {"translate":"You are the goat !"},
-        "description": {"translate":"Reach max level for all skills"},
+        "description": {"translate":"Reach beyond max level for all skills at once"},
 		"frame": "challenge"
     },
     "parent": "att2:combat/root",
