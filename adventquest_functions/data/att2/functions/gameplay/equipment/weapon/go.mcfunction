@@ -177,6 +177,7 @@ execute as @s[nbt={SelectedItem:{tag:{Effect:"str3_res1_her_2"}}}] run function 
 execute as @s[nbt={SelectedItem:{tag:{Effect:"dar4_str_1"}}}] run function att2:gameplay/equipment/effect/le/dar4_str_1
 execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_spd1_luc1_hun_1"}}}] run function att2:gameplay/equipment/effect/le/str1_spd1_luc1_hun_1
 execute as @s[nbt={SelectedItem:{tag:{Effect:"has4_spd2_her1_res_1"}}}] run function att2:gameplay/equipment/effect/le/has4_spd2_her1_res_1
+execute as @s[nbt={SelectedItem:{tag:{Effect:"spd2_dar2_her1"}}}] run function att2:gameplay/equipment/effect/le/spd2_dar2_her1
 execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_res1_her_1"}}}] run function att2:gameplay/equipment/effect/le/str1_res1_her_1
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{Effect:"res1_her1_dar1_has_4"}}]}] run function att2:gameplay/equipment/effect/oh/res1_her1_dar1_has_4
 
