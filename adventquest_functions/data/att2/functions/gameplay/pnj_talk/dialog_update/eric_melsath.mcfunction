@@ -3,7 +3,7 @@
 #Use function to process the entity update dialog 				#
 #################################################################
 
-function att2:gameplay/pnj_talk/dialog_playsound/ethan_solg
+function att2:gameplay/pnj_talk/dialog_playsound/eric_melsath
 
 scoreboard players set eric_melsath_PNJ statDIALOG 1
 #test entity dialog
