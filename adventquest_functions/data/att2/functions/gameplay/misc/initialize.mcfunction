@@ -4,6 +4,7 @@
 #################################################################
 
 scoreboard objectives add TELLURONTIME dummy
+function att2:gameplay/misc/itemcue/initialize
 function att2:gameplay/misc/inn/initialize
 function att2:gameplay/misc/assist/initialize
 function att2:gameplay/misc/horse/initialize
