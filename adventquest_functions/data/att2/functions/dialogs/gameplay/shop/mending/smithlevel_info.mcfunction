@@ -15,7 +15,7 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"Smithy Level: ","color":"gold"}
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"鐵匠級：","color":"gold"}
+tellraw @s[scores={LANGUAGE=2}] {"text":"铁匠等级：","color":"gold"}
 
 
 #JAPANESE LANGUAGE
@@ -53,3 +53,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":"Nível da forja: ","color":"gold"}
 
 
 tellraw @s {"text":"~ ","color":"dark_red","extra":[{"score":{"name":"level","objective":"statSMITH"},"color":"red"},{"text":"/","color":"gray"},{"text":"5","color":"gold"},{"text":" ~","color":"dark_red"}]}
+
+
+function att2:gameplay/shop/smith_leveling/black_lvl_data

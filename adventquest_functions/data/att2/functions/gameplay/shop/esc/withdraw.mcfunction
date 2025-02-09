@@ -4,5 +4,5 @@
 ##################################################
 
 scoreboard players remove @s ESC 1
-function att2:items/chronoton/esc
-execute at @s run function att2:sound/gameplay/opening
+function att2:items/chronoton/esc_norecipes
+execute at @s run function att2:sound/shop/opening

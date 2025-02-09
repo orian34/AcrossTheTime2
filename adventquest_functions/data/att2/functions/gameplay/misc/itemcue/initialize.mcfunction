@@ -1,7 +1,7 @@
 #################################################################
 #Made by Adventquest											#
-#Process adding Shulker Secret advancement 			            #
+#Initialize position    								        #
 #################################################################
 
-function att2:advancement/test_all/secret/shulker_add
-scoreboard players set 79 SECRET_SHULKER 1
+scoreboard objectives add shop_cue dummy
+scoreboard players set @s shop_cue 1

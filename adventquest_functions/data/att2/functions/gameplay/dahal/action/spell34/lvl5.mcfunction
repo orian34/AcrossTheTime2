@@ -7,16 +7,16 @@ scoreboard players set @s LIMIT34 0
 
 execute as @s[scores={DIMENSION=0}] run function att2:gameplay/dahal/action/spell34/detection/telluron_past
 execute as @s[scores={DIMENSION=1}] run function att2:gameplay/dahal/action/spell34/detection/telluron
-execute as @s[scores={DIMENSION=1,AREA=0}] run function att2:gameplay/dahal/action/spell34/detection/telluron_ryliath
-execute as @s[scores={DIMENSION=1,AREA=1}] run function att2:gameplay/dahal/action/spell34/detection/telluron_worlest
-execute as @s[scores={DIMENSION=1,AREA=2}] run function att2:gameplay/dahal/action/spell34/detection/telluron_silberland
-execute as @s[scores={DIMENSION=1,AREA=3}] run function att2:gameplay/dahal/action/spell34/detection/telluron_owsastr
-execute as @s[scores={DIMENSION=1,AREA=4}] run function att2:gameplay/dahal/action/spell34/detection/telluron_meleim
-execute as @s[scores={DIMENSION=1,AREA=5}] run function att2:gameplay/dahal/action/spell34/detection/telluron_asunark
-execute as @s[scores={DIMENSION=1,AREA=6}] run function att2:gameplay/dahal/action/spell34/detection/telluron_eolorion
-execute as @s[scores={DIMENSION=1,AREA=7}] run function att2:gameplay/dahal/action/spell34/detection/telluron_nojelanth
-execute as @s[scores={DIMENSION=1,AREA=8}] run function att2:gameplay/dahal/action/spell34/detection/telluron_earndhel
-execute as @s[scores={DIMENSION=1,AREA=10}] run function att2:gameplay/dahal/action/spell34/detection/telluron_desert
+execute as @s[scores={DIMENSION=1}] run function att2:gameplay/dahal/action/spell34/detection/telluron_ryliath
+execute as @s[scores={DIMENSION=1}] run function att2:gameplay/dahal/action/spell34/detection/telluron_worlest
+execute as @s[scores={DIMENSION=1}] run function att2:gameplay/dahal/action/spell34/detection/telluron_silberland
+execute as @s[scores={DIMENSION=1}] run function att2:gameplay/dahal/action/spell34/detection/telluron_owsastr
+execute as @s[scores={DIMENSION=1}] run function att2:gameplay/dahal/action/spell34/detection/telluron_meleim
+execute as @s[scores={DIMENSION=1}] run function att2:gameplay/dahal/action/spell34/detection/telluron_asunark
+execute as @s[scores={DIMENSION=1}] run function att2:gameplay/dahal/action/spell34/detection/telluron_eolorion
+execute as @s[scores={DIMENSION=1}] run function att2:gameplay/dahal/action/spell34/detection/telluron_nojelanth
+execute as @s[scores={DIMENSION=1}] run function att2:gameplay/dahal/action/spell34/detection/telluron_earndhel
+execute as @s[scores={DIMENSION=1}] run function att2:gameplay/dahal/action/spell34/detection/telluron_desert
 execute as @s[scores={DIMENSION=4..5}] run function att2:gameplay/dahal/action/spell34/detection/ouranos
 execute as @s[scores={DIMENSION=6}] run function att2:gameplay/dahal/action/spell34/detection/angband
 execute as @s[scores={DIMENSION=7}] run function att2:gameplay/dahal/action/spell34/detection/billgart
