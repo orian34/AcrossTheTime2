@@ -19,3 +19,8 @@ scoreboard players add @a CHRONOTON 250
 tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+250 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
 
 advancement grant @a only att2:quest/sq29
+
+#extra rewards from unreachable chests
+setblock -3725 70 -5813 minecraft:redstone_torch
+setblock -3732 70 -5799 minecraft:redstone_torch
+setblock -3766 92 -5809 minecraft:stone

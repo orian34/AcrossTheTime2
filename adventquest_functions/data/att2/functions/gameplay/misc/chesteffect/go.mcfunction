@@ -1023,6 +1023,13 @@ execute in minecraft:overworld if data block -3745 74 -5846 {LootTable:"att2:che
 execute in minecraft:overworld if data block -3794 96 -5899 {LootTable:"att2:chest/reg1/c2t10"} positioned -3794 96 -5899 run particle minecraft:dust 0.75 0.25 0.0 0.25 ~ ~0.5 ~ 0.3 0.3 0.3 0 10 normal
 
 
+execute in minecraft:overworld if data block -3729 73 -5813 {LootTable:"att2:chest/reg1/c2t4"} positioned -3729 73 -5813 run particle minecraft:dust 0.25 0.5 0.5 0.25 ~ ~0.5 ~ 0.3 0.3 0.3 0 10 normal
+execute in minecraft:overworld if data block -3729 73 -5814 {LootTable:"att2:chest/reg1/c2t4"} positioned -3729 73 -5814 run particle minecraft:dust 0.25 0.5 0.5 0.25 ~ ~0.5 ~ 0.3 0.3 0.3 0 10 normal
+execute in minecraft:overworld if data block -3732 76 -5809 {LootTable:"att2:chest/reg1/c2t1"} positioned -3732 76 -5809 run particle minecraft:dust 0.5 0.5 0.5 0.25 ~ ~0.5 ~ 0.3 0.3 0.3 0 10 normal
+execute in minecraft:overworld if data block -3732 76 -5811 {LootTable:"att2:chest/reg1/c2t1"} positioned -3732 76 -5811 run particle minecraft:dust 0.5 0.5 0.5 0.25 ~ ~0.5 ~ 0.3 0.3 0.3 0 10 normal
+execute in minecraft:overworld if data block -3732 76 -5816 {LootTable:"att2:chest/reg1/c2t1"} positioned -3732 76 -5816 run particle minecraft:dust 0.5 0.5 0.5 0.25 ~ ~0.5 ~ 0.3 0.3 0.3 0 10 normal
+execute in minecraft:overworld if data block -3732 76 -5818 {LootTable:"att2:chest/reg1/c2t1"} positioned -3732 76 -5818 run particle minecraft:dust 0.5 0.5 0.5 0.25 ~ ~0.5 ~ 0.3 0.3 0.3 0 10 normal
+
 
 execute in minecraft:overworld if data block -3802 90 -5907 {LootTable:"att2:chest/reg1/c2t4"} positioned -3802 90 -5907 run particle minecraft:dust 0.25 0.5 0.5 0.25 ~ ~0.5 ~ 0.3 0.3 0.3 0 10 normal
 execute in minecraft:overworld if data block -3748 73 -5799 {LootTable:"att2:chest/reg1/c2t4"} positioned -3748 73 -5799 run particle minecraft:dust 0.25 0.5 0.5 0.25 ~ ~0.5 ~ 0.3 0.3 0.3 0 10 normal

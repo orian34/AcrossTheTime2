@@ -9,3 +9,6 @@ execute at @a run function att2:sound/misc/secret
 execute at @a run function att2:sound/misc/huge_explosion
 execute at @a run function att2:sound/misc/wood_breaking
 function att2:physicmod/reg1/kert/mine_secret
+
+#access symbol room under from the blast
+setblock -5356 51 -4438 minecraft:air
