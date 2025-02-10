@@ -137,6 +137,12 @@ execute positioned -3797 75 -5866 if data block ~ ~ ~ {LootTable:"att2:chest/reg
 execute positioned -3744 88 -5828 if data block ~ ~ ~ {LootTable:"att2:chest/reg1/c2t1"} run function att2:gameplay/dahal/action/spell34/create_chest_marker
 execute positioned -3745 74 -5855 if data block ~ ~ ~ {LootTable:"att2:chest/reg1/c2t2"} run function att2:gameplay/dahal/action/spell34/create_chest_marker
 execute positioned -3745 74 -5846 if data block ~ ~ ~ {LootTable:"att2:chest/reg1/c2t1"} run function att2:gameplay/dahal/action/spell34/create_chest_marker
+execute positioned -3729 73 -5813 if data block ~ ~ ~ {LootTable:"att2:chest/reg1/c2t4"} run function att2:gameplay/dahal/action/spell34/create_chest_marker
+execute positioned -3729 73 -5814 if data block ~ ~ ~ {LootTable:"att2:chest/reg1/c2t4"} run function att2:gameplay/dahal/action/spell34/create_chest_marker
+execute positioned -3732 76 -5809 if data block ~ ~ ~ {LootTable:"att2:chest/reg1/c2t1"} run function att2:gameplay/dahal/action/spell34/create_chest_marker
+execute positioned -3732 76 -5811 if data block ~ ~ ~ {LootTable:"att2:chest/reg1/c2t1"} run function att2:gameplay/dahal/action/spell34/create_chest_marker
+execute positioned -3732 76 -5816 if data block ~ ~ ~ {LootTable:"att2:chest/reg1/c2t1"} run function att2:gameplay/dahal/action/spell34/create_chest_marker
+execute positioned -3732 76 -5818 if data block ~ ~ ~ {LootTable:"att2:chest/reg1/c2t1"} run function att2:gameplay/dahal/action/spell34/create_chest_marker
 execute positioned -3802 90 -5907 if data block ~ ~ ~ {LootTable:"att2:chest/reg1/c2t4"} run function att2:gameplay/dahal/action/spell34/create_chest_marker
 execute positioned -3748 73 -5799 if data block ~ ~ ~ {LootTable:"att2:chest/reg1/c2t4"} run function att2:gameplay/dahal/action/spell34/create_chest_marker
 execute positioned -3747 74 -5796 if data block ~ ~ ~ {LootTable:"att2:chest/reg1/c2t2"} run function att2:gameplay/dahal/action/spell34/create_chest_marker
