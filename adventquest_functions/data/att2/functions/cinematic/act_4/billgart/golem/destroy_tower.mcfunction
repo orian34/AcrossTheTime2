@@ -18,6 +18,7 @@ execute if score End0 TIMER matches 200 at @a run function att2:sound/misc/stone
 execute if score End0 TIMER matches 200 run particle minecraft:explosion_emitter -903 61 -611 2 2 2 1 5 force
 execute if score End0 TIMER matches 250 at @a run function att2:sound/misc/wood_breaking
 execute if score End0 TIMER matches 250 run function att2:physicmod/reg3/tower/clone
+execute if score End0 TIMER matches 250 run setblock -903 60 -611 minecraft:light[level=10]
 execute if score End0 TIMER matches 250..300 run particle minecraft:explosion_emitter -894 33 -600 3 1 2 1 10 force
 execute if score End0 TIMER matches 270 at @a run function att2:sound/misc/wall_falling
 execute if score End0 TIMER matches 270 run kill @e[type=minecraft:end_crystal,x=-861,y=91,z=-640,distance=..5]
