@@ -12,3 +12,6 @@ kill @e[type=minecraft:wolf,x=-4970,y=134,z=-4900,distance=..2]
 
 function att2:sound/dialogs/simple
 function att2:dialogs/sidequest/sq30/player_1
+
+#open secret chest library
+setblock -4972 162 -4904 minecraft:redstone_block
