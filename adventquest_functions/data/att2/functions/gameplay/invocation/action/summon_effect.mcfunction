@@ -11,6 +11,9 @@ execute if score @s SUMMON_TIMER matches 30 at @s run playsound minecraft:boom3 
 execute if score @s SUMMON_TIMER matches 60 unless entity @s[tag=KeepOriginalData] run effect give @s minecraft:invisibility 3 1 true
 execute if score @s SUMMON_TIMER matches 60 at @s run summon minecraft:ender_pearl ~ ~1 ~ {NoGravity:1,Motion:[0.0,0.0,0.0],Glowing:1}
 execute if score @s SUMMON_TIMER matches 40 unless entity @s[tag=KeepOriginalData] unless entity @s[tag=RecyclerSpell] run effect give @s minecraft:glowing 2 1 true
+##No horse movement
+execute if score @s SUMMON_TIMER matches 5.. as @e[type=minecraft:horse,scores={SUMMON_TIMER=5..}] at @s run effect give @s minecraft:slowness 1 100 true 
+
 execute if score @s SUMMON_TIMER matches 1..5 at @s positioned ~ ~1 ~ run kill @e[type=ender_pearl,distance=..2]
 execute if score @s SUMMON_TIMER matches 1 unless entity @s[tag=KeepOriginalData] run data merge entity @s {NoAI:0,Invulnerable:0}
 
