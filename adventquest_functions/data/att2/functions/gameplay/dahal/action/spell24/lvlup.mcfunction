@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest											#
-#Level up for spell Bait            							#
+#Level up for spell Lure            							#
 #################################################################
 
 function att2:dialogs/gameplay/dahal/spell24_lvlup

@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:enchanted_book"
         },
-        "title": {"translate":"Bait Veteran"},
-        "description": {"translate":"Reach level 5 with Bait spell"},
+        "title": {"translate":"Lure Veteran"},
+        "description": {"translate":"Reach level 5 with Lure spell"},
         "frame": "goal"
     },
     "parent": "att2:dahal/spell24_lvl2",

@@ -1,6 +1,6 @@
 #################################################
 #Made by Adventquest							#
-#Keep Bait working   						    #
+#Keep Lure working   						    #
 #################################################
 
 execute as @e[scores={SPELL24_EFFECT=1..}] run scoreboard players remove @s SPELL24_EFFECT 1

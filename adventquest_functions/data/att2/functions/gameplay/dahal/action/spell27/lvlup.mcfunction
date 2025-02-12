@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest											#
-#Level up for spell Bait            							#
+#Level up for spell Spectral Axe            							#
 #################################################################
 
 function att2:dialogs/gameplay/dahal/spell27_lvlup

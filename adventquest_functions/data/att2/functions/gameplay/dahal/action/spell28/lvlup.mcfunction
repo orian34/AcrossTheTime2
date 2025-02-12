@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest											#
-#Level up for spell Bait            							#
+#Level up for spell Spectral Bow            							#
 #################################################################
 
 function att2:dialogs/gameplay/dahal/spell28_lvlup
