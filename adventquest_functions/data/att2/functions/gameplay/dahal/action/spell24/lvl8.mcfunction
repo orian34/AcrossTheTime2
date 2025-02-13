@@ -1,6 +1,6 @@
 #################################################################
 #Made by Adventquest											#
-#Bait lvl8														#
+#Lure lvl8														#
 #################################################################
 
 execute positioned ^ ^ ^1.2 run function att2:summon/dahal/snowgolem1_class4

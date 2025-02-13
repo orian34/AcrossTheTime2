@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:enchanted_book"
         },
-        "title": {"translate":"Bait Master"},
-        "description": {"translate":"Reach level 10 with Bait spell"},
+        "title": {"translate":"Lure Master"},
+        "description": {"translate":"Reach level 10 with Lure spell"},
         "frame": "challenge"
     },
     "parent": "att2:dahal/spell24_lvl5",

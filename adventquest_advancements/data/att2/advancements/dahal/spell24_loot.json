@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:written_book"
         },
-        "title": {"translate":"Bait"},
-        "description": {"translate":"Find Bait spell"}
+        "title": {"translate":"Lure"},
+        "description": {"translate":"Find Lure spell"}
     },
     "parent": "att2:dahal/root",
     "rewards": {
