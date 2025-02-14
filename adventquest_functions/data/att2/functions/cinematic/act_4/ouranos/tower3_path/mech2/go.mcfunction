@@ -73,5 +73,8 @@ execute if score path3_mech2 OURANOS matches 2 if score path3_mech2_timer2 OURAN
 # Iteration
 execute if score path3_mech2_timer1 OURANOS matches ..0 run function att2:cinematic/act_4/ouranos/tower3_path/mech2/tp_fail
 execute if score path3_mech2_timer1 OURANOS matches 1..9999 run scoreboard players remove path3_mech2_timer1 OURANOS 1
+##tp spell CHECK
+execute if score path3_mech2_timer1 OURANOS matches 1..9999 run scoreboard players set tp_spell32 TIMER 20
+
 execute if score path3_mech2_timer2 OURANOS matches ..0 run scoreboard players set path3_mech2_timer2 OURANOS 100
 execute if score path3_mech2_timer2 OURANOS matches 1..100 run scoreboard players remove path3_mech2_timer2 OURANOS 1
