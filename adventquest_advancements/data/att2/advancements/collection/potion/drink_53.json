@@ -4,7 +4,7 @@
             "item": "minecraft:potion",
             "nbt": "{CustomPotionColor:40188}"
         },
-        "title": {"translate":"Cataplasme"},
+        "title": {"translate":"Cataplasme     "},
         "description": {"translate":"Effective medicinal porridge thus promoting the rapid elimination of toxins."},
         "frame": "goal",
         "show_toast": false,

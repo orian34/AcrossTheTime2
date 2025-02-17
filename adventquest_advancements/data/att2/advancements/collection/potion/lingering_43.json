@@ -4,7 +4,7 @@
             "item": "minecraft:lingering_potion",
             "nbt": "{CustomPotionColor:11735039}"
         },
-        "title": {"translate":"Rosée"},
+        "title": {"translate":"Rosée        "},
         "description": {"translate":"Through science the abyss has opened, and the clouds have distilled the Dew."},
         "frame": "goal",
         "show_toast": false,

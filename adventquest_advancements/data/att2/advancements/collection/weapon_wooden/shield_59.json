@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:shield"
         },
-        "title": {"translate":"Roc"},
-        "description": {"translate":"Old as the world but still	so resilient."},
+        "title": {"translate":"Roc       "},
+        "description": {"translate":"Old as the world but still so resilient."},
         "frame": "goal",
         "show_toast": false,
         "announce_to_chat": true

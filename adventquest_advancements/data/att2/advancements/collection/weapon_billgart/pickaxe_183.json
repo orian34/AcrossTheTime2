@@ -4,7 +4,7 @@
             "item": "minecraft:stone_pickaxe"
         },
         "title": {"translate":"Cœur de marbre"},
-        "description": {"translate":"Here, there is no greater quality, because	the coldness does not exempt from ardour."},
+        "description": {"translate":"Here, there is no greater quality, because the coldness does not exempt from ardour."},
         "frame": "goal",
         "show_toast": false,
         "announce_to_chat": true

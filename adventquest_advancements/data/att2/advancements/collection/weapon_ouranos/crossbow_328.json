@@ -4,7 +4,7 @@
             "item": "minecraft:crossbow"
         },
         "title": {"translate":"Inspiration de Lucas"},
-        "description": {"translate":"If creativity is born of patience,	perseverance is the mother of efficiency..."},
+        "description": {"translate":"If creativity is born of patience, perseverance is the mother of efficiency..."},
         "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true

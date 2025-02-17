@@ -4,7 +4,7 @@
             "item": "minecraft:splash_potion",
             "nbt": "{CustomPotionColor:16715280}"
         },
-        "title": {"translate":"Vertu"},
+        "title": {"translate":"Vertu    "},
         "description": {"translate":"All the benefits of nature, in such a small vial."},
         "frame": "goal",
         "show_toast": false,

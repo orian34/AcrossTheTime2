@@ -4,7 +4,7 @@
             "item": "minecraft:golden_axe"
         },
         "title": {"translate":"Premio gal Môt"},
-        "description": {"translate":"Pleasing the child of darkness	and in his intentions, following him ..."},
+        "description": {"translate":"Pleasing the child of darkness and in his intentions, following him ..."},
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true

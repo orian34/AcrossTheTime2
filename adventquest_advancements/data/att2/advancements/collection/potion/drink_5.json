@@ -4,7 +4,7 @@
             "item": "minecraft:potion",
             "nbt": "{CustomPotionColor:11195266}"
         },
-        "title": {"translate":"Tisane"},
+        "title": {"translate":"Tisane   "},
         "description": {"translate":"Soothes pain and treats osteoarthritis."},
         "show_toast": false,
         "announce_to_chat": true

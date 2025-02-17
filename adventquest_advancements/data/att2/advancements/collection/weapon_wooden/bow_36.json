@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:bow"
         },
-        "title": {"translate":"Arc"},
+        "title": {"translate":"Arc      "},
         "description": {"translate":"Soon to be fishing rod."},
         "show_toast": false,
         "announce_to_chat": true

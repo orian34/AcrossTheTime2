@@ -31,3 +31,6 @@ scoreboard players add @a CHRONOTON 400
 tellraw @a {"text":"* ","color":"dark_red","extra":[{"text":"+400 Chronotons","color":"gray","italic":true},{"text":" *","color":"dark_red"}]}
 
 advancement grant @a only att2:quest/sq30
+
+#hidden chest access
+setblock -4951 145 -4921 minecraft:stone_brick_stairs[facing=west,half=bottom,shape=straight]
