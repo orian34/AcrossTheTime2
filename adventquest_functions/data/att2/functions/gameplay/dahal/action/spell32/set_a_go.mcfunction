@@ -3,7 +3,6 @@
 #Process Golem incantation								        #
 #################################################################
 
-#tellraw @a[scores={LANGUAGE=2}] {"text":"放置A点go","color":"gold"}
 ##对玩家距离点位和esc数量进行检测
 execute if score tp_spell32 TIMER matches 1.. run function att2:gameplay/dahal/action/spell32/quest_limit
 execute unless entity @s[nbt={Inventory:[{tag:{display:{"Lore":["{\"text\":\"§5§oPrecious!!\"}","{\"text\":\"§5Very, VERY, Precious...\"}"]}}}]}] as @s at @s run function att2:dialogs/gameplay/dahal/spell32_esc_not_enough
@@ -12,6 +11,12 @@ execute if score tp_spell32 TIMER matches ..0 as @s[scores={SPELL_SLCT=312,DAHAL
 execute if score tp_spell32 TIMER matches ..0 as @s[scores={SPELL_SLCT=313,DAHAL=350..},nbt={Inventory:[{tag:{display:{"Lore":["{\"text\":\"§5§oPrecious!!\"}","{\"text\":\"§5Very, VERY, Precious...\"}"]}}}]}] run function att2:gameplay/dahal/action/spell32/set_armorstand/lvl3_set_a
 execute if score tp_spell32 TIMER matches ..0 as @s[scores={SPELL_SLCT=314,DAHAL=350..},nbt={Inventory:[{tag:{display:{"Lore":["{\"text\":\"§5§oPrecious!!\"}","{\"text\":\"§5Very, VERY, Precious...\"}"]}}}]}] run function att2:gameplay/dahal/action/spell32/set_armorstand/lvl4_set_a
 execute if score tp_spell32 TIMER matches ..0 as @s[scores={SPELL_SLCT=315,DAHAL=350..},nbt={Inventory:[{tag:{display:{"Lore":["{\"text\":\"§5§oPrecious!!\"}","{\"text\":\"§5Very, VERY, Precious...\"}"]}}}]}] run function att2:gameplay/dahal/action/spell32/set_armorstand/lvl5_set_a
+##player color
+execute if entity @s[scores={NUMEROJOUEUR=1}] run team join tp_waypoint_color_player1 @e[tag=SpaceTeleportSpellSETA,tag=player1]
+execute if entity @s[scores={NUMEROJOUEUR=2}] run team join tp_waypoint_color_player2 @e[tag=SpaceTeleportSpellSETA,tag=player2]
+execute if entity @s[scores={NUMEROJOUEUR=3}] run team join tp_waypoint_color_player3 @e[tag=SpaceTeleportSpellSETA,tag=player3]
+execute if entity @s[scores={NUMEROJOUEUR=4}] run team join tp_waypoint_color_player4 @e[tag=SpaceTeleportSpellSETA,tag=player4]
+execute if entity @s[scores={NUMEROJOUEUR=5}] run team join tp_waypoint_color_player5 @e[tag=SpaceTeleportSpellSETA,tag=player5]
 
 scoreboard players operation @s SPELL_OP = @s SPELL32_LVL
 execute as @s[scores={SPELL32_CAP=1}] run scoreboard players operation @s SPELL_OP -= cap2 SPELL32_LVL
