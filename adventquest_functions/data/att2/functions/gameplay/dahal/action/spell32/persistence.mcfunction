@@ -4,7 +4,11 @@
 #################################################
  
 ##对未及时kill的盔甲架进行kill Kill not loaded but not the latest teleport point
-execute as @e[tag=Spell32ArmorStandSet,tag=!Protect] at @s run function att2:gameplay/dahal/action/spell32/armorstand_data_compare
+execute as @e[tag=Spell32ArmorStandSet,tag=!Protect,tag=player1] at @s run function att2:gameplay/dahal/action/spell32/compare_player1
+execute as @e[tag=Spell32ArmorStandSet,tag=!Protect,tag=player2] at @s run function att2:gameplay/dahal/action/spell32/compare_player2
+execute as @e[tag=Spell32ArmorStandSet,tag=!Protect,tag=player3] at @s run function att2:gameplay/dahal/action/spell32/compare_player3
+execute as @e[tag=Spell32ArmorStandSet,tag=!Protect,tag=player4] at @s run function att2:gameplay/dahal/action/spell32/compare_player4
+execute as @e[tag=Spell32ArmorStandSet,tag=!Protect,tag=player5] at @s run function att2:gameplay/dahal/action/spell32/compare_player5
 ##当盔甲架TP_EFFECT大于0时，开始运行传送特效 When the TP_EFFECT of the armor stand is greater than 0, start the teleportation effect
 execute as @e[scores={SPELL32_TP_EFFCT=45..59},tag=SpaceTeleportSpellParticle] at @s run function att2:gameplay/dahal/action/spell32/spell32_effect/particles_2
 execute as @e[scores={SPELL32_TP_EFFCT=10..45},tag=SpaceTeleportSpellParticle] at @s run function att2:gameplay/dahal/action/spell32/spell32_effect/particles_3
