@@ -13,6 +13,12 @@ execute if score tp_spell32 TIMER matches ..0 as @s[scores={SPELL_SLCT=312,DAHAL
 execute if score tp_spell32 TIMER matches ..0 as @s[scores={SPELL_SLCT=313,DAHAL=350..}] run function att2:gameplay/dahal/action/spell32/set_armorstand/lvl3_set_b
 execute if score tp_spell32 TIMER matches ..0 as @s[scores={SPELL_SLCT=314,DAHAL=350..}] run function att2:gameplay/dahal/action/spell32/set_armorstand/lvl4_set_b
 execute if score tp_spell32 TIMER matches ..0 as @s[scores={SPELL_SLCT=315,DAHAL=350..}] run function att2:gameplay/dahal/action/spell32/set_armorstand/lvl5_set_b
+##player color
+execute if entity @s[scores={NUMEROJOUEUR=1}] run team join tp_waypoint_color_player1 @e[tag=SpaceTeleportSpellSETB,tag=player1]
+execute if entity @s[scores={NUMEROJOUEUR=2}] run team join tp_waypoint_color_player2 @e[tag=SpaceTeleportSpellSETB,tag=player2]
+execute if entity @s[scores={NUMEROJOUEUR=3}] run team join tp_waypoint_color_player3 @e[tag=SpaceTeleportSpellSETB,tag=player3]
+execute if entity @s[scores={NUMEROJOUEUR=4}] run team join tp_waypoint_color_player4 @e[tag=SpaceTeleportSpellSETB,tag=player4]
+execute if entity @s[scores={NUMEROJOUEUR=5}] run team join tp_waypoint_color_player5 @e[tag=SpaceTeleportSpellSETB,tag=player5]
 
 scoreboard players operation @s SPELL_OP = @s SPELL32_LVL
 execute as @s[scores={SPELL32_CAP=1}] run scoreboard players operation @s SPELL_OP -= cap2 SPELL32_LVL
