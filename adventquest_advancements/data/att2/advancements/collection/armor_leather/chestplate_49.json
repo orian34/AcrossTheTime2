@@ -4,7 +4,7 @@
             "item": "minecraft:leather_chestplate"
         },
         "title": {"translate":"Lundi"},
-        "description": {"translate":"The day of the moon smiles	to the most ambitious."},
+        "description": {"translate":"The day of the moon smiles to the most ambitious."},
         "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true

@@ -432,7 +432,7 @@ execute in minecraft:overworld if data block -4979 148 -4911 {LootTable:"att2:ch
 
 execute in minecraft:overworld if data block -4969 145 -4911 {LootTable:"att2:chest/reg1/c4t3"} positioned -4969 145 -4911 run particle minecraft:dust 0.25 0.6 0.25 0.25 ~ ~0.5 ~ 0.3 0.3 0.3 0 10 normal
 execute in minecraft:overworld if data block -4970 145 -4911 {LootTable:"att2:chest/reg1/c4t3"} positioned -4970 145 -4911 run particle minecraft:dust 0.25 0.6 0.25 0.25 ~ ~0.5 ~ 0.3 0.3 0.3 0 10 normal
-execute unless score choice SQ30 matches 1..2 in minecraft:overworld if data block -4951 145 -4920 {LootTable:"att2:chest/reg1/c6t7"} positioned -4951 145 -4920 run particle minecraft:dust 0.65 0.05 1.0 0.25 ~ ~0.5 ~ 0.3 0.3 0.3 0 10 normal
+execute in minecraft:overworld if data block -4951 145 -4920 {LootTable:"att2:chest/reg1/c6t7"} positioned -4951 145 -4920 run particle minecraft:dust 0.65 0.05 1.0 0.25 ~ ~0.5 ~ 0.3 0.3 0.3 0 10 normal
 execute in minecraft:overworld if data block -4955 145 -4912 {LootTable:"att2:chest/reg1/c4t3"} positioned -4955 145 -4912 run particle minecraft:dust 0.25 0.6 0.25 0.25 ~ ~0.5 ~ 0.3 0.3 0.3 0 10 normal
 execute in minecraft:overworld if data block -4955 145 -4911 {LootTable:"att2:chest/reg1/c4t3"} positioned -4955 145 -4911 run particle minecraft:dust 0.25 0.6 0.25 0.25 ~ ~0.5 ~ 0.3 0.3 0.3 0 10 normal
 execute in minecraft:overworld if data block -4978 162 -4906 {LootTable:"att2:chest/reg1/c4t4"} positioned -4978 162 -4906 run particle minecraft:dust 0.25 0.5 0.5 0.25 ~ ~0.5 ~ 0.3 0.3 0.3 0 10 normal

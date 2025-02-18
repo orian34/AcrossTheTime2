@@ -4,7 +4,7 @@
             "item": "minecraft:iron_pickaxe"
         },
         "title": {"translate":"Suprême Guédéron"},
-        "description": {"translate":"Your legendary strength cannot	be broken by any of us."},
+        "description": {"translate":"Your legendary strength cannot be broken by any of us."},
         "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true

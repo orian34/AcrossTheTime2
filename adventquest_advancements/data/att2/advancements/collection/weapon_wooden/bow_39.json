@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:bow"
         },
-        "title": {"translate":"Furtif"},
+        "title": {"translate":"Furtif    "},
         "description": {"translate":"Silent, carried by the wind."},
         "show_toast": false,
         "announce_to_chat": true

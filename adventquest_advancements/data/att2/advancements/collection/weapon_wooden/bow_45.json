@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:bow"
         },
-        "title": {"translate":"Äpril"},
+        "title": {"translate":"Äpril      "},
         "description": {"translate":"Charming but destructive, it hunts without distinction of species."},
         "frame": "goal",
         "show_toast": true,

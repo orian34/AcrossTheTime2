@@ -4,7 +4,7 @@
             "item": "minecraft:bow"
         },
         "title": {"translate":"Oncle de sang"},
-        "description": {"translate":"Sting, pierce and kill, to you	to whom hope was shattered."},
+        "description": {"translate":"Sting, pierce and kill, to you to whom hope was shattered."},
         "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true

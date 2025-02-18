@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:stone_sword"
         },
-        "title": {"translate":"Rark ul"},
+        "title": {"translate":"Rark ul   "},
         "description": {"translate":"Disappointing."},
         "show_toast": false,
         "announce_to_chat": true

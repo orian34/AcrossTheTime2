@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:bow"
         },
-        "title": {"translate":"Sigial"},
+        "title": {"translate":"Sigial    "},
         "description": {"translate":"Many times lost, but always with regret."},
         "frame": "goal",
         "show_toast": false,

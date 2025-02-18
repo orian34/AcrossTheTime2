@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:crossbow"
         },
-        "title": {"translate":"Mÿre"},
+        "title": {"translate":"Mÿre      "},
         "description": {"translate":"As determined as unexpected"},
         "frame": "goal",
         "show_toast": false,

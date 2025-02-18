@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:golden_chestplate"
         },
-        "title": {"translate":"S"},
+        "title": {"translate":"S          "},
         "description": {"translate":"The uniform of a million challenges reveals in you the exception of the chosen ones."},
         "frame": "challenge",
         "show_toast": true,

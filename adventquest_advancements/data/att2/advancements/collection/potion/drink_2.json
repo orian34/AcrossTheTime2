@@ -4,7 +4,7 @@
             "item": "minecraft:potion",
             "nbt": "{CustomPotionColor:9055327}"
         },
-        "title": {"translate":"Jaja"},
+        "title": {"translate":"Jaja       "},
         "description": {"translate":"Is'not because I'm drunk, yo're go'uing turelec me."},
         "show_toast": false,
         "announce_to_chat": true

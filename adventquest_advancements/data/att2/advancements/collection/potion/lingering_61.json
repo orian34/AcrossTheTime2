@@ -4,7 +4,7 @@
             "item": "minecraft:lingering_potion",
             "nbt": "{CustomPotionColor:9592157}"
         },
-        "title": {"translate":"Irritant"},
+        "title": {"translate":"Irritant    "},
         "description": {"translate":"Causes very unpleasant skin inflammation."},
         "frame": "goal",
         "show_toast": false,
