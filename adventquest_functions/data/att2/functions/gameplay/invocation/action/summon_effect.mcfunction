@@ -15,7 +15,11 @@ execute if score @s SUMMON_TIMER matches 40 unless entity @s[tag=KeepOriginalDat
 execute if score @s SUMMON_TIMER matches 5.. as @e[type=minecraft:horse,scores={SUMMON_TIMER=5..}] at @s run effect give @s minecraft:slowness 1 100 true 
 
 execute if score @s SUMMON_TIMER matches 1..5 at @s positioned ~ ~1 ~ run kill @e[type=ender_pearl,distance=..2]
-execute if score @s SUMMON_TIMER matches 1 unless entity @s[tag=KeepOriginalData] run data merge entity @s {NoAI:0,Invulnerable:0}
+execute if score @s SUMMON_TIMER matches 1 unless entity @s[tag=KeepOriginalData] run data merge entity @s {NoAI:0,Invulnerable:0
+
+##chest_minecart
+execute if score @s SUMMON_TIMER matches 60 run data merge entity @s[tag=invminecarts.invisible_minecart] {NoGravity:1}
+execute if score @s SUMMON_TIMER matches 1 run data merge entity @s[tag=invminecarts.invisible_minecart] {NoGravity:0}
 
 
 scoreboard players remove @s SUMMON_TIMER 1 

@@ -4,7 +4,7 @@
 #################################################################
 
 # Incase the player already as a pet, the previous one should be destroyed
-execute at @s as @e[scores={FOLLOW_PLAYER=0..}] if score @s FOLLOW_PLAYER = @p NUMEROJOUEUR run kill @s
+execute at @s as @e[scores={FOLLOW_PLAYER=0..},tag=!invminecarts.invisible_minecart] if score @s FOLLOW_PLAYER = @p NUMEROJOUEUR run kill @s
 execute as @s[scores={SPELL_SLCT=221,DAHAL=80..}] at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell23/lvl1
 execute as @s[scores={SPELL_SLCT=222,DAHAL=140..}] at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell23/lvl2
 execute as @s[scores={SPELL_SLCT=223,DAHAL=200..}] at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell23/lvl3
