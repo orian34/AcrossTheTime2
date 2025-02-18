@@ -22,8 +22,9 @@ scoreboard objectives add ESC_COST dummy
 scoreboard objectives add DISTANCE_CHECK dummy
 scoreboard objectives add tp_point_set_a dummy
 scoreboard objectives add tp_point_set_b dummy
+scoreboard objectives add tp_spell32_timer dummy
 
-
+scoreboard players set @s tp_spell32_timer 0
 scoreboard players set @s tp_point_set_a 0
 scoreboard players set @s tp_point_set_b 0
 scoreboard players set @s ESC_CHECK 0
