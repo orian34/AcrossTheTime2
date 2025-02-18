@@ -45,3 +45,6 @@ execute if score Somniophages SQ48 matches -2 as @a[x=6747,y=127,z=7066,dx=0,dy=
 
 # Reinitialize boss when the player kill it and got out
 execute if score Somniophages SQ48 matches -2 unless entity @a[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,gamemode=adventure,tag=!Dead] unless score SQ48 SIDEQUEST matches 1..99 run function att2:gameplay/boss/ouranos/somniophages/initialize
+
+##SPELL32 quest CHECK
+scoreboard players set @a[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,gamemode=adventure] tp_spell32_timer 20

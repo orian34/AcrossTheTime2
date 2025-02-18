@@ -48,3 +48,6 @@ execute if score Torkant SQ52 matches -2 as @a[x=-5516,y=18,z=-4163,dx=2,dy=2,dz
 
 # Reinitialize boss when the player killed it and got out (except after the first time)
 execute if score Torkant SQ52 matches -2 unless entity @a[x=-5532,y=34,z=-4164,dx=34,dy=-31,dz=44,gamemode=adventure] unless score SQ52 SIDEQUEST matches 1..99 run function att2:gameplay/boss/nojelanth/torkant/initialize
+
+##SPELL32 quest CHECK
+scoreboard players set @a[x=-5532,y=34,z=-4164,dx=34,dy=-31,dz=44,gamemode=adventure] tp_spell32_timer 20

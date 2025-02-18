@@ -3,16 +3,15 @@
 #Process Golem incantation								        #
 #################################################################
 
-
-
 ##对玩家距离点位和esc数量进行检测
-execute if score tp_spell32 TIMER matches 1.. run function att2:gameplay/dahal/action/spell32/quest_limit
+execute if entity @s[scores={tp_spell32_timer=1..}]  run function att2:dialogs/gameplay/dahal/spell32_quest_limit
+execute if entity @s[scores={DIMENSION=2}] as @s at @s run function att2:dialogs/gameplay/dahal/spell32_quest_limit
 execute unless entity @s[nbt={Inventory:[{tag:{display:{"Lore":["{\"text\":\"§5§oPrecious!!\"}","{\"text\":\"§5Very, VERY, Precious...\"}"]}}}]}] as @s at @s run function att2:dialogs/gameplay/dahal/spell32_esc_not_enough
-execute if score tp_spell32 TIMER matches ..0 as @s[scores={SPELL_SLCT=311,DAHAL=350..}] run function att2:gameplay/dahal/action/spell32/set_armorstand/lvl1_set_b
-execute if score tp_spell32 TIMER matches ..0 as @s[scores={SPELL_SLCT=312,DAHAL=350..}] run function att2:gameplay/dahal/action/spell32/set_armorstand/lvl2_set_b
-execute if score tp_spell32 TIMER matches ..0 as @s[scores={SPELL_SLCT=313,DAHAL=350..}] run function att2:gameplay/dahal/action/spell32/set_armorstand/lvl3_set_b
-execute if score tp_spell32 TIMER matches ..0 as @s[scores={SPELL_SLCT=314,DAHAL=350..}] run function att2:gameplay/dahal/action/spell32/set_armorstand/lvl4_set_b
-execute if score tp_spell32 TIMER matches ..0 as @s[scores={SPELL_SLCT=315,DAHAL=350..}] run function att2:gameplay/dahal/action/spell32/set_armorstand/lvl5_set_b
+execute if entity @s[scores={tp_spell32_timer=..0}] unless entity @s[scores={DIMENSION=2}] as @s[scores={SPELL_SLCT=311,DAHAL=350..}] run function att2:gameplay/dahal/action/spell32/set_armorstand/lvl1_set_b
+execute if entity @s[scores={tp_spell32_timer=..0}] unless entity @s[scores={DIMENSION=2}] as @s[scores={SPELL_SLCT=312,DAHAL=350..}] run function att2:gameplay/dahal/action/spell32/set_armorstand/lvl2_set_b
+execute if entity @s[scores={tp_spell32_timer=..0}] unless entity @s[scores={DIMENSION=2}] as @s[scores={SPELL_SLCT=313,DAHAL=350..}] run function att2:gameplay/dahal/action/spell32/set_armorstand/lvl3_set_b
+execute if entity @s[scores={tp_spell32_timer=..0}] unless entity @s[scores={DIMENSION=2}] as @s[scores={SPELL_SLCT=314,DAHAL=350..}] run function att2:gameplay/dahal/action/spell32/set_armorstand/lvl4_set_b
+execute if entity @s[scores={tp_spell32_timer=..0}] unless entity @s[scores={DIMENSION=2}] as @s[scores={SPELL_SLCT=315,DAHAL=350..}] run function att2:gameplay/dahal/action/spell32/set_armorstand/lvl5_set_b
 ##player color
 execute if entity @s[scores={NUMEROJOUEUR=1}] run team join tp_waypoint_color_player1 @e[tag=SpaceTeleportSpellSETB,tag=player1]
 execute if entity @s[scores={NUMEROJOUEUR=2}] run team join tp_waypoint_color_player2 @e[tag=SpaceTeleportSpellSETB,tag=player2]
@@ -30,6 +29,4 @@ execute as @s[scores={SPELL32_CAP=5}] run scoreboard players set @s SPELL_OP -1
 execute as @s[scores={SPELL_OP=0..}] run function att2:gameplay/dahal/action/spell32/lvlup
 execute as @s[scores={SPELL_OP=0..}] run scoreboard players add @s SPELL32_CAP 1
 scoreboard players set @s SPELL_OP -1
-
-#tellraw @a[scores={LANGUAGE=2}] {"text":"放置B点go","color":"gold"}
 

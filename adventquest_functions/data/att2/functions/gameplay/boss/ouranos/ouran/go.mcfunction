@@ -23,3 +23,6 @@ execute as @a[x=7883,y=121,z=6766,dx=0,dy=12,dz=12,gamemode=adventure] at @s run
 
 # Player detection when last phase of Ouran is completed
 execute if score OuranPhase1 OURANOS matches -2 if score OuranPhase2 OURANOS matches -2 if score OuranPhase3 OURANOS matches -2 if entity @a[x=7885,y=0,z=6703,dx=139,dy=255,dz=138,gamemode=adventure] run function att2:gameplay/boss/ouranos/ouran/victory
+
+##SPELL32 quest CHECK
+scoreboard players set @a tp_spell32_timer 20

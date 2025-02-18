@@ -44,3 +44,6 @@ execute if score Kum SQ53 matches -2 as @a[x=-1571,y=28,z=-606,dx=0,dy=2,dz=2,ga
 
 # Reinitialize boss when the player killed it and got out (except after the first time)
 execute if score Kum SQ53 matches -2 unless entity @a[x=-1533,y=9,z=-589,dx=-39,dy=52,dz=-32,gamemode=adventure] unless score SQ53 SIDEQUEST matches 1..99 run function att2:gameplay/boss/billgart/kum/initialize
+
+##SPELL32 quest CHECK
+scoreboard players set @a[x=-1533,y=9,z=-589,dx=-39,dy=52,dz=-32,gamemode=adventure] tp_spell32_timer 20

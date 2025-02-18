@@ -50,3 +50,6 @@ execute if score Asurok ASUNARK matches -2 run tp @a[x=-3298,y=6,z=-4961,dx=2,dy
 
 # Reinitialize boss when the player killed it and got out (except after the first time)
 execute if score Asurok ASUNARK matches -2 unless entity @a[x=-3317,y=2,z=-4922,dx=41,dy=22,dz=-41,gamemode=adventure,tag=!Dead] unless score Mainquest SIDEQUEST matches 39..40 run function att2:gameplay/boss/asunark/asurok/reinitialize
+
+##SPELL32 quest CHECK
+scoreboard players set @a[x=-3317,y=2,z=-4922,dx=41,dy=22,dz=-41,gamemode=adventure] tp_spell32_timer 20

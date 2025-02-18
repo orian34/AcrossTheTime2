@@ -3,9 +3,6 @@
 #Summon a position keeper for a recycler                    #
 #############################################################
 
-#tellraw @a[scores={LANGUAGE=2}] {"text":"TP-GO","color":"gold"}
-
-
 ##如果玩家dahal足够将进行施法引导
 execute as @s[scores={SPELL_SLCT=311,DAHAL=350..}] at @s run function att2:gameplay/dahal/action/spell32/lvl_tp_start_set/lvl1_tp
 execute as @s[scores={SPELL_SLCT=312,DAHAL=350..}] at @s run function att2:gameplay/dahal/action/spell32/lvl_tp_start_set/lvl2_tp

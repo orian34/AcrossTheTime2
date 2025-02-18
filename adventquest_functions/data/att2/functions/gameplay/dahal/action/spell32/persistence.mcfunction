@@ -29,7 +29,7 @@ execute as @e[scores={SPELL32_TP_EFFCT=1..},tag=SpaceTeleportSpellParticle] at @
 execute as @e[tag=SpaceTeleportSpellSETA] at @s run function att2:gameplay/dahal/action/spell32/spell32_effect/particles_keep_a
 execute as @e[tag=SpaceTeleportSpellSETB] at @s run function att2:gameplay/dahal/action/spell32/spell32_effect/particles_keep_b
 ##对是否在任务过场传送进行检测 Detection of special scenarios
-execute if score tp_spell32 TIMER matches 1.. run scoreboard players remove tp_spell32 TIMER 1
+execute as @a[scores={tp_spell32_timer=1..}] at @s run scoreboard players remove @s tp_spell32_timer 1
 
 
 

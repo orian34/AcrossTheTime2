@@ -41,3 +41,6 @@ execute if score Scavenger SQ51 matches -2 as @a[x=-5553,y=49,z=-4542,dx=2,dy=2,
 
 # Reinitialize boss when the player killed it and got out (except after the first time)
 execute if score Scavenger SQ51 matches -2 unless entity @a[x=-5566,y=44,z=-4577,dx=31,dy=17,dz=36,gamemode=adventure] unless score SQ51 SIDEQUEST matches 1..99 run function att2:gameplay/boss/kert/scavenger/initialize
+
+##SPELL32 quest CHECK
+scoreboard players set @a[x=-5566,y=44,z=-4577,dx=31,dy=17,dz=36,gamemode=adventure] tp_spell32_timer 20

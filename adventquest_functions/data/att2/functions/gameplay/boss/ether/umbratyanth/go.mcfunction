@@ -85,3 +85,7 @@ execute as @a[x=-5161,y=117,z=-6914,dx=88,dy=-40,dz=88,gamemode=adventure] at @s
 
 # Testing if Umbra'Tyanth died
 execute if score Boss UMBRATYANTH matches 0.. if entity @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] unless entity @e[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,nbt={UUID:[I;0,300,0,300]}] run function att2:gameplay/boss/ether/umbratyanth/victory
+
+
+##SPELL32 quest CHECK
+scoreboard players set @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] tp_spell32_timer 20

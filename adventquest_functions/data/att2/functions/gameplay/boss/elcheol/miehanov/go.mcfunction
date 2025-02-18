@@ -44,3 +44,6 @@ execute if score Miehanov VONAHEIM matches -2 as @a[x=-5611,y=166,z=-6392,dx=-6,
 
 # Reinitialize boss when the player kill it and got out
 execute if score Miehanov VONAHEIM matches -2 unless entity @a[x=-5641,y=165,z=-6342,dx=52,dy=21,dz=-51,gamemode=adventure,tag=!Dead] unless score Mainquest SIDEQUEST matches 113..116 run function att2:gameplay/boss/elcheol/miehanov/initialize
+
+##SPELL32 quest CHECK
+scoreboard players set @a[x=-5641,y=165,z=-6342,dx=52,dy=21,dz=-51,gamemode=adventure] tp_spell32_timer 20

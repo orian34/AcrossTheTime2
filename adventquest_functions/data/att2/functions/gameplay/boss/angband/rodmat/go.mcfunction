@@ -47,3 +47,6 @@ execute if score Rodmat SQ45 matches -2 run tp @a[x=3735,y=89,z=4385,dx=0,dy=2,d
 
 # Reinitialize boss when the player kill it and got out
 execute if score Rodmat SQ45 matches -2 unless entity @a[x=3734,y=87,z=4367,dx=56,dy=40,dz=38,gamemode=adventure,tag=!Dead] run function att2:gameplay/boss/angband/rodmat/initialize
+
+##SPELL32 quest CHECK
+scoreboard players set @a[x=3734,y=87,z=4367,dx=56,dy=40,dz=38,gamemode=adventure] tp_spell32_timer 20

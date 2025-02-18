@@ -41,3 +41,6 @@ execute if score Felroth WORLEST matches -2 run tp @a[x=-4635,y=57,z=-5506,dx=-2
 
 # Reinitialize boss when the player kill it and got out
 execute if score Felroth WORLEST matches -2 unless entity @a[x=-4652,y=56,z=-5537,dx=32,dy=8,dz=32,gamemode=adventure,tag=!Dead] run scoreboard players set Felroth WORLEST -1
+
+##SPELL32 quest CHECK
+scoreboard players set @a[x=-4652,y=56,z=-5537,dx=32,dy=8,dz=32,gamemode=adventure] tp_spell32_timer 20

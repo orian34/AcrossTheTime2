@@ -45,3 +45,6 @@ execute if score Rackham SQ41 matches -2 run tp @a[x=-4027,y=37,z=-4281,dx=0,dy=
 
 # Reinitialize boss when the player killed it and got out (except after the first time)
 execute if score Rackham SQ41 matches -2 unless entity @a[x=-4032,y=35,z=-4294,dx=29,dy=17,dz=30,gamemode=adventure,tag=!Dead] unless score SQ41 SIDEQUEST matches 1..99 run function att2:gameplay/boss/asunark/rackham/initialize
+
+##SPELL32 quest CHECK
+scoreboard players set @a[x=-4032,y=35,z=-4294,dx=29,dy=17,dz=30,gamemode=adventure] tp_spell32_timer 20

@@ -48,3 +48,6 @@ execute if score GolemBoss BILLGART matches -2 if score Mainquest SIDEQUEST matc
 
 # Reinitialize boss when the player kill it and got out
 execute if score GolemBoss BILLGART matches -2 in minecraft:the_end unless entity @a[x=-1330,y=120,z=-550,dx=55,dy=60,dz=-55,gamemode=adventure,tag=!Dead] unless score Mainquest SIDEQUEST matches 139..141 run function att2:gameplay/boss/billgart/golem/initialize
+
+##SPELL32 quest CHECK
+scoreboard players set @a[x=-1330,y=120,z=-550,dx=55,dy=60,dz=-55,gamemode=adventure] tp_spell32_timer 20

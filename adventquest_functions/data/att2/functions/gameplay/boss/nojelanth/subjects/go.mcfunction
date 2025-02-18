@@ -59,3 +59,6 @@ execute if score Subjects NOJELANTH matches -2 as @a[x=-7416,y=111,z=-4376,dx=0,
 
 # Reinitialize boss when the player kill it and got out
 execute if score Subjects NOJELANTH matches -2 unless entity @a[x=-7452,y=115,z=-4359,dx=36,dy=-6,dz=-36,gamemode=adventure,tag=!Dead] unless score Mainquest SIDEQUEST matches 238..239 run function att2:gameplay/boss/nojelanth/subjects/initialize
+
+##SPELL32 quest CHECK
+scoreboard players set @a[x=-7452,y=115,z=-4359,dx=36,dy=-6,dz=-36,gamemode=adventure] tp_spell32_timer 20
