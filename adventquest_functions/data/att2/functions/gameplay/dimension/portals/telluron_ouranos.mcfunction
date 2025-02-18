@@ -4,14 +4,14 @@
 #################################################################
 
 # In transition from Tellurön
-execute as @e[x=-5011,y=140,z=-4890,dx=0,dy=18,dz=20] run tp @s -3017 126 4935 -180 ~
+execute as @e[x=-5011,y=140,z=-4890,dx=0,dy=18,dz=20,tag=!spell20_chest,tag=!Spell_Pet] run tp @s -3017 126 4935 -180 ~
 # Out transition to Ouranos
-execute as @e[x=-3019,y=126,z=4902,dx=5,dy=5,dz=0] run function att2:gameplay/dimension/portals/tp_to_ouranos
+execute as @e[x=-3019,y=126,z=4902,dx=5,dy=5,dz=0,tag=!spell20_chest,tag=!Spell_Pet] run function att2:gameplay/dimension/portals/tp_to_ouranos
 
 # In transition from Ouranos
-execute as @e[x=6998,y=77,z=6998,dx=0,dy=4,dz=4] run tp @s -3017 127 4903 0 ~
+execute as @e[x=6998,y=77,z=6998,dx=0,dy=4,dz=4,tag=!spell20_chest,tag=!Spell_Pet] run tp @s -3017 127 4903 0 ~
 # Out transition to Tellurön
-execute as @e[x=-3014,y=126,z=4937,dx=-4,dy=4,dz=0] run tp @s -5013 149 -4880 90 ~
+execute as @e[x=-3014,y=126,z=4937,dx=-4,dy=4,dz=0,tag=!spell20_chest,tag=!Spell_Pet] run tp @s -5013 149 -4880 90 ~
 
 # Particle for Tellurön's portal, inner side
 particle minecraft:bubble_pop -3016.0 128 4902.5 4 4 0.05 0.1 100 normal
