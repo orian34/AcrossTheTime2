@@ -4,6 +4,9 @@
 #################################################################
 
 function att2:summon/dahal/phantom0_class0
+##change chinese language
+execute if entity @s[scores={LANGUAGE=2}] run data merge entity @e[tag=NewPet,type=minecraft:phantom,distance=0..5,limit=1,sort=nearest] {CustomName:"\"魔力之友\""}
+
 scoreboard players operation @e[tag=NewPet] FOLLOW_PLAYER = @s NUMEROJOUEUR
 execute as @e[tag=NewPet] run tag @s add ObstinacyPet2
 execute as @e[tag=NewPet] run tag @s remove NewPet
