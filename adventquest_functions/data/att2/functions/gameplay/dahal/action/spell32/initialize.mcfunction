@@ -44,3 +44,14 @@ scoreboard players set cap2 SPELL32_LVL 100
 scoreboard players set cap3 SPELL32_LVL 200
 scoreboard players set cap4 SPELL32_LVL 400
 scoreboard players set cap5 SPELL32_LVL 800
+
+team add tp_waypoint_color_player1
+team add tp_waypoint_color_player2
+team add tp_waypoint_color_player3
+team add tp_waypoint_color_player4
+team add tp_waypoint_color_player5
+team modify tp_waypoint_color_player1 color gold
+team modify tp_waypoint_color_player2 color dark_green
+team modify tp_waypoint_color_player3 color dark_red
+team modify tp_waypoint_color_player4 color dark_purple
+team modify tp_waypoint_color_player5 color black
