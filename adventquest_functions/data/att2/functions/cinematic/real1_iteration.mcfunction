@@ -6,4 +6,4 @@
 scoreboard players add Real1 TIMER 1
 
 ##SPELL32 quest CHECK
-scoreboard players set @a tp_spell32 20
+scoreboard players set @a tp_spell32_timer 20
