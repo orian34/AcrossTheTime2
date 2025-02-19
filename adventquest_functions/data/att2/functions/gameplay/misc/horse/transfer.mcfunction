@@ -13,7 +13,7 @@ execute if score @s HORSE_SET matches 0 if entity @e[type=minecraft:horse,distan
 ##在马上时强制玩家下马Forcibly dismount the player when on horseback.
 tp @s ~ ~ ~ ~ ~5
 ##将马进行认主Claim the horse as one's own.
-execute if score @s NUMEROJOUEUR matches 1 if score @s HORSE_SET matches 1 as @e[type=minecraft:horse,distance=..4,tag=PlayerAlly,tag=!NewInvo,imit=1,sort=nearest] at @s run tag @s add player_horse_1 
+execute if score @s NUMEROJOUEUR matches 1 if score @s HORSE_SET matches 1 as @e[type=minecraft:horse,distance=..4,tag=PlayerAlly,tag=!NewInvo,limit=1,sort=nearest] at @s run tag @s add player_horse_1 
 execute if score @s NUMEROJOUEUR matches 2 if score @s HORSE_SET matches 1 as @e[type=minecraft:horse,distance=..4,tag=PlayerAlly,tag=!NewInvo,limit=1,sort=nearest] at @s run tag @s add player_horse_2 
 execute if score @s NUMEROJOUEUR matches 3 if score @s HORSE_SET matches 1 as @e[type=minecraft:horse,distance=..4,tag=PlayerAlly,tag=!NewInvo,limit=1,sort=nearest] at @s run tag @s add player_horse_3 
 execute if score @s NUMEROJOUEUR matches 4 if score @s HORSE_SET matches 1 as @e[type=minecraft:horse,distance=..4,tag=PlayerAlly,tag=!NewInvo,limit=1,sort=nearest] at @s run tag @s add player_horse_4 
