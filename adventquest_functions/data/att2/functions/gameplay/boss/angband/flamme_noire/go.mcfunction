@@ -74,3 +74,6 @@ execute if score FlammeNoire ANGOR matches -1 if score FlammeNoire ANGOR_BOSS ma
 # ANGOR_BOSS management
 execute if score FlammeNoire ANGOR_BOSS matches 1.. run scoreboard players remove FlammeNoire ANGOR_BOSS 1
 execute as @e[scores={ANGOR_BOSS=1..}] run scoreboard players remove @s ANGOR_BOSS 1
+
+##SPELL32 quest CHECK
+scoreboard players set @a[x=3514,y=56,z=4924,distance=..100] tp_spell32_timer 20

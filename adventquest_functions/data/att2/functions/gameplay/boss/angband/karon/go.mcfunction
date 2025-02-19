@@ -44,3 +44,6 @@ execute if score Karon ANGOR matches -2 in minecraft:the_nether run tp @a[x=3538
 
 # Reinitialize boss when the player kill it and got out
 execute if score Karon ANGOR matches -2 in minecraft:the_nether unless entity @a[x=3539,y=123,z=4497,dx=-29,dy=4,dz=50,gamemode=adventure,tag=!Dead] run function att2:gameplay/boss/angband/karon/initialize
+
+##SPELL32 quest CHECK
+scoreboard players set @a[x=3539,y=123,z=4497,dx=-29,dy=4,dz=50,gamemode=adventure] tp_spell32_timer 20

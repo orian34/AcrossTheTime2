@@ -48,3 +48,6 @@ execute if score Illusions SILBERLAND matches -2 as @a[x=-4233,y=17,z=-5622,dx=0
 
 # Reinitialize boss when the player killed it and got out (except after the first time)
 execute if score Illusions SILBERLAND matches -2 unless entity @a[x=-4217,y=9,z=-5652,dx=-70,dy=33,dz=64,gamemode=adventure] unless score SQ33 SIDEQUEST matches 1..99 run function att2:gameplay/boss/silberland/illusions/initialize
+
+##SPELL32 quest CHECK
+scoreboard players set @a[x=-4217,y=9,z=-5652,dx=-70,dy=33,dz=64,gamemode=adventure] tp_spell32_timer 20

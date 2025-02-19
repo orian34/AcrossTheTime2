@@ -23,3 +23,6 @@ execute if score arena SASTR matches 0.. if entity @a[x=-4941,y=45,z=-4384,dx=32
 # Player failed escaping with Sastr or drop it
 execute if score arena SASTR matches 0.. if entity @e[type=minecraft:item,x=-4912,y=10,z=-4433,dx=-130,dy=44,dz=104,nbt={Item:{id:"minecraft:diamond_pickaxe",tag:{EquipmentID:"sastr"}},OnGround:1b}] run function att2:gameplay/boss/owsastr/sastr/fail
 execute if score arena SASTR matches 0.. if block -4990 21 -4381 minecraft:chest{Items:[{id:"minecraft:diamond_pickaxe",tag:{EquipmentID:"sastr"}}]} run function att2:gameplay/boss/owsastr/sastr/fail
+
+##SPELL32 quest CHECK
+scoreboard players set @a[x=-4912,y=10,z=-4433,dx=-130,dy=44,dz=104] tp_spell32_timer 20

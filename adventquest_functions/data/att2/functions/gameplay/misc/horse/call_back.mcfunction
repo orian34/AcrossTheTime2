@@ -12,8 +12,7 @@ execute if score @s NUMEROJOUEUR matches 3 if score @s HORSE_SET matches 1 run s
 execute if score @s NUMEROJOUEUR matches 4 if score @s HORSE_SET matches 1 run scoreboard players set @s HORSE_SET 10
 execute if score @s NUMEROJOUEUR matches 5 if score @s HORSE_SET matches 1 run scoreboard players set @s HORSE_SET 10
 ##特殊位置进行限制Implement restrictions at specific locations.
-execute if score tp_spell32 TIMER matches 1.. run function att2:gameplay/misc/horse/check_call_back
-execute if score in_fight BOSS matches 1 run function att2:gameplay/misc/horse/check_call_back
+execute if score @s tp_spell32_timer matches 1.. run function att2:gameplay/misc/horse/check_call_back
 ##解除马的静止状态Release the horse from its stationary state.
 execute if score @s NUMEROJOUEUR matches 1 if score @s HORSE_SET matches 10 as @e[type=minecraft:horse,tag=PlayerAlly,tag=player_horse_1] run function att2:gameplay/misc/horse/free
 execute if score @s NUMEROJOUEUR matches 2 if score @s HORSE_SET matches 10 as @e[type=minecraft:horse,tag=PlayerAlly,tag=player_horse_2] run function att2:gameplay/misc/horse/free

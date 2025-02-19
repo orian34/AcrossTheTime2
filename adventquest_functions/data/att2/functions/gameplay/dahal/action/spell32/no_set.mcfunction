@@ -4,7 +4,6 @@
 #################################################################
 
 
-execute at @s run function att2:sound/dahal/loading_failure
-tellraw @s[scores={LANGUAGE=2}] {"text":"未创建对应传送点","color":"dark_red"}
+function att2:dialogs/gameplay/dahal/spell32_no_set
 scoreboard players set @s TP_CHECK 0
 scoreboard players set @s ESC_CHECK 0

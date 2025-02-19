@@ -4,7 +4,7 @@
 #############################################################
 
 ##音效
-playsound minecraft:blast1 player @a ~ ~ ~ 1 1
+playsound minecraft:blast1 player @s ~ ~ ~ 1 1
 playsound minecraft:strange9 ambient @s ~ ~ ~ 1 1
 ##检测是否已经放置过传送点 Check if a teleport point has already been placed
 execute as @s[scores={NUMEROJOUEUR=1}] run scoreboard players set @s tp_point_set_b 1

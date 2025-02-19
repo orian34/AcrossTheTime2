@@ -35,3 +35,6 @@ execute if score Etotsira EARNDHEL matches 0.. unless entity @a[x=30025,y=14,z=2
 
 # Player will automaticaly quit the arena as Etotsira fight ends
 execute if score Etotsira EARNDHEL matches -2 run tp @a[x=30025,y=14,z=29931,dx=30,dy=5,dz=30,gamemode=adventure] 30000 73 29969
+
+##SPELL32 quest CHECK
+scoreboard players set @a[x=30025,y=14,z=29931,dx=30,dy=5,dz=30,gamemode=adventure] tp_spell32_timer 20

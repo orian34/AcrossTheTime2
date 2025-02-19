@@ -52,3 +52,6 @@ execute if score Shadow SQ38 matches -2 as @a[x=-4363,y=54,z=-5055,dx=0,dy=2,dz=
 
 # Reinitialize boss when the player killed it and got out (except after the first time)
 execute if score Shadow SQ38 matches -2 unless entity @a[x=-4362,y=42,z=-5041,dx=-26,dy=24,dz=-56,gamemode=adventure] unless score SQ38 SIDEQUEST matches 1..99 run function att2:gameplay/boss/schestrown/shadow/initialize
+
+##SPELL32 quest CHECK
+scoreboard players set @a[x=-4362,y=42,z=-5041,dx=-26,dy=24,dz=-56,gamemode=adventure] tp_spell32_timer 20

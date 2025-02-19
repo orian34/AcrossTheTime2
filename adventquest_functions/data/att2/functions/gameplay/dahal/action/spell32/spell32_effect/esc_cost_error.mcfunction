@@ -17,10 +17,9 @@ execute as @s[scores={NUMEROJOUEUR=2,ESC_COST=0}] run scoreboard players set @e[
 execute as @s[scores={NUMEROJOUEUR=3,ESC_COST=0}] run scoreboard players set @e[tag=SpaceTeleportSpellParticle,tag=player3] SPELL32_TP_EFFCT 0
 execute as @s[scores={NUMEROJOUEUR=4,ESC_COST=0}] run scoreboard players set @e[tag=SpaceTeleportSpellParticle,tag=player4] SPELL32_TP_EFFCT 0
 execute as @s[scores={NUMEROJOUEUR=5,ESC_COST=0}] run scoreboard players set @e[tag=SpaceTeleportSpellParticle,tag=player5] SPELL32_TP_EFFCT 0
-execute as @s[scores={ESC_COST=0}] run tellraw @s[scores={LANGUAGE=2}] {"text":"我身上的混沌鳞片不足以施展空间法术","color":"dark_red"}
+execute as @s[scores={ESC_COST=0}] run function att2:dialogs/gameplay/dahal/spell32_esc_not_enough
 ##对于超出施法范围的玩家，将其自己的施法过程消耗计分值设置为0，不再进行消耗
 scoreboard players set @s[scores={ESC_COST=0}] SPELL32_PROCESS_EFFCT 0
-scoreboard players set @s[scores={ESC_COST=0}] SPELL32_PROCESS_EFFCT_CHECK 0
 
 
 

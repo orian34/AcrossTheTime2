@@ -62,3 +62,7 @@ execute if score Elevator BILLGART matches -2 in minecraft:the_end as @a[x=-1242
 
 # Reinitialize boss when the player go out and take the Gem of Time
 execute if score Elevator BILLGART matches -2 in minecraft:the_end unless entity @a[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,gamemode=adventure,tag=!Dead] unless score Mainquest SIDEQUEST matches 171..172 run function att2:gameplay/boss/billgart/elevator/initialize
+
+
+##SPELL32 quest CHECK
+scoreboard players set @a[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,gamemode=adventure] tp_spell32_timer 20
