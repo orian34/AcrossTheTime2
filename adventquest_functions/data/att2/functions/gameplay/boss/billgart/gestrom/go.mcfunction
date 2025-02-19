@@ -41,3 +41,6 @@ execute if score Gestrom BILLGART matches -2 in minecraft:the_end as @a[x=-1135,
 
 # Reinitialize boss when the player kill it and got out
 execute if score Gestrom BILLGART matches -2 in minecraft:the_end unless entity @a[x=-1130,y=199,z=-690,dx=-9,dy=10,dz=22,gamemode=adventure,tag=!Dead] unless score Mainquest SIDEQUEST matches 169 run function att2:gameplay/boss/billgart/gestrom/initialize
+
+##SPELL32 quest CHECK
+scoreboard players set @a[x=-1130,y=199,z=-690,dx=-9,dy=10,dz=22,gamemode=adventure] tp_spell32_timer 20

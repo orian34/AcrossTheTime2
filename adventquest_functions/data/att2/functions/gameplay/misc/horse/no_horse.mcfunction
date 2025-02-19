@@ -3,4 +3,6 @@
 #Process to tie horses											#
 #################################################################
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"异次元空间内没有马匹","color":"red"}
+title @s[scores={LANGUAGE=0..1}] actionbar {"text":"No horse in other place","color":"red"}
+title @s[scores={LANGUAGE=3..}] actionbar {"text":"No horse in other place","color":"red"}
+title @s[scores={LANGUAGE=2}] actionbar {"text":"异次元空间内没有马匹","color":"red"}

@@ -10,7 +10,9 @@ scoreboard objectives add SPELL20_CAP dummy
 ##chest_minecart data
 scoreboard objectives add SPELL20_CHEST_DATA dummy
 scoreboard objectives add recycle_set dummy
+scoreboard objectives add other_minecart dummy
 
+scoreboard players set @s other_minecart 0
 scoreboard players set @s SPELL20_CHEST_DATA 0
 scoreboard players set @s recycle_set 0
 

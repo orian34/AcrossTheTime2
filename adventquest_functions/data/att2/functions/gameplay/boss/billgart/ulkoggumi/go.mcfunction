@@ -41,3 +41,6 @@ execute if score Ulkoggumi BILLGART matches -2 in minecraft:the_end as @a[x=-113
 
 # Reinitialize boss when the player kill it and got out
 execute if score Ulkoggumi BILLGART matches -2 in minecraft:the_end unless entity @a[x=-1137,y=106,z=-542,dx=24,dy=7,dz=-36,gamemode=adventure,tag=!Dead] unless score Mainquest SIDEQUEST matches 161..162 run function att2:gameplay/boss/billgart/ulkoggumi/initialize
+
+##SPELL32 quest CHECK
+scoreboard players set @a[x=-1137,y=106,z=-542,dx=24,dy=7,dz=-36,gamemode=adventure] tp_spell32_timer 20

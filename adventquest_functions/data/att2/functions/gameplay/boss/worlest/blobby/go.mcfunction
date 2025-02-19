@@ -41,3 +41,6 @@ execute if score Blobby SQ54 matches -2 as @a[x=-5358,y=39,z=-4923,dx=4,dy=5,dz=
 
 # Reinitialize boss when the player killed it and got out (except after the first time)
 execute if score Blobby SQ54 matches -2 unless entity @a[x=-5392,y=23,z=-4999,dx=77,dy=100,dz=77,gamemode=adventure] unless score SQ54 SIDEQUEST matches 1..99 run function att2:gameplay/boss/worlest/blobby/initialize
+
+##SPELL32 quest CHECK
+scoreboard players set @a[x=-5392,y=23,z=-4999,dx=77,dy=100,dz=77,gamemode=adventure] tp_spell32_timer 20

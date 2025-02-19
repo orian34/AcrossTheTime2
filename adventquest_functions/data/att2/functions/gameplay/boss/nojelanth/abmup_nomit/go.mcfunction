@@ -43,3 +43,6 @@ execute if score Abmup_Nomit SQ58 matches -2 as @a[x=-7616,y=23,z=-4174,dx=-2,dy
 
 # Reinitialize boss when the player killed it and got out (except after the first time)
 execute if score Abmup_Nomit SQ58 matches -2 unless entity @a[x=-7637,y=28,z=-4173,dx=34,dy=-15,dz=-49,gamemode=adventure] unless score SQ58 SIDEQUEST matches 1..99 run function att2:gameplay/boss/nojelanth/abmup_nomit/initialize
+
+##SPELL32 quest CHECK
+scoreboard players set @a[x=-7637,y=28,z=-4173,dx=34,dy=-15,dz=-49,gamemode=adventure] tp_spell32_timer 20

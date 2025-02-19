@@ -38,3 +38,6 @@ execute if score Myrath SQ26 matches -2 as @a[x=-3893,y=85,z=-5615,dx=2,dy=3,dz=
 
 # Reinitialize boss when the player killed it and got out (except after the first time)
 execute if score Myrath SQ26 matches -2 unless entity @a[x=-3881,y=83,z=-5592,dx=-22,dy=11,dz=-24,gamemode=adventure] unless score SQ26 SIDEQUEST matches 1..99 run function att2:gameplay/boss/adanoi/myrath/initialize
+
+##SPELL32 quest CHECK
+scoreboard players set @a[x=-3881,y=83,z=-5592,dx=-22,dy=11,dz=-24,gamemode=adventure] tp_spell32_timer 20

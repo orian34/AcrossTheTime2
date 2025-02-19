@@ -43,3 +43,6 @@ execute if score Naër OURANOS matches -2 as @a[x=7711,y=182,z=5982,dx=-8,dy=3,d
 
 # Reinitialize boss when the player kill it and got out
 execute if score Naër OURANOS matches -2 unless entity @a[x=7699,y=182,z=6091,dx=16,dy=9,dz=-110,gamemode=adventure,tag=!Dead] unless score Mainquest SIDEQUEST matches 200..201 run function att2:gameplay/boss/ouranos/naer/initialize
+
+##SPELL32 quest CHECK
+scoreboard players set @a[x=7699,y=182,z=6091,dx=16,dy=9,dz=-110,gamemode=adventure] tp_spell32_timer 20

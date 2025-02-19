@@ -46,3 +46,6 @@ execute if score Hive SQ58 matches -2 as @a[x=-7546,y=69,z=-4163,dx=-2,dy=2,dz=0
 
 # Reinitialize boss when the player killed it and got out (except after the first time)
 execute if score Hive SQ58 matches -2 unless entity @a[x=-7536,y=78,z=-4163,dx=-21,dy=-11,dz=-24,gamemode=adventure] unless score SQ58 SIDEQUEST matches 1..99 run function att2:gameplay/boss/nojelanth/hive/initialize
+
+##SPELL32 quest CHECK
+scoreboard players set @a[x=-7536,y=78,z=-4163,dx=-21,dy=-11,dz=-24,gamemode=adventure] tp_spell32_timer 20
