@@ -3,6 +3,7 @@
 #Arrow Swarm lvl1												#
 #################################################################
 
+kill @e[type=arrow,tag=swarm]
 execute at @s run function att2:gameplay/dahal/action/spell8/effect/1
 
 scoreboard players remove @s DAHAL 40
