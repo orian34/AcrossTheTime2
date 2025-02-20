@@ -2,6 +2,8 @@
 #Made by Adventquest											#
 #Process invoke mule5 player3 							        #
 #################################################################
+##spell_launch_count
+function att2:gameplay/dahal/action/spell20/spell_launch_count
 ##summon chest_minecart
 summon minecraft:chest_minecart ~ ~ ~ {CustomDisplayTile:1b,CustomNameVisible:1b,NoGravity:1b,CustomName:"\"Stock 3-7\"",UUID:[I;0,831,0,127],Tags:["invminecarts.invisible_minecart","spell20_chest","NewInvo","KeepOriginalData","chest7","own_player3"],Silent:1,Invulnerable:1,HasVisualFire:0}
 ##change chinese language

@@ -4,6 +4,8 @@
 #################################################################
 
 
+##spell_launch_count
+function att2:gameplay/dahal/action/spell20/spell_launch_count
 ##summon chest_minecart
 summon minecraft:chest_minecart ~ ~ ~ {CustomDisplayTile:1b,CustomNameVisible:1b,NoGravity:1b,CustomName:"\"Stock 5-5\"",UUID:[I;0,863,0,95],Tags:["invminecarts.invisible_minecart","spell20_chest","NewInvo","KeepOriginalData","chest5","own_player5"],Silent:1,Invulnerable:1,HasVisualFire:0}
 ##change chinese language
