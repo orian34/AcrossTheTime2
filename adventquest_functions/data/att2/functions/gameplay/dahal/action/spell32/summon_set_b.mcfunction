@@ -30,12 +30,6 @@ execute if entity @s[scores={LANGUAGE=2,NUMEROJOUEUR=2}] run data merge entity @
 execute if entity @s[scores={LANGUAGE=2,NUMEROJOUEUR=3}] run data merge entity @e[tag=SpaceTeleportSpellSETB,tag=player3,limit=1,sort=nearest] {CustomName:"\"β传送点->3\""}
 execute if entity @s[scores={LANGUAGE=2,NUMEROJOUEUR=4}] run data merge entity @e[tag=SpaceTeleportSpellSETB,tag=player4,limit=1,sort=nearest] {CustomName:"\"β传送点->4\""}
 execute if entity @s[scores={LANGUAGE=2,NUMEROJOUEUR=5}] run data merge entity @e[tag=SpaceTeleportSpellSETB,tag=player5,limit=1,sort=nearest] {CustomName:"\"β传送点->5\""}
-##将对应盔甲架赋予effct值来进行下一步的特效处理 Assign the corresponding armor stand with an effect value for further special effect processing.
-execute as @s[scores={NUMEROJOUEUR=1}] run scoreboard players set @e[tag=SpaceTeleportSpellSET,tag=player1] SPELL32_SET_EFFCT 60
-execute as @s[scores={NUMEROJOUEUR=2}] run scoreboard players set @e[tag=SpaceTeleportSpellSET,tag=player2] SPELL32_SET_EFFCT 60
-execute as @s[scores={NUMEROJOUEUR=3}] run scoreboard players set @e[tag=SpaceTeleportSpellSET,tag=player3] SPELL32_SET_EFFCT 60
-execute as @s[scores={NUMEROJOUEUR=4}] run scoreboard players set @e[tag=SpaceTeleportSpellSET,tag=player4] SPELL32_SET_EFFCT 60
-execute as @s[scores={NUMEROJOUEUR=5}] run scoreboard players set @e[tag=SpaceTeleportSpellSET,tag=player5] SPELL32_SET_EFFCT 60
 ##玩家自身计算盔甲架编号以便于后续计算 The player calculates the armor stand number for subsequent calculations
 execute as @s[scores={NUMEROJOUEUR=1}] run scoreboard players add @s SPELL32_ARMORSTAND_DATA_B 1
 execute as @s[scores={NUMEROJOUEUR=2}] run scoreboard players add @s SPELL32_ARMORSTAND_DATA_B 1
