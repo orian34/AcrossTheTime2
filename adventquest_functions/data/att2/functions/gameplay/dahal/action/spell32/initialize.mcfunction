@@ -40,10 +40,10 @@ scoreboard players set @s COOLDOWN32 0
 scoreboard players set @s SPELL32_LVL 0
 scoreboard players set @s SPELL32_CAP 1
 scoreboard players set cap1 SPELL32_LVL 0
-scoreboard players set cap2 SPELL32_LVL 100
-scoreboard players set cap3 SPELL32_LVL 200
-scoreboard players set cap4 SPELL32_LVL 400
-scoreboard players set cap5 SPELL32_LVL 800
+scoreboard players set cap2 SPELL32_LVL 200
+scoreboard players set cap3 SPELL32_LVL 400
+scoreboard players set cap4 SPELL32_LVL 800
+scoreboard players set cap5 SPELL32_LVL 1600
 
 team add tp_waypoint_color_player1
 team add tp_waypoint_color_player2

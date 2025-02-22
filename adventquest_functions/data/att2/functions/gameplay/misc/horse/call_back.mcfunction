@@ -26,10 +26,10 @@ execute if score @s NUMEROJOUEUR matches 3 if score @s HORSE_SET matches 10 as @
 execute if score @s NUMEROJOUEUR matches 4 if score @s HORSE_SET matches 10 as @e[type=minecraft:horse,tag=player_horse_4] at @s run tp @a[scores={NUMEROJOUEUR=4},limit=1]
 execute if score @s NUMEROJOUEUR matches 5 if score @s HORSE_SET matches 10 as @e[type=minecraft:horse,tag=player_horse_5] at @s run tp @a[scores={NUMEROJOUEUR=5},limit=1]
 ##给特效
-execute if score @s NUMEROJOUEUR matches 1 if score @s HORSE_SET matches 10 as @e[type=minecraft:horse,distance=..4,tag=PlayerAlly,tag=player_horse_1] at @s run function att2:gameplay/invocation/action/summon
-execute if score @s NUMEROJOUEUR matches 2 if score @s HORSE_SET matches 10 as @e[type=minecraft:horse,distance=..4,tag=PlayerAlly,tag=player_horse_2] at @s run function att2:gameplay/invocation/action/summon
-execute if score @s NUMEROJOUEUR matches 3 if score @s HORSE_SET matches 10 as @e[type=minecraft:horse,distance=..4,tag=PlayerAlly,tag=player_horse_3] at @s run function att2:gameplay/invocation/action/summon
-execute if score @s NUMEROJOUEUR matches 4 if score @s HORSE_SET matches 10 as @e[type=minecraft:horse,distance=..4,tag=PlayerAlly,tag=player_horse_4] at @s run function att2:gameplay/invocation/action/summon
-execute if score @s NUMEROJOUEUR matches 5 if score @s HORSE_SET matches 10 as @e[type=minecraft:horse,distance=..4,tag=PlayerAlly,tag=player_horse_5] at @s run function att2:gameplay/invocation/action/summon
+execute if score @s NUMEROJOUEUR matches 1 if score @s HORSE_SET matches 10 as @e[type=minecraft:horse,distance=..4,tag=PlayerAlly,tag=player_horse_1] at @s run function att2:gameplay/misc/horse/summon_call_back
+execute if score @s NUMEROJOUEUR matches 2 if score @s HORSE_SET matches 10 as @e[type=minecraft:horse,distance=..4,tag=PlayerAlly,tag=player_horse_2] at @s run function att2:gameplay/misc/horse/summon_call_back
+execute if score @s NUMEROJOUEUR matches 3 if score @s HORSE_SET matches 10 as @e[type=minecraft:horse,distance=..4,tag=PlayerAlly,tag=player_horse_3] at @s run function att2:gameplay/misc/horse/summon_call_back
+execute if score @s NUMEROJOUEUR matches 4 if score @s HORSE_SET matches 10 as @e[type=minecraft:horse,distance=..4,tag=PlayerAlly,tag=player_horse_4] at @s run function att2:gameplay/misc/horse/summon_call_back
+execute if score @s NUMEROJOUEUR matches 5 if score @s HORSE_SET matches 10 as @e[type=minecraft:horse,distance=..4,tag=PlayerAlly,tag=player_horse_5] at @s run function att2:gameplay/misc/horse/summon_call_back
 ##归零
 scoreboard players set @s[scores={HORSE_SET=10}] HORSE_SET 0
