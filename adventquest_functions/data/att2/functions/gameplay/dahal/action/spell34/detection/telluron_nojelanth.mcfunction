@@ -59,13 +59,12 @@ execute if score Kortaek0 CHECKPOINT matches 0 positioned -5534 89 -4723 run fun
 execute if score Kortaek1 CHECKPOINT matches 0 positioned -5384 63 -4666 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
 execute if score Nojelanth_present0 CHECKPOINT matches 0 positioned -5552 22 -3964 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
 execute if score Nojelanth_present1 CHECKPOINT matches 0 positioned -5434 39 -4081 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
-execute if score Nojelanth_present2 CHECKPOINT matches 0 positioned -5492 20 -4035 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
 execute if score Nojelanth_present3 CHECKPOINT matches 0 positioned -5514 41 -4129 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
 execute if score Nojelanth_present4 CHECKPOINT matches 0 positioned -5864 100 -4532 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
 execute if score Nojelanth_present5 CHECKPOINT matches 0 positioned -5913 118 -4403 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
 execute if score Nojelanth_present6 CHECKPOINT matches 0 positioned -6019 119 -4315 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
 execute if score Nojelanth_present7 CHECKPOINT matches 0 positioned -6025 110 -4288 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
-execute if score Nojelanth_present8 CHECKPOINT matches 0 positioned -6032 125 -4285 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
+execute if score Nojelanth_present8 CHECKPOINT matches 0 positioned -6032 125 -4280 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
 execute if score Nojelanth_present9 CHECKPOINT matches 0 positioned -6016 136 -4290 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
 execute if score Nojelanth_present10 CHECKPOINT matches 0 positioned -6020 157 -4292 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker
 execute if score Nojelanth_present11 CHECKPOINT matches 0 positioned -6042 143 -4313 run function att2:gameplay/dahal/action/spell34/create_checkpoint_marker

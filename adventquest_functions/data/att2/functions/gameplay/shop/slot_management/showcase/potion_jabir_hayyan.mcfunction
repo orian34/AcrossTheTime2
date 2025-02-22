@@ -30,7 +30,7 @@ execute if score @s SHOP_OP1 matches 726..760 at @e[name="JABIR HAYYAN"] as @a[d
 execute if score @s SHOP_OP1 matches 761..795 at @e[name="JABIR HAYYAN"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/rar/lingering_potion_42
 execute if score @s SHOP_OP1 matches 796..830 at @e[name="JABIR HAYYAN"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/rar/lingering_potion_43
 execute if score @s SHOP_OP1 matches 831..865 at @e[name="JABIR HAYYAN"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/rar/lingering_potion_61
-execute if score @s SHOP_OP1 matches 866..876 at @e[name="JABIR HAYYAN"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/epi/potion_22
+execute if score @s SHOP_OP1 matches 866..876 at @e[name="JABIR HAYYAN"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/rar/potion_22
 execute if score @s SHOP_OP1 matches 877..887 at @e[name="JABIR HAYYAN"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/epi/potion_23
 execute if score @s SHOP_OP1 matches 888..898 at @e[name="JABIR HAYYAN"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/epi/potion_24
 execute if score @s SHOP_OP1 matches 899..909 at @e[name="JABIR HAYYAN"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/epi/potion_25
