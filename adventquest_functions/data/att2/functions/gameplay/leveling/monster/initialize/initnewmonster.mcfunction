@@ -41,14 +41,15 @@ execute as @s[scores={CLASSLEVEL=22..}] run scoreboard players set @s CLASSLEVEL
 function att2:gameplay/leveling/monster/monsterupdate
 execute as @s[tag=SUPER] run data merge entity @s {CustomNameVisible:true}
 execute if score level DIFFICULTY matches -1 as @s[scores={CLASSLEVEL=1..21}] run function att2:gameplay/leveling/monster/initialize/df_effect_1
+execute if score level DIFFICULTY matches -1 as @s[tag=SUPER] run function att2:gameplay/leveling/monster/initialize/superelite_1
 execute if score level DIFFICULTY matches -1 as @s[tag=MEGA] run function att2:gameplay/leveling/monster/initialize/megaelite_1
-execute if score level DIFFICULTY matches 0 as @s[scores={CLASSLEVEL=1..21}] run function att2:gameplay/leveling/monster/initialize/df_effect_2
+execute if score level DIFFICULTY matches 0 as @s[scores={CLASSLEVEL=1..21}] run function att2:gameplay/leveling/monster/initialize/df_effect0
 execute if score level DIFFICULTY matches 0 as @s[tag=SUPER] run function att2:gameplay/leveling/monster/initialize/superelite0
 execute if score level DIFFICULTY matches 0 as @s[tag=MEGA] run function att2:gameplay/leveling/monster/initialize/megaelite0
-execute if score level DIFFICULTY matches 1 as @s[scores={CLASSLEVEL=1..21}] run function att2:gameplay/leveling/monster/initialize/df_effect_3
+execute if score level DIFFICULTY matches 1 as @s[scores={CLASSLEVEL=1..21}] run function att2:gameplay/leveling/monster/initialize/df_effect1
 execute if score level DIFFICULTY matches 1 as @s[tag=SUPER] run function att2:gameplay/leveling/monster/initialize/superelite1
 execute if score level DIFFICULTY matches 1 as @s[tag=MEGA] run function att2:gameplay/leveling/monster/initialize/megaelite1
-execute if score level DIFFICULTY matches 2 as @s[scores={CLASSLEVEL=1..21}] run function att2:gameplay/leveling/monster/initialize/df_effect_4
+execute if score level DIFFICULTY matches 2 as @s[scores={CLASSLEVEL=1..21}] run function att2:gameplay/leveling/monster/initialize/df_effect2
 execute if score level DIFFICULTY matches 2 as @s[tag=SUPER] run function att2:gameplay/leveling/monster/initialize/superelite2
 execute if score level DIFFICULTY matches 2 as @s[tag=MEGA] run function att2:gameplay/leveling/monster/initialize/megaelite2
 

@@ -14,4 +14,4 @@ scoreboard players operation @e[tag=spell20_chest,tag=chest4,tag=own_player4]
 ##copy_chest_to_chest_minecart
 execute in minecraft:overworld run function att2:gameplay/dahal/action/spell20/copy_chest_to_chest_minecart/player4_stock4
 ##particle
-execute as @e[type=minecraft:chest_minecart,tag=chest4,tag=own_player4,nbt={UUID:[I;0,847,0,79]}dahal/action/spell20/invoke
+execute as @e[type=minecraft:chest_minecart,tag=chest4,tag=own_player4,nbt={UUID:[I;0,847,0,79]}] at @s run function att2:gameplay/dahal/action/spell20/invoke
