@@ -10,8 +10,8 @@ summon minecraft:chest_minecart ~ ~ ~ {CustomDisplayTile:1b,CustomNameVisible:1b
 ##change chinese language
 execute if entity @s[scores={LANGUAGE=2}] run data merge entity @e[tag=chest7,tag=own_player2,limit=1,sort=nearest] {CustomName:"\"次元口袋 2-7\""}
 ##follow owner
-scoreboard players operation @e[tag=spell20_chest,tag=chest7,tag=own_player2
+scoreboard players operation @e[tag=spell20_chest,tag=chest7,tag=own_player2] FOLLOW_PLAYER = @s NUMEROJOUEUR
 ##copy_chest_to_chest_minecart
 execute in minecraft:overworld run function att2:gameplay/dahal/action/spell20/copy_chest_to_chest_minecart/player2_stock7
 ##particle
-execute as @e[type=minecraft:chest_minecart,tag=chest7,tag=own_player2,nbt={UUID:[I;0,815,0,127]}dahal/action/spell20/invoke
+execute as @e[type=minecraft:chest_minecart,tag=chest7,tag=own_player2,nbt={UUID:[I;0,815,0,127]}] at @s run function att2:gameplay/dahal/action/spell20/invoke
