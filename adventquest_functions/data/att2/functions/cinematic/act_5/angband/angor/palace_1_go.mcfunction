@@ -88,9 +88,10 @@ execute if score Neth0 TIMER matches 2900 run function att2:dialogs/title/credit
 execute if score Neth0 TIMER matches 2900 run function att2:dialogs/title/credits/version_subtitle0
 execute if score Neth0 TIMER matches 3000 run function att2:dialogs/title/credits/version_subtitle1
 
-execute if score Neth0 TIMER matches 3100 run title @a times 20 50 50
-execute if score Neth0 TIMER matches 3100 run function att2:dialogs/title/credits/thanks_title0
-execute if score Neth0 TIMER matches 3100 run function att2:dialogs/title/credits/thanks_subtitle0
+execute if score Neth0 TIMER matches 3100 run title @a times 20 100 50
+execute if score Neth0 TIMER matches 3100 run function att2:dialogs/title/credits/thanks_special_title0
+execute if score Neth0 TIMER matches 3100 run function att2:dialogs/title/credits/thanks_special_subtitle0
+execute if score Neth0 TIMER matches 3200 run function att2:dialogs/title/credits/thanks_special_subtitle1
 
 execute if score Neth0 TIMER matches 3300 run title @a times 20 500 50
 execute if score Neth0 TIMER matches 3300 run function att2:dialogs/title/credits/testers_title0
