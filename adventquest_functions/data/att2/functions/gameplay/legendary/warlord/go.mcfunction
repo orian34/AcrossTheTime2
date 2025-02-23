@@ -11,8 +11,8 @@ execute as @a[scores={HOLDING_WL=1..,SHOOTING_WL=1..,DAHAL=25..}] at @s run func
 #In case the player doesn't have enough Dahäl, we reset the score SHOOTING_WL to 0
 scoreboard players set @a[scores={SHOOTING_WL=1..}] SHOOTING_WL 0
 
-execute at @e[scores={SHOOTING_WL=2..}] run execute as @e[scores={GAMELEVEL=0..},team=hostile,distance=..3] at @s run function att2:gameplay/legendary/warlord/applyeffect
-execute as @e[scores={SHOOTING_WL=2..},nbt={inGround:1b}] run function att2:gameplay/legendary/warlord/applyeffect
-execute at @e[scores={SHOOTING_WL=2..},nbt={inGround:1b}] as @e[scores={GAMELEVEL=0..},team=hostile,distance=..10] run function att2:gameplay/legendary/warlord/applyeffect
+execute at @e[scores={SHOOTING_WL=2..}] as @e[scores={GAMELEVEL=0..},team=hostile,distance=..3,limit=1,sort=nearest] run function att2:gameplay/legendary/warlord/light_effect
+#execute as @e[scores={SHOOTING_WL=2..},nbt={inGround:1b}] run function att2:gameplay/legendary/warlord/applyeffect
+execute at @e[scores={SHOOTING_WL=2..},nbt={inGround:1b}] as @e[scores={GAMELEVEL=0..},team=hostile,distance=..3,limit=1,sort=nearest] run function att2:gameplay/legendary/warlord/light_effect
 
 kill @e[scores={SHOOTING_WL=2..},nbt={inGround:1b}]

@@ -12,11 +12,17 @@ scoreboard players remove @s DAHAL 50
 # execute as @e[distance=..4,scores={GAMELEVEL=0..},team=hostile,tag=!Undead] run effect give @s minecraft:instant_damage 1 5
 # execute as @e[distance=..4,scores={GAMELEVEL=0..},team=hostile,tag=Undead] run effect give @s minecraft:instant_health 1 5
 
-execute if score @s NUMEROJOUEUR matches 1 as @e[distance=..4,scores={GAMELEVEL=0..},team=hostile] run damage @s 75 minecraft:player_attack by @p[scores={NUMEROJOUEUR=1}]
-execute if score @s NUMEROJOUEUR matches 2 as @e[distance=..4,scores={GAMELEVEL=0..},team=hostile] run damage @s 75 minecraft:player_attack by @p[scores={NUMEROJOUEUR=2}]
-execute if score @s NUMEROJOUEUR matches 3 as @e[distance=..4,scores={GAMELEVEL=0..},team=hostile] run damage @s 75 minecraft:player_attack by @p[scores={NUMEROJOUEUR=3}]
-execute if score @s NUMEROJOUEUR matches 4 as @e[distance=..4,scores={GAMELEVEL=0..},team=hostile] run damage @s 75 minecraft:player_attack by @p[scores={NUMEROJOUEUR=4}]
-execute if score @s NUMEROJOUEUR matches 5 as @e[distance=..4,scores={GAMELEVEL=0..},team=hostile] run damage @s 75 minecraft:player_attack by @p[scores={NUMEROJOUEUR=5}]
+#Determine area damage based on the player's strength points: 
+#Equipment - Helmet 4, Chestplate 3, Pants 4, Boots 4, Shield 2, Weapon 0, RY 12, Fallen 18, Potion 4.
+execute as @s[scores={STR_TOT=..14}] run function att2:gameplay/legendary/rukyrion/damage_up/level0
+execute as @s[scores={STR_TOT=15..19}] run function att2:gameplay/legendary/rukyrion/damage_up/level1
+execute as @s[scores={STR_TOT=20..24}] run function att2:gameplay/legendary/rukyrion/damage_up/level2
+execute as @s[scores={STR_TOT=25..29}] run function att2:gameplay/legendary/rukyrion/damage_up/level3
+execute as @s[scores={STR_TOT=30..34}] run function att2:gameplay/legendary/rukyrion/damage_up/level4
+execute as @s[scores={STR_TOT=35..39}] run function att2:gameplay/legendary/rukyrion/damage_up/level5
+execute as @s[scores={STR_TOT=40..44}] run function att2:gameplay/legendary/rukyrion/damage_up/level6
+execute as @s[scores={STR_TOT=45..49}] run function att2:gameplay/legendary/rukyrion/damage_up/level7
+execute as @s[scores={STR_TOT=50..}] run function att2:gameplay/legendary/rukyrion/damage_up/level_ultima
 
 # Visual effect
 execute at @s run particle minecraft:item minecraft:nether_wart_block ~ ~ ~ 0 0 0 1.2 250 normal

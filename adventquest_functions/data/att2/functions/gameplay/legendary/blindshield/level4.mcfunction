@@ -10,8 +10,6 @@ scoreboard players set @s RES_LVL_OH 4
 scoreboard players set @s TIMER_RES_OH 50
 scoreboard players set @s SPD_LVL_OH -4
 scoreboard players set @s TIMER_SPD_OH 50
-scoreboard players set @s SPD_LVL_OH -4
-scoreboard players set @s TIMER_SPD_OH 50
 scoreboard players remove @s DAHAL 75
 
 effect give @s minecraft:blindness 4 1 true
