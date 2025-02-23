@@ -122,6 +122,11 @@ advancement grant @a[scores={SPELL30_CAP=2..}] only att2:dahal/spell30_lvl2
 advancement grant @a[scores={SPELL30_CAP=5..}] only att2:dahal/spell30_lvl5
 advancement grant @a[scores={SPELL30_CAP=10..}] only att2:dahal/spell30_lvl10
 
+# TELEPORTATION
+advancement grant @a[scores={SPELL32_CAP=2..}] only att2:dahal/spell32_lvl2
+advancement grant @a[scores={SPELL32_CAP=3..}] only att2:dahal/spell32_lvl4
+advancement grant @a[scores={SPELL32_CAP=5..}] only att2:dahal/spell32_lvl6
+
 # SECRET SEEKER
 advancement grant @a[scores={SPELL34_CAP=2..}] only att2:dahal/spell34_lvl2
 advancement grant @a[scores={SPELL34_CAP=5..}] only att2:dahal/spell34_lvl5
