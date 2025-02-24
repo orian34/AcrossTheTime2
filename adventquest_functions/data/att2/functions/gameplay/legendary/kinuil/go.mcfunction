@@ -7,4 +7,5 @@ scoreboard players remove @a[scores={HOLDING_KU=1..}] HOLDING_KU 1
 execute if score tic TIMECOUNTER matches 10..15 run scoreboard players set @a[gamemode=adventure,scores={HOLDING_KU=..5},nbt={SelectedItem:{tag:{EquipmentID:"kinuil"}}}] HOLDING_KU 15
 
 execute as @a[scores={HOLDING_KU=1..,DAMAGE=1..,DAHAL=30..}] at @s run function att2:gameplay/legendary/kinuil/effect
+execute as @a[scores={HOLDING_KU=1..,DAMAGE=1..,DAHAL=30..}] at @s run function att2:gameplay/legendary/kinuil/effect_random_damage
 scoreboard players remove @a[scores={HOLDING_KU=1..,DAMAGE=1..,DAHAL=30..}] DAHAL 30
