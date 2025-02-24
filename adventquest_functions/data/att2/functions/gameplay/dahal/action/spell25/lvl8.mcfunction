@@ -3,7 +3,7 @@
 #Wolf lvl8														#
 #################################################################
 
-clear @s minecraft:bone{display:{Name:"{\"text\":\"Os\"}","Lore":["{\"text\":\"§7§oBone\"}"]}}
+execute at @s as @e[scores={BELONG_PLAYER1=0..}] if score @s BELONG_PLAYER1 = @p NUMEROJOUEUR run kill @s
 execute positioned ~1 ~ ~1 run function att2:summon/dahal/wolf0_class6
 execute positioned ~-1 ~ ~1 run function att2:summon/dahal/wolf0_class6
 execute positioned ~1 ~ ~-1 run function att2:summon/dahal/wolf0_class6
