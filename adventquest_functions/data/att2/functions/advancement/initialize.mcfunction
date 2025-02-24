@@ -29,6 +29,7 @@ scoreboard objectives add statSILVERKILLED minecraft.killed:minecraft.silverfish
 scoreboard objectives add statGHASTKILLED minecraft.killed:minecraft.ghast
 scoreboard objectives add statBLAZEKILLED minecraft.killed:minecraft.blaze
 scoreboard objectives add statSPIDERKILLED minecraft.killed:minecraft.cave_spider
+scoreboard objectives add statSPIDERKILLED1 minecraft.killed:minecraft.spider
 scoreboard objectives add statGUARDKILLED minecraft.killed:minecraft.guardian
 scoreboard objectives add statDROWNKILLED minecraft.killed:minecraft.drowned
 scoreboard objectives add statPHANTOKILLED minecraft.killed:minecraft.phantom
