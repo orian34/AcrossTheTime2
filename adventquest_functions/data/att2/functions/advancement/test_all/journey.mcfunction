@@ -66,52 +66,6 @@ execute if score Zirthion SYMBOL matches 30 run advancement grant @a only att2:j
 
 execute if score Exploration SYMBOL matches 1305.. run advancement grant @a only att2:journey/the_traveler
 
-# CHECKPOINT
-execute if score Angor CHECKPOINT matches 19 run advancement grant @a only att2:journey/checkpoint_angor
-execute if score Angor_palace CHECKPOINT matches 18 run advancement grant @a only att2:journey/checkpoint_angor_palace
-execute if score Angband_road CHECKPOINT matches 4 run advancement grant @a only att2:journey/checkpoint_angband_road
-execute if score Adanoi CHECKPOINT matches 4 run advancement grant @a only att2:journey/checkpoint_adanoi
-execute if score Asunark CHECKPOINT matches 12 run advancement grant @a only att2:journey/checkpoint_asunark
-execute if score Beach CHECKPOINT matches 4 run advancement grant @a only att2:journey/checkpoint_beach
-execute if score Black_forest CHECKPOINT matches 3 run advancement grant @a only att2:journey/checkpoint_black_forest
-execute if score Billgart_dungeon CHECKPOINT matches 39 run advancement grant @a only att2:journey/checkpoint_billgart_dungeon
-execute if score Billgart_road CHECKPOINT matches 7 run advancement grant @a only att2:journey/checkpoint_billgart_road
-execute if score Cave CHECKPOINT matches 9 run advancement grant @a only att2:journey/checkpoint_cave
-execute if score Exil_camp CHECKPOINT matches 2 run advancement grant @a only att2:journey/checkpoint_exil_camp
-execute if score Nojelanth_past CHECKPOINT matches 17 run advancement grant @a only att2:journey/checkpoint_nojelanth_past
-execute if score Nojelanth_present CHECKPOINT matches 12 run advancement grant @a only att2:journey/checkpoint_nojelanth_present
-execute if score Earndhel CHECKPOINT matches 3 run advancement grant @a only att2:journey/checkpoint_earndhel
-execute if score Elcheol CHECKPOINT matches 17 run advancement grant @a only att2:journey/checkpoint_elcheol
-execute if score Elvetta CHECKPOINT matches 3 run advancement grant @a only att2:journey/checkpoint_elvetta
-execute if score Eol CHECKPOINT matches 2 run advancement grant @a only att2:journey/checkpoint_eol
-execute if score Eolorion CHECKPOINT matches 5 run advancement grant @a only att2:journey/checkpoint_eolorion
-execute if score Lost_island CHECKPOINT matches 5 run advancement grant @a only att2:journey/checkpoint_lost_island
-execute if score Jarat CHECKPOINT matches 2 run advancement grant @a only att2:journey/checkpoint_jarat
-execute if score Kert CHECKPOINT matches 10 run advancement grant @a only att2:journey/checkpoint_kert
-execute if score Kert_mine CHECKPOINT matches 7 run advancement grant @a only att2:journey/checkpoint_kert_mine
-execute if score Kortaek CHECKPOINT matches 2 run advancement grant @a only att2:journey/checkpoint_kortaek
-execute if score Meleim CHECKPOINT matches 1 run advancement grant @a only att2:journey/checkpoint_meleim
-execute if score Mornith CHECKPOINT matches 8 run advancement grant @a only att2:journey/checkpoint_mornith
-execute if score Ouranos_cloud CHECKPOINT matches 10 run advancement grant @a only att2:journey/checkpoint_ouranos_cloud
-execute if score Ouranos_road CHECKPOINT matches 20 run advancement grant @a only att2:journey/checkpoint_ouranos_road
-execute if score Ouranos_tower CHECKPOINT matches 8 run advancement grant @a only att2:journey/checkpoint_ouranos_tower
-execute if score Owsastr CHECKPOINT matches 13 run advancement grant @a only att2:journey/checkpoint_owsastr
-execute if score Plain CHECKPOINT matches 4 run advancement grant @a only att2:journey/checkpoint_plain
-execute if score Phoenix CHECKPOINT matches 3 run advancement grant @a only att2:journey/checkpoint_phoenix
-execute if score Ryliath CHECKPOINT matches 10 run advancement grant @a only att2:journey/checkpoint_ryliath
-execute if score Sathnok CHECKPOINT matches 6 run advancement grant @a only att2:journey/checkpoint_sathnok
-execute if score Schestrown CHECKPOINT matches 6 run advancement grant @a only att2:journey/checkpoint_schestrown
-execute if score Secret_dungeon CHECKPOINT matches 29 run advancement grant @a only att2:journey/checkpoint_secret_dungeon
-execute if score Soquai CHECKPOINT matches 9 run advancement grant @a only att2:journey/checkpoint_soquai
-execute if score Volcano CHECKPOINT matches 8 run advancement grant @a only att2:journey/checkpoint_volcano
-execute if score Vonaheim CHECKPOINT matches 29 run advancement grant @a only att2:journey/checkpoint_vonaheim
-execute if score Worlest CHECKPOINT matches 15 run advancement grant @a only att2:journey/checkpoint_worlest
-execute if score WorlestMine CHECKPOINT matches 4 run advancement grant @a only att2:journey/checkpoint_worlest_mine
-execute if score Zirthion CHECKPOINT matches 3 run advancement grant @a only att2:journey/checkpoint_zirthion
-
-execute if score All CHECKPOINT matches 392.. run advancement grant @a only att2:journey/the_savior
-
-
 ### PNJ
 # Ryliath
 execute if score adrian_PNJ statDIALOG matches 1 if score sylvandre_PNJ statDIALOG matches 1 if score romuald_PNJ statDIALOG matches 1 if score carmen_ysta_PNJ statDIALOG matches 1 if score yaakov_rav_PNJ statDIALOG matches 1 if score kelmyia_PNJ statDIALOG matches 1 if score oswald_flamel_PNJ statDIALOG matches 1 if score hannibal_kho_PNJ statDIALOG matches 1 if score ethan_solg_PNJ statDIALOG matches 1 if score sirna_kho_PNJ statDIALOG matches 1 if score patrick_corth_PNJ statDIALOG matches 1 if score elziel_salvidam_PNJ statDIALOG matches 1 if score wirth_razgork_PNJ statDIALOG matches 1 if score negan_greyson_PNJ statDIALOG matches 1 if score wulk_PNJ statDIALOG matches 1 if score helena_meli_PNJ statDIALOG matches 1 if score frowin_nepheris_PNJ statDIALOG matches 1 if score salma_neyith_PNJ statDIALOG matches 1 if score sigfrid_barkon_PNJ statDIALOG matches 1 if score rob_harth_PNJ statDIALOG matches 1 if score hurriel_sun_PNJ statDIALOG matches 1 if score berni_dalph_PNJ statDIALOG matches 1 if score troublemakers_PNJ statDIALOG matches 1 if score elisa_meli_PNJ statDIALOG matches 1 if score chiara_PNJ statDIALOG matches 1 if score gaelle_ryliath_PNJ statDIALOG matches 1 if score ithil_PNJ statDIALOG matches 1 if score commandant_trevor_PNJ statDIALOG matches 1 if score joel_roblochon_PNJ statDIALOG matches 1 if score intendant_joffrey_PNJ statDIALOG matches 1 if score estelle_PNJ statDIALOG matches 1 if score maria_PNJ statDIALOG matches 1 if score guardian_PNJ statDIALOG matches 1 run advancement grant @a only att2:journey/pnj_ryliath
