@@ -16,3 +16,5 @@ execute as @a[distance=..7] if score frowin_nepheris_PNJ DIALOG matches 1..1 run
 #Activation entity head movement
 scoreboard players set 00000000-0000-028a-0000-00000000028a TALKING 1
 scoreboard players set 00000000-0000-028a-0000-00000000028a TALKING_TIMER 300
+
+function att2:advancement/test_all/journey/pnj

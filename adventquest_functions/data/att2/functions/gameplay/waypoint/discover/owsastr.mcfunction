@@ -18,3 +18,5 @@ tellraw @a[scores={LANGUAGE=0}] {"text":"°|°._.°|° : ","color":"gray","extra
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1..}] {"text":"°|°._.°|° : ","color":"gray","extra":[{"text":"WAYPOINT of Owsästr discovered!","color":"yellow"}]}
+
+function att2:advancement/test_all/journey/waypoints
