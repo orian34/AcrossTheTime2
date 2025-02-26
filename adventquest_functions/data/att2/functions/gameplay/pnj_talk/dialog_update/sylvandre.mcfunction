@@ -13,3 +13,5 @@ execute as @a[distance=..7] if score sylvandre_PNJ DIALOG matches 2..2 run funct
 #Activation entity head movement
 scoreboard players set 00000000-0000-003a-0000-00000000003a TALKING 1
 scoreboard players set 00000000-0000-003a-0000-00000000003a TALKING_TIMER 300
+
+function att2:advancement/test_all/journey/pnj

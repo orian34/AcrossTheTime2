@@ -13,3 +13,5 @@ execute as @a[distance=..7] if score sorvo_miron_PNJ DIALOG matches 1..1 run fun
 #Activation entity head movement
 scoreboard players set 00000000-0000-044a-0000-00000000044a TALKING 1
 scoreboard players set 00000000-0000-044a-0000-00000000044a TALKING_TIMER 300
+
+function att2:advancement/test_all/journey/pnj

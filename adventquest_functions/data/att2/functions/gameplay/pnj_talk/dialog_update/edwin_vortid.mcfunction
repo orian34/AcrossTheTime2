@@ -13,3 +13,5 @@ execute as @a[distance=..7] if score edwin_vortid_PNJ DIALOG matches 1 run funct
 #Activation entity head movement
 scoreboard players set 00000000-0000-040a-0000-00000000040a TALKING 1
 scoreboard players set 00000000-0000-040a-0000-00000000040a TALKING_TIMER 300
+
+function att2:advancement/test_all/journey/pnj

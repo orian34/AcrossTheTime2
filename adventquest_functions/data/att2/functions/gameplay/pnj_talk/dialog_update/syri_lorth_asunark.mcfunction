@@ -13,3 +13,5 @@ execute as @a[distance=..7] if score syri_lorth_asunark_PNJ DIALOG matches 1..1 
 #Activation entity head movement
 scoreboard players set 00000000-0000-041b-0000-00000000041a TALKING 1
 scoreboard players set 00000000-0000-041b-0000-00000000041a TALKING_TIMER 300
+
+function att2:advancement/test_all/journey/pnj
