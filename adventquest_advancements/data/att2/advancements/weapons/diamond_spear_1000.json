@@ -9,7 +9,7 @@
     },
     "parent": "att2:weapons/diamond_spear_250",
     "rewards": {
-        "function": "att2:advancement/exploit_10",
+        "function": "att2:advancement/test_all/weapon/stop_test_all_weapon",
         "experience": 1000
                 },
     "criteria": {
