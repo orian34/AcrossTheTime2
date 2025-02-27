@@ -4,6 +4,6 @@
 #############################################################
 
 teleport @s ^ ^ ^0.1 ~ ~
-execute as @e[tag=newGPS] run scoreboard players set @s GPS_TIMER 80
-execute as @e[tag=newGPS] run team join noCollision @s
-execute as @e[tag=newGPS] run tag @s remove newGPS
+execute as @e[tag=newGPS,type=minecraft:zombified_piglin] run scoreboard players set @s GPS_TIMER 80
+execute as @e[tag=newGPS,type=minecraft:zombified_piglin] run team join noCollision @s
+execute as @e[tag=newGPS,type=minecraft:zombified_piglin] run tag @s remove newGPS
