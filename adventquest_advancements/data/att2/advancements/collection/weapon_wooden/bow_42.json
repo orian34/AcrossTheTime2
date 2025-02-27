@@ -11,7 +11,7 @@
     },
     "parent": "att2:collection/weapon_wooden/bow_41",
     "rewards": {
-        "function": "att2:advancement/exploit_1"
+        "function": "att2:advancement/test_all/collection/test_rar"
         },
     "criteria": {
         "bow_42": {

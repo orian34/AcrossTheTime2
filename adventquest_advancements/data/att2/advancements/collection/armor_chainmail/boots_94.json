@@ -11,7 +11,7 @@
     },
     "parent": "att2:collection/armor_chainmail/boots_89",
     "rewards": {
-        "function": "att2:advancement/exploit_2"
+        "function": "att2:advancement/test_all/collection/test_epi"
         },
     "criteria": {
         "chainmail_boots_94": {

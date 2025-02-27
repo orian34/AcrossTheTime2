@@ -4,14 +4,14 @@
             "item": "minecraft:shield"
         },
         "title": {"translate":"Émeraude tenace"},
-        "description": {"translate":"The color of hope will enliven	your will, sister."},
+        "description": {"translate":"The color of hope will enliven your will, sister."},
         "frame": "goal",
         "show_toast": false,
         "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_billgart/shield_193",
     "rewards": {
-        "function": "att2:advancement/exploit_1"
+        "function": "att2:advancement/test_all/collection/test_rar"
         },
     "criteria": {
         "shield_194": {

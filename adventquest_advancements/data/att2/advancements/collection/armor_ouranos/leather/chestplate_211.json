@@ -10,7 +10,7 @@
     },
     "parent": "att2:collection/armor_ouranos/leather/helmet_210",
     "rewards": {
-        "function": "att2:advancement/exploit_2"
+        "function": "att2:advancement/test_all/collection/test_epi"
         },
     "criteria": {
         "iron_chestplate_211": {

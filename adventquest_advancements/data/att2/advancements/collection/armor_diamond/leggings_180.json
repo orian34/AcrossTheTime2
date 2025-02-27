@@ -9,6 +9,9 @@
         "announce_to_chat": true
     },
     "parent": "att2:collection/armor_diamond/leggings_173",
+    "rewards": {
+        "function": "att2:advancement/test_all/collection/test_com_unc"
+        },
     "criteria": {
         "diamond_leggings_180": {
             "trigger": "minecraft:inventory_changed",

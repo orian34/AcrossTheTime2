@@ -12,7 +12,7 @@
     },
     "parent": "att2:collection/potion",
     "rewards": {
-        "function": "att2:advancement/exploit_3"
+        "function": "att2:advancement/test_all/collection/test_leg"
         },
     "criteria": {
         "splash_potion_59": {

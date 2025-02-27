@@ -9,6 +9,9 @@
         "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_netherite/sword_285",
+    "rewards": {
+        "function": "att2:advancement/test_all/collection/test_com_unc"
+        },
     "criteria": {
         "netherite_sword_294": {
             "trigger": "minecraft:inventory_changed",

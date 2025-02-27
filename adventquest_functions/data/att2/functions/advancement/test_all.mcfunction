@@ -32,12 +32,6 @@ scoreboard players operation @a statSPIDERKILLED += @a statSPIDERKILLED1
 # Adventure
 function att2:advancement/test_all/adventure
 
-# Books
-function att2:advancement/test_all/books
-
-# Collection
-function att2:advancement/test_all/collection
-
 # Combat
 function att2:advancement/test_all/combat
 
