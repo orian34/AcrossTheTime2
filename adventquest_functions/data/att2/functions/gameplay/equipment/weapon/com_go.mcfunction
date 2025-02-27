@@ -29,12 +29,3 @@ execute as @s[nbt={SelectedItem:{tag:{Effect:"has_2_luc_1"}}}] run function att2
 execute as @s[nbt={SelectedItem:{tag:{Effect:"spd_2_hun_1"}}}] run function att2:gameplay/equipment/effect/le/spd_2_hun_1
 execute as @s[nbt={SelectedItem:{tag:{Effect:"has_2_spd_1"}}}] run function att2:gameplay/equipment/effect/le/has_2_spd_1
 execute as @s[nbt={SelectedItem:{tag:{Effect:"dar_2_luc_1"}}}] run function att2:gameplay/equipment/effect/le/dar_2_luc_1
-
-##oh
-execute as @s[nbt={Inventory:[{Slot:-106b,tag:{Effect:"has_2"}}]}] run function att2:gameplay/equipment/effect/oh/has_2
-execute as @s[nbt={Inventory:[{Slot:-106b,tag:{Effect:"luc_1"}}]}] run function att2:gameplay/equipment/effect/oh/luc_1
-execute as @s[nbt={Inventory:[{Slot:-106b,tag:{Effect:"spd_2"}}]}] run function att2:gameplay/equipment/effect/oh/spd_2
-execute as @s[nbt={Inventory:[{Slot:-106b,tag:{Effect:"dar_2"}}]}] run function att2:gameplay/equipment/effect/oh/dar_2
-execute as @s[nbt={Inventory:[{Slot:-106b,tag:{Effect:"spd_2"}}]}] run function att2:gameplay/equipment/effect/oh/spd_2
-
-

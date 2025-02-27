@@ -46,12 +46,3 @@ execute as @s[nbt={SelectedItem:{tag:{Effect:"str1_spd_3"}}}] run function att2:
 execute as @s[nbt={SelectedItem:{tag:{Effect:"has2_her_1"}}}] run function att2:gameplay/equipment/effect/le/has2_her_1
 execute as @s[nbt={SelectedItem:{tag:{Effect:"spd2_dar_1_hun_1"}}}] run function att2:gameplay/equipment/effect/le/spd2_dar_1_hun_1
 
-##oh
-execute as @s[nbt={Inventory:[{Slot:-106b,tag:{Effect:"has1_dar_1"}}]}] run function att2:gameplay/equipment/effect/oh/has1_dar_1
-execute as @s[nbt={Inventory:[{Slot:-106b,tag:{Effect:"spd2_her_1"}}]}] run function att2:gameplay/equipment/effect/oh/spd2_her_1
-execute as @s[nbt={Inventory:[{Slot:-106b,tag:{Effect:"dar1_str_1"}}]}] run function att2:gameplay/equipment/effect/oh/dar1_str_1
-execute as @s[nbt={Inventory:[{Slot:-106b,tag:{Effect:"hun_1"}}]}] run function att2:gameplay/equipment/effect/oh/hun_1
-execute as @s[nbt={Inventory:[{Slot:-106b,tag:{Effect:"spd2_str_1"}}]}] run function att2:gameplay/equipment/effect/oh/spd2_str_1
-execute as @s[nbt={Inventory:[{Slot:-106b,tag:{Effect:"str1_her_1"}}]}] run function att2:gameplay/equipment/effect/oh/str1_her_1
-execute as @s[nbt={Inventory:[{Slot:-106b,tag:{Effect:"spd1"}}]}] run function att2:gameplay/equipment/effect/oh/spd1
-
