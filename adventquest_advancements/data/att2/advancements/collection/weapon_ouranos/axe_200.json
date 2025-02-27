@@ -9,6 +9,9 @@
         "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_ouranos/axe_198",
+    "rewards": {
+        "function": "att2:advancement/test_all/collection/test_com_unc"
+        },
     "criteria": {
         "stone_axe_200": {
             "trigger": "minecraft:inventory_changed",

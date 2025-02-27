@@ -4,14 +4,14 @@
             "item": "minecraft:golden_shovel"
         },
         "title": {"translate":"Lelrïm tar"},
-        "description": {"translate":"Panache and grandiloquence are	the prerogative only of fake and false heroes."},
+        "description": {"translate":"Panache and grandiloquence are the prerogative only of fake and false heroes."},
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_angband/shovel_154",
     "rewards": {
-        "function": "att2:advancement/exploit_3"
+        "function": "att2:advancement/test_all/collection/test_leg"
         },
     "criteria": {
         "golden_shovel_158": {

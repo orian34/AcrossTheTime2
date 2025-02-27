@@ -4,11 +4,14 @@
             "item": "minecraft:golden_shovel"
         },
         "title": {"translate":"Dague de jeu"},
-        "description": {"translate":"What more fun than	a weapon fight."},
+        "description": {"translate":"What more fun than a weapon fight."},
         "show_toast": false,
         "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_angband/shovel_140",
+    "rewards": {
+        "function": "att2:advancement/test_all/collection/test_com_unc"
+        },
     "criteria": {
         "golden_shovel_141": {
             "trigger": "minecraft:inventory_changed",

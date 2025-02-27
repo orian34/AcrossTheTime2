@@ -10,6 +10,9 @@
         "announce_to_chat": true
     },
     "parent": "att2:collection/potion/splash_34",
+    "rewards": {
+        "function": "att2:advancement/test_all/collection/test_com_unc"
+        },
     "criteria": {
         "splash_potion_35": {
             "trigger": "minecraft:inventory_changed",

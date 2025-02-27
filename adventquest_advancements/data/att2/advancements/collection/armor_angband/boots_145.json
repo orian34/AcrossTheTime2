@@ -9,6 +9,9 @@
         "announce_to_chat": true
     },
     "parent": "att2:collection/armor_angband/boots_138",
+    "rewards": {
+        "function": "att2:advancement/test_all/collection/test_com_unc"
+        },
     "criteria": {
         "golden_boots_145": {
             "trigger": "minecraft:inventory_changed",

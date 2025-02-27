@@ -9,6 +9,9 @@
         "announce_to_chat": true
     },
     "parent": "att2:collection/weapon_iron/hoe_263",
+    "rewards": {
+        "function": "att2:advancement/test_all/collection/test_com_unc"
+        },
     "criteria": {
         "iron_hoe_264": {
             "trigger": "minecraft:inventory_changed",

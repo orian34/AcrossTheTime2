@@ -11,7 +11,7 @@
     },
     "parent": "att2:collection/weapon_ouranos/bow_216",
     "rewards": {
-        "function": "att2:advancement/exploit_2"
+        "function": "att2:advancement/test_all/collection/test_epi"
         },
     "criteria": {
         "bow_217": {

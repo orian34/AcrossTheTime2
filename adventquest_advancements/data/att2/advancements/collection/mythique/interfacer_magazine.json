@@ -10,7 +10,7 @@
     },
     "parent": "att2:collection/mythique/interfacer",
     "rewards": {
-        "function": "att2:advancement/exploit_25",
+        "function": "att2:advancement/test_all/collection/myt_25",
         "experience": 25000
                 },
     "criteria": {

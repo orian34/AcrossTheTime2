@@ -9,6 +9,9 @@
         "announce_to_chat": true
     },
     "parent": "att2:collection/armor_iron/helmet_100",
+    "rewards": {
+        "function": "att2:advancement/test_all/collection/test_com_unc"
+        },
     "criteria": {
         "iron_helmet_107": {
             "trigger": "minecraft:inventory_changed",

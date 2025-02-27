@@ -11,7 +11,7 @@
     },
     "parent": "att2:collection/armor_angband/helmet_311",
     "rewards": {
-        "function": "att2:advancement/exploit_3"
+        "function": "att2:advancement/test_all/collection/test_leg"
         },
     "criteria": {
         "golden_helmet_159": {

@@ -10,7 +10,7 @@
     },
     "parent": "att2:collection/armor_ouranos/leather/leggings_212",
     "rewards": {
-        "function": "att2:advancement/exploit_2"
+        "function": "att2:advancement/test_all/collection/test_epi"
         },
     "criteria": {
         "leather_boots_213": {

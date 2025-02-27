@@ -32,26 +32,17 @@ scoreboard players operation @a statSPIDERKILLED += @a statSPIDERKILLED1
 # Adventure
 function att2:advancement/test_all/adventure
 
-# Books
-function att2:advancement/test_all/books
-
-# Collection
-function att2:advancement/test_all/collection
-
 # Combat
 function att2:advancement/test_all/combat
 
-# Food
-function att2:advancement/test_all/food
+# Cake
+execute as @a[advancement={att2:food/cake_350=false}] run function att2:advancement/test_all/food/cake
 
 # Hunting
 function att2:advancement/test_all/hunting
 
 # Journey
 function att2:advancement/test_all/journey
-
-# mobskilled
-function att2:advancement/test_all/mobskilled
 
 # Progress
 function att2:advancement/test_all/progress
@@ -68,5 +59,4 @@ function att2:advancement/test_all/spell
 # Treasure
 function att2:advancement/test_all/treasure
 
-# Weapons
-function att2:advancement/test_all/weapon
+
