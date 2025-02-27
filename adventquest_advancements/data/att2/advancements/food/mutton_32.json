@@ -9,7 +9,7 @@
     },
     "parent": "att2:food/mutton_16",
     "rewards": {
-        "function": "att2:advancement/exploit_15",
+        "function": "att2:advancement/test_all/food/test_all_food",
         "experience": 1000
                 },
     "criteria": {

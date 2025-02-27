@@ -38,8 +38,8 @@ function att2:advancement/test_all/combat
 # Weapons
 function att2:advancement/test_all/weapon
 
-# Food
-function att2:advancement/test_all/food
+# Cake
+execute as @a[advancement={att2:food/cake_350=false}] run function att2:advancement/test_all/food/cake
 
 # Hunting
 function att2:advancement/test_all/hunting
