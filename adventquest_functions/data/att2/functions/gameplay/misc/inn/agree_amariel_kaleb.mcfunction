@@ -9,3 +9,6 @@ teleport @s -5443 54 -4665
 
 scoreboard players add @s INN 1
 scoreboard players set amariel_kaleb INN 1
+
+##Daybreak
+time set day
