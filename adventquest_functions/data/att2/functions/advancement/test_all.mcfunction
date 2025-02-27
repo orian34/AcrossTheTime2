@@ -50,7 +50,6 @@ function att2:advancement/test_all/hunting
 # Journey
 function att2:advancement/test_all/journey
 
-
 # Progress
 function att2:advancement/test_all/progress
 

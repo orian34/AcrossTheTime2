@@ -9,7 +9,7 @@
     },
     "parent": "att2:weapons/wooden_mace_250",
     "rewards": {
-        "function": "att2:advancement/test_all/weapon/stop_test_all_weapon",
+        "function": "att2:advancement/exploit_10",
         "experience": 1000
                 },
     "criteria": {

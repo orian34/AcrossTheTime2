@@ -12,3 +12,6 @@ advancement grant @s[scores={statWOODMACE=50..}] only att2:weapons/wooden_mace_5
 advancement grant @s[scores={statWOODMACE=250..}] only att2:weapons/wooden_mace_250
 advancement grant @s[scores={statWOODMACE=500..}] only att2:weapons/wooden_mace_1000
 
+##Achievement completed ---> stop test
+advancement grant @s[advancement={att2:weapons/wooden_mace_1000=true}] only att2_test:test_weapon/test_wooden_pickaxe
+

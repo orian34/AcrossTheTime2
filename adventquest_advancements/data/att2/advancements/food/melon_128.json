@@ -9,7 +9,7 @@
     },
     "parent": "att2:food/melon_64",
     "rewards": {
-        "function": "att2:advancement/test_all/food/test_all_food",
+        "function": "att2:advancement/texploit_15",
         "experience": 1000
                 },
     "criteria": {
