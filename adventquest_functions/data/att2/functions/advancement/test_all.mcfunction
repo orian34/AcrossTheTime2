@@ -36,7 +36,7 @@ function att2:advancement/test_all/adventure
 function att2:advancement/test_all/combat
 
 # Cake
-execute as @a[advancement={att2:food/cake_350=false}] run function att2:advancement/test_all/food/cake
+execute as @a[advancements={att2:food/cake_350=false}] run function att2:advancement/test_all/food/cake
 
 # Hunting
 function att2:advancement/test_all/hunting
