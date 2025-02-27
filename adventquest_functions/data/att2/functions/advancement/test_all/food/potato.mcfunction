@@ -13,4 +13,4 @@ advancement grant @s[scores={statPOTATO=32..}] only att2:food/potato_32
 advancement grant @s[scores={statPOTATO=64..}] only att2:food/potato_64
 
 ##Achievement completed ---> stop test
-advancement grant @s[advancement={att2:food/potato_64=true}] only att2_test:test_food/test_potato
+advancement grant @s[advancements={att2:food/potato_64=true}] only att2_test:test_food/test_potato

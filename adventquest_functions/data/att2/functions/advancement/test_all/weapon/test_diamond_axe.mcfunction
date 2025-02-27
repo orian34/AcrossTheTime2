@@ -13,4 +13,4 @@ advancement grant @s[scores={statDIAMONDAXE=250..}] only att2:weapons/diamond_ax
 advancement grant @s[scores={statDIAMONDAXE=600..}] only att2:weapons/diamond_axe_1000
 
 ##Achievement completed ---> stop test
-advancement grant @s[advancement={att2:weapons/diamond_axe_1000=true}] only att2_test:test_weapon/test_diamond_axe
+advancement grant @s[advancements={att2:weapons/diamond_axe_1000=true}] only att2_test:test_weapon/test_diamond_axe

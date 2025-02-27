@@ -13,4 +13,4 @@ advancement grant @s[scores={statGOLDSWORD=250..}] only att2:weapons/golden_swor
 advancement grant @s[scores={statGOLDSWORD=750..}] only att2:weapons/golden_sword_1000
 
 ##Achievement completed ---> stop test
-advancement grant @s[advancement={att2:weapons/golden_sword_1000=true}] only att2_test:test_weapon/test_golden_sword
+advancement grant @s[advancements={att2:weapons/golden_sword_1000=true}] only att2_test:test_weapon/test_golden_sword

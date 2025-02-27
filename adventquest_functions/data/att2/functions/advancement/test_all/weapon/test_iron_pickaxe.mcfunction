@@ -13,4 +13,4 @@ advancement grant @s[scores={statIRONMACE=250..}] only att2:weapons/iron_mace_25
 advancement grant @s[scores={statIRONMACE=500..}] only att2:weapons/iron_mace_1000
 
 ##Achievement completed ---> stop test
-advancement grant @s[advancement={att2:weapons/iron_mace_1000=true}] only att2_test:test_weapon/test_iron_pickaxe
+advancement grant @s[advancements={att2:weapons/iron_mace_1000=true}] only att2_test:test_weapon/test_iron_pickaxe

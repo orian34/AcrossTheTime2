@@ -13,4 +13,4 @@ advancement grant @s[scores={statNETHERMACE=250..}] only att2:weapons/netherite_
 advancement grant @s[scores={statNETHERMACE=500..}] only att2:weapons/netherite_mace_1000
 
 ##Achievement completed ---> stop test
-advancement grant @s[advancement={att2:weapons/netherite_mace_1000=true}] only att2_test:test_weapon/test_netherite_pickaxe
+advancement grant @s[advancements={att2:weapons/netherite_mace_1000=true}] only att2_test:test_weapon/test_netherite_pickaxe
