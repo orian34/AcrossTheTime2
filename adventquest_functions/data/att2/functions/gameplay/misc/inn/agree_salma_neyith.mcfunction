@@ -9,3 +9,6 @@ teleport @s -5022 92 -4971
 
 scoreboard players add @s INN 1
 scoreboard players set salma_neyith INN 1
+
+##Daybreak
+time set day

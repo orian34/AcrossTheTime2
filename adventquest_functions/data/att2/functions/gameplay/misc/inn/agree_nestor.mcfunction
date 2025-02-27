@@ -9,3 +9,6 @@ teleport @s -4701 87 -5673
 
 scoreboard players add @s INN 1
 scoreboard players set nestor INN 1
+
+##Daybreak
+time set day

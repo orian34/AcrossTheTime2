@@ -9,3 +9,6 @@ teleport @s -5188 77 -5348
 
 scoreboard players add @s INN 1
 scoreboard players set gonon INN 1
+
+##Daybreak
+time set day
