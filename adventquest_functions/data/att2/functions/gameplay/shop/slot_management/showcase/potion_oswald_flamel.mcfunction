@@ -46,7 +46,7 @@ execute if score @s SHOP_OP1 matches 899..912 at @e[name="OSWALD FLAMEL"] as @a[
 execute if score @s SHOP_OP1 matches 913..926 at @e[name="OSWALD FLAMEL"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/rar/lingering_potion_42
 execute if score @s SHOP_OP1 matches 927..940 at @e[name="OSWALD FLAMEL"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/rar/lingering_potion_43
 execute if score @s SHOP_OP1 matches 941..954 at @e[name="OSWALD FLAMEL"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/rar/lingering_potion_61
-execute if score @s SHOP_OP1 matches 955..959 at @e[name="OSWALD FLAMEL"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/epi/potion_22
+execute if score @s SHOP_OP1 matches 955..959 at @e[name="OSWALD FLAMEL"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/rar/potion_22
 execute if score @s SHOP_OP1 matches 960..964 at @e[name="OSWALD FLAMEL"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/epi/potion_23
 execute if score @s SHOP_OP1 matches 965..969 at @e[name="OSWALD FLAMEL"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/epi/potion_24
 execute if score @s SHOP_OP1 matches 970..974 at @e[name="OSWALD FLAMEL"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/potion/epi/potion_25

@@ -5,13 +5,14 @@
 
 
 ##特效
-function att2:gameplay/invocation/action/summon
+scoreboard players set @s SUMMON_TIMER 60
+tag @s add NewInvo 
 ##无马计数
-execute as @s[tag=player_horse_1] run scoreboard players set @s HORSE_SET 0
-execute as @s[tag=player_horse_2] run scoreboard players set @s HORSE_SET 0
-execute as @s[tag=player_horse_3] run scoreboard players set @s HORSE_SET 0
-execute as @s[tag=player_horse_4] run scoreboard players set @s HORSE_SET 0
-execute as @s[tag=player_horse_5] run scoreboard players set @s HORSE_SET 0
+execute as @s[tag=player_horse_1] run scoreboard players set @a[scores={NUMEROJOUEUR=1}] HORSE_SET 0
+execute as @s[tag=player_horse_2] run scoreboard players set @a[scores={NUMEROJOUEUR=2}] HORSE_SET 0
+execute as @s[tag=player_horse_3] run scoreboard players set @a[scores={NUMEROJOUEUR=3}] HORSE_SET 0
+execute as @s[tag=player_horse_4] run scoreboard players set @a[scores={NUMEROJOUEUR=4}] HORSE_SET 0
+execute as @s[tag=player_horse_5] run scoreboard players set @a[scores={NUMEROJOUEUR=5}] HORSE_SET 0
 ##移除马匹对应的玩家编号
 execute as @s[tag=player_horse_1] run tag @s remove player_horse_1
 execute as @s[tag=player_horse_2] run tag @s remove player_horse_2

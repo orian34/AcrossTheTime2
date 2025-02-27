@@ -4,7 +4,6 @@
 #################################################################
 
 # Incase the player already as the summon, the previous one should be destroyed
-execute at @s as @e[scores={BELONG_PLAYER1=0..}] if score @s BELONG_PLAYER1 = @p NUMEROJOUEUR run kill @s
 execute as @s[scores={SPELL_SLCT=241,DAHAL=50..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell25/lvl1
 execute as @s[scores={SPELL_SLCT=242,DAHAL=55..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell25/lvl2
 execute as @s[scores={SPELL_SLCT=243,DAHAL=70..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell25/lvl3

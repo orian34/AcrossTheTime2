@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:written_book"
+        },
+        "title": {"translate":"Space teleportation"},
+        "description": {"translate":"Find Space teleportation spell"}
+    },
+    "parent": "att2:dahal/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 50
+                },
+    "criteria": {
+        "spell32_loot": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

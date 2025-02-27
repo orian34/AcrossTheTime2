@@ -25,24 +25,42 @@ execute as @a[gamemode=adventure] at @s if score @s openSHULKER matches 1.. run 
 scoreboard players set @a triggCHEST 0
 scoreboard players set @a openSHULKER 0
 
+# Add Spider stat killed
+scoreboard players operation @a statSPIDERKILLED += @a statSPIDERKILLED1
+
 ### Test advancement
 # Adventure
 function att2:advancement/test_all/adventure
 
-# Journey
-function att2:advancement/test_all/journey
+# Books
+function att2:advancement/test_all/books
+
+# Collection
+function att2:advancement/test_all/collection
 
 # Combat
 function att2:advancement/test_all/combat
 
-# Weapons
-function att2:advancement/test_all/weapon
-
-# Cake
-execute as @a[advancement={att2:food/cake_350=false}] run function att2:advancement/test_all/food/cake
+# Food
+function att2:advancement/test_all/food
 
 # Hunting
 function att2:advancement/test_all/hunting
+
+# Journey
+function att2:advancement/test_all/journey
+
+# mobskilled
+function att2:advancement/test_all/mobskilled
+
+# Progress
+function att2:advancement/test_all/progress
+
+# Quest
+function att2:advancement/test_all/quest
+
+# Secret
+function att2:advancement/test_all/secret
 
 # Spell
 function att2:advancement/test_all/spell
@@ -50,20 +68,5 @@ function att2:advancement/test_all/spell
 # Treasure
 function att2:advancement/test_all/treasure
 
-# Secret
-function att2:advancement/test_all/secret
-
-# Progress
-function att2:advancement/test_all/progress
-
-# mobskilled
-function att2:advancement/test_all/mobskilled
-
-# Quest
-function att2:advancement/test_all/quest
-
-# Collection
-function att2:advancement/test_all/collection
-
-# Books
-function att2:advancement/test_all/books
+# Weapons
+function att2:advancement/test_all/weapon

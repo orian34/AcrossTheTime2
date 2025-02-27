@@ -11,7 +11,7 @@ scoreboard players set @s COMPLETION 0
 scoreboard players set Game_percentage_progress EXPLOIT 0
 scoreboard players set Points_completion EXPLOIT 100
 scoreboard players set Total_objectives EXPLOIT 102
-scoreboard players set Total_point EXPLOIT 17472
+scoreboard players set Total_point EXPLOIT 17495
 
 function att2:advancement/initialize_secret_chest
 function att2:advancement/exploit_rewards/initialize
@@ -29,6 +29,7 @@ scoreboard objectives add statSILVERKILLED minecraft.killed:minecraft.silverfish
 scoreboard objectives add statGHASTKILLED minecraft.killed:minecraft.ghast
 scoreboard objectives add statBLAZEKILLED minecraft.killed:minecraft.blaze
 scoreboard objectives add statSPIDERKILLED minecraft.killed:minecraft.cave_spider
+scoreboard objectives add statSPIDERKILLED1 minecraft.killed:minecraft.spider
 scoreboard objectives add statGUARDKILLED minecraft.killed:minecraft.guardian
 scoreboard objectives add statDROWNKILLED minecraft.killed:minecraft.drowned
 scoreboard objectives add statPHANTOKILLED minecraft.killed:minecraft.phantom

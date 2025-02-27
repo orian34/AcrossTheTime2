@@ -14,3 +14,5 @@ execute as @a[distance=..7] if score homer_PNJ DIALOG matches 1 run function att
 #Activation entity head movement
 scoreboard players set 00000000-0000-121a-0000-00000000121a TALKING 1
 scoreboard players set 00000000-0000-121a-0000-00000000121a TALKING_TIMER 300
+
+function att2:advancement/test_all/journey/pnj

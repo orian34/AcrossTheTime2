@@ -16,3 +16,5 @@ execute as @a[distance=..7] if score garry_traskel_PNJ DIALOG matches 1..1 run f
 #Activation entity head movement
 scoreboard players set 00000000-0000-053a-0000-00000000053a TALKING 1
 scoreboard players set 00000000-0000-053a-0000-00000000053a TALKING_TIMER 300
+
+function att2:advancement/test_all/journey/pnj

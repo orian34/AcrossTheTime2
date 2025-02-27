@@ -276,7 +276,7 @@ execute positioned -4600 41 -5480 if block ~ ~ ~ minecraft:bamboo_button run exe
 execute positioned -4263 21 -4991 if block ~ ~ ~ minecraft:bamboo_button run execute positioned ~ ~1 ~-1 run function att2:gameplay/dahal/action/spell34/create_minerals_runes_marker
 execute positioned -4242 4 -5025 if block ~ ~ ~ minecraft:bamboo_button run function att2:gameplay/dahal/action/spell34/create_minerals_runes_marker
 execute positioned -4237 34 -5010 if block ~ ~ ~ minecraft:bamboo_button run execute positioned ~ ~1 ~-1 run function att2:gameplay/dahal/action/spell34/create_minerals_runes_marker
-execute positioned -4269 21 -5001 if block ~ ~ ~ minecraft:bamboo_button run execute positioned ~ ~1 ~-1 run function att2:gameplay/dahal/action/spell34/create_minerals_runes_marker
+execute positioned -4269 21 -5001 if block ~ ~ ~ minecraft:bamboo_button run execute positioned ~ ~1 ~1 run function att2:gameplay/dahal/action/spell34/create_minerals_runes_marker
 execute positioned -4066 90 -5210 if block ~ ~ ~ minecraft:bamboo_button run function att2:gameplay/dahal/action/spell34/create_minerals_runes_marker
 execute positioned -4397 94 -5076 if block ~ ~ ~ minecraft:bamboo_button run execute positioned ~ ~1 ~1 run function att2:gameplay/dahal/action/spell34/create_minerals_runes_marker
 execute positioned -4973 74 -4008 if block ~ ~ ~ minecraft:bamboo_button run execute positioned ~ ~1 ~-1 run function att2:gameplay/dahal/action/spell34/create_minerals_runes_marker
@@ -337,7 +337,7 @@ execute positioned -5018 156 -6215 if block ~ ~ ~ minecraft:bamboo_button run ex
 execute positioned -4989 179 -6188 if block ~ ~ ~ minecraft:bamboo_button run execute positioned ~ ~2 ~ run function att2:gameplay/dahal/action/spell34/create_minerals_runes_marker
 execute positioned -5158 108 -6186 if block ~ ~ ~ minecraft:bamboo_button run execute positioned ~ ~1 ~1 run function att2:gameplay/dahal/action/spell34/create_minerals_runes_marker
 execute positioned -5513 69 -4837 if block ~ ~ ~ minecraft:bamboo_button run execute positioned ~ ~1 ~1 run function att2:gameplay/dahal/action/spell34/create_minerals_runes_marker
-execute positioned -5685 79 -4906 if block ~ ~ ~ minecraft:bamboo_button run execute positioned ~ ~1 ~-1 run function att2:gameplay/dahal/action/spell34/create_minerals_runes_marker
+execute positioned -5685 79 -4906 if block ~ ~ ~ minecraft:bamboo_button run execute positioned ~-1 ~1 ~ run function att2:gameplay/dahal/action/spell34/create_minerals_runes_marker
 execute positioned -5601 70 -4785 if block ~ ~ ~ minecraft:bamboo_button run execute positioned ~1 ~1 ~ run function att2:gameplay/dahal/action/spell34/create_minerals_runes_marker
 execute positioned -5491 77 -4951 if block ~ ~ ~ minecraft:bamboo_button run execute positioned ~1 ~1 ~ run function att2:gameplay/dahal/action/spell34/create_minerals_runes_marker
 execute positioned -5801 80 -4817 if block ~ ~ ~ minecraft:bamboo_button run execute positioned ~ ~1 ~-1 run function att2:gameplay/dahal/action/spell34/create_minerals_runes_marker
@@ -396,3 +396,14 @@ execute positioned -5955 108 -4473 if block ~ ~ ~ minecraft:bamboo_button run fu
 ##miss botton
 execute positioned -5418 84 -5626 if block ~ ~ ~ minecraft:mangrove_button run execute positioned ~ ~1 ~1 run function att2:gameplay/dahal/action/spell34/create_minerals_runes_marker
 execute positioned -5571 78 -5160 if block ~ ~ ~ minecraft:bamboo_button run execute positioned ~-1 ~1 ~ run function att2:gameplay/dahal/action/spell34/create_minerals_runes_marker
+execute positioned -3785 97 -5941 if block ~ ~ ~ minecraft:bamboo_button run execute positioned ~ ~2 ~ run function att2:gameplay/dahal/action/spell34/create_minerals_runes_marker
+execute positioned -3684 72 -4833 if block ~ ~ ~ minecraft:cherry_button run function att2:gameplay/dahal/action/spell34/create_minerals_runes_marker
+execute positioned -3474 43 -4888 if block ~ ~ ~ minecraft:bamboo_button run function att2:gameplay/dahal/action/spell34/create_minerals_runes_marker
+execute positioned -3930 93 -5631 if block ~ ~ ~ minecraft:cherry_button run execute positioned ~ ~1 ~-1 run function att2:gameplay/dahal/action/spell34/create_minerals_runes_marker
+execute positioned -3967 69 -5481 if block ~ ~ ~ minecraft:bamboo_button run function att2:gameplay/dahal/action/spell34/create_minerals_runes_marker
+execute positioned -4185 49 -5294 if block ~ ~ ~ minecraft:bamboo_button run function att2:gameplay/dahal/action/spell34/create_minerals_runes_marker
+execute positioned -5453 87 -4901 if block ~ ~ ~ minecraft:cherry_button run execute positioned ~ ~2 ~ run function att2:gameplay/dahal/action/spell34/create_minerals_runes_marker
+execute positioned -4884 158 -6463 if block ~ ~ ~ minecraft:bamboo_button run execute positioned ~ ~1 ~-1 run function att2:gameplay/dahal/action/spell34/create_minerals_runes_marker
+execute positioned -4849 87 -4969 if block ~ ~ ~ minecraft:bamboo_button run execute positioned ~ ~2 ~ run function att2:gameplay/dahal/action/spell34/create_minerals_runes_marker
+execute positioned -4558 69 -5157 if block ~ ~ ~ minecraft:bamboo_button run function att2:gameplay/dahal/action/spell34/create_minerals_runes_marker
+execute positioned -4740 77 -5492 if block ~ ~ ~ minecraft:cherry_button run execute positioned ~ ~2 ~ run function att2:gameplay/dahal/action/spell34/create_minerals_runes_marker

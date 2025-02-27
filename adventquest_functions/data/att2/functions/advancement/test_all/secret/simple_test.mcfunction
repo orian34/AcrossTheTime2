@@ -66,7 +66,7 @@ execute in minecraft:the_nether positioned 3544 77 4490 as @s[distance=..6] if s
 execute in minecraft:the_nether positioned 3502 79 4489 as @s[distance=..6] if score 61 SECRET_SIMPLE matches 0 run function att2:advancement/test_all/secret/simple/61
 execute in minecraft:the_nether positioned 3593 104 4624 as @s[distance=..6] if score 62 SECRET_SIMPLE matches 0 run function att2:advancement/test_all/secret/simple/62
 execute in minecraft:the_nether positioned 3684 60 4721 as @s[distance=..6] if score 63 SECRET_SIMPLE matches 0 run function att2:advancement/test_all/secret/simple/63
-execute in minecraft:the_nether positioned 3518 40 4678 as @s[distance=..10] if score 64 SECRET_SIMPLE matches 0 if score FlammeNoire7 SIDEQUEST matches 1 run function att2:advancement/test_all/secret/simple/64
+
 execute in minecraft:the_end positioned -1182 112 -567 as @s[distance=..6] if score 65 SECRET_SIMPLE matches 0 run function att2:advancement/test_all/secret/simple/65
 execute in minecraft:the_end positioned -1239 102 -465 as @s[distance=..6] if score 66 SECRET_SIMPLE matches 0 run function att2:advancement/test_all/secret/simple/66
 execute in minecraft:the_end positioned -1239 104 -565 as @s[distance=..6] if score 67 SECRET_SIMPLE matches 0 run function att2:advancement/test_all/secret/simple/67

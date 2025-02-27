@@ -3,11 +3,13 @@
 #Process to whistle horses										#
 #################################################################
 
-execute at @s unless entity @e[type=minecraft:horse,distance=..7] run function att2:sound/misc/energy_thrill
-execute at @s if entity @e[type=minecraft:horse,distance=..7] run function att2:sound/misc/whistle
-execute if score @s HORSE matches 1 if entity @e[type=minecraft:horse,distance=..7] as @e[type=minecraft:horse,distance=..7,tag=tied] run function att2:gameplay/misc/horse/free
-execute if score @s HORSE matches 0 if entity @e[type=minecraft:horse,distance=..7] as @e[type=minecraft:horse,distance=..7,tag=!tied] run function att2:gameplay/misc/horse/tied
-execute if score @s HORSE matches 0..1 if entity @e[type=minecraft:horse,distance=..7] run scoreboard players add @s HORSE 1
-execute if score @s HORSE matches 2 run scoreboard players set @s HORSE 0
+##特殊位置进行限制Implement restrictions at specific locations.
+execute if score @s tp_spell32_timer matches 1.. run function att2:gameplay/misc/horse/check_call_back
 
-execute as @e[type=minecraft:horse,distance=..7,tag=PlayerAlly] run data merge entity @s {SaddleItem:{id:"minecraft:saddle",Count:1}}
+execute if entity @s[scores={HORSE=1,tp_spell32_timer=..0}] run function att2:gameplay/misc/horse/call_back
+execute if entity @s[scores={HORSE=0,tp_spell32_timer=..0}] if entity @e[type=minecraft:horse,tag=!NewInvo,distance=..4] run function att2:gameplay/misc/horse/transfer
+##Feedback when there are no horses
+execute if score @s HORSE matches 0 unless entity @e[type=minecraft:horse,tag=NewInvo,distance=..4] run function att2:gameplay/misc/horse/no_horse
+
+scoreboard players set @s[scores={HORSE=100}] HORSE 0
+

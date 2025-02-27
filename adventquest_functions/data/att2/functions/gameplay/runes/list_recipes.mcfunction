@@ -5,4 +5,5 @@
 
 function att2:dialogs/gameplay/runes/recipes/runes
 function att2:dialogs/gameplay/runes/runicwords/20_bex_lya_qi_wej_yog
+function att2:dialogs/gameplay/runes/runicwords/21_hal_kan_puh_syl_mot
 function att2:dialogs/gameplay/runes/recipes/items

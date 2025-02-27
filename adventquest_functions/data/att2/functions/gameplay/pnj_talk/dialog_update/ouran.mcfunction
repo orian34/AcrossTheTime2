@@ -25,3 +25,6 @@ execute if score ouran_PNJ DIALOG matches 3 run function att2:dialogs/mainquest/
 execute if score ouran_PNJ DIALOG matches 2 run function att2:dialogs/mainquest/act_4/pnj_ouran/dialog_2
 execute if score ouran_PNJ DIALOG matches 1 run function att2:dialogs/mainquest/act_4/pnj_ouran/dialog_1
 execute if score ouran_PNJ DIALOG matches 0 run function att2:dialogs/mainquest/act_4/pnj_ouran/dialog_0
+
+
+function att2:advancement/test_all/journey/pnj

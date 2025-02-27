@@ -3,7 +3,7 @@
 #Wolf lvl9														#
 #################################################################
 
-clear @s minecraft:bone{display:{Name:"{\"text\":\"Os\"}","Lore":["{\"text\":\"§7§oBone\"}"]}}
+execute at @s as @e[scores={BELONG_PLAYER1=0..}] if score @s BELONG_PLAYER1 = @p NUMEROJOUEUR run kill @s
 execute positioned ~1 ~ ~1 run function att2:summon/dahal/wolf0_class7
 execute positioned ~-1 ~ ~1 run function att2:summon/dahal/wolf0_class7
 execute positioned ~1 ~ ~-1 run function att2:summon/dahal/wolf0_class7
@@ -13,14 +13,11 @@ scoreboard players operation @e[tag=Spell25] BELONG_PLAYER1 = @s NUMEROJOUEUR
 execute as @e[tag=Spell25] run tag @s remove Spell25
 scoreboard players remove @s DAHAL 130
 function att2:gameplay/dahal/action/spell25/cooldown
-function att2:gameplay/dahal/action/spell25/give_bones
-function att2:gameplay/dahal/action/spell25/give_bones
-function att2:gameplay/dahal/action/spell25/give_bones
-function att2:gameplay/dahal/action/spell25/give_bones
-function att2:gameplay/dahal/action/spell25/give_bones
 scoreboard players add @s SPELL25_LVL 5
 function att2:gameplay/dahal/bonus_xp
 scoreboard players operation @s SPELL25_LVL += @s BONUS_XP_SPELL
+
+execute as @e[tag=NewInvo,type=minecraft:wolf,distance=..7] at @s run data modify entity @s Owner set from entity @p UUID
 
 # Spell launch total count for advancement
 scoreboard players add @s SPELLS_COUNT 1
