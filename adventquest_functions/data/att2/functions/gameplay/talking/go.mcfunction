@@ -4,8 +4,8 @@
 #####################################################################
 
 #Talking movement activation
-execute as @e[scores={tag=PNJ,TALKING=1..41}] run function att2:gameplay/talking/talk
-execute as @e[scores={tag=PNJ,TALKING=101..141}] run function att2:gameplay/talking/angry
+execute as @e[tag=PNJ,scores={TALKING=1..41}] run function att2:gameplay/talking/talk
+execute as @e[tag=PNJ,scores={TALKING=101..141}] run function att2:gameplay/talking/angry
 
 scoreboard players add @e[tag=PNJ,scores={TALKING=1..41}] TALKING 1
 scoreboard players set @e[tag=PNJ,scores={TALKING=41}] TALKING 1

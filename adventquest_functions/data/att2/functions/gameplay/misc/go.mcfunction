@@ -13,7 +13,6 @@ execute if score tic TIMECOUNTER matches 5 if entity @a[scores={DIMENSION=0..1}]
 execute if score tic TIMECOUNTER matches 5 if entity @a[scores={DIMENSION=6}] run function att2:gameplay/misc/chesteffect/angband_go
 execute if score tic TIMECOUNTER matches 5 if entity @a[scores={DIMENSION=7}] run function att2:gameplay/misc/chesteffect/billgart_go
 execute if score tic TIMECOUNTER matches 5 if entity @a[scores={DIMENSION=4}] run function att2:gameplay/misc/chesteffect/ouran_go
-
 execute if score tic TIMECOUNTER matches 15 if entity @a[scores={DIMENSION=0..1}] run function att2:gameplay/misc/chesteffect/overworld_go
 execute if score tic TIMECOUNTER matches 15 if entity @a[scores={DIMENSION=6}] run function att2:gameplay/misc/chesteffect/angband_go
 execute if score tic TIMECOUNTER matches 15 if entity @a[scores={DIMENSION=7}] run function att2:gameplay/misc/chesteffect/billgart_go
