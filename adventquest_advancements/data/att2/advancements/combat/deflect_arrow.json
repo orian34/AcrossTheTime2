@@ -11,17 +11,19 @@
         "function": "att2:advancement/exploit_1",
         "experience": 75
                 },
-    "criteria": {
-        "deflected_projectile": {
-            "trigger": "minecraft:entity_hurt_player",
-            "conditions": {
-                "damage": {
-                    "type": {
-                        "is_projectile": true
-                    },
-                    "blocked": true
-                }
+"criteria": {
+    "deflected_arrow": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+            "blocked": true,
+            "type": {
+              "direct_entity": {
+                "type": "#minecraft:arrows"
+              }
             }
-        }
+          }
+      }
     }
+  }
 }

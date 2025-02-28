@@ -6,7 +6,7 @@
 function att2:gameplay/misc/assist/go
 function att2:gameplay/misc/skin/go
 execute if score tic TIMECOUNTER matches 10..20 run function att2:gameplay/misc/dummy/go
-execute if score tic TIMECOUNTER matches 15 run function att2:gameplay/misc/quest_icon/go
+function att2:gameplay/misc/quest_icon/go
 function att2:gameplay/misc/itemrarity_color/go
 ##chest particle
 execute if score tic TIMECOUNTER matches 5 if entity @a[scores={DIMENSION=0..1}] run function att2:gameplay/misc/chesteffect/overworld_go
