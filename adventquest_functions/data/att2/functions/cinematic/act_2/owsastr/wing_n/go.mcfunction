@@ -14,7 +14,8 @@ execute if score wingN OWSASTR matches 2.. run particle end_rod -4963 72.5 -4450
 execute if score wingN OWSASTR matches 2.. run particle end_rod -4963 74.5 -4438 1.2 0.1 0.1 0 1
 
 execute if score wingN OWSASTR matches 2.. run scoreboard players set wingN OWSASTR 2
-execute if score wingN OWSASTR matches 2.. run function att2:cinematic/act_2/owsastr/wing_n/mirror0/go
+execute if score tic TIMECOUNTER matches 5..9 if score wingN OWSASTR matches 2.. run function att2:cinematic/act_2/owsastr/wing_n/mirror0/go
+execute if score tic TIMECOUNTER matches 17..20 if score wingN OWSASTR matches 2.. run function att2:cinematic/act_2/owsastr/wing_n/mirror0/go
 
 #Unlock secret room of the wing
 execute if score wingNSecret OWSASTR matches 3 if block -4975 73 -4412 minecraft:acacia_wood positioned -4975 73 -4412 run function att2:sound/misc/quick_burning
