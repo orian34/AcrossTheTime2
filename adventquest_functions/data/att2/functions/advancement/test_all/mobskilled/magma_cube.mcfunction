@@ -3,6 +3,9 @@
 #Process all test of Mobs Killed advancement 			        #
 #################################################################
 
+##test_slime/magmacube_kill
+scoreboard players set slime_kill TIMECOUNTER 40
+
 ##revoke test
 advancement revoke @s only att2_test:test_mobskilled/magma_cube
 
