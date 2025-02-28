@@ -11,6 +11,3 @@ advancement grant @s[scores={statKELP=1..}] only att2:food/kelp_1
 advancement grant @s[scores={statKELP=16..}] only att2:food/kelp_16
 advancement grant @s[scores={statKELP=32..}] only att2:food/kelp_32
 advancement grant @s[scores={statKELP=64..}] only att2:food/kelp_64
-
-##Achievement completed ---> stop test
-advancement grant @s[advancements={att2:food/kelp_64=true}] only att2_test:test_food/test_kelp

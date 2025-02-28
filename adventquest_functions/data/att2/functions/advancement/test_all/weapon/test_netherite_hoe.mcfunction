@@ -11,6 +11,3 @@ advancement grant @s only att2:weapons/netherite_spear_1
 advancement grant @s[scores={statNETHERSPEAR=50..}] only att2:weapons/netherite_spear_50
 advancement grant @s[scores={statNETHERSPEAR=250..}] only att2:weapons/netherite_spear_250
 advancement grant @s[scores={statNETHERSPEAR=900..}] only att2:weapons/netherite_spear_1000
-
-##Achievement completed ---> stop test
-advancement grant @s[advancements={att2:weapons/netherite_spear_1000=true}] only att2_test:test_weapon/test_netherite_hoe

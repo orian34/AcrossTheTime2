@@ -11,7 +11,3 @@ advancement grant @s only att2:weapons/stone_sword_1
 advancement grant @s[scores={statSTONESWORD=50..}] only att2:weapons/stone_sword_50
 advancement grant @s[scores={statSTONESWORD=250..}] only att2:weapons/stone_sword_250
 advancement grant @s[scores={statSTONESWORD=750..}] only att2:weapons/stone_sword_1000
-
-##Achievement completed ---> stop test
-advancement grant @s[advancements={att2:weapons/stone_sword_1000=true}] only att2_test:test_weapon/test_stone_sword
-

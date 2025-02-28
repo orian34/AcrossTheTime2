@@ -11,6 +11,3 @@ advancement grant @s[scores={statBEEF=1..}] only att2:food/beef_1
 advancement grant @s[scores={statBEEF=4..}] only att2:food/beef_4
 advancement grant @s[scores={statBEEF=16..}] only att2:food/beef_16
 advancement grant @s[scores={statBEEF=32..}] only att2:food/beef_32
-
-##Achievement completed ---> stop test
-advancement grant @s[advancements={att2:food/beef_32=true}] only att2_test:test_food/test_beef
