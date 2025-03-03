@@ -1,0 +1,12 @@
+##test
+execute if predicate att2_pre:chest_effect/t1 align xyz positioned ~0.5 ~ ~0.5 run particle minecraft:dust 0.5 0.5 0.5 0.3 ~ ~0.75 ~ 0.3 0.3 0.3 0 10 normal
+execute if predicate att2_pre:chest_effect/t2 align xyz positioned ~0.5 ~ ~0.5 run particle minecraft:dust 0.5 0.7 0.5 0.3 ~ ~0.75 ~ 0.3 0.3 0.3 0 10 normal
+execute if predicate att2_pre:chest_effect/t3 align xyz positioned ~0.5 ~ ~0.5 run particle minecraft:dust 0.25 0.6 0.25 0.3 ~ ~0.75 ~ 0.3 0.3 0.3 0 10 normal
+execute if predicate att2_pre:chest_effect/t4 align xyz positioned ~0.5 ~ ~0.5 run particle minecraft:dust 0.25 0.5 0.5 0.3 ~ ~0.75 ~ 0.3 0.3 0.3 0 10 normal
+execute if predicate att2_pre:chest_effect/t5 align xyz positioned ~0.5 ~ ~0.5 run particle minecraft:dust 0 0.5 1 0.3 ~ ~0.75 ~ 0.3 0.3 0.3 0 10 normal
+execute if predicate att2_pre:chest_effect/t6 align xyz positioned ~0.5 ~ ~0.5 run particle minecraft:dust 0.65 0.5 1.0 0.3 ~ ~0.75 ~ 0.3 0.3 0.3 0 10 normal
+execute if predicate att2_pre:chest_effect/t7 align xyz positioned ~0.5 ~ ~0.5 run particle minecraft:dust 0.65 0.05 1.0 0.3 ~ ~0.75 ~ 0.3 0.3 0.3 0 10 normal
+execute if predicate att2_pre:chest_effect/t8 align xyz positioned ~0.5 ~ ~0.5 run particle minecraft:dust 0.45 0.0 0.55 0.3 ~ ~0.75 ~ 0.3 0.3 0.3 0 10 normal
+execute if predicate att2_pre:chest_effect/t9 align xyz positioned ~0.5 ~ ~0.5 run particle minecraft:dust 1 0.45 0.1 0.3 ~ ~0.75 ~ 0.3 0.3 0.3 0 10 normal
+execute if predicate att2_pre:chest_effect/t10 align xyz positioned ~0.5 ~ ~0.5 run particle minecraft:dust 0.75 0.25 0.0 0.3 ~ ~0.75 ~ 0.3 0.3 0.3 0 10 normal
+
