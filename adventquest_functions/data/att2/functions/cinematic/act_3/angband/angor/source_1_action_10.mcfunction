@@ -13,6 +13,6 @@ kill 00000000-0000-008a-0000-00000000008a
 execute in minecraft:the_nether as 00000000-0000-001a-0000-00000000001a at @s run tp @s ~ ~-30 ~
 kill 00000000-0000-001a-0000-00000000001a
 
-execute in minecraft:the_nether run kill @e[type=!minecraft:player,x=3511,y=41,z=4690,distance=..5]
+execute in minecraft:the_nether run kill @e[type=!minecraft:player,tag=!spell20_chest,x=3511,y=41,z=4690,distance=..5]
 
 execute in minecraft:the_nether run function att2:physicmod/reg2/source/barrier1
