@@ -27,6 +27,7 @@ scoreboard players set @a openSHULKER 0
 
 # Add Spider stat killed
 scoreboard players operation @a statSPIDERKILLED += @a statSPIDERKILLED1
+scoreboard players set @a statSPIDERKILLED1 0
 
 ### Test advancement
 # Adventure
