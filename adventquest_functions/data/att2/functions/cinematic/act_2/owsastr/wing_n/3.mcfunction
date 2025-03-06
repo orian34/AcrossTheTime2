@@ -19,3 +19,11 @@ execute as @e[nbt={UUID:[I;0,65647,0,65647]},tag=wasUtoN] run tag @s add UtoS
 
 execute as @e[nbt={UUID:[I;0,65647,0,65647]}] run tag @s remove wasUtoS
 execute as @e[nbt={UUID:[I;0,65647,0,65647]}] run tag @s remove wasUtoN
+
+#UN 1 US 2
+#set score replace @e
+execute as @e[nbt={UUID:[I;0,65647,0,65647]},tag=UtoN] run scoreboard players set n_3 OW_LIGHT 1
+execute as @e[nbt={UUID:[I;0,65647,0,65647]},tag=UtoS] run scoreboard players set n_3 OW_LIGHT 2
+
+##data merge marker
+function att2:cinematic/act_2/owsastr/marker_set
