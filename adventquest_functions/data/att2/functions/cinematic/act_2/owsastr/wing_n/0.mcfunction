@@ -3,6 +3,7 @@
 #Toggle mirror 0 for north wing in owsastr   	 #
 ##################################################
 
+
 execute positioned -4965 74 -4438 run function att2:sound/misc/mirror_moving
 execute as @e[nbt={UUID:[I;0,65599,0,65599]},tag=UtoE] run tag @s add wasUtoE
 execute as @e[nbt={UUID:[I;0,65599,0,65599]},tag=DtoE] run tag @s add wasDtoE
@@ -21,3 +22,11 @@ execute as @e[nbt={UUID:[I;0,65599,0,65599]},tag=wasDtoE] run tag @s add UtoE
 
 execute as @e[nbt={UUID:[I;0,65599,0,65599]}] run tag @s remove wasUtoE
 execute as @e[nbt={UUID:[I;0,65599,0,65599]}] run tag @s remove wasDtoE
+
+#DE 1 UE 2
+#set score replace @e
+execute as @e[nbt={UUID:[I;0,65599,0,65599]},tag=DtoE] run scoreboard players set n_0 OW_LIGHT 1
+execute as @e[nbt={UUID:[I;0,65599,0,65599]},tag=UtoE] run scoreboard players set n_0 OW_LIGHT 2
+
+##data merge marker
+function att2:cinematic/act_2/owsastr/marker_set
