@@ -3,6 +3,7 @@
 #Initialize dahal for a given player							#
 #################################################################
 
+scoreboard objectives add remain_time dummy
 scoreboard objectives add DAHAL dummy
 scoreboard objectives add DAHAL1 dummy
 scoreboard objectives add OP_DAHAL dummy
@@ -25,6 +26,7 @@ scoreboard players set @s SPELL_OP -1
 scoreboard players set @s SPELLS_COUNT 0
 scoreboard players set Collector SPELLS_COUNT 0
 scoreboard players set DahalRegen TIMER 1
+scoreboard players set 20 remain_time 20
 
 function att2:gameplay/dahal/pet/initialize
 function att2:gameplay/dahal/action/spell1/initialize
