@@ -4,14 +4,14 @@
 #################################################################
 
 # In transition from Tellurön
-execute in minecraft:overworld as @e[x=-5071,y=148,z=-4878,dx=0,dy=5,dz=-4,tag=!spell20_chest,tag=!Spell_Pet] run tp @s -3176.0 126 4935 -180 ~
+execute in minecraft:overworld as @a[x=-5071,y=148,z=-4878,dx=0,dy=5,dz=-4] run tp @s -3176.0 126 4935 -180 ~
 # Out transition to Billgart
-execute in minecraft:overworld as @e[x=-3179,y=126,z=4902,dx=5,dy=5,dz=0,tag=!spell20_chest,tag=!Spell_Pet] in minecraft:the_end run function att2:gameplay/dimension/portals/tp_to_billgart
+execute in minecraft:overworld as @a[x=-3179,y=126,z=4902,dx=5,dy=5,dz=0] in minecraft:the_end run function att2:gameplay/dimension/portals/tp_to_billgart
 
 # In transition from Billgart
-execute in minecraft:the_end as @e[x=-641,y=94,z=-605,dx=0,dy=5,dz=-5,tag=!spell20_chest,tag=!Spell_Pet] in minecraft:overworld run tp @s -3176.0 127 4903 0 ~
+execute in minecraft:the_end as @a[x=-641,y=94,z=-605,dx=0,dy=5,dz=-5] in minecraft:overworld run tp @s -3176.0 127 4903 0 ~
 # Out transition to Tellurön
-execute in minecraft:overworld as @e[x=-3174,y=126,z=4937,dx=-4,dy=4,dz=0,tag=!spell20_chest,tag=!Spell_Pet] run tp @s -5069 149 -4880 -90 ~
+execute in minecraft:overworld as @a[x=-3174,y=126,z=4937,dx=-4,dy=4,dz=0] run tp @s -5069 149 -4880 -90 ~
 
 # Particle for Tellurön's portal, inner side
 execute in minecraft:overworld run particle minecraft:bubble_pop -3176.0 129 4902.5 1.2 1.2 0.05 0.1 25 normal

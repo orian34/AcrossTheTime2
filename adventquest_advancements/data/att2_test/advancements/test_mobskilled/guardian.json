@@ -4,20 +4,20 @@
             "item": "minecraft:target"
         },
         "title": {"translate":"test"},
-        "description": {"translate":"magma_cube"},
+        "description": {"translate":"guardian"},
         "hidden": true,
         "show_toast": false,
         "announce_to_chat": false
     },
     "rewards": {
-        "function": "att2:advancement/test_all/mobskilled/magma_cube"
+        "function": "att2:advancement/test_all/mobskilled/guardian"
     },
     "criteria": {
-        "minecraft:magma_cube": {
+        "minecraft:guardian": {
           "trigger": "minecraft:player_killed_entity",
           "conditions": {
             "entity": {
-              "type": "minecraft:magma_cube"
+              "type": "minecraft:guardian"
             }
           }
         }
