@@ -6,7 +6,7 @@
 #Ryliath
 execute in minecraft:overworld positioned -5064 103 -4961 if entity @s[distance=..150,gamemode=adventure] run function att2:gameplay/shop/indication/blacksmith/ryliath
 #Eolorion
-execute in minecraft:overworld positioned -5274 117 -6237 if entity @s[distance=..150,gamemode=adventure] run function att2:gameplay/shop/indication/blacksmith/eolorion
+execute in minecraft:overworld positioned -5250 101 -6222 if entity @s[distance=..150,gamemode=adventure] run function att2:gameplay/shop/indication/blacksmith/eolorion
 #Kortaek
 execute in minecraft:overworld positioned -5464 52 -4706 if entity @s[distance=..150,gamemode=adventure] run function att2:gameplay/shop/indication/blacksmith/kortaek
 #Zirthion

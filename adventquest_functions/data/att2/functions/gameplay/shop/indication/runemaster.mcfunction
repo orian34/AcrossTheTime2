@@ -4,4 +4,4 @@
 #####################################################################
 
 #Ryliath
-execute in minecraft:overworld positioned -5071 91 -5019 if entity @s[distance=..150,gamemode=adventure] run function att2:gameplay/shop/indication/runemaster/ryliath
+execute in minecraft:overworld positioned -5029 91 -4964 if entity @s[distance=..150,gamemode=adventure] run function att2:gameplay/shop/indication/runemaster/ryliath
