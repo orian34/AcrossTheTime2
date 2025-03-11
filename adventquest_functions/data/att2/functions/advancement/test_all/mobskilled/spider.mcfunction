@@ -7,7 +7,8 @@
 advancement revoke @s only att2_test:test_mobskilled/spider
 
 # Add Spider stat killed
-scoreboard players operation @a statSPIDERKILLED += @a statSPIDERKILLED1
+scoreboard players operation @s statSPIDERKILLED += @s statSPIDERKILLED1
+scoreboard players set @s statSPIDERKILLED1 0
 # TOTAL KILLED
 advancement grant @s[scores={statZOMBIEKILLED=500..,statSKELETKILLED=500..,statPIGMANKILLED=500..,statCREEPKILLED=250..,statHUSKKILLED=500..,statDROWNKILLED=500..,statVINDICKILLED=500..,statSLIMEKILLED=500..,statLAVASKILLED=500..,statSILVERKILLED=500..,statSPIDERKILLED=500..,statWOLFKILLED=500..,statBLAZEKILLED=250..,statPHANTOKILLED=250..,statGUARDKILLED=250..,statBEARKILLED=100..,statGHASTKILLED=100..,statHOGLINKILLED=250..,statVEXKILLED=250..,statBEEKILLED=500..,statPILLAKILLED=500..}] only att2:mobskilled/the_destructor
 
