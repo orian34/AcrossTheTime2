@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Sérile : ","color":"gray","extr
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Sérile : ","color":"gray","extra":[{"text":"No, father, mother is dead a long time ago.","color":"yellow","italic":true}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Sérile : ","color":"gray","extra":[{"text":"No father, mother died a long time ago.","color":"yellow","italic":true}]}
 
 
 #CHINESE LANGUAGE
