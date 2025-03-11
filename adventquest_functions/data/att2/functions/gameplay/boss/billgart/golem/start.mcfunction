@@ -47,3 +47,5 @@ function att2:physicmod/reg3/dungeon/golemboss_button12_reload
 function att2:physicmod/reg3/dungeon/golemboss_button13_reload
 function att2:physicmod/reg3/dungeon/golemboss_button14_reload
 function att2:physicmod/reg3/dungeon/golemboss_button15_reload
+##boss_timer Start
+function att2:gameplay/boss/billgart/golem/time/start

@@ -51,3 +51,11 @@ execute if score Illusions SILBERLAND matches -2 unless entity @a[x=-4217,y=9,z=
 
 ##SPELL32 quest CHECK
 scoreboard players set @a[x=-4217,y=9,z=-5652,dx=-70,dy=33,dz=64,gamemode=adventure] tp_spell32_timer 20
+##boss_timer->GO
+execute if score illusions_t BOSS_TIME matches 0.. run scoreboard players add illusions_t BOSS_TIME 1
+
+execute if score illusions_t BOSS_TIME matches 20 run scoreboard players add illusions_s BOSS_TIME 1
+execute if score illusions_t BOSS_TIME matches 20 run scoreboard players set illusions_t BOSS_TIME 0
+
+execute if score illusions_s BOSS_TIME matches 60 run scoreboard players add illusions_m BOSS_TIME 1
+execute if score illusions_s BOSS_TIME matches 60 run scoreboard players set illusions_s BOSS_TIME 0

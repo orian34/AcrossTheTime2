@@ -44,3 +44,11 @@ execute if score Felroth WORLEST matches -2 unless entity @a[x=-4652,y=56,z=-553
 
 ##SPELL32 quest CHECK
 scoreboard players set @a[x=-4652,y=56,z=-5537,dx=32,dy=8,dz=32,gamemode=adventure] tp_spell32_timer 20
+##boss_timer->GO
+execute if score felroth_t BOSS_TIME matches 0.. run scoreboard players add felroth_t BOSS_TIME 1
+
+execute if score felroth_t BOSS_TIME matches 20 run scoreboard players add felroth_s BOSS_TIME 1
+execute if score felroth_t BOSS_TIME matches 20 run scoreboard players set felroth_t BOSS_TIME 0
+
+execute if score felroth_s BOSS_TIME matches 60 run scoreboard players add felroth_m BOSS_TIME 1
+execute if score felroth_s BOSS_TIME matches 60 run scoreboard players set felroth_s BOSS_TIME 0

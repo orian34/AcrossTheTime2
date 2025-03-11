@@ -16,4 +16,4 @@ execute as @a[scores={NUMEROJOUEUR=5},limit=1] at @s run function att2:gameplay/
 
 scoreboard players set yaakov_rav_PNJ DIALOG 1
 teleport 00000000-0000-003a-0000-00000000003a -4980 78 -5035 90 0
-summon minecraft:villager -4979.6 78 -5035 {Rotation:[90.0f,0.0f],Profession:5,Silent:1,NoAI:1,Invulnerable:1,Silent:1,PersistenceRequired:1,Attributes:[{Name:generic.movement_speed,Base:0.001},{Name:generic.max_health,Base:1.0}],Health:1.0,active_effects:[{id:invisibility,amplifier:1,duration:2147483647,ambient:1,show_particles:0}]}
+summon minecraft:villager -4979.6 78 -5035 {Rotation:[90.0f,0.0f],Profession:5,Silent:1,NoAI:1,Invulnerable:1,Silent:1,PersistenceRequired:1,Attributes:[{Name:generic.movement_speed,Base:0.001},{Name:generic.max_health,Base:1.0}],Health:1.0,active_effects:[{id:invisibility,amplifier:1,duration:2147483647,ambient:1,show_particles:0b}]}

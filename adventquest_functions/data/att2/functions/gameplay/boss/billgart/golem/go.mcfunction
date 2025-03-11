@@ -51,3 +51,11 @@ execute if score GolemBoss BILLGART matches -2 in minecraft:the_end unless entit
 
 ##SPELL32 quest CHECK
 scoreboard players set @a[x=-1330,y=120,z=-550,dx=55,dy=60,dz=-55,gamemode=adventure] tp_spell32_timer 20
+##boss_timer->GO
+execute if score golem_t BOSS_TIME matches 0.. run scoreboard players add golem_t BOSS_TIME 1
+
+execute if score golem_t BOSS_TIME matches 20 run scoreboard players add golem_s BOSS_TIME 1
+execute if score golem_t BOSS_TIME matches 20 run scoreboard players set golem_t BOSS_TIME 0
+
+execute if score golem_s BOSS_TIME matches 60 run scoreboard players add golem_m BOSS_TIME 1
+execute if score golem_s BOSS_TIME matches 60 run scoreboard players set golem_s BOSS_TIME 0

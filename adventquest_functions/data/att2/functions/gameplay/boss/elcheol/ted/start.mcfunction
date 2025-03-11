@@ -14,3 +14,5 @@ effect give 00000000-0000-025c-0000-00000000025c minecraft:instant_health 1 10 t
 function att2:gameplay/boss/elcheol/ted/summoning_minion
 function att2:gameplay/boss/elcheol/ted/init_bossbar
 function att2:gameplay/checkpoint/telluron_present/elcheol15
+##boss_timer Start
+function att2:gameplay/boss/elcheol/ted/time/start

@@ -16,3 +16,5 @@ function att2:gameplay/checkpoint/billgart/dungeon1
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/elevator
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/elevator_master
+##boss_time over
+function att2:gameplay/boss/billgart/elevator/time/time_over

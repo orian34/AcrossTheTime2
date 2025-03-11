@@ -13,3 +13,5 @@ execute in minecraft:overworld run spawnpoint @a -5520 26 -4178
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/torkant
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/torkant_master
+##boss_time over
+function att2:gameplay/boss/nojelanth/torkant/time/time_over

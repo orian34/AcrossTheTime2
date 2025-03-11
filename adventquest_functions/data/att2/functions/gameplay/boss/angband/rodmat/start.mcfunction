@@ -12,3 +12,5 @@ scoreboard players set Rodmat_expulsing SQ45 0
 scoreboard players set Rodmat SQ45 0
 function att2:gameplay/boss/angband/rodmat/init_bossbar
 function att2:gameplay/checkpoint/angband/angor17
+##boss_timer Start
+function att2:gameplay/boss/angband/rodmat/time/start

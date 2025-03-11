@@ -10,3 +10,5 @@ scoreboard players set MiehTimer VONAHEIM 200
 effect give 00000000-0000-008b-0000-00000000008b minecraft:instant_health 1 10 true
 function att2:gameplay/boss/elcheol/miehanov/init_bossbar
 function att2:gameplay/checkpoint/telluron_present/vonaheim0
+##boss_timer Start
+function att2:gameplay/boss/elcheol/miehanov/time/start

@@ -12,3 +12,5 @@ effect give 00000000-0000-031c-0000-00000000031c minecraft:instant_health 1 10 t
 function att2:gameplay/boss/nojelanth/abmup_nomit/summoning_minion
 function att2:gameplay/boss/nojelanth/abmup_nomit/init_bossbar
 function att2:gameplay/checkpoint/telluron_past/nojelanth14
+##boss_timer Start
+function att2:gameplay/boss/nojelanth/abmup_nomit/time/start

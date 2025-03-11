@@ -48,3 +48,11 @@ execute if score Somniophages SQ48 matches -2 unless entity @a[x=6657,y=2,z=7013
 
 ##SPELL32 quest CHECK
 scoreboard players set @a[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,gamemode=adventure] tp_spell32_timer 20
+##boss_timer->GO
+execute if score somniophages_t BOSS_TIME matches 0.. run scoreboard players add somniophages_t BOSS_TIME 1
+
+execute if score somniophages_t BOSS_TIME matches 20 run scoreboard players add somniophages_s BOSS_TIME 1
+execute if score somniophages_t BOSS_TIME matches 20 run scoreboard players set somniophages_t BOSS_TIME 0
+
+execute if score somniophages_s BOSS_TIME matches 60 run scoreboard players add somniophages_m BOSS_TIME 1
+execute if score somniophages_s BOSS_TIME matches 60 run scoreboard players set somniophages_s BOSS_TIME 0

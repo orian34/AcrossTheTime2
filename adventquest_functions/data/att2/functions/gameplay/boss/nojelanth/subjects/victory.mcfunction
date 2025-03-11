@@ -14,3 +14,5 @@ execute in minecraft:overworld run spawnpoint @a -7410 95 -4401
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/subjects
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/subjects_master
+##boss_time over
+function att2:gameplay/boss/nojelanth/subjects/time/time_over

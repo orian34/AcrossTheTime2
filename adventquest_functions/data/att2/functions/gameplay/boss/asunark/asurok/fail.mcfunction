@@ -12,3 +12,5 @@ execute as @a run function att2:sound/misc/fail_boss
 execute as @a run function att2:dialogs/mainquest/act_2/ch7_system_1
 effect clear @a minecraft:mining_fatigue
 function att2:gameplay/boss/asunark/asurok/destroy_minions
+##bosstime reset
+function att2:gameplay/boss/asunark/asurok/time/fail

@@ -14,3 +14,5 @@ effect give 00000000-0000-027c-0000-00000000027c minecraft:instant_health 1 10 t
 effect give 00000000-0000-028c-0000-00000000028c minecraft:instant_health 1 10 true
 effect give 00000000-0000-029c-0000-00000000029c minecraft:instant_health 1 10 true
 function att2:gameplay/checkpoint/angband/angor19
+##boss_timer Start
+function att2:gameplay/boss/angband/atricanth/time/start

@@ -15,3 +15,5 @@ effect give 00000000-0000-016b-0000-00000000016b minecraft:instant_damage 1 10 t
 function att2:gameplay/boss/ouranos/naer/init_bossbar
 function att2:physicmod/reg4/naer_shield_reset
 function att2:gameplay/checkpoint/ouranos/tower3_road5
+##boss_timer Start
+function att2:gameplay/boss/ouranos/naer/time/start

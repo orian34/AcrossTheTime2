@@ -18,3 +18,5 @@ effect give 00000000-0000-020b-0000-00000000020b minecraft:instant_damage 1 10 t
 effect give 00000000-0000-021b-0000-00000000021b minecraft:instant_damage 1 10 true
 function att2:gameplay/boss/nojelanth/subjects/init_bossbar
 function att2:gameplay/checkpoint/telluron_past/nojelanth2
+##boss_timer Start
+function att2:gameplay/boss/nojelanth/subjects/time/start

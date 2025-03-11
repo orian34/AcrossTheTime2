@@ -12,3 +12,5 @@ function att2:physicmod/reg3/dungeon/golemboss_clearstone
 function att2:gameplay/boss/billgart/golem/destroy_minions
 execute at @a run function att2:sound/misc/fail_boss
 execute as @a run function att2:dialogs/mainquest/act_4/ch3_system_1
+##bosstime reset
+function att2:gameplay/boss/billgart/golem/time/fail

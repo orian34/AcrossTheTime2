@@ -11,3 +11,5 @@ execute as @a run function att2:gameplay/boss/worlest/felroth/stop
 execute as @a run function att2:sound/misc/fail_boss
 execute as @a run function att2:dialogs/mainquest/act_2/ch3_system_1
 function att2:gameplay/boss/worlest/felroth/destroy_minions
+##bosstime reset
+function att2:gameplay/boss/worlest/felroth/time/fail

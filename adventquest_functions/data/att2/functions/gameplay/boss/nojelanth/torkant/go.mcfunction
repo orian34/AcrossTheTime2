@@ -51,3 +51,11 @@ execute if score Torkant SQ52 matches -2 unless entity @a[x=-5532,y=34,z=-4164,d
 
 ##SPELL32 quest CHECK
 scoreboard players set @a[x=-5532,y=34,z=-4164,dx=34,dy=-31,dz=44,gamemode=adventure] tp_spell32_timer 20
+##boss_timer->GO
+execute if score torkant_t BOSS_TIME matches 0.. run scoreboard players add torkant_t BOSS_TIME 1
+
+execute if score torkant_t BOSS_TIME matches 20 run scoreboard players add torkant_s BOSS_TIME 1
+execute if score torkant_t BOSS_TIME matches 20 run scoreboard players set torkant_t BOSS_TIME 0
+
+execute if score torkant_s BOSS_TIME matches 60 run scoreboard players add torkant_m BOSS_TIME 1
+execute if score torkant_s BOSS_TIME matches 60 run scoreboard players set torkant_s BOSS_TIME 0

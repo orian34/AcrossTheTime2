@@ -11,3 +11,5 @@ execute as @a run function att2:gameplay/boss/nojelanth/hive/stop
 execute as @a run function att2:sound/misc/fail_boss
 execute as @a run function att2:dialogs/sidequest/sq58/system_2
 function att2:gameplay/boss/nojelanth/hive/destroy_minions
+##bosstime reset
+function att2:gameplay/boss/nojelanth/hive/time/fail

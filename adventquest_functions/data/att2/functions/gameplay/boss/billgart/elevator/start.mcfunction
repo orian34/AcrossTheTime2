@@ -20,3 +20,5 @@ scoreboard players set Elevator BILLGART 0
 function att2:gameplay/boss/billgart/elevator/init_bossbar
 function att2:gameplay/checkpoint/billgart/dungeon8
 execute if score Mainquest SIDEQUEST matches 171 run function att2:dialogs/mainquest/act_4/ch3_player_15
+##boss_timer Start
+function att2:gameplay/boss/billgart/elevator/time/start

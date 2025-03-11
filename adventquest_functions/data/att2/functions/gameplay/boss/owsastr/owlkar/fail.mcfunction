@@ -11,3 +11,5 @@ execute as @a run function att2:gameplay/boss/owsastr/owlkar/stop
 execute as @a run function att2:sound/misc/fail_boss
 execute as @a run function att2:dialogs/mainquest/act_2/ch5_system_1
 function att2:gameplay/boss/owsastr/owlkar/destroy_minions
+##bosstime reset
+function att2:gameplay/boss/owsastr/owlkar/time/fail

@@ -13,3 +13,5 @@ execute at @a run function att2:sound/misc/fail_boss
 function att2:physicmod/reg4/naer_fire_reset
 function att2:physicmod/reg4/naer_shield_reset
 execute as @a run function att2:dialogs/mainquest/act_4/ch4_system_2
+##bosstime reset
+function att2:gameplay/boss/ouranos/naer/time/fail

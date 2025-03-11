@@ -66,3 +66,11 @@ execute if score Elevator BILLGART matches -2 in minecraft:the_end unless entity
 
 ##SPELL32 quest CHECK
 scoreboard players set @a[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8,gamemode=adventure] tp_spell32_timer 20
+##boss_timer->GO
+execute if score elevator_t BOSS_TIME matches 0.. run scoreboard players add elevator_t BOSS_TIME 1
+
+execute if score elevator_t BOSS_TIME matches 20 run scoreboard players add elevator_s BOSS_TIME 1
+execute if score elevator_t BOSS_TIME matches 20 run scoreboard players set elevator_t BOSS_TIME 0
+
+execute if score elevator_s BOSS_TIME matches 60 run scoreboard players add elevator_m BOSS_TIME 1
+execute if score elevator_s BOSS_TIME matches 60 run scoreboard players set elevator_s BOSS_TIME 0

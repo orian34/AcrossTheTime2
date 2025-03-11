@@ -62,3 +62,11 @@ execute if score Subjects NOJELANTH matches -2 unless entity @a[x=-7452,y=115,z=
 
 ##SPELL32 quest CHECK
 scoreboard players set @a[x=-7452,y=115,z=-4359,dx=36,dy=-6,dz=-36,gamemode=adventure] tp_spell32_timer 20
+##boss_timer->GO
+execute if score subjects_t BOSS_TIME matches 0.. run scoreboard players add subjects_t BOSS_TIME 1
+
+execute if score subjects_t BOSS_TIME matches 20 run scoreboard players add subjects_s BOSS_TIME 1
+execute if score subjects_t BOSS_TIME matches 20 run scoreboard players set subjects_t BOSS_TIME 0
+
+execute if score subjects_s BOSS_TIME matches 60 run scoreboard players add subjects_m BOSS_TIME 1
+execute if score subjects_s BOSS_TIME matches 60 run scoreboard players set subjects_s BOSS_TIME 0

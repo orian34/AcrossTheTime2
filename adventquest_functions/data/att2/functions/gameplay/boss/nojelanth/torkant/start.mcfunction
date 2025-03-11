@@ -11,3 +11,5 @@ effect give 00000000-0000-020c-0000-00000000020c minecraft:instant_damage 1 10 t
 function att2:gameplay/boss/nojelanth/torkant/summoning_minion
 function att2:gameplay/boss/nojelanth/torkant/init_bossbar
 function att2:gameplay/checkpoint/telluron_present/desert3
+##boss_timer Start
+function att2:gameplay/boss/nojelanth/torkant/time/start

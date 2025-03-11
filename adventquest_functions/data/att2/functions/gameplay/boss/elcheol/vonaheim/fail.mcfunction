@@ -11,3 +11,5 @@ kill 00000000-0000-006b-0000-00000000006b
 execute as @a run function att2:gameplay/boss/elcheol/vonaheim/stop
 execute at @a run function att2:sound/misc/fail_boss
 execute as @a run function att2:dialogs/mainquest/act_4/ch2_system_2
+##bosstime reset
+function att2:gameplay/boss/elcheol/vonaheim/time/fail

@@ -16,3 +16,5 @@ execute if score level DIFFICULTY matches -1.. run advancement grant @a only att
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/vonaheim_master
 
 execute if score lioras_PNJ DIALOG matches 1 run scoreboard players set lioras_PNJ DIALOG 2
+##boss_time over
+function att2:gameplay/boss/elcheol/vonaheim/time/time_over

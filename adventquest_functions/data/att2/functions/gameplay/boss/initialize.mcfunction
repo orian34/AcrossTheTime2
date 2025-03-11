@@ -47,3 +47,5 @@ function att2:gameplay/boss/silberland/illusions/initialize
 function att2:gameplay/boss/schestrown/shadow/initialize
 function att2:gameplay/boss/serile/initialize
 function att2:gameplay/boss/ether/umbratyanth/initialize
+##boss time record
+function att2:gameplay/boss/boss_timer_set

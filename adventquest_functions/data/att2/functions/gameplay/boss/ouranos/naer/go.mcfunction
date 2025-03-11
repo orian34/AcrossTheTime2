@@ -46,3 +46,11 @@ execute if score Naër OURANOS matches -2 unless entity @a[x=7699,y=182,z=6091,d
 
 ##SPELL32 quest CHECK
 scoreboard players set @a[x=7699,y=182,z=6091,dx=16,dy=9,dz=-110,gamemode=adventure] tp_spell32_timer 20
+##boss_timer->GO
+execute if score naer_t BOSS_TIME matches 0.. run scoreboard players add naer_t BOSS_TIME 1
+
+execute if score naer_t BOSS_TIME matches 20 run scoreboard players add naer_s BOSS_TIME 1
+execute if score naer_t BOSS_TIME matches 20 run scoreboard players set naer_t BOSS_TIME 0
+
+execute if score naer_s BOSS_TIME matches 60 run scoreboard players add naer_m BOSS_TIME 1
+execute if score naer_s BOSS_TIME matches 60 run scoreboard players set naer_s BOSS_TIME 0

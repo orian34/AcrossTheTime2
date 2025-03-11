@@ -19,3 +19,5 @@ execute as @a run function att2:gameplay/boss/ouranos/somniophages/stop
 function att2:gameplay/boss/ouranos/somniophages/destroy_minions
 execute at @a run function att2:sound/misc/fail_boss
 execute as @a run function att2:dialogs/sidequest/sq48/system_1
+##bosstime reset
+function att2:gameplay/boss/ouranos/somniophages/time/fail

@@ -53,3 +53,11 @@ execute if score Asurok ASUNARK matches -2 unless entity @a[x=-3317,y=2,z=-4922,
 
 ##SPELL32 quest CHECK
 scoreboard players set @a[x=-3317,y=2,z=-4922,dx=41,dy=22,dz=-41,gamemode=adventure] tp_spell32_timer 20
+##boss_timer->GO
+execute if score asurok_t BOSS_TIME matches 0.. run scoreboard players add asurok_t BOSS_TIME 1
+
+execute if score asurok_t BOSS_TIME matches 20 run scoreboard players add asurok_s BOSS_TIME 1
+execute if score asurok_t BOSS_TIME matches 20 run scoreboard players set asurok_t BOSS_TIME 0
+
+execute if score asurok_s BOSS_TIME matches 60 run scoreboard players add asurok_m BOSS_TIME 1
+execute if score asurok_s BOSS_TIME matches 60 run scoreboard players set asurok_s BOSS_TIME 0

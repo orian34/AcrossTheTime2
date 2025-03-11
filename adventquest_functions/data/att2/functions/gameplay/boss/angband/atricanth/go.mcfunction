@@ -49,5 +49,15 @@ execute if score Atricanth SQ57 matches -2 in minecraft:the_nether run tp @a[x=3
 # Reinitialize boss when the player kill it and got out
 execute if score Atricanth SQ57 matches -2 in minecraft:the_nether unless entity @a[x=3445,y=32,z=4323,dx=-40,dy=-18,dz=-40,gamemode=adventure,tag=!Dead] run function att2:gameplay/boss/angband/atricanth/initialize
 
+
 ##SPELL32 quest CHECK
 scoreboard players set @a[x=3445,y=32,z=4323,dx=-40,dy=-18,dz=-40,gamemode=adventure] tp_spell32_timer 20
+
+##boss_timer->GO
+execute if score atricanth_t BOSS_TIME matches 0.. run scoreboard players add atricanth_t BOSS_TIME 1
+
+execute if score atricanth_t BOSS_TIME matches 20 run scoreboard players add atricanth_s BOSS_TIME 1
+execute if score atricanth_t BOSS_TIME matches 20 run scoreboard players set atricanth_t BOSS_TIME 0
+
+execute if score atricanth_s BOSS_TIME matches 60 run scoreboard players add atricanth_m BOSS_TIME 1
+execute if score atricanth_s BOSS_TIME matches 60 run scoreboard players set atricanth_s BOSS_TIME 0

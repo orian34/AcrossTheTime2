@@ -16,3 +16,5 @@ function att2:gameplay/checkpoint/angband/angor18
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/rodmat
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/rodmat_master
+##boss_time over
+function att2:gameplay/boss/angband/rodmat/time/time_over

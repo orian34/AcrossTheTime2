@@ -47,3 +47,11 @@ execute if score Karon ANGOR matches -2 in minecraft:the_nether unless entity @a
 
 ##SPELL32 quest CHECK
 scoreboard players set @a[x=3539,y=123,z=4497,dx=-29,dy=4,dz=50,gamemode=adventure] tp_spell32_timer 20
+##boss_timer->GO
+execute if score karon_t BOSS_TIME matches 0.. run scoreboard players add karon_t BOSS_TIME 1
+
+execute if score karon_t BOSS_TIME matches 20 run scoreboard players add karon_s BOSS_TIME 1
+execute if score karon_t BOSS_TIME matches 20 run scoreboard players set karon_t BOSS_TIME 0
+
+execute if score karon_s BOSS_TIME matches 60 run scoreboard players add karon_m BOSS_TIME 1
+execute if score karon_s BOSS_TIME matches 60 run scoreboard players set karon_s BOSS_TIME 0

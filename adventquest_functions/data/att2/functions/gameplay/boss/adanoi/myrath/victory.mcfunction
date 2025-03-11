@@ -14,3 +14,5 @@ execute if score SQ26 SIDEQUEST matches 5 run function att2:cinematic/sidequest/
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/myrath
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/myrath_master
+##boss_time over
+function att2:gameplay/boss/adanoi/myrath/time/time_over

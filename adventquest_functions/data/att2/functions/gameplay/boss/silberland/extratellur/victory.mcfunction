@@ -14,3 +14,5 @@ effect clear @a minecraft:darkness
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/extratellur
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/extratellur_master
+##boss_time over
+function att2:gameplay/boss/silberland/extratellur/time/time_over

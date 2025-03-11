@@ -18,3 +18,5 @@ function att2:gameplay/boss/billgart/gestrom/init_bossbar
 effect give 00000000-0000-014b-0000-00000000014b minecraft:instant_health 1 10 true
 function att2:physicmod/reg3/dungeon/gestrom_door2
 function att2:gameplay/checkpoint/billgart/dungeon39
+##boss_timer Start
+function att2:gameplay/boss/billgart/gestrom/time/start

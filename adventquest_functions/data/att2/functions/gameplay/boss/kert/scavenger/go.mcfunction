@@ -44,3 +44,11 @@ execute if score Scavenger SQ51 matches -2 unless entity @a[x=-5566,y=44,z=-4577
 
 ##SPELL32 quest CHECK
 scoreboard players set @a[x=-5566,y=44,z=-4577,dx=31,dy=17,dz=36,gamemode=adventure] tp_spell32_timer 20
+##boss_timer->GO
+execute if score scavenger_t BOSS_TIME matches 0.. run scoreboard players add scavenger_t BOSS_TIME 1
+
+execute if score scavenger_t BOSS_TIME matches 20 run scoreboard players add scavenger_s BOSS_TIME 1
+execute if score scavenger_t BOSS_TIME matches 20 run scoreboard players set scavenger_t BOSS_TIME 0
+
+execute if score scavenger_s BOSS_TIME matches 60 run scoreboard players add scavenger_m BOSS_TIME 1
+execute if score scavenger_s BOSS_TIME matches 60 run scoreboard players set scavenger_s BOSS_TIME 0

@@ -12,3 +12,5 @@ execute as @a run function att2:sound/misc/fail_boss
 execute as @a run function att2:dialogs/sidequest/sq41/system_1
 function att2:gameplay/boss/asunark/rackham/destroy_minions
 function att2:physicmod/reg1/asunark/rackham_fire_off
+##bosstime reset
+function att2:gameplay/boss/asunark/rackham/time/fail

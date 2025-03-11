@@ -15,3 +15,5 @@ execute in minecraft:overworld run spawnpoint @a -4636 57 -5490
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/felroth
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/felroth_master
+##boss_time over
+function att2:gameplay/boss/worlest/felroth/time/time_over
