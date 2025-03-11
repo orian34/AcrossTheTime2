@@ -34,3 +34,5 @@ advancement grant @a only att2:quest/sq30
 
 #hidden chest access
 setblock -4951 145 -4921 minecraft:stone_brick_stairs[facing=west,half=bottom,shape=straight]
+
+setblock -4922 76 -5017 minecraft:redstone_torch
