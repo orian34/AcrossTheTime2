@@ -15,3 +15,5 @@ execute if score SQ46 SIDEQUEST matches 1..3 run function att2:cinematic/sideque
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/umbratyanth
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/umbratyanth_master
 execute if score level DIFFICULTY matches 2.. run advancement grant @a only att2:hunting/umbratyanth_nightmare
+##boss_time over
+function att2:gameplay/boss/ether/umbratyanth/time/time_over

@@ -47,3 +47,11 @@ execute if score Kum SQ53 matches -2 unless entity @a[x=-1533,y=9,z=-589,dx=-39,
 
 ##SPELL32 quest CHECK
 scoreboard players set @a[x=-1533,y=9,z=-589,dx=-39,dy=52,dz=-32,gamemode=adventure] tp_spell32_timer 20
+##boss_timer->GO
+execute if score kum_t BOSS_TIME matches 0.. run scoreboard players add kum_t BOSS_TIME 1
+
+execute if score kum_t BOSS_TIME matches 20 run scoreboard players add kum_s BOSS_TIME 1
+execute if score kum_t BOSS_TIME matches 20 run scoreboard players set kum_t BOSS_TIME 0
+
+execute if score kum_s BOSS_TIME matches 60 run scoreboard players add kum_m BOSS_TIME 1
+execute if score kum_s BOSS_TIME matches 60 run scoreboard players set kum_s BOSS_TIME 0

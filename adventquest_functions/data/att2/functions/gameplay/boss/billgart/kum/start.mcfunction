@@ -15,3 +15,5 @@ function att2:gameplay/boss/billgart/kum/summoning_minion3
 function att2:gameplay/boss/billgart/kum/init_bossbar
 effect give 00000000-0000-021c-0000-00000000021c minecraft:instant_health 1 10 true
 function att2:gameplay/checkpoint/billgart/lost0
+##boss_timer Start
+function att2:gameplay/boss/billgart/kum/time/start

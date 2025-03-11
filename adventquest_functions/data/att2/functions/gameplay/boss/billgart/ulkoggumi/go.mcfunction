@@ -44,3 +44,11 @@ execute if score Ulkoggumi BILLGART matches -2 in minecraft:the_end unless entit
 
 ##SPELL32 quest CHECK
 scoreboard players set @a[x=-1137,y=106,z=-542,dx=24,dy=7,dz=-36,gamemode=adventure] tp_spell32_timer 20
+##boss_timer->GO
+execute if score ulkoggumi_t BOSS_TIME matches 0.. run scoreboard players add ulkoggumi_t BOSS_TIME 1
+
+execute if score ulkoggumi_t BOSS_TIME matches 20 run scoreboard players add ulkoggumi_s BOSS_TIME 1
+execute if score ulkoggumi_t BOSS_TIME matches 20 run scoreboard players set ulkoggumi_t BOSS_TIME 0
+
+execute if score ulkoggumi_s BOSS_TIME matches 60 run scoreboard players add ulkoggumi_m BOSS_TIME 1
+execute if score ulkoggumi_s BOSS_TIME matches 60 run scoreboard players set ulkoggumi_s BOSS_TIME 0

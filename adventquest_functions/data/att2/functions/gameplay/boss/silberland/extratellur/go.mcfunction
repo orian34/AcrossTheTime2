@@ -49,5 +49,14 @@ execute if score Extratellur SECRET_DUNGEON matches -2 as @a[x=-4560,y=51,z=-595
 # Reinitialize boss when the player killed it and got out (except after the first time)
 execute if score Extratellur SECRET_DUNGEON matches -2 unless entity @a[x=-4559,y=65,z=-5981,dx=-25,dy=-16,dz=30,gamemode=adventure] run function att2:gameplay/boss/silberland/extratellur/initialize
 
+
 ##SPELL32 quest CHECK
 scoreboard players set @a[x=-4559,y=65,z=-5981,dx=-25,dy=-16,dz=30,gamemode=adventure] tp_spell32_timer 20
+##boss_timer->GO
+execute if score extratellur_t BOSS_TIME matches 0.. run scoreboard players add extratellur_t BOSS_TIME 1
+
+execute if score extratellur_t BOSS_TIME matches 20 run scoreboard players add extratellur_s BOSS_TIME 1
+execute if score extratellur_t BOSS_TIME matches 20 run scoreboard players set extratellur_t BOSS_TIME 0
+
+execute if score extratellur_s BOSS_TIME matches 60 run scoreboard players add extratellur_m BOSS_TIME 1
+execute if score extratellur_s BOSS_TIME matches 60 run scoreboard players set extratellur_s BOSS_TIME 0

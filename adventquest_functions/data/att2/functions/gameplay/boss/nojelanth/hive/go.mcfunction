@@ -49,3 +49,11 @@ execute if score Hive SQ58 matches -2 unless entity @a[x=-7536,y=78,z=-4163,dx=-
 
 ##SPELL32 quest CHECK
 scoreboard players set @a[x=-7536,y=78,z=-4163,dx=-21,dy=-11,dz=-24,gamemode=adventure] tp_spell32_timer 20
+##boss_timer->GO
+execute if score hive_t BOSS_TIME matches 0.. run scoreboard players add hive_t BOSS_TIME 1
+
+execute if score hive_t BOSS_TIME matches 20 run scoreboard players add hive_s BOSS_TIME 1
+execute if score hive_t BOSS_TIME matches 20 run scoreboard players set hive_t BOSS_TIME 0
+
+execute if score hive_s BOSS_TIME matches 60 run scoreboard players add hive_m BOSS_TIME 1
+execute if score hive_s BOSS_TIME matches 60 run scoreboard players set hive_s BOSS_TIME 0

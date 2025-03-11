@@ -16,3 +16,5 @@ setblock -7543 62 -4184 minecraft:air
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/hive
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/hive_master
+##boss_time over
+function att2:gameplay/boss/nojelanth/hive/time/time_over

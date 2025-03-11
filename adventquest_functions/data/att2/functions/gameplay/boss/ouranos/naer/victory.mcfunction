@@ -17,3 +17,5 @@ function att2:gameplay/checkpoint/ouranos/tower3_road6
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/naer
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/naer_master
+##boss_time over
+function att2:gameplay/boss/ouranos/naer/time/time_over

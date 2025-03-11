@@ -44,3 +44,11 @@ execute if score Blobby SQ54 matches -2 unless entity @a[x=-5392,y=23,z=-4999,dx
 
 ##SPELL32 quest CHECK
 scoreboard players set @a[x=-5392,y=23,z=-4999,dx=77,dy=100,dz=77,gamemode=adventure] tp_spell32_timer 20
+##boss_timer->GO
+execute if score blobby_t BOSS_TIME matches 0.. run scoreboard players add blobby_t BOSS_TIME 1
+
+execute if score blobby_t BOSS_TIME matches 20 run scoreboard players add blobby_s BOSS_TIME 1
+execute if score blobby_t BOSS_TIME matches 20 run scoreboard players set blobby_t BOSS_TIME 0
+
+execute if score blobby_s BOSS_TIME matches 60 run scoreboard players add blobby_m BOSS_TIME 1
+execute if score blobby_s BOSS_TIME matches 60 run scoreboard players set blobby_s BOSS_TIME 0

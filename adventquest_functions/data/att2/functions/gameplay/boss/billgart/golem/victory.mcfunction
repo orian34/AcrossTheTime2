@@ -22,3 +22,5 @@ execute if score Mainquest SIDEQUEST matches 142.. run function att2:gameplay/ch
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/golem
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/golem_master
+##boss_time over
+function att2:gameplay/boss/billgart/golem/time/time_over

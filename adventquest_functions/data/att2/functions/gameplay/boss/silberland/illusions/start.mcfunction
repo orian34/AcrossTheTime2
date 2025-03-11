@@ -16,3 +16,5 @@ effect give 00000000-0000-007c-0000-00000000007c minecraft:instant_health 1 10 t
 function att2:gameplay/boss/silberland/illusions/summon_minions
 function att2:gameplay/boss/silberland/illusions/init_bossbar
 function att2:gameplay/checkpoint/telluron_present/plain3
+##boss_timer Start
+function att2:gameplay/boss/silberland/illusions/time/start

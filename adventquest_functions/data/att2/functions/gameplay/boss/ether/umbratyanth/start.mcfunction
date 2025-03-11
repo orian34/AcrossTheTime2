@@ -33,3 +33,5 @@ scoreboard players set Timer1 UMBRATYANTH 1
 scoreboard players set Timer2 UMBRATYANTH 0
 scoreboard players set Timer3 UMBRATYANTH 0
 scoreboard players set Timer4 UMBRATYANTH 0
+##boss_timer Start
+function att2:gameplay/boss/ether/umbratyanth/time/start

@@ -47,3 +47,11 @@ execute if score Miehanov VONAHEIM matches -2 unless entity @a[x=-5641,y=165,z=-
 
 ##SPELL32 quest CHECK
 scoreboard players set @a[x=-5641,y=165,z=-6342,dx=52,dy=21,dz=-51,gamemode=adventure] tp_spell32_timer 20
+##boss_timer->GO
+execute if score miehanov_t BOSS_TIME matches 0.. run scoreboard players add miehanov_t BOSS_TIME 1
+
+execute if score miehanov_t BOSS_TIME matches 20 run scoreboard players add miehanov_s BOSS_TIME 1
+execute if score miehanov_t BOSS_TIME matches 20 run scoreboard players set miehanov_t BOSS_TIME 0
+
+execute if score miehanov_s BOSS_TIME matches 60 run scoreboard players add miehanov_m BOSS_TIME 1
+execute if score miehanov_s BOSS_TIME matches 60 run scoreboard players set miehanov_s BOSS_TIME 0

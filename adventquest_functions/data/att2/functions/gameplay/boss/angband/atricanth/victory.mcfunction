@@ -18,3 +18,5 @@ execute if score SQ57 SIDEQUEST matches 1 run function att2:cinematic/sidequest/
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/atricanth
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/atricanth_master
+##boss_time over
+function att2:gameplay/boss/angband/atricanth/time/time_over

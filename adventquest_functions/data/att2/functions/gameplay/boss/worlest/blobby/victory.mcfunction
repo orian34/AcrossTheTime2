@@ -14,3 +14,5 @@ function att2:physicmod/reg1/worlest_blobby_open
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/blobby
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/blobby_master
+##boss_time over
+function att2:gameplay/boss/worlest/blobby/time/time_over

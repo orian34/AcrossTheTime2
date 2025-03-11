@@ -22,3 +22,5 @@ function att2:gameplay/boss/schestrown/shadow/destroy_minions
 execute at @a run function att2:sound/misc/fail_boss
 execute as @a run function att2:dialogs/sidequest/sq38/system_1
 function att2:physicmod/reg1/schestrown_shadow_end_attack
+##bosstime reset
+function att2:gameplay/boss/schestrown/shadow/time/fail

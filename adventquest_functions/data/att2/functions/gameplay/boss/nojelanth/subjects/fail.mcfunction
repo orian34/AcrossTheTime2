@@ -17,3 +17,5 @@ execute as @a run function att2:gameplay/boss/nojelanth/subjects/stop
 function att2:gameplay/boss/nojelanth/subjects/destroy_minions
 execute at @a run function att2:sound/misc/fail_boss
 execute as @a run function att2:dialogs/mainquest/act_4/ch5_system_1
+##bosstime reset
+function att2:gameplay/boss/nojelanth/subjects/time/fail

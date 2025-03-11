@@ -44,3 +44,11 @@ execute if score Gestrom BILLGART matches -2 in minecraft:the_end unless entity 
 
 ##SPELL32 quest CHECK
 scoreboard players set @a[x=-1130,y=199,z=-690,dx=-9,dy=10,dz=22,gamemode=adventure] tp_spell32_timer 20
+##boss_timer->GO
+execute if score gestrom_t BOSS_TIME matches 0.. run scoreboard players add gestrom_t BOSS_TIME 1
+
+execute if score gestrom_t BOSS_TIME matches 20 run scoreboard players add gestrom_s BOSS_TIME 1
+execute if score gestrom_t BOSS_TIME matches 20 run scoreboard players set gestrom_t BOSS_TIME 0
+
+execute if score gestrom_s BOSS_TIME matches 60 run scoreboard players add gestrom_m BOSS_TIME 1
+execute if score gestrom_s BOSS_TIME matches 60 run scoreboard players set gestrom_s BOSS_TIME 0

@@ -11,3 +11,5 @@ execute as @a run function att2:gameplay/boss/adanoi/myrath/stop
 execute as @a run function att2:sound/misc/fail_boss
 execute as @a run function att2:dialogs/sidequest/sq26/system_1
 function att2:gameplay/boss/adanoi/myrath/destroy_minions
+##bosstime reset
+function att2:gameplay/boss/adanoi/myrath/time/fail

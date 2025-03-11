@@ -43,8 +43,19 @@ execute if score Doom SQ56 matches 0.. if entity @a[x=-5229,y=47,z=-6293,distanc
 
 # Testing if player drop the medaillon and open the secret in the academy after SQ56 completed
 execute if score SQ56 SIDEQUEST matches 100 if score secret SQ56 matches 0 if entity @a[x=-5254,y=104,z=-6338,distance=..4,gamemode=adventure,nbt={Inventory:[{id:"minecraft:nether_star",Count:1b,tag:{display:{"Lore":["{\"text\":\"§4§oMedaillon\"}"]}}}]}] run function att2:gameplay/boss/elcheol/doom/secret_medaillon
+
+
 # Clean medaillon if player drop it after opend the secret in the academy after SQ56 completed
 execute if score SQ56 SIDEQUEST matches 100 if score secret SQ56 matches 1 as @a[nbt={Inventory:[{tag:{display:{"Lore":["{\"text\":\"§4§oMedaillon\"}"]}}}]}] at @s run clear @s minecraft:nether_star{display:{"Lore":["{\"text\":\"§4§oMedaillon\"}"]}}
 
+
 ##SPELL32 quest CHECK
 scoreboard players set @a[x=-5229,y=47,z=-6293,distance=..25,gamemode=adventure] tp_spell32_timer 20
+##boss_timer->GO
+execute if score doom_t BOSS_TIME matches 0.. run scoreboard players add doom_t BOSS_TIME 1
+
+execute if score doom_t BOSS_TIME matches 20 run scoreboard players add doom_s BOSS_TIME 1
+execute if score doom_t BOSS_TIME matches 20 run scoreboard players set doom_t BOSS_TIME 0
+
+execute if score doom_s BOSS_TIME matches 60 run scoreboard players add doom_m BOSS_TIME 1
+execute if score doom_s BOSS_TIME matches 60 run scoreboard players set doom_s BOSS_TIME 0

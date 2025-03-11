@@ -17,3 +17,5 @@ effect clear @a minecraft:nausea
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/illusions
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/illusions_master
+##boss_time over
+function att2:gameplay/boss/silberland/illusions/time/time_over

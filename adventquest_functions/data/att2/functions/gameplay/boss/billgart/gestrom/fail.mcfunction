@@ -11,3 +11,5 @@ execute as @a run function att2:gameplay/boss/billgart/gestrom/stop
 function att2:gameplay/boss/billgart/gestrom/destroy_minions
 execute at @a run function att2:sound/misc/fail_boss
 execute as @a run function att2:dialogs/mainquest/act_4/ch3_system_4
+##bosstime reset
+function att2:gameplay/boss/billgart/gestrom/time/fail

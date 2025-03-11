@@ -43,3 +43,11 @@ execute if score Aozathreyon OURANOS matches -2 unless entity @a[x=7316,y=154,z=
 
 ##SPELL32 quest CHECK
 scoreboard players set @a[x=7316,y=154,z=6554,dx=-46,dy=48,dz=46,gamemode=adventure] tp_spell32_timer 20
+##boss_timer->GO
+execute if score aozathreyon_t BOSS_TIME matches 0.. run scoreboard players add aozathreyon_t BOSS_TIME 1
+
+execute if score aozathreyon_t BOSS_TIME matches 20 run scoreboard players add aozathreyon_s BOSS_TIME 1
+execute if score aozathreyon_t BOSS_TIME matches 20 run scoreboard players set aozathreyon_t BOSS_TIME 0
+
+execute if score aozathreyon_s BOSS_TIME matches 60 run scoreboard players add aozathreyon_m BOSS_TIME 1
+execute if score aozathreyon_s BOSS_TIME matches 60 run scoreboard players set aozathreyon_s BOSS_TIME 0

@@ -11,3 +11,5 @@ function att2:gameplay/boss/ouranos/aozathreyon/init_bossbar
 effect give 00000000-0000-015b-0000-00000000015b minecraft:instant_health 1 10 true
 function att2:physicmod/reg4/aozathreyon_reset
 function att2:gameplay/checkpoint/ouranos/tower3_road2
+##boss_timer Start
+function att2:gameplay/boss/ouranos/aozathreyon/time/start

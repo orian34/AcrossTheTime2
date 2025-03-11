@@ -17,3 +17,5 @@ function att2:gameplay/boss/nojelanth/hive/summoning_minion
 function att2:gameplay/boss/nojelanth/hive/summoning_minion
 function att2:gameplay/boss/nojelanth/hive/init_bossbar
 function att2:gameplay/checkpoint/telluron_past/nojelanth16
+##boss_timer Start
+function att2:gameplay/boss/nojelanth/hive/time/start

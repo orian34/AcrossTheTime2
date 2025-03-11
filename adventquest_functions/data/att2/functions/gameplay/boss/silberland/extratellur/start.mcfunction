@@ -19,3 +19,5 @@ data merge entity @e[x=-4577,y=50,z=-5957,distance=4,type=minecraft:warden,limit
 effect give @e[x=-4559,y=65,z=-5981,dx=-25,dy=-16,dz=30,type=minecraft:warden] minecraft:instant_health 1 10 true
 function att2:gameplay/boss/silberland/extratellur/init_bossbar
 function att2:gameplay/checkpoint/telluron_present/secret_dungeon13
+##boss_timer Start
+function att2:gameplay/boss/silberland/extratellur/time/start

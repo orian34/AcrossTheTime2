@@ -15,3 +15,5 @@ function att2:gameplay/checkpoint/billgart/lost1
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/kum
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/kum_master
+##boss_time over
+function att2:gameplay/boss/billgart/kum/time/time_over

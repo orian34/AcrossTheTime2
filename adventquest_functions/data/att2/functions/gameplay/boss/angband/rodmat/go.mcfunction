@@ -50,3 +50,11 @@ execute if score Rodmat SQ45 matches -2 unless entity @a[x=3734,y=87,z=4367,dx=5
 
 ##SPELL32 quest CHECK
 scoreboard players set @a[x=3734,y=87,z=4367,dx=56,dy=40,dz=38,gamemode=adventure] tp_spell32_timer 20
+##boss_timer->GO
+execute if score rodmat_t BOSS_TIME matches 0.. run scoreboard players add rodmat_t BOSS_TIME 1
+
+execute if score rodmat_t BOSS_TIME matches 20 run scoreboard players add rodmat_s BOSS_TIME 1
+execute if score rodmat_t BOSS_TIME matches 20 run scoreboard players set rodmat_t BOSS_TIME 0
+
+execute if score rodmat_s BOSS_TIME matches 60 run scoreboard players add rodmat_m BOSS_TIME 1
+execute if score rodmat_s BOSS_TIME matches 60 run scoreboard players set rodmat_s BOSS_TIME 0

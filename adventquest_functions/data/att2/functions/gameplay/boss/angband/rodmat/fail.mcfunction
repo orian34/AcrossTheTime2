@@ -12,3 +12,5 @@ function att2:gameplay/boss/angband/rodmat/destroy_minions
 execute as @a run function att2:sound/misc/fail_boss
 function att2:physicmod/reg2/angor/rodmat_lava_clean
 execute as @a run function att2:dialogs/sidequest/sq45/system_1
+##bosstime reset
+function att2:gameplay/boss/angband/rodmat/time/fail

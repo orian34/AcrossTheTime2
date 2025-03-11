@@ -15,3 +15,5 @@ execute in minecraft:overworld run spawnpoint @a 6788 127 7067
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/somniophages
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/somniophages_master
+##boss_time over
+function att2:gameplay/boss/ouranos/somniophages/time/time_over

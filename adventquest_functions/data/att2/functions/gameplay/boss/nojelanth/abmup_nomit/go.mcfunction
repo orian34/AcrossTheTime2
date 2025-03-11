@@ -46,3 +46,11 @@ execute if score Abmup_Nomit SQ58 matches -2 unless entity @a[x=-7637,y=28,z=-41
 
 ##SPELL32 quest CHECK
 scoreboard players set @a[x=-7637,y=28,z=-4173,dx=34,dy=-15,dz=-49,gamemode=adventure] tp_spell32_timer 20
+##boss_timer->GO
+execute if score abmup_nomit_t BOSS_TIME matches 0.. run scoreboard players add abmup_nomit_t BOSS_TIME 1
+
+execute if score abmup_nomit_t BOSS_TIME matches 20 run scoreboard players add abmup_nomit_s BOSS_TIME 1
+execute if score abmup_nomit_t BOSS_TIME matches 20 run scoreboard players set abmup_nomit_t BOSS_TIME 0
+
+execute if score abmup_nomit_s BOSS_TIME matches 60 run scoreboard players add abmup_nomit_m BOSS_TIME 1
+execute if score abmup_nomit_s BOSS_TIME matches 60 run scoreboard players set abmup_nomit_s BOSS_TIME 0

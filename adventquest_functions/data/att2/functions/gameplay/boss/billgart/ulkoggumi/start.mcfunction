@@ -33,3 +33,5 @@ function att2:physicmod/reg3/dungeon/ulkoggumi_button3
 function att2:physicmod/reg3/dungeon/ulkoggumi_button4
 function att2:physicmod/reg3/dungeon/ulkoggumi_button5
 function att2:physicmod/reg3/dungeon/ulkoggumi_ladders_up
+##boss_timer Start
+function att2:gameplay/boss/billgart/ulkoggumi/time/start

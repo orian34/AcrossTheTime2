@@ -45,3 +45,14 @@ execute if score Ted SQ55 matches -2 as @a[x=-5125,y=109,z=-6199,dx=0,dy=2,dz=2,
 
 # Reinitialize boss when the player killed it and got out (except after the first time)
 execute if score Ted SQ55 matches -2 unless entity @a[x=-5076,y=91,z=-6171,dx=-50,dy=32,dz=-56,gamemode=adventure] unless score SQ55 SIDEQUEST matches 1..99 run function att2:gameplay/boss/elcheol/ted/initialize
+
+##SPELL32 quest CHECK
+scoreboard players set @a[x=-5076,y=91,z=-6171,dx=-50,dy=32,dz=-56,gamemode=adventure] tp_spell32_timer 20
+##boss_timer->GO
+execute if score ted_t BOSS_TIME matches 0.. run scoreboard players add ted_t BOSS_TIME 1
+
+execute if score ted_t BOSS_TIME matches 20 run scoreboard players add ted_s BOSS_TIME 1
+execute if score ted_t BOSS_TIME matches 20 run scoreboard players set ted_t BOSS_TIME 0
+
+execute if score ted_s BOSS_TIME matches 60 run scoreboard players add ted_m BOSS_TIME 1
+execute if score ted_s BOSS_TIME matches 60 run scoreboard players set ted_s BOSS_TIME 0

@@ -15,3 +15,5 @@ execute in minecraft:overworld run spawnpoint @a -4035 39 -4279
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/francois
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/francois_master
+##boss_time over
+function att2:gameplay/boss/asunark/rackham/time/time_over

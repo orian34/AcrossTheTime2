@@ -13,3 +13,5 @@ function att2:gameplay/boss/elcheol/doom/summoning_minion
 function att2:gameplay/boss/elcheol/doom/init_bossbar
 execute in minecraft:overworld run spawnpoint @a -5229 137 -6297
 data merge entity 00000000-0000-026c-0000-00000000026c {Health:1000}
+##boss_timer Start
+function att2:gameplay/boss/elcheol/doom/time/start

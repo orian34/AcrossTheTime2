@@ -16,3 +16,5 @@ execute in minecraft:overworld run spawnpoint @a -5229 143 -6299
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/doom
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/doom_master
+##boss_time over
+function att2:gameplay/boss/elcheol/doom/time/time_over

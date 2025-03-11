@@ -11,3 +11,5 @@ execute as @a run function att2:gameplay/boss/kert/scavenger/stop
 execute as @a run function att2:sound/misc/fail_boss
 execute as @a run function att2:dialogs/sidequest/sq51/system_1
 function att2:gameplay/boss/kert/scavenger/destroy_minions
+##bosstime reset
+function att2:gameplay/boss/kert/scavenger/time/fail

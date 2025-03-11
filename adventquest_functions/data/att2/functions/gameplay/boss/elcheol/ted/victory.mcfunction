@@ -13,3 +13,5 @@ execute in minecraft:overworld run spawnpoint @a -5130 109 -6198
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/ted
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/ted_master
+##boss_time over
+function att2:gameplay/boss/elcheol/ted/time/time_over

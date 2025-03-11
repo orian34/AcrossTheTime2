@@ -12,3 +12,5 @@ function att2:gameplay/boss/billgart/kum/emerald_trap_off
 execute as @a run function att2:sound/misc/fail_boss
 execute as @a run function att2:dialogs/sidequest/sq53/system_1
 function att2:gameplay/boss/billgart/kum/destroy_minions
+##bosstime reset
+function att2:gameplay/boss/billgart/kum/time/fail

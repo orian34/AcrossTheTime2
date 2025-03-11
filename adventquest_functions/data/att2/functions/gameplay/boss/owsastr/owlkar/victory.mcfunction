@@ -15,3 +15,5 @@ execute in minecraft:overworld run spawnpoint @a -5088 80 -4381
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/owlkar
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/owlkar_master
+##boss_time over
+function att2:gameplay/boss/owsastr/owlkar/time/time_over

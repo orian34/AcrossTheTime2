@@ -13,3 +13,5 @@ execute as @a run function att2:gameplay/boss/nojelanth/abmup_nomit/stop
 execute as @a run function att2:sound/misc/fail_boss
 execute as @a run function att2:dialogs/sidequest/sq58/system_1
 function att2:gameplay/boss/nojelanth/abmup_nomit/destroy_minions
+##bosstime reset
+function att2:gameplay/boss/nojelanth/abmup_nomit/time/fail

@@ -60,3 +60,11 @@ execute if score Owlkar OWSASTR matches -2 unless entity @a[x=-5073,y=71,z=-4404
 
 ##SPELL32 quest CHECK
 scoreboard players set @a[x=-5073,y=71,z=-4404,dx=46,dy=10,dz=46,gamemode=adventure] tp_spell32_timer 20
+##boss_timer->GO
+execute if score owlkar_t BOSS_TIME matches 0.. run scoreboard players add owlkar_t BOSS_TIME 1
+
+execute if score owlkar_t BOSS_TIME matches 20 run scoreboard players add owlkar_s BOSS_TIME 1
+execute if score owlkar_t BOSS_TIME matches 20 run scoreboard players set owlkar_t BOSS_TIME 0
+
+execute if score owlkar_s BOSS_TIME matches 60 run scoreboard players add owlkar_m BOSS_TIME 1
+execute if score owlkar_s BOSS_TIME matches 60 run scoreboard players set owlkar_s BOSS_TIME 0

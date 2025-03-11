@@ -48,3 +48,11 @@ execute if score Rackham SQ41 matches -2 unless entity @a[x=-4032,y=35,z=-4294,d
 
 ##SPELL32 quest CHECK
 scoreboard players set @a[x=-4032,y=35,z=-4294,dx=29,dy=17,dz=30,gamemode=adventure] tp_spell32_timer 20
+##boss_timer->GO
+execute if score rackham_t BOSS_TIME matches 0.. run scoreboard players add rackham_t BOSS_TIME 1
+
+execute if score rackham_t BOSS_TIME matches 20 run scoreboard players add rackham_s BOSS_TIME 1
+execute if score rackham_t BOSS_TIME matches 20 run scoreboard players set rackham_t BOSS_TIME 0
+
+execute if score rackham_s BOSS_TIME matches 60 run scoreboard players add rackham_m BOSS_TIME 1
+execute if score rackham_s BOSS_TIME matches 60 run scoreboard players set rackham_s BOSS_TIME 0

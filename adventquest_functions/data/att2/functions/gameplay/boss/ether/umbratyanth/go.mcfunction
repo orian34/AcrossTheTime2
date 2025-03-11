@@ -89,3 +89,11 @@ execute if score Boss UMBRATYANTH matches 0.. if entity @a[x=-5158,y=119,z=-6911
 
 ##SPELL32 quest CHECK
 scoreboard players set @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] tp_spell32_timer 20
+##boss_timer->GO
+execute if score umbratyanth_t BOSS_TIME matches 0.. run scoreboard players add umbratyanth_t BOSS_TIME 1
+
+execute if score umbratyanth_t BOSS_TIME matches 20 run scoreboard players add umbratyanth_s BOSS_TIME 1
+execute if score umbratyanth_t BOSS_TIME matches 20 run scoreboard players set umbratyanth_t BOSS_TIME 0
+
+execute if score umbratyanth_s BOSS_TIME matches 60 run scoreboard players add umbratyanth_m BOSS_TIME 1
+execute if score umbratyanth_s BOSS_TIME matches 60 run scoreboard players set umbratyanth_s BOSS_TIME 0

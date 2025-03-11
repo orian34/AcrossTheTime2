@@ -17,3 +17,5 @@ function att2:physicmod/reg3/dungeon/ulkoggumi_ladders_up
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/ulkoggumi
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/ulkoggumi_master
+##boss_time over
+function att2:gameplay/boss/billgart/ulkoggumi/time/time_over

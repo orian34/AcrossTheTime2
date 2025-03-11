@@ -11,3 +11,5 @@ execute as @a run function att2:gameplay/boss/silberland/extratellur/stop
 function att2:gameplay/boss/silberland/extratellur/destroy_minions
 execute at @a run function att2:sound/misc/fail_boss
 execute as @a run function att2:dialogs/mainquest/misc/system_0
+##bosstime reset
+function att2:gameplay/boss/silberland/extratellur/time/fail

@@ -12,3 +12,5 @@ execute as @a run function att2:gameplay/boss/elcheol/doom/stop
 execute as @a run function att2:sound/misc/fail_boss
 execute as @a run function att2:dialogs/sidequest/sq56/system_1
 function att2:gameplay/boss/elcheol/doom/destroy_minions
+##bosstime reset
+function att2:gameplay/boss/elcheol/doom/time/fail

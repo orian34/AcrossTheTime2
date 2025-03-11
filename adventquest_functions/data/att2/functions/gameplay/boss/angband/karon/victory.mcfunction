@@ -17,3 +17,5 @@ function att2:gameplay/checkpoint/angband/angor_palace17
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/karon
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/karon_master
+##boss_time over
+function att2:gameplay/boss/angband/karon/time/time_over

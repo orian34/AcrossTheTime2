@@ -11,3 +11,5 @@ effect give 00000000-0000-019c-0000-00000000019c minecraft:instant_health 1 10 t
 function att2:gameplay/boss/kert/scavenger/summoning_minion
 function att2:gameplay/boss/kert/scavenger/init_bossbar
 function att2:gameplay/checkpoint/telluron_present/kert_desert9
+##boss_timer Start
+function att2:gameplay/boss/kert/scavenger/time/start

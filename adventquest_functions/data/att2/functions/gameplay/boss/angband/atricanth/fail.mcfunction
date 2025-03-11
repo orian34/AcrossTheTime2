@@ -15,3 +15,5 @@ execute as @a run function att2:gameplay/boss/angband/atricanth/stop
 function att2:gameplay/boss/angband/atricanth/destroy_minions
 execute as @a run function att2:sound/misc/fail_boss
 execute as @a run function att2:dialogs/sidequest/sq57/system_1
+##bosstime reset
+function att2:gameplay/boss/angband/atricanth/time/fail

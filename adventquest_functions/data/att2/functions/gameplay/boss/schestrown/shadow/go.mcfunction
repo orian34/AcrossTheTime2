@@ -55,3 +55,11 @@ execute if score Shadow SQ38 matches -2 unless entity @a[x=-4362,y=42,z=-5041,dx
 
 ##SPELL32 quest CHECK
 scoreboard players set @a[x=-4362,y=42,z=-5041,dx=-26,dy=24,dz=-56,gamemode=adventure] tp_spell32_timer 20
+##boss_timer->GO
+execute if score shadow_t BOSS_TIME matches 0.. run scoreboard players add shadow_t BOSS_TIME 1
+
+execute if score shadow_t BOSS_TIME matches 20 run scoreboard players add shadow_s BOSS_TIME 1
+execute if score shadow_t BOSS_TIME matches 20 run scoreboard players set shadow_t BOSS_TIME 0
+
+execute if score shadow_s BOSS_TIME matches 60 run scoreboard players add shadow_m BOSS_TIME 1
+execute if score shadow_s BOSS_TIME matches 60 run scoreboard players set shadow_s BOSS_TIME 0

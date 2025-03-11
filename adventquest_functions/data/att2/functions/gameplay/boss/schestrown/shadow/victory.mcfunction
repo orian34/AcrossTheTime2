@@ -14,3 +14,5 @@ function att2:gameplay/checkpoint/telluron_present/schestrown0
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/shadow
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/shadow_master
+##boss_time over
+function att2:gameplay/boss/schestrown/shadow/time/time_over

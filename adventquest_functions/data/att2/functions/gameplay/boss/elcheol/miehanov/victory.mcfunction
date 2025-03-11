@@ -18,3 +18,5 @@ execute in minecraft:overworld run spawnpoint @a -5614 166 -6399
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/miehanov
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/miehanov_master
+##boss_time over
+function att2:gameplay/boss/elcheol/miehanov/time/time_over

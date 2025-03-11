@@ -13,3 +13,5 @@ function att2:gameplay/checkpoint/telluron_past/nojelanth15
 
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:hunting/abmup_nomit
 execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/abmup_nomit_master
+##boss_time over
+function att2:gameplay/boss/nojelanth/abmup_nomit/time/time_over

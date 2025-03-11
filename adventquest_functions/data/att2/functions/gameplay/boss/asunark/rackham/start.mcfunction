@@ -15,3 +15,5 @@ effect give 00000000-0000-010c-0000-00000000010c minecraft:instant_damage 1 10 t
 function att2:physicmod/reg1/asunark/buttons_off
 function att2:physicmod/reg1/asunark/rackham_fire_off
 function att2:physicmod/reg1/asunark/rackham_fire4_on
+##boss_timer Start
+function att2:gameplay/boss/asunark/rackham/time/start

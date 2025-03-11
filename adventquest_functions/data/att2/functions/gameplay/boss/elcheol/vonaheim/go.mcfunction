@@ -65,3 +65,11 @@ execute if score Vonaheim VONAHEIM matches -2 unless score Mainquest SIDEQUEST m
 
 ##SPELL32 quest CHECK
 scoreboard players set @a[x=-5632,y=200,z=-6528,dx=36,dy=12,dz=36,gamemode=adventure] tp_spell32_timer 20
+##boss_timer->GO
+execute if score vonaheim_t BOSS_TIME matches 0.. run scoreboard players add vonaheim_t BOSS_TIME 1
+
+execute if score vonaheim_t BOSS_TIME matches 20 run scoreboard players add vonaheim_s BOSS_TIME 1
+execute if score vonaheim_t BOSS_TIME matches 20 run scoreboard players set vonaheim_t BOSS_TIME 0
+
+execute if score vonaheim_s BOSS_TIME matches 60 run scoreboard players add vonaheim_m BOSS_TIME 1
+execute if score vonaheim_s BOSS_TIME matches 60 run scoreboard players set vonaheim_s BOSS_TIME 0
