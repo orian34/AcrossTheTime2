@@ -25,9 +25,6 @@ execute as @a[gamemode=adventure] at @s if score @s openSHULKER matches 1.. run 
 scoreboard players set @a triggCHEST 0
 scoreboard players set @a openSHULKER 0
 
-# Add Spider stat killed
-scoreboard players operation @a statSPIDERKILLED += @a statSPIDERKILLED1
-scoreboard players set @a statSPIDERKILLED1 0
 
 ### Test advancement
 # Adventure
@@ -59,5 +56,3 @@ function att2:advancement/test_all/spell
 
 # Treasure
 function att2:advancement/test_all/treasure
-
-
