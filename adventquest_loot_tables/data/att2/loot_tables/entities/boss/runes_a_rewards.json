@@ -16,7 +16,7 @@
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.0009
+                            "chance": 0.0005
                         }
                     ],
                     "functions": [
@@ -39,7 +39,7 @@
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.0008
+                            "chance": 0.0004
                         }
                     ],
                     "functions": [
@@ -62,7 +62,7 @@
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.0007
+                            "chance": 0.00033
                         }
                     ],
                     "functions": [
@@ -85,7 +85,7 @@
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.0006
+                            "chance": 0.00025
                         }
                     ],
                     "functions": [
@@ -108,7 +108,7 @@
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.0005
+                            "chance": 0.0002
                         }
                     ],
                     "functions": [
@@ -131,7 +131,7 @@
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.0004
+                            "chance": 0.00015
                         }
                     ],
                     "functions": [
@@ -154,7 +154,7 @@
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.0003
+                            "chance": 0.0001
                         }
                     ],
                     "functions": [
@@ -177,7 +177,7 @@
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.0002
+                            "chance": 0.000075
                         }
                     ],
                     "functions": [
@@ -200,7 +200,7 @@
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.0001
+                            "chance": 0.00005
                         }
                     ],
                     "functions": [
