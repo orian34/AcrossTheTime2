@@ -13,7 +13,7 @@ tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Etotsira : ","color":"blue","ext
 
 #ENGLISH LANGUAGE
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Alchemists have always had a taste for speaking in riddles for their whimsical quest... Go see him, it might even be linked to this event.","color":"dark_aqua"}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Etotsira : ","color":"blue","extra":[{"text":"Alchemists always had a taste for speaking in riddles for their whimsical quest... Go see him, it might even be linked to this event.","color":"dark_aqua"}]}
 
 
 #CHINESE LANGUAGE
