@@ -13,7 +13,7 @@ execute if entity @s[advancements={att2:hunting/karon=true}] run function att2:d
 execute if entity @s[advancements={att2:hunting/rodmat=true}] run function att2:dialogs/gameplay/boss_timer/angband/rodmat_record
 #asunark
 execute if entity @s[advancements={att2:hunting/asurok=true}] run function att2:dialogs/gameplay/boss_timer/asunark/asurok_record
-execute if entity @s[advancements={att2:hunting/rackham=true}] run function att2:dialogs/gameplay/boss_timer/asunark/rackham_record
+execute if entity @s[advancements={att2:hunting/francois=true}] run function att2:dialogs/gameplay/boss_timer/asunark/rackham_record
 #billgart
 execute if entity @s[advancements={att2:hunting/elevator=true}] run function att2:dialogs/gameplay/boss_timer/billgart/elevator_record
 execute if entity @s[advancements={att2:hunting/gestrom=true}] run function att2:dialogs/gameplay/boss_timer/billgart/gestrom_record
