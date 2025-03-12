@@ -4,6 +4,9 @@
 #########################################################################
 
 setblock ~ ~ ~ minecraft:air destroy
+function att2:summon/bat_runes_abc_rewards_1
+function att2:summon/bat_runes_c_rewards
+function att2:summon/bat_runes_c_rewards
 function att2:summon/bat_runes_c_rewards
 function att2:summon/bat_runes_c_rewards
 function att2:summon/bat_runes_c_rewards
