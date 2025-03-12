@@ -3,6 +3,9 @@
 #Process victory for all arena                                      #
 #####################################################################
 
+##total pool time
+function att2:gameplay/arena/time/total_time
+
 scoreboard players set in_fight BOSS 0
 scoreboard players add Number_Complete ARENA 1
 execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:combat/arena_easy
