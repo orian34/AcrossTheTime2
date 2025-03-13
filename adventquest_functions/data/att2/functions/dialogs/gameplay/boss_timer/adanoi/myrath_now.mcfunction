@@ -4,7 +4,7 @@
 #########################################################
 
 #FRENCH LANGUAGE
-tellraw @s[scores={LANGUAGE=0}] {"text":"§6‖ ☼§c Temps pris pour vaincre le Myrath§8:","color":"dark_red","extra":[{"score":{"name":"myrath_m","objective":"BOSS_TIME"},"color":"red"},{"text":"m","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"myrath_s","objective":"BOSS_TIME"},"color":"red"},{"text":"s","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"myrath_t","objective":"BOSS_TIME"},"color":"red"},{"text":"ms","color":"gray"},{"text":"","color":"dark_red"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"§6‖ ☼§c Temps écoulé pour vaincre Myrath§8:","color":"dark_red","extra":[{"score":{"name":"myrath_m","objective":"BOSS_TIME"},"color":"red"},{"text":"m","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"myrath_s","objective":"BOSS_TIME"},"color":"red"},{"text":"s","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"myrath_t","objective":"BOSS_TIME"},"color":"red"},{"text":"ms","color":"gray"},{"text":"","color":"dark_red"}]}
 #ENGLISH LANGUAGE
 tellraw @s[scores={LANGUAGE=1}] {"text":"§6‖ ☼§c Time taken to defeat the Myrath§8:","color":"dark_red","extra":[{"score":{"name":"myrath_m","objective":"BOSS_TIME"},"color":"red"},{"text":"m","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"myrath_s","objective":"BOSS_TIME"},"color":"red"},{"text":"s","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"myrath_t","objective":"BOSS_TIME"},"color":"red"},{"text":"ms","color":"gray"},{"text":"","color":"dark_red"}]}
 #CHINESE LANGUAGE

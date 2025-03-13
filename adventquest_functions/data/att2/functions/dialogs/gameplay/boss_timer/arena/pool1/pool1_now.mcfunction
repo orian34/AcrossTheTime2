@@ -4,7 +4,7 @@
 #########################################################
 
 #FRENCH LANGUAGE
-tellraw @s[scores={LANGUAGE=0}] {"text":"§6‖ ☼§4 Temps pris pour le tournoi II§8:","color":"dark_red","extra":[{"score":{"name":"pool1_total_nm","objective":"BOSS_TIME"},"color":"red"},{"text":"m","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"pool1_total_s","objective":"BOSS_TIME"},"color":"red"},{"text":"s","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"pool1_total_nt","objective":"BOSS_TIME"},"color":"red"},{"text":"ms","color":"gray"},{"text":"","color":"dark_red"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"§6‖ ☼§4 Temps écoulé pour terminer le tournoi II§8:","color":"dark_red","extra":[{"score":{"name":"pool1_total_nm","objective":"BOSS_TIME"},"color":"red"},{"text":"m","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"pool1_total_s","objective":"BOSS_TIME"},"color":"red"},{"text":"s","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"pool1_total_nt","objective":"BOSS_TIME"},"color":"red"},{"text":"ms","color":"gray"},{"text":"","color":"dark_red"}]}
 #ENGLISH LANGUAGE
 tellraw @s[scores={LANGUAGE=1}] {"text":"§6‖ ☼§4 Time taken for Tournament II§8:","color":"dark_red","extra":[{"score":{"name":"pool1_total_nm","objective":"BOSS_TIME"},"color":"red"},{"text":"m","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"pool1_total_ns","objective":"BOSS_TIME"},"color":"red"},{"text":"s","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"pool1_total_nt","objective":"BOSS_TIME"},"color":"red"},{"text":"ms","color":"gray"},{"text":"","color":"dark_red"}]}
 #CHINESE LANGUAGE
