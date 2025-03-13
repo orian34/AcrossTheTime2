@@ -9,6 +9,9 @@
         "show_toast": true,
         "announce_to_chat": true
     },
+    "rewards": {
+        "function": "att2:gameplay/misc/move_light/choice"
+                },
     "criteria": {
         "adventure": {
             "trigger": "minecraft:inventory_changed",
