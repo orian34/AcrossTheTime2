@@ -8,3 +8,5 @@ function att2:gameplay/arena/pool0/5/stop_wave
 execute as @a run function att2:gameplay/arena/pool0/5/stop_arena
 execute as @a run function att2:sound/misc/fail_boss
 function att2:gameplay/arena/pool0/5/destroy_minions
+##bosstime reset
+function att2:gameplay/arena/pool0/5/time/fail

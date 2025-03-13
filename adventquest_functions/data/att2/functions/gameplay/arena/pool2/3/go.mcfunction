@@ -25,3 +25,11 @@ execute if score Pool2_A3 ARENA matches 0.. if score Pool2_Timer1 ARENA matches 
 
 # Player failed destroying all bosses Pool2_A3 and died
 execute if score Pool2_A3 ARENA matches 0.. unless entity @a[x=4932,y=70,z=-5184,dx=136,dy=54,dz=136,gamemode=adventure] run function att2:gameplay/arena/pool2/3/fail
+##boss_timer->GO
+execute if score pool2_3_t BOSS_TIME matches 0.. run scoreboard players add pool2_3_t BOSS_TIME 1
+
+execute if score pool2_3_t BOSS_TIME matches 20 run scoreboard players add pool2_3_s BOSS_TIME 1
+execute if score pool2_3_t BOSS_TIME matches 20 run scoreboard players set pool2_3_t BOSS_TIME 0
+
+execute if score pool2_3_s BOSS_TIME matches 60 run scoreboard players add pool2_3_m BOSS_TIME 1
+execute if score pool2_3_s BOSS_TIME matches 60 run scoreboard players set pool2_3_s BOSS_TIME 0

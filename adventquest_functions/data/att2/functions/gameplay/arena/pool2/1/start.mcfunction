@@ -14,3 +14,5 @@ execute as @a[x=4951,y=70,z=-5377,dx=98,dy=22,dz=62] run function att2:dialogs/t
 execute as @a[x=4951,y=70,z=-5377,dx=98,dy=22,dz=62] run function att2:dialogs/title/arena/pool2_a1_subtitle
 
 scoreboard players set Pool2_A1 ARENA 1
+##effect give spider glowing
+effect give @e[type=minecraft:spider,tag=Atricanth] minecraft:glowing infinite 0 true

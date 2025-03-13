@@ -9,3 +9,5 @@ execute positioned 4984 73 -5346 run function att2:gameplay/arena/rewards_start
 execute positioned 4984 73 -5346 run function att2:gameplay/arena/pool2/rewards
 execute as @a run function att2:gameplay/arena/pool2/1/stop
 function att2:gameplay/arena/pool2/1/destroy_minions
+##boss_time over
+function att2:gameplay/arena/pool2/1/time/time_over

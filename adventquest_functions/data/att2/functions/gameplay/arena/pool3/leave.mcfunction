@@ -8,3 +8,5 @@ advancement grant @a only att2:combat/tournament_4
 scoreboard players set Tournament ARENA 4
 function att2:dialogs/title/arena/tournament4_title
 function att2:dialogs/title/arena/tournaments_subtitle
+##show_tournament1 time
+function att2:gameplay/arena/pool3/time/time_total

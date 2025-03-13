@@ -11,3 +11,5 @@ scoreboard players set Tournament ARENA 3
 function att2:dialogs/title/arena/tournament3_title
 function att2:dialogs/title/arena/tournaments_subtitle
 function att2:physicmod/reg1/arena/enter_barrier_off
+##show_tournament1 time
+function att2:gameplay/arena/pool2/time/time_total

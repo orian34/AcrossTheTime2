@@ -11,3 +11,5 @@ execute positioned 4897 71 -4745 run function att2:gameplay/arena/pool0/rewards
 function att2:gameplay/arena/pool0/4/stop_wave
 execute as @a run function att2:gameplay/arena/pool0/4/stop_arena
 function att2:gameplay/arena/pool0/4/destroy_minions
+##boss_time over
+function att2:gameplay/arena/pool0/4/time/time_over

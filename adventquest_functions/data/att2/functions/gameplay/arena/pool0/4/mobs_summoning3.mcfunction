@@ -59,3 +59,9 @@ execute positioned 4887 71 -4759 if score Pool0_Trigger_Summoning ARENA matches 
 execute positioned 4899 71 -4764 if score Pool0_Trigger_Summoning ARENA matches 1..10 run function att2:summon/arena/minions/spider_mighty1
 
 scoreboard players set Pool0_A4 ARENA 1
+##effect give spider glowing
+effect give @e[type=minecraft:spider,tag=Mighty1] minecraft:glowing infinite 0 true
+effect give @e[type=minecraft:spider,tag=Mighty2] minecraft:glowing infinite 0 true
+effect give @e[type=minecraft:spider,tag=Mighty3] minecraft:glowing infinite 0 true
+effect give @e[type=minecraft:spider,tag=Mighty4] minecraft:glowing infinite 0 true
+effect give @e[type=minecraft:spider,tag=Mighty5] minecraft:glowing infinite 0 true
