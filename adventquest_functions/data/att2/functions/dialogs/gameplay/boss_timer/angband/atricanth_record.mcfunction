@@ -4,7 +4,7 @@
 #########################################################
 
 #FRENCH LANGUAGE
-tellraw @s[scores={LANGUAGE=0}] {"text":"§6‖ ☼§c Temps pris pour vaincre l'Atricanth§8:","color":"dark_red","extra":[{"score":{"name":"atricanth_rm","objective":"BOSS_TIME"},"color":"red"},{"text":"m","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"atricanth_rs","objective":"BOSS_TIME"},"color":"red"},{"text":"s","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"atricanth_rt","objective":"BOSS_TIME"},"color":"red"},{"text":"ms","color":"gray"},{"text":"","color":"dark_red"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"§6‖ ☼§c Temps écoulé pour vaincre Atricanth§8:","color":"dark_red","extra":[{"score":{"name":"atricanth_rm","objective":"BOSS_TIME"},"color":"red"},{"text":"m","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"atricanth_rs","objective":"BOSS_TIME"},"color":"red"},{"text":"s","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"atricanth_rt","objective":"BOSS_TIME"},"color":"red"},{"text":"ms","color":"gray"},{"text":"","color":"dark_red"}]}
 #ENGLISH LANGUAGE
 tellraw @s[scores={LANGUAGE=1}] {"text":"§6‖ ☼§c Time taken to defeat the Atricanth§8:","color":"dark_red","extra":[{"score":{"name":"atricanth_rm","objective":"BOSS_TIME"},"color":"red"},{"text":"m","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"atricanth_rs","objective":"BOSS_TIME"},"color":"red"},{"text":"s","color":"gray"},{"text":":","color":"dark_gray"},{"score":{"name":"atricanth_rt","objective":"BOSS_TIME"},"color":"red"},{"text":"ms","color":"gray"},{"text":"","color":"dark_red"}]}
 #CHINESE LANGUAGE

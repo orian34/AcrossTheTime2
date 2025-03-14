@@ -9,8 +9,17 @@
         "show_toast": false
     },
     "criteria": {
-        "story": {
-            "trigger": "minecraft:impossible"
+        "collection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": [
+                        "minecraft:glowstone_dust"
+                        ]
+                    }
+                ]
+            }
         }
     }
 }

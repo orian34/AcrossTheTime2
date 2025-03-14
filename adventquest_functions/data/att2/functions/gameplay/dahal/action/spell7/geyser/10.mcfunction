@@ -107,8 +107,6 @@ execute as @s[scores={SPELL7_OP=0..2}] positioned ^3 ^ ^-6 run function att2:gam
 
 execute as @a[distance=..7] run effect give @s minecraft:fire_resistance 2 0 true
 execute as @e[team=hostile,scores={GAMELEVEL=0..},distance=..7] run effect give @s minecraft:wither 5 5 true
-# execute as @e[team=hostile,scores={GAMELEVEL=0..},distance=..7,tag=!Undead] unless entity @s[scores={SPELL7_EFFECT=1..}] run effect give @s minecraft:instant_damage 2 1 true
-# execute as @e[team=hostile,scores={GAMELEVEL=0..},distance=..7,tag=Undead] unless entity @s[scores={SPELL7_EFFECT=1..}] run effect give @s minecraft:instant_health 2 1 true
 execute as @e[team=hostile,scores={GAMELEVEL=0..},distance=..7] at @s unless entity @s[scores={SPELL7_EFFECT=1..}] run tp @s ~ ~0.1 ~ ~ ~
 tp @s ~ ~ ~ ~0.5 ~
 
