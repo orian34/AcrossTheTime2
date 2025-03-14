@@ -4,6 +4,8 @@
 #################################################################
 
 function att2:sound/dialogs/simple
+tp @e[type=minecraft:shulker,tag=MainObjective] ~ ~-100 ~
+tp @e[type=minecraft:shulker,tag=SideObjective] ~ ~-100 ~
 kill @e[type=minecraft:shulker,tag=MainObjective]
 kill @e[type=minecraft:shulker,tag=SideObjective]
 execute if score SQ100 SIDEQUEST matches 2 run function att2:gameplay/quest/sidequest/sq100/step1
