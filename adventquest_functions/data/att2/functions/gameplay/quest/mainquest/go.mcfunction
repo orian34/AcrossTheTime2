@@ -3,6 +3,8 @@
 #Process mainquest display help                 				#
 #################################################################
 
+kill @e[type=minecraft:shulker,tag=MainObjective]
+kill @e[type=minecraft:shulker,tag=SideObjective]
 execute if score Mainquest SIDEQUEST matches 1 run function att2:gameplay/quest/mainquest/step1
 execute if score Mainquest SIDEQUEST matches 2 run function att2:gameplay/quest/mainquest/step2
 execute if score Mainquest SIDEQUEST matches 3 run function att2:gameplay/quest/mainquest/step3

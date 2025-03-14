@@ -14,3 +14,11 @@ execute in minecraft:overworld positioned -3422 29 -4921 run function att2:gamep
 
 execute in minecraft:overworld positioned -3424 62 -5034 run function att2:gameplay/quest/mainquest/show_secondary_objective
 execute in minecraft:overworld positioned -3443 43 -4841 run function att2:gameplay/quest/mainquest/show_secondary_objective
+
+execute in minecraft:overworld positioned -3443 29 -4874 run function att2:gameplay/quest/mainquest/show_secondary_objective
+execute in minecraft:overworld positioned -3443 31 -4862 run function att2:gameplay/quest/mainquest/show_secondary_objective
+
+execute in minecraft:overworld positioned -3336 43 -4885 run function att2:gameplay/quest/mainquest/show_secondary_objective
+execute in minecraft:overworld positioned -3545 28 -4761 run function att2:gameplay/quest/mainquest/show_secondary_objective
+
+execute in minecraft:overworld positioned -3463 29 -5015 run function att2:gameplay/quest/mainquest/show_secondary_objective

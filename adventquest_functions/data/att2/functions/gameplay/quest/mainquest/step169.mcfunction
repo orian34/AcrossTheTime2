@@ -9,3 +9,5 @@ execute in minecraft:the_end positioned -1182 107 -649 run function att2:gamepla
 execute in minecraft:the_end as @e[tag=newGPS] at @s anchored feet facing -1182 107 -649 run function att2:gameplay/gps/tp_arrow
 execute in minecraft:the_end positioned -1182 185 -655 run function att2:gameplay/quest/mainquest/show_secondary_objective
 execute in minecraft:the_end positioned -1128 200 -679 run function att2:gameplay/quest/mainquest/show_secondary_objective
+
+execute in minecraft:the_end positioned -1156 118 -639 run function att2:gameplay/quest/mainquest/show_secondary_objective

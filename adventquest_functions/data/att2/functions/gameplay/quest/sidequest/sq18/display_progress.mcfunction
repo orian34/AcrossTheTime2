@@ -4,6 +4,8 @@
 #################################################################
 
 function att2:sound/dialogs/simple
+kill @e[type=minecraft:shulker,tag=MainObjective]
+kill @e[type=minecraft:shulker,tag=SideObjective]
 scoreboard players set Objective GPS_DIM 6
 execute if score SQ18 SIDEQUEST matches 1 run function att2:gameplay/quest/sidequest/sq18/step1
 execute if score SQ18 SIDEQUEST matches 2 run function att2:gameplay/quest/sidequest/sq18/step2
