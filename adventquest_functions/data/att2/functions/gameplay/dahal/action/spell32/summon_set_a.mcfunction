@@ -13,17 +13,29 @@ execute as @s[scores={NUMEROJOUEUR=3}] run scoreboard players set @s tp_point_se
 execute as @s[scores={NUMEROJOUEUR=4}] run scoreboard players set @s tp_point_set_a 1
 execute as @s[scores={NUMEROJOUEUR=5}] run scoreboard players set @s tp_point_set_a 1
 ##kill加载范围内的上一个盔甲架 Kill the previous armor stand within the loading range.
+execute if entity @s[scores={NUMEROJOUEUR=1}] as @e[tag=SpaceTeleportSpellSETA,tag=player1] at @s run forceload remove ~ ~
+execute if entity @s[scores={NUMEROJOUEUR=2}] as @e[tag=SpaceTeleportSpellSETA,tag=player1] at @s run forceload remove ~ ~
+execute if entity @s[scores={NUMEROJOUEUR=3}] as @e[tag=SpaceTeleportSpellSETA,tag=player1] at @s run forceload remove ~ ~
+execute if entity @s[scores={NUMEROJOUEUR=4}] as @e[tag=SpaceTeleportSpellSETA,tag=player1] at @s run forceload remove ~ ~
+execute if entity @s[scores={NUMEROJOUEUR=5}] as @e[tag=SpaceTeleportSpellSETA,tag=player1] at @s run forceload remove ~ ~
+
 execute as @s[scores={NUMEROJOUEUR=1}] run kill @e[tag=SpaceTeleportSpellSETA,tag=player1]
 execute as @s[scores={NUMEROJOUEUR=2}] run kill @e[tag=SpaceTeleportSpellSETA,tag=player2]
 execute as @s[scores={NUMEROJOUEUR=3}] run kill @e[tag=SpaceTeleportSpellSETA,tag=player3]
 execute as @s[scores={NUMEROJOUEUR=4}] run kill @e[tag=SpaceTeleportSpellSETA,tag=player4]
 execute as @s[scores={NUMEROJOUEUR=5}] run kill @e[tag=SpaceTeleportSpellSETA,tag=player5]
 ##对应玩家编号创建传送点所需盔甲架
-execute as @s[scores={NUMEROJOUEUR=1}] run summon minecraft:armor_stand ~ ~ ~ {CustomName:"\"α Waypoint->1\"",CustomNameVisible:1b,Marker:1,DisabledSlots:4869972,Invulnerable:1b,Invisible:1b,NoGravity:1b,ShowArms:0b,Tags:["Spell32ArmorStandSet","SpaceTeleportSpellSETA","player1","Protect"]}
-execute as @s[scores={NUMEROJOUEUR=2}] run summon minecraft:armor_stand ~ ~ ~ {CustomName:"\"α Waypoint->2\"",CustomNameVisible:1b,Marker:1,DisabledSlots:4869972,Invulnerable:1b,Invisible:1b,NoGravity:1b,ShowArms:0b,Tags:["Spell32ArmorStandSet","SpaceTeleportSpellSETA","player2","Protect"]}
-execute as @s[scores={NUMEROJOUEUR=3}] run summon minecraft:armor_stand ~ ~ ~ {CustomName:"\"α Waypoint->3\"",CustomNameVisible:1b,Marker:1,DisabledSlots:4869972,Invulnerable:1b,Invisible:1b,NoGravity:1b,ShowArms:0b,Tags:["Spell32ArmorStandSet","SpaceTeleportSpellSETA","player3","Protect"]}
-execute as @s[scores={NUMEROJOUEUR=4}] run summon minecraft:armor_stand ~ ~ ~ {CustomName:"\"α Waypoint->4\"",CustomNameVisible:1b,Marker:1,DisabledSlots:4869972,Invulnerable:1b,Invisible:1b,NoGravity:1b,ShowArms:0b,Tags:["Spell32ArmorStandSet","SpaceTeleportSpellSETA","player4","Protect"]}
-execute as @s[scores={NUMEROJOUEUR=5}] run summon minecraft:armor_stand ~ ~ ~ {CustomName:"\"α Waypoint->5\"",CustomNameVisible:1b,Marker:1,DisabledSlots:4869972,Invulnerable:1b,Invisible:1b,NoGravity:1b,ShowArms:0b,Tags:["Spell32ArmorStandSet","SpaceTeleportSpellSETA","player5","Protect"]}
+execute as @s[scores={NUMEROJOUEUR=1}] run summon minecraft:armor_stand ~ ~ ~ {Marker:1,CustomName:"\"α Waypoint->1\"",CustomNameVisible:1b,DisabledSlots:4869972,Invulnerable:1b,Invisible:1b,NoGravity:1b,ShowArms:0b,Tags:["Spell32ArmorStandSet","SpaceTeleportSpellSETA","player1","Protect"]}
+execute as @s[scores={NUMEROJOUEUR=2}] run summon minecraft:armor_stand ~ ~ ~ {Marker:1,CustomName:"\"α Waypoint->2\"",CustomNameVisible:1b,DisabledSlots:4869972,Invulnerable:1b,Invisible:1b,NoGravity:1b,ShowArms:0b,Tags:["Spell32ArmorStandSet","SpaceTeleportSpellSETA","player2","Protect"]}
+execute as @s[scores={NUMEROJOUEUR=3}] run summon minecraft:armor_stand ~ ~ ~ {Marker:1,CustomName:"\"α Waypoint->3\"",CustomNameVisible:1b,DisabledSlots:4869972,Invulnerable:1b,Invisible:1b,NoGravity:1b,ShowArms:0b,Tags:["Spell32ArmorStandSet","SpaceTeleportSpellSETA","player3","Protect"]}
+execute as @s[scores={NUMEROJOUEUR=4}] run summon minecraft:armor_stand ~ ~ ~ {Marker:1,CustomName:"\"α Waypoint->4\"",CustomNameVisible:1b,DisabledSlots:4869972,Invulnerable:1b,Invisible:1b,NoGravity:1b,ShowArms:0b,Tags:["Spell32ArmorStandSet","SpaceTeleportSpellSETA","player4","Protect"]}
+execute as @s[scores={NUMEROJOUEUR=5}] run summon minecraft:armor_stand ~ ~ ~ {Marker:1,CustomName:"\"α Waypoint->5\"",CustomNameVisible:1b,DisabledSlots:4869972,Invulnerable:1b,Invisible:1b,NoGravity:1b,ShowArms:0b,Tags:["Spell32ArmorStandSet","SpaceTeleportSpellSETA","player5","Protect"]}
+##add forceload
+execute if entity @s[scores={NUMEROJOUEUR=1}] as @e[tag=SpaceTeleportSpellSETA,tag=player1] at @s run forceload add ~ ~
+execute if entity @s[scores={NUMEROJOUEUR=2}] as @e[tag=SpaceTeleportSpellSETA,tag=player2] at @s run forceload add ~ ~
+execute if entity @s[scores={NUMEROJOUEUR=3}] as @e[tag=SpaceTeleportSpellSETA,tag=player3] at @s run forceload add ~ ~
+execute if entity @s[scores={NUMEROJOUEUR=4}] as @e[tag=SpaceTeleportSpellSETA,tag=player4] at @s run forceload add ~ ~
+execute if entity @s[scores={NUMEROJOUEUR=5}] as @e[tag=SpaceTeleportSpellSETA,tag=player5] at @s run forceload add ~ ~
 ##change chinese language
 execute if entity @s[scores={LANGUAGE=2,NUMEROJOUEUR=1}] run data merge entity @e[tag=SpaceTeleportSpellSETA,tag=player1,limit=1,sort=nearest] {CustomName:"\"α传送点->1\""}
 execute if entity @s[scores={LANGUAGE=2,NUMEROJOUEUR=2}] run data merge entity @e[tag=SpaceTeleportSpellSETA,tag=player2,limit=1,sort=nearest] {CustomName:"\"α传送点->2\""}
