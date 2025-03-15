@@ -2,7 +2,7 @@
 #Made by Adventquest                             #
 #Process cinematic sylvandre_2  				 #
 ##################################################
-
+execute if score Real0 TIMER matches 0 run function att2:voice/lock_voice
 execute if score Real0 TIMER matches 0 run scoreboard players set Mainquest SIDEQUEST 5
 execute if score Real0 TIMER matches 0 run function att2:cinematic/real0_iteration
 #-- Movement
@@ -367,4 +367,5 @@ execute if score Real0 TIMER matches 2720 run function att2:cinematic/real0_iter
 #=======================#
 
 execute if score Real0 TIMER matches 2721 run scoreboard players set Mainquest SIDEQUEST 6
+execute if score Real0 TIMER matches 2721.. run function att2:voice/unlock_voice
 execute if score Real0 TIMER matches 2721.. run setblock -5029 75 -5014 minecraft:air
