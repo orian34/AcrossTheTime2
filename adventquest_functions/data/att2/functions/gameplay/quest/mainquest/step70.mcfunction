@@ -18,6 +18,20 @@ execute in minecraft:the_nether if data block 3570 84 4508 {LootTable:"att2:ches
 execute in minecraft:the_nether positioned 3555 72 4495 if block ~ ~ ~ minecraft:birch_button run function att2:gameplay/quest/mainquest/show_secondary_objective
 execute in minecraft:the_nether positioned 3552 72 4495 if block ~ ~ ~ minecraft:birch_button run function att2:gameplay/quest/mainquest/show_secondary_objective
 
+execute in minecraft:the_nether unless block 3552 72 4495 minecraft:birch_button if block 3579 46 4474 minecraft:stone_button positioned 3579 47 4473 run function att2:gameplay/quest/mainquest/show_secondary_objective
+execute in minecraft:the_nether unless block 3552 72 4495 minecraft:birch_button if block 3579 46 4558 minecraft:stone_button positioned 3579 47 4559 run function att2:gameplay/quest/mainquest/show_secondary_objective
+
+execute in minecraft:the_nether unless block 3552 72 4495 minecraft:birch_button if block 3579 46 4558 minecraft:stone_button positioned 3570 52 4507 run function att2:gameplay/quest/mainquest/show_secondary_objective
+execute in minecraft:the_nether unless block 3552 72 4495 minecraft:birch_button if block 3579 46 4558 minecraft:stone_button positioned 3570 44 4507 run function att2:gameplay/quest/mainquest/show_secondary_objective
+execute in minecraft:the_nether unless block 3552 72 4495 minecraft:birch_button if block 3579 46 4558 minecraft:stone_button positioned 3570 52 4525 run function att2:gameplay/quest/mainquest/show_secondary_objective
+execute in minecraft:the_nether unless block 3552 72 4495 minecraft:birch_button if block 3579 46 4558 minecraft:stone_button positioned 3570 44 4525 run function att2:gameplay/quest/mainquest/show_secondary_objective
+execute in minecraft:the_nether unless block 3552 72 4495 minecraft:birch_button if block 3579 46 4558 minecraft:stone_button positioned 3588 52 4525 run function att2:gameplay/quest/mainquest/show_secondary_objective
+execute in minecraft:the_nether unless block 3552 72 4495 minecraft:birch_button if block 3579 46 4558 minecraft:stone_button positioned 3588 44 4525 run function att2:gameplay/quest/mainquest/show_secondary_objective
+execute in minecraft:the_nether unless block 3552 72 4495 minecraft:birch_button if block 3579 46 4558 minecraft:stone_button positioned 3588 52 4507 run function att2:gameplay/quest/mainquest/show_secondary_objective
+execute in minecraft:the_nether unless block 3552 72 4495 minecraft:birch_button if block 3579 46 4558 minecraft:stone_button positioned 3588 44 4507 run function att2:gameplay/quest/mainquest/show_secondary_objective
+
+
+
 execute in minecraft:the_nether if block 3708 26 4568 minecraft:stone_button unless block 3623 35 4568 minecraft:stone_button run execute positioned 3640 24 4568 run function att2:gameplay/quest/mainquest/show_secondary_objective
 execute in minecraft:the_nether if block 3708 26 4568 minecraft:stone_button unless block 3623 35 4568 minecraft:stone_button run execute positioned 3623 24 4568 run function att2:gameplay/quest/mainquest/show_secondary_objective
 execute in minecraft:the_nether if block 3708 26 4568 minecraft:stone_button unless block 3623 35 4568 minecraft:stone_button run execute positioned 3709 27 4568 run function att2:gameplay/quest/mainquest/show_secondary_objective
