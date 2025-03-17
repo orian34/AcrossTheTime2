@@ -94,6 +94,8 @@ scoreboard players reset runicwords_16 RUNE
 scoreboard players reset runicwords_17 RUNE
 scoreboard players reset runicwords_18 RUNE
 scoreboard players reset runicwords_19 RUNE
+scoreboard players reset runicwords_20 RUNE
+scoreboard players reset runicwords_21 RUNE
 
 scoreboard players reset com_potion RUNE
 scoreboard players reset unc_potion RUNE

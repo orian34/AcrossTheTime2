@@ -10,8 +10,8 @@ scoreboard players operation total_item RUNE += item_count RUNE
 
 ##esc detection
 #ESC
-execute store result score esc_count RUNE if entity @s[nbt={Item:{tag:{Rarity:"unk"}}}] run data get entity @s Item.Count
-scoreboard players operation esc RUNE += esc_count RUNE
+execute store result score esc_count RUNE if entity @s[nbt={Item:{tag:{EquipmentType:"misc",Rarity:"unk"}}}] run data get entity @s Item.Count
+execute if entity @s[nbt={Item:{tag:{EquipmentType:"misc",Rarity:"unk"}}}] run scoreboard players operation esc RUNE += esc_count RUNE
 
 ##rune detection
 #gal

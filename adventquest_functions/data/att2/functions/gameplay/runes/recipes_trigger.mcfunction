@@ -3,6 +3,8 @@
 #rune detection		                                            #
 #################################################################
 
+##test 
+scoreboard players set rune_test RUNE 0
 #hopper->chest
 setblock -5029 90 -4956 minecraft:chest
 item replace block -5029 90 -4956 container.0 from block -5029 90 -4958 container.0
@@ -20,3 +22,6 @@ function att2:gameplay/runes/recipes_test/runicwords
 function att2:gameplay/runes/recipes_test/other_item
 #over
 execute as @e[type=armor_stand,tag=RUNE] at @s run kill @e[type=item,distance=..1]
+#no recipes
+execute if score rune_test RUNE matches 0 run function att2:dialogs/gameplay/runes/recipes_error
+execute if score rune_test RUNE matches 1 run function att2:dialogs/gameplay/runes/recipes_activation

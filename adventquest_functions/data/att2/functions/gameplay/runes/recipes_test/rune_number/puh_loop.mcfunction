@@ -10,11 +10,8 @@ execute if score puh RUNE matches 2.. if score esc RUNE matches 1.. run function
 execute if score puh RUNE matches 0 if score esc RUNE matches 1.. run function att2:items/chronoton/esc_give
 execute if score puh RUNE matches 0 if score esc RUNE matches 1.. run scoreboard players remove esc RUNE 1
 #back Puh
-execute if score puh RUNE matches 1 run function att2:items/runes/20_puh
-execute if score puh RUNE matches 1 run scoreboard players remove puh RUNE 1
-
-execute if score puh RUNE matches 2 if score esc RUNE matches ..2 run function att2:items/runes/20_puh
-execute if score puh RUNE matches 2 if score esc RUNE matches ..2 run scoreboard players remove puh RUNE 1
+execute if score puh RUNE matches 1.. if score esc RUNE matches 0 run function att2:items/runes/20_puh
+execute if score puh RUNE matches 1.. if score esc RUNE matches 0 run scoreboard players remove puh RUNE 1
 #over
 execute if score puh RUNE matches 0 if score esc RUNE matches 0 run function att2:gameplay/runes/recipe_done
 #loop
