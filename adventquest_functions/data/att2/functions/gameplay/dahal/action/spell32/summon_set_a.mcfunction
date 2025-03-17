@@ -14,10 +14,10 @@ execute as @s[scores={NUMEROJOUEUR=4}] run scoreboard players set @s tp_point_se
 execute as @s[scores={NUMEROJOUEUR=5}] run scoreboard players set @s tp_point_set_a 1
 ##kill加载范围内的上一个盔甲架 Kill the previous armor stand within the loading range.
 execute if entity @s[scores={NUMEROJOUEUR=1}] as @e[tag=SpaceTeleportSpellSETA,tag=player1] at @s run forceload remove ~ ~
-execute if entity @s[scores={NUMEROJOUEUR=2}] as @e[tag=SpaceTeleportSpellSETA,tag=player1] at @s run forceload remove ~ ~
-execute if entity @s[scores={NUMEROJOUEUR=3}] as @e[tag=SpaceTeleportSpellSETA,tag=player1] at @s run forceload remove ~ ~
-execute if entity @s[scores={NUMEROJOUEUR=4}] as @e[tag=SpaceTeleportSpellSETA,tag=player1] at @s run forceload remove ~ ~
-execute if entity @s[scores={NUMEROJOUEUR=5}] as @e[tag=SpaceTeleportSpellSETA,tag=player1] at @s run forceload remove ~ ~
+execute if entity @s[scores={NUMEROJOUEUR=2}] as @e[tag=SpaceTeleportSpellSETA,tag=player2] at @s run forceload remove ~ ~
+execute if entity @s[scores={NUMEROJOUEUR=3}] as @e[tag=SpaceTeleportSpellSETA,tag=player3] at @s run forceload remove ~ ~
+execute if entity @s[scores={NUMEROJOUEUR=4}] as @e[tag=SpaceTeleportSpellSETA,tag=player4] at @s run forceload remove ~ ~
+execute if entity @s[scores={NUMEROJOUEUR=5}] as @e[tag=SpaceTeleportSpellSETA,tag=player5] at @s run forceload remove ~ ~
 
 execute as @s[scores={NUMEROJOUEUR=1}] run kill @e[tag=SpaceTeleportSpellSETA,tag=player1]
 execute as @s[scores={NUMEROJOUEUR=2}] run kill @e[tag=SpaceTeleportSpellSETA,tag=player2]
