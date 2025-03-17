@@ -58,7 +58,7 @@ execute if score total_item RUNE = runicwords_8 RUNE if score runicwords_8 RUNE 
 execute if score da RUNE matches 1 run scoreboard players operation runicwords_9 RUNE += da RUNE
 execute if score for RUNE matches 1 run scoreboard players operation runicwords_9 RUNE += for RUNE
 execute if score inu RUNE matches 1 run scoreboard players operation runicwords_9 RUNE += inu RUNE
-execute if score total_item RUNE = runicwords_9 RUNE if score runicwords_9 RUNE matches 3 RUNE run function att2:items/runes/words/9_da_for_inu
+execute if score total_item RUNE = runicwords_9 RUNE if score runicwords_9 RUNE matches 3 run function att2:items/runes/words/9_da_for_inu
 #10_chu_lya_ehl
 execute if score chu RUNE matches 1 run scoreboard players operation runicwords_10 RUNE += chu RUNE
 execute if score lya RUNE matches 1 run scoreboard players operation runicwords_10 RUNE += lya RUNE

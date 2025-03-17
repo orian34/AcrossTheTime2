@@ -7,7 +7,7 @@
 #qi
 execute if score zen RUNE matches 2.. if score esc RUNE matches 1.. run 
 execute if score zen RUNE matches 2.. if score esc RUNE matches 1.. run scoreboard players remove esc RUNE 3
-execute if score zen RUNE matches 2.. run scoreboard players remove zen RUNE -= 2 RUNE
+execute if score zen RUNE matches 2.. run scoreboard players remove zen RUNE 2
 
 execute if score esc RUNE matches 1.. run scoreboard players remove esc RUNE 1
 execute if score esc RUNE matches 1.. run scoreboard players remove esc RUNE 1
