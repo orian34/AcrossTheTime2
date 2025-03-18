@@ -1,0 +1,27 @@
+{
+  "display":{
+    "icon":{
+      "item":"minecraft:emerald"
+    },
+    "title": {"translate":"test"},
+    "description": {"translate":"armorstand_interacted"},
+    "hidden": true,
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "rewards":{
+    "function":"att2:gameplay/runes/set_runicwords/trigger"
+  },
+  "criteria":{
+    "test":{
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions":{
+        "entity":{
+          "type":"armor_stand",
+          "nbt":"{Tags:[\"runicwordStand\"]}"
+        }
+      }
+    }
+  }
+}
+

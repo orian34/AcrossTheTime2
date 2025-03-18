@@ -17,7 +17,7 @@ execute if score hal RUNE matches 3..11 run scoreboard players remove hal RUNE 3
 ##Hal < 3
 execute if score hal RUNE matches 1..2 run function att2:items/runes/8_hal
 execute if score hal RUNE matches 1..2 run scoreboard players remove hal RUNE 1
-#loop
-execute if score hal RUNE matches 1.. run function att2:gameplay/runes/recipes_test/rune_number/hal_loop
 #over
 execute if score hal RUNE matches 0 run function att2:gameplay/runes/recipe_done
+#loop
+execute if score hal RUNE matches 1.. run function att2:gameplay/runes/recipes_test/rune_number/hal_loop

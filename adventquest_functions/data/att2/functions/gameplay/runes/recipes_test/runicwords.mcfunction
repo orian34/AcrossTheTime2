@@ -58,7 +58,7 @@ execute if score total_item RUNE = runicwords_8 RUNE if score runicwords_8 RUNE 
 execute if score da RUNE matches 1 run scoreboard players operation runicwords_9 RUNE += da RUNE
 execute if score for RUNE matches 1 run scoreboard players operation runicwords_9 RUNE += for RUNE
 execute if score inu RUNE matches 1 run scoreboard players operation runicwords_9 RUNE += inu RUNE
-execute if score total_item RUNE = runicwords_9 RUNE if score runicwords_9 RUNE matches 3 RUNE run function att2:items/runes/words/9_da_for_inu
+execute if score total_item RUNE = runicwords_9 RUNE if score runicwords_9 RUNE matches 3 run function att2:items/runes/words/9_da_for_inu
 #10_chu_lya_ehl
 execute if score chu RUNE matches 1 run scoreboard players operation runicwords_10 RUNE += chu RUNE
 execute if score lya RUNE matches 1 run scoreboard players operation runicwords_10 RUNE += lya RUNE
@@ -104,7 +104,7 @@ execute if score kan RUNE matches 1 run scoreboard players operation runicwords_
 execute if score chu RUNE matches 1 run scoreboard players operation runicwords_17 RUNE += chu RUNE
 execute if score bex RUNE matches 1 run scoreboard players operation runicwords_17 RUNE += bex RUNE
 execute if score puh RUNE matches 1 run scoreboard players operation runicwords_17 RUNE += puh RUNE
-execute if score total_item RUNE = runicwords_17 if score runicwords_17 RUNE matches 4 run function att2:items/runes/words/17_kan_chu_bex_puh
+execute if score total_item RUNE = runicwords_17 RUNE if score runicwords_17 RUNE matches 4 run function att2:items/runes/words/17_kan_chu_bex_puh
 #18_ust_xul_lya_zen_da
 execute if score ust RUNE matches 1 run scoreboard players operation runicwords_18 RUNE += ust RUNE
 execute if score xul RUNE matches 1 run scoreboard players operation runicwords_18 RUNE += xul RUNE

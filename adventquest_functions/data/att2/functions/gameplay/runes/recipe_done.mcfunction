@@ -4,5 +4,9 @@
 #########################################################################
 
 scoreboard players add RecipeCount RUNE 1
+scoreboard players set rune_test RUNE 1
 function att2:gameplay/runes/recipe_effect
 data remove block ~ ~ ~ Items[]
+
+##test recipe
+function att2:advancement/test_all/progress/recipe
