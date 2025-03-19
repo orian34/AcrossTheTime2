@@ -36,3 +36,6 @@ particle minecraft:falling_dust minecraft:green_stained_glass -1239 130 -615 3 2
 particle minecraft:falling_dust minecraft:glass -1239 130 -615 2 1 2 0 100
 
 scoreboard players set Elevator_steps BILLGART 2
+
+##giveslow_falling
+execute as @e[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8] at @s run effect give @s minecraft:slow_falling infinite 0 true

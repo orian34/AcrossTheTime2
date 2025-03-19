@@ -109,3 +109,36 @@ execute if score BonusLootBoss RUNE matches 9.. run function att2:summon/reg_1/a
 execute if score BonusLootBoss RUNE matches 9.. run function att2:summon/reg_2/arena_rewards
 execute if score BonusLootBoss RUNE matches 10.. run function att2:summon/reg_3/arena_rewards
 execute if score BonusLootBoss RUNE matches 10.. run function att2:summon/reg_4/arena_rewards
+
+##pool2_1
+#boss time 1
+execute if score pool2_1_m BOSS_TIME matches ..4 run function att2:summon/bat_boss_esc_rewards
+execute if score pool2_1_m BOSS_TIME matches ..4 run function att2:summon/bat_runes_abc_rewards_1
+#boss time 2
+execute if score pool2_1_m BOSS_TIME matches ..3 if score level DIFFICULTY matches 0.. run function att2:summon/bat_boss_esc_rewards
+execute if score pool2_1_m BOSS_TIME matches ..3 if score level DIFFICULTY matches 0.. run function att2:summon/bat_runes_abc_rewards_1
+#boss time 3
+execute if score pool2_1_m BOSS_TIME matches ..2 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
+execute if score pool2_1_m BOSS_TIME matches ..2 if score level DIFFICULTY matches 1.. run function att2:summon/bat_runes_abc_rewards_1
+
+##pool2_2
+#boss time 1
+execute if score pool2_2_m BOSS_TIME matches ..4 run function att2:summon/bat_boss_esc_rewards
+execute if score pool2_2_m BOSS_TIME matches ..4 run function att2:summon/bat_runes_abc_rewards_1
+#boss time 2
+execute if score pool2_2_m BOSS_TIME matches ..3 if score level DIFFICULTY matches 0.. run function att2:summon/bat_boss_esc_rewards
+execute if score pool2_2_m BOSS_TIME matches ..3 if score level DIFFICULTY matches 0.. run function att2:summon/bat_runes_abc_rewards_1
+#boss time 3
+execute if score pool2_2_m BOSS_TIME matches ..2 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
+execute if score pool2_2_m BOSS_TIME matches ..2 if score level DIFFICULTY matches 1.. run function att2:summon/bat_runes_abc_rewards_1
+
+##pool2_3
+#boss time 1
+execute if score pool2_2_m BOSS_TIME matches ..4 run function att2:summon/bat_boss_esc_rewards
+execute if score pool2_2_m BOSS_TIME matches ..4 run function att2:summon/bat_runes_abc_rewards_1
+#boss time 2
+execute if score pool2_2_m BOSS_TIME matches ..3 if score level DIFFICULTY matches 0.. run function att2:summon/bat_boss_esc_rewards
+execute if score pool2_2_m BOSS_TIME matches ..3 if score level DIFFICULTY matches 0.. run function att2:summon/bat_runes_abc_rewards_1
+#boss time 3
+execute if score pool2_2_m BOSS_TIME matches ..2 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
+execute if score pool2_2_m BOSS_TIME matches ..2 if score level DIFFICULTY matches 1.. run function att2:summon/bat_runes_abc_rewards_1
