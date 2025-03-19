@@ -11,7 +11,7 @@ execute in minecraft:overworld positioned -5721 58 -6347 run function att2:gamep
 #lever1
 execute in minecraft:overworld if block -5726 109 -6354 minecraft:lever if block -5752 95 -6316 minecraft:lever run execute positioned -5752 96 -6315 run function att2:gameplay/quest/mainquest/show_secondary_objective
 #lever2
-execute in minecraft:overworld if block -5726 109 -6354 unless block -5752 95 -6316 minecraft:lever run execute positioned -5725 110 -6354 run function att2:gameplay/quest/mainquest/show_secondary_objective
+execute in minecraft:overworld if block -5726 109 -6354 minecraft:lever unless block -5752 95 -6316 minecraft:lever run execute positioned -5725 110 -6354 run function att2:gameplay/quest/mainquest/show_secondary_objective
 #lever3
 execute in minecraft:overworld if block -5756 79 -6368 minecraft:lever unless block -5726 109 -6354 minecraft:lever run execute positioned -5748 80 -6367 run function att2:gameplay/quest/mainquest/show_secondary_objective
 execute in minecraft:overworld if block -5748 79 -6368 minecraft:lever unless block -5726 109 -6354 minecraft:lever run execute positioned -5756 80 -6367 run function att2:gameplay/quest/mainquest/show_secondary_objective
