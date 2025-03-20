@@ -18,7 +18,7 @@ execute if score level DIFFICULTY matches -1..1 run scoreboard players remove nu
 execute if score level DIFFICULTY matches -1..1 run scoreboard players operation numberPlayer DIFFICULTY *= playerCoeff DIFFICULTY
 execute if score level DIFFICULTY matches -1..1 run scoreboard players operation @s GAMELEVEL += numberPlayer DIFFICULTY
 
-execute if score level DIFFICULTY matches 2 run scoreboard players set numberPlayer DIFFICULTY 4
+execute if score level DIFFICULTY matches 2 run scoreboard players set numberPlayer DIFFICULTY 5
 execute if score level DIFFICULTY matches 2 run scoreboard players operation numberPlayer DIFFICULTY *= playerCoeff DIFFICULTY
 execute if score level DIFFICULTY matches 2 run scoreboard players operation @s GAMELEVEL += numberPlayer DIFFICULTY
 
