@@ -176,3 +176,19 @@ execute if score level DIFFICULTY matches 0.. run summon minecraft:experience_or
 execute if score level DIFFICULTY matches 1.. run summon minecraft:experience_orb ~ ~1 ~ {Value:15000}
 
 function att2:summon/reg_1/umbratyanth_rewards_dedicated
+
+#boss time 1
+execute if score umbratyanth_m BOSS_TIME matches ..19 run function att2:summon/bat_boss_esc_rewards
+execute if score umbratyanth_m BOSS_TIME matches ..19 run function att2:summon/bat_boss_esc_rewards
+execute if score umbratyanth_m BOSS_TIME matches ..19 run function att2:summon/bat_runes_abc_rewards_2
+#boss time 2
+execute if score umbratyanth_m BOSS_TIME matches ..14 if score level DIFFICULTY matches 0.. run function att2:summon/bat_boss_esc_rewards
+execute if score umbratyanth_m BOSS_TIME matches ..14 if score level DIFFICULTY matches 0.. run function att2:summon/bat_boss_esc_rewards
+execute if score umbratyanth_m BOSS_TIME matches ..14 if score level DIFFICULTY matches 0.. run function att2:summon/bat_boss_esc_rewards
+execute if score umbratyanth_m BOSS_TIME matches ..14 if score level DIFFICULTY matches 0.. run function att2:summon/bat_runes_abc_rewards_3
+#boss time 3
+execute if score umbratyanth_m BOSS_TIME matches 2..7 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
+execute if score umbratyanth_m BOSS_TIME matches 2..7 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
+execute if score umbratyanth_m BOSS_TIME matches 2..7 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
+execute if score umbratyanth_m BOSS_TIME matches 2..7 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
+execute if score umbratyanth_m BOSS_TIME matches 2..7 if score level DIFFICULTY matches 1.. run function att2:summon/bat_runes_abc_rewards_4
