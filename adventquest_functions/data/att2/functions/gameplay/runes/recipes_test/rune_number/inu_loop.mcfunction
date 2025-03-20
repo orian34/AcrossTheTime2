@@ -17,7 +17,7 @@ execute if score inu RUNE matches 3..11 run scoreboard players remove inu RUNE 3
 ##Inu < 3
 execute if score inu RUNE matches 1..2 run function att2:items/runes/7_inu
 execute if score inu RUNE matches 1..2 run scoreboard players remove inu RUNE 1
-#loop
-execute if score inu RUNE matches 1.. run function att2:gameplay/runes/recipes_test/rune_number/inu_loop
 #over
 execute if score inu RUNE matches 0 run function att2:gameplay/runes/recipe_done
+#loop
+execute if score inu RUNE matches 1.. run function att2:gameplay/runes/recipes_test/rune_number/inu_loop

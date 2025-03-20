@@ -17,7 +17,7 @@ execute if score gal RUNE matches 3..11 run scoreboard players remove gal RUNE 3
 ##Gal < 3
 execute if score gal RUNE matches 1..2 run function att2:items/runes/0_gal
 execute if score gal RUNE matches 1..2 run scoreboard players remove gal RUNE 1
-#loop
-execute if score gal RUNE matches 1.. run function att2:gameplay/runes/recipes_test/rune_number/gal_loop
 #over
 execute if score gal RUNE matches 0 run function att2:gameplay/runes/recipe_done
+#loop
+execute if score gal RUNE matches 1.. run function att2:gameplay/runes/recipes_test/rune_number/gal_loop

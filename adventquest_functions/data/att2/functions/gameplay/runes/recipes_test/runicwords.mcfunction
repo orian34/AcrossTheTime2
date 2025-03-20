@@ -104,7 +104,7 @@ execute if score kan RUNE matches 1 run scoreboard players operation runicwords_
 execute if score chu RUNE matches 1 run scoreboard players operation runicwords_17 RUNE += chu RUNE
 execute if score bex RUNE matches 1 run scoreboard players operation runicwords_17 RUNE += bex RUNE
 execute if score puh RUNE matches 1 run scoreboard players operation runicwords_17 RUNE += puh RUNE
-execute if score total_item RUNE = runicwords_17 if score runicwords_17 RUNE matches 4 run function att2:items/runes/words/17_kan_chu_bex_puh
+execute if score total_item RUNE = runicwords_17 RUNE if score runicwords_17 RUNE matches 4 run function att2:items/runes/words/17_kan_chu_bex_puh
 #18_ust_xul_lya_zen_da
 execute if score ust RUNE matches 1 run scoreboard players operation runicwords_18 RUNE += ust RUNE
 execute if score xul RUNE matches 1 run scoreboard players operation runicwords_18 RUNE += xul RUNE

@@ -17,7 +17,7 @@ execute if score fus RUNE matches 3..11 run scoreboard players remove fus RUNE 3
 ##Fus < 3
 execute if score fus RUNE matches 1..2 run function att2:items/runes/2_fus
 execute if score fus RUNE matches 1..2 run scoreboard players remove fus RUNE 1
-#loop
-execute if score fus RUNE matches 1.. run function att2:gameplay/runes/recipes_test/rune_number/fus_loop
 #over
 execute if score fus RUNE matches 0 run function att2:gameplay/runes/recipe_done
+#loop
+execute if score fus RUNE matches 1.. run function att2:gameplay/runes/recipes_test/rune_number/fus_loop

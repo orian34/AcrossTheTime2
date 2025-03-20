@@ -13,7 +13,7 @@ execute if score wej RUNE matches 3..8 run scoreboard players remove wej RUNE 3
 ##Wej < 3
 execute if score wej RUNE matches 1..2 run function att2:items/runes/15_wej
 execute if score wej RUNE matches 1..2 run scoreboard players remove wej RUNE 1
-#loop
-execute if score wej RUNE matches 1.. run function att2:gameplay/runes/recipes_test/rune_number/wej_loop
 #over
 execute if score wej RUNE matches 0 run function att2:gameplay/runes/recipe_done
+#loop
+execute if score wej RUNE matches 1.. run function att2:gameplay/runes/recipes_test/rune_number/wej_loop
