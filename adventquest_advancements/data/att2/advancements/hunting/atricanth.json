@@ -6,7 +6,6 @@
         },
         "title": {"translate":"Atricanth"},
         "description": {"translate":"Kill Atricanth boss"},
-        "frame": "goal",
         "hidden": true
     },
     "parent": "att2:hunting/root",

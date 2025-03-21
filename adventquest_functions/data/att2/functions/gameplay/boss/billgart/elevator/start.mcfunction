@@ -19,6 +19,8 @@ scoreboard players set Elevator_silver BILLGART 0
 scoreboard players set Elevator BILLGART 0
 function att2:gameplay/boss/billgart/elevator/init_bossbar
 function att2:gameplay/checkpoint/billgart/dungeon8
-execute if score Mainquest SIDEQUEST matches 171 run function att2:dialogs/mainquest/act_4/ch3_player_15
+execute if score Mainquest SIDEQUEST matches 171 as @a at @s run function att2:dialogs/mainquest/act_4/ch3_player_15
+# Player and mobs slow falling effect
+execute if score Elevator BILLGART matches 0 in minecraft:the_end as @e[x=-1243,y=180,z=-619,dx=8,dy=-147,dz=8] at @s run effect give @s minecraft:slow_falling infinite 0 true
 ##boss_timer Start
 function att2:gameplay/boss/billgart/elevator/time/start

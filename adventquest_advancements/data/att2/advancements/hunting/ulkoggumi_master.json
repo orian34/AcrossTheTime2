@@ -6,7 +6,7 @@
         },
         "title": {"translate":"MASTER Ulkoggumi"},
         "description": {"translate":"Kill Ulkoggumi boss in hard or higher difficulty."},
-        "frame": "challenge",
+        "frame": "goal",
         "hidden": false
     },
     "parent": "att2:hunting/ulkoggumi",

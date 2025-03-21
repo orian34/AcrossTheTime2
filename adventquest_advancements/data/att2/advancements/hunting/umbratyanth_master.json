@@ -6,7 +6,7 @@
         },
         "title": {"translate":"MASTER Umbra'Tyanth"},
         "description": {"translate":"Kill Umbra'Tyanth boss in hard or higher difficulty."},
-        "frame": "challenge",
+        "frame": "goal",
         "hidden": false
     },
     "parent": "att2:hunting/umbratyanth",

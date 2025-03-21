@@ -6,7 +6,6 @@
         },
         "title": {"translate":"Ted"},
         "description": {"translate":"Kill Ted boss"},
-        "frame": "goal",
         "hidden": true
     },
     "parent": "att2:hunting/root",

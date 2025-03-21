@@ -6,7 +6,6 @@
         },
         "title": {"translate":"Karön"},
         "description": {"translate":"Kill Karön boss"},
-        "frame": "goal",
         "hidden": true
     },
     "parent": "att2:hunting/root",

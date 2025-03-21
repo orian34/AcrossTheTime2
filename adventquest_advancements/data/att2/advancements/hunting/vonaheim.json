@@ -6,7 +6,6 @@
         },
         "title": {"translate":"Vonaheim"},
         "description": {"translate":"Kill Vonaheim boss"},
-        "frame": "goal",
         "hidden": true
     },
     "parent": "att2:hunting/root",

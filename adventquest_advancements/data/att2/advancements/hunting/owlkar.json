@@ -6,7 +6,6 @@
         },
         "title": {"translate":"Owlkär"},
         "description": {"translate":"Kill Owlkär boss"},
-        "frame": "goal",
         "hidden": true
     },
     "parent": "att2:hunting/root",

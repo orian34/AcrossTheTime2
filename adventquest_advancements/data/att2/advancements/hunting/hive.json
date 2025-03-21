@@ -6,7 +6,6 @@
         },
         "title": {"translate":"Hive"},
         "description": {"translate":"Kill Hive boss"},
-        "frame": "goal",
         "hidden": true
     },
     "parent": "att2:hunting/root",

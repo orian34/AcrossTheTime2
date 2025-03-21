@@ -353,3 +353,28 @@ execute if entity @a[scores={LUC_TOT=12..}] run function att2:summon/bat_runes_a
 execute if entity @a[scores={LUC_TOT=12..}] run function att2:summon/bat_runes_abc_rewards_3
 execute if entity @a[scores={LUC_TOT=15..}] run function att2:summon/bat_runes_abc_rewards_5
 execute if entity @a[scores={LUC_TOT=15..}] run function att2:summon/bat_runes_abc_rewards_5
+
+##pool4_1
+#boss time 1
+execute if score pool4_total_m BOSS_TIME matches ..119 run function att2:summon/bat_boss_esc_rewards
+execute if score pool4_total_m BOSS_TIME matches ..119 run function att2:summon/bat_boss_esc_rewards
+execute if score pool4_total_m BOSS_TIME matches ..119 run function att2:summon/bat_boss_esc_rewards
+execute if score pool4_total_m BOSS_TIME matches ..119 run function att2:summon/bat_runes_abc_rewards_3
+#boss time 2
+execute if score pool4_total_m BOSS_TIME matches ..89 if score level DIFFICULTY matches 0.. run function att2:summon/bat_boss_esc_rewards
+execute if score pool4_total_m BOSS_TIME matches ..89 if score level DIFFICULTY matches 0.. run function att2:summon/bat_boss_esc_rewards
+execute if score pool4_total_m BOSS_TIME matches ..89 if score level DIFFICULTY matches 0.. run function att2:summon/bat_boss_esc_rewards
+execute if score pool4_total_m BOSS_TIME matches ..89 if score level DIFFICULTY matches 0.. run function att2:summon/bat_boss_esc_rewards
+\execute if score pool4_total_m BOSS_TIME matches ..89 if score level DIFFICULTY matches 0.. run function att2:summon/bat_boss_esc_rewards
+execute if score pool4_total_m BOSS_TIME matches ..89 if score level DIFFICULTY matches 0.. run function att2:summon/bat_runes_abc_rewards_5
+#boss time 3
+execute if score pool4_total_m BOSS_TIME matches ..59 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
+execute if score pool4_total_m BOSS_TIME matches ..59 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
+execute if score pool4_total_m BOSS_TIME matches ..59 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
+execute if score pool4_total_m BOSS_TIME matches ..59 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
+execute if score pool4_total_m BOSS_TIME matches ..59 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
+execute if score pool4_total_m BOSS_TIME matches ..59 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
+execute if score pool4_total_m BOSS_TIME matches ..59 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
+execute if score pool4_total_m BOSS_TIME matches ..59 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
+execute if score pool4_total_m BOSS_TIME matches ..59 if score level DIFFICULTY matches 1.. run function att2:summon/bat_runes_abc_rewards_7
+execute if score pool4_total_m BOSS_TIME matches ..59 if score level DIFFICULTY matches 1.. run function advancement grant @a only att2:hunting/arena_hard_timerecord

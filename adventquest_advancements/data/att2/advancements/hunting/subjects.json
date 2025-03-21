@@ -6,7 +6,6 @@
         },
         "title": {"translate":"Subjects"},
         "description": {"translate":"Kill Subjects boss"},
-        "frame": "goal",
         "hidden": true
     },
     "parent": "att2:hunting/root",

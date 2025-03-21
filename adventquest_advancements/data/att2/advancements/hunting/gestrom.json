@@ -6,7 +6,6 @@
         },
         "title": {"translate":"Geström"},
         "description": {"translate":"Kill Geström boss"},
-        "frame": "goal",
         "hidden": true
     },
     "parent": "att2:hunting/root",

@@ -6,7 +6,7 @@
         },
         "title": {"translate":"MASTER Scavenger"},
         "description": {"translate":"Kill Scavenger boss in hard or higher difficulty."},
-        "frame": "challenge",
+        "frame": "goal",
         "hidden": false
     },
     "parent": "att2:hunting/scavenger",

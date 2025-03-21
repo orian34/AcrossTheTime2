@@ -6,7 +6,6 @@
         },
         "title": {"translate":"Illusions"},
         "description": {"translate":"Kill Illusions boss"},
-        "frame": "goal",
         "hidden": true
     },
     "parent": "att2:hunting/root",

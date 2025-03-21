@@ -6,7 +6,7 @@
         },
         "title": {"translate":"MASTER Miehanov"},
         "description": {"translate":"Kill Miehanov boss in hard or higher difficulty."},
-        "frame": "challenge",
+        "frame": "goal",
         "hidden": false
     },
     "parent": "att2:hunting/miehanov",

@@ -6,7 +6,6 @@
         },
         "title": {"translate":"Abmup & Nomit"},
         "description": {"translate":"Kill Abmup & Nomit boss"},
-        "frame": "goal",
         "hidden": true
     },
     "parent": "att2:hunting/root",
