@@ -45,6 +45,7 @@ function att2:gameplay/runes/initialize
 function att2:gameplay/shop/initialize
 function att2:gameplay/speceffect/initialize
 function att2:gameplay/stat/initialize
+function att2:gameplay/title/initialize
 function att2:gameplay/talking/initialize
 function att2:gameplay/tutorial/initialize
 function att2:gameplay/waypoint/initialize
