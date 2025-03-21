@@ -82,4 +82,4 @@ execute if score doom_m BOSS_TIME matches 0 if score doom_s BOSS_TIME matches ..
 execute if score doom_m BOSS_TIME matches 0 if score doom_s BOSS_TIME matches ..45 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
 execute if score doom_m BOSS_TIME matches 0 if score doom_s BOSS_TIME matches ..45 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
 execute if score doom_m BOSS_TIME matches 0 if score doom_s BOSS_TIME matches ..45 if score level DIFFICULTY matches 1.. run function att2:summon/bat_runes_abc_rewards_2
-execute if score doom_m BOSS_TIME matches 0 if score doom_s BOSS_TIME matches ..45 if score level DIFFICULTY matches 1.. run function advancement grant @a only att2:hunting/doom_master_timerecord
+execute if score doom_m BOSS_TIME matches 0 if score doom_s BOSS_TIME matches ..45 if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/doom_master_timerecord

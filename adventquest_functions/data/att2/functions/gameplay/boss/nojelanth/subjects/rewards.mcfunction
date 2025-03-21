@@ -79,4 +79,4 @@ execute if score subjects_m BOSS_TIME matches 0 if score subjects_s BOSS_TIME ma
 execute if score subjects_m BOSS_TIME matches 0 if score subjects_s BOSS_TIME matches ..30 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
 execute if score subjects_m BOSS_TIME matches 0 if score subjects_s BOSS_TIME matches ..30 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
 execute if score subjects_m BOSS_TIME matches 0 if score subjects_s BOSS_TIME matches ..30 if score level DIFFICULTY matches 1.. run function att2:summon/bat_runes_abc_rewards_3
-execute if score subjects_m BOSS_TIME matches 0 if score subjects_s BOSS_TIME matches ..30 if score level DIFFICULTY matches 1.. run function advancement grant @a only att2:hunting/subjects_master_timerecord
+execute if score subjects_m BOSS_TIME matches 0 if score subjects_s BOSS_TIME matches ..30 if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/subjects_master_timerecord

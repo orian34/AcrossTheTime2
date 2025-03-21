@@ -82,4 +82,4 @@ execute if score hive_m BOSS_TIME matches ..1 if score level DIFFICULTY matches 
 execute if score hive_m BOSS_TIME matches ..1 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
 execute if score hive_m BOSS_TIME matches ..1 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
 execute if score hive_m BOSS_TIME matches ..1 if score level DIFFICULTY matches 1.. run function att2:summon/bat_runes_abc_rewards_3
-execute if score hive_m BOSS_TIME matches ..1 if score level DIFFICULTY matches 1.. run function advancement grant @a only att2:hunting/hive_master_timerecord
+execute if score hive_m BOSS_TIME matches ..1 if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/hive_master_timerecord

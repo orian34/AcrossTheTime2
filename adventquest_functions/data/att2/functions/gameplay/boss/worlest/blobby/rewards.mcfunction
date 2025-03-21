@@ -81,4 +81,4 @@ execute if score blobby_m BOSS_TIME matches ..1 if score level DIFFICULTY matche
 execute if score blobby_m BOSS_TIME matches ..1 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
 execute if score blobby_m BOSS_TIME matches ..1 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
 execute if score blobby_m BOSS_TIME matches ..1 if score level DIFFICULTY matches 1.. run function att2:summon/bat_runes_abc_rewards_3
-execute if score blobby_m BOSS_TIME matches ..1 if score level DIFFICULTY matches 1.. run function advancement grant @a only att2:hunting/blobby_master_timerecord
+execute if score blobby_m BOSS_TIME matches ..1 if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/blobby_master_timerecord

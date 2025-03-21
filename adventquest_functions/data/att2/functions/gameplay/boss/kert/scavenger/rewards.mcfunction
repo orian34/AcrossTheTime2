@@ -81,4 +81,4 @@ execute if score scavenger_m BOSS_TIME matches 0 if score scavenger_s BOSS_TIME 
 execute if score scavenger_m BOSS_TIME matches 0 if score scavenger_s BOSS_TIME matches ..40 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
 execute if score scavenger_m BOSS_TIME matches 0 if score scavenger_s BOSS_TIME matches ..40 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
 execute if score scavenger_m BOSS_TIME matches 0 if score scavenger_s BOSS_TIME matches ..40 if score level DIFFICULTY matches 1.. run function att2:summon/bat_runes_abc_rewards_2
-execute if score scavenger_m BOSS_TIME matches 0 if score scavenger_s BOSS_TIME matches ..40 if score level DIFFICULTY matches 1.. run function advancement grant @a only att2:hunting/scavenger_master_timerecord
+execute if score scavenger_m BOSS_TIME matches 0 if score scavenger_s BOSS_TIME matches ..40 if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/scavenger_master_timerecord

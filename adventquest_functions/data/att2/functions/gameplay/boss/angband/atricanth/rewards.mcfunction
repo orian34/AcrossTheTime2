@@ -82,4 +82,4 @@ execute if score atricanth_m BOSS_TIME matches ..3 if score level DIFFICULTY mat
 execute if score atricanth_m BOSS_TIME matches ..2 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
 execute if score atricanth_m BOSS_TIME matches ..2 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
 execute if score atricanth_m BOSS_TIME matches ..2 if score level DIFFICULTY matches 1.. run function att2:summon/bat_runes_abc_rewards_3
-execute if score atricanth_m BOSS_TIME matches ..2 if score level DIFFICULTY matches 1.. run function advancement grant @a only att2:hunting/atricanth_master_timerecord
+execute if score atricanth_m BOSS_TIME matches ..2 if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/atricanth_master_timerecord

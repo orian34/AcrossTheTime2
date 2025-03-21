@@ -77,4 +77,4 @@ execute if score vonaheim_m BOSS_TIME matches ..1 if score level DIFFICULTY matc
 execute if score vonaheim_m BOSS_TIME matches 0 if score vonaheim_s BOSS_TIME matches ..20 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
 execute if score vonaheim_m BOSS_TIME matches 0 if score vonaheim_s BOSS_TIME matches ..20 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
 execute if score vonaheim_m BOSS_TIME matches 0 if score vonaheim_s BOSS_TIME matches ..20 if score level DIFFICULTY matches 1.. run function att2:summon/bat_runes_abc_rewards_2
-execute if score vonaheim_m BOSS_TIME matches 0 if score vonaheim_s BOSS_TIME matches ..20 if score level DIFFICULTY matches 1.. run function advancement grant @a only att2:hunting/vonaheim_master_timerecord
+execute if score vonaheim_m BOSS_TIME matches 0 if score vonaheim_s BOSS_TIME matches ..20 if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/vonaheim_master_timerecord
