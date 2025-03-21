@@ -9,6 +9,6 @@ function att2:dialogs/gameplay/shop/gambling/bet1
 function att2:dialogs/gameplay/shop/gambling/bet2
 function att2:dialogs/gameplay/shop/gambling/bet3
 function att2:dialogs/gameplay/shop/gambling/bet4
-function att2:dialogs/gameplay/shop/gambling/bet5
-execute as @s[scores={GAMELEVEL=25..}] run function att2:dialogs/gameplay/shop/gambling/bet6
-execute as @s[scores={GAMELEVEL=50..}] if score Mainquest SIDEQUEST matches 181.. run function att2:dialogs/gameplay/shop/gambling/bet7
+execute if score Mainquest SIDEQUEST matches 82.. run function att2:dialogs/gameplay/shop/gambling/bet5
+execute if score Mainquest SIDEQUEST matches 172.. run function att2:dialogs/gameplay/shop/gambling/bet6
+execute if score Mainquest SIDEQUEST matches 218.. run function att2:dialogs/gameplay/shop/gambling/bet7
