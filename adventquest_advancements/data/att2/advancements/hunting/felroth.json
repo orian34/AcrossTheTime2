@@ -6,7 +6,6 @@
         },
         "title": {"translate":"Felroth"},
         "description": {"translate":"Kill Felroth boss"},
-        "frame": "goal",
         "hidden": true
     },
     "parent": "att2:hunting/root",

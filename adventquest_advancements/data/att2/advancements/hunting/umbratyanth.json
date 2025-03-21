@@ -6,7 +6,6 @@
         },
         "title": {"translate":"Umbra'Tyanth"},
         "description": {"translate":"Kill Umbra'Tyanth boss"},
-        "frame": "goal",
         "hidden": true
     },
     "parent": "att2:hunting/umbratyanth_attempt1",

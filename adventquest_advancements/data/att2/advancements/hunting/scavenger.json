@@ -6,7 +6,6 @@
         },
         "title": {"translate":"Scavenger"},
         "description": {"translate":"Kill Scavenger boss"},
-        "frame": "goal",
         "hidden": true
     },
     "parent": "att2:hunting/root",

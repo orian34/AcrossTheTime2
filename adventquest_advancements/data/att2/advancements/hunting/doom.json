@@ -6,7 +6,6 @@
         },
         "title": {"translate":"Doom"},
         "description": {"translate":"Kill Doom boss"},
-        "frame": "goal",
         "hidden": true
     },
     "parent": "att2:hunting/root",

@@ -74,7 +74,8 @@ execute if score aozathreyon_m BOSS_TIME matches ..1 if score level DIFFICULTY m
 execute if score aozathreyon_m BOSS_TIME matches ..1 if score level DIFFICULTY matches 0.. run function att2:summon/bat_boss_esc_rewards
 execute if score aozathreyon_m BOSS_TIME matches ..1 if score level DIFFICULTY matches 0.. run function att2:summon/bat_runes_abc_rewards_2
 #boss time 3
-execute if score aozathreyon_m BOSS_TIME matches 0 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
-execute if score aozathreyon_m BOSS_TIME matches 0 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
-execute if score aozathreyon_m BOSS_TIME matches 0 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
-execute if score aozathreyon_m BOSS_TIME matches 0 if score level DIFFICULTY matches 1.. run function att2:summon/bat_runes_abc_rewards_3
+execute if score aozathreyon_m BOSS_TIME matches 0 if if score aozathreyon_s BOSS_TIME matches ..30 score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
+execute if score aozathreyon_m BOSS_TIME matches 0 if if score aozathreyon_s BOSS_TIME matches ..30 score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
+execute if score aozathreyon_m BOSS_TIME matches 0 if if score aozathreyon_s BOSS_TIME matches ..30 score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
+execute if score aozathreyon_m BOSS_TIME matches 0 if if score aozathreyon_s BOSS_TIME matches ..30 score level DIFFICULTY matches 1.. run function att2:summon/bat_runes_abc_rewards_3
+execute if score aozathreyon_m BOSS_TIME matches 0 if if score aozathreyon_s BOSS_TIME matches ..30 score level DIFFICULTY matches 1.. run function advancement grant @a only att2:hunting/aozathreyon_master_timerecord

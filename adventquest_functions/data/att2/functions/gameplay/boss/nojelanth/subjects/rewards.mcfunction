@@ -75,7 +75,8 @@ execute if score subjects_m BOSS_TIME matches ..1 if score level DIFFICULTY matc
 execute if score subjects_m BOSS_TIME matches ..1 if score level DIFFICULTY matches 0.. run function att2:summon/bat_boss_esc_rewards
 execute if score subjects_m BOSS_TIME matches ..1 if score level DIFFICULTY matches 0.. run function att2:summon/bat_runes_abc_rewards_2
 #boss time 3
-execute if score subjects_m BOSS_TIME matches 0 if score subjects_s BOSS_TIME matches ..60 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
-execute if score subjects_m BOSS_TIME matches 0 if score subjects_s BOSS_TIME matches ..60 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
-execute if score subjects_m BOSS_TIME matches 0 if score subjects_s BOSS_TIME matches ..60 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
-execute if score subjects_m BOSS_TIME matches 0 if score subjects_s BOSS_TIME matches ..60 if score level DIFFICULTY matches 1.. run function att2:summon/bat_runes_abc_rewards_3
+execute if score subjects_m BOSS_TIME matches 0 if score subjects_s BOSS_TIME matches ..30 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
+execute if score subjects_m BOSS_TIME matches 0 if score subjects_s BOSS_TIME matches ..30 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
+execute if score subjects_m BOSS_TIME matches 0 if score subjects_s BOSS_TIME matches ..30 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
+execute if score subjects_m BOSS_TIME matches 0 if score subjects_s BOSS_TIME matches ..30 if score level DIFFICULTY matches 1.. run function att2:summon/bat_runes_abc_rewards_3
+execute if score subjects_m BOSS_TIME matches 0 if score subjects_s BOSS_TIME matches ..30 if score level DIFFICULTY matches 1.. run function advancement grant @a only att2:hunting/subjects_master_timerecord

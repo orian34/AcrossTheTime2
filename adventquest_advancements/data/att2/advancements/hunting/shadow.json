@@ -6,7 +6,6 @@
         },
         "title": {"translate":"Shadow"},
         "description": {"translate":"Kill Shadow boss"},
-        "frame": "goal",
         "hidden": true
     },
     "parent": "att2:hunting/root",

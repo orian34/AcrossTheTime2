@@ -6,7 +6,6 @@
         },
         "title": {"translate":"Naër"},
         "description": {"translate":"Kill Naër boss"},
-        "frame": "goal",
         "hidden": true
     },
     "parent": "att2:hunting/root",

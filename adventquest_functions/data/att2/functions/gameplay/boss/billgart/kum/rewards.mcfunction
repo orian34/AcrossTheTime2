@@ -72,6 +72,7 @@ execute if score kum_m BOSS_TIME matches 0 if score kum_s BOSS_TIME matches ..30
 execute if score kum_m BOSS_TIME matches 0 if score kum_s BOSS_TIME matches ..30 if score level DIFFICULTY matches 0.. run function att2:summon/bat_runes_b_rewards
 execute if score kum_m BOSS_TIME matches 0 if score kum_s BOSS_TIME matches ..30 if score level DIFFICULTY matches 0.. run function att2:summon/bat_runes_b_rewards
 #boss time 3
-execute if score kum_m BOSS_TIME matches 0 if score kum_s BOSS_TIME matches ..10 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
-execute if score kum_m BOSS_TIME matches 0 if score kum_s BOSS_TIME matches ..10 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
-execute if score kum_m BOSS_TIME matches 0 if score kum_s BOSS_TIME matches ..10 if score level DIFFICULTY matches 1.. run function att2:summon/bat_runes_abc_rewards_2
+execute if score kum_m BOSS_TIME matches 0 if score kum_s BOSS_TIME matches ..15 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
+execute if score kum_m BOSS_TIME matches 0 if score kum_s BOSS_TIME matches ..15 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
+execute if score kum_m BOSS_TIME matches 0 if score kum_s BOSS_TIME matches ..15 if score level DIFFICULTY matches 1.. run function att2:summon/bat_runes_abc_rewards_2
+execute if score kum_m BOSS_TIME matches 0 if score kum_s BOSS_TIME matches ..15 if score level DIFFICULTY matches 1.. run function advancement grant @a only att2:hunting/kum_master_timerecord

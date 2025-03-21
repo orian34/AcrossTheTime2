@@ -6,7 +6,6 @@
         },
         "title": {"translate":"François"},
         "description": {"translate":"Kill François boss"},
-        "frame": "goal",
         "hidden": true
     },
     "parent": "att2:hunting/root",

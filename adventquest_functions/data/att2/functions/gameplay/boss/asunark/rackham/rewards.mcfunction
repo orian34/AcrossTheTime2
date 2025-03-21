@@ -76,7 +76,7 @@ execute if score rackham_m BOSS_TIME matches ..2 if score level DIFFICULTY match
 execute if score rackham_m BOSS_TIME matches ..2 if score level DIFFICULTY matches 0.. run function att2:summon/bat_runes_b_rewards
 execute if score rackham_m BOSS_TIME matches ..2 if score level DIFFICULTY matches 0.. run function att2:summon/bat_runes_b_rewards
 #boss time 3
-execute if score rackham_m BOSS_TIME matches 0 if score rackham_s BOSS_TIME matches ..60 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
-execute if score rackham_m BOSS_TIME matches 0 if score rackham_s BOSS_TIME matches ..60 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
-execute if score rackham_m BOSS_TIME matches 0 if score rackham_s BOSS_TIME matches ..60 if score level DIFFICULTY matches 1.. run function att2:summon/bat_runes_abc_rewards_2
-execute if score rackham_m BOSS_TIME matches 0 if score rackham_s BOSS_TIME matches ..60 if score level DIFFICULTY matches 1.. run function att2:summon/bat_runes_abc_rewards_2
+execute if score rackham_m BOSS_TIME matches ..1 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
+execute if score rackham_m BOSS_TIME matches ..1 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
+execute if score rackham_m BOSS_TIME matches ..1 if score level DIFFICULTY matches 1.. run function att2:summon/bat_runes_abc_rewards_3
+execute if score rackham_m BOSS_TIME matches ..1 if score level DIFFICULTY matches 1.. run function advancement grant @a only att2:hunting/francois_master_timerecord

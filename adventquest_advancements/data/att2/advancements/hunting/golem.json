@@ -6,7 +6,6 @@
         },
         "title": {"translate":"Golem"},
         "description": {"translate":"Kill Golem boss"},
-        "frame": "goal",
         "hidden": true
     },
     "parent": "att2:hunting/root",

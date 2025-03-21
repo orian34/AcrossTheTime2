@@ -6,7 +6,6 @@
         },
         "title": {"translate":"Miehanov"},
         "description": {"translate":"Kill Miehanov boss"},
-        "frame": "goal",
         "hidden": true
     },
     "parent": "att2:hunting/root",
