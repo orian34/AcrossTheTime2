@@ -1,7 +1,3 @@
-#####################################################################
-# att2:gameplay/title/set_title.mcfunction                          #
-# Supprime les anciens marqueurs pour éviter les doublons           #
-#####################################################################
 
 execute as @s[scores={TITLE_ID=1}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"迷失詛咒者","color":"white"}'}
 execute as @s[scores={TITLE_ID=2}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"迷失新手","color":"white"}'}

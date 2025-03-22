@@ -1,7 +1,3 @@
-#####################################################################
-# att2:gameplay/title/set_title.mcfunction                          #
-# Supprime les anciens marqueurs pour éviter les doublons           #
-#####################################################################
 
 execute as @a[scores={TITLE_ID=1}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Égaré Damné","color":"white"}'}
 execute as @a[scores={TITLE_ID=2}] in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["TitleMarker"],CustomName:'{"text":"Novice Égaré","color":"white"}'}
