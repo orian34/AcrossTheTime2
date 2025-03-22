@@ -17,6 +17,7 @@ execute if score chest_color TIMECOUNTER matches 1 if entity @a[scores={DIMENSIO
 execute if score chest_color TIMECOUNTER matches 1 if entity @a[scores={DIMENSION=4}] run function att2:gameplay/misc/chesteffect/ouran_go
 
 ##
+function att2:gameplay/misc/title_effect/go
 execute if score tic TIMECOUNTER matches 15 run function att2:gameplay/misc/fire_immune/go
 execute if score tic TIMECOUNTER matches 15 run function att2:gameplay/misc/survive_bonus/go
 ##invisible_minecart
