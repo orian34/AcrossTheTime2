@@ -3,5 +3,5 @@
 #Killing Fairy                   									#
 #####################################################################
 
-kill @e[tag=Fairy]
+kill @e[tag=LostSoul]
 kill @e[tag=FairyParticle]
