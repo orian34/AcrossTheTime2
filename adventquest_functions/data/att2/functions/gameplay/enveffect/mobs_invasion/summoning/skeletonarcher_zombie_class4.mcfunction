@@ -4,6 +4,7 @@
 #####################################################################
 
 function att2:gameplay/enveffect/mobs_invasion/effect
+function att2:gameplay/enveffect/mobs_invasion/summon_chest_1
 execute if score RNG10 RNG10_Variable matches 1..10 run function att2:summon/reg_1/skeletonarcher0_class1
 execute if score RNG10 RNG10_Variable matches 1..10 run function att2:summon/reg_1/skeletonarcher0_class1
 execute if score RNG10 RNG10_Variable matches 1..10 run function att2:summon/reg_1/zombie0_class1

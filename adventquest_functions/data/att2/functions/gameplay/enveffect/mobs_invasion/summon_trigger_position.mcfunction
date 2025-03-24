@@ -4,7 +4,7 @@
 #####################################################################
 
 #Worlest
-execute at @s positioned -4846 83 -5206 if entity @a[distance=..70] run function att2:gameplay/enveffect/mobs_invasion/summoning/skeleton_zombie_class4
+execute at @s positioned -4838 86 -5211 if entity @a[distance=..70] run function att2:gameplay/enveffect/mobs_invasion/summoning/skeleton_zombie_class4
 execute at @s positioned -4764 82 -5339 if entity @a[distance=..60] run function att2:gameplay/enveffect/mobs_invasion/summoning/skeletonarcher_thief_class4
 execute at @s positioned -5047 73 -5330 if entity @a[distance=..50] run function att2:gameplay/enveffect/mobs_invasion/summoning/wolf_spider_class4
 execute at @s positioned -5271 82 -5176 if entity @a[distance=..70] run function att2:gameplay/enveffect/mobs_invasion/summoning/skeleton_zombie_class4
@@ -24,7 +24,7 @@ execute at @s positioned -4284 75 -5876 if entity @a[distance=..70] run function
 execute at @s positioned -4245 76 -6118 if entity @a[distance=..60] run function att2:gameplay/enveffect/mobs_invasion/summoning/skeletonarcher_skeleton_class4
 
 #Plain
-execute at @s positioned -4407 83 -5598 if entity @a[distance=..60] run function att2:gameplay/enveffect/mobs_invasion/summoning/bee_class4
+execute at @s positioned -4410 78 -5598 if entity @a[distance=..60] run function att2:gameplay/enveffect/mobs_invasion/summoning/bee_class4
 execute at @s positioned -4286 77 -5550 if entity @a[distance=..50] run function att2:gameplay/enveffect/mobs_invasion/summoning/bee_class4
 execute at @s positioned -4174 68 -5816 if entity @a[distance=..60] run function att2:gameplay/enveffect/mobs_invasion/summoning/bee_class4
 execute at @s positioned -4006 81 -5843 if entity @a[distance=..60] run function att2:gameplay/enveffect/mobs_invasion/summoning/zombie_class4
@@ -40,3 +40,17 @@ execute at @s positioned -3936 104 -5589 if entity @a[distance=..50] run functio
 execute at @s positioned -4224 69 -5258 if entity @a[distance=..60] run function att2:gameplay/enveffect/mobs_invasion/summoning/skeleton_zombie_class4
 execute at @s positioned -4355 75 -5359 if entity @a[distance=..70] run function att2:gameplay/enveffect/mobs_invasion/summoning/zombie_class4
 execute at @s positioned -4506 74 -5220 if entity @a[distance=..50] run function att2:gameplay/enveffect/mobs_invasion/summoning/skeleton_class4
+
+#Plage
+execute at @s positioned -4049 70 -5177 if entity @a[distance=..60] run function att2:gameplay/enveffect/mobs_invasion/summoning/skeletonarcher_skeleton_class4
+execute at @s positioned -4200 69 -4965 if entity @a[distance=..50] run function att2:gameplay/enveffect/mobs_invasion/summoning/piratedead_class8
+execute at @s positioned -4310 71 -5026 if entity @a[distance=..50] run function att2:gameplay/enveffect/mobs_invasion/summoning/hoglin_class4
+execute at @s positioned -4290 69 -4798 if entity @a[distance=..50] run function att2:gameplay/enveffect/mobs_invasion/summoning/hoglin_piratedead_class8
+execute at @s positioned -4411 69 -4642 if entity @a[distance=..70] run function att2:gameplay/enveffect/mobs_invasion/summoning/putridarcher_putrid_class4
+
+#Schestrown
+execute at @s positioned -4486 74 -5024 if entity @a[distance=..50] run function att2:gameplay/enveffect/mobs_invasion/summoning/revenantarcher_revenant_class8
+execute at @s positioned -4413 108 -5084 if entity @a[distance=..50] run function att2:gameplay/enveffect/mobs_invasion/summoning/revenantarcher_revenant_class12
+
+#Tears forest
+execute at @s positioned -4432 76 -4854 if entity @a[distance=..60] run function att2:gameplay/enveffect/mobs_invasion/summoning/hoglin_class4
