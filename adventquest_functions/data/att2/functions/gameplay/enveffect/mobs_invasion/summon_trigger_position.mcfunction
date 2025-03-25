@@ -54,3 +54,50 @@ execute at @s positioned -4413 108 -5084 if entity @a[distance=..50] run functio
 
 #Tears forest
 execute at @s positioned -4432 76 -4854 if entity @a[distance=..60] run function att2:gameplay/enveffect/mobs_invasion/summoning/hoglin_class4
+
+#Owsästr
+execute at @s positioned -4591 72 -4807 if entity @a[distance=..50] run function att2:gameplay/enveffect/mobs_invasion/summoning/putrid_class4
+execute at @s positioned -4581 71 -4619 if entity @a[distance=..60] run function att2:gameplay/enveffect/mobs_invasion/summoning/putridarcher_putrid_class4
+execute at @s positioned -4535 70 -4470 if entity @a[distance=..70] run function att2:gameplay/enveffect/mobs_invasion/summoning/putrid_class8
+execute at @s positioned -4699 70 -4403 if entity @a[distance=..60] run function att2:gameplay/enveffect/mobs_invasion/summoning/slime_class8
+execute at @s positioned -4734 70 -4258 if entity @a[distance=..60] run function att2:gameplay/enveffect/mobs_invasion/summoning/slime_class8
+
+#Asunark
+execute at @s positioned -3656 68 -4922 if entity @a[distance=..50] run function att2:gameplay/enveffect/mobs_invasion/summoning/putrid_class4
+
+#Volcano
+execute at @s positioned -5478 74 -5288 if entity @a[distance=..70] run function att2:gameplay/enveffect/mobs_invasion/summoning/skeletonarcher_skeleton_class8
+execute at @s positioned -5378 71 -5424 if entity @a[distance=..50] run function att2:gameplay/enveffect/mobs_invasion/summoning/slime_class8
+execute at @s positioned -5427 81 -5616 if entity @a[distance=..50] run function att2:gameplay/enveffect/mobs_invasion/summoning/zombie_class8
+
+#Eol
+execute at @s positioned -5268 105 -5671 if entity @a[distance=..60] run function att2:gameplay/enveffect/mobs_invasion/summoning/skeleton_class8
+execute at @s positioned -5384 133 -5882 if entity @a[distance=..50] run function att2:gameplay/enveffect/mobs_invasion/summoning/revenantarcher_revenant_class8
+
+#Elcheol
+execute at @s positioned -5602 90 -6286 if entity @a[distance=..70] run function att2:gameplay/enveffect/mobs_invasion/summoning/vindicator_class8
+execute at @s positioned -5093 102 -6379 if entity @a[distance=..70] run function att2:gameplay/enveffect/mobs_invasion/summoning/skeletonarcher_skeleton_class12
+execute at @s positioned -5079 152 -6579 if entity @a[distance=..70] run function att2:gameplay/enveffect/mobs_invasion/summoning/strayarcher_stray_class16
+execute at @s positioned -4981 147 -6309 if entity @a[distance=..70] run function att2:gameplay/enveffect/mobs_invasion/summoning/bear_class16
+
+#Kert
+execute at @s positioned -5556 76 -4989 if entity @a[distance=..50] run function att2:gameplay/enveffect/mobs_invasion/summoning/creeper_class20
+execute at @s positioned -5558 78 -4876 if entity @a[distance=..60] run function att2:gameplay/enveffect/mobs_invasion/summoning/husk_class20
+execute at @s positioned -5705 87 -4882 if entity @a[distance=..50] run function att2:gameplay/enveffect/mobs_invasion/summoning/creeper_class20
+execute at @s positioned -5776 94 -4746 if entity @a[distance=..60] run function att2:gameplay/enveffect/mobs_invasion/summoning/husk_class20
+execute at @s positioned -5621 76 -4622 if entity @a[distance=..70] run function att2:gameplay/enveffect/mobs_invasion/summoning/husk_class20
+execute at @s positioned -5536 102 -4489 if entity @a[distance=..60] run function att2:gameplay/enveffect/mobs_invasion/summoning/creeper_class20
+execute at @s positioned -5344 54 -4432 if entity @a[distance=..50] run function att2:gameplay/enveffect/mobs_invasion/summoning/husk_creeper_class20
+
+#Nojelanth present
+execute at @s positioned -5923 113 -4510 if entity @a[distance=..60] run function att2:gameplay/enveffect/mobs_invasion/summoning/husk_class20
+execute at @s positioned -5822 109 -4368 if entity @a[distance=..60] run function att2:gameplay/enveffect/mobs_invasion/summoning/creeper_class20
+
+#Nojelanth past
+execute at @s positioned -7411 102 -4525 if entity @a[distance=..60] run function att2:gameplay/enveffect/mobs_invasion/summoning/putridarcher_putrid_class20
+execute at @s positioned -7306 100 -4428 if entity @a[distance=..50] run function att2:gameplay/enveffect/mobs_invasion/summoning/putridarcher_putridsmall_putrid_class20
+execute at @s positioned -7299 27 -4289 if entity @a[distance=..70] run function att2:gameplay/enveffect/mobs_invasion/summoning/hoglin_class20
+execute at @s positioned -7415 30 -4310 if entity @a[distance=..50] run function att2:gameplay/enveffect/mobs_invasion/summoning/putridsmall_class20
+execute at @s positioned -7581 40 -4390 if entity @a[distance=..60] run function att2:gameplay/enveffect/mobs_invasion/summoning/putridarcher_putrid_class20
+execute at @s positioned -7563 38 -4258 if entity @a[distance=..50] run function att2:gameplay/enveffect/mobs_invasion/summoning/putridarcher_putridsmall_putrid_class20
+execute at @s positioned -7683 34 -4243 if entity @a[distance=..70] run function att2:gameplay/enveffect/mobs_invasion/summoning/hoglin_class20
