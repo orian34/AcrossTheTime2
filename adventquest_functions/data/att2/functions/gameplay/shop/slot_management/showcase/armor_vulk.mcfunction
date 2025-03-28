@@ -2,6 +2,19 @@
 #Made by Adventquest											#
 #Process the shop table of armor_vulk    		                #
 #################################################################
+#set random value
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot1"]}] run scoreboard players operation @s SHOP_OP1 = armor_vulk_slot1 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot2"]}] run scoreboard players operation @s SHOP_OP1 = armor_vulk_slot2 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot3"]}] run scoreboard players operation @s SHOP_OP1 = armor_vulk_slot3 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot4"]}] run scoreboard players operation @s SHOP_OP1 = armor_vulk_slot4 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot5"]}] run scoreboard players operation @s SHOP_OP1 = armor_vulk_slot5 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot6"]}] run scoreboard players operation @s SHOP_OP1 = armor_vulk_slot6 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot7"]}] run scoreboard players operation @s SHOP_OP1 = armor_vulk_slot7 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot8"]}] run scoreboard players operation @s SHOP_OP1 = armor_vulk_slot8 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot9"]}] run scoreboard players operation @s SHOP_OP1 = armor_vulk_slot9 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot10"]}] run scoreboard players operation @s SHOP_OP1 = armor_vulk_slot10 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot11"]}] run scoreboard players operation @s SHOP_OP1 = armor_vulk_slot11 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot12"]}] run scoreboard players operation @s SHOP_OP1 = armor_vulk_slot12 SHOP_OP1
 
 execute if score @s SHOP_OP1 matches 0..47 at @e[name="VULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/unc/leather_helmet_223
 execute if score @s SHOP_OP1 matches 48..93 at @e[name="VULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/unc/netherite_helmet_224
@@ -15,6 +28,7 @@ execute if score @s SHOP_OP1 matches 373..418 at @e[name="VULK"] as @a[distance=
 execute if score @s SHOP_OP1 matches 419..464 at @e[name="VULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/unc/netherite_chestplate_317
 execute if score @s SHOP_OP1 matches 465..510 at @e[name="VULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/unc/netherite_leggings_318
 execute if score @s SHOP_OP1 matches 511..555 at @e[name="VULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/unc/netherite_boots_319
+
 execute if score @s SHOP_OP1 matches 556..597 at @e[name="VULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/rar/leather_helmet_231
 execute if score @s SHOP_OP1 matches 598..639 at @e[name="VULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/rar/leather_chestplate_232
 execute if score @s SHOP_OP1 matches 640..681 at @e[name="VULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/rar/leather_leggings_233
@@ -23,6 +37,7 @@ execute if score @s SHOP_OP1 matches 724..765 at @e[name="VULK"] as @a[distance=
 execute if score @s SHOP_OP1 matches 766..807 at @e[name="VULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/rar/netherite_chestplate_321
 execute if score @s SHOP_OP1 matches 808..849 at @e[name="VULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/rar/netherite_leggings_322
 execute if score @s SHOP_OP1 matches 850..891 at @e[name="VULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/rar/netherite_boots_323
+
 execute if score @s SHOP_OP1 matches 892..898 at @e[name="VULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/epi/netherite_helmet_235
 execute if score @s SHOP_OP1 matches 899..905 at @e[name="VULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/epi/netherite_chestplate_236
 execute if score @s SHOP_OP1 matches 906..912 at @e[name="VULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/epi/netherite_leggings_237
@@ -35,6 +50,7 @@ execute if score @s SHOP_OP1 matches 948..954 at @e[name="VULK"] as @a[distance=
 execute if score @s SHOP_OP1 matches 955..961 at @e[name="VULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/epi/netherite_leggings_325
 execute if score @s SHOP_OP1 matches 962..968 at @e[name="VULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/epi/netherite_chestplate_326
 execute if score @s SHOP_OP1 matches 969..975 at @e[name="VULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/epi/netherite_boots_327
+
 execute if score @s SHOP_OP1 matches 976..978 at @e[name="VULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/leg/leather_helmet_244
 execute if score @s SHOP_OP1 matches 979..981 at @e[name="VULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/leg/leather_chestplate_245
 execute if score @s SHOP_OP1 matches 982..984 at @e[name="VULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/leg/leather_leggings_246

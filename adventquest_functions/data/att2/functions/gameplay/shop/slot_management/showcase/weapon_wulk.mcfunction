@@ -2,6 +2,19 @@
 #Made by Adventquest											#
 #Process the shop table of weapon_wulk    		                #
 #################################################################
+#set random value
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot1"]}] run scoreboard players operation @s SHOP_OP1 = weapon_wulk_slot1 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot2"]}] run scoreboard players operation @s SHOP_OP1 = weapon_wulk_slot2 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot3"]}] run scoreboard players operation @s SHOP_OP1 = weapon_wulk_slot3 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot4"]}] run scoreboard players operation @s SHOP_OP1 = weapon_wulk_slot4 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot5"]}] run scoreboard players operation @s SHOP_OP1 = weapon_wulk_slot5 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot6"]}] run scoreboard players operation @s SHOP_OP1 = weapon_wulk_slot6 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot7"]}] run scoreboard players operation @s SHOP_OP1 = weapon_wulk_slot7 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot8"]}] run scoreboard players operation @s SHOP_OP1 = weapon_wulk_slot8 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot9"]}] run scoreboard players operation @s SHOP_OP1 = weapon_wulk_slot9 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot10"]}] run scoreboard players operation @s SHOP_OP1 = weapon_wulk_slot10 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot11"]}] run scoreboard players operation @s SHOP_OP1 = weapon_wulk_slot11 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot12"]}] run scoreboard players operation @s SHOP_OP1 = weapon_wulk_slot12 SHOP_OP1
 
 execute if score @s SHOP_OP1 matches 0..20 at @e[name="WULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/com/wooden_axe_1
 execute if score @s SHOP_OP1 matches 21..40 at @e[name="WULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/com/wooden_axe_2
@@ -26,6 +39,7 @@ execute if score @s SHOP_OP1 matches 381..400 at @e[name="WULK"] as @a[distance=
 execute if score @s SHOP_OP1 matches 401..420 at @e[name="WULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/com/iron_sword_71
 execute if score @s SHOP_OP1 matches 421..440 at @e[name="WULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/com/iron_hoe_262
 execute if score @s SHOP_OP1 matches 441..460 at @e[name="WULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/com/iron_hoe_263
+
 execute if score @s SHOP_OP1 matches 461..474 at @e[name="WULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/unc/wooden_axe_9
 execute if score @s SHOP_OP1 matches 475..488 at @e[name="WULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/unc/wooden_axe_10
 execute if score @s SHOP_OP1 matches 489..502 at @e[name="WULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/unc/wooden_pickaxe_11
@@ -51,6 +65,7 @@ execute if score @s SHOP_OP1 matches 755..768 at @e[name="WULK"] as @a[distance=
 execute if score @s SHOP_OP1 matches 769..782 at @e[name="WULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/unc/iron_sword_79
 execute if score @s SHOP_OP1 matches 783..796 at @e[name="WULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/unc/iron_hoe_264
 execute if score @s SHOP_OP1 matches 797..810 at @e[name="WULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/unc/iron_hoe_265
+
 execute if score @s SHOP_OP1 matches 811..817 at @e[name="WULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/rar/wooden_axe_17
 execute if score @s SHOP_OP1 matches 818..824 at @e[name="WULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/rar/wooden_axe_18
 execute if score @s SHOP_OP1 matches 825..831 at @e[name="WULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/rar/wooden_pickaxe_19
@@ -74,6 +89,7 @@ execute if score @s SHOP_OP1 matches 944..950 at @e[name="WULK"] as @a[distance=
 execute if score @s SHOP_OP1 matches 951..957 at @e[name="WULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/rar/iron_sword_87
 execute if score @s SHOP_OP1 matches 958..964 at @e[name="WULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/rar/iron_hoe_266
 execute if score @s SHOP_OP1 matches 965..971 at @e[name="WULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/rar/iron_hoe_267
+
 execute if score @s SHOP_OP1 matches 972..974 at @e[name="WULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/epi/wooden_axe_25
 execute if score @s SHOP_OP1 matches 975..977 at @e[name="WULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/epi/wooden_pickaxe_26
 execute if score @s SHOP_OP1 matches 978..980 at @e[name="WULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/epi/wooden_shovel_27
@@ -85,4 +101,4 @@ execute if score @s SHOP_OP1 matches 990..991 at @e[name="WULK"] as @a[distance=
 execute if score @s SHOP_OP1 matches 992..993 at @e[name="WULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/epi/iron_pickaxe_89
 execute if score @s SHOP_OP1 matches 994..995 at @e[name="WULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/epi/iron_shovel_90
 execute if score @s SHOP_OP1 matches 996..997 at @e[name="WULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/epi/iron_sword_91
-execute if score @s SHOP_OP1 matches 986..987 at @e[name="WULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/epi/iron_hoe_268
+execute if score @s SHOP_OP1 matches 998..999 at @e[name="WULK"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/epi/iron_hoe_268

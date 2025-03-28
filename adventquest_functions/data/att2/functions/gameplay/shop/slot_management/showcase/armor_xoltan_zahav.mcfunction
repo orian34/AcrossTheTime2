@@ -2,6 +2,19 @@
 #Made by Adventquest											#
 #Process the shop table of armor_xoltan_xahav    		        #
 #################################################################
+#set random value
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot1"]}] run scoreboard players operation @s SHOP_OP1 = armor_xoltan_zahav_slot1 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot2"]}] run scoreboard players operation @s SHOP_OP1 = armor_xoltan_zahav_slot2 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot3"]}] run scoreboard players operation @s SHOP_OP1 = armor_xoltan_zahav_slot3 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot4"]}] run scoreboard players operation @s SHOP_OP1 = armor_xoltan_zahav_slot4 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot5"]}] run scoreboard players operation @s SHOP_OP1 = armor_xoltan_zahav_slot5 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot6"]}] run scoreboard players operation @s SHOP_OP1 = armor_xoltan_zahav_slot6 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot7"]}] run scoreboard players operation @s SHOP_OP1 = armor_xoltan_zahav_slot7 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot8"]}] run scoreboard players operation @s SHOP_OP1 = armor_xoltan_zahav_slot8 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot9"]}] run scoreboard players operation @s SHOP_OP1 = armor_xoltan_zahav_slot9 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot10"]}] run scoreboard players operation @s SHOP_OP1 = armor_xoltan_zahav_slot10 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot11"]}] run scoreboard players operation @s SHOP_OP1 = armor_xoltan_zahav_slot11 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot12"]}] run scoreboard players operation @s SHOP_OP1 = armor_xoltan_zahav_slot12 SHOP_OP1
 
 execute if score @s SHOP_OP1 matches 0..2 at @e[name="XOLTAN ZAHAV"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/com/leather_chestplate_1
 execute if score @s SHOP_OP1 matches 3..6 at @e[name="XOLTAN ZAHAV"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/com/leather_helmet_24
@@ -42,6 +55,7 @@ execute if score @s SHOP_OP1 matches 139..142 at @e[name="XOLTAN ZAHAV"] as @a[d
 execute if score @s SHOP_OP1 matches 143..146 at @e[name="XOLTAN ZAHAV"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/com/netherite_leggings_270
 execute if score @s SHOP_OP1 matches 147..150 at @e[name="XOLTAN ZAHAV"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/com/netherite_boots_271
 execute if score @s SHOP_OP1 matches 151..154 at @e[name="XOLTAN ZAHAV"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/com/netherite_boots_272
+
 execute if score @s SHOP_OP1 matches 155..163 at @e[name="XOLTAN ZAHAV"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/unc/leather_helmet_32
 execute if score @s SHOP_OP1 matches 164..172 at @e[name="XOLTAN ZAHAV"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/unc/leather_helmet_33
 execute if score @s SHOP_OP1 matches 173..181 at @e[name="XOLTAN ZAHAV"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/unc/leather_chestplate_34
@@ -80,6 +94,7 @@ execute if score @s SHOP_OP1 matches 449..456 at @e[name="XOLTAN ZAHAV"] as @a[d
 execute if score @s SHOP_OP1 matches 457..464 at @e[name="XOLTAN ZAHAV"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/unc/netherite_leggings_278
 execute if score @s SHOP_OP1 matches 465..472 at @e[name="XOLTAN ZAHAV"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/unc/netherite_boots_279
 execute if score @s SHOP_OP1 matches 473..480 at @e[name="XOLTAN ZAHAV"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/unc/netherite_boots_280
+
 execute if score @s SHOP_OP1 matches 481..489 at @e[name="XOLTAN ZAHAV"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/rar/leather_helmet_40
 execute if score @s SHOP_OP1 matches 490..498 at @e[name="XOLTAN ZAHAV"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/rar/leather_helmet_41
 execute if score @s SHOP_OP1 matches 499..507 at @e[name="XOLTAN ZAHAV"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/rar/leather_chestplate_42
@@ -124,6 +139,7 @@ execute if score @s SHOP_OP1 matches 829..836 at @e[name="XOLTAN ZAHAV"] as @a[d
 execute if score @s SHOP_OP1 matches 837..844 at @e[name="XOLTAN ZAHAV"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/rar/netherite_leggings_286
 execute if score @s SHOP_OP1 matches 845..852 at @e[name="XOLTAN ZAHAV"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/rar/netherite_boots_287
 execute if score @s SHOP_OP1 matches 853..860 at @e[name="XOLTAN ZAHAV"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/rar/netherite_boots_288
+
 execute if score @s SHOP_OP1 matches 861..864 at @e[name="XOLTAN ZAHAV"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/epi/leather_helmet_48
 execute if score @s SHOP_OP1 matches 865..868 at @e[name="XOLTAN ZAHAV"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/epi/leather_chestplate_49
 execute if score @s SHOP_OP1 matches 869..872 at @e[name="XOLTAN ZAHAV"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/epi/leather_leggings_50
@@ -153,6 +169,7 @@ execute if score @s SHOP_OP1 matches 944..946 at @e[name="XOLTAN ZAHAV"] as @a[d
 execute if score @s SHOP_OP1 matches 947..949 at @e[name="XOLTAN ZAHAV"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/epi/netherite_chestplate_290
 execute if score @s SHOP_OP1 matches 950..952 at @e[name="XOLTAN ZAHAV"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/epi/netherite_leggings_291
 execute if score @s SHOP_OP1 matches 953..955 at @e[name="XOLTAN ZAHAV"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/epi/netherite_boots_292
+
 execute if score @s SHOP_OP1 matches 956..957 at @e[name="XOLTAN ZAHAV"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/leg/leather_helmet_52
 execute if score @s SHOP_OP1 matches 958..959 at @e[name="XOLTAN ZAHAV"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/leg/leather_chestplate_53
 execute if score @s SHOP_OP1 matches 960..961 at @e[name="XOLTAN ZAHAV"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/leg/leather_leggings_54
