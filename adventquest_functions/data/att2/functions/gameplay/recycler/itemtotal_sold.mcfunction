@@ -19,17 +19,16 @@ scoreboard players set myt RECYCLER 0
 scoreboard players set total RECYCLER 0
 scoreboard players set number RECYCLER 0
 
-execute as @e[type=item,distance=..1,nbt={Item:{id:"minecraft:arrow"}}] run function att2:gameplay/recycler/total_arrow
-execute as @e[type=item,distance=..1,nbt={Item:{id:"minecraft:spectral_arrow"}}] run function att2:gameplay/recycler/total_arrow
-execute as @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"misc"}}}] unless entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:written_book"}}] run function att2:gameplay/recycler/total_misc
-execute as @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"leg"}}}] unless entity @s[type=minecraft:item,nbt={Item:{id:"minecraft:written_book"}}] run scoreboard players add leg RECYCLER 1
-execute store result score com RECYCLER if entity @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"com"}}}]
-execute store result score unc RECYCLER if entity @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"unc"}}}]
-execute store result score rar RECYCLER if entity @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"rar"}}}]
-execute store result score epi RECYCLER if entity @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"epi"}}}]
-execute store result score epi_set RECYCLER if entity @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"epi_set"}}}]
-execute store result score epi_esc RECYCLER if entity @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"epi_esc"}}}]
-execute store result score leg_armset RECYCLER if entity @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"leg_armset"}}}]
+execute as @e[type=item,distance=..1,predicate=att2_pre:recycle/arrow] run function att2:gameplay/recycler/total_arrow
+execute as @e[type=item,distance=..1,predicate=att2_pre:recycle/misc] run function att2:gameplay/recycler/total_misc
+execute as @e[type=item,distance=..1,predicate=att2_pre:recycle/leg,predicate=!att2_pre:recycle/error] run scoreboard players add leg RECYCLER 1
+execute store result score com RECYCLER if entity @e[type=item,distance=..1,predicate=att2_pre:recycle/com,predicate=!att2_pre:recycle/error]
+execute store result score unc RECYCLER if entity @e[type=item,distance=..1,predicate=att2_pre:recycle/unc,predicate=!att2_pre:recycle/error]
+execute store result score rar RECYCLER if entity @e[type=item,distance=..1,predicate=att2_pre:recycle/rar,predicate=!att2_pre:recycle/error]
+execute store result score epi RECYCLER if entity @e[type=item,distance=..1,predicate=att2_pre:recycle/epi,predicate=!att2_pre:recycle/error]
+execute store result score epi_set RECYCLER if entity @e[type=item,distance=..1,predicate=att2_pre:recycle/epi_set,predicate=!att2_pre:recycle/error]
+execute store result score epi_esc RECYCLER if entity @e[type=item,distance=..1,predicate=att2_pre:recycle/epi_esc,predicate=!att2_pre:recycle/error]
+execute store result score leg_armset RECYCLER if entity @e[type=item,distance=..1,predicate=att2_pre:recycle/leg_armset,predicate=!att2_pre:recycle/error]
 execute store result score myt RECYCLER if entity @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"myt"}}}]
 
 function att2:gameplay/recycler/estimate_stats
