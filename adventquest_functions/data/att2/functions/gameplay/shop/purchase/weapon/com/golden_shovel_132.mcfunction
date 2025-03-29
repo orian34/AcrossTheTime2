@@ -3,7 +3,8 @@
 #Use function to purchase golden_shovel_132			         #
 #####################################
 
-execute as @s[scores={CHRONOTON=..18}] at @s run function att2:dialogs/gameplay/shop/not_enough_chronotons 
-execute if entity @s[scores={CHRONOTON=19..}] run function att2:gameplay/shop/effect 
-execute if entity @s[scores={CHRONOTON=19..}] run function att2:items/weapon/com/golden_shovel_132 
-scoreboard players remove @s[scores={CHRONOTON=19..}] CHRONOTON 19
+#
+execute if score @s CHRONOTON < weapon132 PRICES run function att2:dialogs/gameplay/shop/not_enough_chronotons
+execute if score @s CHRONOTON >= weapon132 PRICES run function att2:gameplay/shop/effect 
+execute if score @s CHRONOTON >= weapon132 PRICES run function att2:items/weapon/com/golden_shovel_132 
+execute if score @s CHRONOTON >= weapon132 PRICES run scoreboard players operation @s CHRONOTON -= weapon132 PRICES

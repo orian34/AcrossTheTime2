@@ -32,7 +32,7 @@ execute if score heros REPUTATION matches 240.. if score @s SHOP_OP1 matches 130
 execute if score heros REPUTATION matches 280.. if score @s SHOP_OP1 matches 485..871 store result score @s SHOP_OP1 run random value 485..957
 execute if score heros REPUTATION matches 320.. if score @s SHOP_OP1 matches 872..957 store result score @s SHOP_OP1 run random value 872..999
 #shop tips
-execute if score @s SHOP_OP1 matches 958.. at @e[name="CARMINE MORDAN"] as @a[distance=..7] run function att2:sound/shop/shop_cue
+execute if score @s SHOP_OP1 matches 958.. at @e[name="XOLTAN ZAHAV"] as @a[distance=..7] run function att2:sound/shop/shop_cue
 #set value
 execute if entity @s[nbt={Tags:["ShotSlotHolder","slot1"]}] run scoreboard players operation weapon_xoltan_zahav_slot1 SHOP_OP1 = @s SHOP_OP1
 execute if entity @s[nbt={Tags:["ShotSlotHolder","slot2"]}] run scoreboard players operation weapon_xoltan_zahav_slot2 SHOP_OP1 = @s SHOP_OP1

@@ -3,7 +3,8 @@
 #Use function to purchase leather_leggings_50			         #
 #####################################
 
-execute as @s[scores={CHRONOTON=..918}] at @s run function att2:dialogs/gameplay/shop/not_enough_chronotons 
-execute if entity @s[scores={CHRONOTON=919..}] run function att2:gameplay/shop/effect 
-execute if entity @s[scores={CHRONOTON=919..}] run function att2:items/armor/epi/leather_leggings_50 
-scoreboard players remove @s[scores={CHRONOTON=919..}] CHRONOTON 919
+#
+execute if score @s CHRONOTON < armor50 PRICES run function att2:dialogs/gameplay/shop/not_enough_chronotons
+execute if score @s CHRONOTON >= armor50 PRICES run function att2:gameplay/shop/effect 
+execute if score @s CHRONOTON >= armor50 PRICES run function att2:items/armor/epi/leather_leggings_50 
+execute if score @s CHRONOTON >= armor50 PRICES run scoreboard players operation @s CHRONOTON -= armor50 PRICES

@@ -3,7 +3,8 @@
 #Use function to purchase netherite_shovel_315			         #
 #####################################
 
-execute as @s[scores={CHRONOTON=..4724}] at @s run function att2:dialogs/gameplay/shop/not_enough_chronotons 
-execute if entity @s[scores={CHRONOTON=4725..}] run function att2:gameplay/shop/effect 
-execute if entity @s[scores={CHRONOTON=4725..}] run function att2:items/weapon/leg/netherite_shovel_315 
-scoreboard players remove @s[scores={CHRONOTON=4725..}] CHRONOTON 4725
+#
+execute if score @s CHRONOTON < weapon315 PRICES run function att2:dialogs/gameplay/shop/not_enough_chronotons
+execute if score @s CHRONOTON >= weapon315 PRICES run function att2:gameplay/shop/effect 
+execute if score @s CHRONOTON >= weapon315 PRICES run function att2:items/weapon/leg/netherite_shovel_315 
+execute if score @s CHRONOTON >= weapon315 PRICES run scoreboard players operation @s CHRONOTON -= weapon315 PRICES

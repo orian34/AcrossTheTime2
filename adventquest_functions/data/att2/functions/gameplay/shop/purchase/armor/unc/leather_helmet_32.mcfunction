@@ -3,7 +3,8 @@
 #Use function to purchase leather_helmet_32			         #
 #####################################
 
-execute as @s[scores={CHRONOTON=..55}] at @s run function att2:dialogs/gameplay/shop/not_enough_chronotons 
-execute if entity @s[scores={CHRONOTON=56..}] run function att2:gameplay/shop/effect 
-execute if entity @s[scores={CHRONOTON=56..}] run function att2:items/armor/unc/leather_helmet_32 
-scoreboard players remove @s[scores={CHRONOTON=56..}] CHRONOTON 56
+#
+execute if score @s CHRONOTON < armor32 PRICES run function att2:dialogs/gameplay/shop/not_enough_chronotons
+execute if score @s CHRONOTON >= armor32 PRICES run function att2:gameplay/shop/effect 
+execute if score @s CHRONOTON >= armor32 PRICES run function att2:items/armor/unc/leather_helmet_32 
+execute if score @s CHRONOTON >= armor32 PRICES run scoreboard players operation @s CHRONOTON -= armor32 PRICES

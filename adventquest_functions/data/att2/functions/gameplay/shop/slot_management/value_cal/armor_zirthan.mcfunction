@@ -24,13 +24,12 @@ execute if score @s SHOP_OP1 matches ..-1 run scoreboard players set @s SHOP_OP1
 
 execute if score heros REPUTATION matches 40.. if score @s SHOP_OP1 matches ..303 store result score @s SHOP_OP1 run random value 0..879
 execute if score heros REPUTATION matches 80.. if score @s SHOP_OP1 matches 304..879 store result score @s SHOP_OP1 run random value 304..860
-execute if score heros REPUTATION matches 120.. if score @s SHOP_OP1 matches 880..860 store result score @s SHOP_OP1 run random value 880..975
-execute if score heros REPUTATION matches 160.. if score @s SHOP_OP1 matches 861..975 store result score @s SHOP_OP1 run random value 861..999
+execute if score heros REPUTATION matches 120.. if score @s SHOP_OP1 matches 880..975 store result score @s SHOP_OP1 run random value 880..999
 
 execute if score heros REPUTATION matches 200.. if score @s SHOP_OP1 matches ..303 store result score @s SHOP_OP1 run random value 0..879
 execute if score heros REPUTATION matches 240.. if score @s SHOP_OP1 matches 304..879 store result score @s SHOP_OP1 run random value 304..860
-execute if score heros REPUTATION matches 280.. if score @s SHOP_OP1 matches 880..860 store result score @s SHOP_OP1 run random value 880..975
-execute if score heros REPUTATION matches 320.. if score @s SHOP_OP1 matches 861..975 store result score @s SHOP_OP1 run random value 861..999
+execute if score heros REPUTATION matches 280.. if score @s SHOP_OP1 matches 880..975 store result score @s SHOP_OP1 run random value 880..999
+
 #shop tips
 execute if score @s SHOP_OP1 matches 976.. at @e[name="ZIRTHAN"] as @a[distance=..7] run function att2:sound/shop/shop_cue
 #set value
