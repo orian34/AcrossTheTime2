@@ -11,6 +11,7 @@ execute if score level statSMITH matches 2 run function att2:gameplay/shop/mendi
 execute if score level statSMITH matches 3 run function att2:gameplay/shop/mending/validate_level3
 execute if score level statSMITH matches 4 run function att2:gameplay/shop/mending/validate_level4
 execute if score level statSMITH matches 5 run function att2:gameplay/shop/mending/validate_level5
-scoreboard players remove @s[scores={CHRONOTON=75..}] CHRONOTON 75
+scoreboard players operation @s CHRONOTON -= mending_unc PRICES
+
 scoreboard players add unc MENDING 1
 scoreboard players add @s MENDING 1

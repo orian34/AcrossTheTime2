@@ -13,14 +13,14 @@ execute at @s run function att2:sound/shop/selling
 
 function att2:gameplay/recycler/itemtotal_sold
 
-kill @e[type=item,distance=..1,nbt={Item:{id:"minecraft:arrow"}}]
-kill @e[type=item,distance=..1,nbt={Item:{id:"minecraft:spectral_arrow"}}]
-execute as @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"misc"}}}] unless entity @s[type=minecraft:item,nbt={Item:{id:"minecraft:written_book"}}] run kill @s
-kill @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"com"}}}]
-kill @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"unc"}}}]
-kill @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"rar"}}}]
-kill @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"epi"}}}]
-kill @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"epi_set"}}}]
-kill @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"epi_esc"}}}]
-execute as @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"leg"}}}] unless entity @s[type=minecraft:item,nbt={Item:{id:"minecraft:written_book"}}] run kill @s
-kill @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"leg_armset"}}}]
+kill @e[type=item,distance=..1,predicate=att2_pre:recycle/arrow]
+
+execute as @e[type=item,distance=..1,predicate=att2_pre:recycle/misc,predicate=!att2_pre:recycle/error] run kill @s
+kill @e[type=item,distance=..1,predicate=att2_pre:recycle/com]
+kill @e[type=item,distance=..1,predicate=att2_pre:recycle/unc]
+kill @e[type=item,distance=..1,predicate=att2_pre:recycle/rar]
+kill @e[type=item,distance=..1,predicate=att2_pre:recycle/epi]
+kill @e[type=item,distance=..1,predicate=att2_pre:recycle/epi_set]
+kill @e[type=item,distance=..1,predicate=att2_pre:recycle/epi_esc]
+execute as @e[type=item,distance=..1,predicate=att2_pre:recycle/leg,predicate=!att2_pre:recycle/error] run kill @s
+kill @e[type=item,distance=..1,predicate=att2_pre:recycle/leg_armset]

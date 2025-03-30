@@ -3,6 +3,20 @@
 #Process the shop table of armor_carmin_mordan    		        #
 #################################################################
 
+#set random value
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot1"]}] run scoreboard players operation @s SHOP_OP1 = armor_carmine_mordan_slot1 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot2"]}] run scoreboard players operation @s SHOP_OP1 = armor_carmine_mordan_slot2 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot3"]}] run scoreboard players operation @s SHOP_OP1 = armor_carmine_mordan_slot3 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot4"]}] run scoreboard players operation @s SHOP_OP1 = armor_carmine_mordan_slot4 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot5"]}] run scoreboard players operation @s SHOP_OP1 = armor_carmine_mordan_slot5 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot6"]}] run scoreboard players operation @s SHOP_OP1 = armor_carmine_mordan_slot6 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot7"]}] run scoreboard players operation @s SHOP_OP1 = armor_carmine_mordan_slot7 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot8"]}] run scoreboard players operation @s SHOP_OP1 = armor_carmine_mordan_slot8 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot9"]}] run scoreboard players operation @s SHOP_OP1 = armor_carmine_mordan_slot9 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot10"]}] run scoreboard players operation @s SHOP_OP1 = armor_carmine_mordan_slot10 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot11"]}] run scoreboard players operation @s SHOP_OP1 = armor_carmine_mordan_slot11 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot12"]}] run scoreboard players operation @s SHOP_OP1 = armor_carmine_mordan_slot12 SHOP_OP1
+
 execute if score @s SHOP_OP1 matches 0..10 at @e[name="CARMINE MORDAN"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/com/chainmail_chestplate_70
 execute if score @s SHOP_OP1 matches 11..20 at @e[name="CARMINE MORDAN"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/com/chainmail_chestplate_71
 execute if score @s SHOP_OP1 matches 21..30 at @e[name="CARMINE MORDAN"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/com/chainmail_leggings_72
@@ -33,6 +47,7 @@ execute if score @s SHOP_OP1 matches 261..270 at @e[name="CARMINE MORDAN"] as @a
 execute if score @s SHOP_OP1 matches 271..280 at @e[name="CARMINE MORDAN"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/com/netherite_leggings_270
 execute if score @s SHOP_OP1 matches 281..290 at @e[name="CARMINE MORDAN"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/com/netherite_boots_271
 execute if score @s SHOP_OP1 matches 291..300 at @e[name="CARMINE MORDAN"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/com/netherite_boots_272
+
 execute if score @s SHOP_OP1 matches 301..312 at @e[name="CARMINE MORDAN"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/unc/chainmail_chestplate_76
 execute if score @s SHOP_OP1 matches 313..324 at @e[name="CARMINE MORDAN"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/unc/chainmail_chestplate_77
 execute if score @s SHOP_OP1 matches 325..336 at @e[name="CARMINE MORDAN"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/unc/chainmail_leggings_78
@@ -63,6 +78,7 @@ execute if score @s SHOP_OP1 matches 613..624 at @e[name="CARMINE MORDAN"] as @a
 execute if score @s SHOP_OP1 matches 625..636 at @e[name="CARMINE MORDAN"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/unc/netherite_leggings_278
 execute if score @s SHOP_OP1 matches 637..648 at @e[name="CARMINE MORDAN"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/unc/netherite_boots_279
 execute if score @s SHOP_OP1 matches 649..660 at @e[name="CARMINE MORDAN"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/unc/netherite_boots_280
+
 execute if score @s SHOP_OP1 matches 661..669 at @e[name="CARMINE MORDAN"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/rar/chainmail_helmet_82
 execute if score @s SHOP_OP1 matches 670..678 at @e[name="CARMINE MORDAN"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/rar/chainmail_helmet_83
 execute if score @s SHOP_OP1 matches 679..687 at @e[name="CARMINE MORDAN"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/rar/chainmail_chestplate_84
@@ -95,6 +111,7 @@ execute if score @s SHOP_OP1 matches 893..900 at @e[name="CARMINE MORDAN"] as @a
 execute if score @s SHOP_OP1 matches 901..908 at @e[name="CARMINE MORDAN"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/rar/netherite_leggings_286
 execute if score @s SHOP_OP1 matches 909..916 at @e[name="CARMINE MORDAN"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/rar/netherite_boots_287
 execute if score @s SHOP_OP1 matches 917..924 at @e[name="CARMINE MORDAN"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/rar/netherite_boots_288
+
 execute if score @s SHOP_OP1 matches 925..927 at @e[name="CARMINE MORDAN"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/epi/chainmail_helmet_90
 execute if score @s SHOP_OP1 matches 928..930 at @e[name="CARMINE MORDAN"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/epi/chainmail_helmet_91
 execute if score @s SHOP_OP1 matches 931..933 at @e[name="CARMINE MORDAN"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/epi/chainmail_chestplate_92
@@ -112,6 +129,7 @@ execute if score @s SHOP_OP1 matches 964..966 at @e[name="CARMINE MORDAN"] as @a
 execute if score @s SHOP_OP1 matches 967..969 at @e[name="CARMINE MORDAN"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/epi/netherite_chestplate_290
 execute if score @s SHOP_OP1 matches 970..972 at @e[name="CARMINE MORDAN"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/epi/netherite_leggings_291
 execute if score @s SHOP_OP1 matches 973..975 at @e[name="CARMINE MORDAN"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/epi/netherite_boots_292
+
 execute if score @s SHOP_OP1 matches 976..976 at @e[name="CARMINE MORDAN"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/leg/chainmail_helmet_95
 execute if score @s SHOP_OP1 matches 977..977 at @e[name="CARMINE MORDAN"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/leg/chainmail_chestplate_96
 execute if score @s SHOP_OP1 matches 978..978 at @e[name="CARMINE MORDAN"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/armor/leg/chainmail_leggings_97

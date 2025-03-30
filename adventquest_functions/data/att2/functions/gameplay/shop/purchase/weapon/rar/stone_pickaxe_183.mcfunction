@@ -3,7 +3,8 @@
 #Use function to purchase stone_pickaxe_183			         #
 #####################################
 
-execute as @s[scores={CHRONOTON=..539}] at @s run function att2:dialogs/gameplay/shop/not_enough_chronotons 
-execute if entity @s[scores={CHRONOTON=540..}] run function att2:gameplay/shop/effect 
-execute if entity @s[scores={CHRONOTON=540..}] run function att2:items/weapon/rar/stone_pickaxe_183 
-scoreboard players remove @s[scores={CHRONOTON=540..}] CHRONOTON 540
+#
+execute if score @s CHRONOTON < weapon183 PRICES run function att2:dialogs/gameplay/shop/not_enough_chronotons
+execute if score @s CHRONOTON >= weapon183 PRICES run function att2:gameplay/shop/effect 
+execute if score @s CHRONOTON >= weapon183 PRICES run function att2:items/weapon/rar/stone_pickaxe_183 
+execute if score @s CHRONOTON >= weapon183 PRICES run scoreboard players operation @s CHRONOTON -= weapon183 PRICES

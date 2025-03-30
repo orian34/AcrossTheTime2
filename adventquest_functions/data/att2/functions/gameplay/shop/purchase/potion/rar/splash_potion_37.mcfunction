@@ -3,7 +3,8 @@
 #Use function to purchase splash_potion_37			         #
 #####################################
 
-execute as @s[scores={CHRONOTON=..39}] at @s run function att2:dialogs/gameplay/shop/not_enough_chronotons 
-execute if entity @s[scores={CHRONOTON=40..}] run function att2:gameplay/shop/effect 
-execute if entity @s[scores={CHRONOTON=40..}] run function att2:items/potion/rar/splash_potion_37 
-scoreboard players remove @s[scores={CHRONOTON=40..}] CHRONOTON 40
+#
+execute if score @s CHRONOTON < potion37 PRICES run function att2:dialogs/gameplay/shop/not_enough_chronotons
+execute if score @s CHRONOTON >= potion37 PRICES run function att2:gameplay/shop/effect 
+execute if score @s CHRONOTON >= potion37 PRICES run function att2:items/potion/rar/splash_potion_37 
+execute if score @s CHRONOTON >= potion37 PRICES run scoreboard players operation @s CHRONOTON -= potion37 PRICES

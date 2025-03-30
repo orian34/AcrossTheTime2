@@ -3,8 +3,8 @@
 #Use function to process the sell of class9_9 					#
 #################################################################
 
-execute as @s[scores={CHRONOTON=..159}] at @s run function att2:dialogs/gameplay/shop/not_enough_chronotons
-execute if entity @s[scores={CHRONOTON=160..}] run function att2:gameplay/shop/effect
-execute if entity @s[scores={CHRONOTON=160..}] positioned as @s run function att2:summon/reg_1/horse9_class9
-
-scoreboard players remove @s[scores={CHRONOTON=160..}] CHRONOTON 160
+#
+execute if score @s CHRONOTON < class9_9 PRICES run function att2:dialogs/gameplay/shop/not_enough_chronotons
+execute if score @s CHRONOTON >= class9_9 PRICES run function att2:gameplay/shop/effect 
+execute if score @s CHRONOTON >= class9_9 PRICES run function att2:summon/reg_1/horse0_class1 
+execute if score @s CHRONOTON >= class9_9 PRICES run scoreboard players operation @s CHRONOTON -= class9_9 PRICES

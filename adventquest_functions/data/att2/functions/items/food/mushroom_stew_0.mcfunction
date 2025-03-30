@@ -3,4 +3,4 @@
 #Obtain mushroom_stew_0         				 #
 ##################################################
 
-give @s minecraft:mushroom_stew
+give @s minecraft:mushroom_stew{EquipmentType:"misc",Rarity:"misc"}

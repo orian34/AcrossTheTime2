@@ -3,5 +3,5 @@
 #Process reset combo 									    #
 #############################################################
 
-scoreboard players set Timer COMBO -1
-scoreboard players set KillCount COMBO 0
+scoreboard players reset @s COMBO_COUNT
+scoreboard players reset @s COMBO_TIMER

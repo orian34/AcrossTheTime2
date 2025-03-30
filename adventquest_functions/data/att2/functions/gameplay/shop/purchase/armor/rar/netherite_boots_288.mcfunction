@@ -3,7 +3,8 @@
 #Use function to purchase netherite_boots_288			         #
 #####################################
 
-execute as @s[scores={CHRONOTON=..252}] at @s run function att2:dialogs/gameplay/shop/not_enough_chronotons 
-execute if entity @s[scores={CHRONOTON=253..}] run function att2:gameplay/shop/effect 
-execute if entity @s[scores={CHRONOTON=253..}] run function att2:items/armor/rar/netherite_boots_288 
-scoreboard players remove @s[scores={CHRONOTON=253..}] CHRONOTON 253
+#
+execute if score @s CHRONOTON < armor288 PRICES run function att2:dialogs/gameplay/shop/not_enough_chronotons
+execute if score @s CHRONOTON >= armor288 PRICES run function att2:gameplay/shop/effect 
+execute if score @s CHRONOTON >= armor288 PRICES run function att2:items/armor/rar/netherite_boots_288 
+execute if score @s CHRONOTON >= armor288 PRICES run scoreboard players operation @s CHRONOTON -= armor288 PRICES

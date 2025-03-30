@@ -2,6 +2,19 @@
 #Made by Adventquest											#
 #Process the shop table of weapon_rokar_borton    		        #
 #################################################################
+#set random value
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot1"]}] run scoreboard players operation @s SHOP_OP1 = weapon_rokar_borton_slot1 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot2"]}] run scoreboard players operation @s SHOP_OP1 = weapon_rokar_borton_slot2 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot3"]}] run scoreboard players operation @s SHOP_OP1 = weapon_rokar_borton_slot3 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot4"]}] run scoreboard players operation @s SHOP_OP1 = weapon_rokar_borton_slot4 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot5"]}] run scoreboard players operation @s SHOP_OP1 = weapon_rokar_borton_slot5 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot6"]}] run scoreboard players operation @s SHOP_OP1 = weapon_rokar_borton_slot6 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot7"]}] run scoreboard players operation @s SHOP_OP1 = weapon_rokar_borton_slot7 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot8"]}] run scoreboard players operation @s SHOP_OP1 = weapon_rokar_borton_slot8 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot9"]}] run scoreboard players operation @s SHOP_OP1 = weapon_rokar_borton_slot9 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot10"]}] run scoreboard players operation @s SHOP_OP1 = weapon_rokar_borton_slot10 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot11"]}] run scoreboard players operation @s SHOP_OP1 = weapon_rokar_borton_slot11 SHOP_OP1
+execute if entity @s[nbt={Tags:["ShotSlotHolder","slot12"]}] run scoreboard players operation @s SHOP_OP1 = weapon_rokar_borton_slot12 SHOP_OP1
 
 execute if score @s SHOP_OP1 matches 0..42 at @e[name="BORTON"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/com/golden_axe_128
 execute if score @s SHOP_OP1 matches 43..84 at @e[name="BORTON"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/com/golden_axe_129
@@ -13,6 +26,7 @@ execute if score @s SHOP_OP1 matches 253..294 at @e[name="BORTON"] as @a[distanc
 execute if score @s SHOP_OP1 matches 295..336 at @e[name="BORTON"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/com/golden_sword_135
 execute if score @s SHOP_OP1 matches 337..378 at @e[name="BORTON"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/com/golden_hoe_318
 execute if score @s SHOP_OP1 matches 379..420 at @e[name="BORTON"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/com/golden_hoe_319
+
 execute if score @s SHOP_OP1 matches 421..450 at @e[name="BORTON"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/unc/golden_axe_136
 execute if score @s SHOP_OP1 matches 451..480 at @e[name="BORTON"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/unc/golden_axe_137
 execute if score @s SHOP_OP1 matches 481..510 at @e[name="BORTON"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/unc/golden_pickaxe_138
@@ -23,6 +37,7 @@ execute if score @s SHOP_OP1 matches 601..630 at @e[name="BORTON"] as @a[distanc
 execute if score @s SHOP_OP1 matches 631..660 at @e[name="BORTON"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/unc/golden_sword_143
 execute if score @s SHOP_OP1 matches 661..690 at @e[name="BORTON"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/unc/golden_hoe_320
 execute if score @s SHOP_OP1 matches 691..720 at @e[name="BORTON"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/unc/golden_hoe_321
+
 execute if score @s SHOP_OP1 matches 721..735 at @e[name="BORTON"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/rar/golden_axe_144
 execute if score @s SHOP_OP1 matches 736..750 at @e[name="BORTON"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/rar/golden_axe_145
 execute if score @s SHOP_OP1 matches 751..765 at @e[name="BORTON"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/rar/golden_pickaxe_146
@@ -37,6 +52,7 @@ execute if score @s SHOP_OP1 matches 871..886 at @e[name="BORTON"] as @a[distanc
 execute if score @s SHOP_OP1 matches 887..902 at @e[name="BORTON"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/rar/bow_42
 execute if score @s SHOP_OP1 matches 903..918 at @e[name="BORTON"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/rar/bow_43
 execute if score @s SHOP_OP1 matches 919..934 at @e[name="BORTON"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/rar/bow_44
+
 execute if score @s SHOP_OP1 matches 935..941 at @e[name="BORTON"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/epi/golden_axe_152
 execute if score @s SHOP_OP1 matches 942..948 at @e[name="BORTON"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/epi/golden_pickaxe_153
 execute if score @s SHOP_OP1 matches 949..955 at @e[name="BORTON"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/epi/golden_shovel_154
@@ -45,6 +61,7 @@ execute if score @s SHOP_OP1 matches 963..969 at @e[name="BORTON"] as @a[distanc
 execute if score @s SHOP_OP1 matches 970..975 at @e[name="BORTON"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/epi/bow_45
 execute if score @s SHOP_OP1 matches 976..981 at @e[name="BORTON"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/epi/bow_46
 execute if score @s SHOP_OP1 matches 982..987 at @e[name="BORTON"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/epi/bow_47
+
 execute if score @s SHOP_OP1 matches 988..989 at @e[name="BORTON"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/leg/golden_axe_156
 execute if score @s SHOP_OP1 matches 990..991 at @e[name="BORTON"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/leg/golden_pickaxe_157
 execute if score @s SHOP_OP1 matches 992..993 at @e[name="BORTON"] as @a[distance=..7] run function att2:dialogs/gameplay/shop/showcase/weapon/leg/golden_shovel_158

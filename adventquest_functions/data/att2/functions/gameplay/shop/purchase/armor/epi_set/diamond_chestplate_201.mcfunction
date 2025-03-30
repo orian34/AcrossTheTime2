@@ -3,7 +3,8 @@
 #Use function to purchase diamond_chestplate_201			         #
 #####################################
 
-execute as @s[scores={CHRONOTON=..843}] at @s run function att2:dialogs/gameplay/shop/not_enough_chronotons 
-execute if entity @s[scores={CHRONOTON=844..}] run function att2:gameplay/shop/effect 
-execute if entity @s[scores={CHRONOTON=844..}] run function att2:items/armor/epi_set/diamond_chestplate_201 
-scoreboard players remove @s[scores={CHRONOTON=844..}] CHRONOTON 844
+#
+execute if score @s CHRONOTON < armor201 PRICES run function att2:dialogs/gameplay/shop/not_enough_chronotons
+execute if score @s CHRONOTON >= armor201 PRICES run function att2:gameplay/shop/effect 
+execute if score @s CHRONOTON >= armor201 PRICES run function att2:items/armor/epi_set/diamond_chestplate_201 
+execute if score @s CHRONOTON >= armor201 PRICES run scoreboard players operation @s CHRONOTON -= armor201 PRICES

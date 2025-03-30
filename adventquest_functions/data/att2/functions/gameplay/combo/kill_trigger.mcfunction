@@ -3,5 +3,8 @@
 #Process trigger kill 									    #
 #############################################################
 
-execute if entity @a[gamemode=adventure,distance=..25] if score Current COMBO < Total COMBO run function att2:gameplay/combo/kill_add
-scoreboard players operation Total COMBO = Current COMBO
+##revoke test
+advancement revoke @s only att2_test:test_mobskilled/combo_kill
+#
+scoreboard players add @s COMBO_COUNT 1
+scoreboard players set @s COMBO_TIMER 150
