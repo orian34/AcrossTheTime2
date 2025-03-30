@@ -7,6 +7,7 @@ function att2:gameplay/shop/gambling/initialize
 function att2:gameplay/shop/smith_leveling/initialize
 function att2:gameplay/shop/purchase/initialize
 function att2:gameplay/shop/purchase/price_set
+function att2:gameplay/shop/purchase/discount_set
 scoreboard objectives add ESC dummy
 scoreboard objectives add SHOP dummy
 scoreboard objectives add MENDING dummy
