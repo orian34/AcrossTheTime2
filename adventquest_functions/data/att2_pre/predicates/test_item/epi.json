@@ -1,0 +1,21 @@
+{
+    "condition":"any_of",
+    "terms":[
+        {
+            "condition":"entity_properties",
+            "entity":"this",
+            "predicate":{
+                "type":"minecraft:item",
+                "nbt":"{Item:{tag:{Rarity:epi}},PickupDelay:0s,OnGround:1b}"
+            }
+        },
+        {
+            "condition":"entity_properties",
+            "entity":"this",
+            "predicate":{
+                "type":"minecraft:item",
+                "nbt":"{Item:{tag:{Rarity:epi_esc}},PickupDelay:0s,OnGround:1b}"
+            }
+        }
+    ]
+}
