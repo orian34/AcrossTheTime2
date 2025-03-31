@@ -880,16 +880,16 @@ scoreboard players operation armor198 PRICES /= 100 discount_calc
 scoreboard players set armor262 PRICES 2205
 scoreboard players operation armor262 PRICES *= discount discount_calc
 scoreboard players operation armor262 PRICES /= 100 discount_calc
-scoreboard players set armor162 PRICES 2231
+scoreboard players set armor162 PRICES 2250
 scoreboard players operation armor162 PRICES *= discount discount_calc
 scoreboard players operation armor162 PRICES /= 100 discount_calc
-scoreboard players set armor160 PRICES 2494
+scoreboard players set armor160 PRICES 2800
 scoreboard players operation armor160 PRICES *= discount discount_calc
 scoreboard players operation armor160 PRICES /= 100 discount_calc
-scoreboard players set armor159 PRICES 1969
+scoreboard players set armor159 PRICES 2100
 scoreboard players operation armor159 PRICES *= discount discount_calc
 scoreboard players operation armor159 PRICES /= 100 discount_calc
-scoreboard players set armor161 PRICES 2625
+scoreboard players set armor161 PRICES 2650
 scoreboard players operation armor161 PRICES *= discount discount_calc
 scoreboard players operation armor161 PRICES /= 100 discount_calc
 scoreboard players set armor130 PRICES 1969
@@ -977,16 +977,16 @@ scoreboard players operation armor207 PRICES /= 100 discount_calc
 scoreboard players set armor351 PRICES 2025
 scoreboard players operation armor351 PRICES *= discount discount_calc
 scoreboard players operation armor351 PRICES /= 100 discount_calc
-scoreboard players set armor166 PRICES 2700
+scoreboard players set armor166 PRICES 2600
 scoreboard players operation armor166 PRICES *= discount discount_calc
 scoreboard players operation armor166 PRICES /= 100 discount_calc
-scoreboard players set armor164 PRICES 2700
+scoreboard players set armor164 PRICES 3000
 scoreboard players operation armor164 PRICES *= discount discount_calc
 scoreboard players operation armor164 PRICES /= 100 discount_calc
 scoreboard players set armor163 PRICES 2700
 scoreboard players operation armor163 PRICES *= discount discount_calc
 scoreboard players operation armor163 PRICES /= 100 discount_calc
-scoreboard players set armor165 PRICES 2700
+scoreboard players set armor165 PRICES 2900
 scoreboard players operation armor165 PRICES *= discount discount_calc
 scoreboard players operation armor165 PRICES /= 100 discount_calc
 scoreboard players set armor305 PRICES 1900
