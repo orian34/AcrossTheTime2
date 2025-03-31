@@ -3,6 +3,7 @@
 #Estimate the misc total sold            					#
 #############################################################
 
+playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 0.1 1
 playsound piece2 block @s ~ ~ ~ 0.3 0.777
 
 scoreboard players set rar SPELL31 3

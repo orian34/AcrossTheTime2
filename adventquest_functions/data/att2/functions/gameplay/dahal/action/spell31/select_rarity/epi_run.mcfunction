@@ -6,7 +6,4 @@
 
 scoreboard players set @s recycle_select_epi 1
 
-execute in minecraft:overworld positioned 777 77 777 run kill @e[type=armor_stand,tag=recycle_select,tag=epi,distance=..1]
-
-execute in minecraft:overworld positioned 777 77 777 run summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Tags:["recycle_select","epi"],CustomName:'{"text":"♻","color":"green"}'}
 function att2:gameplay/dahal/action/spell31/obtain

@@ -3,7 +3,7 @@
 #Estimate the misc total sold            					#
 #############################################################
 
-playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 0.5 0.8
+playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 0.8
 
 scoreboard players set leg SPELL31 15
 scoreboard players operation leg SPELL31 *= @s SPELL31_CAP

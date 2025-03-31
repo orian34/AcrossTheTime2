@@ -18,7 +18,7 @@ execute as @e[tag=NewPet] run tag @s add GluttonPet
 execute as @e[tag=NewPet] run tag @s remove NewPet
 execute as @e[tag=NewInvo,distance=..10] run function att2:gameplay/invocation/action/summon
 
-scoreboard players remove @s DAHAL 80
+scoreboard players remove @s DAHAL 350
 function att2:gameplay/dahal/action/spell31/cooldown
 
 # Spell launch total count for advancement
