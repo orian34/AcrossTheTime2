@@ -19,3 +19,6 @@ function att2:gameplay/equipment/effect/po/time_bonus/has
 function att2:gameplay/equipment/effect/po/time_bonus/spd
 function att2:gameplay/equipment/effect/po/time_bonus/dar
 function att2:gameplay/equipment/effect/po/time_bonus/hun
+
+function att2:gameplay/equipment/effect/po/time_cal
+function att2:dialogs/gameplay/potion_tip/potion_29

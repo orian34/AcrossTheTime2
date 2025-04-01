@@ -14,3 +14,7 @@ scoreboard players set @s TIMER_STR_PO 3000
 
 function att2:gameplay/equipment/effect/po/time_bonus/spd
 function att2:gameplay/equipment/effect/po/time_bonus/dar
+function att2:gameplay/equipment/effect/po/time_bonus/str_reduce
+
+function att2:gameplay/equipment/effect/po/time_cal
+function att2:dialogs/gameplay/potion_tip/potion_48

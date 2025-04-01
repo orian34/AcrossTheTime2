@@ -11,3 +11,6 @@ scoreboard players set @s TIMER_HUN_PO 12000
 
 function att2:gameplay/equipment/effect/po/time_bonus/her
 function att2:gameplay/equipment/effect/po/time_bonus/hun
+
+function att2:gameplay/equipment/effect/po/time_cal
+function att2:dialogs/gameplay/potion_tip/potion_28

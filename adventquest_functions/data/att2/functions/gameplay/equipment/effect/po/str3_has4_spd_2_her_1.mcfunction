@@ -17,3 +17,8 @@ scoreboard players set @s TIMER_HER_PO 4000
 
 function att2:gameplay/equipment/effect/po/time_bonus/str
 function att2:gameplay/equipment/effect/po/time_bonus/has
+function att2:gameplay/equipment/effect/po/time_bonus/spd_reduce
+function att2:gameplay/equipment/effect/po/time_bonus/her_reduce
+
+function att2:gameplay/equipment/effect/po/time_cal
+function att2:dialogs/gameplay/potion_tip/potion_24

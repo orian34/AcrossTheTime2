@@ -3,6 +3,10 @@
 #Process effect bonus timer         #
 #####################################
 
+
+##POTION TIP set
+scoreboard players set POTION_CHECK_DAR TIMER 1
+
 execute if score BonusTimePotion RUNE matches 1.. run scoreboard players add @s TIMER_DAR_PO 400
 execute if score BonusTimePotion RUNE matches 2.. run scoreboard players add @s TIMER_DAR_PO 400
 execute if score BonusTimePotion RUNE matches 3.. run scoreboard players add @s TIMER_DAR_PO 400

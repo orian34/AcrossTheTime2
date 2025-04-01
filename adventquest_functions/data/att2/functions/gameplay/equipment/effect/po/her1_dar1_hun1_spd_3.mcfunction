@@ -18,3 +18,8 @@ scoreboard players set @s TIMER_SPD_PO 5000
 function att2:gameplay/equipment/effect/po/time_bonus/her
 function att2:gameplay/equipment/effect/po/time_bonus/dar
 function att2:gameplay/equipment/effect/po/time_bonus/hun
+function att2:gameplay/equipment/effect/po/time_bonus/spd_reduce
+
+
+function att2:gameplay/equipment/effect/po/time_cal
+function att2:dialogs/gameplay/potion_tip/potion_18

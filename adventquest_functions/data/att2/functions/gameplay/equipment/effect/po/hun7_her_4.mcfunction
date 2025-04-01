@@ -10,3 +10,7 @@ scoreboard players set @s HER_LVL_PO -4
 scoreboard players set @s TIMER_HER_PO 3200
 
 function att2:gameplay/equipment/effect/po/time_bonus/hun
+function att2:gameplay/equipment/effect/po/time_bonus/her_reduce
+
+function att2:gameplay/equipment/effect/po/time_cal
+function att2:dialogs/gameplay/potion_tip/potion_1
