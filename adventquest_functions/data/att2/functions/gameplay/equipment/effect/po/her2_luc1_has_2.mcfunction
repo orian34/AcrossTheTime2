@@ -14,3 +14,7 @@ scoreboard players set @s TIMER_HAS_PO 5000
 
 function att2:gameplay/equipment/effect/po/time_bonus/her
 function att2:gameplay/equipment/effect/po/time_bonus/luc
+function att2:gameplay/equipment/effect/po/time_bonus/has_reduce
+
+function att2:gameplay/equipment/effect/po/time_cal
+function att2:dialogs/gameplay/potion_tip/potion_23
