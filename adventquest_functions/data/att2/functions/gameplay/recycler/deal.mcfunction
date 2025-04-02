@@ -11,4 +11,4 @@ execute if score number RECYCLER matches 1.. run function att2:dialogs/gameplay/
 function att2:gameplay/recycler/leveling/black_lvl_data
 execute if score number RECYCLER matches 0 run function att2:dialogs/gameplay/shop/buyer/deal_completed
 
-execute as @e[tag=Recycler,type=armor_stand] at @s run data merge entity @s {Marker:1}
+execute as @e[tag=Recycler,type=armor_stand] at @s run data merge entity @s {Marker:1,Motion:[0.0d,0.0d, 0.0d]}
