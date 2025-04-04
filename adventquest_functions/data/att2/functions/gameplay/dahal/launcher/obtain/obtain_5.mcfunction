@@ -3,6 +3,7 @@
 #Obtain the magic sphere                         #
 ##################################################
 
+execute unless score @s SPELL5_SLCT matches 1.. run scoreboard players set @s SPELL5_SLCT 1
 execute unless score @s SPELL5_SLCT matches 1.. run function att2:gameplay/dahal/launcher/spell_5/lvl1
 execute if score @s SPELL5_SLCT matches 1 run function att2:gameplay/dahal/launcher/spell_5/lvl1
 execute if score @s SPELL5_SLCT matches 2 run function att2:gameplay/dahal/launcher/spell_5/lvl2
