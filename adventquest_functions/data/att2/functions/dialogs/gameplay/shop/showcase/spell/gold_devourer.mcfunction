@@ -2,17 +2,6 @@
 #Made by Adventquest											#
 #Use function to process the spells list items shop 			#
 #################################################################
-clear @s minecraft:written_book{title:"§6Dévoreur d'Or"}
-clear @s minecraft:written_book{title:"§6Gold Devourer"}
-clear @s minecraft:written_book{title:"§6吞金兽"}
-clear @s minecraft:written_book{title:"§6金喰い獣"}
-clear @s minecraft:written_book{title:"§6골드 이터"}
-clear @s minecraft:written_book{title:"§6الوحش الذهبي"}
-clear @s minecraft:written_book{title:"§6Золотой Пожиратель"}
-clear @s minecraft:written_book{title:"§6Goldfresser"}
-clear @s minecraft:written_book{title:"§6Devorador de Oro"}
-clear @s minecraft:written_book{title:"§6स्वर्ण भक्षक"}
-clear @s minecraft:written_book{title:"§6Devorador de Ouro"}
 
 #FRENCH LANGUAGE
 
