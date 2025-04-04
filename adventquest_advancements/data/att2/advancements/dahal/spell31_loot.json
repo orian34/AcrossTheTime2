@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "title": {"translate":"Gold Devourer"},
+        "description": {"translate":"Find Gold Devourer spell"},
+        "hidden": true
+    },
+    "parent": "att2:dahal/root",
+    "rewards": {
+        "function": "att2:advancement/exploit_1",
+        "experience": 50
+                },
+    "criteria": {
+        "spell31_loot": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
