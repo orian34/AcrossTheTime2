@@ -3,16 +3,16 @@
 #Process Insaisissable incantation								#
 #################################################################
 
-execute as @s[scores={SPELL_SLCT=431,DAHAL=20..}] at @s run function att2:gameplay/dahal/action/spell44/lvl1
-execute as @s[scores={SPELL_SLCT=432,DAHAL=30..}] at @s run function att2:gameplay/dahal/action/spell44/lvl2
-execute as @s[scores={SPELL_SLCT=433,DAHAL=40..}] at @s run function att2:gameplay/dahal/action/spell44/lvl3
-execute as @s[scores={SPELL_SLCT=434,DAHAL=50..}] at @s run function att2:gameplay/dahal/action/spell44/lvl4
-execute as @s[scores={SPELL_SLCT=435,DAHAL=60..}] at @s run function att2:gameplay/dahal/action/spell44/lvl5
-execute as @s[scores={SPELL_SLCT=436,DAHAL=75..}] at @s run function att2:gameplay/dahal/action/spell44/lvl6
-execute as @s[scores={SPELL_SLCT=437,DAHAL=90..}] at @s run function att2:gameplay/dahal/action/spell44/lvl7
-execute as @s[scores={SPELL_SLCT=438,DAHAL=110..}] at @s run function att2:gameplay/dahal/action/spell44/lvl8
-execute as @s[scores={SPELL_SLCT=439,DAHAL=130..}] at @s run function att2:gameplay/dahal/action/spell44/lvl9
-execute as @s[scores={SPELL_SLCT=440,DAHAL=150..}] at @s run function att2:gameplay/dahal/action/spell44/lvl10
+execute as @s[scores={SPELL44_SLCT=1,DAHAL=20..}] at @s run function att2:gameplay/dahal/action/spell44/lvl1
+execute as @s[scores={SPELL44_SLCT=2,DAHAL=30..}] at @s run function att2:gameplay/dahal/action/spell44/lvl2
+execute as @s[scores={SPELL44_SLCT=3,DAHAL=40..}] at @s run function att2:gameplay/dahal/action/spell44/lvl3
+execute as @s[scores={SPELL44_SLCT=4,DAHAL=50..}] at @s run function att2:gameplay/dahal/action/spell44/lvl4
+execute as @s[scores={SPELL44_SLCT=5,DAHAL=60..}] at @s run function att2:gameplay/dahal/action/spell44/lvl5
+execute as @s[scores={SPELL44_SLCT=6,DAHAL=75..}] at @s run function att2:gameplay/dahal/action/spell44/lvl6
+execute as @s[scores={SPELL44_SLCT=7,DAHAL=90..}] at @s run function att2:gameplay/dahal/action/spell44/lvl7
+execute as @s[scores={SPELL44_SLCT=8,DAHAL=110..}] at @s run function att2:gameplay/dahal/action/spell44/lvl8
+execute as @s[scores={SPELL44_SLCT=9,DAHAL=130..}] at @s run function att2:gameplay/dahal/action/spell44/lvl9
+execute as @s[scores={SPELL44_SLCT=10,DAHAL=150..}] at @s run function att2:gameplay/dahal/action/spell44/lvl10
 
 # Retrieving The lvl up (cap) value to compare it to current xp level
 scoreboard players operation @s SPELL_OP = @s SPELL44_LVL

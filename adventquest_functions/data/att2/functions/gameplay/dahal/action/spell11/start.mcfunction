@@ -3,6 +3,10 @@
 #Start Nova														#
 #################################################################
 
+#nova/Corrupted stop
+execute as @s[tag=Corrupted] run function att2:gameplay/dahal/action/spell40/stop
+execute as @s[tag=Tiid_Klo_Ul] run function att2:gameplay/dahal/action/spell9/stop
+
 scoreboard players set @s SPELL11_EFFECT 40
 
 tag @s[scores={DAHAL=50..}] add Nova

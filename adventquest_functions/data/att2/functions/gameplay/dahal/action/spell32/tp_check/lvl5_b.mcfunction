@@ -10,23 +10,23 @@
 scoreboard players set @s TP_CHECK 0
 scoreboard players set @s ESC_CHECK 0
 ##对玩家与盔甲架的距离进行检测，在60-80范围内将TP_CHECK设置为1 Detect the distance between the player and the armor stand, and set TP_CHECK to 1 within its range.
-execute as @e[tag=SpaceTeleportSpellSETB,tag=player1] at @s run scoreboard players set @a[distance=..59,scores={NUMEROJOUEUR=1,SPELL_SLCT=315,SPELL32_SET_OR_TP=4},limit=1,sort=nearest] TP_CHECK 1
-execute as @e[tag=SpaceTeleportSpellSETB,tag=player2] at @s run scoreboard players set @a[distance=..59,scores={NUMEROJOUEUR=2,SPELL_SLCT=315,SPELL32_SET_OR_TP=4},limit=1,sort=nearest] TP_CHECK 1
-execute as @e[tag=SpaceTeleportSpellSETB,tag=player3] at @s run scoreboard players set @a[distance=..59,scores={NUMEROJOUEUR=3,SPELL_SLCT=315,SPELL32_SET_OR_TP=4},limit=1,sort=nearest] TP_CHECK 1
-execute as @e[tag=SpaceTeleportSpellSETB,tag=player4] at @s run scoreboard players set @a[distance=..59,scores={NUMEROJOUEUR=4,SPELL_SLCT=315,SPELL32_SET_OR_TP=4},limit=1,sort=nearest] TP_CHECK 1
-execute as @e[tag=SpaceTeleportSpellSETB,tag=player5] at @s run scoreboard players set @a[distance=..59,scores={NUMEROJOUEUR=5,SPELL_SLCT=315,SPELL32_SET_OR_TP=4},limit=1,sort=nearest] TP_CHECK 1
+execute as @e[tag=SpaceTeleportSpellSETB,tag=player1] at @s run scoreboard players set @a[distance=..59,scores={NUMEROJOUEUR=1,SPELL32_SLCT=5,SPELL32_SET_OR_TP=4},limit=1,sort=nearest] TP_CHECK 1
+execute as @e[tag=SpaceTeleportSpellSETB,tag=player2] at @s run scoreboard players set @a[distance=..59,scores={NUMEROJOUEUR=2,SPELL32_SLCT=5,SPELL32_SET_OR_TP=4},limit=1,sort=nearest] TP_CHECK 1
+execute as @e[tag=SpaceTeleportSpellSETB,tag=player3] at @s run scoreboard players set @a[distance=..59,scores={NUMEROJOUEUR=3,SPELL32_SLCT=5,SPELL32_SET_OR_TP=4},limit=1,sort=nearest] TP_CHECK 1
+execute as @e[tag=SpaceTeleportSpellSETB,tag=player4] at @s run scoreboard players set @a[distance=..59,scores={NUMEROJOUEUR=4,SPELL32_SLCT=5,SPELL32_SET_OR_TP=4},limit=1,sort=nearest] TP_CHECK 1
+execute as @e[tag=SpaceTeleportSpellSETB,tag=player5] at @s run scoreboard players set @a[distance=..59,scores={NUMEROJOUEUR=5,SPELL32_SLCT=5,SPELL32_SET_OR_TP=4},limit=1,sort=nearest] TP_CHECK 1
 ##对玩家与盔甲架的距离进行检测，在60以内范围将TP_CHECK设置为2 Detect the distance between the player and the armor stand, and set TP_CHECK to 2 within its range.
-execute as @e[tag=SpaceTeleportSpellSETB,tag=player1] at @s run scoreboard players set @a[distance=60..99,scores={NUMEROJOUEUR=1,SPELL_SLCT=315,SPELL32_SET_OR_TP=4},limit=1,sort=nearest] TP_CHECK 2
-execute as @e[tag=SpaceTeleportSpellSETB,tag=player2] at @s run scoreboard players set @a[distance=60..99,scores={NUMEROJOUEUR=2,SPELL_SLCT=315,SPELL32_SET_OR_TP=4},limit=1,sort=nearest] TP_CHECK 2
-execute as @e[tag=SpaceTeleportSpellSETB,tag=player3] at @s run scoreboard players set @a[distance=60..99,scores={NUMEROJOUEUR=3,SPELL_SLCT=315,SPELL32_SET_OR_TP=4},limit=1,sort=nearest] TP_CHECK 2
-execute as @e[tag=SpaceTeleportSpellSETB,tag=player4] at @s run scoreboard players set @a[distance=60..99,scores={NUMEROJOUEUR=4,SPELL_SLCT=315,SPELL32_SET_OR_TP=4},limit=1,sort=nearest] TP_CHECK 2
-execute as @e[tag=SpaceTeleportSpellSETB,tag=player5] at @s run scoreboard players set @a[distance=60..99,scores={NUMEROJOUEUR=5,SPELL_SLCT=315,SPELL32_SET_OR_TP=4},limit=1,sort=nearest] TP_CHECK 2
+execute as @e[tag=SpaceTeleportSpellSETB,tag=player1] at @s run scoreboard players set @a[distance=60..99,scores={NUMEROJOUEUR=1,SPELL32_SLCT=5,SPELL32_SET_OR_TP=4},limit=1,sort=nearest] TP_CHECK 2
+execute as @e[tag=SpaceTeleportSpellSETB,tag=player2] at @s run scoreboard players set @a[distance=60..99,scores={NUMEROJOUEUR=2,SPELL32_SLCT=5,SPELL32_SET_OR_TP=4},limit=1,sort=nearest] TP_CHECK 2
+execute as @e[tag=SpaceTeleportSpellSETB,tag=player3] at @s run scoreboard players set @a[distance=60..99,scores={NUMEROJOUEUR=3,SPELL32_SLCT=5,SPELL32_SET_OR_TP=4},limit=1,sort=nearest] TP_CHECK 2
+execute as @e[tag=SpaceTeleportSpellSETB,tag=player4] at @s run scoreboard players set @a[distance=60..99,scores={NUMEROJOUEUR=4,SPELL32_SLCT=5,SPELL32_SET_OR_TP=4},limit=1,sort=nearest] TP_CHECK 2
+execute as @e[tag=SpaceTeleportSpellSETB,tag=player5] at @s run scoreboard players set @a[distance=60..99,scores={NUMEROJOUEUR=5,SPELL32_SLCT=5,SPELL32_SET_OR_TP=4},limit=1,sort=nearest] TP_CHECK 2
 ##对玩家与盔甲架的距离进行检测，在60以内范围将TP_CHECK设置为3 Detect the distance between the player and the armor stand, and set TP_CHECK to 3 within its range.
-execute as @e[tag=SpaceTeleportSpellSETB,tag=player1] at @s run scoreboard players set @a[distance=100..140,scores={NUMEROJOUEUR=1,SPELL_SLCT=315,SPELL32_SET_OR_TP=4},limit=1,sort=nearest] TP_CHECK 3
-execute as @e[tag=SpaceTeleportSpellSETB,tag=player2] at @s run scoreboard players set @a[distance=100..140,scores={NUMEROJOUEUR=2,SPELL_SLCT=315,SPELL32_SET_OR_TP=4},limit=1,sort=nearest] TP_CHECK 3
-execute as @e[tag=SpaceTeleportSpellSETB,tag=player3] at @s run scoreboard players set @a[distance=100..140,scores={NUMEROJOUEUR=3,SPELL_SLCT=315,SPELL32_SET_OR_TP=4},limit=1,sort=nearest] TP_CHECK 3
-execute as @e[tag=SpaceTeleportSpellSETB,tag=player4] at @s run scoreboard players set @a[distance=100..140,scores={NUMEROJOUEUR=4,SPELL_SLCT=315,SPELL32_SET_OR_TP=4},limit=1,sort=nearest] TP_CHECK 3
-execute as @e[tag=SpaceTeleportSpellSETB,tag=player5] at @s run scoreboard players set @a[distance=100..140,scores={NUMEROJOUEUR=5,SPELL_SLCT=315,SPELL32_SET_OR_TP=4},limit=1,sort=nearest] TP_CHECK 3
+execute as @e[tag=SpaceTeleportSpellSETB,tag=player1] at @s run scoreboard players set @a[distance=100..140,scores={NUMEROJOUEUR=1,SPELL32_SLCT=5,SPELL32_SET_OR_TP=4},limit=1,sort=nearest] TP_CHECK 3
+execute as @e[tag=SpaceTeleportSpellSETB,tag=player2] at @s run scoreboard players set @a[distance=100..140,scores={NUMEROJOUEUR=2,SPELL32_SLCT=5,SPELL32_SET_OR_TP=4},limit=1,sort=nearest] TP_CHECK 3
+execute as @e[tag=SpaceTeleportSpellSETB,tag=player3] at @s run scoreboard players set @a[distance=100..140,scores={NUMEROJOUEUR=3,SPELL32_SLCT=5,SPELL32_SET_OR_TP=4},limit=1,sort=nearest] TP_CHECK 3
+execute as @e[tag=SpaceTeleportSpellSETB,tag=player4] at @s run scoreboard players set @a[distance=100..140,scores={NUMEROJOUEUR=4,SPELL32_SLCT=5,SPELL32_SET_OR_TP=4},limit=1,sort=nearest] TP_CHECK 3
+execute as @e[tag=SpaceTeleportSpellSETB,tag=player5] at @s run scoreboard players set @a[distance=100..140,scores={NUMEROJOUEUR=5,SPELL32_SLCT=5,SPELL32_SET_OR_TP=4},limit=1,sort=nearest] TP_CHECK 3
 ##对玩家身上的esc数量进行检测，距离范围在60以内，且持有量足够时将ESC_CHECK设置为1 Detect the amount of ESC on the player, and set ESC_CHECK to 1 if the distance is within 60 and the player has enough.
 scoreboard players set @s[scores={TP_CHECK=1},nbt={Inventory:[{tag:{display:{"Lore":["{\"text\":\"§5§oPrecious!!\"}","{\"text\":\"§5Very, VERY, Precious...\"}"]}}}]}] ESC_CHECK 1
 ##对玩家身上的esc数量进行检测，距离范围在60-100以内，且持有量足够时将ESC_CHECK设置为3

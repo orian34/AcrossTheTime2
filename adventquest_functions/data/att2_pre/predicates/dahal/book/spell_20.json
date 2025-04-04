@@ -1,0 +1,11 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "type": "minecraft:item",
+        "items": [
+            "minecraft:written_book"
+        ],
+        "nbt": "{Item:{tag:{Spell:spell20}}}"
+    }
+}

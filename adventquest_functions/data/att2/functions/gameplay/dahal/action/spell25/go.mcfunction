@@ -4,16 +4,16 @@
 #################################################################
 
 # Incase the player already as the summon, the previous one should be destroyed
-execute as @s[scores={SPELL_SLCT=241,DAHAL=50..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell25/lvl1
-execute as @s[scores={SPELL_SLCT=242,DAHAL=55..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell25/lvl2
-execute as @s[scores={SPELL_SLCT=243,DAHAL=70..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell25/lvl3
-execute as @s[scores={SPELL_SLCT=244,DAHAL=80..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell25/lvl4
-execute as @s[scores={SPELL_SLCT=245,DAHAL=90..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell25/lvl5
-execute as @s[scores={SPELL_SLCT=246,DAHAL=95..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell25/lvl6
-execute as @s[scores={SPELL_SLCT=247,DAHAL=110..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell25/lvl7
-execute as @s[scores={SPELL_SLCT=248,DAHAL=115..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell25/lvl8
-execute as @s[scores={SPELL_SLCT=249,DAHAL=130..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell25/lvl9
-execute as @s[scores={SPELL_SLCT=250,DAHAL=175..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell25/lvl10
+execute as @s[scores={SPELL25_SLCT=1,DAHAL=50..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell25/lvl1
+execute as @s[scores={SPELL25_SLCT=2,DAHAL=55..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell25/lvl2
+execute as @s[scores={SPELL25_SLCT=3,DAHAL=70..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell25/lvl3
+execute as @s[scores={SPELL25_SLCT=4,DAHAL=80..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell25/lvl4
+execute as @s[scores={SPELL25_SLCT=5,DAHAL=90..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell25/lvl5
+execute as @s[scores={SPELL25_SLCT=6,DAHAL=95..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell25/lvl6
+execute as @s[scores={SPELL25_SLCT=7,DAHAL=110..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell25/lvl7
+execute as @s[scores={SPELL25_SLCT=8,DAHAL=115..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell25/lvl8
+execute as @s[scores={SPELL25_SLCT=9,DAHAL=130..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell25/lvl9
+execute as @s[scores={SPELL25_SLCT=10,DAHAL=175..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell25/lvl10
 
 # Retrieving The lvl up (cap) value to compare it to current xp level
 scoreboard players operation @s SPELL_OP = @s SPELL25_LVL
