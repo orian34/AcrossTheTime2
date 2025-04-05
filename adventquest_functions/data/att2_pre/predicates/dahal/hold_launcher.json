@@ -29,21 +29,6 @@
                     }
                 }
             }
-        },
-        {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-                "type": "minecraft:player",
-                "equipment": {
-                    "mainhand": {
-                        "items": [
-                            "minecraft:written_book"
-                        ],
-                        "nbt": "{Conscience:book}"
-                    }
-                }
-            }
         }
     ]
 }

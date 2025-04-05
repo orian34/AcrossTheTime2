@@ -50,6 +50,7 @@ function att2:gameplay/dahal/action/spell26/initialize
 function att2:gameplay/dahal/action/spell27/initialize
 function att2:gameplay/dahal/action/spell28/initialize
 function att2:gameplay/dahal/action/spell30/initialize
+function att2:gameplay/dahal/action/spell31/initialize
 function att2:gameplay/dahal/action/spell32/initialize
 function att2:gameplay/dahal/action/spell34/initialize
 function att2:gameplay/dahal/action/spell40/initialize
@@ -58,3 +59,4 @@ function att2:gameplay/dahal/action/spell42/initialize
 function att2:gameplay/dahal/action/spell43/initialize
 function att2:gameplay/dahal/action/spell44/initialize
 function att2:gameplay/dahal/action/spell45/initialize
+function att2:gameplay/dahal/launcher/initialize
