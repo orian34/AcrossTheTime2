@@ -14,4 +14,4 @@ execute if score @s LANGUAGE matches 6 run function att2:dialogs/gameplay/assist
 execute if score @s LANGUAGE matches 7 run function att2:dialogs/gameplay/assist/lan7
 execute if score @s LANGUAGE matches 8 run function att2:dialogs/gameplay/assist/lan8
 execute if score @s LANGUAGE matches 9 run function att2:dialogs/gameplay/assist/lan9
-
+execute if score @s LANGUAGE matches 10 run function att2:dialogs/gameplay/assist/lan10
