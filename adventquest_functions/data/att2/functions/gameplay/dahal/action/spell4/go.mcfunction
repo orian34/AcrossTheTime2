@@ -3,16 +3,21 @@
 #Process power ray incantation									#
 #################################################################
 
-execute as @s[scores={SPELL_SLCT=31,DAHAL=100..}] at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell4/lvl1
-execute as @s[scores={SPELL_SLCT=32,DAHAL=125..}] at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell4/lvl2
-execute as @s[scores={SPELL_SLCT=33,DAHAL=150..}] at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell4/lvl3
-execute as @s[scores={SPELL_SLCT=34,DAHAL=175..}] at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell4/lvl4
-execute as @s[scores={SPELL_SLCT=35,DAHAL=200..}] at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell4/lvl5
-execute as @s[scores={SPELL_SLCT=36,DAHAL=225..}] at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell4/lvl6
-execute as @s[scores={SPELL_SLCT=37,DAHAL=250..}] at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell4/lvl7
-execute as @s[scores={SPELL_SLCT=38,DAHAL=275..}] at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell4/lvl8
-execute as @s[scores={SPELL_SLCT=39,DAHAL=300..}] at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell4/lvl9
-execute as @s[scores={SPELL_SLCT=40,DAHAL=350..}] at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell4/lvl10
+#nova/Corrupted stop
+execute as @s[tag=Nova] run function att2:gameplay/dahal/action/spell11/stop
+execute as @s[tag=Corrupted] run function att2:gameplay/dahal/action/spell40/stop
+execute as @s[tag=Tiid_Klo_Ul] run function att2:gameplay/dahal/action/spell9/stop
+
+execute as @s[scores={SPELL4_SLCT=1,DAHAL=100..}] at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell4/lvl1
+execute as @s[scores={SPELL4_SLCT=2,DAHAL=125..}] at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell4/lvl2
+execute as @s[scores={SPELL4_SLCT=3,DAHAL=150..}] at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell4/lvl3
+execute as @s[scores={SPELL4_SLCT=4,DAHAL=175..}] at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell4/lvl4
+execute as @s[scores={SPELL4_SLCT=5,DAHAL=200..}] at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell4/lvl5
+execute as @s[scores={SPELL4_SLCT=6,DAHAL=225..}] at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell4/lvl6
+execute as @s[scores={SPELL4_SLCT=7,DAHAL=250..}] at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell4/lvl7
+execute as @s[scores={SPELL4_SLCT=8,DAHAL=275..}] at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell4/lvl8
+execute as @s[scores={SPELL4_SLCT=9,DAHAL=300..}] at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell4/lvl9
+execute as @s[scores={SPELL4_SLCT=10,DAHAL=350..}] at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell4/lvl10
 
 # Retrieving The lvl up (cap) value to compare it to current xp level
 scoreboard players operation @s SPELL_OP = @s SPELL4_LVL

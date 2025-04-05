@@ -3,16 +3,21 @@
 #Process Arrow Swarm incantation								#
 #################################################################
 
-execute as @s[scores={SPELL_SLCT=71,DAHAL=40..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell8/lvl1
-execute as @s[scores={SPELL_SLCT=72,DAHAL=60..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell8/lvl2
-execute as @s[scores={SPELL_SLCT=73,DAHAL=80..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell8/lvl3
-execute as @s[scores={SPELL_SLCT=74,DAHAL=100..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell8/lvl4
-execute as @s[scores={SPELL_SLCT=75,DAHAL=120..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell8/lvl5
-execute as @s[scores={SPELL_SLCT=76,DAHAL=140..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell8/lvl6
-execute as @s[scores={SPELL_SLCT=77,DAHAL=175..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell8/lvl7
-execute as @s[scores={SPELL_SLCT=78,DAHAL=200..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell8/lvl8
-execute as @s[scores={SPELL_SLCT=79,DAHAL=250..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell8/lvl9
-execute as @s[scores={SPELL_SLCT=80,DAHAL=325..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell8/lvl10
+#nova/Corrupted stop
+execute as @s[tag=Nova] run function att2:gameplay/dahal/action/spell11/stop
+execute as @s[tag=Corrupted] run function att2:gameplay/dahal/action/spell40/stop
+execute as @s[tag=Tiid_Klo_Ul] run function att2:gameplay/dahal/action/spell9/stop
+
+execute as @s[scores={SPELL8_SLCT=1,DAHAL=40..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell8/lvl1
+execute as @s[scores={SPELL8_SLCT=2,DAHAL=60..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell8/lvl2
+execute as @s[scores={SPELL8_SLCT=3,DAHAL=80..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell8/lvl3
+execute as @s[scores={SPELL8_SLCT=4,DAHAL=100..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell8/lvl4
+execute as @s[scores={SPELL8_SLCT=5,DAHAL=120..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell8/lvl5
+execute as @s[scores={SPELL8_SLCT=6,DAHAL=140..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell8/lvl6
+execute as @s[scores={SPELL8_SLCT=7,DAHAL=175..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell8/lvl7
+execute as @s[scores={SPELL8_SLCT=8,DAHAL=200..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell8/lvl8
+execute as @s[scores={SPELL8_SLCT=9,DAHAL=250..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell8/lvl9
+execute as @s[scores={SPELL8_SLCT=10,DAHAL=325..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell8/lvl10
 
 # Retrieving The lvl up (cap) value to compare it to current xp level
 scoreboard players operation @s SPELL_OP = @s SPELL8_LVL

@@ -3,16 +3,21 @@
 #Process Geyser incantation									    #
 #################################################################
 
-execute as @s[scores={SPELL_SLCT=61,DAHAL=20..}] at @s run function att2:gameplay/dahal/action/spell7/lvl1
-execute as @s[scores={SPELL_SLCT=62,DAHAL=30..}] at @s run function att2:gameplay/dahal/action/spell7/lvl2
-execute as @s[scores={SPELL_SLCT=63,DAHAL=40..}] at @s run function att2:gameplay/dahal/action/spell7/lvl3
-execute as @s[scores={SPELL_SLCT=64,DAHAL=60..}] at @s run function att2:gameplay/dahal/action/spell7/lvl4
-execute as @s[scores={SPELL_SLCT=65,DAHAL=80..}] at @s run function att2:gameplay/dahal/action/spell7/lvl5
-execute as @s[scores={SPELL_SLCT=66,DAHAL=100..}] at @s run function att2:gameplay/dahal/action/spell7/lvl6
-execute as @s[scores={SPELL_SLCT=67,DAHAL=120..}] at @s run function att2:gameplay/dahal/action/spell7/lvl7
-execute as @s[scores={SPELL_SLCT=68,DAHAL=140..}] at @s run function att2:gameplay/dahal/action/spell7/lvl8
-execute as @s[scores={SPELL_SLCT=69,DAHAL=160..}] at @s run function att2:gameplay/dahal/action/spell7/lvl9
-execute as @s[scores={SPELL_SLCT=70,DAHAL=180..}] at @s run function att2:gameplay/dahal/action/spell7/lvl10
+#nova/Corrupted stop
+execute as @s[tag=Nova] run function att2:gameplay/dahal/action/spell11/stop
+execute as @s[tag=Corrupted] run function att2:gameplay/dahal/action/spell40/stop
+execute as @s[tag=Tiid_Klo_Ul] run function att2:gameplay/dahal/action/spell9/stop
+
+execute as @s[scores={SPELL7_SLCT=1,DAHAL=20..}] at @s run function att2:gameplay/dahal/action/spell7/lvl1
+execute as @s[scores={SPELL7_SLCT=2,DAHAL=30..}] at @s run function att2:gameplay/dahal/action/spell7/lvl2
+execute as @s[scores={SPELL7_SLCT=3,DAHAL=40..}] at @s run function att2:gameplay/dahal/action/spell7/lvl3
+execute as @s[scores={SPELL7_SLCT=4,DAHAL=60..}] at @s run function att2:gameplay/dahal/action/spell7/lvl4
+execute as @s[scores={SPELL7_SLCT=5,DAHAL=80..}] at @s run function att2:gameplay/dahal/action/spell7/lvl5
+execute as @s[scores={SPELL7_SLCT=6,DAHAL=100..}] at @s run function att2:gameplay/dahal/action/spell7/lvl6
+execute as @s[scores={SPELL7_SLCT=7,DAHAL=120..}] at @s run function att2:gameplay/dahal/action/spell7/lvl7
+execute as @s[scores={SPELL7_SLCT=8,DAHAL=140..}] at @s run function att2:gameplay/dahal/action/spell7/lvl8
+execute as @s[scores={SPELL7_SLCT=9,DAHAL=160..}] at @s run function att2:gameplay/dahal/action/spell7/lvl9
+execute as @s[scores={SPELL7_SLCT=10,DAHAL=180..}] at @s run function att2:gameplay/dahal/action/spell7/lvl10
 
 # Retrieving The lvl up (cap) value to compare it to current xp level
 scoreboard players operation @s SPELL_OP = @s SPELL7_LVL

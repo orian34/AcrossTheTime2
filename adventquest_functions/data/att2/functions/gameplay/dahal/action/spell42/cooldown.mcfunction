@@ -3,13 +3,13 @@
 #Level and Cooldown for Healing     							#
 #################################################################
 
-scoreboard players set @s[scores={SPELL_SLCT=411}] COOLDOWN42 100
-scoreboard players set @s[scores={SPELL_SLCT=412}] COOLDOWN42 125
-scoreboard players set @s[scores={SPELL_SLCT=413}] COOLDOWN42 150
-scoreboard players set @s[scores={SPELL_SLCT=414}] COOLDOWN42 170
-scoreboard players set @s[scores={SPELL_SLCT=415}] COOLDOWN42 200
-scoreboard players set @s[scores={SPELL_SLCT=416}] COOLDOWN42 240
-scoreboard players set @s[scores={SPELL_SLCT=417}] COOLDOWN42 290
-scoreboard players set @s[scores={SPELL_SLCT=418}] COOLDOWN42 350
-scoreboard players set @s[scores={SPELL_SLCT=419}] COOLDOWN42 420
-scoreboard players set @s[scores={SPELL_SLCT=420}] COOLDOWN42 500
+scoreboard players set @s[scores={SPELL42_SLCT=1}] COOLDOWN42 100
+scoreboard players set @s[scores={SPELL42_SLCT=2}] COOLDOWN42 125
+scoreboard players set @s[scores={SPELL42_SLCT=3}] COOLDOWN42 150
+scoreboard players set @s[scores={SPELL42_SLCT=4}] COOLDOWN42 170
+scoreboard players set @s[scores={SPELL42_SLCT=5}] COOLDOWN42 200
+scoreboard players set @s[scores={SPELL42_SLCT=6}] COOLDOWN42 240
+scoreboard players set @s[scores={SPELL42_SLCT=7}] COOLDOWN42 290
+scoreboard players set @s[scores={SPELL42_SLCT=8}] COOLDOWN42 350
+scoreboard players set @s[scores={SPELL42_SLCT=9}] COOLDOWN42 420
+scoreboard players set @s[scores={SPELL42_SLCT=10}] COOLDOWN42 500

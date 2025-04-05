@@ -1,0 +1,21 @@
+##################################################
+#Made by Adventquest                             #
+#Obtain the magic sphere                         #
+##################################################
+
+kill @e[type=item,predicate=att2_pre:dahal/book/spell_44,distance=..2,limit=1,sort=nearest]
+
+clear @s minecraft:fishing_rod{Damage:64,Dahal:"launcher",Spell:"spell44"}
+
+give @s[scores={LANGUAGE=0}] minecraft:fishing_rod{Damage:64,Dahal:"launcher",Spell:"spell44",Unbreakable:1,display:{Name:'{"text":"§2Insaisissable§8-","extra":[{"text":"lvl3","color":"#409940","italic":false}]}',"Lore":["{\"text\":\"§4◸§8/ §4◞§c⎝§4⸜ §8§4◹\"}","{\"text\":\"§8⧼§4〈 §c✧§4〉§8⧽\"}","{\"text\":\"§4◺§8§4 ᐠ§c⎞§4◜ §8/§4◿\"}"]}} 1
+give @s[scores={LANGUAGE=1}] minecraft:fishing_rod{Damage:64,Dahal:"launcher",Spell:"spell44",Unbreakable:1,display:{Name:'{"text":"§2Elusive§8-","extra":[{"text":"lvl3","color":"#409940","italic":false}]}',"Lore":["{\"text\":\"§4◸§8/ §4◞§c⎝§4⸜ §8§4◹\"}","{\"text\":\"§8⧼§4〈 §c✧§4〉§8⧽\"}","{\"text\":\"§4◺§8§4 ᐠ§c⎞§4◜ §8/§4◿\"}"]}} 1
+give @s[scores={LANGUAGE=2}] minecraft:fishing_rod{Damage:64,Dahal:"launcher",Spell:"spell44",Unbreakable:1,display:{Name:'{"text":"§2影战士§8-","extra":[{"text":"lvl3","color":"#409940","italic":false}]}',"Lore":["{\"text\":\"§4◸§8/ §4◞§c⎝§4⸜ §8§4◹\"}","{\"text\":\"§8⧼§4〈 §c✧§4〉§8⧽\"}","{\"text\":\"§4◺§8§4 ᐠ§c⎞§4◜ §8/§4◿\"}"]}} 1
+give @s[scores={LANGUAGE=3}] minecraft:fishing_rod{Damage:64,Dahal:"launcher",Spell:"spell44",Unbreakable:1,display:{Name:'{"text":"§2つかみどころのない§8-","extra":[{"text":"lvl3","color":"#409940","italic":false}]}',"Lore":["{\"text\":\"§4◸§8/ §4◞§c⎝§4⸜ §8§4◹\"}","{\"text\":\"§8⧼§4〈 §c✧§4〉§8⧽\"}","{\"text\":\"§4◺§8§4 ᐠ§c⎞§4◜ §8/§4◿\"}"]}} 1
+give @s[scores={LANGUAGE=4}] minecraft:fishing_rod{Damage:64,Dahal:"launcher",Spell:"spell44",Unbreakable:1,display:{Name:'{"text":"§2붙잡을 수 없는§8-","extra":[{"text":"lvl3","color":"#409940","italic":false}]}',"Lore":["{\"text\":\"§4◸§8/ §4◞§c⎝§4⸜ §8§4◹\"}","{\"text\":\"§8⧼§4〈 §c✧§4〉§8⧽\"}","{\"text\":\"§4◺§8§4 ᐠ§c⎞§4◜ §8/§4◿\"}"]}} 1
+give @s[scores={LANGUAGE=5}] minecraft:fishing_rod{Damage:64,Dahal:"launcher",Spell:"spell44",Unbreakable:1,display:{Name:'{"text":"§2غير ملموس§8-","extra":[{"text":"lvl3","color":"#409940","italic":false}]}',"Lore":["{\"text\":\"§4◸§8/ §4◞§c⎝§4⸜ §8§4◹\"}","{\"text\":\"§8⧼§4〈 §c✧§4〉§8⧽\"}","{\"text\":\"§4◺§8§4 ᐠ§c⎞§4◜ §8/§4◿\"}"]}} 1
+give @s[scores={LANGUAGE=6}] minecraft:fishing_rod{Damage:64,Dahal:"launcher",Spell:"spell44",Unbreakable:1,display:{Name:'{"text":"§2Неуловимый§8-","extra":[{"text":"lvl3","color":"#409940","italic":false}]}',"Lore":["{\"text\":\"§4◸§8/ §4◞§c⎝§4⸜ §8§4◹\"}","{\"text\":\"§8⧼§4〈 §c✧§4〉§8⧽\"}","{\"text\":\"§4◺§8§4 ᐠ§c⎞§4◜ §8/§4◿\"}"]}} 1
+give @s[scores={LANGUAGE=7}] minecraft:fishing_rod{Damage:64,Dahal:"launcher",Spell:"spell44",Unbreakable:1,display:{Name:'{"text":"§2Inasible§8-","extra":[{"text":"lvl3","color":"#409940","italic":false}]}',"Lore":["{\"text\":\"§4◸§8/ §4◞§c⎝§4⸜ §8§4◹\"}","{\"text\":\"§8⧼§4〈 §c✧§4〉§8⧽\"}","{\"text\":\"§4◺§8§4 ᐠ§c⎞§4◜ §8/§4◿\"}"]}} 1
+give @s[scores={LANGUAGE=8}] minecraft:fishing_rod{Damage:64,Dahal:"launcher",Spell:"spell44",Unbreakable:1,display:{Name:'{"text":"§2Unfassbar§8-","extra":[{"text":"lvl3","color":"#409940","italic":false}]}',"Lore":["{\"text\":\"§4◸§8/ §4◞§c⎝§4⸜ §8§4◹\"}","{\"text\":\"§8⧼§4〈 §c✧§4〉§8⧽\"}","{\"text\":\"§4◺§8§4 ᐠ§c⎞§4◜ §8/§4◿\"}"]}} 1
+give @s[scores={LANGUAGE=9}] minecraft:fishing_rod{Damage:64,Dahal:"launcher",Spell:"spell44",Unbreakable:1,display:{Name:'{"text":"§2अप्राप्य§8-","extra":[{"text":"lvl3","color":"#409940","italic":false}]}',"Lore":["{\"text\":\"§4◸§8/ §4◞§c⎝§4⸜ §8§4◹\"}","{\"text\":\"§8⧼§4〈 §c✧§4〉§8⧽\"}","{\"text\":\"§4◺§8§4 ᐠ§c⎞§4◜ §8/§4◿\"}"]}} 1
+give @s[scores={LANGUAGE=10}] minecraft:fishing_rod{Damage:64,Dahal:"launcher",Spell:"spell44",Unbreakable:1,display:{Name:'{"text":"§2Intangível§8-","extra":[{"text":"lvl3","color":"#409940","italic":false}]}',"Lore":["{\"text\":\"§4◸§8/ §4◞§c⎝§4⸜ §8§4◹\"}","{\"text\":\"§8⧼§4〈 §c✧§4〉§8⧽\"}","{\"text\":\"§4◺§8§4 ᐠ§c⎞§4◜ §8/§4◿\"}"]}} 1
+

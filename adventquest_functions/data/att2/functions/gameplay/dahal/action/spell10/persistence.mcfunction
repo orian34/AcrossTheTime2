@@ -10,13 +10,13 @@ execute as @e[type=minecraft:armor_stand,scores={SPELL10_EFFECT=..0}] run kill @
 # Wall breaking synergie enable
 execute if entity @a[tag=wallBreaking] as @e[type=minecraft:armor_stand,scores={SPELL10_EFFECT=1..50}] at @s anchored feet run function att2:gameplay/dahal/action/spell10/enable_wall_breaking
 
-execute as @e[type=minecraft:armor_stand,scores={SPELL10_EFFECT=1..,SPELL_SLCT=91}] at @s anchored feet run function att2:gameplay/dahal/action/spell10/earthquake/1
-execute as @e[type=minecraft:armor_stand,scores={SPELL10_EFFECT=1..,SPELL_SLCT=92}] at @s anchored feet run function att2:gameplay/dahal/action/spell10/earthquake/2
-execute as @e[type=minecraft:armor_stand,scores={SPELL10_EFFECT=1..,SPELL_SLCT=93}] at @s anchored feet run function att2:gameplay/dahal/action/spell10/earthquake/3
-execute as @e[type=minecraft:armor_stand,scores={SPELL10_EFFECT=1..,SPELL_SLCT=94}] at @s anchored feet run function att2:gameplay/dahal/action/spell10/earthquake/4
-execute as @e[type=minecraft:armor_stand,scores={SPELL10_EFFECT=1..,SPELL_SLCT=95}] at @s anchored feet run function att2:gameplay/dahal/action/spell10/earthquake/5
-execute as @e[type=minecraft:armor_stand,scores={SPELL10_EFFECT=1..,SPELL_SLCT=96}] at @s anchored feet run function att2:gameplay/dahal/action/spell10/earthquake/6
-execute as @e[type=minecraft:armor_stand,scores={SPELL10_EFFECT=1..,SPELL_SLCT=97}] at @s anchored feet run function att2:gameplay/dahal/action/spell10/earthquake/7
-execute as @e[type=minecraft:armor_stand,scores={SPELL10_EFFECT=1..,SPELL_SLCT=98}] at @s anchored feet run function att2:gameplay/dahal/action/spell10/earthquake/8
-execute as @e[type=minecraft:armor_stand,scores={SPELL10_EFFECT=1..,SPELL_SLCT=99}] at @s anchored feet run function att2:gameplay/dahal/action/spell10/earthquake/9
-execute as @e[type=minecraft:armor_stand,scores={SPELL10_EFFECT=1..,SPELL_SLCT=100}] at @s anchored feet run function att2:gameplay/dahal/action/spell10/earthquake/10
+execute as @e[type=minecraft:armor_stand,scores={SPELL10_EFFECT=1..,SPELL10_SLCT=1}] at @s anchored feet run function att2:gameplay/dahal/action/spell10/earthquake/1
+execute as @e[type=minecraft:armor_stand,scores={SPELL10_EFFECT=1..,SPELL10_SLCT=2}] at @s anchored feet run function att2:gameplay/dahal/action/spell10/earthquake/2
+execute as @e[type=minecraft:armor_stand,scores={SPELL10_EFFECT=1..,SPELL10_SLCT=3}] at @s anchored feet run function att2:gameplay/dahal/action/spell10/earthquake/3
+execute as @e[type=minecraft:armor_stand,scores={SPELL10_EFFECT=1..,SPELL10_SLCT=4}] at @s anchored feet run function att2:gameplay/dahal/action/spell10/earthquake/4
+execute as @e[type=minecraft:armor_stand,scores={SPELL10_EFFECT=1..,SPELL10_SLCT=5}] at @s anchored feet run function att2:gameplay/dahal/action/spell10/earthquake/5
+execute as @e[type=minecraft:armor_stand,scores={SPELL10_EFFECT=1..,SPELL10_SLCT=6}] at @s anchored feet run function att2:gameplay/dahal/action/spell10/earthquake/6
+execute as @e[type=minecraft:armor_stand,scores={SPELL10_EFFECT=1..,SPELL10_SLCT=7}] at @s anchored feet run function att2:gameplay/dahal/action/spell10/earthquake/7
+execute as @e[type=minecraft:armor_stand,scores={SPELL10_EFFECT=1..,SPELL10_SLCT=8}] at @s anchored feet run function att2:gameplay/dahal/action/spell10/earthquake/8
+execute as @e[type=minecraft:armor_stand,scores={SPELL10_EFFECT=1..,SPELL10_SLCT=9}] at @s anchored feet run function att2:gameplay/dahal/action/spell10/earthquake/9
+execute as @e[type=minecraft:armor_stand,scores={SPELL10_EFFECT=1..,SPELL10_SLCT=10}] at @s anchored feet run function att2:gameplay/dahal/action/spell10/earthquake/10

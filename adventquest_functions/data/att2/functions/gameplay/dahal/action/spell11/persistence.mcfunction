@@ -3,45 +3,45 @@
 #Keep Nova working								#
 #################################################
 
-scoreboard players set @s[scores={SPELL11_CAP=2,SPELL_SLCT=101}] SPELL_SLCT 102
-scoreboard players set @s[scores={SPELL11_CAP=3,SPELL_SLCT=101}] SPELL_SLCT 103
-scoreboard players set @s[scores={SPELL11_CAP=4,SPELL_SLCT=101}] SPELL_SLCT 104
-scoreboard players set @s[scores={SPELL11_CAP=5,SPELL_SLCT=101}] SPELL_SLCT 105
-scoreboard players set @s[scores={SPELL11_CAP=6,SPELL_SLCT=101}] SPELL_SLCT 106
-scoreboard players set @s[scores={SPELL11_CAP=7,SPELL_SLCT=101}] SPELL_SLCT 107
-scoreboard players set @s[scores={SPELL11_CAP=8,SPELL_SLCT=101}] SPELL_SLCT 108
-scoreboard players set @s[scores={SPELL11_CAP=9,SPELL_SLCT=101}] SPELL_SLCT 109
-scoreboard players set @s[scores={SPELL11_CAP=10,SPELL_SLCT=101}] SPELL_SLCT 110
+scoreboard players set @s[scores={SPELL11_CAP=2,SPELL11_SLCT=1}] SPELL11_SLCT 2
+scoreboard players set @s[scores={SPELL11_CAP=3,SPELL11_SLCT=1}] SPELL11_SLCT 3
+scoreboard players set @s[scores={SPELL11_CAP=4,SPELL11_SLCT=1}] SPELL11_SLCT 4
+scoreboard players set @s[scores={SPELL11_CAP=5,SPELL11_SLCT=1}] SPELL11_SLCT 5
+scoreboard players set @s[scores={SPELL11_CAP=6,SPELL11_SLCT=1}] SPELL11_SLCT 6
+scoreboard players set @s[scores={SPELL11_CAP=7,SPELL11_SLCT=1}] SPELL11_SLCT 7
+scoreboard players set @s[scores={SPELL11_CAP=8,SPELL11_SLCT=1}] SPELL11_SLCT 8
+scoreboard players set @s[scores={SPELL11_CAP=9,SPELL11_SLCT=1}] SPELL11_SLCT 9
+scoreboard players set @s[scores={SPELL11_CAP=10,SPELL11_SLCT=1}] SPELL11_SLCT 10
 
-execute as @s[scores={SPELL_SLCT=101,DAHAL=..39},tag=Nova] run function att2:gameplay/dahal/action/spell11/stop
-execute at @s[scores={SPELL_SLCT=101,DAHAL=40..}] run function att2:gameplay/dahal/action/spell11/lvl1
+execute as @s[scores={SPELL11_SLCT=1,DAHAL=..39},tag=Nova] run function att2:gameplay/dahal/action/spell11/stop
+execute at @s[scores={SPELL11_SLCT=1,DAHAL=40..}] run function att2:gameplay/dahal/action/spell11/lvl1
 
-execute as @s[scores={SPELL_SLCT=102,DAHAL=..37},tag=Nova] run function att2:gameplay/dahal/action/spell11/stop
-execute at @s[scores={SPELL_SLCT=102,DAHAL=38..}] run function att2:gameplay/dahal/action/spell11/lvl2
+execute as @s[scores={SPELL11_SLCT=2,DAHAL=..37},tag=Nova] run function att2:gameplay/dahal/action/spell11/stop
+execute at @s[scores={SPELL11_SLCT=2,DAHAL=38..}] run function att2:gameplay/dahal/action/spell11/lvl2
 
-execute as @s[scores={SPELL_SLCT=103,DAHAL=..35},tag=Nova] run function att2:gameplay/dahal/action/spell11/stop
-execute at @s[scores={SPELL_SLCT=103,DAHAL=36..}] run function att2:gameplay/dahal/action/spell11/lvl3
+execute as @s[scores={SPELL11_SLCT=3,DAHAL=..35},tag=Nova] run function att2:gameplay/dahal/action/spell11/stop
+execute at @s[scores={SPELL11_SLCT=3,DAHAL=36..}] run function att2:gameplay/dahal/action/spell11/lvl3
 
-execute as @s[scores={SPELL_SLCT=104,DAHAL=..33},tag=Nova] run function att2:gameplay/dahal/action/spell11/stop
-execute at @s[scores={SPELL_SLCT=104,DAHAL=34..}] run function att2:gameplay/dahal/action/spell11/lvl4
+execute as @s[scores={SPELL11_SLCT=4,DAHAL=..33},tag=Nova] run function att2:gameplay/dahal/action/spell11/stop
+execute at @s[scores={SPELL11_SLCT=4,DAHAL=34..}] run function att2:gameplay/dahal/action/spell11/lvl4
 
-execute as @s[scores={SPELL_SLCT=105,DAHAL=..31},tag=Nova] run function att2:gameplay/dahal/action/spell11/stop
-execute at @s[scores={SPELL_SLCT=105,DAHAL=32..}] run function att2:gameplay/dahal/action/spell11/lvl5
+execute as @s[scores={SPELL11_SLCT=5,DAHAL=..31},tag=Nova] run function att2:gameplay/dahal/action/spell11/stop
+execute at @s[scores={SPELL11_SLCT=5,DAHAL=32..}] run function att2:gameplay/dahal/action/spell11/lvl5
 
-execute as @s[scores={SPELL_SLCT=106,DAHAL=..29},tag=Nova] run function att2:gameplay/dahal/action/spell11/stop
-execute at @s[scores={SPELL_SLCT=106,DAHAL=30..}] run function att2:gameplay/dahal/action/spell11/lvl6
+execute as @s[scores={SPELL11_SLCT=6,DAHAL=..29},tag=Nova] run function att2:gameplay/dahal/action/spell11/stop
+execute at @s[scores={SPELL11_SLCT=6,DAHAL=30..}] run function att2:gameplay/dahal/action/spell11/lvl6
 
-execute as @s[scores={SPELL_SLCT=107,DAHAL=..27},tag=Nova] run function att2:gameplay/dahal/action/spell11/stop
-execute at @s[scores={SPELL_SLCT=107,DAHAL=28..}] run function att2:gameplay/dahal/action/spell11/lvl7
+execute as @s[scores={SPELL11_SLCT=7,DAHAL=..27},tag=Nova] run function att2:gameplay/dahal/action/spell11/stop
+execute at @s[scores={SPELL11_SLCT=7,DAHAL=28..}] run function att2:gameplay/dahal/action/spell11/lvl7
 
-execute as @s[scores={SPELL_SLCT=108,DAHAL=..25},tag=Nova] run function att2:gameplay/dahal/action/spell11/stop
-execute at @s[scores={SPELL_SLCT=108,DAHAL=26..}] run function att2:gameplay/dahal/action/spell11/lvl8
+execute as @s[scores={SPELL11_SLCT=8,DAHAL=..25},tag=Nova] run function att2:gameplay/dahal/action/spell11/stop
+execute at @s[scores={SPELL11_SLCT=8,DAHAL=26..}] run function att2:gameplay/dahal/action/spell11/lvl8
 
-execute as @s[scores={SPELL_SLCT=109,DAHAL=..23},tag=Nova] run function att2:gameplay/dahal/action/spell11/stop
-execute at @s[scores={SPELL_SLCT=109,DAHAL=24..}] run function att2:gameplay/dahal/action/spell11/lvl9
+execute as @s[scores={SPELL11_SLCT=9,DAHAL=..23},tag=Nova] run function att2:gameplay/dahal/action/spell11/stop
+execute at @s[scores={SPELL11_SLCT=9,DAHAL=24..}] run function att2:gameplay/dahal/action/spell11/lvl9
 
-execute as @s[scores={SPELL_SLCT=110,DAHAL=..19},tag=Nova] run function att2:gameplay/dahal/action/spell11/stop
-execute at @s[scores={SPELL_SLCT=110,DAHAL=20..}] run function att2:gameplay/dahal/action/spell11/lvl10
+execute as @s[scores={SPELL11_SLCT=10,DAHAL=..19},tag=Nova] run function att2:gameplay/dahal/action/spell11/stop
+execute at @s[scores={SPELL11_SLCT=10,DAHAL=20..}] run function att2:gameplay/dahal/action/spell11/lvl10
 
 # Retrieving The lvl up (cap) value to compare it to current xp level
 scoreboard players operation @s SPELL11_OP = @s SPELL11_LVL
