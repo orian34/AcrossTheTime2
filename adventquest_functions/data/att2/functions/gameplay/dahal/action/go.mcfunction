@@ -5,11 +5,12 @@
 #################################################################
 
 #testing if player is holding the magic sphere
-scoreboard players set @a[gamemode=adventure,nbt={SelectedItem:{id:"minecraft:fishing_rod"}}] HOLDING_MS 2
-scoreboard players set @a[gamemode=adventure,nbt={Inventory:[{Slot:-106b,id:"minecraft:fishing_rod"}]}] HOLDING_MS 2
+scoreboard players set @a[gamemode=adventure,predicate=att2_pre:test_hold/dahal_hold] HOLDING_MS 2
 
 #testing if player used the magicsphere
-execute as @a[scores={HOLDING_MS=1..,MAGICSPH=1..}] run function att2:gameplay/dahal/action/launch
+
+execute as @a[scores={HOLDING_MS=1..,MAGICSPH=1..}] run function att2:gameplay/dahal/action/choice_hand
+
 
 #Process cooldown for all spells
 function att2:gameplay/dahal/action/cooldown
@@ -35,8 +36,12 @@ function att2:gameplay/dahal/action/spell27/persistence
 function att2:gameplay/dahal/action/spell28/persistence
 function att2:gameplay/dahal/action/spell30/persistence
 function att2:gameplay/dahal/action/spell31/persistence
-##tp spell
 function att2:gameplay/dahal/action/spell32/persistence
 function att2:gameplay/dahal/action/spell41/persistence
 function att2:gameplay/dahal/action/spell44/persistence
 function att2:gameplay/dahal/action/spell45/persistence
+
+#function att2:gameplay/dahal/action/spell101/persistence
+
+
+

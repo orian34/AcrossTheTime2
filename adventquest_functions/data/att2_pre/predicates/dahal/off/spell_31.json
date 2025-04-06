@@ -4,11 +4,11 @@
     "predicate": {
         "type": "minecraft:player",
         "equipment": {
-            "mainhand": {
+            "offhand": {
                 "items": [
                     "minecraft:fishing_rod"
                 ],
-                "nbt": "{Dahal:launcher}"
+                "nbt": "{Spell:spell31}"
             }
         }
     }

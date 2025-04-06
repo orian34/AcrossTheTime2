@@ -8,7 +8,7 @@
                 "items": [
                     "minecraft:fishing_rod"
                 ],
-                "nbt": "{Dahal:launcher}"
+                "nbt": "{Spell:spell10}"
             }
         }
     }
