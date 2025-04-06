@@ -3,10 +3,8 @@
 #Use function to process the sell of spectral_arrow_1 			#
 #################################################################
 
-execute as @s[scores={CHRONOTON=..9}] at @s run function att2:dialogs/gameplay/shop/not_enough_chronotons
-execute if entity @s[scores={CHRONOTON=10..}] run function att2:gameplay/shop/effect
-execute if entity @s[scores={CHRONOTON=10..}] run function att2:items/misc/spectral_arrow_1
-execute if entity @s[scores={CHRONOTON=10..}] run function att2:items/misc/spectral_arrow_1
-execute if entity @s[scores={CHRONOTON=10..}] run function att2:items/misc/spectral_arrow_1
-
-scoreboard players remove @s[scores={CHRONOTON=10..}] CHRONOTON 10
+#
+execute if score @s CHRONOTON < spectral_arrow_1 PRICES run function att2:dialogs/gameplay/shop/not_enough_chronotons
+execute if score @s CHRONOTON >= spectral_arrow_1 PRICES run function att2:gameplay/shop/effect 
+execute if score @s CHRONOTON >= spectral_arrow_1 PRICES run function att2:items/misc/spectral_arrow_1 
+execute if score @s CHRONOTON >= spectral_arrow_1 PRICES run scoreboard players operation @s CHRONOTON -= spectral_arrow_1 PRICES

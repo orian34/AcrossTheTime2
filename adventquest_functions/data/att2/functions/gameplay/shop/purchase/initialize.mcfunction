@@ -24,3 +24,5 @@ scoreboard players set 150 discount_calc 150
 scoreboard players set 200 discount_calc 200
 scoreboard players set 250 discount_calc 250
 scoreboard players set 300 discount_calc 300
+
+scoreboard players set -1 discount_calc -1
