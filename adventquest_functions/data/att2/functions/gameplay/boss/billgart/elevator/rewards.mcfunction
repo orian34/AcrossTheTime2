@@ -72,7 +72,6 @@ execute if score elevator_m BOSS_TIME matches ..3 run function att2:summon/bat_b
 execute if score elevator_m BOSS_TIME matches ..3 run function att2:summon/bat_runes_abc_rewards_1
 #boss time 2
 execute if score elevator_m BOSS_TIME matches ..2 if score level DIFFICULTY matches 0.. run function att2:summon/bat_boss_esc_rewards
-execute if score elevator_m BOSS_TIME matches ..2 if score level DIFFICULTY matches 0.. run function att2:summon/bat_boss_esc_rewards
 execute if score elevator_m BOSS_TIME matches ..2 if score level DIFFICULTY matches 0.. run function att2:summon/bat_runes_abc_rewards_1
 #boss time 3
 execute if score elevator_m BOSS_TIME matches ..2 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
