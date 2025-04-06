@@ -48,5 +48,3 @@ function att2:gameplay/boss/silberland/illusions/time/initialize
 #worlest
 function att2:gameplay/boss/worlest/blobby/time/initialize
 function att2:gameplay/boss/worlest/felroth/time/initialize
-##arena
-function att2:gameplay/arena/arena_time_initialize

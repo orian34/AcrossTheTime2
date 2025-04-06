@@ -3,6 +3,8 @@
 #Start the boss fight for Ulkoggumi                                 #
 #####################################################################
 
+##revoke test
+advancement revoke @a only att2_test:test_boss/ulkoggumi
 scoreboard players set in_fight BOSS 1
 execute positioned -1125 109 -560 run function att2:summon/reg_3/ulkoggumi
 scoreboard players set Ulkoggumi BILLGART 0

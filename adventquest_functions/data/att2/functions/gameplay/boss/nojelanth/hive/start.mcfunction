@@ -3,6 +3,8 @@
 #Start the boss fight for Hive                                      #
 #####################################################################
 
+##revoke test
+advancement revoke @a only att2_test:test_boss/hive
 scoreboard players set in_fight BOSS 1
 scoreboard players set Hive SQ58 0
 scoreboard players set Hive_timer1 SQ58 0

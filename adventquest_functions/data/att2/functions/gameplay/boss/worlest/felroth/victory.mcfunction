@@ -4,6 +4,11 @@
 #####################################################################
 
 scoreboard players add total_killed BOSS 1
+##test boss
+function att2:advancement/test_all/mobskilled/boss
+##revoke test
+advancement revoke @a only att2_test:test_boss/felroth
+
 scoreboard players set Felroth WORLEST -2
 execute as @a run function att2:gameplay/boss/worlest/felroth/stop
 execute positioned -4636 58 -5521 run function att2:gameplay/boss/rewards_start

@@ -3,6 +3,8 @@
 #Start the boss fight for Shadow                               		#
 #####################################################################
 
+##revoke test
+advancement revoke @a only att2_test:test_boss/shadow
 scoreboard players set in_fight BOSS 1
 execute positioned -4375 58 -5054 run function att2:summon/reg_1/shadow
 scoreboard players set Shadow SQ38 0

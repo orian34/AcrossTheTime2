@@ -3,6 +3,8 @@
 #Start the boss fight for Scavenger                                 #
 #####################################################################
 
+##revoke test
+advancement revoke @a only att2_test:test_boss/scavenger
 scoreboard players set in_fight BOSS 1
 scoreboard players set Scavenger_timer1 SQ51 0
 scoreboard players set Scavenger SQ51 0

@@ -3,6 +3,8 @@
 #Start the boss fight for GolemBoss                                 #
 #####################################################################
 
+##revoke test
+advancement revoke @a only att2_test:test_boss/golem
 scoreboard players set in_fight BOSS 1
 execute positioned -1291 132 -585 run function att2:summon/reg_3/golemboss
 scoreboard players set GolemBoss BILLGART 0

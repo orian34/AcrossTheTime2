@@ -1,0 +1,105 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:target"
+        },
+        "title": {"translate":"boss_kill"},
+        "description": {"translate":"Triggered!"},
+        "hidden": true,
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "att2:hunting/myrath_master_timerecord",
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:ghast",
+                    "nbt": "{Tags:[\"SP1\"]}"
+                }
+            }
+        },
+        "2": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:ghast",
+                    "nbt": "{Tags:[\"SP2\"]}"
+                }
+            }
+        },
+        "3": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:ghast",
+                    "nbt": "{Tags:[\"SP3\"]}"
+                }
+            }
+        },
+        "4": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:ghast",
+                    "nbt": "{Tags:[\"SP4\"]}"
+                }
+            }
+        },
+        "5": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:ghast",
+                    "nbt": "{Tags:[\"SP5\"]}"
+                }
+            }
+        },
+        "6": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:ghast",
+                    "nbt": "{Tags:[\"SP6\"]}"
+                }
+            }
+        },
+        "7": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:ghast",
+                    "nbt": "{Tags:[\"SP7\"]}"
+                }
+            }
+        },
+        "8": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:ghast",
+                    "nbt": "{Tags:[\"SP8\"]}"
+                }
+            }
+        },
+        "9": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:ghast",
+                    "nbt": "{Tags:[\"SP9\"]}"
+                }
+            }
+        },
+        "10": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:ghast",
+                    "nbt": "{Tags:[\"SP10\"]}"
+                }
+            }
+        }
+    }
+}

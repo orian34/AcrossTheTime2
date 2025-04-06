@@ -3,6 +3,8 @@
 #Start the boss fight for Blobby                                 	#
 #####################################################################
 
+##revoke test
+advancement revoke @a only att2_test:test_boss/blobby
 scoreboard players set in_fight BOSS 1
 scoreboard players set Blobby SQ54 0
 execute positioned -5356 26 -4957 run function att2:summon/reg_1/blobby

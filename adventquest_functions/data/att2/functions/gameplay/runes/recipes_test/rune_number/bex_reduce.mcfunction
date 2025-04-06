@@ -4,5 +4,5 @@
 #################################################################
 
 ##Bex
-scoreboard players remove bex RUNE 2
-scoreboard players remove esc RUNE 1
+scoreboard players remove bex RUNECOUNT 2
+scoreboard players remove esc RUNECOUNT 1

@@ -62,6 +62,7 @@ execute if entity @a[scores={LUC_TOT=12..}] run function att2:summon/bat_runes_a
 execute if entity @a[scores={LUC_TOT=15..}] run function att2:summon/bat_runes_abc_rewards_1
 
 #boss time 1
+execute if score owlkar_m BOSS_TIME matches ..1 run function att2:summon/bat_boss_esc_rewards
 execute if score owlkar_m BOSS_TIME matches ..1 run function att2:summon/bat_runes_c_rewards
 #boss time 2
 execute if score owlkar_m BOSS_TIME matches 0 if score level DIFFICULTY matches 0.. run function att2:summon/bat_boss_esc_rewards
@@ -70,4 +71,5 @@ execute if score owlkar_m BOSS_TIME matches 0 if score level DIFFICULTY matches 
 execute if score owlkar_m BOSS_TIME matches 0 if score owlkar_s BOSS_TIME matches ..30 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
 execute if score owlkar_m BOSS_TIME matches 0 if score owlkar_s BOSS_TIME matches ..30 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
 execute if score owlkar_m BOSS_TIME matches 0 if score owlkar_s BOSS_TIME matches ..30 if score level DIFFICULTY matches 1.. run function att2:summon/bat_runes_abc_rewards_1
+
 execute if score owlkar_m BOSS_TIME matches 0 if score owlkar_s BOSS_TIME matches ..30 if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/owlkar_master_timerecord

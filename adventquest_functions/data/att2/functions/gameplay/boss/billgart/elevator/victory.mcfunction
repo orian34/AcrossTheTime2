@@ -4,6 +4,9 @@
 #####################################################################
 
 scoreboard players add total_killed BOSS 1
+##test boss
+function att2:advancement/test_all/mobskilled/boss
+
 scoreboard players set Elevator BILLGART -2
 execute as @a run function att2:gameplay/boss/billgart/elevator/stop
 function att2:physicmod/reg3/dungeon/elevator_doors

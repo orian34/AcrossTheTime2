@@ -5,6 +5,10 @@
 
 execute if score SQ56 SIDEQUEST matches 3 run function att2:cinematic/sidequest/56/jzargo/start_cinematic5
 scoreboard players add total_killed BOSS 1
+##test boss
+function att2:advancement/test_all/mobskilled/boss
+##revoke test
+advancement revoke @a only att2_test:test_boss/doom
 scoreboard players set Doom SQ56 -2
 execute as @a run function att2:gameplay/boss/elcheol/doom/stop
 execute positioned -5229 145 -6293 run function att2:gameplay/boss/rewards_start

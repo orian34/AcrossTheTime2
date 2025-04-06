@@ -4,5 +4,5 @@
 #################################################################
 
 ##Puh
-scoreboard players remove puh RUNE 2
-scoreboard players remove esc RUNE 1
+scoreboard players remove puh RUNECOUNT 2
+scoreboard players remove esc RUNECOUNT 1

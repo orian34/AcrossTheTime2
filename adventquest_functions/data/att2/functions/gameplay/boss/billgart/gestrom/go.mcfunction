@@ -34,7 +34,7 @@ execute if score Gestrom BILLGART matches 0.. in minecraft:the_end if entity @a[
 execute if score Gestrom BILLGART matches 0.. in minecraft:the_end unless entity @a[x=-1130,y=199,z=-690,dx=-9,dy=10,dz=22,gamemode=adventure] run function att2:gameplay/boss/billgart/gestrom/fail
 
 # Testing if Geström died
-execute if score Gestrom BILLGART matches 0.. in minecraft:the_end if entity @a[x=-1130,y=199,z=-690,dx=-9,dy=10,dz=22,gamemode=adventure] unless entity @e[x=-1130,y=199,z=-690,dx=-9,dy=10,dz=22,nbt={UUID:[I;0,331,0,331]}] run function att2:gameplay/boss/billgart/gestrom/victory
+execute if score Gestrom BILLGART matches 0.. in minecraft:the_end if entity @a[x=-1130,y=199,z=-690,dx=-9,dy=10,dz=22,gamemode=adventure,advancements={att2_test:test_boss/gestrom=true}] unless entity @e[x=-1130,y=199,z=-690,dx=-9,dy=10,dz=22,nbt={UUID:[I;0,331,0,331]}] run function att2:gameplay/boss/billgart/gestrom/victory
 
 # Player can quit the arena when Geström had been defeated
 execute if score Gestrom BILLGART matches -2 in minecraft:the_end as @a[x=-1135,y=199,z=-669,dx=1,dy=3,dz=0,gamemode=adventure] at @s run tp @s ~ ~ ~2

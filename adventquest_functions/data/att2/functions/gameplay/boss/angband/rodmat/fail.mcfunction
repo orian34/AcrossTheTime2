@@ -3,6 +3,7 @@
 #Process player failure for Rodmat                                	#
 #####################################################################
 
+scoreboard players set slime_kill TIMECOUNTER 100
 scoreboard players set Rodmat SQ45 -1
 scoreboard players set EnterArena SQ45 100
 execute as 00000000-0000-011c-0000-00000000011c at @s run tp @s ~ -2 ~

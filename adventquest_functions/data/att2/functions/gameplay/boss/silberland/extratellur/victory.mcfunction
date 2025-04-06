@@ -4,6 +4,9 @@
 #####################################################################
 
 scoreboard players add total_killed BOSS 1
+##test boss
+function att2:advancement/test_all/mobskilled/boss
+
 scoreboard players set Extratellur SECRET_DUNGEON -2
 execute as @a run function att2:gameplay/boss/silberland/extratellur/stop
 execute positioned -4571 51 -5965 run function att2:gameplay/boss/rewards_start

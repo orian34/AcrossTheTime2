@@ -45,7 +45,7 @@ execute if entity @e[x=-4380,y=42,z=-5059,dx=10,dy=2,dz=10,nbt={UUID:[I;0,156,0,
 execute if score Shadow SQ38 matches 0.. unless entity @a[x=-4362,y=42,z=-5041,dx=-26,dy=24,dz=-56,gamemode=adventure] run function att2:gameplay/boss/schestrown/shadow/fail
 
 # Testing if Shadow died
-execute if score Shadow SQ38 matches 0.. if entity @a[x=-4362,y=42,z=-5041,dx=-26,dy=24,dz=-56,gamemode=adventure] unless entity @e[x=-4362,y=42,z=-5041,dx=-26,dy=24,dz=-56,nbt={UUID:[I;0,140,0,140]}] run function att2:gameplay/boss/schestrown/shadow/victory
+execute if score Shadow SQ38 matches 0.. if entity @a[x=-4362,y=42,z=-5041,dx=-26,dy=24,dz=-56,gamemode=adventure,advancements={att2_test:test_boss/shadow=true}] unless entity @e[x=-4362,y=42,z=-5041,dx=-26,dy=24,dz=-56,nbt={UUID:[I;0,140,0,140]}] run function att2:gameplay/boss/schestrown/shadow/victory
 
 # Player can quit the arena when Shadow had been defeated
 execute if score Shadow SQ38 matches -2 as @a[x=-4363,y=54,z=-5055,dx=0,dy=2,dz=2,gamemode=adventure] at @s run tp @s ~3 ~ ~

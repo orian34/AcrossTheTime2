@@ -50,7 +50,7 @@ execute if score Owlkar OWSASTR matches 0.. if entity @a[x=-5073,y=71,z=-4404,dx
 execute if score Owlkar OWSASTR matches 0.. unless entity @a[x=-5073,y=71,z=-4404,dx=46,dy=10,dz=46,gamemode=adventure] run function att2:gameplay/boss/owsastr/owlkar/fail
 
 # Testing if Owlkar died
-execute if score Owlkar OWSASTR matches 0.. if entity @a[x=-5073,y=71,z=-4404,dx=46,dy=10,dz=46,gamemode=adventure] unless entity @e[x=-5073,y=71,z=-4404,dx=46,dy=10,dz=46,nbt={UUID:[I;0,43,0,43]}] run function att2:gameplay/boss/owsastr/owlkar/victory
+execute if score Owlkar OWSASTR matches 0.. if entity @a[x=-5073,y=71,z=-4404,dx=46,dy=10,dz=46,gamemode=adventure,advancements={att2_test:test_boss/owlkar=true}] unless entity @e[x=-5073,y=71,z=-4404,dx=46,dy=10,dz=46,nbt={UUID:[I;0,43,0,43]}] run function att2:gameplay/boss/owsastr/owlkar/victory
 
 # Player can quit the arena when Owlkar had been defeated
 execute if score Owlkar OWSASTR matches -2 run tp @a[x=-5064,y=72,z=-4383,dx=0,dy=2,dz=4,gamemode=adventure] -5075 80 -4381

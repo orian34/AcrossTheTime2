@@ -3,6 +3,8 @@
 #Start the boss fight for Doom                                 		#
 #####################################################################
 
+##revoke test
+advancement revoke @a only att2_test:test_boss/doom
 scoreboard players set in_fight BOSS 1
 execute as @e[type=minecraft:item,x=-5229,y=47,z=-6293,distance=..25] at @s run kill @s
 scoreboard players set Doom SQ56 0

@@ -9,3 +9,6 @@ execute positioned -5117 147 -6870 run function att2:summon/reg_1/umbratyanth_el
 spreadplayers -5117 -6870 5 20 under 121 true @e[type=minecraft:husk,tag=UmbraElite,x=-5117,y=147,z=-6870,distance=..3]
 
 scoreboard players set elite statATTACK 1
+
+### UMBRATYANTH
+function att2:advancement/test_all/mobskilled/umbra_attack

@@ -38,7 +38,7 @@ execute if score Ted SQ55 matches 0.. if entity @a[x=-5076,y=91,z=-6171,dx=-50,d
 execute if score Ted SQ55 matches 0.. unless entity @a[x=-5076,y=91,z=-6171,dx=-50,dy=32,dz=-56,gamemode=adventure] run function att2:gameplay/boss/elcheol/ted/fail
 
 # Testing if Ted died
-execute if score Ted SQ55 matches 0.. if entity @a[x=-5076,y=91,z=-6171,dx=-50,dy=32,dz=-56,gamemode=adventure] unless entity @e[x=-5076,y=91,z=-6171,dx=-50,dy=32,dz=-56,nbt={UUID:[I;0,572,0,572]}] unless entity @e[x=-5076,y=91,z=-6171,dx=-50,dy=32,dz=-56,nbt={UUID:[I;0,588,0,588]}] unless entity @e[x=-5076,y=91,z=-6171,dx=-50,dy=32,dz=-56,nbt={UUID:[I;0,604,0,604]}] run function att2:gameplay/boss/elcheol/ted/victory
+execute if score Ted SQ55 matches 0.. if entity @a[x=-5076,y=91,z=-6171,dx=-50,dy=32,dz=-56,gamemode=adventure,advancements={att2_test:test_boss/ted=true}] unless entity @e[x=-5076,y=91,z=-6171,dx=-50,dy=32,dz=-56,nbt={UUID:[I;0,572,0,572]}] unless entity @e[x=-5076,y=91,z=-6171,dx=-50,dy=32,dz=-56,nbt={UUID:[I;0,588,0,588]}] unless entity @e[x=-5076,y=91,z=-6171,dx=-50,dy=32,dz=-56,nbt={UUID:[I;0,604,0,604]}] run function att2:gameplay/boss/elcheol/ted/victory
 
 # Player can quit the arena when Ted had been defeated
 execute if score Ted SQ55 matches -2 as @a[x=-5125,y=109,z=-6199,dx=0,dy=2,dz=2,gamemode=adventure] at @s run tp @s -5128 109 -6198

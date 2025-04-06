@@ -82,4 +82,5 @@ execute if score somniophages_m BOSS_TIME matches ..7 if score level DIFFICULTY 
 execute if score somniophages_m BOSS_TIME matches ..7 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
 execute if score somniophages_m BOSS_TIME matches ..7 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
 execute if score somniophages_m BOSS_TIME matches ..7 if score level DIFFICULTY matches 1.. run function att2:summon/bat_runes_abc_rewards_3
+
 execute if score somniophages_m BOSS_TIME matches ..7 if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/somniophages_master_timerecord

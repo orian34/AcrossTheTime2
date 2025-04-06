@@ -3,6 +3,8 @@
 #Start the boss fight for Owlkar                                  	#
 #####################################################################
 
+##revoke test
+advancement revoke @a only att2_test:test_boss/owlkar
 scoreboard players set in_fight BOSS 1
 execute positioned -5050 73.5 -4381 run function att2:summon/reg_1/owlkar
 function att2:gameplay/boss/owsastr/owlkar/initialize_shell

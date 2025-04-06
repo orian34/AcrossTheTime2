@@ -25,4 +25,4 @@ execute if score tic TIMECOUNTER matches 16 run function att2:gameplay/arena/min
 execute if score tic TIMECOUNTER matches 17 run function att2:gameplay/arena/minions_effect/mighty2
 execute if score tic TIMECOUNTER matches 18 run function att2:gameplay/arena/minions_effect/mighty3
 execute if score tic TIMECOUNTER matches 19 run function att2:gameplay/arena/minions_effect/mighty4
-execute if score tic TIMECOUNTER matches 20 run function att2:gameplay/arena/minions_effect/mighty5
+execute if score tic TIMECOUNTER matches 19 run function att2:gameplay/arena/minions_effect/mighty5

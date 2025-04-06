@@ -25,3 +25,6 @@ execute positioned -5130 121 -6880 run function att2:summon/reg_1/umbratyanth_da
 execute positioned -5118 121 -6879 run function att2:summon/reg_1/umbratyanth_darkray
 
 scoreboard players set darkray statATTACK 1
+
+### UMBRATYANTH
+function att2:advancement/test_all/mobskilled/umbra_attack

@@ -36,7 +36,7 @@ execute if score Naër OURANOS matches 0.. if entity @a[x=7699,y=182,z=6091,dx=1
 execute if score Naër OURANOS matches 0.. unless entity @a[x=7699,y=182,z=6091,dx=16,dy=9,dz=-110,gamemode=adventure] run function att2:gameplay/boss/ouranos/naer/fail
 
 # Testing if Naër died
-execute if score Naër OURANOS matches 0.. if entity @a[x=7699,y=182,z=6091,dx=16,dy=9,dz=-110,gamemode=adventure] unless entity @e[x=7699,y=182,z=6091,dx=16,dy=9,dz=-110,nbt={UUID:[I;0,363,0,363]}] run function att2:gameplay/boss/ouranos/naer/victory
+execute if score Naër OURANOS matches 0.. if entity @a[x=7699,y=182,z=6091,dx=16,dy=9,dz=-110,gamemode=adventure,advancements={att2_test:test_boss/naer=true}] unless entity @e[x=7699,y=182,z=6091,dx=16,dy=9,dz=-110,nbt={UUID:[I;0,363,0,363]}] run function att2:gameplay/boss/ouranos/naer/victory
 
 # Player can quit the arena when Naër had been defeated
 execute if score Naër OURANOS matches -2 as @a[x=7711,y=182,z=5982,dx=-8,dy=3,dz=0,gamemode=adventure] at @s run tp @s ~ ~ ~-2

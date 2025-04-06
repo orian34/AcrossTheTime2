@@ -4,6 +4,11 @@
 #####################################################################
 
 scoreboard players add total_killed BOSS 1
+##test boss
+function att2:advancement/test_all/mobskilled/boss
+##revoke test
+advancement revoke @a only att2_test:test_boss/aozathreyon
+function att2:advancement/test_all/mobskilled/boss
 scoreboard players set Aozathreyon OURANOS -2
 execute as @a run function att2:gameplay/boss/ouranos/aozathreyon/stop
 execute positioned 7301 178 6577 run function att2:gameplay/boss/rewards_start

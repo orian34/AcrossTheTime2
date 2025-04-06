@@ -18,3 +18,6 @@ execute positioned -5110.0 121 -6883.0 run function att2:summon/reg_1/umbratyant
 execute positioned -5103.0 121 -6876.0 run function att2:summon/reg_1/umbratyanth_truelight
 
 scoreboard players set eyes statATTACK 1
+
+### UMBRATYANTH
+function att2:advancement/test_all/mobskilled/umbra_attack

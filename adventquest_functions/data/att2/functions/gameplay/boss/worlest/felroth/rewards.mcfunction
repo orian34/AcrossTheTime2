@@ -54,4 +54,5 @@ execute if score felroth_m BOSS_TIME matches 0 if score felroth_s BOSS_TIME matc
 execute if score felroth_m BOSS_TIME matches 0 if score felroth_s BOSS_TIME matches ..10 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
 execute if score felroth_m BOSS_TIME matches 0 if score felroth_s BOSS_TIME matches ..10 if score level DIFFICULTY matches 1.. run function att2:summon/bat_runes_a_rewards
 execute if score felroth_m BOSS_TIME matches 0 if score felroth_s BOSS_TIME matches ..10 if score level DIFFICULTY matches 1.. run function att2:summon/bat_runes_a_rewards
+
 execute if score felroth_m BOSS_TIME matches 0 if score felroth_s BOSS_TIME matches ..10 if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/felroth_master_timerecord

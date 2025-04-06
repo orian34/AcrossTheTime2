@@ -4,6 +4,11 @@
 #####################################################################
 
 scoreboard players add total_killed BOSS 1
+##test boss
+function att2:advancement/test_all/mobskilled/boss
+##revoke test
+advancement grant @a only att2_test:test_boss/somniophages
+advancement revoke @a only att2_test:test_boss/somniophages
 scoreboard players set Somniophages SQ48 -2
 execute as @a run function att2:gameplay/boss/ouranos/somniophages/stop
 execute positioned 6708 149 7065 run function att2:gameplay/boss/rewards_start

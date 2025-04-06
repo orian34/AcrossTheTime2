@@ -34,7 +34,7 @@ execute if score Ulkoggumi BILLGART matches 0.. in minecraft:the_end if entity @
 execute if score Ulkoggumi BILLGART matches 0.. in minecraft:the_end unless entity @a[x=-1137,y=106,z=-542,dx=24,dy=7,dz=-36,gamemode=adventure] run function att2:gameplay/boss/billgart/ulkoggumi/fail
 
 # Testing if Ulkoggumi died
-execute if score Ulkoggumi BILLGART matches 0.. in minecraft:the_end if entity @a[x=-1137,y=106,z=-542,dx=24,dy=7,dz=-36,gamemode=adventure] unless entity @e[x=-1137,y=106,z=-542,dx=24,dy=7,dz=-36,nbt={UUID:[I;0,267,0,267]}] run function att2:gameplay/boss/billgart/ulkoggumi/victory
+execute if score Ulkoggumi BILLGART matches 0.. in minecraft:the_end if entity @a[x=-1137,y=106,z=-542,dx=24,dy=7,dz=-36,gamemode=adventure,advancements={att2_test:test_boss/ulkoggumi=true}] unless entity @e[x=-1137,y=106,z=-542,dx=24,dy=7,dz=-36,nbt={UUID:[I;0,267,0,267]}] run function att2:gameplay/boss/billgart/ulkoggumi/victory
 
 # Player can quit the arena when Ulkoggumi had been defeated
 execute if score Ulkoggumi BILLGART matches -2 in minecraft:the_end as @a[x=-1133,y=106,z=-542,dx=-2,dy=2,dz=0,gamemode=adventure] at @s run tp @s ~ ~ ~2

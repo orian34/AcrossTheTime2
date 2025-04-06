@@ -76,4 +76,5 @@ execute if score golem_m BOSS_TIME matches ..4 if score level DIFFICULTY matches
 execute if score golem_m BOSS_TIME matches ..3 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
 execute if score golem_m BOSS_TIME matches ..3 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
 execute if score golem_m BOSS_TIME matches ..3 if score level DIFFICULTY matches 1.. run function att2:summon/bat_runes_abc_rewards_2
+
 execute if score golem_m BOSS_TIME matches ..3 if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/golem_master_timerecord

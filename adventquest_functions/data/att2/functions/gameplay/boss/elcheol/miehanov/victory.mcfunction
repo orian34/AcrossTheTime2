@@ -4,6 +4,10 @@
 #####################################################################
 
 scoreboard players add total_killed BOSS 1
+##test boss
+function att2:advancement/test_all/mobskilled/boss
+##revoke test
+advancement revoke @a only att2_test:test_boss/miehanov
 scoreboard players set Miehanov VONAHEIM -2
 execute as @a run function att2:gameplay/boss/elcheol/miehanov/stop
 execute positioned -5614 167 -6360 run function att2:gameplay/boss/rewards_start

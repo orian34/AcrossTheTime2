@@ -78,4 +78,5 @@ execute if score illusions_m BOSS_TIME matches 0 if score illusions_s BOSS_TIME 
 execute if score illusions_m BOSS_TIME matches 0 if score illusions_s BOSS_TIME matches ..20 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
 execute if score illusions_m BOSS_TIME matches 0 if score illusions_s BOSS_TIME matches ..20 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
 execute if score illusions_m BOSS_TIME matches 0 if score illusions_s BOSS_TIME matches ..20 if score level DIFFICULTY matches 1.. run function att2:summon/bat_runes_abc_rewards_3
+
 execute if score illusions_m BOSS_TIME matches 0 if score illusions_s BOSS_TIME matches ..20 if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/illusions_master_timerecord

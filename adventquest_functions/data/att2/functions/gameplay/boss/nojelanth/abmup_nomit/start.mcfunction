@@ -3,6 +3,9 @@
 #Start the boss fight for Abmup & Nomit                             #
 #####################################################################
 
+##revoke test
+advancement grant @a only att2_test:test_boss/abmup_nomit
+advancement revoke @a only att2_test:test_boss/abmup_nomit
 scoreboard players set in_fight BOSS 1
 scoreboard players set Abmup_Nomit SQ58 0
 execute positioned -7615 15 -4197 run function att2:summon/reg_1/abmup

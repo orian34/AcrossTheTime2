@@ -4,5 +4,5 @@
 #################################################################
 
 ##Zen
-scoreboard players remove zen RUNE 2
-scoreboard players remove esc RUNE 3
+scoreboard players remove zen RUNECOUNT 2
+scoreboard players remove esc RUNECOUNT 3
