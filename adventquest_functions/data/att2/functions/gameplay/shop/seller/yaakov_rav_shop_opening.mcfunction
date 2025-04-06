@@ -25,5 +25,6 @@ function att2:dialogs/gameplay/shop/showcase/spell/cicatrisation
 function att2:dialogs/gameplay/shop/showcase/spell/insaisissable
 function att2:dialogs/gameplay/shop/showcase/spell/berserk
 
-execute if entity @s[advancements={att2:hunting/extratellur=true}] run function att2:dialogs/gameplay/shop/items_selled_list/misc_list
+function att2:dialogs/gameplay/shop/items_selled_list/misc_list
 execute if entity @s[advancements={att2:hunting/extratellur=true}] run function att2:dialogs/gameplay/shop/showcase/spell/secret_seeker
+execute if entity @s[advancements={att2:dahal/spell30_lvl10=true}] run function att2:dialogs/gameplay/shop/showcase/spell/gold_devourer
