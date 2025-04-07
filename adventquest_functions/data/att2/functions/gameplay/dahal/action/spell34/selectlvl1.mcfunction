@@ -3,5 +3,6 @@
 #Process attempt to select this spell									#
 #########################################################################
 
-scoreboard players set @s SPELL34_SLCT 331
+scoreboard players set @s SPELL34_SLCT 1
 function att2:gameplay/dahal/action/loadingsuccess
+execute if score @s SPELL34_SLCT matches 1 run function att2:gameplay/dahal/launcher/spell_34/lvl1
