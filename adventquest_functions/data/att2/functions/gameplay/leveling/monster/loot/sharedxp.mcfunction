@@ -43,4 +43,4 @@ execute as @a[scores={XPGAIN=1..}] run function att2:gameplay/leveling/monster/l
 #reseting all scores
 scoreboard players reset maxAddedOne XPPROCESS
 scoreboard players reset @a XPPROCESS
-scoreboard players remove @s KILLVALUE 1
+#scoreboard players remove @s KILLVALUE 1
