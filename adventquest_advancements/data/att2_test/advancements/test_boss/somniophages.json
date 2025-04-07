@@ -9,7 +9,7 @@
         "show_toast": false,
         "announce_to_chat": false
     },
-    "parent": "att2:hunting/myrath_master_timerecord",
+    "parent": "att2:hunting/somniophages_master_timerecord",
     "criteria": {
         "1": {
             "trigger": "minecraft:player_killed_entity",

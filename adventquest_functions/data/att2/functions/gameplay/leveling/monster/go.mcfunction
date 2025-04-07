@@ -5,9 +5,9 @@
 
 execute as @e[tag=LVL0] run function att2:gameplay/leveling/monster/initialize/initnewmonster
 
-execute unless entity @a[scores={KILLVALUE=1..}] run function att2:gameplay/leveling/monster/loot/actualizemaxclass
+#execute unless entity @a[scores={KILLVALUE=1..}] run function att2:gameplay/leveling/monster/loot/actualizemaxclass
 
-execute as @a[scores={KILLVALUE=1..}] run function att2:gameplay/leveling/monster/loot/sharedxp
+#execute as @a[scores={KILLVALUE=1..}] run function att2:gameplay/leveling/monster/loot/sharedxp
 
 # Process superelite effect
 execute as @e[tag=SUPER,team=hostile] at @s run function att2:gameplay/leveling/monster/super_elite_diff
