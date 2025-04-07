@@ -34,19 +34,19 @@ execute as @s[predicate=att2_pre:dahal/off/spell_43,scores={SPELL43_SLCT=1..10,C
 execute as @s[predicate=att2_pre:dahal/off/spell_44,scores={SPELL44_SLCT=1..10,COOLDOWN44=1..}] run function att2:gameplay/dahal/action/loadingfail/spell_44
 execute as @s[predicate=att2_pre:dahal/off/spell_45,scores={SPELL45_SLCT=1..10,COOLDOWN45=1..}] run function att2:gameplay/dahal/action/loadingfail/spell_45
 #go
-execute as @s[predicate=att2_pre:dahal/off/spell_1,scores={SPELL1_SLCT=1..10,COOLDOWN1=..0}] run function att2:gameplay/dahal/action/spell1/go
-execute as @s[predicate=att2_pre:dahal/off/spell_2,scores={SPELL2_SLCT=1..10,COOLDOWN2=..0}] run function att2:gameplay/dahal/action/spell2/go
-execute as @s[predicate=att2_pre:dahal/off/spell_3,scores={SPELL3_SLCT=1..10,COOLDOWN3=..0}] run function att2:gameplay/dahal/action/spell3/go
-execute as @s[predicate=att2_pre:dahal/off/spell_4,scores={SPELL4_SLCT=1..10,COOLDOWN4=..0}] run function att2:gameplay/dahal/action/spell4/go
-execute as @s[predicate=att2_pre:dahal/off/spell_5,scores={SPELL5_SLCT=1..10,COOLDOWN5=..0}] run function att2:gameplay/dahal/action/spell5/go
-execute as @s[predicate=att2_pre:dahal/off/spell_6,scores={SPELL6_SLCT=1..10,COOLDOWN6=..0}] run function att2:gameplay/dahal/action/spell6/go
-execute as @s[predicate=att2_pre:dahal/off/spell_7,scores={SPELL7_SLCT=1..10,COOLDOWN7=..0}] run function att2:gameplay/dahal/action/spell7/go
-execute as @s[predicate=att2_pre:dahal/off/spell_8,scores={SPELL8_SLCT=1..10,COOLDOWN8=..0}] run function att2:gameplay/dahal/action/spell8/go
-execute as @s[predicate=att2_pre:dahal/off/spell_9,tag=!Tiid_Klo_Ul,scores={SPELL9_SLCT=1..10,SPELL9_EFFECT=1..,COOLDOWN9=1..}] at @s run function att2:gameplay/dahal/action/spell9/start
-execute as @s[predicate=att2_pre:dahal/off/spell_9,scores={SPELL9_SLCT=1..10,COOLDOWN9=..0}] run function att2:gameplay/dahal/action/spell9/go
-execute as @s[predicate=att2_pre:dahal/off/spell_10,scores={SPELL10_SLCT=1..10,COOLDOWN10=..0}] run function att2:gameplay/dahal/action/spell10/go
-execute as @s[predicate=att2_pre:dahal/off/spell_11,scores={SPELL11_SLCT=1..10,COOLDOWN11=..0},tag=Nova] run function att2:gameplay/dahal/action/spell11/stop
-execute as @s[predicate=att2_pre:dahal/off/spell_11,scores={SPELL11_SLCT=1..10,COOLDOWN11=..0}] run function att2:gameplay/dahal/action/spell11/start
+execute as @s[predicate=att2_pre:dahal/off/spell_1,predicate=!att2_pre:dahal/effect_limit,scores={SPELL1_SLCT=1..10,COOLDOWN1=..0}] run function att2:gameplay/dahal/action/spell1/go
+execute as @s[predicate=att2_pre:dahal/off/spell_2,predicate=!att2_pre:dahal/effect_limit,scores={SPELL2_SLCT=1..10,COOLDOWN2=..0}] run function att2:gameplay/dahal/action/spell2/go
+execute as @s[predicate=att2_pre:dahal/off/spell_3,predicate=!att2_pre:dahal/effect_limit,scores={SPELL3_SLCT=1..10,COOLDOWN3=..0}] run function att2:gameplay/dahal/action/spell3/go
+execute as @s[predicate=att2_pre:dahal/off/spell_4,predicate=!att2_pre:dahal/effect_limit,scores={SPELL4_SLCT=1..10,COOLDOWN4=..0}] run function att2:gameplay/dahal/action/spell4/go
+execute as @s[predicate=att2_pre:dahal/off/spell_5,predicate=!att2_pre:dahal/effect_limit,scores={SPELL5_SLCT=1..10,COOLDOWN5=..0}] run function att2:gameplay/dahal/action/spell5/go
+execute as @s[predicate=att2_pre:dahal/off/spell_6,predicate=!att2_pre:dahal/effect_limit,scores={SPELL6_SLCT=1..10,COOLDOWN6=..0}] run function att2:gameplay/dahal/action/spell6/go
+execute as @s[predicate=att2_pre:dahal/off/spell_7,predicate=!att2_pre:dahal/effect_limit,scores={SPELL7_SLCT=1..10,COOLDOWN7=..0}] run function att2:gameplay/dahal/action/spell7/go
+execute as @s[predicate=att2_pre:dahal/off/spell_8,predicate=!att2_pre:dahal/effect_limit,scores={SPELL8_SLCT=1..10,COOLDOWN8=..0}] run function att2:gameplay/dahal/action/spell8/go
+execute as @s[predicate=att2_pre:dahal/off/spell_9,predicate=!att2_pre:dahal/damage_limit,tag=!Tiid_Klo_Ul,scores={SPELL9_SLCT=1..10,SPELL9_EFFECT=1..,COOLDOWN9=1..}] at @s run function att2:gameplay/dahal/action/spell9/start
+execute as @s[predicate=att2_pre:dahal/off/spell_9,predicate=!att2_pre:dahal/damage_limit,scores={SPELL9_SLCT=1..10,COOLDOWN9=..0}] run function att2:gameplay/dahal/action/spell9/go
+execute as @s[predicate=att2_pre:dahal/off/spell_10,predicate=!att2_pre:dahal/effect_limit,scores={SPELL10_SLCT=1..10,COOLDOWN10=..0}] run function att2:gameplay/dahal/action/spell10/go
+execute as @s[predicate=att2_pre:dahal/off/spell_11,predicate=!att2_pre:dahal/damage_limit,scores={SPELL11_SLCT=1..10,COOLDOWN11=..0},tag=Nova] run function att2:gameplay/dahal/action/spell11/stop
+execute as @s[predicate=att2_pre:dahal/off/spell_11,predicate=!att2_pre:dahal/damage_limit,scores={SPELL11_SLCT=1..10,COOLDOWN11=..0}] run function att2:gameplay/dahal/action/spell11/start
 execute as @s[predicate=att2_pre:dahal/off/spell_21,scores={SPELL21_SLCT=1..10,COOLDOWN21=..0}] run function att2:gameplay/dahal/action/spell21/go
 execute as @s[predicate=att2_pre:dahal/off/spell_22,scores={SPELL22_SLCT=1..10,COOLDOWN22=..0}] run function att2:gameplay/dahal/action/spell22/go
 execute as @s[predicate=att2_pre:dahal/off/spell_23,scores={SPELL23_SLCT=1..10,COOLDOWN23=..0}] run function att2:gameplay/dahal/action/spell23/go
@@ -65,7 +65,7 @@ execute as @s[predicate=att2_pre:dahal/off/spell_32,scores={SPELL32_SLCT=1..10,C
 
 execute as @s[predicate=att2_pre:dahal/off/spell_34,scores={SPELL34_SLCT=1..10,COOLDOWN34=..0}] run function att2:gameplay/dahal/action/spell34/go
 execute as @s[predicate=att2_pre:dahal/off/spell_40,scores={SPELL40_SLCT=1..10,COOLDOWN40=..0},tag=Corrupted] run function att2:gameplay/dahal/action/spell40/stop
-execute as @s[predicate=att2_pre:dahal/off/spell_40,scores={SPELL40_SLCT=1..10,COOLDOWN40=..0}] run function att2:gameplay/dahal/action/spell40/start
+execute as @s[predicate=att2_pre:dahal/off/spell_40,predicate=!att2_pre:dahal/damage_limit,scores={SPELL40_SLCT=1..10,COOLDOWN40=..0}] run function att2:gameplay/dahal/action/spell40/start
 execute as @s[predicate=att2_pre:dahal/off/spell_41,scores={SPELL41_SLCT=1..10,COOLDOWN41=..0}] run function att2:gameplay/dahal/action/spell41/go
 execute as @s[predicate=att2_pre:dahal/off/spell_42,scores={SPELL42_SLCT=1..10,COOLDOWN42=..0}] run function att2:gameplay/dahal/action/spell42/go
 execute as @s[predicate=att2_pre:dahal/off/spell_43,scores={SPELL43_SLCT=1..10,COOLDOWN43=..0}] run function att2:gameplay/dahal/action/spell43/go
