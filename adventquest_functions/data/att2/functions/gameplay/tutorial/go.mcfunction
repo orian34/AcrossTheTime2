@@ -61,6 +61,9 @@ execute if score shop TUTORIAL matches 2 if score timer TUTORIAL matches 10 as @
 execute if score skills TUTORIAL matches 1 as @a at @s run function att2:gameplay/tutorial/launch/skills
 execute if score skills TUTORIAL matches 2 if score timer TUTORIAL matches 10 as @a at @s run function att2:dialogs/gameplay/tutorial/skills
 
+execute if score skyz TUTORIAL matches 1 as @a at @s run function att2:gameplay/tutorial/launch/skyz
+execute if score skyz TUTORIAL matches 2 if score timer TUTORIAL matches 10 as @a at @s run function att2:dialogs/gameplay/tutorial/skyz
+
 execute if score spells TUTORIAL matches 1 as @a at @s run function att2:gameplay/tutorial/launch/spells
 execute if score spells TUTORIAL matches 2 if score timer TUTORIAL matches 10 as @a at @s run function att2:dialogs/gameplay/tutorial/spells
 
@@ -72,3 +75,6 @@ execute if score runes TUTORIAL matches 2 if score timer TUTORIAL matches 10 as 
 
 execute if score runicwords TUTORIAL matches 1 as @a at @s run function att2:gameplay/tutorial/launch/runicwords
 execute if score runicwords TUTORIAL matches 2 if score timer TUTORIAL matches 10 as @a at @s run function att2:dialogs/gameplay/tutorial/runicwords
+
+execute if score tic TIMECOUNTER matches 1 unless score earthquake_tip TUTORIAL matches 1 as @a at @s run function att2:gameplay/tutorial/earthquake_tip
+execute if score tic TIMECOUNTER matches 1 unless score fire_tip TUTORIAL matches 1 as @a at @s run function att2:gameplay/tutorial/fire_tip
