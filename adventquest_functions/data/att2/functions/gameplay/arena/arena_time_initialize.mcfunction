@@ -6,6 +6,7 @@
 #In non-arena timing, I only used atricanth_m (without the n, but the meaning is the same).
 #If we want to do related achievement or reward detection, we can add it under "##boss_time over" in the "victory" file.
 
+
 ##boss time set
 scoreboard objectives add BOSS_TIME dummy
 scoreboard players set 20 BOSS_TIME 20

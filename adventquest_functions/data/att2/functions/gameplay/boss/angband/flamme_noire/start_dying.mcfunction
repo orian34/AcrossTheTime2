@@ -3,6 +3,8 @@
 #End the battle and teleport player in other room                   #
 #####################################################################
 
+##revoke test
+advancement revoke @a only att2_test:test_boss/flamme_noire
 scoreboard players set in_fight BOSS 0
 scoreboard players set FlammeNoire ANGOR -2
 scoreboard players set FlammeNoire ANGOR_BOSS 210

@@ -3,6 +3,9 @@
 #Start the boss fight for atricanth                                 #
 #####################################################################
 
+##revoke test
+advancement grant @a only att2_test:test_boss/atricanth
+advancement revoke @a only att2_test:test_boss/atricanth
 scoreboard players set in_fight BOSS 1
 execute positioned 3425 17 4320 run function att2:summon/reg_2/atricanth_1
 execute positioned 3408 17 4303 run function att2:summon/reg_2/atricanth_2

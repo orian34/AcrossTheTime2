@@ -83,4 +83,5 @@ execute if score torkant_m BOSS_TIME matches 0 if score torkant_s BOSS_TIME matc
 execute if score torkant_m BOSS_TIME matches 0 if score torkant_s BOSS_TIME matches ..40 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
 execute if score torkant_m BOSS_TIME matches 0 if score torkant_s BOSS_TIME matches ..40 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
 execute if score torkant_m BOSS_TIME matches 0 if score torkant_s BOSS_TIME matches ..40 if score level DIFFICULTY matches 1.. run function att2:summon/bat_runes_abc_rewards_3
+
 execute if score torkant_m BOSS_TIME matches 0 if score torkant_s BOSS_TIME matches ..40 if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/torkant_master_timerecord

@@ -3,6 +3,8 @@
 #Start the boss fight for Rackham                                  	#
 #####################################################################
 
+##revoke test
+advancement revoke @a only att2_test:test_boss/rackham
 scoreboard players set in_fight BOSS 1
 execute positioned -4027 38 -4279 run function att2:summon/reg_1/rackham
 function att2:gameplay/boss/asunark/rackham/init_bossbar

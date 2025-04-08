@@ -3,6 +3,8 @@
 #Start the boss fight for Korlaph                                  	#
 #####################################################################
 
+##revoke test
+advancement revoke @a only att2_test:test_boss/korlaph
 scoreboard players set in_fight BOSS 1
 stopsound @a
 tag @a add NoAutoMusic

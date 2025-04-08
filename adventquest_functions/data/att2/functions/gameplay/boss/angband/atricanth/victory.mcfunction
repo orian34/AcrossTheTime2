@@ -4,6 +4,11 @@
 #####################################################################
 
 scoreboard players add total_killed BOSS 1
+##test boss
+function att2:advancement/test_all/mobskilled/boss
+##revoke test
+advancement grant @a only att2_test:test_boss/atricanth
+advancement revoke @a only att2_test:test_boss/atricanth
 scoreboard players set Atricanth SQ57 -2
 execute as @a run function att2:gameplay/boss/angband/atricanth/stop
 execute positioned 3425 17 4303 run function att2:gameplay/boss/rewards_start

@@ -81,4 +81,5 @@ execute if score rodmat_m BOSS_TIME matches ..2 if score rodmat_s BOSS_TIME matc
 execute if score rodmat_m BOSS_TIME matches ..1 if score rodmat_s BOSS_TIME matches ..30 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
 execute if score rodmat_m BOSS_TIME matches ..1 if score rodmat_s BOSS_TIME matches ..30 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
 execute if score rodmat_m BOSS_TIME matches ..1 if score rodmat_s BOSS_TIME matches ..30 if score level DIFFICULTY matches 1.. run function att2:summon/bat_runes_abc_rewards_3
+
 execute if score rodmat_m BOSS_TIME matches ..1 if score rodmat_s BOSS_TIME matches ..30 if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/rodmat_master_timerecord

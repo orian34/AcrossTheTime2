@@ -78,13 +78,13 @@ execute if score Boss UMBRATYANTH matches 0.. run function att2:gameplay/boss/et
 execute if score Boss UMBRATYANTH matches -1 if entity @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] run function att2:gameplay/boss/ether/umbratyanth/start
 
 # Player failed destroying Umbra'Tyanth and died
-execute if score Boss UMBRATYANTH matches 0.. unless entity @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] run function att2:gameplay/boss/ether/umbratyanth/fail
+execute if score Boss UMBRATYANTH matches 0.. unless entity @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] if entity @e[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,nbt={UUID:[I;0,300,0,300]}] run function att2:gameplay/boss/ether/umbratyanth/fail
 
 # Player under the arena is killed
 execute as @a[x=-5161,y=117,z=-6914,dx=88,dy=-40,dz=88,gamemode=adventure] at @s run kill @s
 
 # Testing if Umbra'Tyanth died
-execute if score Boss UMBRATYANTH matches 0.. if entity @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure] unless entity @e[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,nbt={UUID:[I;0,300,0,300]}] run function att2:gameplay/boss/ether/umbratyanth/victory
+execute if score Boss UMBRATYANTH matches 0.. if entity @a[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,gamemode=adventure,advancements={att2_test:test_boss/umbratyanth=true}] unless entity @e[x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82,nbt={UUID:[I;0,300,0,300]}] run function att2:gameplay/boss/ether/umbratyanth/victory
 
 
 ##SPELL32 quest CHECK

@@ -80,4 +80,5 @@ execute if score ted_m BOSS_TIME matches ..2 if score level DIFFICULTY matches 0
 execute if score ted_m BOSS_TIME matches ..1 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
 execute if score ted_m BOSS_TIME matches ..1 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
 execute if score ted_m BOSS_TIME matches ..1 if score level DIFFICULTY matches 1.. run function att2:summon/bat_runes_abc_rewards_2
+
 execute if score ted_m BOSS_TIME matches ..1 if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/ted_master_timerecord

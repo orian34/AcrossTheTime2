@@ -3,8 +3,5 @@
 #Use function to process the sell of Berserk 					#
 #################################################################
 
-execute as @s[scores={CHRONOTON=..349}] at @s run function att2:dialogs/gameplay/shop/not_enough_chronotons
-execute if entity @s[scores={CHRONOTON=350..}] run function att2:gameplay/shop/effect
-execute if entity @s[scores={CHRONOTON=350..}] run function att2:gameplay/dahal/action/spell45/obtain
-
-scoreboard players remove @s[scores={CHRONOTON=350..}] CHRONOTON 350
+execute if entity @s[nbt={Inventory:[{tag:{Spell:"spell45"}}]}] run function att2:dialogs/gameplay/dahal/have_spell
+execute unless entity @s[nbt={Inventory:[{tag:{Spell:"spell45"}}]}] run function att2:gameplay/shop/purchase/spell/berserk_buy

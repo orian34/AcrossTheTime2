@@ -4,5 +4,5 @@
 #################################################################
 
 ##Qi
-scoreboard players remove qi RUNE 2
-scoreboard players remove esc RUNE 1
+scoreboard players remove qi RUNECOUNT 2
+scoreboard players remove esc RUNECOUNT 1

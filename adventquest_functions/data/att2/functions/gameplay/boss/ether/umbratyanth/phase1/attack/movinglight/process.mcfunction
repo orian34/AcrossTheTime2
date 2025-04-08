@@ -9,3 +9,6 @@ execute positioned ~-1 ~-1 ~-1 run function att2:physicmod/reg1/ether/umbra_ligh
 function att2:sound/misc/emerald_growing
 
 scoreboard players set movinglight statATTACK 1
+
+### UMBRATYANTH
+function att2:advancement/test_all/mobskilled/umbra_attack

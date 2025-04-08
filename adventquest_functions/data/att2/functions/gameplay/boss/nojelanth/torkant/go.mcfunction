@@ -8,8 +8,8 @@
 #####################################################################
 
 # Particules for entrance and exit of the arena
-particle minecraft:dust 1 0 0 1 -5552 53 -4577 1 1 0 1 2 normal
-particle minecraft:dust 1 0 0 1 -5552 50 -4541 1 1 0 1 2 normal
+particle minecraft:dust 1 0 0 1 -5513 35 -4139 3 0 3 1 20 normal
+particle minecraft:dust 1 0 0 1 -5515 19 -4164 -2 2 0 1 20 normal
 
 # Sound security
 stopsound @a * minecraft:block.bubble_column.bubble_pop
@@ -41,7 +41,7 @@ execute if score Torkant SQ52 matches 0.. if entity @a[x=-5532,y=34,z=-4164,dx=3
 execute if score Torkant SQ52 matches 0.. unless entity @a[x=-5532,y=34,z=-4164,dx=34,dy=-31,dz=44,gamemode=adventure] run function att2:gameplay/boss/nojelanth/torkant/fail
 
 # Testing if Torkant died
-execute if score Torkant SQ52 matches 0.. if entity @a[x=-5532,y=34,z=-4164,dx=34,dy=-31,dz=44,gamemode=adventure] unless entity @e[x=-5532,y=34,z=-4164,dx=34,dy=-31,dz=44,nbt={UUID:[I;0,524,0,524]}] run function att2:gameplay/boss/nojelanth/torkant/victory
+execute if score Torkant SQ52 matches 0.. if entity @a[x=-5532,y=34,z=-4164,dx=34,dy=-31,dz=44,gamemode=adventure,advancements={att2_test:test_boss/torkant=true}] unless entity @e[x=-5532,y=34,z=-4164,dx=34,dy=-31,dz=44,nbt={UUID:[I;0,524,0,524]}] run function att2:gameplay/boss/nojelanth/torkant/victory
 
 # Player can quit the arena when Torkant had been defeated
 execute if score Torkant SQ52 matches -2 as @a[x=-5516,y=18,z=-4163,dx=2,dy=2,dz=0,gamemode=adventure] at @s run tp @s -5515 18 -4166

@@ -2170,7 +2170,7 @@ scoreboard players operation baked_potato PRICES /= 100 discount_calc
 scoreboard players set beef PRICES 8
 scoreboard players operation beef PRICES *= discount discount_calc
 scoreboard players operation beef PRICES /= 100 discount_calc
-scoreboard players set beetroot PRICES 3
+scoreboard players set beetroot PRICES 4
 scoreboard players operation beetroot PRICES *= discount discount_calc
 scoreboard players operation beetroot PRICES /= 100 discount_calc
 scoreboard players set beetroot_soup PRICES 10
@@ -2406,3 +2406,37 @@ scoreboard players operation mending_esc PRICES /= 100 discount_calc
 scoreboard players set mending_leg PRICES 750
 scoreboard players operation mending_leg PRICES *= discount discount_calc
 scoreboard players operation mending_leg PRICES /= 100 discount_calc
+#misc 
+scoreboard players set coal PRICES 5
+scoreboard players operation coal PRICES *= discount discount_calc
+scoreboard players operation coal PRICES /= 100 discount_calc
+scoreboard players set health_arrow_0 PRICES 5
+scoreboard players operation health_arrow_0 PRICES *= discount discount_calc
+scoreboard players operation health_arrow_0 PRICES /= 100 discount_calc
+scoreboard players set health_arrow_1 PRICES 8
+scoreboard players operation health_arrow_1 PRICES *= discount discount_calc
+scoreboard players operation health_arrow_1 PRICES /= 100 discount_calc
+scoreboard players set health_arrow_2 PRICES 12
+scoreboard players operation health_arrow_2 PRICES *= discount discount_calc
+scoreboard players operation health_arrow_2 PRICES /= 100 discount_calc
+scoreboard players set slowness_arrow_0 PRICES 4
+scoreboard players operation slowness_arrow_0 PRICES *= discount discount_calc
+scoreboard players operation slowness_arrow_0 PRICES /= 100 discount_calc
+scoreboard players set slowness_arrow_1 PRICES 5
+scoreboard players operation slowness_arrow_1 PRICES *= discount discount_calc
+scoreboard players operation slowness_arrow_1 PRICES /= 100 discount_calc
+scoreboard players set wither_arrow_0 PRICES 5
+scoreboard players operation wither_arrow_0 PRICES *= discount discount_calc
+scoreboard players operation wither_arrow_0 PRICES /= 100 discount_calc
+scoreboard players set wither_arrow_1 PRICES 7
+scoreboard players operation wither_arrow_1 PRICES *= discount discount_calc
+scoreboard players operation wither_arrow_1 PRICES /= 100 discount_calc
+scoreboard players set wither_arrow_2 PRICES 10
+scoreboard players operation wither_arrow_2 PRICES *= discount discount_calc
+scoreboard players operation wither_arrow_2 PRICES /= 100 discount_calc  
+scoreboard players set spectral_arrow_0 PRICES 4
+scoreboard players operation spectral_arrow_0 PRICES *= discount discount_calc
+scoreboard players operation spectral_arrow_0 PRICES /= 100 discount_calc 
+scoreboard players set spectral_arrow_1 PRICES 10
+scoreboard players operation spectral_arrow_1 PRICES *= discount discount_calc
+scoreboard players operation spectral_arrow_1 PRICES /= 100 discount_calc 

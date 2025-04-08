@@ -4,5 +4,5 @@
 #################################################################
 
 ##Kan
-scoreboard players remove kan RUNE 2
-scoreboard players remove esc RUNE 2
+scoreboard players remove kan RUNECOUNT 2
+scoreboard players remove esc RUNECOUNT 2

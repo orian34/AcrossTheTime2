@@ -3,6 +3,8 @@
 #Start the boss fight for Naër                               		#
 #####################################################################
 
+##revoke test
+advancement revoke @a only att2_test:test_boss/naer
 scoreboard players set in_fight BOSS 1
 execute positioned 7707 183 6037 run function att2:summon/reg_4/naer
 scoreboard players set Naër OURANOS 0

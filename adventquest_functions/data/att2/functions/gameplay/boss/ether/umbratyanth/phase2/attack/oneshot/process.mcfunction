@@ -12,3 +12,6 @@ effect give @s minecraft:instant_damage 1 1 true
 function att2:sound/misc/attack_smash
 
 scoreboard players set oneshot statATTACK 1
+
+### UMBRATYANTH
+function att2:advancement/test_all/mobskilled/umbra_attack

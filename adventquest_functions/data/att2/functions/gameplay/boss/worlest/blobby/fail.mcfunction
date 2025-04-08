@@ -3,6 +3,7 @@
 #Process player failure for Blobby                               	#
 #####################################################################
 
+scoreboard players set slime_kill TIMECOUNTER 100
 scoreboard players set Blobby SQ54 -1
 scoreboard players set EnterArena SQ54 100
 execute as 00000000-0000-022c-0000-00000000022c at @s run tp @s ~ -2 ~

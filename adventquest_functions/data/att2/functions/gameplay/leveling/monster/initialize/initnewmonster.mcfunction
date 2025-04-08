@@ -63,3 +63,7 @@ execute unless entity @s[tag=PlayerAlly] run team join hostile @s
 
 # End the initialization
 tag @s remove LVL0
+
+#kill tag add/balance bat kill xp
+execute if score @s[type=minecraft:bat] CLASSLEVEL matches 10.. run scoreboard players set @s CLASSLEVEL 10
+execute as @s run function att2:gameplay/leveling/monster/loot/kill_test/kill_tag

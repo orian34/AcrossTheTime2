@@ -11,3 +11,6 @@ particle minecraft:dust 5 5 5 0.7 -5112 162.5 -6739 1 1 1 1 100 normal
 execute positioned -5112 162.5 -6739 run function att2:sound/misc/soft_corruption
 
 scoreboard players add Count_start UMBRATYANTH 1
+
+### UMBRATYANTH
+function att2:advancement/test_all/mobskilled/umbra_number

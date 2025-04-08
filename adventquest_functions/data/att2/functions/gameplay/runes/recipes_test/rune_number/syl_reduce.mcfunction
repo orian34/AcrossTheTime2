@@ -4,5 +4,5 @@
 #################################################################
 
 ##Syl
-scoreboard players remove syl RUNE 2
-scoreboard players remove esc RUNE 2
+scoreboard players remove syl RUNECOUNT 2
+scoreboard players remove esc RUNECOUNT 2

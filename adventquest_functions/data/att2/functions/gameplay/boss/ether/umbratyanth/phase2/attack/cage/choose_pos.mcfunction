@@ -28,3 +28,6 @@ execute if score Light_pos UMBRATYANTH matches 15 positioned -5115 121 -6885 run
 execute if score Light_pos UMBRATYANTH matches 16 positioned -5105 121 -6883 run function att2:gameplay/boss/ether/umbratyanth/phase2/attack/cage/tp
 
 scoreboard players set cage statATTACK 1
+
+### UMBRATYANTH
+function att2:advancement/test_all/mobskilled/umbra_attack

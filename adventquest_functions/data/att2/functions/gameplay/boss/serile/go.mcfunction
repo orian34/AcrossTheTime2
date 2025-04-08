@@ -30,3 +30,4 @@ stopsound @a * minecraft:block.fire.extinguish
 stopsound @a * minecraft:entity.ender_dragon.shoot
 stopsound @a * minecraft:entity.ghast.shoot
 stopsound @a * minecraft:item.firecharge.use
+

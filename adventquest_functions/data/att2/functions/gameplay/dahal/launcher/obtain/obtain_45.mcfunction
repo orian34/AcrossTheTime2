@@ -4,6 +4,7 @@
 ##################################################
 
 execute unless score @s SPELL45_SLCT matches 1.. unless entity @s[nbt={Inventory:[{tag:{Spell:"spell45"}}]}] run scoreboard players set @s SPELL45_SLCT 1
+execute if score @s SPELL45_SLCT matches 1.. unless entity @s[nbt={Inventory:[{tag:{Spell:"spell45"}}]}] run kill @e[type=item,predicate=att2_pre:dahal/book/spell_45,predicate=att2_pre:dahal/pickup,limit=1,sort=nearest]
 execute if score @s SPELL45_SLCT matches 1 unless entity @s[nbt={Inventory:[{tag:{Spell:"spell45"}}]}] run function att2:gameplay/dahal/launcher/spell_45/lvl1
 execute if score @s SPELL45_SLCT matches 2 unless entity @s[nbt={Inventory:[{tag:{Spell:"spell45"}}]}] run function att2:gameplay/dahal/launcher/spell_45/lvl2
 execute if score @s SPELL45_SLCT matches 3 unless entity @s[nbt={Inventory:[{tag:{Spell:"spell45"}}]}] run function att2:gameplay/dahal/launcher/spell_45/lvl3

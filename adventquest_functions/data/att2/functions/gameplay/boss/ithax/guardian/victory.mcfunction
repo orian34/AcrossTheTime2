@@ -4,6 +4,9 @@
 #####################################################################
 
 scoreboard players add total_killed BOSS 1
+##test boss
+function att2:advancement/test_all/mobskilled/boss
+
 scoreboard players set Guardian ITHAX -2
 execute as @a run function att2:gameplay/boss/ithax/guardian/stop
 execute as @a run function att2:dialogs/mainquest/act_4/ch5_system_3

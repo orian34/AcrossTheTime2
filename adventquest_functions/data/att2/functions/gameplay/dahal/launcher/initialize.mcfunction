@@ -15,6 +15,7 @@ scoreboard objectives add SPELL8_SLCT dummy
 scoreboard objectives add SPELL9_SLCT dummy
 scoreboard objectives add SPELL10_SLCT dummy
 scoreboard objectives add SPELL11_SLCT dummy
+scoreboard objectives add SPELL20_SLCT dummy
 scoreboard objectives add SPELL21_SLCT dummy
 scoreboard objectives add SPELL22_SLCT dummy
 scoreboard objectives add SPELL23_SLCT dummy

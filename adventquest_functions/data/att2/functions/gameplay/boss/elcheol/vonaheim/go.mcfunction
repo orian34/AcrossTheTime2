@@ -55,7 +55,7 @@ execute if score Vonaheim VONAHEIM matches 1 if entity @a[x=-5632,y=200,z=-6528,
 execute if score Vonaheim VONAHEIM matches 0.. unless entity @a[x=-5643,y=78,z=-6539,dx=58,dy=87,dz=58,gamemode=adventure] unless entity @a[x=-5632,y=200,z=-6528,dx=36,dy=12,dz=36,gamemode=adventure] unless entity @a[x=-5617,y=166,z=-6507,dx=6,dy=33,dz=-6,gamemode=adventure] run function att2:gameplay/boss/elcheol/vonaheim/fail
 
 # Testing if Vonaheim died
-execute if score Vonaheim VONAHEIM matches 0.. if entity @a[x=-5632,y=200,z=-6528,dx=36,dy=12,dz=36,gamemode=adventure] unless entity @e[x=-5632,y=200,z=-6528,dx=36,dy=12,dz=36,nbt={UUID:[I;0,107,0,107]}] run function att2:gameplay/boss/elcheol/vonaheim/victory
+execute if score Vonaheim VONAHEIM matches 0.. if entity @a[x=-5632,y=200,z=-6528,dx=36,dy=12,dz=36,gamemode=adventure,advancements={att2_test:test_boss/vonaheim=true}] unless entity @e[x=-5632,y=200,z=-6528,dx=36,dy=12,dz=36,nbt={UUID:[I;0,107,0,107]}] run function att2:gameplay/boss/elcheol/vonaheim/victory
 
 # Player can quit the arena when Vonaheim had been defeated
 execute if score Vonaheim VONAHEIM matches -2 as @a[x=-5615,y=189,z=-6528,dx=2,dy=2,dz=0,gamemode=adventure] at @s run tp @s ~ ~ ~-3

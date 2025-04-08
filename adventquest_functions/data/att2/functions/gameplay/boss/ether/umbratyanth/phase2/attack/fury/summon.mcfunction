@@ -19,3 +19,6 @@ execute positioned -5131 121 -6887 run function att2:summon/reg_1/umbratyanth_mi
 execute positioned -5137 121 -6880 run function att2:summon/reg_1/umbratyanth_minions3
 
 scoreboard players set fury statATTACK 1
+
+### UMBRATYANTH
+function att2:advancement/test_all/mobskilled/umbra_attack

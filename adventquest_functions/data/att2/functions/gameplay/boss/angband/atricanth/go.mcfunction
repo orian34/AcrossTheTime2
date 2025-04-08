@@ -41,7 +41,7 @@ execute if score Atricanth SQ57 matches 0.. in minecraft:the_nether if entity @a
 execute if score Atricanth SQ57 matches 0.. in minecraft:the_nether unless entity @a[x=3445,y=32,z=4323,dx=-40,dy=-18,dz=-40,gamemode=adventure] run function att2:gameplay/boss/angband/atricanth/fail
 
 # Testing if Atricanth died
-execute if score Atricanth SQ57 matches 0.. in minecraft:the_nether if entity @a[x=3445,y=32,z=4323,dx=-40,dy=-18,dz=-40,gamemode=adventure] unless entity @e[x=3445,y=32,z=4323,dx=-40,dy=-18,dz=-40,type=minecraft:spider,tag=Atricanth] run function att2:gameplay/boss/angband/atricanth/victory
+execute if score Atricanth SQ57 matches 0.. in minecraft:the_nether if entity @a[x=3445,y=32,z=4323,dx=-40,dy=-18,dz=-40,gamemode=adventure,advancements={att2_test:test_boss/atricanth=true}] unless entity @e[x=3445,y=32,z=4323,dx=-40,dy=-18,dz=-40,type=minecraft:spider,tag=Atricanth] run function att2:gameplay/boss/angband/atricanth/victory
 
 # Player can quit the arena when Atricanth had been defeated
 execute if score Atricanth SQ57 matches -2 in minecraft:the_nether run tp @a[x=3445,y=19,z=4302,dx=0,dy=2,dz=2,gamemode=adventure] 3448 19 4303

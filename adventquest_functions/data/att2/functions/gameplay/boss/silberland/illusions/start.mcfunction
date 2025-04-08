@@ -3,6 +3,9 @@
 #Start the boss fight for Illusions                               	#
 #####################################################################
 
+##revoke test
+advancement grant @a only att2_test:test_boss/illusions
+advancement revoke @a only att2_test:test_boss/illusions
 scoreboard players set in_fight BOSS 1
 scoreboard players set Illusions SILBERLAND 0
 scoreboard players set Illusion_timer1 SILBERLAND 0

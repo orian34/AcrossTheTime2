@@ -41,7 +41,7 @@ execute if score Illusions SILBERLAND matches 0.. if entity @a[x=-4217,y=9,z=-56
 execute if score Illusions SILBERLAND matches 0.. unless entity @a[x=-4217,y=9,z=-5652,dx=-70,dy=33,dz=64,gamemode=adventure] run function att2:gameplay/boss/silberland/illusions/fail
 
 # Testing if Illusions died
-execute if score Illusions SILBERLAND matches 0.. if entity @a[x=-4217,y=9,z=-5652,dx=-70,dy=33,dz=64,gamemode=adventure] unless entity @e[x=-4217,y=9,z=-5652,dx=-70,dy=33,dz=64,type=minecraft:witch,tag=Illusions] run function att2:gameplay/boss/silberland/illusions/victory
+execute if score Illusions SILBERLAND matches 0.. if entity @a[x=-4217,y=9,z=-5652,dx=-70,dy=33,dz=64,gamemode=adventure,advancements={att2_test:test_boss/illusions=true}] unless entity @e[x=-4217,y=9,z=-5652,dx=-70,dy=33,dz=64,type=minecraft:witch,tag=Illusions] run function att2:gameplay/boss/silberland/illusions/victory
 
 # Player can quit the arena when Illusions had been defeated
 execute if score Illusions SILBERLAND matches -2 as @a[x=-4233,y=17,z=-5622,dx=0,dy=2,dz=2,gamemode=adventure] at @s run tp @s -4263 57 -5620 -90 0

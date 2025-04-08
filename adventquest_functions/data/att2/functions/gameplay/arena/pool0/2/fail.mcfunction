@@ -3,6 +3,7 @@
 #Process player failure for Pool0 Arena2 Wave1                      #
 #####################################################################
 
+scoreboard players set slime_kill TIMECOUNTER 100
 function att2:gameplay/arena/fail
 function att2:gameplay/arena/pool0/2/stop_wave
 execute as @a run function att2:gameplay/arena/pool0/2/stop_arena

@@ -51,7 +51,7 @@ execute if score Subjects NOJELANTH matches -1 if entity @a[x=-7452,y=115,z=-435
 execute if score Subjects NOJELANTH matches 0.. unless entity @a[x=-7452,y=115,z=-4359,dx=36,dy=-6,dz=-36,gamemode=adventure] run function att2:gameplay/boss/nojelanth/subjects/fail
 
 # Testing if Subjects died
-execute if score Subjects NOJELANTH matches 0.. if entity @a[x=-7452,y=115,z=-4359,dx=36,dy=-6,dz=-36,gamemode=adventure] unless entity @e[x=-7452,y=115,z=-4359,dx=36,dy=-6,dz=-36,type=minecraft:husk,tag=Subjects] run function att2:gameplay/boss/nojelanth/subjects/victory
+execute if score Subjects NOJELANTH matches 0.. if entity @a[x=-7452,y=115,z=-4359,dx=36,dy=-6,dz=-36,gamemode=adventure,advancements={att2_test:test_boss/subjects=true}] unless entity @e[x=-7452,y=115,z=-4359,dx=36,dy=-6,dz=-36,type=minecraft:husk,tag=Subjects] run function att2:gameplay/boss/nojelanth/subjects/victory
 
 # Player can quit the arena when Subjects had been defeated
 execute if score Subjects NOJELANTH matches -2 as @a[x=-7433,y=111,z=-4395,dx=-2,dy=-2,dz=0,gamemode=adventure] at @s run tp @s ~ ~ ~-2

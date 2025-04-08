@@ -42,7 +42,7 @@ execute if score Asurok ASUNARK matches 0.. if entity @a[x=-3317,y=2,z=-4922,dx=
 execute if score Asurok ASUNARK matches 0.. unless entity @a[x=-3317,y=2,z=-4922,dx=41,dy=22,dz=-41,gamemode=adventure] run function att2:gameplay/boss/asunark/asurok/fail
 
 # Testing if Asurok died
-execute if score Asurok ASUNARK matches 0.. if entity @a[x=-3317,y=2,z=-4922,dx=41,dy=22,dz=-41,gamemode=adventure] unless entity @e[x=-3317,y=2,z=-4922,dx=41,dy=22,dz=-41,nbt={UUID:[I;0,59,0,59]}] run function att2:gameplay/boss/asunark/asurok/victory
+execute if score Asurok ASUNARK matches 0.. if entity @a[x=-3317,y=2,z=-4922,dx=41,dy=22,dz=-41,gamemode=adventure,advancements={att2_test:test_boss/asurok=true}] unless entity @e[x=-3317,y=2,z=-4922,dx=41,dy=22,dz=-41,nbt={UUID:[I;0,59,0,59]}] run function att2:gameplay/boss/asunark/asurok/victory
 
 # Player can quit the arena when Asurok had been defeated
 execute if score Asurok ASUNARK matches -2 run tp @a[x=-3298,y=6,z=-4923,dx=2,dy=2,dz=0,gamemode=adventure] -3297 6 -4920

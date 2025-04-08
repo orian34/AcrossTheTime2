@@ -3,9 +3,9 @@
 #Obtain the magic sphere                         #
 ##################################################
 
-kill @e[type=item,predicate=att2_pre:dahal/book/spell_8,distance=..2,limit=1,sort=nearest]
-
 clear @s minecraft:fishing_rod{Damage:64,Dahal:"launcher",Spell:"spell8"}
+
+clear @s minecraft:written_book{Dahal:"book",Spell:"spell8"}
 
 give @s[scores={LANGUAGE=0}] minecraft:fishing_rod{Damage:64,Dahal:"launcher",Spell:"spell8",Unbreakable:1,display:{Name:'{"text":"§cNuée de flèches§8-","extra":[{"text":"lvl10","color":"#BF4000","italic":false}]}',"Lore":["{\"text\":\"§4◸§8/ §4◞§c⎝§4⸜ §8§4◹\"}","{\"text\":\"§8⧼§4〈 §c✧§4〉§8⧽\"}","{\"text\":\"§4◺§8§4 ᐠ§c⎞§4◜ §8/§4◿\"}"]}} 1
 give @s[scores={LANGUAGE=1}] minecraft:fishing_rod{Damage:64,Dahal:"launcher",Spell:"spell8",Unbreakable:1,display:{Name:'{"text":"§cArrow Swarm§8-","extra":[{"text":"lvl10","color":"#BF4000","italic":false}]}',"Lore":["{\"text\":\"§4◸§8/ §4◞§c⎝§4⸜ §8§4◹\"}","{\"text\":\"§8⧼§4〈 §c✧§4〉§8⧽\"}","{\"text\":\"§4◺§8§4 ᐠ§c⎞§4◜ §8/§4◿\"}"]}} 1

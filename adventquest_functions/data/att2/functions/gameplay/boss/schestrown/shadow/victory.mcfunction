@@ -4,6 +4,10 @@
 #####################################################################
 
 scoreboard players add total_killed BOSS 1
+##test boss
+function att2:advancement/test_all/mobskilled/boss
+##revoke test
+advancement revoke @a only att2_test:test_boss/shadow
 scoreboard players set Shadow SQ38 -2
 execute as @a run function att2:gameplay/boss/schestrown/shadow/stop
 execute positioned -4375 58 -5054 run function att2:gameplay/boss/rewards_start

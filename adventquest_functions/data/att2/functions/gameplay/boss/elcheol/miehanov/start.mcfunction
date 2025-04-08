@@ -3,6 +3,8 @@
 #Start the boss fight for Miehanov                                  #
 #####################################################################
 
+##revoke test
+advancement revoke @a only att2_test:test_boss/miehanov
 scoreboard players set in_fight BOSS 1
 execute positioned -5614 168 -6352 run function att2:summon/reg_1/miehanov
 scoreboard players set Miehanov VONAHEIM 0

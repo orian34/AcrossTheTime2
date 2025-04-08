@@ -9,3 +9,6 @@ execute at @s run playsound minecraft:entity.generic.explode block @a ~ ~ ~ 1 1.
 kill @s
 
 scoreboard players set explosion statATTACK 1
+
+### UMBRATYANTH
+function att2:advancement/test_all/mobskilled/umbra_attack

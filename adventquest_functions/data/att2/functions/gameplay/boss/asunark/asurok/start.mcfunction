@@ -3,6 +3,8 @@
 #Start the boss fight for Asunark                                  	#
 #####################################################################
 
+##revoke test
+advancement revoke @a only att2_test:test_boss/asurok
 scoreboard players set in_fight BOSS 1
 execute positioned -3290 14 -4942 run function att2:summon/reg_1/asurok
 function att2:gameplay/boss/asunark/asurok/initialize_bossroom

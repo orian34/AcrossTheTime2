@@ -77,4 +77,5 @@ execute if score elevator_m BOSS_TIME matches ..2 if score level DIFFICULTY matc
 execute if score elevator_m BOSS_TIME matches ..2 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
 execute if score elevator_m BOSS_TIME matches ..2 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
 execute if score elevator_m BOSS_TIME matches ..2 if score level DIFFICULTY matches 1.. run function att2:summon/bat_runes_abc_rewards_1
+
 execute if score elevator_m BOSS_TIME matches ..2 if score level DIFFICULTY matches 1.. run advancement grant @a only att2:hunting/elevator_master_timerecord

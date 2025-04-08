@@ -40,5 +40,5 @@ function att2:advancement/initialize
 execute store result score numberRegistered COUNT if entity @a[team=ally]
 
 execute if score Mainquest SIDEQUEST matches 1.. run function att2:gameplay/update_book
-function att2:gameplay/dahal/obtain
+function att2:dialogs/gameplay/dahal/use_tip
 function att2:gameplay/dahal/action/spell1/obtain

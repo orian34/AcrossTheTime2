@@ -26,7 +26,7 @@ execute if score Korlaph SQ28 matches -1 if entity @a[x=-5111.5,y=165,z=-6755.5,
 execute if score Korlaph SQ28 matches 0.. unless entity @a[x=-5111.5,y=165,z=-6755.5,distance=..15,gamemode=adventure] run function att2:gameplay/boss/elcheol/korlaph/fail
 
 # Testing if Korlaph died
-execute if score Korlaph SQ28 matches 0.. if entity @a[x=-5111.5,y=165,z=-6755.5,distance=..15,gamemode=adventure] unless entity @e[x=-5111.5,y=165,z=-6755.5,distance=..15,nbt={UUID:[I;0,76,0,76]}] run function att2:gameplay/boss/elcheol/korlaph/victory
+execute if score Korlaph SQ28 matches 0.. if entity @a[x=-5111.5,y=165,z=-6755.5,distance=..15,gamemode=adventure,advancements={att2_test:test_boss/korlaph=true}] unless entity @e[x=-5111.5,y=165,z=-6755.5,distance=..15,nbt={UUID:[I;0,76,0,76]}] run function att2:gameplay/boss/elcheol/korlaph/victory
 
 ##SPELL32 quest CHECK
 scoreboard players set @a[x=-5111.5,y=165,z=-6755.5,distance=..15,gamemode=adventure] tp_spell32_timer 20

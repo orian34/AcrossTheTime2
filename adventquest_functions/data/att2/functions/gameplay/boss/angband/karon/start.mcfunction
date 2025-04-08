@@ -3,6 +3,8 @@
 #Start the boss fight for Karon                                  	#
 #####################################################################
 
+##revoke test
+advancement revoke @a only att2_test:test_boss/karon
 scoreboard players set in_fight BOSS 1
 execute positioned 3525 123 4510 run function att2:summon/reg_2/karon
 scoreboard players set Karon ANGOR 0

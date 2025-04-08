@@ -4,6 +4,10 @@
 #####################################################################
 
 scoreboard players add total_killed BOSS 1
+##test boss
+function att2:advancement/test_all/mobskilled/boss
+##revoke test
+advancement revoke @a only att2_test:test_boss/golem
 scoreboard players set GolemBoss BILLGART -2
 execute as @a run function att2:gameplay/boss/billgart/golem/stop
 
