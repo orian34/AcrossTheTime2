@@ -3,6 +3,11 @@
 #Process effect on player           #
 #####################################
 
+##revoke test
+advancement revoke @s only att2_test:test_potion/potion51
+clear @s minecraft:glass_bottle
+clear @a minecraft:potion{Potion:"minecraft:water"}
+
 scoreboard players set @s DAR_LVL_PO 3
 scoreboard players set @s TIMER_DAR_PO 5000
 
@@ -11,7 +16,6 @@ scoreboard players set @s TIMER_SPD_PO 5000
 
 function att2:gameplay/equipment/effect/po/time_bonus/dar
 function att2:gameplay/equipment/effect/po/time_bonus/spd_reduce
-
 
 function att2:gameplay/equipment/effect/po/time_cal
 function att2:dialogs/gameplay/potion_tip/potion_51

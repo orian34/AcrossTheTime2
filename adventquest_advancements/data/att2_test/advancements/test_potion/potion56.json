@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cake"
+        },
+        "title": {
+            "translate": "test"
+        },
+        "description": {
+            "translate": "apple"
+        },
+        "hidden": true,
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "rewards": {
+        "function": "att2:gameplay/equipment/effect/po/str1_has1_spd1_her1_dar1_luc1_hun1"
+    },
+    "criteria": {
+        "apple": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:potion"
+                    ],
+                    "nbt": "{Effect:str1_has1_spd1_her1_dar1_luc1_hun1}"
+                }
+            }
+        }
+    }
+}

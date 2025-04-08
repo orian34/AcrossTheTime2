@@ -3,6 +3,11 @@
 #Process effect on player           #
 #####################################
 
+##revoke test
+advancement revoke @s only att2_test:test_potion/potion26
+clear @s minecraft:glass_bottle
+clear @a minecraft:potion{Potion:"minecraft:water"}
+
 scoreboard players set @s RES_LVL_PO 1
 scoreboard players set @s TIMER_RES_PO 18000
 
