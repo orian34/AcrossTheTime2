@@ -31,7 +31,7 @@ execute if score Felroth WORLEST matches -1 if entity @a[x=-4652,y=56,z=-5537,dx
 execute if score Felroth WORLEST matches 0.. if entity @a[x=-4652,y=56,z=-5537,dx=32,dy=8,dz=32,gamemode=adventure] run function att2:gameplay/boss/worlest/felroth/summoning_minion
 
 # Player failed destroying Felroth and died
-execute if score Felroth WORLEST matches 0.. unless entity @a[x=-4652,y=56,z=-5537,dx=32,dy=8,dz=32,gamemode=adventure] att2:gameplay/boss/worlest/felroth/fail
+execute if score Felroth WORLEST matches 0.. unless entity @a[x=-4652,y=56,z=-5537,dx=32,dy=8,dz=32,gamemode=adventure] run function att2:gameplay/boss/worlest/felroth/fail
 
 # Testing if Felroth died
 execute if score Felroth WORLEST matches 0.. if entity @a[x=-4652,y=56,z=-5537,dx=32,dy=8,dz=32,gamemode=adventure,advancements={att2_test:test_boss/felroth=true}] unless entity @e[x=-4652,y=56,z=-5537,dx=32,dy=8,dz=32,nbt={UUID:[I;0,27,0,27]}] att2:gameplay/boss/worlest/felroth/victory

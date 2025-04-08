@@ -7,8 +7,6 @@ clear @s minecraft:fishing_rod{Damage:64,Dahal:"launcher",Spell:"spell10"}
 
 clear @s minecraft:written_book{Dahal:"book",Spell:"spell10"}
 
-give @s[scores={LANGUAGE=0}]ook{Dahal:"book",Spell:"spell10"}
-
 give @s[scores={LANGUAGE=0}] minecraft:fishing_rod{Damage:64,Dahal:"launcher",Spell:"spell10",Unbreakable:1,display:{Name:'{"text":"§cSecousse§8-","extra":[{"text":"lvl7","color":"#A60DFF","italic":false}]}',"Lore":["{\"text\":\"§4◸§8/ §4◞§c⎝§4⸜ §8§4◹\"}","{\"text\":\"§8⧼§4〈 §c✧§4〉§8⧽\"}","{\"text\":\"§4◺§8§4 ᐠ§c⎞§4◜ §8/§4◿\"}"]}} 1
 give @s[scores={LANGUAGE=1}] minecraft:fishing_rod{Damage:64,Dahal:"launcher",Spell:"spell10",Unbreakable:1,display:{Name:'{"text":"§cEarthquake§8-","extra":[{"text":"lvl7","color":"#A60DFF","italic":false}]}',"Lore":["{\"text\":\"§4◸§8/ §4◞§c⎝§4⸜ §8§4◹\"}","{\"text\":\"§8⧼§4〈 §c✧§4〉§8⧽\"}","{\"text\":\"§4◺§8§4 ᐠ§c⎞§4◜ §8/§4◿\"}"]}} 1
 give @s[scores={LANGUAGE=2}] minecraft:fishing_rod{Damage:64,Dahal:"launcher",Spell:"spell10",Unbreakable:1,display:{Name:'{"text":"§c地震§8-","extra":[{"text":"lvl7","color":"#A60DFF","italic":false}]}',"Lore":["{\"text\":\"§4◸§8/ §4◞§c⎝§4⸜ §8§4◹\"}","{\"text\":\"§8⧼§4〈 §c✧§4〉§8⧽\"}","{\"text\":\"§4◺§8§4 ᐠ§c⎞§4◜ §8/§4◿\"}"]}} 1

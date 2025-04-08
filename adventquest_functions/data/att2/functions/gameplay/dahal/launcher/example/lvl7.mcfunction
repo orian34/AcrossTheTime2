@@ -3,7 +3,7 @@
 #Obtain the magic sphere                         #
 ##################################################
 
-kill @e[type=item,predicate=att2_pre:dahal/book/spell_X,predicate=att2_pre:dahal/pickup,limit=1,sort=nearest]
+kill @e[type=item,predicate=att2_pre:dahal/book/spell_x,predicate=att2_pre:dahal/pickup,limit=1,sort=nearest]
 
 clear @s minecraft:fishing_rod{Damage:64,Dahal:"launcher",Spell:"spellX"}
 
