@@ -3,9 +3,9 @@
 #Process Dahäl in general   									#
 #################################################################
 
-execute if entity @e[type=item,predicate=att2_pre:dahal/book_test,predicate=att2_pre:dahal/pickup] run function att2:gameplay/dahal/launcher/select
-execute if entity @e[type=item,predicate=att2_pre:dahal/launcher_test,predicate=att2_pre:dahal/pickup] run function att2:gameplay/dahal/book/select
-execute if entity @e[type=item,predicate=att2_pre:conscience,predicate=att2_pre:dahal/pickup] run function att2:gameplay/give_book
+execute as @e[type=item,predicate=att2_pre:dahal/book_test,predicate=att2_pre:dahal/pickup] on origin run function att2:gameplay/dahal/launcher/select
+execute as @e[type=item,predicate=att2_pre:dahal/launcher_test,predicate=att2_pre:dahal/pickup] on origin run function att2:gameplay/dahal/book/select
+execute as @e[type=item,predicate=att2_pre:conscience,predicate=att2_pre:dahal/pickup] on origin run function att2:gameplay/give_book
 
 scoreboard players set @s conscience 0
 scoreboard players set @s SPELL1_SC 0
