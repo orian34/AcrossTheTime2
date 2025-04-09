@@ -9,9 +9,7 @@ tellraw @s[scores={LANGUAGE=0}] {"text":"Pour utiliser un sortilège de Dahäl, 
 
 #ENGLISH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=1}] {"text":"To use a Dahäl spell, hold a <Spellbook> in your hand and choose the available level by clicking inside it.
-After selecting the spell level, you enter focus mode by obtaining a <Dahäl Caster>. All you need to do is right-click with it to cast your spells.
-You can get the <Spellbook> back to select a different level by pressing “Q” or “A” to drop your current <Dahäl Caster>.","color":"green"}
+tellraw @s[scores={LANGUAGE=1}] {"text":"To use a Dahäl spell, hold a <Spellbook> in your hand and choose the available level by clicking inside it. After selecting the spell level, you enter focus mode by obtaining a <Dahäl Caster>. All you need to do is right-click with it to cast your spells. You can get the <Spellbook> back to select a different level by pressing “Q” or “A” to drop your current <Dahäl Caster>.","color":"green"}
 
 #CHINESE LANGUAGE
 

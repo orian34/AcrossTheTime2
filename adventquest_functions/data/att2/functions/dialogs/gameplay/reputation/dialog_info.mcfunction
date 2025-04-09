@@ -3,7 +3,7 @@
 #Use function to activate the reputation change message #
 #########################################################
 
-playsound reputation ambient @a ~ ~ ~ 1 1 1
+function att2:sound/misc/reputation
 
 
 #FRENCH LANGUAGE
