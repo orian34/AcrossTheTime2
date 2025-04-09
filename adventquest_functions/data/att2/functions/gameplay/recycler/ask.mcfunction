@@ -3,6 +3,8 @@
 #Ask buyer for trade                                        #
 #############################################################
 
+execute as @e[type=item,distance=..3] at @s run tp @s @e[type=minecraft:armor_stand,tag=Recycler,sort=nearest,limit=1]
+
 function att2:gameplay/recycler/initialize
 execute at @e[tag=Recycler,sort=nearest,limit=1] run function att2:gameplay/recycler/estimate
 

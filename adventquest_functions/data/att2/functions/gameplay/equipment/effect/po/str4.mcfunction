@@ -5,8 +5,6 @@
 
 ##revoke test
 advancement revoke @s only att2_test:test_potion/potion27
-clear @s minecraft:glass_bottle
-clear @a minecraft:potion{Potion:"minecraft:water"}
 
 scoreboard players set @s STR_LVL_PO 4
 scoreboard players set @s TIMER_STR_PO 10000

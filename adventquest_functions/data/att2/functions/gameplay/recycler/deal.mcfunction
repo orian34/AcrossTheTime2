@@ -3,6 +3,8 @@
 #Confirm selling                                            #
 #############################################################
 
+execute as @e[type=item,distance=..3] at @s run tp @s @e[type=minecraft:armor_stand,tag=Recycler,sort=nearest,limit=1]
+
 function att2:gameplay/recycler/validate
 
 execute store result score number RECYCLER if entity @e[type=item,distance=..1]

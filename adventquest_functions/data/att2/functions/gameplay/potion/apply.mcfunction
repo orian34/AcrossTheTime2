@@ -3,8 +3,6 @@
 #Apply potion effect                             #
 ##################################################
 
-clear @s minecraft:glass_bottle
-clear @a minecraft:potion{Potion:"minecraft:water"}
 
 execute as @s[scores={POTION_ID=1}] run function att2:gameplay/equipment/effect/po/hun7_her_4
 execute as @s[scores={POTION_ID=2}] run function att2:gameplay/equipment/effect/po/str1_spd_1_hun_3_luc_2

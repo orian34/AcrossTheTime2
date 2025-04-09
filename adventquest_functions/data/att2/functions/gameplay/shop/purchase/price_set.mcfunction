@@ -2378,10 +2378,10 @@ scoreboard players operation tool_unc PRICES /= 100 discount_calc
 scoreboard players set tool_rar PRICES 200
 scoreboard players operation tool_rar PRICES *= discount discount_calc
 scoreboard players operation tool_rar PRICES /= 100 discount_calc
-scoreboard players set tool_epi PRICES 400
+scoreboard players set tool_epi PRICES 500
 scoreboard players operation tool_epi PRICES *= discount discount_calc
 scoreboard players operation tool_epi PRICES /= 100 discount_calc
-scoreboard players set tool_esc PRICES 500
+scoreboard players set tool_esc PRICES 400
 scoreboard players operation tool_esc PRICES *= discount discount_calc
 scoreboard players operation tool_esc PRICES /= 100 discount_calc
 scoreboard players set tool_leg PRICES 900
@@ -2397,10 +2397,10 @@ scoreboard players operation mending_unc PRICES /= 100 discount_calc
 scoreboard players set mending_rar PRICES 150
 scoreboard players operation mending_rar PRICES *= discount discount_calc
 scoreboard players operation mending_rar PRICES /= 100 discount_calc
-scoreboard players set mending_epi PRICES 250
+scoreboard players set mending_epi PRICES 300
 scoreboard players operation mending_epi PRICES *= discount discount_calc
 scoreboard players operation mending_epi PRICES /= 100 discount_calc
-scoreboard players set mending_esc PRICES 300
+scoreboard players set mending_esc PRICES 250
 scoreboard players operation mending_esc PRICES *= discount discount_calc
 scoreboard players operation mending_esc PRICES /= 100 discount_calc
 scoreboard players set mending_leg PRICES 750
