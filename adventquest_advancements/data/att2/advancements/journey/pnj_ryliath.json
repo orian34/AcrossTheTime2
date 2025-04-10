@@ -9,7 +9,7 @@
     },
     "parent": "att2:journey/discover_ryliath",
     "rewards": {
-        "function": "att2:advancement/exploit_5",
+        "function": "att2:advancement/test_all/journey/exploit_pnj_reward",
         "experience": 1750
                 },
     "criteria": {

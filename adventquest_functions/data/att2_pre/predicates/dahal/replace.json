@@ -1,0 +1,32 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:item",
+                "nbt": "{Item:{tag:{Dahal:launcher}}}"
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:item",
+                "nbt": "{Item:{tag:{Dahal:book}}}"
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:item",
+                "items": [
+                    "minecraft:written_book"
+                ],
+                "nbt": "{Item:{tag:{Conscience:book}}}"
+            }
+        }
+    ]
+}

@@ -11,4 +11,5 @@ execute if score DahalRegen TIMER matches 1.. run scoreboard players remove Daha
 execute if score DahalRegen TIMER matches ..0 run scoreboard players set DahalRegen TIMER 20
 #launcher replace
 #unless data entity @s SelectedItem 
-execute as @a at @s run function att2:gameplay/dahal/replace
+execute as @e[type=item,predicate=att2_pre:dahal/replace,predicate=att2_pre:dahal/pickup] run function att2:gameplay/dahal/replace
+execute as @a at @s run function att2:gameplay/dahal/score_set
