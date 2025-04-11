@@ -11,5 +11,6 @@ execute if entity @s[nbt={SelectedItem:{tag:{Rarity:"epi"}}}] run function att2:
 execute if entity @s[nbt={SelectedItem:{tag:{Rarity:"epi_set"}}}] run function att2:gameplay/shop/mending/reparation/epi/trigger_chronotons
 execute if entity @s[nbt={SelectedItem:{tag:{Rarity:"leg"}}}] run function att2:gameplay/shop/mending/reparation/leg/trigger_chronotons
 execute if entity @s[nbt={SelectedItem:{tag:{Rarity:"leg_armset"}}}] run function att2:gameplay/shop/mending/reparation/leg/trigger_chronotons
+execute if entity @s[nbt={SelectedItem:{tag:{Rarity:"ult"}}}] run function att2:gameplay/shop/mending/reparation/ult/trigger_chronotons
 execute if entity @s[nbt={SelectedItem:{tag:{Rarity:"myt"}}}] at @e[tag=TRADER,sort=nearest,limit=1] run function att2:dialogs/gameplay/shop/mending/upset
 execute if entity @s[nbt={SelectedItem:{tag:{Rarity:"que"}}}] at @e[tag=TRADER,sort=nearest,limit=1] run function att2:dialogs/gameplay/shop/mending/upset

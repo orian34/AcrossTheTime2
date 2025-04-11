@@ -2406,6 +2406,9 @@ scoreboard players operation mending_esc PRICES /= 100 discount_calc
 scoreboard players set mending_leg PRICES 750
 scoreboard players operation mending_leg PRICES *= discount discount_calc
 scoreboard players operation mending_leg PRICES /= 100 discount_calc
+scoreboard players set mending_ult PRICES 1000
+scoreboard players operation mending_ult PRICES *= discount discount_calc
+scoreboard players operation mending_ult PRICES /= 100 discount_calc
 #misc 
 scoreboard players set coal PRICES 5
 scoreboard players operation coal PRICES *= discount discount_calc

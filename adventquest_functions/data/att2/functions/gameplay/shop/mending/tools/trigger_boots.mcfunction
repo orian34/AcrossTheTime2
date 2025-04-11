@@ -11,6 +11,7 @@ execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{Rarity:"epi"}}]}] if score 
 execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{Rarity:"epi_set"}}]}] if score @s TOOLS_EPI matches ..0 run function att2:dialogs/gameplay/shop/not_enough_tools_epi
 execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{Rarity:"leg"}}]}] if score @s TOOLS_LEG matches ..0 run function att2:dialogs/gameplay/shop/not_enough_tools_leg
 execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{Rarity:"leg_armset"}}]}] if score @s TOOLS_LEG matches ..0 run function att2:dialogs/gameplay/shop/not_enough_tools_leg
+execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{Rarity:"ult"}}]}] if score @s TOOLS_ULT matches ..0 run function att2:dialogs/gameplay/shop/not_enough_tools_ult
 
 execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{Rarity:"com"}}]}] if score @s TOOLS_COM matches 1.. run function att2:gameplay/shop/mending/tools/repair_boots
 execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{Rarity:"unc"}}]}] if score @s TOOLS_UNC matches 1.. run function att2:gameplay/shop/mending/tools/repair_boots
@@ -20,3 +21,4 @@ execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{Rarity:"epi"}}]}] if score 
 execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{Rarity:"epi_set"}}]}] if score @s TOOLS_EPI matches 1.. run function att2:gameplay/shop/mending/tools/repair_boots
 execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{Rarity:"leg"}}]}] if score @s TOOLS_LEG matches 1.. run function att2:gameplay/shop/mending/tools/repair_boots
 execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{Rarity:"leg_armset"}}]}] if score @s TOOLS_LEG matches 1.. run function att2:gameplay/shop/mending/tools/repair_boots
+execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{Rarity:"ult"}}]}] if score @s TOOLS_ULT matches 1.. run function att2:gameplay/shop/mending/tools/repair_boots

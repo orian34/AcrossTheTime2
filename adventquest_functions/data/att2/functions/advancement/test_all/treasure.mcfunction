@@ -147,6 +147,7 @@ execute if score rar MENDING matches 1.. run advancement grant @a only att2:trea
 execute if score epi MENDING matches 1.. run advancement grant @a only att2:treasure/mending_epi
 execute if score epi_esc MENDING matches 1.. run advancement grant @a only att2:treasure/mending_epi_esc
 execute if score leg MENDING matches 1.. run advancement grant @a only att2:treasure/mending_leg
+execute if score ult MENDING matches 1.. run advancement grant @a only att2:treasure/mending_ult
 # TOTAL
 advancement grant @a[scores={MENDING=1..}] only att2:treasure/mending_1
 advancement grant @a[scores={MENDING=5..}] only att2:treasure/mending_5

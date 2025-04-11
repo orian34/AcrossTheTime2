@@ -48,6 +48,13 @@ item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"meleeWeapon",Rarity
 item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"meleeWeapon",Rarity:"leg",Manufacturer:"eternan"}}}] weapon.mainhand att2:mending/level5/weapon/leg/eternan
 item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"meleeWeapon",Rarity:"leg",Manufacturer:"delightful"}}}] weapon.mainhand att2:mending/level5/weapon/leg/delightful
 item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"meleeWeapon",Rarity:"leg",Manufacturer:"harmonious"}}}] weapon.mainhand att2:mending/level5/weapon/leg/harmonious
+# ult
+item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"meleeWeapon",Rarity:"ult",Manufacturer:"teran"}}}] weapon.mainhand att2:mending/level5/weapon/ult/teran
+item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"meleeWeapon",Rarity:"ult",Manufacturer:"graceful"}}}] weapon.mainhand att2:mending/level5/weapon/ult/graceful
+item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"meleeWeapon",Rarity:"ult",Manufacturer:"traditional"}}}] weapon.mainhand att2:mending/level5/weapon/ult/traditional
+item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"meleeWeapon",Rarity:"ult",Manufacturer:"eternan"}}}] weapon.mainhand att2:mending/level5/weapon/ult/eternan
+item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"meleeWeapon",Rarity:"ult",Manufacturer:"delightful"}}}] weapon.mainhand att2:mending/level5/weapon/ult/delightful
+item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"meleeWeapon",Rarity:"ult",Manufacturer:"harmonious"}}}] weapon.mainhand att2:mending/level5/weapon/ult/harmonious
 
 
 ### Range Weapon
@@ -57,6 +64,7 @@ item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"rangeWeapon",Rarity
 item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"rangeWeapon",Rarity:"epi_esc"}}}] weapon.mainhand att2:mending/level5/weapon/epi_esc
 item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"rangeWeapon",Rarity:"epi"}}}] weapon.mainhand att2:mending/level5/weapon/epi
 item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"rangeWeapon",Rarity:"leg"}}}] weapon.mainhand att2:mending/level5/weapon/leg
+item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"rangeWeapon",Rarity:"ult"}}}] weapon.mainhand att2:mending/level5/weapon/ult
 
 
 ### Armor
@@ -116,3 +124,10 @@ item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"armor",Rarity:"leg_
 item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"armor",Rarity:"leg_armset",Manufacturer:"eternan"}}}] weapon.mainhand att2:mending/level5/armor/leg/eternan
 item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"armor",Rarity:"leg_armset",Manufacturer:"delightful"}}}] weapon.mainhand att2:mending/level5/armor/leg/delightful
 item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"armor",Rarity:"leg_armset",Manufacturer:"harmonious"}}}] weapon.mainhand att2:mending/level5/armor/leg/harmonious
+# ult
+item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"armor",Rarity:"ult",Manufacturer:"teran"}}}] weapon.mainhand att2:mending/level5/armor/ult/teran
+item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"armor",Rarity:"ult",Manufacturer:"graceful"}}}] weapon.mainhand att2:mending/level5/armor/ult/graceful
+item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"armor",Rarity:"ult",Manufacturer:"traditional"}}}] weapon.mainhand att2:mending/level5/armor/ult/traditional
+item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"armor",Rarity:"ult",Manufacturer:"eternan"}}}] weapon.mainhand att2:mending/level5/armor/ult/eternan
+item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"armor",Rarity:"ult",Manufacturer:"delightful"}}}] weapon.mainhand att2:mending/level5/armor/ult/delightful
+item modify entity @s[nbt={SelectedItem:{tag:{EquipmentType:"armor",Rarity:"ult",Manufacturer:"harmonious"}}}] weapon.mainhand att2:mending/level5/armor/ult/harmonious

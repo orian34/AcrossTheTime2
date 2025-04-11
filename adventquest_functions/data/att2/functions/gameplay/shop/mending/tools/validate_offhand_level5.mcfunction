@@ -52,6 +52,14 @@ item modify entity @s[nbt={Inventory:[{Slot:-106b,tag:{EquipmentType:"meleeWeapo
 item modify entity @s[nbt={Inventory:[{Slot:-106b,tag:{EquipmentType:"meleeWeapon",Rarity:"leg",Manufacturer:"eternan"}}]}] weapon.offhand att2:mending/level5/weapon/leg/eternan
 item modify entity @s[nbt={Inventory:[{Slot:-106b,tag:{EquipmentType:"meleeWeapon",Rarity:"leg",Manufacturer:"delightful"}}]}] weapon.offhand att2:mending/level5/weapon/leg/delightful
 item modify entity @s[nbt={Inventory:[{Slot:-106b,tag:{EquipmentType:"meleeWeapon",Rarity:"leg",Manufacturer:"harmonious"}}]}] weapon.offhand att2:mending/level5/weapon/leg/harmonious
+# ult
+execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{EquipmentType:"meleeWeapon",Rarity:"ult"}}]}] run function att2:gameplay/shop/mending/tools/add_smith_leveling_ult
+item modify entity @s[nbt={Inventory:[{Slot:-106b,tag:{EquipmentType:"meleeWeapon",Rarity:"ult",Manufacturer:"teran"}}]}] weapon.offhand att2:mending/level5/weapon/ult/teran
+item modify entity @s[nbt={Inventory:[{Slot:-106b,tag:{EquipmentType:"meleeWeapon",Rarity:"ult",Manufacturer:"graceful"}}]}] weapon.offhand att2:mending/level5/weapon/ult/graceful
+item modify entity @s[nbt={Inventory:[{Slot:-106b,tag:{EquipmentType:"meleeWeapon",Rarity:"ult",Manufacturer:"traditional"}}]}] weapon.offhand att2:mending/level5/weapon/ult/traditional
+item modify entity @s[nbt={Inventory:[{Slot:-106b,tag:{EquipmentType:"meleeWeapon",Rarity:"ult",Manufacturer:"eternan"}}]}] weapon.offhand att2:mending/level5/weapon/ult/eternan
+item modify entity @s[nbt={Inventory:[{Slot:-106b,tag:{EquipmentType:"meleeWeapon",Rarity:"ult",Manufacturer:"delightful"}}]}] weapon.offhand att2:mending/level5/weapon/ult/delightful
+item modify entity @s[nbt={Inventory:[{Slot:-106b,tag:{EquipmentType:"meleeWeapon",Rarity:"ult",Manufacturer:"harmonious"}}]}] weapon.offhand att2:mending/level5/weapon/ult/harmonious
 
 ### Range Weapon
 execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{EquipmentType:"rangeWeapon",Rarity:"com"}}]}] run function att2:gameplay/shop/mending/tools/add_smith_leveling_com
@@ -60,9 +68,11 @@ execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{EquipmentType:"rangeWeapon
 execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{EquipmentType:"rangeWeapon",Rarity:"epi_esc"}}]}] run function att2:gameplay/shop/mending/tools/add_smith_leveling_epi_esc
 execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{EquipmentType:"rangeWeapon",Rarity:"epi"}}]}] run function att2:gameplay/shop/mending/tools/add_smith_leveling_epi
 execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{EquipmentType:"rangeWeapon",Rarity:"leg"}}]}] run function att2:gameplay/shop/mending/tools/add_smith_leveling_leg
+execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{EquipmentType:"rangeWeapon",Rarity:"ult"}}]}] run function att2:gameplay/shop/mending/tools/add_smith_leveling_ult
 item modify entity @s[nbt={Inventory:[{Slot:-106b,tag:{EquipmentType:"rangeWeapon",Rarity:"com"}}]}] weapon.offhand att2:mending/level5/weapon/com
 item modify entity @s[nbt={Inventory:[{Slot:-106b,tag:{EquipmentType:"rangeWeapon",Rarity:"unc"}}]}] weapon.offhand att2:mending/level5/weapon/unc
 item modify entity @s[nbt={Inventory:[{Slot:-106b,tag:{EquipmentType:"rangeWeapon",Rarity:"rar"}}]}] weapon.offhand att2:mending/level5/weapon/rar
 item modify entity @s[nbt={Inventory:[{Slot:-106b,tag:{EquipmentType:"rangeWeapon",Rarity:"epi_esc"}}]}] weapon.offhand att2:mending/level5/weapon/epi_esc
 item modify entity @s[nbt={Inventory:[{Slot:-106b,tag:{EquipmentType:"rangeWeapon",Rarity:"epi"}}]}] weapon.offhand att2:mending/level5/weapon/epi
 item modify entity @s[nbt={Inventory:[{Slot:-106b,tag:{EquipmentType:"rangeWeapon",Rarity:"leg"}}]}] weapon.offhand att2:mending/level5/weapon/leg
+item modify entity @s[nbt={Inventory:[{Slot:-106b,tag:{EquipmentType:"rangeWeapon",Rarity:"ult"}}]}] weapon.offhand att2:mending/level5/weapon/ult

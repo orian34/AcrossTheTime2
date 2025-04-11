@@ -3,14 +3,14 @@
         "icon": {
             "item": "minecraft:orange_dye"
         },
-        "title": {"translate":"Legendary mending"},
-        "description": {"translate":"Repair a legendary item"},
+        "title": {"translate":"Suprême mending"},
+        "description": {"translate":"Repair a suprême item"},
         "frame": "challenge"
     },
-    "parent": "att2:treasure/mending_epi_esc",
+    "parent": "att2:treasure/mending_leg",
         "rewards": {
-            "function": "att2:advancement/exploit_40",
-            "experience": 10000
+            "function": "att2:advancement/exploit_50",
+            "experience": 25000
     },
     "criteria": {
         "mending_leg": {

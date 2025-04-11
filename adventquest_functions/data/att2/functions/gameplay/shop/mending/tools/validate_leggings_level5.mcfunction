@@ -68,3 +68,11 @@ item modify entity @s[nbt={Inventory:[{Slot:101b,tag:{EquipmentType:"armor",Rari
 item modify entity @s[nbt={Inventory:[{Slot:101b,tag:{EquipmentType:"armor",Rarity:"leg_armset",Manufacturer:"eternan"}}]}] armor.legs att2:mending/level5/armor/leg/eternan
 item modify entity @s[nbt={Inventory:[{Slot:101b,tag:{EquipmentType:"armor",Rarity:"leg_armset",Manufacturer:"delightful"}}]}] armor.legs att2:mending/level5/armor/leg/delightful
 item modify entity @s[nbt={Inventory:[{Slot:101b,tag:{EquipmentType:"armor",Rarity:"leg_armset",Manufacturer:"harmonious"}}]}] armor.legs att2:mending/level5/armor/leg/harmonious
+# ult
+execute if entity @s[nbt={Inventory:[{Slot:101b,tag:{EquipmentType:"armor",Rarity:"ult"}}]}] run function att2:gameplay/shop/mending/tools/add_smith_leveling_ult
+item modify entity @s[nbt={Inventory:[{Slot:101b,tag:{EquipmentType:"armor",Rarity:"ult",Manufacturer:"teran"}}]}] armor.legs att2:mending/level5/armor/ult/teran
+item modify entity @s[nbt={Inventory:[{Slot:101b,tag:{EquipmentType:"armor",Rarity:"ult",Manufacturer:"graceful"}}]}] armor.legs att2:mending/level5/armor/ult/graceful
+item modify entity @s[nbt={Inventory:[{Slot:101b,tag:{EquipmentType:"armor",Rarity:"ult",Manufacturer:"traditional"}}]}] armor.legs att2:mending/level5/armor/ult/traditional
+item modify entity @s[nbt={Inventory:[{Slot:101b,tag:{EquipmentType:"armor",Rarity:"ult",Manufacturer:"eternan"}}]}] armor.legs att2:mending/level5/armor/ult/eternan
+item modify entity @s[nbt={Inventory:[{Slot:101b,tag:{EquipmentType:"armor",Rarity:"ult",Manufacturer:"delightful"}}]}] armor.legs att2:mending/level5/armor/ult/delightful
+item modify entity @s[nbt={Inventory:[{Slot:101b,tag:{EquipmentType:"armor",Rarity:"ult",Manufacturer:"harmonious"}}]}] armor.legs att2:mending/level5/armor/ult/harmonious

@@ -17,6 +17,7 @@ scoreboard objectives add TOOLS_RAR dummy
 scoreboard objectives add TOOLS_EPI dummy
 scoreboard objectives add TOOLS_ESC dummy
 scoreboard objectives add TOOLS_LEG dummy
+scoreboard objectives add TOOLS_ULT dummy
 scoreboard objectives add SHOP_OP1 dummy
 
 scoreboard players set @s ESC 0
@@ -28,6 +29,7 @@ scoreboard players set @s TOOLS_RAR 0
 scoreboard players set @s TOOLS_EPI 0
 scoreboard players set @s TOOLS_ESC 0
 scoreboard players set @s TOOLS_LEG 0
+scoreboard players set @s TOOLS_ULT 0
 scoreboard players set com MENDING 0
 scoreboard players set unc MENDING 0
 scoreboard players set rar MENDING 0
