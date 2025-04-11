@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Obtain item netherite_leggings_355 #
+#####################################
+
+give @s minecraft:netherite_leggings{EquipmentType:"armor",Rarity:"ult",Manufacturer:"harmonious",Effect:"str4_has5_dar3_luc2",display:{Name:"\"§7Sombre éclat de Môt\"","Lore":["{\"text\":\"§7Revêtue des ombres d’un dieu déchu,\"}","{\"text\":\"§7scintille d’une lueur qui dévore l’espoir.\"}","{\"text\":\"§7Clad in the shadows of a fallen god,\"}","{\"text\":\"§7glimmers with a light that devours hope.\"}","{\"text\":\"§7STR§a4 §7HAS§a5 §7DAR§a3 §7LUC§a2\"}"]},Damage:0,Enchantments:[{id:"minecraft:protection",lvl:4s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:9,Operation:0,Slot:legs,UUID:[I;0,10003,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:4.5,Operation:0,Slot:legs,UUID:[I;0,20003,0,20000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:4.0,Operation:0,Slot:legs,UUID:[I;0,30003,0,20000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.025,Operation:0,Slot:legs,UUID:[I;0,30003,0,20000]}]} 1

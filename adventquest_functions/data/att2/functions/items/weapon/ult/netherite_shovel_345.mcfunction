@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Obtain item netherite_shovel_345   #
+#####################################
+
+give @s minecraft:netherite_shovel{EquipmentType:"meleeWeapon",Rarity:"ult",Manufacturer:"harmonious",Effect:"str5_spd3_res1_her1_luc1",display:{Name:"\"§7Le dernier soupir\"","Lore":["{\"text\":\"§7Un murmure d’agonie qui clôt\"}","{\"text\":\"§7le chant des vivants et des damnés.\"}","{\"text\":\"§7A whisper of agony that ends\"}","{\"text\":\"§7the song of the living and the damned.\"}","{\"text\":\"§7STR§a5 §7SPD§a3 §7RES§a1 §7HER§a1 §7LUC§a1\"}"]},Damage:0,Enchantments:[{id:"minecraft:sharpness",lvl:10s},{id:"minecraft:unbreaking",lvl:2s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:10.42,Operation:0,Slot:mainhand,UUID:[I;0,10003,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:0.25,Operation:1,Slot:mainhand,UUID:[I;0,20003,0,10000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:1.0,Operation:0,Slot:mainhand,UUID:[I;0,30003,0,10000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.01,Operation:0,Slot:mainhand,UUID:[I;0,30003,0,10000]}]} 1

@@ -35,3 +35,6 @@ execute as @s[nbt={Inventory:[{Slot:-106b,tag:{Effect:"spd2_her1_luc1_str_1"}}]}
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{Effect:"str1_res1_her1_luc1"}}]}] run function att2:gameplay/equipment/effect/oh/str1_res1_her1_luc1
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{Effect:"str2_her2_dar2"}}]}] run function att2:gameplay/equipment/effect/oh/str2_her2_dar2
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{Effect:"str2_dar2_hun2"}}]}] run function att2:gameplay/equipment/effect/oh/str2_dar2_hun2
+
+##oh-ult
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{Effect:"str2_has2_spd2_dar2_luc2"}}]}] run function att2:gameplay/equipment/effect/oh/str2_has2_spd2_dar2_luc2

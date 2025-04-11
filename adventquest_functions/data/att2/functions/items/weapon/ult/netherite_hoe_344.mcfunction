@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Obtain item netherite_hoe_344      #
+#####################################
+
+give @s minecraft:netherite_hoe{EquipmentType:"meleeWeapon",Rarity:"ult",Manufacturer:"harmonious",Type:"spear",Effect:"str4_spd4_dar5_hun1",display:{Name:"\"§7Génèse des temps perdus\"","Lore":["{\"text\":\"§7Forgée dans l’écho des ères effacées,\"}","{\"text\":\"§7elle ranime ce qui jamais ne devait revenir.\"}","{\"text\":\"§7Forged in the echo of erased eras,\"}","{\"text\":\"§7it revives what was never meant to return.\"}","{\"text\":\"§7STR§a4 §7SPD§a4 §7DAR§a5 §7HUN§a1\"}"]},Damage:0,Enchantments:[{id:"minecraft:smite",lvl:7s},{id:"minecraft:unbreaking",lvl:1s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:44.46,Operation:0,Slot:mainhand,UUID:[I;0,10005,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.22,Operation:1,Slot:mainhand,UUID:[I;0,20005,0,10000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:1.0,Operation:0,Slot:mainhand,UUID:[I;0,30005,0,10000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.01,Operation:0,Slot:mainhand,UUID:[I;0,30005,0,10000]}]} 1

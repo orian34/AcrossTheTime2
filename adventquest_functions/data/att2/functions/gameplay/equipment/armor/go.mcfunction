@@ -43,5 +43,10 @@ execute as @s[nbt={Inventory:[{Slot:103b,tag:{Rarity:"leg_armset"}}]}] run funct
 execute as @s[nbt={Inventory:[{Slot:102b,tag:{Rarity:"leg_armset"}}]}] run function att2:gameplay/equipment/armor/leg_armset_chestplate_go
 execute as @s[nbt={Inventory:[{Slot:101b,tag:{Rarity:"leg_armset"}}]}] run function att2:gameplay/equipment/armor/leg_armset_legging_go
 execute as @s[nbt={Inventory:[{Slot:100b,tag:{Rarity:"leg_armset"}}]}] run function att2:gameplay/equipment/armor/leg_armset_boot_go
+##ult
+execute as @s[nbt={Inventory:[{Slot:103b,tag:{Rarity:"ult"}}]}] run function att2:gameplay/equipment/armor/ult_helmet_go
+execute as @s[nbt={Inventory:[{Slot:102b,tag:{Rarity:"ult"}}]}] run function att2:gameplay/equipment/armor/ult_chestplate_go
+execute as @s[nbt={Inventory:[{Slot:101b,tag:{Rarity:"ult"}}]}] run function att2:gameplay/equipment/armor/ult_legging_go
+execute as @s[nbt={Inventory:[{Slot:100b,tag:{Rarity:"ult"}}]}] run function att2:gameplay/equipment/armor/ult_boot_go
 ##myt
 execute as @s[nbt={Inventory:[{Slot:103b,tag:{SetId:"99"}},{Slot:102b,tag:{SetId:"99"}},{Slot:101b,tag:{SetId:"99"}},{Slot:100b,tag:{SetId:"99"}}]}] run function att2:gameplay/equipment/effect/set/res1_str1_has1_spd1_her1_dar1_luc1_hun1

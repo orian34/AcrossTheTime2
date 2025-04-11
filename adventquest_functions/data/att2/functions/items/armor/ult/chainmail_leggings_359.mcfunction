@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Obtain item chainmail_leggings_359 #
+#####################################
+
+give @s minecraft:chainmail_leggings{EquipmentType:"armor",Rarity:"ult",Manufacturer:"graceful",Effect:"str2_res1_spd4_her1_luc2",display:{Name:"\"§7Gardien des temps inflexibles\"","Lore":["{\"text\":\"§7Impitoyable comme le cours du temps,\"}","{\"text\":\"§7défie quiconque tente de plier le destin.\"}","{\"text\":\"§7Merciless as the flow of time,\"}","{\"text\":\"§7it defies anyone who tries to bend destiny.\"}","{\"text\":\"§7STR§a2 §7RES§a1 §7SPD§a4 §7HER§a1 §7LUC§a2\"}"]},Damage:0,Enchantments:[{id:"minecraft:protection",lvl:4s},{id:"minecraft:unbreaking",lvl:20s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:9,Operation:0,Slot:legs,UUID:[I;0,10003,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:4.5,Operation:0,Slot:legs,UUID:[I;0,20003,0,20000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:4.0,Operation:0,Slot:legs,UUID:[I;0,30003,0,20000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.025,Operation:0,Slot:legs,UUID:[I;0,30003,0,20000]}]} 1

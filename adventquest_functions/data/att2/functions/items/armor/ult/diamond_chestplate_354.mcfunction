@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Obtain item diamond_chestplate_354 #
+#####################################
+
+give @s minecraft:diamond_chestplate{EquipmentType:"armor",Rarity:"ult",Manufacturer:"delightful",Effect:"str3_spd3_has3_dar2_hun2",display:{Name:"\"§7Carapace extratellurienne\"","Lore":["{\"text\":\"§7Forgée dans les entrailles d’un astre mourant,\"}","{\"text\":\"§7elle repousse les assauts du vide céleste.\"}","{\"text\":\"§7Forged in the bowels of a dying star,\"}","{\"text\":\"§7it repels the assaults of the celestial void.\"}","{\"text\":\"§7STR§a3 §7SPD§a3 §7HAS§a3 §7DAR§a2 §7HUN§a2\"}"]},Damage:0,Enchantments:[{id:"minecraft:protection",lvl:4s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:12,Operation:0,Slot:chest,UUID:[I;0,10002,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:6,Operation:0,Slot:chest,UUID:[I;0,20002,0,20000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:4.0,Operation:0,Slot:legs,UUID:[I;0,30003,0,20000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.025,Operation:0,Slot:legs,UUID:[I;0,30003,0,20000]}]} 1

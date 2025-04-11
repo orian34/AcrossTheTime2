@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Obtain item chainmail_helmet_357   #
+#####################################
+
+give @s minecraft:chainmail_helmet{EquipmentType:"armor",Rarity:"ult",Manufacturer:"graceful",Effect:"res1_her2_luc2_hun2",display:{Name:"\"§7Pillier du roi immortel\"","Lore":["{\"text\":\"§7Dressée comme un rempart éternel,\"}","{\"text\":\"§7elle soutient le trône que le temps ne peut éroder.\"}","{\"text\":\"§7Raised as an eternal bulwark,\"}","{\"text\":\"§7it upholds the throne that time cannot erode.\"}","{\"text\":\"§7RES§a1 §7HER§a2 §7LUC§a2 §7HUN§a2\"}"]},Damage:0,Enchantments:[{id:"minecraft:protection",lvl:4s},{id:"minecraft:unbreaking",lvl:20s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:6,Operation:0,Slot:head,UUID:[I;0,10001,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:1.5,Operation:0,Slot:head,UUID:[I;0,20001,0,20000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:4.0,Operation:0,Slot:legs,UUID:[I;0,30003,0,20000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.025,Operation:0,Slot:legs,UUID:[I;0,30003,0,20000]}]} 1

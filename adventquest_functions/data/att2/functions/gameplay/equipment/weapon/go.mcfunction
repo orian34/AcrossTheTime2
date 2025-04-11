@@ -15,5 +15,7 @@ execute as @s[nbt={SelectedItem:{tag:{Rarity:"epi"}}}] run function att2:gamepla
 execute as @s[nbt={SelectedItem:{tag:{Rarity:"epi_esc"}}}] run function att2:gameplay/equipment/weapon/epi_esc_go
 ##test leg
 execute as @s[nbt={SelectedItem:{tag:{Rarity:"leg"}}}] run function att2:gameplay/equipment/weapon/leg_go
+##test ult
+execute as @s[nbt={SelectedItem:{tag:{Rarity:"ult"}}}] run function att2:gameplay/equipment/weapon/ult_go
 ##test_oh
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{EquipmentType:"rangeWeapon"}}]}] run function att2:gameplay/equipment/weapon/oh_go

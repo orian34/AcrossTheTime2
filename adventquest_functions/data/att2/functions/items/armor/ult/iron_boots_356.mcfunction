@@ -1,0 +1,6 @@
+#####################################
+#Made by Adventquest                #
+#Obtain item iron_boots_356         #
+#####################################
+
+give @s minecraft:iron_boots{EquipmentType:"armor",Rarity:"ult",Manufacturer:"traditional",Effect:"str2_res1_spd4_her2_dar1",display:{Name:"\"§7Sagesse de Gaya\"","Lore":["{\"text\":\"§7Imprégnée de la voix de Tellurön,\"}","{\"text\":\"§7murmure des vérités que nul mortel ne peut.\"}","{\"text\":\"§7Imbued with the voice of Tellurön,\"}","{\"text\":\"§7whispers truths no mortal can ignore.\"}","{\"text\":\"§7STR§a2 §7RES§a1 §7SPD§a4 §7HER§a2 §7DAR§a1\"}"]},Damage:0,Enchantments:[{id:"minecraft:protection",lvl:4s},{id:"minecraft:unbreaking",lvl:20s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:3,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:3,Operation:0,Slot:feet,UUID:[I;0,20004,0,20000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:4.0,Operation:0,Slot:legs,UUID:[I;0,30003,0,20000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.025,Operation:0,Slot:legs,UUID:[I;0,30003,0,20000]}]} 1
