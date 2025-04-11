@@ -8323,6 +8323,274 @@
                     ]
                 }
             ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 2
+            },
+            "bonus_rolls": {
+                "min": 0,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:bow",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.0006
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"rangeWeapon\",Rarity:\"ult\",Manufacturer:\"traditional\",Effect:\"str3_spd3_dar3_luc1_hun1\",display:{Name:\"{\\\"text\\\":\\\"§aTraqueur des lignes brisées\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Il chasse les fractures du destin,\\\"}\",\"{\\\"text\\\":\\\"§7 là où les fils du temps se sont effilochés.\\\"}\",\"{\\\"text\\\":\\\"§7It hunts the fractures of fate,\\\"}\",\"{\\\"text\\\":\\\"§7where the threads of time have unraveled.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7SPD§a3 §7DAR§a3 §7LUC§a1 §7HUN§a1\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:power\",lvl:15s}],AttributeModifiers:[{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.7,Operation:1,Slot:mainhand,UUID:[I;0,50002,0,50001]}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:crossbow",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.0006
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"rangeWeapon\",Rarity:\"ult\",Manufacturer:\"traditional\",Effect:\"str4_spd2_res1_her2\",display:{Name:\"{\\\"text\\\":\\\"§aÉclaireuse des âges noirs\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Elle perce les ténèbres d’époques oubliées,\\\"}\",\"{\\\"text\\\":\\\"§7guidant ceux qui osent fouler l’ombre.\\\"}\",\"{\\\"text\\\":\\\"§7It pierces the darkness of forgotten ages,\\\"}\",\"{\\\"text\\\":\\\"§7guiding those who dare tread the shadows.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a4 §7SPD§a2 §7RES§a1 §7HER§a2\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:power\",lvl:10s},{id:\"minecraft:piercing\",lvl:1s},{id:\"minecraft:quick_charge\",lvl:5s}],AttributeModifiers:[{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.7,Operation:1,Slot:mainhand,UUID:[I;0,50002,0,50001]}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:shield",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.0006
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"rangeWeapon\",Rarity:\"ult\",Manufacturer:\"traditional\",Effect:\"str2_has2_spd2_dar2_luc2\",display:{Name:\"{\\\"text\\\":\\\"§aMuraille inébranlable de Sästr\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Dressée contre les assaillants,\\\"}\",\"{\\\"text\\\":\\\"§7défie jusqu’au souffle des dieux.\\\"}\",\"{\\\"text\\\":\\\"§7Raised against the assailants,\\\"}\",\"{\\\"text\\\":\\\"§7 defies even the breath of the gods.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7HAS§a2 §7SPD§a2 §7DAR§a2 §7LUC§a2\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:20s}],BlockEntityTag:{Base:5,Patterns:[{Color:11,Pattern:\"gra\"},{Color:11,Pattern:\"cbo\"},{Color:10,Pattern:\"bo\"},{Color:11,Pattern:\"cre\"},{Color:4,Pattern:\"flo\"},{Color:10,Pattern:\"tts\"}]},AttributeModifiers:[{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.7,Operation:1,Slot:mainhand,UUID:[I;0,50002,0,50001]}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_sword",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.0006
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"ult\",Manufacturer:\"delightful\",Effect:\"str5_her3_dar2_luc1_20_NaN\",display:{Name:\"{\\\"text\\\":\\\"§aLe patriarche\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7émoin des premières lueurs,\\\"}\",\"{\\\"text\\\":\\\"§7 porte le poids des âmes qui l’ont précédé.\\\"}\",\"{\\\"text\\\":\\\"§7Witness to the first glimmers,\\\"}\",\"{\\\"text\\\":\\\"§7it bears the weight of the souls that came before.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a5 §7HER§a3 §7DAR§a2 §7LUC§a1 §720§cundefined\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:sweeping\",lvl:10s},{id:\"minecraft:sharpness\",lvl:10s},{id:\"minecraft:unbreaking\",lvl:2s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:31.23,Operation:0,Slot:mainhand,UUID:[I;0,10004,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.37,Operation:1,Slot:mainhand,UUID:[I;0,20004,0,10000]}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_axe",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.0006
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"ult\",Manufacturer:\"traditional\",Effect:\"str4_res1_has3_her2\",display:{Name:\"{\\\"text\\\":\\\"§aUltime briseuse des cycles\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Chaque coup porté fracture le temps et l'espace,\\\"}\",\"{\\\"text\\\":\\\"§7jusqu’à l’effondrement final.\\\"}\",\"{\\\"text\\\":\\\"§7Each blow fractures time and space,\\\"}\",\"{\\\"text\\\":\\\"§7until the final collapse.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a4 §7RES§a1 §7HAS§a3 §7HER§a2\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:bane_of_arthropods\",lvl:7s},{id:\"minecraft:unbreaking\",lvl:10s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:59.35,Operation:0,Slot:mainhand,UUID:[I;0,10001,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.58,Operation:1,Slot:mainhand,UUID:[I;0,20001,0,10000]}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_pickaxe",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.0006
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"ult\",Manufacturer:\"traditional\",Effect:\"str3_has3_spd3_dar3_hun3\",display:{Name:\"{\\\"text\\\":\\\"§aÉcraseur de l'aube\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Broie les promesses du matin,\\\"}\",\"{\\\"text\\\":\\\"§7ne laissant que le silence d’un jour avorté.\\\"}\",\"{\\\"text\\\":\\\"§7It crushes the promises of dawn,\\\"}\",\"{\\\"text\\\":\\\"§7leaving only the silence of an aborted day.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7HAS§a3 §7SPD§a3 §7DAR§a3 §7HUN§a3\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:fire_aspect\",lvl:7s},{id:\"minecraft:unbreaking\",lvl:7s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:93.6,Operation:0,Slot:mainhand,UUID:[I;0,10002,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.69,Operation:1,Slot:mainhand,UUID:[I;0,20002,0,10000]}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:netherite_hoe",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.0006
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"ult\",Manufacturer:\"harmonious\",Effect:\"str4_spd4_dar5_hun1\",display:{Name:\"{\\\"text\\\":\\\"§aGénèse des temps perdus\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Forgée dans l’écho des ères effacées,\\\"}\",\"{\\\"text\\\":\\\"§7elle ranime ce qui jamais ne devait revenir.\\\"}\",\"{\\\"text\\\":\\\"§7Forged in the echo of erased eras,\\\"}\",\"{\\\"text\\\":\\\"§7it revives what was never meant to return.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a4 §7SPD§a4 §7DAR§a5 §7HUN§a1\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:smite\",lvl:7s},{id:\"minecraft:unbreaking\",lvl:1s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:44.46,Operation:0,Slot:mainhand,UUID:[I;0,10005,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.22,Operation:1,Slot:mainhand,UUID:[I;0,20005,0,10000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:1.0,Operation:0,Slot:mainhand,UUID:[I;0,30005,0,10000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.01,Operation:0,Slot:mainhand,UUID:[I;0,30005,0,10000]}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:netherite_shovel",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.0006
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"ult\",Manufacturer:\"harmonious\",Effect:\"str5_spd3_res1_her1_luc1\",display:{Name:\"{\\\"text\\\":\\\"§aLe dernier soupir\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Un murmure d’agonie qui clôt\\\"}\",\"{\\\"text\\\":\\\"§7le chant des vivants et des damnés.\\\"}\",\"{\\\"text\\\":\\\"§7A whisper of agony that ends\\\"}\",\"{\\\"text\\\":\\\"§7the song of the living and the damned.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a5 §7SPD§a3 §7RES§a1 §7HER§a1 §7LUC§a1\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:sharpness\",lvl:10s},{id:\"minecraft:unbreaking\",lvl:2s}],AttributeModifiers:[{AttributeName:generic.attack_damage,Name:generic.attack_damage,Amount:10.42,Operation:0,Slot:mainhand,UUID:[I;0,10003,0,10000]},{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:0.25,Operation:1,Slot:mainhand,UUID:[I;0,20003,0,10000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:1.0,Operation:0,Slot:mainhand,UUID:[I;0,30003,0,10000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.01,Operation:0,Slot:mainhand,UUID:[I;0,30003,0,10000]}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_chestplate",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.0006
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"ult\",Manufacturer:\"delightful\",Effect:\"str3_spd3_has3_dar2_hun2\",display:{Name:\"{\\\"text\\\":\\\"§aCarapace extratellurienne\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Forgée dans les entrailles d’un astre mourant,\\\"}\",\"{\\\"text\\\":\\\"§7elle repousse les assauts du vide céleste.\\\"}\",\"{\\\"text\\\":\\\"§7Forged in the bowels of a dying star,\\\"}\",\"{\\\"text\\\":\\\"§7it repels the assaults of the celestial void.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7SPD§a3 §7HAS§a3 §7DAR§a2 §7HUN§a2\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:4s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:12,Operation:0,Slot:chest,UUID:[I;0,10002,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:6,Operation:0,Slot:chest,UUID:[I;0,20002,0,20000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:4.0,Operation:0,Slot:legs,UUID:[I;0,30003,0,20000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.025,Operation:0,Slot:legs,UUID:[I;0,30003,0,20000]}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:netherite_leggings",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.0006
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"ult\",Manufacturer:\"harmonious\",Effect:\"str4_has5_dar3_luc2\",display:{Name:\"{\\\"text\\\":\\\"§aSombre éclat de Môt\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Revêtue des ombres d’un dieu déchu,\\\"}\",\"{\\\"text\\\":\\\"§7scintille d’une lueur qui dévore l’espoir.\\\"}\",\"{\\\"text\\\":\\\"§7Clad in the shadows of a fallen god,\\\"}\",\"{\\\"text\\\":\\\"§7glimmers with a light that devours hope.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a4 §7HAS§a5 §7DAR§a3 §7LUC§a2\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:4s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:9,Operation:0,Slot:legs,UUID:[I;0,10003,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:4.5,Operation:0,Slot:legs,UUID:[I;0,20003,0,20000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:4.0,Operation:0,Slot:legs,UUID:[I;0,30003,0,20000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.025,Operation:0,Slot:legs,UUID:[I;0,30003,0,20000]}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_boots",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.0006
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"ult\",Manufacturer:\"traditional\",Effect:\"str2_res1_spd4_her2_dar1\",display:{Name:\"{\\\"text\\\":\\\"§aSagesse de Gaya\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Imprégnée de la voix de Tellurön,\\\"}\",\"{\\\"text\\\":\\\"§7murmure des vérités que nul mortel ne peut.\\\"}\",\"{\\\"text\\\":\\\"§7Imbued with the voice of Tellurön,\\\"}\",\"{\\\"text\\\":\\\"§7whispers truths no mortal can ignore.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7RES§a1 §7SPD§a4 §7HER§a2 §7DAR§a1\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:4s},{id:\"minecraft:unbreaking\",lvl:20s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:3,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:3,Operation:0,Slot:feet,UUID:[I;0,20004,0,20000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:4.0,Operation:0,Slot:legs,UUID:[I;0,30003,0,20000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.025,Operation:0,Slot:legs,UUID:[I;0,30003,0,20000]}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:chainmail_helmet",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.0006
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"ult\",Manufacturer:\"graceful\",Effect:\"res1_her2_luc2_hun2\",display:{Name:\"{\\\"text\\\":\\\"§aPillier du roi immortel\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Dressée comme un rempart éternel,\\\"}\",\"{\\\"text\\\":\\\"§7elle soutient le trône que le temps ne peut éroder.\\\"}\",\"{\\\"text\\\":\\\"§7Raised as an eternal bulwark,\\\"}\",\"{\\\"text\\\":\\\"§7it upholds the throne that time cannot erode.\\\"}\",\"{\\\"text\\\":\\\"§7RES§a1 §7HER§a2 §7LUC§a2 §7HUN§a2\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:4s},{id:\"minecraft:unbreaking\",lvl:20s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:6,Operation:0,Slot:head,UUID:[I;0,10001,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:1.5,Operation:0,Slot:head,UUID:[I;0,20001,0,20000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:4.0,Operation:0,Slot:legs,UUID:[I;0,30003,0,20000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.025,Operation:0,Slot:legs,UUID:[I;0,30003,0,20000]}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_chestplate",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.0006
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"ult\",Manufacturer:\"traditional\",Effect:\"res1_her3_luc3_hun3\",display:{Name:\"{\\\"text\\\":\\\"§aÉgide des désirs infinis\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Repousseur des âmes avides,\\\"}\",\"{\\\"text\\\":\\\"§7transforme chaque convoitise en une force invincible.\\\"}\",\"{\\\"text\\\":\\\"§7Repeller of greedy souls,\\\"}\",\"{\\\"text\\\":\\\"§7transforms every lust into an invincible force.\\\"}\",\"{\\\"text\\\":\\\"§7RES§a1 §7HER§a3 §7LUC§a3 §7HUN§a3\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:4s},{id:\"minecraft:unbreaking\",lvl:20s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:12,Operation:0,Slot:chest,UUID:[I;0,10002,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:6,Operation:0,Slot:chest,UUID:[I;0,20002,0,20000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:4.0,Operation:0,Slot:legs,UUID:[I;0,30003,0,20000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.025,Operation:0,Slot:legs,UUID:[I;0,30003,0,20000]}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:chainmail_leggings",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.0006
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"ult\",Manufacturer:\"graceful\",Effect:\"str2_res1_spd4_her1_luc2\",display:{Name:\"{\\\"text\\\":\\\"§aGardien des temps inflexibles\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Impitoyable comme le cours du temps,\\\"}\",\"{\\\"text\\\":\\\"§7défie quiconque tente de plier le destin.\\\"}\",\"{\\\"text\\\":\\\"§7Merciless as the flow of time,\\\"}\",\"{\\\"text\\\":\\\"§7it defies anyone who tries to bend destiny.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7RES§a1 §7SPD§a4 §7HER§a1 §7LUC§a2\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:4s},{id:\"minecraft:unbreaking\",lvl:20s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:9,Operation:0,Slot:legs,UUID:[I;0,10003,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:4.5,Operation:0,Slot:legs,UUID:[I;0,20003,0,20000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:4.0,Operation:0,Slot:legs,UUID:[I;0,30003,0,20000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.025,Operation:0,Slot:legs,UUID:[I;0,30003,0,20000]}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:netherite_boots",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.0006
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"ult\",Manufacturer:\"harmonious\",Effect:\"str3_spd3_has3_dar3\",display:{Name:\"{\\\"text\\\":\\\"§aSolerets du crépuscule éternel\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Chaque pas résonne dans l’écho d’un soir,\\\"}\",\"{\\\"text\\\":\\\"§7foulant l’aube à jamais perdue.\\\"}\",\"{\\\"text\\\":\\\"§7Each step echoes in the twilight of the dusk,\\\"}\",\"{\\\"text\\\":\\\"§7 treading an ever-lost dawn.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7SPD§a3 §7HAS§a3 §7DAR§a3\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:4s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:3,Operation:0,Slot:feet,UUID:[I;0,10004,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:3,Operation:0,Slot:feet,UUID:[I;0,20004,0,20000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:4.0,Operation:0,Slot:legs,UUID:[I;0,30003,0,20000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.025,Operation:0,Slot:legs,UUID:[I;0,30003,0,20000]}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_helmet",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.0006
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EquipmentType:\"meleeWeapon\",Rarity:\"ult\",Manufacturer:\"delightful\",Effect:\"str4_has4_dar4_luc1_hun1\",display:{Name:\"{\\\"text\\\":\\\"§aMasque des ères oubliées\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Celui qui le porte voit à travers les cendres du passé,\\\"}\",\"{\\\"text\\\":\\\"§7 les secrets enfouis sous le silence.\\\"}\",\"{\\\"text\\\":\\\"§7He who wears it sees through the ashes of the past,\\\"}\",\"{\\\"text\\\":\\\"§7 secrets buried beneath silence.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a4 §7HAS§a4 §7DAR§a4 §7LUC§a1 §7HUN§a1\\\"}\"]},Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:4s}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:6,Operation:0,Slot:head,UUID:[I;0,10001,0,20000]},{AttributeName:generic.armor_toughness,Name:generic.armor_toughness,Amount:1.5,Operation:0,Slot:head,UUID:[I;0,20001,0,20000]},{AttributeName:generic.max_health,Name:generic.max_health,Amount:4.0,Operation:0,Slot:legs,UUID:[I;0,30003,0,20000]},{AttributeName:generic.knockback_resistance,Name:generic.knockback_resistance,Amount:0.025,Operation:0,Slot:legs,UUID:[I;0,30003,0,20000]}]}"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
