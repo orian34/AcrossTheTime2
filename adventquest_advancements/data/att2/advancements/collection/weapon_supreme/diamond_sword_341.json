@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_sword"
+        },
+        "title": {"translate":"Le patriarche"},
+        "description": {"translate":"Witness to the first glimmers, it bears the weight of the souls that came before."},
+        "frame": "challenge"
+    },
+    "parent": "att2:collection/weapon_supreme/shield_340",
+    "rewards": {
+        "function": "att2:advancement/test_all/collection/test_ult"
+        },
+    "criteria": {
+        "diamond_sword_341": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:diamond_sword"],
+                    "nbt": "{display:{Name:\"{\\\"text\\\":\\\"§aLe patriarche\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7émoin des premières lueurs,\\\"}\",\"{\\\"text\\\":\\\"§7 porte le poids des âmes qui l’ont précédé.\\\"}\",\"{\\\"text\\\":\\\"§7Witness to the first glimmers,\\\"}\",\"{\\\"text\\\":\\\"§7it bears the weight of the souls that came before.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a5 §7HER§a3 §7DAR§a2 §7LUC§a1 §720§cundefined\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

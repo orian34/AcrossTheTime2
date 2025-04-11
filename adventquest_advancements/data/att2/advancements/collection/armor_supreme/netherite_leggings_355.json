@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_leggings"
+        },
+        "title": {"translate":"Sombre éclat de Môt"},
+        "description": {"translate":"Clad in the shadows of a fallen god, glimmers with a light that devours hope."},
+        "frame": "challenge"
+    },
+    "parent": "att2:collection/armor_supreme/chainmail_leggings_359",
+    "rewards": {
+        "function": "att2:advancement/test_all/collection/test_ult"
+        },
+    "criteria": {
+        "netherite_leggings_355": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:netherite_leggings"],
+                    "nbt": "{display:{Name:\"{\\\"text\\\":\\\"§aSombre éclat de Môt\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Revêtue des ombres d’un dieu déchu,\\\"}\",\"{\\\"text\\\":\\\"§7scintille d’une lueur qui dévore l’espoir.\\\"}\",\"{\\\"text\\\":\\\"§7Clad in the shadows of a fallen god,\\\"}\",\"{\\\"text\\\":\\\"§7glimmers with a light that devours hope.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a4 §7HAS§a5 §7DAR§a3 §7LUC§a2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

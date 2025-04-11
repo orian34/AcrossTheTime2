@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_boots"
+        },
+        "title": {"translate":"Sagesse de Gaya"},
+        "description": {"translate":"Imbued with the voice of Tellurön, whispers truths no mortal can ignore."},
+        "frame": "challenge"
+    },
+    "parent": "att2:collection/supreme",
+    "rewards": {
+        "function": "att2:advancement/test_all/collection/test_ult"
+        },
+    "criteria": {
+        "iron_boots_356": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:iron_boots"],
+                    "nbt": "{display:{Name:\"{\\\"text\\\":\\\"§aSagesse de Gaya\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Imprégnée de la voix de Tellurön,\\\"}\",\"{\\\"text\\\":\\\"§7murmure des vérités que nul mortel ne peut.\\\"}\",\"{\\\"text\\\":\\\"§7Imbued with the voice of Tellurön,\\\"}\",\"{\\\"text\\\":\\\"§7whispers truths no mortal can ignore.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7RES§a1 §7SPD§a4 §7HER§a2 §7DAR§a1\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chainmail_helmet"
+        },
+        "title": {"translate":"Pillier du roi immortel"},
+        "description": {"translate":"Raised as an eternal bulwark, it upholds the throne that time cannot erode."},
+        "frame": "challenge"
+    },
+    "parent": "att2:collection/supreme",
+    "rewards": {
+        "function": "att2:advancement/test_all/collection/test_ult"
+        },
+    "criteria": {
+        "chainmail_helmet_357": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:chainmail_helmet"],
+                    "nbt": "{display:{Name:\"{\\\"text\\\":\\\"§aPillier du roi immortel\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Dressée comme un rempart éternel,\\\"}\",\"{\\\"text\\\":\\\"§7elle soutient le trône que le temps ne peut éroder.\\\"}\",\"{\\\"text\\\":\\\"§7Raised as an eternal bulwark,\\\"}\",\"{\\\"text\\\":\\\"§7it upholds the throne that time cannot erode.\\\"}\",\"{\\\"text\\\":\\\"§7RES§a1 §7HER§a2 §7LUC§a2 §7HUN§a2\\\"}\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

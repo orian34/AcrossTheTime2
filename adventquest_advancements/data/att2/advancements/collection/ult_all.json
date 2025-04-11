@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:lime_candle"
+        },
+        "title": {"translate":"All Supremes"},
+        "description": {"translate":"Find all supreme items"},
+        "frame": "challenge"
+    },
+    "parent": "att2:collection/leg_all",
+    "rewards": {
+        "function": "att2:advancement/exploit_100",
+        "experience": 250000
+                },
+    "criteria": {
+        "ult_all": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
