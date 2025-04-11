@@ -12,5 +12,3 @@ execute if predicate att2_pre:item_color/re_6 run particle minecraft:dust 0.625 
 execute if predicate att2_pre:item_color/re_7 run particle minecraft:dust 0.65 0.65 0 0.25 ~ ~0.5 ~ 0.1 0.25 0.1 1 10 normal
 execute if predicate att2_pre:item_color/re_8 run particle minecraft:dust 0.675 0.675 0 0.26 ~ ~0.5 ~ 0.1 0.25 0.1 1 10 normal
 execute if predicate att2_pre:item_color/re_9 run particle minecraft:dust 0.7 0.7 0 0.275 ~ ~0.5 ~ 0.1 0.25 0.1 1 10 normal
-
-particle minecraft:dust 1 1 1 0.25 ~ ~0.5 ~ 0.1 0.25 0.1 0 6 normal

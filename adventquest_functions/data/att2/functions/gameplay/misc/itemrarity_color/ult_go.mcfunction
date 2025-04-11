@@ -1,0 +1,7 @@
+#################################################################
+#Made by Adventquest											#
+#Process item rarity color particle    							#
+#################################################################
+
+##ult
+execute if predicate att2_pre:item_color/ult run particle minecraft:dust 0.25 1 0 0.5 ~ ~1.5 ~ 0.05 0.9 0.05 0 17 normal
