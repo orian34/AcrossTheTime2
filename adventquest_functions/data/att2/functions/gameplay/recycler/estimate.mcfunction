@@ -16,6 +16,7 @@ scoreboard players set epi_set RECYCLER 0
 scoreboard players set epi_esc RECYCLER 0
 scoreboard players set leg RECYCLER 0
 scoreboard players set leg_armset RECYCLER 0
+scoreboard players set ult RECYCLER 0
 
 scoreboard players set com_buy RECYCLER 0
 scoreboard players set unc_buy RECYCLER 0
@@ -25,6 +26,7 @@ scoreboard players set epi_set_buy RECYCLER 0
 scoreboard players set epi_esc_buy RECYCLER 0
 scoreboard players set leg_buy RECYCLER 0
 scoreboard players set leg_armset_buy RECYCLER 0
+scoreboard players set ult_buy RECYCLER 0
 
 scoreboard players set myt RECYCLER 0
 scoreboard players set total RECYCLER 0
@@ -41,6 +43,7 @@ execute store result score epi RECYCLER if entity @e[type=item,distance=..1,pred
 execute store result score epi_set RECYCLER if entity @e[type=item,distance=..1,predicate=att2_pre:recycle/epi_set,predicate=!att2_pre:recycle/shop,predicate=!att2_pre:recycle/error]
 execute store result score epi_esc RECYCLER if entity @e[type=item,distance=..1,predicate=att2_pre:recycle/epi_esc,predicate=!att2_pre:recycle/shop,predicate=!att2_pre:recycle/error]
 execute store result score leg_armset RECYCLER if entity @e[type=item,distance=..1,predicate=att2_pre:recycle/leg_armset,predicate=!att2_pre:recycle/shop,predicate=!att2_pre:recycle/error]
+execute store result score ult RECYCLER if entity @e[type=item,distance=..1,predicate=att2_pre:recycle/ult,predicate=!att2_pre:recycle/shop,predicate=!att2_pre:recycle/error]
 execute store result score myt RECYCLER if entity @e[type=item,distance=..1,nbt={Item:{tag:{Rarity:"myt"}}}]
 execute store result score number RECYCLER if entity @e[type=item,distance=..1]
 #from shop
@@ -53,6 +56,7 @@ execute store result score epi_buy RECYCLER if entity @e[type=item,distance=..1,
 execute store result score epi_set_buy RECYCLER if entity @e[type=item,distance=..1,predicate=att2_pre:recycle/buy/epi_set,predicate=!att2_pre:recycle/error]
 execute store result score epi_esc_buy RECYCLER if entity @e[type=item,distance=..1,predicate=att2_pre:recycle/buy/epi_esc,predicate=!att2_pre:recycle/error]
 execute store result score leg_armset_buy RECYCLER if entity @e[type=item,distance=..1,predicate=att2_pre:recycle/buy/leg_armset,predicate=!att2_pre:recycle/error]
+execute store result score ult_buy RECYCLER if entity @e[type=item,distance=..1,predicate=att2_pre:recycle/buy/ult,predicate=!att2_pre:recycle/error]
 
 execute if score level RECYCLER matches 0 run function att2:gameplay/recycler/leveling/estimate_0
 execute if score level RECYCLER matches 1 run function att2:gameplay/recycler/leveling/estimate_1
@@ -73,6 +77,7 @@ scoreboard players operation total RECYCLER += epi_set RECYCLER
 scoreboard players operation total RECYCLER += epi_esc RECYCLER
 scoreboard players operation total RECYCLER += leg RECYCLER
 scoreboard players operation total RECYCLER += leg_armset RECYCLER
+scoreboard players operation total RECYCLER += ult RECYCLER
 
 scoreboard players operation total RECYCLER += com_buy RECYCLER
 scoreboard players operation total RECYCLER += unc_buy RECYCLER
@@ -82,3 +87,4 @@ scoreboard players operation total RECYCLER += epi_set_buy RECYCLER
 scoreboard players operation total RECYCLER += epi_esc_buy RECYCLER
 scoreboard players operation total RECYCLER += leg_buy RECYCLER
 scoreboard players operation total RECYCLER += leg_armset_buy RECYCLER
+scoreboard players operation total RECYCLER += ult_buy RECYCLER

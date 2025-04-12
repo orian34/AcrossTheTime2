@@ -4,6 +4,13 @@
 #################################################################
 
 ##other_item detection
+#item->25 ESC
+execute if score unc RUNECOUNT matches 1 run scoreboard players operation 25ESC RUNECOUNT += com RUNECOUNT
+execute if score rar RUNECOUNT matches 1 run scoreboard players operation 25ESC RUNECOUNT += unc RUNECOUNT
+execute if score epi RUNECOUNT matches 1 run scoreboard players operation 25ESC RUNECOUNT += rar RUNECOUNT
+execute if score leg RUNECOUNT matches 1 run scoreboard players operation 25ESC RUNECOUNT += epi RUNECOUNT
+execute if score ult RUNECOUNT matches 1 run scoreboard players operation 25ESC RUNECOUNT += leg RUNECOUNT
+execute if score total_item RUNECOUNT = 25ESC RUNECOUNT if score 25ESC RUNECOUNT matches 5 run function att2:items/chronoton/esc_25
 #item->7 ESC
 execute if score com RUNECOUNT matches 1 run scoreboard players operation 7ESC RUNECOUNT += com RUNECOUNT
 execute if score unc RUNECOUNT matches 1 run scoreboard players operation 7ESC RUNECOUNT += unc RUNECOUNT
@@ -16,27 +23,46 @@ execute if score com RUNECOUNT matches 1 run scoreboard players operation 2ESC R
 execute if score unc RUNECOUNT matches 1 run scoreboard players operation 2ESC RUNECOUNT += unc RUNECOUNT
 execute if score rar RUNECOUNT matches 1 run scoreboard players operation 2ESC RUNECOUNT += rar RUNECOUNT
 execute if score epi RUNECOUNT matches 1 run scoreboard players operation 2ESC RUNECOUNT += epi RUNECOUNT
-execute if score total_item RUNECOUNT = 2ESC RUNECOUNT if score 7ESC RUNECOUNT matches 4 run function att2:items/chronoton/esc_2
+execute if score total_item RUNECOUNT = 2ESC RUNECOUNT if score 2ESC RUNECOUNT matches 4 run function att2:items/chronoton/esc_2
 #500 XP
 execute if score com RUNECOUNT matches 5 run scoreboard players operation 500xp RUNECOUNT = com RUNECOUNT
 execute if score total_item RUNECOUNT = 500xp RUNECOUNT run function att2:items/xp/500_recipes
+execute if score com RUNECOUNT matches 3 run scoreboard players operation 200xp RUNECOUNT = com RUNECOUNT
+execute if score total_item RUNECOUNT = 200xp RUNECOUNT run function att2:items/xp/200_recipes
 #1250 XP
 execute if score unc RUNECOUNT matches 5 run scoreboard players operation 1250xp RUNECOUNT = unc RUNECOUNT
 execute if score total_item RUNECOUNT = 1250xp RUNECOUNT run function att2:items/xp/1250_recipes
+execute if score unc RUNECOUNT matches 3 run scoreboard players operation 500xp RUNECOUNT = unc RUNECOUNT
+execute if score total_item RUNECOUNT = 500xp RUNECOUNT run function att2:items/xp/500_recipes
 #2500 XP
 execute if score rar RUNECOUNT matches 5 run scoreboard players operation 2500xp RUNECOUNT = rar RUNECOUNT
 execute if score total_item RUNECOUNT = 2500xp RUNECOUNT run function att2:items/xp/2500_recipes
+execute if score rar RUNECOUNT matches 3 run scoreboard players operation 1000xp RUNECOUNT = rar RUNECOUNT
+execute if score total_item RUNECOUNT = 1000xp RUNECOUNT run function att2:items/xp/1000_recipes
 #10000 XP
 execute if score epi RUNECOUNT matches 5 run scoreboard players operation 10000xp RUNECOUNT = epi RUNECOUNT
 execute if score total_item RUNECOUNT = 10000xp RUNECOUNT run function att2:items/xp/10000_recipes
+execute if score epi RUNECOUNT matches 3 run scoreboard players operation 4000xp RUNECOUNT = epi RUNECOUNT
+execute if score total_item RUNECOUNT = 4000xp RUNECOUNT run function att2:items/xp/4000_recipes
 #25000 XP
 execute if score epi_set RUNECOUNT matches 5 run scoreboard players operation 25000xp RUNECOUNT = epi_set RUNECOUNT
 execute if score total_item RUNECOUNT = 25000xp RUNECOUNT run function att2:items/xp/25000_recipes
+execute if score epi_set RUNECOUNT matches 3 run scoreboard players operation 10000xp RUNECOUNT = epi_set RUNECOUNT
+execute if score total_item RUNECOUNT = 10000xp RUNECOUNT run function att2:items/xp/10000_recipes
 # 100000 XP
 execute if score leg RUNECOUNT matches 5 run scoreboard players operation 100000xp RUNECOUNT = leg RUNECOUNT
 execute if score total_item RUNECOUNT = 100000xp RUNECOUNT run function att2:items/xp/100000_recipes
+execute if score leg RUNECOUNT matches 3 run scoreboard players operation 40000xp RUNECOUNT = leg RUNECOUNT
+execute if score total_item RUNECOUNT = 40000xp RUNECOUNT run function att2:items/xp/40000_recipes
 # 250000 XP
 execute if score leg_set RUNECOUNT matches 5 run scoreboard players operation 250000xp RUNECOUNT = leg_set RUNECOUNT
+execute if score total_item RUNECOUNT = 250000xp RUNECOUNT run function att2:items/xp/250000_recipes
+execute if score leg_set RUNECOUNT matches 3 run scoreboard players operation 100000xp RUNECOUNT = leg_set RUNECOUNT
+execute if score total_item RUNECOUNT = 100000xp RUNECOUNT run function att2:items/xp/100000_recipes
+# 500000 XP
+execute if score ult RUNECOUNT matches 5 run scoreboard players operation 500000xp RUNECOUNT = ult RUNECOUNT
+execute if score total_item RUNECOUNT = 250000xp RUNECOUNT run function att2:items/xp/500000_recipes
+execute if score ult RUNECOUNT matches 3 run scoreboard players operation 250000xp RUNECOUNT = ult RUNECOUNT
 execute if score total_item RUNECOUNT = 250000xp RUNECOUNT run function att2:items/xp/250000_recipes
 #mot->1000000XP
 execute if score mot RUNECOUNT matches 1 run scoreboard players operation 1000000xp RUNECOUNT = mot RUNECOUNT

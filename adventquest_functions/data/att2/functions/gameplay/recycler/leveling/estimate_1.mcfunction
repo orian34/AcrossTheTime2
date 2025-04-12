@@ -13,6 +13,7 @@ scoreboard players operation epi_set RECYCLER *= 25 RECYCLER
 scoreboard players operation epi_esc RECYCLER *= 30 RECYCLER
 scoreboard players operation leg RECYCLER *= 60 RECYCLER
 scoreboard players operation leg_armset RECYCLER *= 75 RECYCLER
+scoreboard players operation ult RECYCLER *= 100 RECYCLER
 #from shop->low price
 scoreboard players operation com_buy RECYCLER *= 2 RECYCLER
 scoreboard players operation unc_buy RECYCLER *= 5 RECYCLER
@@ -20,4 +21,5 @@ scoreboard players operation rar_buy RECYCLER *= 9 RECYCLER
 scoreboard players operation epi_buy RECYCLER *= 12 RECYCLER
 scoreboard players operation epi_set_buy RECYCLER *= 25 RECYCLER
 scoreboard players operation leg_buy RECYCLER *= 50 RECYCLER
-scoreboard players operation leg_armset_buy RECYCLER *= 75 RECYCLER
+scoreboard players operation leg_armset_buy RECYCLER *= 60 RECYCLER
+scoreboard players operation ult_buy RECYCLER *= 75 RECYCLER

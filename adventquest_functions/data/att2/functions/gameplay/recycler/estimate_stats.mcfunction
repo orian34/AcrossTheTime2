@@ -13,6 +13,7 @@ scoreboard players operation itemtotal_sold RECYCLER += epi_set RECYCLER
 scoreboard players operation itemtotal_sold RECYCLER += epi_esc RECYCLER
 scoreboard players operation itemtotal_sold RECYCLER += leg RECYCLER
 scoreboard players operation itemtotal_sold RECYCLER += leg_armset RECYCLER
+scoreboard players operation itemtotal_sold RECYCLER += ult RECYCLER
 
 scoreboard players operation itemtotal_sold_misc RECYCLER += arrow RECYCLER
 scoreboard players operation itemtotal_sold_misc RECYCLER += misc RECYCLER
@@ -24,6 +25,7 @@ scoreboard players operation itemtotal_sold_epi RECYCLER += epi_set RECYCLER
 scoreboard players operation itemtotal_sold_epi RECYCLER += epi_esc RECYCLER
 scoreboard players operation itemtotal_sold_leg RECYCLER += leg RECYCLER
 scoreboard players operation itemtotal_sold_leg RECYCLER += leg_armset RECYCLER
+scoreboard players operation itemtotal_sold_ult RECYCLER += ult RECYCLER
 
 scoreboard players operation itemtotal_com_points RECYCLER += com RECYCLER
 scoreboard players operation itemtotal_com_points RECYCLER *= 1 RECYCLER
@@ -47,3 +49,7 @@ scoreboard players operation itemtotal_leg_points RECYCLER += leg_armset RECYCLE
 scoreboard players operation itemtotal_leg_points RECYCLER *= 25 RECYCLER
 scoreboard players operation points RECYCLER += itemtotal_leg_points RECYCLER
 scoreboard players set itemtotal_leg_points RECYCLER 0
+scoreboard players operation itemtotal_ult_points RECYCLER += ult RECYCLER
+scoreboard players operation itemtotal_ult_points RECYCLER *= 50 RECYCLER
+scoreboard players operation points RECYCLER += itemtotal_ult_points RECYCLER
+scoreboard players set itemtotal_ult_points RECYCLER 0

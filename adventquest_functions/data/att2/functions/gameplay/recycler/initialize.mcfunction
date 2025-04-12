@@ -11,12 +11,14 @@ execute unless score itemtotal_sold_unc RECYCLER matches 1.. run scoreboard play
 execute unless score itemtotal_sold_rar RECYCLER matches 1.. run scoreboard players set itemtotal_sold_rar RECYCLER 0
 execute unless score itemtotal_sold_epi RECYCLER matches 1.. run scoreboard players set itemtotal_sold_epi RECYCLER 0
 execute unless score itemtotal_sold_leg RECYCLER matches 1.. run scoreboard players set itemtotal_sold_leg RECYCLER 0
+execute unless score itemtotal_sold_ult RECYCLER matches 1.. run scoreboard players set itemtotal_sold_ult RECYCLER 0
 scoreboard players set itemtotal_misc_points RECYCLER 0
 scoreboard players set itemtotal_com_points RECYCLER 0
 scoreboard players set itemtotal_unc_points RECYCLER 0
 scoreboard players set itemtotal_rar_points RECYCLER 0
 scoreboard players set itemtotal_epi_points RECYCLER 0
 scoreboard players set itemtotal_leg_points RECYCLER 0
+scoreboard players set itemtotal_ult_points RECYCLER 0
 scoreboard players set 500 RECYCLER 500
 scoreboard players set 450 RECYCLER 450
 scoreboard players set 400 RECYCLER 400

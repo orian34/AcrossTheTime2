@@ -24,3 +24,4 @@ kill @e[type=item,distance=..1,predicate=att2_pre:recycle/epi_set]
 kill @e[type=item,distance=..1,predicate=att2_pre:recycle/epi_esc]
 execute as @e[type=item,distance=..1,predicate=att2_pre:recycle/leg,predicate=!att2_pre:recycle/error] run kill @s
 kill @e[type=item,distance=..1,predicate=att2_pre:recycle/leg_armset]
+kill @e[type=item,distance=..1,predicate=att2_pre:recycle/ult]

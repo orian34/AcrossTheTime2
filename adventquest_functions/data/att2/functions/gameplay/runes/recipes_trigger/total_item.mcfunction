@@ -128,3 +128,5 @@ execute if entity @s[nbt={Item:{tag:{Rarity:"leg",EquipmentType:"potion"}}}] run
 execute if entity @s[nbt={Item:{tag:{Rarity:"leg"}}}] unless entity @s[nbt={Item:{tag:{EquipmentType:"runic_word"}}}] run scoreboard players add leg RUNECOUNT 1
 execute if entity @s[nbt={Item:{tag:{Rarity:"leg_armset"}}}] run scoreboard players add leg_set RUNECOUNT 1
 execute if entity @s[nbt={Item:{tag:{Rarity:"leg_armset"}}}] run scoreboard players add leg RUNECOUNT 1
+#total_ult
+execute if entity @s[nbt={Item:{tag:{Rarity:"ult"}}}] unless entity @s[nbt={Item:{tag:{EquipmentType:"runic_word"}}}] run scoreboard players add ult RUNECOUNT 1
