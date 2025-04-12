@@ -15,6 +15,15 @@ scoreboard players operation itemtotal_sold RECYCLER += leg RECYCLER
 scoreboard players operation itemtotal_sold RECYCLER += leg_armset RECYCLER
 scoreboard players operation itemtotal_sold RECYCLER += ult RECYCLER
 
+scoreboard players operation itemtotal_sold RECYCLER += com_buy RECYCLER
+scoreboard players operation itemtotal_sold RECYCLER += unc_buy RECYCLER
+scoreboard players operation itemtotal_sold RECYCLER += rar_buy RECYCLER
+scoreboard players operation itemtotal_sold RECYCLER += epi_buy RECYCLER
+scoreboard players operation itemtotal_sold RECYCLER += epi_set_buy RECYCLER
+scoreboard players operation itemtotal_sold RECYCLER += leg_buy RECYCLER
+scoreboard players operation itemtotal_sold RECYCLER += leg_armset_buy RECYCLER
+scoreboard players operation itemtotal_sold RECYCLER += ult_buy RECYCLER
+
 scoreboard players operation itemtotal_sold_misc RECYCLER += arrow RECYCLER
 scoreboard players operation itemtotal_sold_misc RECYCLER += misc RECYCLER
 scoreboard players operation itemtotal_sold_com RECYCLER += com RECYCLER
