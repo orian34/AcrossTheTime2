@@ -3,6 +3,11 @@
 #Level and Cooldown	for Explosive trap							#
 #################################################################
 
+#nova/Corrupted stop
+execute as @s[tag=Nova] run function att2:gameplay/dahal/action/spell11/stop
+execute as @s[tag=Corrupted] run function att2:gameplay/dahal/action/spell40/stop
+execute as @s[tag=Tiid_Klo_Ul] run function att2:gameplay/dahal/action/spell9/stop
+
 scoreboard players set @s[scores={SPELL6_SLCT=1}] COOLDOWN6 100
 scoreboard players set @s[scores={SPELL6_SLCT=2}] COOLDOWN6 120
 scoreboard players set @s[scores={SPELL6_SLCT=3}] COOLDOWN6 140

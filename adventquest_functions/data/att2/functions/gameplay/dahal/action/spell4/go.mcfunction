@@ -3,11 +3,6 @@
 #Process power ray incantation									#
 #################################################################
 
-#nova/Corrupted stop
-execute as @s[tag=Nova] run function att2:gameplay/dahal/action/spell11/stop
-execute as @s[tag=Corrupted] run function att2:gameplay/dahal/action/spell40/stop
-execute as @s[tag=Tiid_Klo_Ul] run function att2:gameplay/dahal/action/spell9/stop
-
 execute as @s[scores={SPELL4_SLCT=1,DAHAL=100..}] at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell4/lvl1
 execute as @s[scores={SPELL4_SLCT=2,DAHAL=125..}] at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell4/lvl2
 execute as @s[scores={SPELL4_SLCT=3,DAHAL=150..}] at @s positioned ~ ~1 ~ run function att2:gameplay/dahal/action/spell4/lvl3

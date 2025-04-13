@@ -3,11 +3,6 @@
 #Process Thunder incantation									#
 #################################################################
 
-#nova/Corrupted stop
-execute as @s[tag=Nova] run function att2:gameplay/dahal/action/spell11/stop
-execute as @s[tag=Corrupted] run function att2:gameplay/dahal/action/spell40/stop
-execute as @s[tag=Tiid_Klo_Ul] run function att2:gameplay/dahal/action/spell9/stop
-
 execute as @s[scores={SPELL5_SLCT=1,DAHAL=80..}] at @s anchored eyes positioned ^ ^ ^6 run function att2:gameplay/dahal/action/spell5/lvl1
 execute as @s[scores={SPELL5_SLCT=2,DAHAL=100..}] at @s anchored eyes positioned ^ ^ ^6 run function att2:gameplay/dahal/action/spell5/lvl2
 execute as @s[scores={SPELL5_SLCT=3,DAHAL=120..}] at @s anchored eyes positioned ^ ^ ^7 run function att2:gameplay/dahal/action/spell5/lvl3

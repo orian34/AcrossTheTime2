@@ -3,10 +3,6 @@
 #Start Corruption												#
 #################################################################
 
-#nova/Corrupted stop
-execute as @s[tag=Nova] run function att2:gameplay/dahal/action/spell11/stop
-execute as @s[tag=Tiid_Klo_Ul] run function att2:gameplay/dahal/action/spell9/stop
-
 tag @s[scores={DAHAL=100..}] add Corrupted
 scoreboard players remove @s[tag=Corrupted] DAHAL 100
 

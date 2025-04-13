@@ -3,11 +3,6 @@
 #Process fire ball incantation									#
 #################################################################
 
-#nova/Corrupted stop
-execute as @s[tag=Nova] run function att2:gameplay/dahal/action/spell11/stop
-execute as @s[tag=Corrupted] run function att2:gameplay/dahal/action/spell40/stop
-execute as @s[tag=Tiid_Klo_Ul] run function att2:gameplay/dahal/action/spell9/stop
-
 execute as @s[scores={SPELL1_SLCT=1,DAHAL=15..}] anchored eyes at @s positioned ^ ^ ^1.2 run function att2:gameplay/dahal/action/spell1/lvl1
 execute as @s[scores={SPELL1_SLCT=2,DAHAL=60..}] anchored eyes at @s positioned ^ ^ ^1.2 run function att2:gameplay/dahal/action/spell1/lvl2
 execute as @s[scores={SPELL1_SLCT=3,DAHAL=90..}] anchored eyes at @s positioned ^ ^ ^1.2 run function att2:gameplay/dahal/action/spell1/lvl3
