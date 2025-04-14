@@ -14,3 +14,5 @@ summon minecraft:experience_orb ~ ~1 ~-0.25 {Value:2}
 summon minecraft:experience_orb ~ ~ ~ {Value:6}
 summon minecraft:experience_orb ~ ~0.5 ~ {Value:16}
 summon minecraft:experience_orb ~ ~1 ~ {Value:32}
+##spell34 clear
+function att2:gameplay/dahal/action/spell34/clear_symbol_marker

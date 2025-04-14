@@ -4,13 +4,13 @@
 #################################################################
 
 scoreboard objectives add COOLDOWN34 dummy
-scoreboard objectives add LIMIT34 dummy
+scoreboard objectives add LIMIT77 dummy
 scoreboard objectives add SPELL34_LVL dummy
 scoreboard objectives add SPELL34_CAP dummy
 scoreboard objectives add SPELL34_INIT dummy
 
 scoreboard players set @s COOLDOWN34 0
-scoreboard players set @s LIMIT34 0
+scoreboard players set @s LIMIT77 0
 scoreboard players set @s SPELL34_LVL 0
 scoreboard players set @s SPELL34_CAP 1
 scoreboard players set @s SPELL34_INIT 1

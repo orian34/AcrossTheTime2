@@ -150,7 +150,9 @@ execute as 00000000-0000-151a-0000-00000000151a if entity @s[distance=..4] run f
 execute as 00000000-0000-152a-0000-00000000152a if entity @s[distance=..4] run function att2:gameplay/pnj_talk/dialog_update/jade_rozaell
 execute as 00000000-0000-153a-0000-00000000153a if entity @s[distance=..4] run function att2:gameplay/pnj_talk/dialog_update/cassandre
 execute as 00000000-0000-154a-0000-00000000154a if entity @s[distance=..4] run function att2:gameplay/pnj_talk/dialog_update/barry
-
+##spell34 clear
+function att2:gameplay/dahal/action/spell34/clear_npc_marker
+function att2:gameplay/dahal/action/spell34/clear_quest_marker
 #fix
 effect give @e[type=minecraft:villager] minecraft:invisibility infinite 0 true
 execute as @e[type=minecraft:item_frame] at @s unless entity @s[nbt={Invulnerable:1b}] run data merge entity @s {Invulnerable:1}
