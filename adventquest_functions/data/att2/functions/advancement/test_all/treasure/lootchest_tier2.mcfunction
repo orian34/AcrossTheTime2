@@ -5,3 +5,6 @@
 
 advancement revoke @s only att2:treasure/lootchest_tier2_trigger
 scoreboard players add tier2 LOOTCHEST 1
+##spell34 clear
+scoreboard players set @s SPELL34_CHEST 1
+function att2:gameplay/dahal/action/spell34/clear_secret_marker

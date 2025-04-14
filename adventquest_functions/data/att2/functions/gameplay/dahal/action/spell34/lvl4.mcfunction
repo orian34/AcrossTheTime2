@@ -3,8 +3,8 @@
 #Secret Seeker lvl1										        #
 #################################################################
 
-scoreboard players set @s LIMIT34 0
-
+scoreboard players set @s LIMIT77 0
+function att2:gameplay/dahal/action/spell34/reset_marker
 execute as @s[scores={DIMENSION=0}] run function att2:gameplay/dahal/action/spell34/detection/telluron_past
 execute as @s[scores={DIMENSION=1}] run function att2:gameplay/dahal/action/spell34/detection/telluron
 execute as @s[scores={DIMENSION=1}] run function att2:gameplay/dahal/action/spell34/detection/telluron_ryliath
@@ -30,8 +30,8 @@ team join detect_symbol @e[type=minecraft:shulker,tag=symbolmarker]
 team join detect_chest @e[type=minecraft:shulker,tag=chestmarker]
 team join detect_minerals_runes @e[type=minecraft:shulker,tag=mineralsmarker]
 
-execute if score @s LIMIT34 matches ..12 as @s run function att2:dialogs/gameplay/dahal/spell34_reveal
-execute if score @s LIMIT34 matches 13.. as @s run function att2:dialogs/gameplay/dahal/spell34_reveal_max
+execute if score @s LIMIT77 matches ..12 as @s run function att2:dialogs/gameplay/dahal/spell34_reveal
+execute if score @s LIMIT77 matches 26.. as @s run function att2:dialogs/gameplay/dahal/spell34_reveal_max
 
 scoreboard players remove @s DAHAL 170
 function att2:gameplay/dahal/action/spell34/cooldown
@@ -41,3 +41,5 @@ scoreboard players operation @s SPELL34_LVL += @s BONUS_XP_SPELL
 
 # Spell launch total count for advancement
 scoreboard players add @s SPELLS_COUNT 1
+##test SPELLS_COUNT
+function att2:advancement/test_all/spell/launch_count

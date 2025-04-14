@@ -3,11 +3,6 @@
 #Process earthquake incantation									#
 #################################################################
 
-#nova/Corrupted stop
-execute as @s[tag=Nova] run function att2:gameplay/dahal/action/spell11/stop
-execute as @s[tag=Corrupted] run function att2:gameplay/dahal/action/spell40/stop
-execute as @s[tag=Tiid_Klo_Ul] run function att2:gameplay/dahal/action/spell9/stop
-
 execute as @s[scores={SPELL10_SLCT=1,DAHAL=30..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell10/lvl1
 execute as @s[scores={SPELL10_SLCT=2,DAHAL=50..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell10/lvl2
 execute as @s[scores={SPELL10_SLCT=3,DAHAL=70..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell10/lvl3

@@ -3,10 +3,6 @@
 #Process Tiid Klo Ul incantation								#
 #################################################################
 
-#nova/Corrupted stop
-execute as @s[tag=Nova] run function att2:gameplay/dahal/action/spell11/stop
-execute as @s[tag=Corrupted] run function att2:gameplay/dahal/action/spell40/stop
-
 execute as @s[scores={SPELL9_SLCT=1,DAHAL=25..}] at @s run function att2:gameplay/dahal/action/spell9/lvl1
 execute as @s[scores={SPELL9_SLCT=2,DAHAL=50..}] at @s run function att2:gameplay/dahal/action/spell9/lvl2
 execute as @s[scores={SPELL9_SLCT=3,DAHAL=75..}] at @s run function att2:gameplay/dahal/action/spell9/lvl3

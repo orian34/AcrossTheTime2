@@ -3,6 +3,10 @@
 #Level and Cooldown	 for corruption								#
 #################################################################
 
+#nova/Corrupted stop
+execute as @s[tag=Nova] run function att2:gameplay/dahal/action/spell11/stop
+execute as @s[tag=Tiid_Klo_Ul] run function att2:gameplay/dahal/action/spell9/stop
+
 scoreboard players set @s[scores={SPELL40_CAP=1}] COOLDOWN40 160
 scoreboard players set @s[scores={SPELL40_CAP=2}] COOLDOWN40 150
 scoreboard players set @s[scores={SPELL40_CAP=3}] COOLDOWN40 140

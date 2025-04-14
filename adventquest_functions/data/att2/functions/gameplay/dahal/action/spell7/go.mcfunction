@@ -3,11 +3,6 @@
 #Process Geyser incantation									    #
 #################################################################
 
-#nova/Corrupted stop
-execute as @s[tag=Nova] run function att2:gameplay/dahal/action/spell11/stop
-execute as @s[tag=Corrupted] run function att2:gameplay/dahal/action/spell40/stop
-execute as @s[tag=Tiid_Klo_Ul] run function att2:gameplay/dahal/action/spell9/stop
-
 execute as @s[scores={SPELL7_SLCT=1,DAHAL=20..}] at @s run function att2:gameplay/dahal/action/spell7/lvl1
 execute as @s[scores={SPELL7_SLCT=2,DAHAL=30..}] at @s run function att2:gameplay/dahal/action/spell7/lvl2
 execute as @s[scores={SPELL7_SLCT=3,DAHAL=40..}] at @s run function att2:gameplay/dahal/action/spell7/lvl3
