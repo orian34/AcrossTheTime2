@@ -5,6 +5,7 @@
         },
         "title": {"translate":"Return with fruitful results"},
         "description": {"translate":"The single bet points exceed 333"},
+        "hidden": true,
         "frame": "challenge"
     },
     "parent": "att2:treasure/bets_777",
