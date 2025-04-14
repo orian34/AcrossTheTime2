@@ -9,7 +9,7 @@
         "show_toast": false,
         "announce_to_chat": false
     },
-    "parent": "att2:hunting/korlaph_master_timerecord",
+    "parent": "att2:hunting/korlaph",
     "criteria": {
         "korlaph": {
             "trigger": "minecraft:player_killed_entity",
