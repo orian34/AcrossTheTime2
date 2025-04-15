@@ -6,10 +6,14 @@
 # execute as @e[team=hostile,scores={GAMELEVEL=0..},distance=..5,tag=!Undead] run effect give @s minecraft:instant_damage 2 2
 # execute as @e[team=hostile,scores={GAMELEVEL=0..},distance=..5,tag=Undead] run effect give @s minecraft:instant_health 2 2
 execute as @e[team=hostile,scores={GAMELEVEL=0..},distance=..5] run data merge entity @s {Fire:120}
-execute positioned ~1.5 ~1.5 ~ run summon minecraft:wither_skull ~ ~ ~ {Motion:[1.0,0.0,0.0]}
-execute positioned ~-1.5 ~1.5 ~ run summon minecraft:wither_skull ~ ~ ~ {Motion:[-1.0,0.0,0.0]}
-execute positioned ~ ~1.5 ~1.5 run summon minecraft:wither_skull ~ ~ ~ {Motion:[0.0,0.0,1.0]}
-execute positioned ~ ~1.5 ~-1.5 run summon minecraft:wither_skull ~ ~ ~ {Motion:[0.0,0.0,-1.0]}
+execute positioned ~1.5 ~1.5 ~ run summon minecraft:wither_skull ~ ~ ~ {Tags:["SET"],Motion:[1.0,0.0,0.0]}
+execute positioned ~-1.5 ~1.5 ~ run summon minecraft:wither_skull ~ ~ ~ {Tags:["SET"],Motion:[-1.0,0.0,0.0]}
+execute positioned ~ ~1.5 ~1.5 run summon minecraft:wither_skull ~ ~ ~ {Tags:["SET"],Motion:[0.0,0.0,1.0]}
+execute positioned ~ ~1.5 ~-1.5 run summon minecraft:wither_skull ~ ~ ~ {Tags:["SET"],Motion:[0.0,0.0,-1.0]}
+
+execute as @e[type=minecraft:wither_skull,tag=SET] at @s run data modify entity @s Owner set from entity @p UUID
+tag @e[type=minecraft:wither_skull,tag=SET] remove SET
+
 execute as @e[type=minecraft:wither_skull] run scoreboard players set @s SPELL3_SKULL 50
 execute if entity @a[tag=fireMelting] run function att2:gameplay/dahal/action/spell3/enable_fire_melting
 
