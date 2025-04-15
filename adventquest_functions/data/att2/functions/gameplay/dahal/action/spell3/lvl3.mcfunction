@@ -22,6 +22,8 @@ scoreboard players operation @s SPELL3_LVL += @s BONUS_XP_SPELL
 
 # Spell launch total count for advancement
 scoreboard players add @s SPELLS_COUNT 1
+##test SPELLS_COUNT
+function att2:advancement/test_all/spell/launch_count
 
 execute if score BonusDahalPower RUNE matches 0 run function att2:gameplay/dahal/action/spell3/damage/lvl3/bonus0
 execute if score BonusDahalPower RUNE matches 1 run function att2:gameplay/dahal/action/spell3/damage/lvl3/bonus1

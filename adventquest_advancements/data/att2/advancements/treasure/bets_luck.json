@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_carrot"
+        },
+        "title": {"translate":"Return with fruitful results"},
+        "description": {"translate":"The single bet points exceed 333"},
+        "hidden": true,
+        "frame": "challenge"
+    },
+    "parent": "att2:treasure/bets_777",
+        "rewards": {
+            "experience": 77777
+    },
+    "criteria": {
+        "bets_777": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
