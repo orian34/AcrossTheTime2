@@ -12,6 +12,9 @@ scoreboard players set @s[scores={HAS_LVL_DAB=..4}] HAS_LVL_DAB 4
 scoreboard players set @s[scores={HAS_LVL_DAB=..4}] TIMER_HAS_DAB 1800
 scoreboard players set @s[scores={SPD_LVL_DAB=..3}] SPD_LVL_DAB 3
 scoreboard players set @s[scores={SPD_LVL_DAB=..3}] TIMER_SPD_DAB 1800
+#effect other 
+execute at @s as @e[type=minecraft:wolf,scores={BELONG_PLAYER1=1..}] if score @s BELONG_PLAYER1 = @a[distance=..0,limit=1] NUMEROJOUEUR run function att2:gameplay/dahal/action/spell44/effect_other
+execute at @s as @e[type=minecraft:iron_golem,scores={BELONG_PLAYER2=1..}] if score @s BELONG_PLAYER2 = @a[distance=..0,limit=1] NUMEROJOUEUR run function att2:gameplay/dahal/action/spell44/effect_other
 scoreboard players remove @s DAHAL 130
 tag @s add Elusive
 function att2:gameplay/dahal/action/spell44/cooldown

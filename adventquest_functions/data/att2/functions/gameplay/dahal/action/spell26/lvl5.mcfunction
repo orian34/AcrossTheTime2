@@ -5,6 +5,10 @@
 
 execute positioned ~ ~ ~ run function att2:summon/dahal/golem0_class12
 scoreboard players operation @e[tag=Spell26] BELONG_PLAYER2 = @s NUMEROJOUEUR
+
+scoreboard players set @s SPELL26_MAX 0
+execute at @s as @e[type=minecraft:iron_golem,scores={BELONG_PLAYER2=1..}] if score @s BELONG_PLAYER2 = @a[distance=..0,limit=1] NUMEROJOUEUR run function att2:gameplay/dahal/action/spell26/golem_max
+
 execute as @e[tag=Spell26] run tag @s remove Spell26
 scoreboard players remove @s DAHAL 150
 function att2:gameplay/dahal/action/spell26/cooldown

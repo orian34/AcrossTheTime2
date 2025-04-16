@@ -4,7 +4,14 @@
 #################################################################
 
 execute at @s run kill @e[type=minecraft:fireball,distance=..2]
-summon minecraft:fireball ~ ~-0.2 ~ {Tags:["FireballSpell"],ExplosionPower:4,Motion:[0.0,0.0,0.0]}
+
+execute anchored eyes at @s positioned ^ ^ ^1.5 run summon minecraft:fireball ~ ~ ~ {Tags:["FireballSpell","STOP"],ExplosionPower:5,Motion:[0.0,0.0,0.0]}
+execute at @s positioned 0.0 0.0 0.0 run summon minecraft:armor_stand ^ ^ ^1 {Marker:1,Tags:["POS"],Invulnerable:1b,Invisible:1b}
+data modify entity @e[type=fireball,tag=FireballSpell,tag=STOP,sort=nearest,limit=1] power set from entity @e[type=armor_stand,tag=POS,limit=1,sort=nearest] Pos
+data modify entity @e[type=fireball,tag=FireballSpell,tag=STOP,sort=nearest,limit=1] Owner set from entity @p UUID
+tag @e[tag=FireballSpell,tag=STOP,type=fireball] remove STOP
+kill @e[type=armor_stand,tag=POS]
+
 scoreboard players remove @s DAHAL 140
 function att2:gameplay/dahal/action/spell1/cooldown
 scoreboard players add @s SPELL1_LVL 3
