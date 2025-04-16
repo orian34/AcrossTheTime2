@@ -3,8 +3,6 @@
 #Process Golem incantation								        #
 #################################################################
 
-# Incase the player already as the summon, the previous one should be destroyed
-execute at @s as @e[scores={BELONG_PLAYER2=0..}] if score @s BELONG_PLAYER2 = @p NUMEROJOUEUR run kill @s
 execute as @s[scores={SPELL26_SLCT=1,DAHAL=100..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell26/lvl1
 execute as @s[scores={SPELL26_SLCT=2,DAHAL=110..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell26/lvl2
 execute as @s[scores={SPELL26_SLCT=3,DAHAL=120..}] anchored eyes at @s run function att2:gameplay/dahal/action/spell26/lvl3
