@@ -15,4 +15,4 @@ execute positioned 5000 130 -5030 if score Pool4_A1 ARENA matches -2 if score Po
 execute if score Pool4_Timer1 ARENA matches 0.. run scoreboard players remove Pool4_Timer1 ARENA 1
 
 # Arenas go
-execute if score Pool4_A1 ARENA matches -1.. run function att2:gameplay/arena/pool4/1/go
+#execute if score Pool4_A1 ARENA matches -1.. run function att2:gameplay/arena/pool4/1/go

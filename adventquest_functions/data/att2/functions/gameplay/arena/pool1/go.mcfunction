@@ -21,10 +21,10 @@ execute positioned 5332 97.5 -5000 if score Pool1_A7 ARENA matches -2 if score P
 execute if score Pool1_Timer1 ARENA matches 0.. run scoreboard players remove Pool1_Timer1 ARENA 1
 
 # Arenas go
-execute if score Pool1_A1 ARENA matches -1.. run function att2:gameplay/arena/pool1/1/go
-execute if score Pool1_A2 ARENA matches -1.. run function att2:gameplay/arena/pool1/2/go
-execute if score Pool1_A3 ARENA matches -1.. run function att2:gameplay/arena/pool1/3/go
-execute if score Pool1_A4 ARENA matches -1.. run function att2:gameplay/arena/pool1/4/go
-execute if score Pool1_A5 ARENA matches -1.. run function att2:gameplay/arena/pool1/5/go
-execute if score Pool1_A6 ARENA matches -1.. run function att2:gameplay/arena/pool1/6/go
-execute if score Pool1_A7 ARENA matches -1.. run function att2:gameplay/arena/pool1/7/go
+#execute if score Pool1_A1 ARENA matches -1.. run function att2:gameplay/arena/pool1/1/go
+#execute if score Pool1_A2 ARENA matches -1.. run function att2:gameplay/arena/pool1/2/go
+#execute if score Pool1_A3 ARENA matches -1.. run function att2:gameplay/arena/pool1/3/go
+#execute if score Pool1_A4 ARENA matches -1.. run function att2:gameplay/arena/pool1/4/go
+#execute if score Pool1_A5 ARENA matches -1.. run function att2:gameplay/arena/pool1/5/go
+#execute if score Pool1_A6 ARENA matches -1.. run function att2:gameplay/arena/pool1/6/go
+#execute if score Pool1_A7 ARENA matches -1.. run function att2:gameplay/arena/pool1/7/go
