@@ -4,9 +4,9 @@
 #Command in 726 80 829 												#
 #####################################################################
 
-execute if score OuranPhase1 OURANOS matches -1.. run function att2:gameplay/boss/ouranos/ouran/phase1/go
-execute if score OuranPhase2 OURANOS matches -1.. run function att2:gameplay/boss/ouranos/ouran/phase2/go
-execute if score OuranPhase3 OURANOS matches -1.. in minecraft:the_end run function att2:gameplay/boss/ouranos/ouran/phase3/go
+#execute if score OuranPhase1 OURANOS matches -1.. run function att2:gameplay/boss/ouranos/ouran/phase1/go
+#execute if score OuranPhase2 OURANOS matches -1.. run function att2:gameplay/boss/ouranos/ouran/phase2/go
+#execute if score OuranPhase3 OURANOS matches -1.. in minecraft:the_end run function att2:gameplay/boss/ouranos/ouran/phase3/go
 execute if score Ouran OURANOS matches 1 run function att2:gameplay/boss/ouranos/ouran/victory_cinematic
 
 # Sound security

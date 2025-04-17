@@ -7,7 +7,7 @@ scoreboard players add total_killed BOSS 1
 ##test boss
 function att2:advancement/test_all/mobskilled/boss
 ##revoke test
-advancement revoke @a only att2_test:test_boss/karon
+scoreboard players reset karon_test BOSS
 scoreboard players set Karon ANGOR -2
 execute as @a run function att2:gameplay/boss/angband/karon/stop
 execute positioned 3525 123 4510 run function att2:gameplay/boss/rewards_start

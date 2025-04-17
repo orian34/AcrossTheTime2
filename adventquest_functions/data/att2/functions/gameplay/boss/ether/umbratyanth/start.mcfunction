@@ -4,7 +4,7 @@
 #####################################################################
 
 ##revoke test
-advancement revoke @a only att2_test:test_boss/umbratyanth
+scoreboard players set umbratyanth_test BOSS 0
 scoreboard players set in_fight BOSS 1
 stopsound @a
 execute as @e[type=minecraft:item,x=-5158,y=119,z=-6911,dx=82,dy=40,dz=82] at @s run kill @s

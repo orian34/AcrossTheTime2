@@ -7,7 +7,7 @@ scoreboard players add total_killed BOSS 1
 ##test boss
 function att2:advancement/test_all/mobskilled/boss
 ##revoke test
-advancement revoke @a only att2_test:test_boss/torkant
+scoreboard players reset torkant_test BOSS
 scoreboard players set Torkant SQ52 -2
 execute as @a run function att2:gameplay/boss/nojelanth/torkant/stop
 execute positioned -5520 27 -4181 run function att2:gameplay/boss/rewards_start

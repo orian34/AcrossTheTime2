@@ -35,10 +35,10 @@ execute as @e[type=minecraft:ghast,tag=Somniophages] at @s run tp @s[y=48,dy=-10
 execute as @e[type=minecraft:ghast,tag=Somniophages] at @s run tp @s[y=208,dy=2000] ~ ~-156 ~
 
 # Player failed destroying Somniophages and died
-execute if score Somniophages SQ48 matches 0.. unless entity @a[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,gamemode=adventure] if entity @e[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,type=minecraft:ghast,tag=Somniophages] run function att2:gameplay/boss/ouranos/somniophages/fail
+execute if score Somniophages SQ48 matches 0.. unless entity @a[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,gamemode=adventure] run function att2:gameplay/boss/ouranos/somniophages/fail
 
 # Testing if Somniophages died
-execute if score Somniophages SQ48 matches 0.. if entity @a[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,gamemode=adventure,advancements={att2_test:test_boss/somniophages=true}] unless entity @e[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,type=minecraft:ghast,tag=Somniophages] run function att2:gameplay/boss/ouranos/somniophages/victory
+execute if score Somniophages SQ48 matches 0.. if entity @a[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,gamemode=adventure] unless entity @e[x=6657,y=2,z=7013,dx=91,dy=250,dz=117,type=minecraft:ghast,tag=Somniophages] run function att2:gameplay/boss/ouranos/somniophages/victory
 
 # Player can quit the arena when Somniophages had been defeated
 execute if score Somniophages SQ48 matches -2 as @a[x=6747,y=127,z=7066,dx=0,dy=3,dz=2,gamemode=adventure] at @s run tp @s ~2 ~ ~

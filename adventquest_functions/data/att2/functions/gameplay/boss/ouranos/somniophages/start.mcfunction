@@ -4,8 +4,7 @@
 #####################################################################
 
 ##revoke test
-advancement grant @a only att2_test:test_boss/somniophages
-advancement revoke @a only att2_test:test_boss/somniophages
+scoreboard players set somniophages_test BOSS 0
 scoreboard players set in_fight BOSS 1
 stopsound @a
 execute as @a run tag @s add NoAutoMusic

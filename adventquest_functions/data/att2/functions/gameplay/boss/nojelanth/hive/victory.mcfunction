@@ -7,7 +7,7 @@ scoreboard players add total_killed BOSS 1
 ##test boss
 function att2:advancement/test_all/mobskilled/boss
 ##revoke test
-advancement revoke @a only att2_test:test_boss/hive
+scoreboard players reset hive_test BOSS
 scoreboard players set Hive SQ58 -2
 execute as @a run function att2:gameplay/boss/nojelanth/hive/stop
 execute positioned -7548 70 -4177 run function att2:gameplay/boss/rewards_start

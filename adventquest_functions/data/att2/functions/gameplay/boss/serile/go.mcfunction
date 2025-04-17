@@ -8,10 +8,10 @@
 #################################################################################################
 
 # Process go of all phases
-execute if score Phase1 SERILE matches 0.. run function att2:gameplay/boss/serile/phase1/go
-execute if score Phase2 SERILE matches 0.. run function att2:gameplay/boss/serile/phase2/go
-execute if score Phase3 SERILE matches 0.. run function att2:gameplay/boss/serile/phase3/go
-execute if score Phase4 SERILE matches 0.. run function att2:gameplay/boss/serile/phase4/go
+#execute if score Phase1 SERILE matches 0.. run function att2:gameplay/boss/serile/phase1/go
+#execute if score Phase2 SERILE matches 0.. run function att2:gameplay/boss/serile/phase2/go
+#execute if score Phase3 SERILE matches 0.. run function att2:gameplay/boss/serile/phase3/go
+#execute if score Phase4 SERILE matches 0.. run function att2:gameplay/boss/serile/phase4/go
 
 # Minions effect
 execute as @e[tag=SerileWitherMinion] at @s run function att2:gameplay/boss/serile/wither_minion_effect

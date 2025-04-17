@@ -7,8 +7,7 @@ scoreboard players add total_killed BOSS 1
 ##test boss
 function att2:advancement/test_all/mobskilled/boss
 ##revoke test
-advancement grant @a only att2_test:test_boss/illusions
-advancement revoke @a only att2_test:test_boss/illusions
+scoreboard players reset illusions_test BOSS
 scoreboard players set Illusions SILBERLAND -2
 execute if score SQ33 SIDEQUEST matches 3 run function att2:cinematic/sidequest/33/step4
 execute as @a run function att2:gameplay/boss/silberland/illusions/stop

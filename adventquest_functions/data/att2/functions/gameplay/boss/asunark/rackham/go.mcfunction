@@ -38,7 +38,7 @@ execute if score Rackham SQ41 matches 0.. if entity @a[x=-4032,y=35,z=-4294,dx=2
 execute if score Rackham SQ41 matches 0.. unless entity @a[x=-4032,y=35,z=-4294,dx=29,dy=17,dz=30,gamemode=adventure] run function att2:gameplay/boss/asunark/rackham/fail
 
 # Testing if Rackham died
-execute if score Rackham SQ41 matches 0.. if entity @a[x=-4032,y=35,z=-4294,dx=29,dy=17,dz=30,gamemode=adventure,advancements={att2_test:test_boss/rackham=true}] unless entity @e[x=-4032,y=35,z=-4294,dx=29,dy=17,dz=30,nbt={UUID:[I;0,268,0,268]}] run function att2:gameplay/boss/asunark/rackham/victory
+execute if score Rackham SQ41 matches 0.. if entity @a[x=-4032,y=35,z=-4294,dx=29,dy=17,dz=30,gamemode=adventure] unless entity @e[x=-4032,y=35,z=-4294,dx=29,dy=17,dz=30,nbt={UUID:[I;0,268,0,268]}] run function att2:gameplay/boss/asunark/rackham/victory
 
 # Player can quit the arena when Rackham had been defeated
 execute if score Rackham SQ41 matches -2 run tp @a[x=-4027,y=37,z=-4281,dx=0,dy=3,dz=4,gamemode=adventure] -4033 38 -4279

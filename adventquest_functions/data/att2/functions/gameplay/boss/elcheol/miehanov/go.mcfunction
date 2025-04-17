@@ -37,7 +37,7 @@ execute if score Miehanov VONAHEIM matches 0 as 00000000-0000-008b-0000-00000000
 execute if score Miehanov VONAHEIM matches 0.. unless entity @a[x=-5641,y=165,z=-6342,dx=52,dy=21,dz=-51,gamemode=adventure] run function att2:gameplay/boss/elcheol/miehanov/fail
 
 # Testing if Miehanov died
-execute if score Miehanov VONAHEIM matches 0.. if entity @a[x=-5641,y=165,z=-6342,dx=52,dy=21,dz=-51,gamemode=adventure,advancements={att2_test:test_boss/miehanov=true}] unless entity @e[x=-5641,y=165,z=-6342,dx=52,dy=21,dz=-51,nbt={UUID:[I;0,139,0,139]}] run function att2:gameplay/boss/elcheol/miehanov/victory
+execute if score Miehanov VONAHEIM matches 0.. if entity @a[x=-5641,y=165,z=-6342,dx=52,dy=21,dz=-51,gamemode=adventure] unless entity @e[x=-5641,y=165,z=-6342,dx=52,dy=21,dz=-51,nbt={UUID:[I;0,139,0,139]}] run function att2:gameplay/boss/elcheol/miehanov/victory
 
 # Player can quit the arena when Miehanov had been defeated
 execute if score Miehanov VONAHEIM matches -2 as @a[x=-5611,y=166,z=-6392,dx=-6,dy=2,dz=0,gamemode=adventure] at @s run tp @s ~ ~ ~-3

@@ -34,7 +34,7 @@ execute if score Scavenger SQ51 matches 0.. if entity @a[x=-5566,y=44,z=-4577,dx
 execute if score Scavenger SQ51 matches 0.. unless entity @a[x=-5566,y=44,z=-4577,dx=31,dy=17,dz=36,gamemode=adventure] run function att2:gameplay/boss/kert/scavenger/fail
 
 # Testing if Scavenger died
-execute if score Scavenger SQ51 matches 0.. if entity @a[x=-5566,y=44,z=-4577,dx=31,dy=17,dz=36,gamemode=adventure,advancements={att2_test:test_boss/scavenger=true}] unless entity @e[x=-5566,y=44,z=-4577,dx=31,dy=17,dz=36,nbt={UUID:[I;0,412,0,412]}] run function att2:gameplay/boss/kert/scavenger/victory
+execute if score Scavenger SQ51 matches 0.. if entity @a[x=-5566,y=44,z=-4577,dx=31,dy=17,dz=36,gamemode=adventure] unless entity @e[x=-5566,y=44,z=-4577,dx=31,dy=17,dz=36,nbt={UUID:[I;0,412,0,412]}] run function att2:gameplay/boss/kert/scavenger/victory
 
 # Player can quit the arena when Scavenger had been defeated
 execute if score Scavenger SQ51 matches -2 as @a[x=-5553,y=49,z=-4542,dx=2,dy=2,dz=0,gamemode=adventure] at @s run tp @s -5552 49 -4539

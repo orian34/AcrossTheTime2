@@ -41,7 +41,7 @@ execute if score EnterArena SECRET_DUNGEON matches 1.. run scoreboard players re
 execute if score Extratellur SECRET_DUNGEON matches 0.. unless entity @a[x=-4559,y=65,z=-5981,dx=-25,dy=-16,dz=30,gamemode=adventure] run function att2:gameplay/boss/silberland/extratellur/fail
 
 # Testing if Extratellur died
-execute if score Extratellur SECRET_DUNGEON matches 0.. if entity @a[x=-4559,y=65,z=-5981,dx=-25,dy=-16,dz=30,gamemode=adventure,advancements={att2_test:test_boss/extratellur=true}] unless entity @e[x=-4559,y=65,z=-5981,dx=-25,dy=-16,dz=30,type=minecraft:warden] run function att2:gameplay/boss/silberland/extratellur/victory
+execute if score Extratellur SECRET_DUNGEON matches 0.. if entity @a[x=-4559,y=65,z=-5981,dx=-25,dy=-16,dz=30,gamemode=adventure] unless entity @e[x=-4559,y=65,z=-5981,dx=-25,dy=-16,dz=30,type=minecraft:warden] run function att2:gameplay/boss/silberland/extratellur/victory
 
 # Player can quit the arena when Extratellur had been defeated
 execute if score Extratellur SECRET_DUNGEON matches -2 as @a[x=-4560,y=51,z=-5951,dx=-22,dy=7,dz=0,gamemode=adventure] at @s run tp @s -4571 51 -5948

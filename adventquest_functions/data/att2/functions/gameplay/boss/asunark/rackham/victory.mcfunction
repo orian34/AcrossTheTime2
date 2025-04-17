@@ -7,7 +7,7 @@ scoreboard players add total_killed BOSS 1
 ##test boss
 function att2:advancement/test_all/mobskilled/boss
 ##revoke test
-advancement revoke @a only att2_test:test_boss/rackham
+scoreboard players reset rackham_test BOSS
 scoreboard players set Rackham SQ41 -2
 execute as @a run function att2:gameplay/boss/asunark/rackham/stop
 execute positioned -4018 37 -4279 run function att2:gameplay/boss/rewards_start

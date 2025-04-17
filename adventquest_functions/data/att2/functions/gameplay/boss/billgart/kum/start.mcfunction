@@ -4,7 +4,7 @@
 #####################################################################
 
 ##revoke test
-advancement revoke @a only att2_test:test_boss/kum
+scoreboard players set kum_test BOSS 0
 scoreboard players set in_fight BOSS 1
 function att2:gameplay/boss/billgart/kum/emerald_trap_on
 function att2:physicmod/reg3/kum_revive

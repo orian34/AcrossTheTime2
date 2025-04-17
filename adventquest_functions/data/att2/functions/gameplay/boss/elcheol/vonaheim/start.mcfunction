@@ -4,7 +4,7 @@
 #####################################################################
 
 ##revoke test
-advancement revoke @a only att2_test:test_boss/vonaheim
+scoreboard players set vonaheim_test BOSS 0
 scoreboard players set in_fight BOSS 1
 function att2:gameplay/boss/elcheol/vonaheim/kill_minions
 execute positioned -5614 202 -6497 run function att2:summon/reg_1/vonaheim

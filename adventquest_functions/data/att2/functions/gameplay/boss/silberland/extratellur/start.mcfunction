@@ -4,8 +4,7 @@
 #####################################################################
 
 ##revoke test
-advancement grant @a only att2_test:test_boss/extratellur
-advancement revoke @a only att2_test:test_boss/extratellur
+scoreboard players set extratellur_test BOSS 0
 scoreboard players set in_fight BOSS 1
 scoreboard players set Extratellur SECRET_DUNGEON 0
 scoreboard players set Extratellur_timer1 SECRET_DUNGEON 0

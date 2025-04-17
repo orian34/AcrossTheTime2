@@ -38,7 +38,7 @@ execute if score Doom SQ56 matches 0.. if entity @a[x=-5229,y=47,z=-6293,distanc
 execute if score Doom SQ56 matches 0.. unless entity @a[x=-5229,y=47,z=-6293,distance=..25,gamemode=adventure] run function att2:gameplay/boss/elcheol/doom/fail
 
 # Testing if Doom died
-execute if score Doom SQ56 matches 0.. if entity @a[x=-5229,y=47,z=-6293,distance=..25,gamemode=adventure,advancements={att2_test:test_boss/doom=true}] unless entity @e[x=-5229,y=47,z=-6293,distance=..25,nbt={UUID:[I;0,620,0,620]}] run function att2:gameplay/boss/elcheol/doom/victory
+execute if score Doom SQ56 matches 0.. if entity @a[x=-5229,y=47,z=-6293,distance=..25,gamemode=adventure] unless entity @e[x=-5229,y=47,z=-6293,distance=..25,nbt={UUID:[I;0,620,0,620]}] run function att2:gameplay/boss/elcheol/doom/victory
 
 
 # Testing if player drop the medaillon and open the secret in the academy after SQ56 completed

@@ -31,7 +31,8 @@ execute if score Myrath SQ26 matches -1 if entity @a[x=-3881,y=83,z=-5592,dx=-22
 execute if score Myrath SQ26 matches 0.. unless entity @a[x=-3881,y=83,z=-5592,dx=-22,dy=11,dz=-24,gamemode=adventure] run function att2:gameplay/boss/adanoi/myrath/fail
 
 # Testing if Myrath died
-execute if score Myrath SQ26 matches 0.. if entity @a[x=-3881,y=83,z=-5592,dx=-22,dy=11,dz=-24,gamemode=adventure,advancements={att2_test:test_boss/myrath=true}] unless entity @e[x=-3881,y=83,z=-5592,dx=-22,dy=11,dz=-24,nbt={UUID:[I;0,28,0,28]}] run function att2:gameplay/boss/adanoi/myrath/victory
+execute if score Myrath SQ26 matches 0.. if entity @a[x=-3881,y=83,z=-5592,dx=-22,dy=11,dz=-24,gamemode=adventure] unless entity @e[x=-3881,y=83,z=-5592,dx=-22,dy=11,dz=-24,nbt={UUID:[I;0,28,0,28]}] run function att2:gameplay/boss/adanoi/myrath/victory
+
 
 # Player can quit the arena when Myrath had been defeated
 execute if score Myrath SQ26 matches -2 as @a[x=-3893,y=85,z=-5615,dx=2,dy=3,dz=0,gamemode=adventure] at @s run tp @s -3892 85 -5618

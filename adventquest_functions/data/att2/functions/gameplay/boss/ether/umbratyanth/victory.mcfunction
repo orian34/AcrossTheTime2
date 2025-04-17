@@ -7,7 +7,7 @@ scoreboard players add total_killed BOSS 1
 ##test boss
 function att2:advancement/test_all/mobskilled/boss
 ##revoke test
-advancement revoke @a only att2_test:test_boss/umbratyanth
+scoreboard players reset umbratyanth_test BOSS
 scoreboard players set Boss UMBRATYANTH -2
 execute as @a run function att2:gameplay/boss/ether/umbratyanth/stop
 execute positioned -5117 123 -6870 run function att2:gameplay/boss/rewards_start

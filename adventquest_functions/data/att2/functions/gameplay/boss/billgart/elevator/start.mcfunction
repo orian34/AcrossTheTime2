@@ -10,6 +10,7 @@ execute positioned -1239 179 -618 run function att2:summon/reg_3/guardian_emeral
 execute positioned -1236 179 -615 run function att2:summon/reg_3/guardian_iron
 execute positioned -1242 179 -615 run function att2:summon/reg_3/guardian_silver
 execute positioned -1239 34 -615 run function att2:summon/reg_3/elevator_level
+team join ally @e[tag=Guardian,tag=BossMinion,type=iron_golem]
 scoreboard players set Elevator_level BILLGART 1
 scoreboard players set Elevator_timer1 BILLGART 0
 scoreboard players set Elevator_steps BILLGART 0
