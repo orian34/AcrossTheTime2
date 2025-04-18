@@ -25,5 +25,7 @@ execute as @a[x=7883,y=121,z=6766,dx=0,dy=12,dz=12,gamemode=adventure] at @s run
 execute if score OuranPhase1 OURANOS matches -2 if score OuranPhase2 OURANOS matches -2 if score OuranPhase3 OURANOS matches -2 if entity @a[x=7885,y=0,z=6703,dx=139,dy=255,dz=138,gamemode=adventure] run function att2:gameplay/boss/ouranos/ouran/victory
 #make forceload true
 execute in overworld positioned 7971 109 6773 run forceload add ~ ~
+execute in overworld positioned 8112 181 6585 run forceload add ~ ~
+execute in the_end positioned 22 64 0 run forceload add ~ ~
 ##SPELL32 quest CHECK
 scoreboard players set @a tp_spell32_timer 20
