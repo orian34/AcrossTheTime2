@@ -26,4 +26,5 @@ execute if score Mainquest SIDEQUEST matches 180.. run function att2:gameplay/mi
 #torch lightpredicate att2_pre:chest_effect/t1
 execute if score light movelight matches 1 as @a[predicate=att2_pre:move_light/torch_hold] at @s run function att2:gameplay/misc/move_light/go
 execute if score light movelight matches 1 as @a[predicate=!att2_pre:move_light/torch_hold] at @s run function att2:gameplay/misc/move_light/over
-
+#tp item
+execute if score tic TIMECOUNTER matches 10 run function att2:gameplay/misc/tp_item/go
