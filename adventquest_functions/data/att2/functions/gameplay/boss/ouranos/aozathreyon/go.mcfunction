@@ -36,7 +36,7 @@ execute if score Aozathreyon OURANOS matches 0 if entity @a[x=7316,y=154,z=6554,
 execute if score Aozathreyon OURANOS matches 0.. unless entity @a[x=7316,y=154,z=6554,dx=-46,dy=48,dz=46,gamemode=adventure] run function att2:gameplay/boss/ouranos/aozathreyon/fail
 
 # Testing if Aozathreyon died
-execute if score Aozathreyon OURANOS matches 0.. if entity @a[x=7316,y=154,z=6554,dx=-46,dy=48,dz=46,gamemode=adventure,advancements={att2_test:test_boss/aozathreyon=true}] unless entity @e[x=7316,y=154,z=6554,dx=-46,dy=48,dz=46,nbt={UUID:[I;0,347,0,347]}] run function att2:gameplay/boss/ouranos/aozathreyon/victory
+execute if score Aozathreyon OURANOS matches 0.. if entity @a[x=7316,y=154,z=6554,dx=-46,dy=48,dz=46,gamemode=adventure] unless entity @e[x=7316,y=154,z=6554,dx=-46,dy=48,dz=46,nbt={UUID:[I;0,347,0,347]}] run function att2:gameplay/boss/ouranos/aozathreyon/victory
 
 # Reinitialize boss when the player kill it and got out
 execute if score Aozathreyon OURANOS matches -2 unless entity @a[x=7316,y=154,z=6554,dx=-46,dy=48,dz=46,gamemode=adventure,tag=!Dead] unless score Mainquest SIDEQUEST matches 200..201 run function att2:gameplay/boss/ouranos/aozathreyon/initialize

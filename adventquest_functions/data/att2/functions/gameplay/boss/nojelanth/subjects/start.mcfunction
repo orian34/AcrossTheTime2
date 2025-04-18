@@ -4,8 +4,7 @@
 #####################################################################
 
 ##revoke test
-advancement grant @a only att2_test:test_boss/subjects
-advancement revoke @a only att2_test:test_boss/subjects
+scoreboard players set subject_test BOSS 0
 scoreboard players set in_fight BOSS 1
 scoreboard players set Subjects NOJELANTH 0
 function att2:physicmod/reg1/nojelanth/subjects_start

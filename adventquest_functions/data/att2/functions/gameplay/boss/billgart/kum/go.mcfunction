@@ -37,7 +37,7 @@ execute if score Kum SQ53 matches 0.. if entity @a[x=-1533,y=9,z=-589,dx=-39,dy=
 execute if score Kum SQ53 matches 0.. unless entity @a[x=-1533,y=9,z=-589,dx=-39,dy=52,dz=-32,gamemode=adventure] run function att2:gameplay/boss/billgart/kum/fail
 
 # Testing if Kum died
-execute if score Kum SQ53 matches 0.. if entity @a[x=-1533,y=9,z=-589,dx=-39,dy=52,dz=-32,gamemode=adventure,advancements={att2_test:test_boss/kum=true}] unless entity @e[x=-1533,y=9,z=-589,dx=-39,dy=52,dz=-32,nbt={UUID:[I;0,540,0,540]}] run function att2:gameplay/boss/billgart/kum/victory
+execute if score Kum SQ53 matches 0.. if entity @a[x=-1533,y=9,z=-589,dx=-39,dy=52,dz=-32,gamemode=adventure] unless entity @e[x=-1533,y=9,z=-589,dx=-39,dy=52,dz=-32,nbt={UUID:[I;0,540,0,540]}] run function att2:gameplay/boss/billgart/kum/victory
 
 # Player can quit the arena when Kum had been defeated
 execute if score Kum SQ53 matches -2 as @a[x=-1571,y=28,z=-606,dx=0,dy=2,dz=2,gamemode=adventure] at @s run tp @s -1574 28 -605

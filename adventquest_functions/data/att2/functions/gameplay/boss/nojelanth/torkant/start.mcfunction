@@ -4,7 +4,7 @@
 #####################################################################
 
 ##revoke test
-advancement revoke @a only att2_test:test_boss/torkant
+scoreboard players set torkant_test BOSS 0
 scoreboard players set in_fight BOSS 1
 scoreboard players set Torkant_timer1 SQ52 0
 scoreboard players set Torkant SQ52 0

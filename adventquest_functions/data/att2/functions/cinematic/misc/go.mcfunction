@@ -30,18 +30,25 @@ execute in minecraft:overworld if score path3_mech2 OURANOS matches 1.. run func
 
 ### Process Boss
 # Vonaheim
-execute if entity @a[x=-5643,y=78,z=-6539,dx=58,dy=135,dz=58,gamemode=adventure] run function att2:gameplay/boss/elcheol/vonaheim/go
+execute unless score vonaheim RESETCB matches 1 run function att2:cinematic/misc/reset_cb/vonaheim
 # Somniophages
-execute if score SQ48 SIDEQUEST matches 1.. run function att2:gameplay/boss/ouranos/somniophages/go
+execute unless score somniophages RESETCB matches 1 if score SQ48 SIDEQUEST matches 1.. run function att2:cinematic/misc/reset_cb/somniophages
 # Ouran
+execute unless score ouran RESETCB matches 1 if score Mainquest SIDEQUEST matches 216..217 run function att2:cinematic/misc/reset_cb/ouran
 execute if score Mainquest SIDEQUEST matches 216..217 run function att2:gameplay/boss/ouranos/ouran/go
 # Guardian Ithax
-execute if score Mainquest SIDEQUEST matches 220..275 run function att2:gameplay/boss/ithax/guardian/go
+execute unless score guardian RESETCB matches 1 if score Mainquest SIDEQUEST matches 220..275 run function att2:cinematic/misc/reset_cb/guardian
 execute if score Mainquest SIDEQUEST matches 275..279 run function att2:cinematic/act_4/ithax/temporal_anomaly_go
 # Umbra'Tyanth
-execute if score SQ46 SIDEQUEST matches 3.. run function att2:gameplay/boss/ether/umbratyanth/go
+execute unless score umbratyanth RESETCB matches 1 run function att2:cinematic/misc/reset_cb/umbratyanth
 # Sérile
+execute unless score serile1 RESETCB matches 1 if score Mainquest SIDEQUEST matches 282..285 run function att2:cinematic/misc/reset_cb/serile1
+execute unless score serile2 RESETCB matches 1 if score Mainquest SIDEQUEST matches 282..285 run function att2:cinematic/misc/reset_cb/serile2
+execute unless score serile3 RESETCB matches 1 if score Mainquest SIDEQUEST matches 282..285 run function att2:cinematic/misc/reset_cb/serile3
+execute unless score serile4 RESETCB matches 1 if score Mainquest SIDEQUEST matches 282..285 run function att2:cinematic/misc/reset_cb/serile4
 execute if score Mainquest SIDEQUEST matches 282..285 run function att2:gameplay/boss/serile/go
+#arena
+execute unless score arena RESETCB matches 1 run function att2:cinematic/misc/reset_cb/arena
 
 ### Process Secret dungeon
 function att2:cinematic/misc/secret_dungeon/go

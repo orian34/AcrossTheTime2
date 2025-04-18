@@ -7,7 +7,7 @@ scoreboard players add total_killed BOSS 1
 ##test boss
 function att2:advancement/test_all/mobskilled/boss
 ##revoke test
-advancement revoke @a only att2_test:test_boss/kum
+scoreboard players reset kum_test BOSS
 scoreboard players set Kum SQ53 -2
 execute as @a run function att2:gameplay/boss/billgart/kum/stop
 execute at @a run function att2:sound/mobs/golem_death

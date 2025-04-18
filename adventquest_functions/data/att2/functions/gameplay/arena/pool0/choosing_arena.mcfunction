@@ -30,3 +30,5 @@ execute if score Pool0_Random ARENA matches 4 if score Pool0_A4_Choose ARENA mat
 execute if score Pool0_Random ARENA matches 5 if score Pool0_A5_Choose ARENA matches 0 run scoreboard players set Pool0_A5_Choose ARENA 1
 execute if score Pool0_Random ARENA matches 5 if score Pool0_A5_Choose ARENA matches -1 run function att2:gameplay/arena/pool0/choosing_arena_again
 execute if score Pool0_Random ARENA matches 5 if score Pool0_A5_Choose ARENA matches 1 run tp @a[x=5000,y=75,z=-5000,distance=..500,gamemode=adventure] 5000 100 -5000
+#make forceload/cb true
+function att2:cinematic/misc/reset_cb/arena

@@ -4,7 +4,7 @@
 #####################################################################
 
 ##revoke test
-advancement revoke @a only att2_test:test_boss/flamme_noire
+scoreboard players reset flamme_noire_test BOSS
 scoreboard players set in_fight BOSS 0
 scoreboard players set FlammeNoire ANGOR -2
 scoreboard players set FlammeNoire ANGOR_BOSS 210

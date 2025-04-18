@@ -37,7 +37,7 @@ execute if score Karon ANGOR matches 0.. in minecraft:the_nether if entity @a[x=
 execute if score Karon ANGOR matches 0.. in minecraft:the_nether unless entity @a[x=3539,y=123,z=4497,dx=-29,dy=4,dz=50,gamemode=adventure] run function att2:gameplay/boss/angband/karon/fail
 
 # Testing if Karon died
-execute if score Karon ANGOR matches 0.. in minecraft:the_nether if entity @a[x=3539,y=123,z=4497,dx=-29,dy=4,dz=50,gamemode=adventure,advancements={att2_test:test_boss/karon=true}] unless entity @e[x=3538,y=123,z=4497,dx=-27,dy=4,dz=50,nbt={UUID:[I;0,91,0,91]}] run function att2:gameplay/boss/angband/karon/victory
+execute if score Karon ANGOR matches 0.. in minecraft:the_nether if entity @a[x=3539,y=123,z=4497,dx=-29,dy=4,dz=50,gamemode=adventure] unless entity @e[x=3538,y=123,z=4497,dx=-27,dy=4,dz=50,nbt={UUID:[I;0,91,0,91]}] run function att2:gameplay/boss/angband/karon/victory
 
 # Player can quit the arena when Karon had been defeated
 execute if score Karon ANGOR matches -2 in minecraft:the_nether run tp @a[x=3538,y=123,z=4513,dx=0,dy=4,dz=4,gamemode=adventure] 3540 123 4515

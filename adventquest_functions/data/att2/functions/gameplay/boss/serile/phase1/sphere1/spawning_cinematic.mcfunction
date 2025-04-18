@@ -7,6 +7,7 @@ execute if score Timer1 SERILE matches 1 as @a[x=2225,y=99,z=1945,distance=..500
 execute if score Timer1 SERILE matches 1..149 as @a[gamemode=spectator] run tp @s 2112 120 1944 0 90
 execute if score Timer1 SERILE matches 10 run function att2:dialogs/mainquest/act_5/ch1_serile_6
 execute if score Timer1 SERILE matches 50 positioned 2112 101 1944 run function att2:gameplay/boss/serile/phase1/sphere1/spawn
+execute if score Timer1 SERILE matches 50 in overworld positioned 2112 101 1944 run forceload add ~ ~
 execute if score Timer1 SERILE matches 50 run scoreboard players set Sphere1 SERILE 1
 execute if score Timer1 SERILE matches 100 at @a run function att2:sound/misc/loading_energy
 execute if score Timer1 SERILE matches 150..249 as @a[gamemode=spectator] run tp @s 2107 109 1940 -45 45

@@ -4,7 +4,7 @@
 #####################################################################
 
 ##revoke test
-advancement revoke @a only att2_test:test_boss/myrath
+scoreboard players set myrath_test BOSS 0
 scoreboard players set Myrath SQ26 0
 scoreboard players set in_fight BOSS 1
 execute positioned -3892 88 -5600 run function att2:summon/reg_1/myrath

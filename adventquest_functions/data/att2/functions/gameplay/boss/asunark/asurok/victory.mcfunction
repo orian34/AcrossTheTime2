@@ -7,7 +7,7 @@ scoreboard players add total_killed BOSS 1
 ##test boss
 function att2:advancement/test_all/mobskilled/boss
 ##revoke test
-advancement revoke @a only att2_test:test_boss/asurok
+scoreboard players reset asurok_test BOSS
 scoreboard players set Asurok ASUNARK -2
 execute as @a run function att2:gameplay/boss/asunark/asurok/stop
 execute positioned -3297 14 -4942 run function att2:gameplay/boss/rewards_start

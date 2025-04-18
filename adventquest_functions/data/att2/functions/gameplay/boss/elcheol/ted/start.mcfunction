@@ -4,8 +4,7 @@
 #####################################################################
 
 ##revoke test
-advancement grant @a only att2_test:test_boss/ted
-advancement revoke @a only att2_test:test_boss/ted
+scoreboard players set ted_test BOSS 0
 scoreboard players set in_fight BOSS 1
 scoreboard players set Ted SQ55 0
 execute positioned -5114 109 -6198 run function att2:summon/reg_1/ted

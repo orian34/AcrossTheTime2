@@ -34,7 +34,7 @@ execute if score Felroth WORLEST matches 0.. if entity @a[x=-4652,y=56,z=-5537,d
 execute if score Felroth WORLEST matches 0.. unless entity @a[x=-4652,y=56,z=-5537,dx=32,dy=8,dz=32,gamemode=adventure] run function att2:gameplay/boss/worlest/felroth/fail
 
 # Testing if Felroth died
-execute if score Felroth WORLEST matches 0.. if entity @a[x=-4652,y=56,z=-5537,dx=32,dy=8,dz=32,gamemode=adventure,advancements={att2_test:test_boss/felroth=true}] unless entity @e[x=-4652,y=56,z=-5537,dx=32,dy=8,dz=32,nbt={UUID:[I;0,27,0,27]}] run function att2:gameplay/boss/worlest/felroth/victory
+execute if score Felroth WORLEST matches 0.. if entity @a[x=-4652,y=56,z=-5537,dx=32,dy=8,dz=32,gamemode=adventure] unless entity @e[x=-4652,y=56,z=-5537,dx=32,dy=8,dz=32,nbt={UUID:[I;0,27,0,27]}] run function att2:gameplay/boss/worlest/felroth/victory
 
 # Player can quit the arena when Felroth had been defeated
 execute if score Felroth WORLEST matches -2 run tp @a[x=-4635,y=57,z=-5506,dx=-2,dy=3,dz=0,gamemode=adventure] -4636 58 -5504

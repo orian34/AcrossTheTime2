@@ -7,7 +7,7 @@ scoreboard players add total_killed BOSS 1
 ##test boss
 function att2:advancement/test_all/mobskilled/boss
 ##revoke test
-advancement revoke @a only att2_test:test_boss/scavenger
+scoreboard players reset scavenger_test BOSS
 scoreboard players set Scavenger SQ51 -2
 execute as @a run function att2:gameplay/boss/kert/scavenger/stop
 execute positioned -5552 52 -4556 run function att2:gameplay/boss/rewards_start

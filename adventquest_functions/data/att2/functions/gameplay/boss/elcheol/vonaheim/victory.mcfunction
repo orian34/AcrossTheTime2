@@ -7,7 +7,7 @@ scoreboard players add total_killed BOSS 1
 ##test boss
 function att2:advancement/test_all/mobskilled/boss
 ##revoke test
-advancement revoke @a only att2_test:test_boss/vonaheim
+scoreboard players reset vonaheim_test BOSS
 scoreboard players set Vonaheim VONAHEIM -2
 execute as @a run function att2:gameplay/boss/elcheol/vonaheim/stop
 execute positioned -5614 202 -6510 run function att2:gameplay/boss/rewards_start

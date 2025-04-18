@@ -7,7 +7,7 @@ scoreboard players add total_killed BOSS 1
 ##test boss
 function att2:advancement/test_all/mobskilled/boss
 ##revoke test
-advancement revoke @a only att2_test:test_boss/ulkoggumi
+scoreboard players reset ulkoggumi_test BOSS
 scoreboard players set Ulkoggumi BILLGART -2
 execute as @a run function att2:gameplay/boss/billgart/ulkoggumi/stop
 function att2:physicmod/reg3/dungeon/ulkoggumi_door1

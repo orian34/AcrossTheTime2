@@ -10,7 +10,7 @@ execute if score Real0 TIMER matches 100 if score ouran_PNJ DIALOG matches -1 ru
 execute if score Real0 TIMER matches 100 if score ouran_PNJ DIALOG matches -1 as @a at @s run function att2:gameplay/music/interrupt
 execute if score Real0 TIMER matches 100 if score ouran_PNJ DIALOG matches -2 run tp @a 7593 127 6772
 execute if score Real0 TIMER matches 101 run scoreboard players set Mainquest SIDEQUEST 218
-
+execute if score Real0 TIMER matches 101 in overworld positioned 7971 109 6773 run forceload remove ~ ~
 #=======================#
 #end of the cinematic	#
 #=======================#

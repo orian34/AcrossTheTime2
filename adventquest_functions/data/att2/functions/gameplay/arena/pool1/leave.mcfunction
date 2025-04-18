@@ -13,3 +13,5 @@ function att2:dialogs/title/arena/tournaments_subtitle
 function att2:physicmod/reg1/arena/enter_barrier_off
 ##show_tournament1 time
 function att2:gameplay/arena/pool1/time/time_total
+#make forceload/cb true
+function att2:cinematic/misc/reset_cb/arena

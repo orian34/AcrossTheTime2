@@ -7,7 +7,7 @@ scoreboard players add total_killed BOSS 1
 ##test boss
 function att2:advancement/test_all/mobskilled/boss
 ##revoke test
-advancement revoke @a only att2_test:test_boss/owlkar
+scoreboard players reset owlkar_test BOSS
 scoreboard players set Owlkar OWSASTR -2
 execute as @a run function att2:gameplay/boss/owsastr/owlkar/stop
 execute positioned -5050 76 -4381 run function att2:gameplay/boss/rewards_start

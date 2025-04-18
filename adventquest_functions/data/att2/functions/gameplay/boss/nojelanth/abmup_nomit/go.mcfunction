@@ -36,7 +36,7 @@ execute if score Abmup_Nomit SQ58 matches 0.. if entity @a[x=-7637,y=28,z=-4173,
 execute if score Abmup_Nomit SQ58 matches 0.. unless entity @a[x=-7637,y=28,z=-4173,dx=34,dy=-15,dz=-49,gamemode=adventure] run function att2:gameplay/boss/nojelanth/abmup_nomit/fail
 
 # Testing if Abmup & Nomit died
-execute if score Abmup_Nomit SQ58 matches 0.. if entity @a[x=-7637,y=28,z=-4173,dx=34,dy=-15,dz=-49,gamemode=adventure,advancements={att2_test:test_boss/abmup_nomit=true}] unless entity @e[type=minecraft:hoglin,x=-7637,y=28,z=-4173,dx=34,dy=-15,dz=-49,tag=Boss] run function att2:gameplay/boss/nojelanth/abmup_nomit/victory
+execute if score Abmup_Nomit SQ58 matches 0.. if entity @a[x=-7637,y=28,z=-4173,dx=34,dy=-15,dz=-49,gamemode=adventure] unless entity @e[type=minecraft:hoglin,x=-7637,y=28,z=-4173,dx=34,dy=-15,dz=-49,tag=Boss] run function att2:gameplay/boss/nojelanth/abmup_nomit/victory
 
 # Player can quit the arena when Abmup & Nomit had been defeated
 execute if score Abmup_Nomit SQ58 matches -2 as @a[x=-7616,y=23,z=-4174,dx=-2,dy=2,dz=0,gamemode=adventure] at @s run tp @s -7617 23 -4171

@@ -7,8 +7,7 @@ scoreboard players add total_killed BOSS 1
 ##test boss
 function att2:advancement/test_all/mobskilled/boss
 ##revoke test
-advancement grant @a only att2_test:test_boss/abmup_nomit
-advancement revoke @a only att2_test:test_boss/abmup_nomit
+scoreboard players reset abmup_nomit_test BOSS
 scoreboard players set Abmup_Nomit SQ58 -2
 execute as @a run function att2:gameplay/boss/nojelanth/abmup_nomit/stop
 execute positioned -7619 17 -4196 run function att2:gameplay/boss/rewards_start

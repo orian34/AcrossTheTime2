@@ -48,7 +48,9 @@ execute if score FlammeNoire ANGOR matches 1 if score FlammeNoire ANGOR_BOSS mat
 
 
 # Defeated (victory)
-execute if score FlammeNoire ANGOR matches 9 if entity @a[advancements={att2_test:test_boss/flamme_noire=true}] unless entity @e[type=ghast,nbt={UUID:[I;0,91,0,107]}] run function att2:gameplay/boss/angband/flamme_noire/start_dying
+execute if score FlammeNoire ANGOR matches 9 unless entity @e[type=ghast,nbt={UUID:[I;0,91,0,107]}] run function att2:gameplay/boss/angband/flamme_noire/start_dying
+
+
 execute if score FlammeNoire ANGOR matches -2 unless entity @e[type=ghast,nbt={UUID:[I;0,91,0,107]}] run function att2:gameplay/boss/angband/flamme_noire/dying
 
 # Phase switching to agressive (happend when in phase 0 or 10)

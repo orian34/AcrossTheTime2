@@ -4,7 +4,7 @@
 #####################################################################
 
 ##revoke test
-advancement revoke @a only att2_test:test_boss/gestrom
+scoreboard players set gestrom_test BOSS 0
 scoreboard players set in_fight BOSS 1
 execute positioned -1132 199 -679 run function att2:summon/reg_3/gestrom
 execute positioned -1131 207 -672 run function att2:summon/reg_3/blaze0_class9
