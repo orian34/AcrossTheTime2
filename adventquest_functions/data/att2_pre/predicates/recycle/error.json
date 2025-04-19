@@ -16,6 +16,14 @@
                 "type":"minecraft:item",
                 "nbt":"{Item:{tag:{EquipmentType:runic_word}}}"
             }
+        },
+        {
+            "condition":"entity_properties",
+            "entity":"this",
+            "predicate":{
+                "type":"minecraft:item",
+                "nbt":"{Item:{tag:{EquipmentType:que}}}"
+            }
         }
     ]
 }
