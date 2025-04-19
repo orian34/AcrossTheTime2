@@ -16,6 +16,14 @@ scoreboard players set epi_esc RECYCLER 0
 scoreboard players set leg RECYCLER 0
 scoreboard players set leg_armset RECYCLER 0
 scoreboard players set ult RECYCLER 0
+scoreboard players set com_buy RECYCLER 0
+scoreboard players set unc_buy RECYCLER 0
+scoreboard players set rar_buy RECYCLER 0
+scoreboard players set epi_buy RECYCLER 0
+scoreboard players set epi_set_buy RECYCLER 0
+scoreboard players set leg_buy RECYCLER 0
+scoreboard players set leg_armset_buy RECYCLER 0
+scoreboard players set ult_buy RECYCLER 0
 scoreboard players set myt RECYCLER 0
 scoreboard players set total RECYCLER 0
 scoreboard players set number RECYCLER 0

@@ -23,7 +23,6 @@ scoreboard players set unc_buy RECYCLER 0
 scoreboard players set rar_buy RECYCLER 0
 scoreboard players set epi_buy RECYCLER 0
 scoreboard players set epi_set_buy RECYCLER 0
-scoreboard players set epi_esc_buy RECYCLER 0
 scoreboard players set leg_buy RECYCLER 0
 scoreboard players set leg_armset_buy RECYCLER 0
 scoreboard players set ult_buy RECYCLER 0

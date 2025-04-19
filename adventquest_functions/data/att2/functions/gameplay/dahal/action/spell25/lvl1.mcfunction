@@ -10,8 +10,8 @@ scoreboard players remove @s DAHAL 50
 function att2:gameplay/dahal/action/spell25/cooldown
 execute as @e[tag=NewInvo,type=minecraft:wolf,distance=..7] at @s run data modify entity @s Owner set from entity @p UUID
 
-scoreboard players set @s SPELL25_MAX 0
-execute at @s as @e[type=minecraft:wolf,scores={BELONG_PLAYER1=1..}] if score @s BELONG_PLAYER1 = @a[distance=..0,limit=1] NUMEROJOUEUR run function att2:gameplay/dahal/action/spell25/wolf_max
+scoreboard players set @s SPELL25_MAX 1
+execute at @s as @e[type=minecraft:wolf,tag=!NewInvo,scores={BELONG_PLAYER1=1..}] if score @s BELONG_PLAYER1 = @a[distance=..0,limit=1] NUMEROJOUEUR run function att2:gameplay/dahal/action/spell25/wolf_max
 
 scoreboard players add @s SPELL25_LVL 1
 function att2:gameplay/dahal/bonus_xp
