@@ -7,7 +7,7 @@
         "description": {"translate":"Complete the epic set of the soldat Eternän"},
         "frame": "challenge"
     },
-    "parent": "att2:adventure/epi",
+    "parent": "att2:adventure/epi_full_set",
     "rewards": {
         "function": "att2:advancement/exploit_20",
         "experience": 10000

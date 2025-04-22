@@ -1,19 +1,19 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:diamond_chestplate"
+            "item": "minecraft:stone_sword"
         },
-        "title": {"translate":"The artist of Ouranos full set"},
-        "description": {"translate":"Complete the artist of Ouranos legendary set"},
+        "title": {"translate":"Full Mythical set"},
+        "description": {"translate":"Get yourself equipped a full Mythical armor and weapon set"},
         "frame": "challenge"
     },
-    "parent": "att2:att2:adventure/leg_full_set",
+    "parent": "att2:adventure/ult_full_set",
     "rewards": {
         "function": "att2:advancement/exploit_50",
         "experience": 50000
                 },
     "criteria": {
-        "artist_fullset": {
+        "myt": {
             "trigger": "minecraft:impossible"
         }
     }

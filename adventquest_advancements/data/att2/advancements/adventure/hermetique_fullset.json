@@ -8,7 +8,7 @@
         "frame": "challenge",
         "hidden":true
     },
-    "parent": "att2:adventure/myt",
+    "parent": "att2:adventure/myt_full_set",
     "rewards": {
         "function": "att2:advancement/exploit_50",
         "experience": 50000

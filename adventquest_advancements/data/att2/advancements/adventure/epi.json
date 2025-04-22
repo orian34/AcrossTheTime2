@@ -7,7 +7,7 @@
         "description": {"translate":"Find an epic item"},
         "frame": "goal"
     },
-    "parent": "att2:adventure/rar",
+    "parent": "att2:adventure/epi_esc",
     "rewards": {
         "function": "att2:advancement/exploit_10",
         "experience": 1000

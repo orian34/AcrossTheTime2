@@ -7,7 +7,7 @@
         "description": {"translate":"Get yourself equipped a full common armor and weapon set"},
         "frame": "goal"
     },
-    "parent": "att2:adventure/com",
+    "parent": "att2:adventure/root",
     "rewards": {
         "function": "att2:advancement/exploit_1",
         "experience": 250

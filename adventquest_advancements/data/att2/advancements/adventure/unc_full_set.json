@@ -7,7 +7,7 @@
         "description": {"translate":"Get yourself equipped a full uncommon armor and weapon set"},
         "frame": "goal"
     },
-    "parent": "att2:adventure/unc",
+    "parent": "att2:adventure/com_full_set",
     "rewards": {
         "function": "att2:advancement/exploit_2",
         "experience": 1000

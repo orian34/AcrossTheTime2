@@ -7,7 +7,7 @@
         "description": {"translate":"Complete the moon legendary set"},
         "frame": "challenge"
     },
-    "parent": "att2:adventure/leg",
+    "parent": "att2:att2:adventure/leg_full_set",
     "rewards": {
         "function": "att2:advancement/exploit_50",
         "experience": 50000

@@ -3,8 +3,8 @@
 #Summon a position keeper for a recycler                    #
 #############################################################
 
-
 ##消耗Dahal
+execute as @a[scores={DAHAL=..99}] at @s run function att2:gameplay/dahal/action/spell32/spell32_effect/esc_cost_error
 scoreboard players remove @s DAHAL 100
 ##设定检测值
 scoreboard players set @s[scores={DISTANCE_CHECK=1..}] ESC_COST 0

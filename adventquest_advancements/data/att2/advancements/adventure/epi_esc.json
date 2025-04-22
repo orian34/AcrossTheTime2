@@ -7,7 +7,7 @@
         "description": {"translate":"Find a sovereign item"},
         "frame": "goal"
     },
-    "parent": "att2:adventure/epi",
+    "parent": "att2:adventure/rar",
     "rewards": {
         "function": "att2:advancement/exploit_20",
         "experience": 5000
