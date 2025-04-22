@@ -15,8 +15,6 @@ execute if entity @a[scores={DIMENSION=0..1}] run function att2:gameplay/misc/ch
 execute if entity @a[scores={DIMENSION=6}] run function att2:gameplay/misc/chesteffect/angband_go
 execute if entity @a[scores={DIMENSION=7}] run function att2:gameplay/misc/chesteffect/billgart_go
 execute if entity @a[scores={DIMENSION=4}] run function att2:gameplay/misc/chesteffect/ouran_go
-##chest name set
-execute as @a at @s run function att2:gameplay/misc/chesteffect/name/go
 ##
 function att2:gameplay/misc/title_effect/go
 execute if score tic TIMECOUNTER matches 15 run function att2:gameplay/misc/fire_immune/go
