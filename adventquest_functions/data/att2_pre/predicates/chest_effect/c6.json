@@ -5,7 +5,7 @@
             "condition":"location_check",
             "predicate":{
                 "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg1/c1t4\"}"
+                    "nbt":"{LootTable:\"att2:chest/reg1/c6t9\"}"
                 }
             }
         },
@@ -13,7 +13,7 @@
             "condition":"location_check",
             "predicate":{
                 "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg1/c2t4\"}"
+                    "nbt":"{LootTable:\"att2:chest/reg1/c6t8\"}"
                 }
             }
         },
@@ -21,7 +21,7 @@
             "condition":"location_check",
             "predicate":{
                 "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg1/c3t4\"}"
+                    "nbt":"{LootTable:\"att2:chest/reg1/c6t7\"}"
                 }
             }
         },
@@ -29,7 +29,7 @@
             "condition":"location_check",
             "predicate":{
                 "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg1/c4t4\"}"
+                    "nbt":"{LootTable:\"att2:chest/reg1/c6t6_piratekey\"}"
                 }
             }
         },
@@ -37,7 +37,7 @@
             "condition":"location_check",
             "predicate":{
                 "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg1/c5t4\"}"
+                    "nbt":"{LootTable:\"att2:chest/reg1/c6t6_artefact\"}"
                 }
             }
         },
@@ -45,7 +45,7 @@
             "condition":"location_check",
             "predicate":{
                 "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg1/c6t4\"}"
+                    "nbt":"{LootTable:\"att2:chest/reg1/c6t6\"}"
                 }
             }
         },
@@ -53,7 +53,7 @@
             "condition":"location_check",
             "predicate":{
                 "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg1/c7t4\"}"
+                    "nbt":"{LootTable:\"att2:chest/reg1/c6t5_old_chipped_stone\"}"
                 }
             }
         },
@@ -61,7 +61,7 @@
             "condition":"location_check",
             "predicate":{
                 "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg1/c8t4\"}"
+                    "nbt":"{LootTable:\"att2:chest/reg1/c6t5_emeraldkey\"}"
                 }
             }
         },
@@ -69,191 +69,7 @@
             "condition":"location_check",
             "predicate":{
                 "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg1/c9t4\"}"
-                }
-            }
-        },
-        {
-            "condition":"location_check",
-            "predicate":{
-                "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg1/c10t4\"}"
-                }
-            }
-        },
-        {
-            "condition":"location_check",
-            "predicate":{
-                "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg2/c5t4\"}"
-                }
-            }
-        },
-        {
-            "condition":"location_check",
-            "predicate":{
-                "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg2/c6t4\"}"
-                }
-            }
-        },
-        {
-            "condition":"location_check",
-            "predicate":{
-                "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg2/c7t4\"}"
-                }
-            }
-        },
-        {
-            "condition":"location_check",
-            "predicate":{
-                "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg2/c10t4\"}"
-                }
-            }
-        },
-        {
-            "condition":"location_check",
-            "predicate":{
-                "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg3/c1t4\"}"
-                }
-            }
-        },
-        {
-            "condition":"location_check",
-            "predicate":{
-                "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg3/c7t4\"}"
-                }
-            }
-        },
-        {
-            "condition":"location_check",
-            "predicate":{
-                "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg3/c8t4\"}"
-                }
-            }
-        },
-        {
-            "condition":"location_check",
-            "predicate":{
-                "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg4/c7t4\"}"
-                }
-            }
-        },
-        {
-            "condition":"location_check",
-            "predicate":{
-                "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg4/c8t4\"}"
-                }
-            }
-        },
-        {
-            "condition":"location_check",
-            "predicate":{
-                "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg4/c9t4\"}"
-                }
-            }
-        },
-        {
-            "condition":"location_check",
-            "predicate":{
-                "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg1/c1t4_bigkey\"}"
-                }
-            }
-        },
-        {
-            "condition":"location_check",
-            "predicate":{
-                "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg1/c2t4_bigkey\"}"
-                }
-            }
-        },
-        {
-            "condition":"location_check",
-            "predicate":{
-                "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg1/c2t4_cereals\"}"
-                }
-            }
-        },
-        {
-            "condition":"location_check",
-            "predicate":{
-                "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg1/c2t4_edible_mushroom\"}"
-                }
-            }
-        },
-        {
-            "condition":"location_check",
-            "predicate":{
-                "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg1/c2t4_explosive\"}"
-                }
-            }
-        },
-        {
-            "condition":"location_check",
-            "predicate":{
-                "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg1/c2t4_iron_ingot\"}"
-                }
-            }
-        },
-        {
-            "condition":"location_check",
-            "predicate":{
-                "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg1/c3t4_bigkey\"}"
-                }
-            }
-        },
-        {
-            "condition":"location_check",
-            "predicate":{
-                "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg1/c4t4_asunarkstone\"}"
-                }
-            }
-        },
-        {
-            "condition":"location_check",
-            "predicate":{
-                "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg1/c4t4_bigkey\"}"
-                }
-            }
-        },
-        {
-            "condition":"location_check",
-            "predicate":{
-                "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg1/c4t4_connecting_thread\"}"
-                }
-            }
-        },
-        {
-            "condition":"location_check",
-            "predicate":{
-                "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg1/c5t4_bigkey\"}"
-                }
-            }
-        },
-        {
-            "condition":"location_check",
-            "predicate":{
-                "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg1/c6t4_bigkey\"}"
+                    "nbt":"{LootTable:\"att2:chest/reg1/c6t5\"}"
                 }
             }
         },
@@ -269,7 +85,7 @@
             "condition":"location_check",
             "predicate":{
                 "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg1/c7t4_bigkey\"}"
+                    "nbt":"{LootTable:\"att2:chest/reg1/c6t4_bigkey\"}"
                 }
             }
         },
@@ -277,7 +93,7 @@
             "condition":"location_check",
             "predicate":{
                 "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg1/c8t4_bigkey\"}"
+                    "nbt":"{LootTable:\"att2:chest/reg1/c6t4\"}"
                 }
             }
         },
@@ -285,7 +101,7 @@
             "condition":"location_check",
             "predicate":{
                 "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg1/c9t4_bigkey\"}"
+                    "nbt":"{LootTable:\"att2:chest/reg1/c6t3_littlekey\"}"
                 }
             }
         },
@@ -293,7 +109,7 @@
             "condition":"location_check",
             "predicate":{
                 "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg1/c10t4_bigkey\"}"
+                    "nbt":"{LootTable:\"att2:chest/reg1/c6t3\"}"
                 }
             }
         },
@@ -301,7 +117,7 @@
             "condition":"location_check",
             "predicate":{
                 "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg2/c5t4_bigkey\"}"
+                    "nbt":"{LootTable:\"att2:chest/reg1/c6t2\"}"
                 }
             }
         },
@@ -309,7 +125,7 @@
             "condition":"location_check",
             "predicate":{
                 "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg2/c6t4_bigkey\"}"
+                    "nbt":"{LootTable:\"att2:chest/reg1/c6t10\"}"
                 }
             }
         },
@@ -317,7 +133,7 @@
             "condition":"location_check",
             "predicate":{
                 "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg2/c6t4_mechparts\"}"
+                    "nbt":"{LootTable:\"att2:chest/reg1/c6t1\"}"
                 }
             }
         },
@@ -325,7 +141,31 @@
             "condition":"location_check",
             "predicate":{
                 "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg2/c6t4_mysterious_crystal\"}"
+                    "nbt":"{LootTable:\"att2:chest/reg2/c6t7\"}"
+                }
+            }
+        },
+        {
+            "condition":"location_check",
+            "predicate":{
+                "block":{
+                    "nbt":"{LootTable:\"att2:chest/reg2/c6t6\"}"
+                }
+            }
+        },
+        {
+            "condition":"location_check",
+            "predicate":{
+                "block":{
+                    "nbt":"{LootTable:\"att2:chest/reg2/c6t5_fireseal\"}"
+                }
+            }
+        },
+        {
+            "condition":"location_check",
+            "predicate":{
+                "block":{
+                    "nbt":"{LootTable:\"att2:chest/reg2/c6t5\"}"
                 }
             }
         },
@@ -341,7 +181,7 @@
             "condition":"location_check",
             "predicate":{
                 "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg2/c7t4_bigkey\"}"
+                    "nbt":"{LootTable:\"att2:chest/reg2/c6t4_mysterious_crystal\"}"
                 }
             }
         },
@@ -349,7 +189,7 @@
             "condition":"location_check",
             "predicate":{
                 "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg2/c8t4_bigkey\"}"
+                    "nbt":"{LootTable:\"att2:chest/reg2/c6t4_mechparts\"}"
                 }
             }
         },
@@ -357,7 +197,7 @@
             "condition":"location_check",
             "predicate":{
                 "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg2/c9t4_bigkey\"}"
+                    "nbt":"{LootTable:\"att2:chest/reg2/c6t4_bigkey\"}"
                 }
             }
         },
@@ -365,7 +205,7 @@
             "condition":"location_check",
             "predicate":{
                 "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg2/c10t4_bigkey\"}"
+                    "nbt":"{LootTable:\"att2:chest/reg2/c6t4\"}"
                 }
             }
         },
@@ -373,7 +213,7 @@
             "condition":"location_check",
             "predicate":{
                 "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg3/c7t4_gelatinous_substance\"}"
+                    "nbt":"{LootTable:\"att2:chest/reg2/c6t3_littlekey\"}"
                 }
             }
         },
@@ -381,7 +221,63 @@
             "condition":"location_check",
             "predicate":{
                 "block":{
-                    "nbt":"{LootTable:\"att2:chest/reg3/c8t4_gear\"}"
+                    "nbt":"{LootTable:\"att2:chest/reg2/c6t3_bandages\"}"
+                }
+            }
+        },
+        {
+            "condition":"location_check",
+            "predicate":{
+                "block":{
+                    "nbt":"{LootTable:\"att2:chest/reg2/c6t3_arrowseternan\"}"
+                }
+            }
+        },
+        {
+            "condition":"location_check",
+            "predicate":{
+                "block":{
+                    "nbt":"{LootTable:\"att2:chest/reg2/c6t3\"}"
+                }
+            }
+        },
+        {
+            "condition":"location_check",
+            "predicate":{
+                "block":{
+                    "nbt":"{LootTable:\"att2:chest/reg2/c6t2\"}"
+                }
+            }
+        },
+        {
+            "condition":"location_check",
+            "predicate":{
+                "block":{
+                    "nbt":"{LootTable:\"att2:chest/reg2/c6t10\"}"
+                }
+            }
+        },
+        {
+            "condition":"location_check",
+            "predicate":{
+                "block":{
+                    "nbt":"{LootTable:\"att2:chest/reg2/c6t1\"}"
+                }
+            }
+        },
+        {
+            "condition":"location_check",
+            "predicate":{
+                "block":{
+                    "nbt":"{LootTable:\"att2:chest/reg3/c6t6\"}"
+                }
+            }
+        },
+        {
+            "condition":"location_check",
+            "predicate":{
+                "block":{
+                    "nbt":"{LootTable:\"att2:chest/reg4/c6t6\"}"
                 }
             }
         }
