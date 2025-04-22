@@ -7,7 +7,7 @@
         "description": {"translate":"Get yourself equipped a full legendary armor and weapon set"},
         "frame": "challenge"
     },
-    "parent": "att2:adventure/leg",
+    "parent": "att2:adventure/epi_full_set",
     "rewards": {
         "function": "att2:advancement/exploit_50",
         "experience": 50000

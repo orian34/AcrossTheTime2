@@ -7,7 +7,7 @@
         "description": {"translate":"Get yourself equipped a full sovereign armor and weapon set"},
         "frame": "challenge"
     },
-    "parent": "att2:adventure/epi_esc",
+    "parent": "att2:adventure/rar_full_set",
     "rewards": {
         "function": "att2:advancement/exploit_20",
         "experience": 10000

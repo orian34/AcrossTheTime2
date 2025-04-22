@@ -7,7 +7,7 @@
         "description": {"translate":"Complete the legendary set of the S"},
         "frame": "challenge"
     },
-    "parent": "att2:adventure/leg",
+    "parent": "att2:adventure/leg_full_set",
     "rewards": {
         "function": "att2:advancement/exploit_50",
         "experience": 25000

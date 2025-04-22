@@ -27,6 +27,7 @@ advancement grant @a[nbt={Inventory:[{tag:{Rarity:"epi_set"}}]}] only att2:adven
 advancement grant @a[nbt={Inventory:[{tag:{Rarity:"epi_esc"}}]}] only att2:adventure/epi_esc
 advancement grant @a[nbt={Inventory:[{tag:{Rarity:"leg"}}]}] only att2:adventure/leg
 advancement grant @a[nbt={Inventory:[{tag:{Rarity:"leg_set"}}]}] only att2:adventure/leg
+advancement grant @a[nbt={Inventory:[{tag:{Rarity:"ult"}}]}] only att2:adventure/ult
 
 # MYTHICAL
 advancement grant @a[nbt={Inventory:[{tag:{EquipmentID:"kinuil"}}]}] only att2:adventure/myt
@@ -141,3 +142,4 @@ advancement grant @a[nbt={SelectedItem:{tag:{Rarity:"rar"}},Inventory:[{Slot:103
 advancement grant @a[nbt={SelectedItem:{tag:{Rarity:"epi"}},Inventory:[{Slot:103b,tag:{Rarity:"epi"}},{Slot:102b,tag:{Rarity:"epi"}},{Slot:101b,tag:{Rarity:"epi"}},{Slot:100b,tag:{Rarity:"epi"}},{Slot:-106b,tag:{Rarity:"epi"}}]}] only att2:adventure/epi_full_set
 advancement grant @a[nbt={SelectedItem:{tag:{Rarity:"epi_esc"}},Inventory:[{Slot:103b,tag:{Rarity:"epi_esc"}},{Slot:102b,tag:{Rarity:"epi_esc"}},{Slot:101b,tag:{Rarity:"epi_esc"}},{Slot:100b,tag:{Rarity:"epi_esc"}},{Slot:-106b,tag:{Rarity:"epi_esc"}}]}] only att2:adventure/epi_esc_full_set
 advancement grant @a[nbt={SelectedItem:{tag:{Rarity:"leg"}},Inventory:[{Slot:103b,tag:{Rarity:"leg"}},{Slot:102b,tag:{Rarity:"leg"}},{Slot:101b,tag:{Rarity:"leg"}},{Slot:100b,tag:{Rarity:"leg"}},{Slot:-106b,tag:{Rarity:"leg"}}]}] only att2:adventure/leg_full_set
+advancement grant @a[nbt={SelectedItem:{tag:{Rarity:"ult"}},Inventory:[{Slot:103b,tag:{Rarity:"ult"}},{Slot:102b,tag:{Rarity:"ult"}},{Slot:101b,tag:{Rarity:"ult"}},{Slot:100b,tag:{Rarity:"ult"}},{Slot:-106b,tag:{Rarity:"ult"}}]}] only att2:adventure/ult_full_set

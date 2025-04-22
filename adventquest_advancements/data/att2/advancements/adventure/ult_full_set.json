@@ -3,14 +3,14 @@
         "icon": {
             "item": "minecraft:diamond_axe"
         },
-        "title": {"translate":"Full epic set"},
-        "description": {"translate":"Get yourself equipped a full epic armor and weapon set"},
+        "title": {"translate":"Full Supremes set"},
+        "description": {"translate":"Get yourself equipped a full Supremes armor and weapon set"},
         "frame": "goal"
     },
-    "parent": "att2:adventure/epi_esc_full_set",
+    "parent": "att2:adventure/ult",
     "rewards": {
-        "function": "att2:advancement/exploit_10",
-        "experience": 5000
+        "function": "att2:advancement/exploit_50",
+        "experience": 50000
                 },
     "criteria": {
         "epi_full_set": {
