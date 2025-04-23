@@ -27,5 +27,3 @@ scoreboard players operation @s SPELL41_LVL += @s BONUS_XP_SPELL
 
 # Spell launch total count for advancement
 scoreboard players add @s SPELLS_COUNT 1
-##test SPELLS_COUNT
-function att2:advancement/test_all/spell/launch_count
