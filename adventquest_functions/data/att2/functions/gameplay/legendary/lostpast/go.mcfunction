@@ -3,10 +3,11 @@
 #Process the effect of Lost Past	             #
 ##################################################
 
+scoreboard players set @a[scores={LP_USE=1..},nbt=!{SelectedItem:{tag:{EquipmentID:"lostpast"}}}] LP_USE 0
 scoreboard players remove @a[scores={HOLDING_LP=1..}] HOLDING_LP 1
 execute if score tic TIMECOUNTER matches 10..15 run scoreboard players set @a[gamemode=adventure,nbt={SelectedItem:{tag:{EquipmentID:"lostpast"}}}] HOLDING_LP 15
 
-execute as @a[scores={HOLDING_LP=1..,SHOOTING_LP=1..,DAHAL=30..}] run function att2:gameplay/legendary/lostpast/updatearrow
+execute as @a[scores={HOLDING_LP=1..,SHOOTING_LP=1..,LP_USE=0..,DAHAL=30..}] run function att2:gameplay/legendary/lostpast/updatearrow
 
 #In case the player doesn't have enough Dahäl, we reset the score SHOOTING_LP to 0
 scoreboard players set @a[scores={SHOOTING_LP=1..}] SHOOTING_LP 0
