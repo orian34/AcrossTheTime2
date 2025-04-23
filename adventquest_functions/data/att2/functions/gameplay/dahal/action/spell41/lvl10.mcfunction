@@ -4,13 +4,16 @@
 #################################################################
 
 execute as @a[distance=..10] at @s run function att2:gameplay/dahal/action/spell41/effect
-particle minecraft:dust 0.9 0.6 0.7 0.7 ~ ~ ~ 2 2 2 0 100 normal @s
-particle minecraft:witch ~ ~ ~ 9.5 0.5 9.5 0 200 normal @s
+execute as @a[distance=..10] at @s run particle minecraft:dust 0.9 0.6 0.7 0.7 ~ ~ ~ 2 2 2 0 100 normal
+execute as @a[distance=..10] at @s run particle minecraft:witch ~ ~ ~ 9.5 0.5 9.5 0 200 normal
 execute as @a[distance=..10] at @s run particle minecraft:dust 0.64 0.74 1 5.6 ~ ~ ~ 2 2 2 0 25 normal @a[distance=1..]
 scoreboard players set @a[distance=..10,scores={HER_LVL_DAB=..9}] HER_LVL_DAB 9
 scoreboard players set @a[distance=..10,scores={HER_LVL_DAB=..9}] TIMER_HER_DAB 400
 scoreboard players set @a[distance=..10,scores={SPD_LVL_DAM=..5}] SPD_LVL_DAM 5
 scoreboard players set @a[distance=..10,scores={SPD_LVL_DAM=..5}] TIMER_SPD_DAM 400
+#effect other 
+execute at @s as @e[type=minecraft:wolf,scores={BELONG_PLAYER1=1..}] if score @s BELONG_PLAYER1 = @a[distance=..0,limit=1] NUMEROJOUEUR run function att2:gameplay/dahal/action/spell41/effect_other
+execute at @s as @e[type=minecraft:iron_golem,scores={BELONG_PLAYER2=1..}] if score @s BELONG_PLAYER2 = @a[distance=..0,limit=1] NUMEROJOUEUR run function att2:gameplay/dahal/action/spell41/effect_other
 scoreboard players remove @s DAHAL 200
 tag @a[distance=..10] add Cicatrization
 function att2:gameplay/dahal/action/spell41/cooldown
