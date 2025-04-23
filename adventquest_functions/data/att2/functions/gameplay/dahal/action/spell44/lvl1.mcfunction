@@ -5,13 +5,22 @@
 
 execute as @a[distance=..2] at @s run function att2:gameplay/dahal/action/spell44/effect
 execute as @a[distance=..2] at @s run particle minecraft:poof ~ ~ ~ 0.5 0.5 0.5 0.05 20
-effect give @a[distance=..2] minecraft:invisibility 15 0 true
-scoreboard players set @a[distance=..2,scores={HUN_LVL_DAM=..1}] HUN_LVL_DAM 1
-scoreboard players set @a[distance=..2,scores={HUN_LVL_DAM=..1}] TIMER_HUN_DAM 300
-scoreboard players set @a[distance=..2,scores={HAS_LVL_DAB=..1}] HAS_LVL_DAB 1
-scoreboard players set @a[distance=..2,scores={HAS_LVL_DAB=..1}] TIMER_HAS_DAB 300
-scoreboard players set @a[distance=..2,scores={SPD_LVL_DAB=..1}] SPD_LVL_DAB 1
-scoreboard players set @a[distance=..2,scores={SPD_LVL_DAB=..1}] TIMER_SPD_DAB 300
+effect give @s minecraft:invisibility 15 0 true
+scoreboard players set @s[scores={HUN_LVL_DAM=..1}] HUN_LVL_DAM 1
+scoreboard players set @s[scores={HUN_LVL_DAM=..1}] TIMER_HUN_DAM 300
+scoreboard players set @s[scores={HAS_LVL_DAB=..1}] HAS_LVL_DAB 1
+scoreboard players set @s[scores={HAS_LVL_DAB=..1}] TIMER_HAS_DAB 300
+scoreboard players set @s[scores={SPD_LVL_DAB=..1}] SPD_LVL_DAB 1
+scoreboard players set @s[scores={SPD_LVL_DAB=..1}] TIMER_SPD_DAB 300
+##other players
+execute at @s as @a[distance=..2] unless score @s NUMEROJOUEUR = @a[distance=..0,limit=1] NUMEROJOUEUR run effect give @s minecraft:invisibility 105 0 true
+execute at @s as @a[distance=..2] unless score @s NUMEROJOUEUR = @a[distance=..0,limit=1] NUMEROJOUEUR run scoreboard players set @s[scores={HUN_LVL_DAM=..1}] HUN_LVL_DAM 1
+execute at @s as @a[distance=..2] unless score @s NUMEROJOUEUR = @a[distance=..0,limit=1] NUMEROJOUEUR run scoreboard players set @s[scores={HUN_LVL_DAM=..1}] TIMER_HUN_DAM 210
+execute at @s as @a[distance=..2] unless score @s NUMEROJOUEUR = @a[distance=..0,limit=1] NUMEROJOUEUR run scoreboard players set @s[scores={HAS_LVL_DAB=..1}] HAS_LVL_DAB 1
+execute at @s as @a[distance=..2] unless score @s NUMEROJOUEUR = @a[distance=..0,limit=1] NUMEROJOUEUR run scoreboard players set @s[scores={HAS_LVL_DAB=..1}] TIMER_HAS_DAB 210
+execute at @s as @a[distance=..2] unless score @s NUMEROJOUEUR = @a[distance=..0,limit=1] NUMEROJOUEUR run scoreboard players set @s[scores={SPD_LVL_DAB=..1}] SPD_LVL_DAB 1
+execute at @s as @a[distance=..2] unless score @s NUMEROJOUEUR = @a[distance=..0,limit=1] NUMEROJOUEUR run scoreboard players set @s[scores={SPD_LVL_DAB=..1}] TIMER_SPD_DAB 210
+
 #effect other 
 execute at @s as @e[type=minecraft:wolf,scores={BELONG_PLAYER1=1..}] if score @s BELONG_PLAYER1 = @a[distance=..0,limit=1] NUMEROJOUEUR run function att2:gameplay/dahal/action/spell44/effect_other
 execute at @s as @e[type=minecraft:iron_golem,scores={BELONG_PLAYER2=1..}] if score @s BELONG_PLAYER2 = @a[distance=..0,limit=1] NUMEROJOUEUR run function att2:gameplay/dahal/action/spell44/effect_other
@@ -24,3 +33,5 @@ scoreboard players operation @s SPELL44_LVL += @s BONUS_XP_SPELL
 
 # Spell launch total count for advancement
 scoreboard players add @s SPELLS_COUNT 1
+##test SPELLS_COUNT
+function att2:advancement/test_all/spell/launch_count
