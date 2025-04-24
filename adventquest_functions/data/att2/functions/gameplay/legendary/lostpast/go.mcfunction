@@ -14,7 +14,7 @@ scoreboard players set @a[scores={SHOOTING_LP=1..}] SHOOTING_LP 0
 
 execute as @e[scores={SHOOTING_LP=1..},type=!player] run function att2:gameplay/legendary/lostpast/upgradearrow
 
-execute as @e[scores={SHOOTING_LP=5..}] at @s run particle minecraft:firework ~ ~ ~ 0 0 0 0.1 5 force @a
+execute as @e[scores={SHOOTING_LP=1..}] at @s run particle minecraft:firework ~ ~ ~ 0 0 0 0.1 5 force @a
 
 scoreboard players set @e[scores={SHOOTING_LP=3..},type=!player,nbt={inGround:1b}] INGROUND 1
 kill @e[scores={SHOOTING_LP=3..,INGROUND=1..},type=!player]
