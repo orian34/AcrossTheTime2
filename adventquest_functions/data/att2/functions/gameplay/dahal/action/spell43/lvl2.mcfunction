@@ -3,10 +3,14 @@
 #Absorption lvl2												#
 #################################################################
 
-execute at @s run function att2:gameplay/dahal/action/spell43/effect
-particle minecraft:dust 0.9 0.9 0.1 2.25 ~ ~1 ~ 0.1 0.1 0.1 0 2 normal @s
-particle minecraft:dust 0.9 0.9 0.1 1.25 ~ ~1 ~ 0.2 1 0.2 0 6 normal @a[distance=1..]
-effect give @s minecraft:absorption 1000000 1 true
+execute as @a[distance=..2] at @s run function att2:gameplay/dahal/action/spell43/effect
+execute as @a[distance=..2] at @s run particle minecraft:dust 0.9 0.9 0.1 2.25 ~ ~1 ~ 0.1 0.1 0.1 0 2 normal
+effect give @s minecraft:absorption infinite 1 true
+##other players
+execute at @s as @a[distance=..2] unless score @s NUMEROJOUEUR = @a[distance=..0,limit=1] NUMEROJOUEUR run effect give @s minecraft:absorption infinite 0 true
+#effect other 
+execute at @s as @e[type=minecraft:wolf,scores={BELONG_PLAYER1=1..}] if score @s BELONG_PLAYER1 = @a[distance=..0,limit=1] NUMEROJOUEUR run function att2:gameplay/dahal/action/spell43/effect_other
+execute at @s as @e[type=minecraft:iron_golem,scores={BELONG_PLAYER2=1..}] if score @s BELONG_PLAYER2 = @a[distance=..0,limit=1] NUMEROJOUEUR run function att2:gameplay/dahal/action/spell43/effect_other
 scoreboard players remove @s DAHAL 50
 function att2:gameplay/dahal/action/spell43/cooldown
 scoreboard players add @s SPELL43_LVL 1

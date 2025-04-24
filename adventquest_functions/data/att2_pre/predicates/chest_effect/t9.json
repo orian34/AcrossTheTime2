@@ -13,6 +13,30 @@
             "condition":"location_check",
             "predicate":{
                 "block":{
+                    "nbt":"{LootTable:\"att2:chest/reg1/c4t9\"}"
+                }
+            }
+        },
+        {
+            "condition":"location_check",
+            "predicate":{
+                "block":{
+                    "nbt":"{LootTable:\"att2:chest/reg1/c5t9\"}"
+                }
+            }
+        },
+        {
+            "condition":"location_check",
+            "predicate":{
+                "block":{
+                    "nbt":"{LootTable:\"att2:chest/reg1/c6t9\"}"
+                }
+            }
+        },
+        {
+            "condition":"location_check",
+            "predicate":{
+                "block":{
                     "nbt":"{LootTable:\"att2:chest/reg1/c7t9\"}"
                 }
             }

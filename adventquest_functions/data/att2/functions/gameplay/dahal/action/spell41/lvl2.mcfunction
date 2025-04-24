@@ -3,16 +3,23 @@
 #Cicatrization lvl2												#
 #################################################################
 
-function att2:gameplay/dahal/action/spell41/effect
-particle minecraft:dust 0.9 0.6 0.7 0.7 ~ ~ ~ 1 1 1 0 10 normal @s
-particle minecraft:witch ~ ~ ~ 1 0.5 1 0 20 normal @s
-particle minecraft:dust 0.64 0.74 1 2.4 ~ ~ ~ 1 1 1 0 4 normal @a[distance=1..]
+execute as @a[distance=..2] at @s run function att2:gameplay/dahal/action/spell41/effect
+execute as @a[distance=..2] at @s run particle minecraft:dust 0.9 0.6 0.7 0.7 ~ ~ ~ 1 1 1 0 10 normal
+execute as @a[distance=..2] at @s run particle minecraft:witch ~ ~ ~ 1 0.5 1 0 20 normal
 scoreboard players set @s[scores={HER_LVL_DAB=..4}] HER_LVL_DAB 4
 scoreboard players set @s[scores={HER_LVL_DAB=..4}] TIMER_HER_DAB 120
 scoreboard players set @s[scores={SPD_LVL_DAM=..1}] SPD_LVL_DAM 1
 scoreboard players set @s[scores={SPD_LVL_DAM=..1}] TIMER_SPD_DAM 120
+##other players
+execute at @s as @a[distance=..2] unless score @s NUMEROJOUEUR = @a[distance=..0,limit=1] NUMEROJOUEUR run scoreboard players set @s[scores={HER_LVL_DAB=..2}] HER_LVL_DAB 2
+execute at @s as @a[distance=..2] unless score @s NUMEROJOUEUR = @a[distance=..0,limit=1] NUMEROJOUEUR run scoreboard players set @s[scores={HER_LVL_DAB=..2}] TIMER_HER_DAB 80
+execute at @s as @a[distance=..2] unless score @s NUMEROJOUEUR = @a[distance=..0,limit=1] NUMEROJOUEUR run scoreboard players set @s[scores={SPD_LVL_DAM=..1}] SPD_LVL_DAM 1
+execute at @s as @a[distance=..2] unless score @s NUMEROJOUEUR = @a[distance=..0,limit=1] NUMEROJOUEUR run scoreboard players set @s[scores={SPD_LVL_DAM=..1}] TIMER_SPD_DAM 80
+#effect other 
+execute at @s as @e[type=minecraft:wolf,scores={BELONG_PLAYER1=1..}] if score @s BELONG_PLAYER1 = @a[distance=..0,limit=1] NUMEROJOUEUR run function att2:gameplay/dahal/action/spell41/effect_other
+execute at @s as @e[type=minecraft:iron_golem,scores={BELONG_PLAYER2=1..}] if score @s BELONG_PLAYER2 = @a[distance=..0,limit=1] NUMEROJOUEUR run function att2:gameplay/dahal/action/spell41/effect_other
 scoreboard players remove @s DAHAL 25
-tag @s add Cicatrization
+tag @a[distance=..2] add Cicatrization
 function att2:gameplay/dahal/action/spell41/cooldown
 scoreboard players add @s SPELL41_LVL 1
 function att2:gameplay/dahal/bonus_xp

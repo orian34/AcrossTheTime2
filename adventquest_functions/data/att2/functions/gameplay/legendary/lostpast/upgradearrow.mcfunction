@@ -3,7 +3,10 @@
 #Upgrade arrow shooted by Lost Past	             #
 ##################################################
 
-scoreboard players add @s SHOOTING_LP 1
+scoreboard players add @s[scores={LP_USE=..19}] SHOOTING_LP 1
+scoreboard players add @s[scores={LP_USE=20..29}] SHOOTING_LP 2
+scoreboard players add @s[scores={LP_USE=30..39}] SHOOTING_LP 3
+scoreboard players add @s[scores={LP_USE=40..}] SHOOTING_LP 4
 scoreboard players operation @s ARR_POWER_LP = @s SHOOTING_LP
 scoreboard players operation @s ARR_POWER_LP *= 2 ARR_POWER
 scoreboard players operation @s ARR_POWER_LP += @s ARR_POWER
