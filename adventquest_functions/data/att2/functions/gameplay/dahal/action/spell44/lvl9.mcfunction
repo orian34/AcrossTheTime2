@@ -5,7 +5,7 @@
 
 execute as @a[distance=..9] at @s run function att2:gameplay/dahal/action/spell44/effect
 execute as @a[distance=..9] at @s run particle minecraft:poof ~ ~ ~ 0.5 0.5 0.5 0.45 180
-effect give@s minecraft:invisibility 90 0 true
+effect give @s minecraft:invisibility 90 0 true
 scoreboard players set @s[scores={HUN_LVL_DAM=..1}] HUN_LVL_DAM 1
 scoreboard players set @s[scores={HUN_LVL_DAM=..1}] TIMER_HUN_DAM 1800
 scoreboard players set @s[scores={HAS_LVL_DAB=..4}] HAS_LVL_DAB 4
