@@ -16,7 +16,7 @@
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.6
+                            "chance": 0.3
                         }
                     ],
                     "functions": [
@@ -39,7 +39,7 @@
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.45
+                            "chance": 0.25
                         }
                     ],
                     "functions": [
@@ -62,7 +62,7 @@
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.35
+                            "chance": 0.2
                         }
                     ],
                     "functions": [
@@ -85,7 +85,7 @@
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.25
+                            "chance": 0.175
                         }
                     ],
                     "functions": [
@@ -131,7 +131,7 @@
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.09
+                            "chance": 0.125
                         }
                     ],
                     "functions": [
@@ -154,7 +154,7 @@
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.08
+                            "chance": 0.105
                         }
                     ],
                     "functions": [
@@ -177,7 +177,7 @@
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.07
+                            "chance": 0.09
                         }
                     ],
                     "functions": [
@@ -200,7 +200,7 @@
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.06
+                            "chance": 0.075
                         }
                     ],
                     "functions": [
@@ -223,7 +223,7 @@
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.05
+                            "chance": 0.06
                         }
                     ],
                     "functions": [
@@ -246,7 +246,7 @@
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.0425
+                            "chance": 0.045
                         }
                     ],
                     "functions": [
@@ -269,7 +269,7 @@
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.035
+                            "chance": 0.025
                         }
                     ],
                     "functions": [
@@ -292,7 +292,7 @@
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.03
+                            "chance": 0.0175
                         }
                     ],
                     "functions": [
@@ -315,7 +315,7 @@
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.025
+                            "chance": 0.0125
                         }
                     ],
                     "functions": [
@@ -338,7 +338,7 @@
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.02
+                            "chance": 0.0125
                         }
                     ],
                     "functions": [
@@ -361,7 +361,7 @@
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.015
+                            "chance": 0.01
                         }
                     ],
                     "functions": [
@@ -384,7 +384,7 @@
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.01
+                            "chance": 0.009
                         }
                     ],
                     "functions": [
@@ -476,7 +476,7 @@
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.0033
+                            "chance": 0.003
                         }
                     ],
                     "functions": [
@@ -499,7 +499,7 @@
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.0025
+                            "chance": 0.002
                         }
                     ],
                     "functions": [
@@ -522,7 +522,7 @@
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.002
+                            "chance": 0.001
                         }
                     ],
                     "functions": [
@@ -545,7 +545,7 @@
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.0015
+                            "chance": 0.00085
                         }
                     ],
                     "functions": [
@@ -568,7 +568,7 @@
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.001
+                            "chance": 0.00065
                         }
                     ],
                     "functions": [
@@ -591,7 +591,7 @@
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.00075
+                            "chance": 0.00045
                         }
                     ],
                     "functions": [
@@ -614,7 +614,7 @@
                     "conditions": [
                         {
                             "condition": "random_chance",
-                            "chance": 0.0005
+                            "chance": 0.00025
                         }
                     ],
                     "functions": [
