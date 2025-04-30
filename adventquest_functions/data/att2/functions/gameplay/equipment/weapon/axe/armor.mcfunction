@@ -22,10 +22,6 @@ execute if data entity @e[distance=..0,limit=1] ArmorItems[1].tag.Enchantments[{
 execute if data entity @e[distance=..0,limit=1] ArmorItems[2].tag.Enchantments[{id:"minecraft:protection"}] store result score PRVALUE3 AXE_ARMOR run data get entity @e[distance=..0,limit=1] ArmorItems[2].tag.Enchantments[{id:"minecraft:protection"}].lvl
 execute if data entity @e[distance=..0,limit=1] ArmorItems[3].tag.Enchantments[{id:"minecraft:protection"}] store result score PRVALUE4 AXE_ARMOR run data get entity @e[distance=..0,limit=1] ArmorItems[3].tag.Enchantments[{id:"minecraft:protection"}].lvl
 #make pr en can real reduce
-execute if score PRVALUE1 AXE_ARMOR matches 1.. run scoreboard players set PR1 AXE_ARMOR 1
-execute if score PRVALUE2 AXE_ARMOR matches 1.. run scoreboard players set PR2 AXE_ARMOR 1
-execute if score PRVALUE3 AXE_ARMOR matches 1.. run scoreboard players set PR3 AXE_ARMOR 1
-execute if score PRVALUE4 AXE_ARMOR matches 1.. run scoreboard players set PR4 AXE_ARMOR 1
 scoreboard players operation TOTAL_PRVALUE AXE_ARMOR = PRVALUE1 AXE_ARMOR
 scoreboard players operation TOTAL_PRVALUE AXE_ARMOR += PRVALUE2 AXE_ARMOR
 scoreboard players operation TOTAL_PRVALUE AXE_ARMOR += PRVALUE3 AXE_ARMOR
@@ -40,10 +36,10 @@ execute if score TOTAL_PRVALUE AXE_ARMOR matches ..0 run scoreboard players set 
 execute store result storage armor TOTAL_PRVALUE int 1 run scoreboard players get TOTAL_PRVALUE AXE_ARMOR
 execute store result storage armor RESET_PRVALUE int 1 run scoreboard players get 0 AXE_ARMOR
 #reduce pr en only once
-execute if score PR1 AXE_ARMOR matches 1.. as @e[distance=..0,limit=1] run function att2:gameplay/equipment/weapon/axe/pren1
-execute if score PR2 AXE_ARMOR matches 1.. as @e[distance=..0,limit=1] run function att2:gameplay/equipment/weapon/axe/pren2
-execute if score PR3 AXE_ARMOR matches 1.. as @e[distance=..0,limit=1] run function att2:gameplay/equipment/weapon/axe/pren3
-execute if score PR4 AXE_ARMOR matches 1.. as @e[distance=..0,limit=1] run function att2:gameplay/equipment/weapon/axe/pren4
+execute if score PRVALUE1 AXE_ARMOR matches 1.. as @e[distance=..0,limit=1] run function att2:gameplay/equipment/weapon/axe/pren1
+execute if score PRVALUE2 AXE_ARMOR matches 1.. as @e[distance=..0,limit=1] run function att2:gameplay/equipment/weapon/axe/pren2
+execute if score PRVALUE3 AXE_ARMOR matches 1.. as @e[distance=..0,limit=1] run function att2:gameplay/equipment/weapon/axe/pren3
+execute if score PRVALUE4 AXE_ARMOR matches 1.. as @e[distance=..0,limit=1] run function att2:gameplay/equipment/weapon/axe/pren4
 
 #particle
 execute as @e[distance=..0,limit=1] at @s run function att2:gameplay/equipment/weapon/axe/particle
