@@ -22,4 +22,4 @@ execute if score numberPlayer COUNT matches 1 if score RNG100 RNG100_Variable ma
 execute if score numberPlayer COUNT matches 2 if score RNG100 RNG100_Variable matches 16..84 run function att2:gameplay/enveffect/mobs_invasion/summon_trigger_position
 execute if score numberPlayer COUNT matches 3 if score RNG100 RNG100_Variable matches 11..89 run function att2:gameplay/enveffect/mobs_invasion/summon_trigger_position
 execute if score numberPlayer COUNT matches 4 if score RNG100 RNG100_Variable matches 6..94 run function att2:gameplay/enveffect/mobs_invasion/summon_trigger_position
-execute if score numberPlayer COUNT matches 5.. if score RNG100 RNG100_Variable matches 1..99 function att2:gameplay/enveffect/mobs_invasion/summon_trigger_position
+execute if score numberPlayer COUNT matches 5.. if score RNG100 RNG100_Variable matches 1..99 run function att2:gameplay/enveffect/mobs_invasion/summon_trigger_position
