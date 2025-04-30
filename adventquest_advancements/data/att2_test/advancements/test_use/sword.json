@@ -1,0 +1,125 @@
+{
+  "rewards": {
+    "function": "att2:gameplay/equipment/weapon/sword/sword_trigger"
+  },
+  "criteria": {
+    "wooden_sword": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:wooden_sword"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "stone_sword": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:stone_sword"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "iron_sword": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:iron_sword"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "golden_sword": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:golden_sword"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "diamond_sword": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:diamond_sword"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "netherite_sword": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:netherite_sword"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "wooden_sword",
+      "stone_sword",
+      "iron_sword",
+      "golden_sword",
+      "diamond_sword",
+      "netherite_sword"
+    ]
+  ]
+}
