@@ -35,3 +35,14 @@ scoreboard players operation RNG1000 RNG1000_Variable /= C_1000 RNG_Constant
 scoreboard players operation RNG1000 RNG1000_Variable *= C_314159 RNG_Constant
 scoreboard players operation RNG1000 RNG1000_Variable *= C_2718281 RNG_Constant
 scoreboard players operation RNG1000 RNG1000_Variable %= C_1000 RNG_Constant
+
+scoreboard players add RNGseed RNG10000_Variable 1
+execute store result score RNG10000 RNG10000_Variable run time query gametime
+scoreboard players operation RNG10000 RNG10000_Variable *= RNGseed RNG10000_Variable
+scoreboard players operation RNG10000 RNG10000_Variable *= C_314159 RNG_Constant
+scoreboard players operation RNG10000 RNG10000_Variable *= C_2718281 RNG_Constant
+scoreboard players operation RNG10000 RNG10000_Variable *= RNG10000 RNG10000_Variable
+scoreboard players operation RNG10000 RNG10000_Variable /= C_10000 RNG_Constant
+scoreboard players operation RNG10000 RNG10000_Variable *= C_314159 RNG_Constant
+scoreboard players operation RNG10000 RNG10000_Variable *= C_2718281 RNG_Constant
+scoreboard players operation RNG10000 RNG10000_Variable %= C_10000 RNG_Constant

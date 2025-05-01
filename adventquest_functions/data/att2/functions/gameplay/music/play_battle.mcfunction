@@ -3,6 +3,9 @@
 #Start playing battle music    							        #
 #################################################################
 
+# Maze
+execute if entity @s[scores={DIMENSION=-3,AREA=0}] run function att2:sound/music/battle/sample
+
 # Nightmare
 execute if entity @s[scores={DIMENSION=-2,AREA=0}] run function att2:sound/music/battle/sample
 execute if entity @s[scores={DIMENSION=-2,AREA=1}] run function att2:sound/music/battle/sample

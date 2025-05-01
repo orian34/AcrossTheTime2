@@ -5,6 +5,7 @@
 
 #Dimension			:	number
 #-----------------------------
+#maze			    :	-3
 #nightmare			:	-2
 #timeless			:	-1
 #tellurön past		:	0
@@ -19,12 +20,14 @@
 function att2:gameplay/dimension/portals/go
 
 execute as @a at @s run function att2:gameplay/dimension/detect
+execute as @a[scores={DIMENSION=-3}] at @s run function att2:gameplay/dimension/maze
 execute as @a[scores={DIMENSION=-2}] at @s run function att2:gameplay/dimension/nightmare
 execute as @a[scores={DIMENSION=-1}] at @s run function att2:gameplay/dimension/nowhere
 execute as @a[scores={DIMENSION=3}] at @s run function att2:gameplay/dimension/ithax
 execute as @a[scores={DIMENSION=4..5}] at @s run function att2:gameplay/dimension/ouranos
 execute as @a[scores={DIMENSION=7}] at @s run function att2:gameplay/dimension/billgart
 ##TP SPELL32 CHECK
+execute as @a[scores={DIMENSION=-3}] at @s run scoreboard players set @s tp_spell32_timer 20
 execute as @a[scores={DIMENSION=-2}] at @s run scoreboard players set @s tp_spell32_timer 20
 execute as @a[scores={DIMENSION=-1}] at @s run scoreboard players set @s tp_spell32_timer 20
 execute as @a[scores={DIMENSION=3}] at @s run scoreboard players set @s tp_spell32_timer 20
