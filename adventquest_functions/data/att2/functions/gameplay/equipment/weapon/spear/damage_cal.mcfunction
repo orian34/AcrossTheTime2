@@ -13,7 +13,7 @@ execute store result score @s HOEDAMAGE run attribute @s minecraft:generic.attac
 scoreboard players operation @s HOEDAMAGE /= 4 HOEDAMAGE
 execute store result score SPD_LVL HOEDAMAGE run data get entity @s active_effects[{id:"minecraft:speed"}].amplifier
 execute if score SPD_LVL HOEDAMAGE matches 0.. run scoreboard players operation SPD_LVL HOEDAMAGE += 1 DAMAGE
-scoreboard players operation SPD_CAL HOEDAMAGE = SPD_LVL DAMAGE
+scoreboard players operation SPD_CAL HOEDAMAGE = SPD_LVL HOEDAMAGE
 scoreboard players operation SPD_CAL HOEDAMAGE += 1 DAMAGE
 scoreboard players operation SPD_CAL HOEDAMAGE *= 2 DAMAGE
 scoreboard players operation SPD_CAL HOEDAMAGE += 100 DAMAGE
