@@ -33,6 +33,7 @@ function att2:gameplay/legendary/initialize
 function att2:gameplay/leveling/initialize
 function att2:gameplay/lock/initialize
 function att2:gameplay/nightmarerun/initialize
+function att2:gameplay/maze/initialize
 function att2:gameplay/misc/initialize
 function att2:gameplay/music/initialize
 function att2:gameplay/panorama/initialize

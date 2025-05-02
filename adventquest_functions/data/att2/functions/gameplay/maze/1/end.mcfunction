@@ -3,9 +3,8 @@
 #End maze 1			                                #
 #####################################################
 
-scoreboard players set active MAZE 0
+function att2:gameplay/maze/stop
 scoreboard players set achieved MAZE 1
-scoreboard players set lapis_doors1 MAZE 0
 
 tp @s -10019 71 -10081
 execute as @a[x=-10051,y=71,z=-10005,dx=97,dy=6,dz=-74,gamemode=adventure] at @s run tp @s -10019 71 -10081
