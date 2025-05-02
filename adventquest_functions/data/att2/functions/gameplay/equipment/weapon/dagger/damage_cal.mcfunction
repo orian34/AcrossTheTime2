@@ -9,7 +9,6 @@ execute store result score @s DGDAMAGE run attribute @s minecraft:generic.attack
 #!!!!The final damage will take the maximum value between the player's original damage and this system's damage, so the initial damage setting is higher
 execute store result score HAS_CAL DGDAMAGE run data get entity @s active_effects[{id:"minecraft:haste"}].amplifier
 execute if score HAS_CAL DGDAMAGE matches 0.. run scoreboard players operation HAS_CAL DGDAMAGE += 1 DAMAGE
-scoreboard players operation HAS_CAL DGDAMAGE += 1 DAMAGE
 scoreboard players operation HAS_CAL DGDAMAGE *= 100 DAMAGE
 scoreboard players operation HAS_CAL DGDAMAGE *= 4 DAMAGE
 scoreboard players operation HAS_CAL DGDAMAGE += 15000 DAMAGE
