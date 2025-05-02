@@ -7,12 +7,13 @@
 execute store result score @s DGDAMAGE run attribute @s minecraft:generic.attack_damage get
 #damage cal |rangedamge= actually damage * [1.5+(HASLEVEL*0.04)](MAXVALUE->1.5+15*0.04->2.1)
 #!!!!The final damage will take the maximum value between the player's original damage and this system's damage, so the initial damage setting is higher
-function att2:gameplay/stat/buff_level_data/haste_buff_data
-scoreboard players operation HAS_CAL DAMAGE = @s HAS_BUFF_LEVEL
-scoreboard players operation HAS_CAL DAMAGE *= 100 DAMAGE
-scoreboard players operation HAS_CAL DAMAGE *= 4 DAMAGE
-scoreboard players operation HAS_CAL DAMAGE += 15000 DAMAGE
-scoreboard players operation @s DGDAMAGE *= HAS_CAL DAMAGE
+execute store result score HAS_CAL DGDAMAGE run data get entity @s active_effects[{id:"minecraft:haste"}].amplifier
+execute if score HAS_CAL DGDAMAGE matches 0.. run scoreboard players operation HAS_CAL DGDAMAGE += 1 DAMAGE
+scoreboard players operation HAS_CAL DGDAMAGE += 1 DAMAGE
+scoreboard players operation HAS_CAL DGDAMAGE *= 100 DAMAGE
+scoreboard players operation HAS_CAL DGDAMAGE *= 4 DAMAGE
+scoreboard players operation HAS_CAL DGDAMAGE += 15000 DAMAGE
+scoreboard players operation @s DGDAMAGE *= HAS_CAL DGDAMAGE
 scoreboard players operation @s DGDAMAGE /= 10000 DAMAGE
 #store damage
 execute store result storage damage dagger int 1 run scoreboard players get @s DGDAMAGE
