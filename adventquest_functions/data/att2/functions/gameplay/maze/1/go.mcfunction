@@ -1,6 +1,6 @@
 #############################################################
 #Made by Adventquest										#
-#maze1 processing	                                        #
+#maze processing	                                        #
 #############################################################
 
 execute as @a[x=-10020,y=71,z=-10079,dx=2,dy=2,dz=0,gamemode=adventure] run function att2:gameplay/maze/1/end
