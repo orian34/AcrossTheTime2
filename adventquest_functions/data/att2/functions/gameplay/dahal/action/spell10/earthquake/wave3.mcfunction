@@ -13,9 +13,7 @@ particle minecraft:campfire_signal_smoke ~ ~ ~ 1.5 0.25 1.5 0.1 30 normal
 
 execute at @s as @a run function att2:gameplay/dahal/action/spell10/sound_effect2
 
-execute if score BonusDahalPower RUNE matches 0 run function att2:gameplay/dahal/action/spell10/damage/lvl3/bonus0
-execute if score BonusDahalPower RUNE matches 1 run function att2:gameplay/dahal/action/spell10/damage/lvl3/bonus1
-execute if score BonusDahalPower RUNE matches 2 run function att2:gameplay/dahal/action/spell10/damage/lvl3/bonus2
-execute if score BonusDahalPower RUNE matches 3 run function att2:gameplay/dahal/action/spell10/damage/lvl3/bonus3
-execute if score BonusDahalPower RUNE matches 4 run function att2:gameplay/dahal/action/spell10/damage/lvl3/bonus4
-execute if score BonusDahalPower RUNE matches 5 run function att2:gameplay/dahal/action/spell10/damage/lvl3/bonus5
+#damage cal
+execute as @s run function att2:gameplay/dahal/action/spell10/damage_cal
+#find owner player ->damage
+execute at @a[gamemode=adventure] as @s if score @a[distance=..0,limit=1] NUMEROJOUEUR = @s SPELL10_OWNER as @e[distance=..3,scores={GAMELEVEL=0..},team=hostile] run function att2:gameplay/dahal/action/spell10/damage with storage spdamage

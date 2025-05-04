@@ -3,6 +3,9 @@
 #Fireline lvl9													#
 #################################################################
 
+#damage cal
+execute as @s run function att2:gameplay/dahal/action/spell2/damage_cal
+
 execute at @s run function att2:sound/misc/fire_launch
 execute at @s anchored eyes positioned ^ ^-0.5 ^0.5 run function att2:gameplay/dahal/action/spell2/fire9
 execute at @s anchored eyes positioned ^ ^-0.5 ^1 run function att2:gameplay/dahal/action/spell2/fire9
@@ -26,7 +29,7 @@ execute at @s anchored eyes positioned ^ ^-0.5 ^9.5 run function att2:gameplay/d
 execute at @s anchored eyes positioned ^ ^-0.5 ^10 run function att2:gameplay/dahal/action/spell2/fire9
 execute at @s anchored eyes positioned ^ ^-0.5 ^10.5 run function att2:gameplay/dahal/action/spell2/fire9
 execute at @s anchored eyes positioned ^ ^-0.5 ^11 run function att2:gameplay/dahal/action/spell2/fire9
-
+tag @s remove SPLAUNCH
 scoreboard players remove @s DAHAL 185
 function att2:gameplay/dahal/action/spell2/cooldown
 scoreboard players add @s SPELL2_LVL 5
@@ -35,3 +38,5 @@ scoreboard players operation @s SPELL2_LVL += @s BONUS_XP_SPELL
 
 # Spell launch total count for advancement
 scoreboard players add @s SPELLS_COUNT 1
+##test SPELLS_COUNT
+function att2:advancement/test_all/spell/launch_count
