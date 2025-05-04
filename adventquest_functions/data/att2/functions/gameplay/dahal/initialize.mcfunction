@@ -14,7 +14,7 @@ scoreboard objectives add SPELL_SLCT dummy
 scoreboard objectives add SPELL_OP dummy
 scoreboard objectives add SPELLS_COUNT dummy
 scoreboard objectives add BONUS_XP_SPELL dummy
-
+scoreboard objectives add SPDG dummy
 scoreboard objectives add INVOC_DURATION dummy
 
 scoreboard players set @s DAHAL 0

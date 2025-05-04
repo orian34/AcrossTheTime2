@@ -7,6 +7,7 @@ scoreboard objectives add COOLDOWN6 dummy
 scoreboard objectives add SPELL6_LVL dummy
 scoreboard objectives add SPELL6_EFFECT dummy
 scoreboard objectives add SPELL6_CAP dummy
+scoreboard objectives add SPELL6_OWNER dummy
 scoreboard players set @s COOLDOWN6 0
 scoreboard players set @s SPELL6_LVL 0
 scoreboard players set @s SPELL6_CAP 1

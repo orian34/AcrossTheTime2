@@ -21,9 +21,7 @@ execute as @e[team=hostile,scores={GAMELEVEL=0..},distance=..4] at @s unless ent
 
 tp @s ~ ~ ~ ~5 ~
 
-execute if score BonusDahalPower RUNE matches 0 run function att2:gameplay/dahal/action/spell7/damage/lvl7/bonus0
-execute if score BonusDahalPower RUNE matches 1 run function att2:gameplay/dahal/action/spell7/damage/lvl7/bonus1
-execute if score BonusDahalPower RUNE matches 2 run function att2:gameplay/dahal/action/spell7/damage/lvl7/bonus2
-execute if score BonusDahalPower RUNE matches 3 run function att2:gameplay/dahal/action/spell7/damage/lvl7/bonus3
-execute if score BonusDahalPower RUNE matches 4 run function att2:gameplay/dahal/action/spell7/damage/lvl7/bonus4
-execute if score BonusDahalPower RUNE matches 5 run function att2:gameplay/dahal/action/spell7/damage/lvl7/bonus5
+#damage cal
+execute as @s run function att2:gameplay/dahal/action/spell7/damage_cal
+#find owner player ->damage
+execute at @a[gamemode=adventure] as @s if score @a[distance=..0,limit=1] NUMEROJOUEUR = @s SPELL7_OWNER as @e[distance=..4,scores={GAMELEVEL=0..},team=hostile] run function att2:gameplay/dahal/action/spell7/damage with storage spdamage
