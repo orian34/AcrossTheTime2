@@ -10,4 +10,4 @@ function att2:gameplay/maze/temporal_anomaly_entrance
 execute if score active MAZE matches 1 if entity @e[tag=maze_chest] as @e[tag=maze_chest] at @s run function att2:gameplay/maze/chest_effect
 
 # Mazes
-execute if @a[scores={DIMENSION=-3}] run function att2:gameplay/maze/all_processing
+execute if entity @a[scores={DIMENSION=-3}] run function att2:gameplay/maze/all_processing
