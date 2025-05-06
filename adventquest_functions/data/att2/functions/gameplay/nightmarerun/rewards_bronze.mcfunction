@@ -5,7 +5,7 @@
 
 function att2:dialogs/gameplay/nightmarerun/bronze_score
 function att2:gameplay/nightmarerun/rewards_bronze_effect
-advancement grant @a only att2:progress/nightmarerun_bronze
+advancement grant @a only att2:challenge/nightmarerun_bronze
 
 function att2:summon/reg_1/arena_rewards
 function att2:summon/reg_1/arena_rewards

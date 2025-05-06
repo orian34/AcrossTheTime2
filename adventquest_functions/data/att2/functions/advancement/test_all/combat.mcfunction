@@ -107,10 +107,3 @@ advancement grant @a[scores={LUC_TOT=18..}] only att2:combat/luc_18
 
 # ALL STATS MAX (+2 from natural max level)
 advancement grant @a[scores={LUC_TOT=12..,HUN_TOT=14..,DAR_TOT=14..,HER_TOT=10..,RES_TOT=10..,HAS_TOT=14..,SPD_TOT=14..,STR_TOT=16..}] only att2:combat/all_stats_max
-
-# ARENA
-execute if score Number_Complete ARENA matches 1.. run advancement grant @a only att2:combat/arena_1
-execute if score Number_Complete ARENA matches 2.. run advancement grant @a only att2:combat/arena_2
-execute if score Number_Complete ARENA matches 3.. run advancement grant @a only att2:combat/arena_3
-execute if score Number_Complete ARENA matches 5.. run advancement grant @a only att2:combat/arena_5
-execute if score Number_Complete ARENA matches 10.. run advancement grant @a only att2:combat/arena_10

@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:trident"
+        },
+        "title": {"translate":"Challenge"},
+        "description": {"translate":"You are not ready!"},
+        "background": "minecraft:textures/block/green_concrete.png",
+        "show_toast": false
+    },
+    "criteria": {
+        "inventory": {
+            "trigger": "minecraft:inventory_changed"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:mangrove_hanging_sign"
+        },
+        "title": {"translate":"MAZE V!"},
+        "description": {"translate":"Complete the maze 5."},
+        "frame": "goal"
+    },
+    "parent": "att2:challenge/maze_4",
+    "rewards": {
+        "function": "att2:advancement/exploit_30",
+        "experience": 30000
+                },
+    "criteria": {
+        "maze_5": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

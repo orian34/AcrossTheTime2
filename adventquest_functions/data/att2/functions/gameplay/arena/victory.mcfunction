@@ -8,9 +8,9 @@ function att2:gameplay/arena/time/total_time
 
 scoreboard players set in_fight BOSS 0
 scoreboard players add Number_Complete ARENA 1
-execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:combat/arena_easy
-execute if score level DIFFICULTY matches 0.. run advancement grant @a only att2:combat/arena_normal
-execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:combat/arena_hard
+execute if score level DIFFICULTY matches -1.. run advancement grant @a only att2:challenge/arena_easy
+execute if score level DIFFICULTY matches 0.. run advancement grant @a only att2:challenge/arena_normal
+execute if score level DIFFICULTY matches 1.. run advancement grant @a only att2:challenge/arena_hard
 tp @a[tag=InArena] 5000 75 -5000
 tag @a remove InArena
 execute positioned 5000 75 -5000 run function att2:gameplay/arena/rewards_start

@@ -50,16 +50,16 @@ execute if entity @s[advancements={att2:hunting/blobby=true}] run function att2:
 execute if entity @s[advancements={att2:hunting/felroth=true}] run function att2:dialogs/gameplay/boss_timer/worlest/felroth_record
 ##arena
 #pool0
-execute if entity @s[advancements={att2:combat/tournament_1=true}] run function att2:dialogs/gameplay/boss_timer/arena/tournament_1
-execute if entity @s[advancements={att2:combat/tournament_1=true}] run function att2:dialogs/gameplay/boss_timer/arena/pool0/pool0_record
+execute if entity @s[advancements={att2:challenge/tournament_1=true}] run function att2:dialogs/gameplay/boss_timer/arena/tournament_1
+execute if entity @s[advancements={att2:challenge/tournament_1=true}] run function att2:dialogs/gameplay/boss_timer/arena/pool0/pool0_record
 execute if score pool0_1_over BOSS_TIME matches 1 run function att2:dialogs/gameplay/boss_timer/arena/pool0/1_record
 execute if score pool0_2_over BOSS_TIME matches 1 run function att2:dialogs/gameplay/boss_timer/arena/pool0/2_record
 execute if score pool0_3_over BOSS_TIME matches 1 run function att2:dialogs/gameplay/boss_timer/arena/pool0/3_record
 execute if score pool0_4_over BOSS_TIME matches 1 run function att2:dialogs/gameplay/boss_timer/arena/pool0/4_record
 execute if score pool0_5_over BOSS_TIME matches 1 run function att2:dialogs/gameplay/boss_timer/arena/pool0/5_record
 #pool1
-execute if entity @s[advancements={att2:combat/tournament_2=true}] run function att2:dialogs/gameplay/boss_timer/arena/tournament_2
-execute if entity @s[advancements={att2:combat/tournament_2=true}] run function att2:dialogs/gameplay/boss_timer/arena/pool1/pool1_record
+execute if entity @s[advancements={att2:challenge/tournament_2=true}] run function att2:dialogs/gameplay/boss_timer/arena/tournament_2
+execute if entity @s[advancements={att2:challenge/tournament_2=true}] run function att2:dialogs/gameplay/boss_timer/arena/pool1/pool1_record
 execute if score pool1_1_over BOSS_TIME matches 1 run function att2:dialogs/gameplay/boss_timer/arena/pool1/1_record
 execute if score pool1_2_over BOSS_TIME matches 1 run function att2:dialogs/gameplay/boss_timer/arena/pool1/2_record
 execute if score pool1_3_over BOSS_TIME matches 1 run function att2:dialogs/gameplay/boss_timer/arena/pool1/3_record
@@ -68,19 +68,19 @@ execute if score pool1_5_over BOSS_TIME matches 1 run function att2:dialogs/game
 execute if score pool1_6_over BOSS_TIME matches 1 run function att2:dialogs/gameplay/boss_timer/arena/pool1/6_record
 execute if score pool1_7_over BOSS_TIME matches 1 run function att2:dialogs/gameplay/boss_timer/arena/pool1/7_record
 #pool2
-execute if entity @s[advancements={att2:combat/tournament_3=true}] run function att2:dialogs/gameplay/boss_timer/arena/tournament_3
-execute if entity @s[advancements={att2:combat/tournament_3=true}] run function att2:dialogs/gameplay/boss_timer/arena/pool2/pool2_record
+execute if entity @s[advancements={att2:challenge/tournament_3=true}] run function att2:dialogs/gameplay/boss_timer/arena/tournament_3
+execute if entity @s[advancements={att2:challenge/tournament_3=true}] run function att2:dialogs/gameplay/boss_timer/arena/pool2/pool2_record
 execute if score pool2_1_over BOSS_TIME matches 1 run function att2:dialogs/gameplay/boss_timer/arena/pool2/1_record
 execute if score pool2_2_over BOSS_TIME matches 1 run function att2:dialogs/gameplay/boss_timer/arena/pool2/2_record
 execute if score pool2_3_over BOSS_TIME matches 1 run function att2:dialogs/gameplay/boss_timer/arena/pool2/3_record
 #pool3
-execute if entity @s[advancements={att2:combat/tournament_4=true}] run function att2:dialogs/gameplay/boss_timer/arena/tournament_4
-execute if entity @s[advancements={att2:combat/tournament_4=true}] run function att2:dialogs/gameplay/boss_timer/arena/pool3/pool3_record
+execute if entity @s[advancements={att2:challenge/tournament_4=true}] run function att2:dialogs/gameplay/boss_timer/arena/tournament_4
+execute if entity @s[advancements={att2:challenge/tournament_4=true}] run function att2:dialogs/gameplay/boss_timer/arena/pool3/pool3_record
 execute if score pool3_1_over BOSS_TIME matches 1 run function att2:dialogs/gameplay/boss_timer/arena/pool3/1_record
 #pool4
-execute if entity @s[advancements={att2:combat/tournament_5=true}] run function att2:dialogs/gameplay/boss_timer/arena/tournament_5
-execute if entity @s[advancements={att2:combat/tournament_5=true}] run function att2:dialogs/gameplay/boss_timer/arena/pool4/pool4_record
+execute if entity @s[advancements={att2:challenge/tournament_5=true}] run function att2:dialogs/gameplay/boss_timer/arena/tournament_5
+execute if entity @s[advancements={att2:challenge/tournament_5=true}] run function att2:dialogs/gameplay/boss_timer/arena/pool4/pool4_record
 execute if score pool4_1_over BOSS_TIME matches 1 run function att2:dialogs/gameplay/boss_timer/arena/pool4/1_record
 #total arena
-execute if entity @s[advancements={att2:combat/tournament_5=true}] run function att2:dialogs/gameplay/boss_timer/arena/tournament_total
+execute if entity @s[advancements={att2:challenge/tournament_5=true}] run function att2:dialogs/gameplay/boss_timer/arena/tournament_total
 execute if score pool4_1_over BOSS_TIME matches 1 run function att2:dialogs/gameplay/boss_timer/arena/total_arena_record

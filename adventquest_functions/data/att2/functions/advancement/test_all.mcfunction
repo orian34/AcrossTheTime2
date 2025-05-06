@@ -30,6 +30,9 @@ scoreboard players set @a openSHULKER 0
 # Adventure
 function att2:advancement/test_all/adventure
 
+# Challenge
+function att2:advancement/test_all/challenge
+
 # Combat
 function att2:advancement/test_all/combat
 

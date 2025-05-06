@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:trident"
+        },
+        "title": {"translate":"HARD ARENA TIME RECORD !"},
+        "description": {"translate":"Complete the arena event in hard difficulty within the time limit: 59m."},
+        "frame": "challenge"
+    },
+    "parent": "att2:challenge/arena_hard",
+    "rewards": {
+        "function": "att2:advancement/exploit_75",
+        "experience": 75000
+                },
+    "criteria": {
+        "arena_hard_timerecord": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
