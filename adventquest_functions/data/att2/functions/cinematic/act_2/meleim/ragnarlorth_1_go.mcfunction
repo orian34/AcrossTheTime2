@@ -4,6 +4,7 @@
 ##################################################
 
 execute if score Real0 TIMER matches 0 run scoreboard players set ragnar_lorth_PNJ DIALOG 1
+execute if score Real0 TIMER matches 0 run scoreboard players set wirth_razgork_PNJ DIALOG 7
 execute if score Real0 TIMER matches 1 run scoreboard players set Mainquest SIDEQUEST 20
 
 

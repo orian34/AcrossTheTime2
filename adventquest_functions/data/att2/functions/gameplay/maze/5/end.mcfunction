@@ -8,7 +8,7 @@ scoreboard players set achieved MAZE 5
 advancement grant @a only att2:challenge/maze_5
 
 tp @s -9697 71 -9954
-execute as @a[x=-9947,y=71,z=-10085,dx=248,dy=7,dz=205,gamemode=adventure] at @s run tp @s -9697 71 -9954
+execute as @a[x=-9947,y=65,z=-10085,dx=248,dy=15,dz=205,gamemode=adventure] at @s run tp @s -9697 71 -9954
 execute as @a[x=-9828,y=71,z=-10094,distance=..8,gamemode=adventure] at @s run tp @s -9697 71 -9954
 
 execute positioned -9692 72 -9954 run function att2:gameplay/boss/rewards_start

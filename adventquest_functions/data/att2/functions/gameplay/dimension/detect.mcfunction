@@ -3,6 +3,7 @@
 #Asign a score according to the prensent dimension				#
 #################################################################
 
+scoreboard players set @s[nbt={Dimension:"minecraft:overworld"},x=-9800,y=70,z=-10100,distance=..300] DIMENSION -3
 scoreboard players set @s[nbt={Dimension:"minecraft:overworld"},x=5000,z=-5000,distance=..300] DIMENSION -2
 scoreboard players set @s[nbt={Dimension:"minecraft:overworld"},x=6000,z=-6000,distance=..300] DIMENSION -2
 scoreboard players set @s[nbt={Dimension:"minecraft:overworld"},x=7000,z=-7000,distance=..300] DIMENSION -2

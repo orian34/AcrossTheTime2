@@ -60,3 +60,4 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Wirth Razgork : ","color":"gree
 
 
 function att2:voice/wirth/wirth5
+scoreboard players set wirth_razgork_PNJ DIALOG 6
