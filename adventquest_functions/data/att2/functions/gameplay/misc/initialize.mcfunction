@@ -12,3 +12,4 @@ function att2:gameplay/misc/skin/initialize
 function att2:gameplay/misc/position/initialize
 function att2:gameplay/misc/survive_bonus/initialize
 function att2:gameplay/misc/tp_item/initialize
+function att2:gameplay/misc/exploit_book/initialize

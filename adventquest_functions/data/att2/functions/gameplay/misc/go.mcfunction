@@ -27,3 +27,5 @@ execute if score light movelight matches 1 as @a[predicate=att2_pre:move_light/t
 execute if score light movelight matches 1 as @a[predicate=!att2_pre:move_light/torch_hold] at @s run function att2:gameplay/misc/move_light/over
 #tp item
 execute if score tic TIMECOUNTER matches 10 run function att2:gameplay/misc/tp_item/go
+#exploit_book
+execute if score minute TIMECOUNTER matches 0 if score second TIMECOUNTER matches 0 as @a run function att2:gameplay/misc/exploit_book/go with storage att2:exploit_book
