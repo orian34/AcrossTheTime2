@@ -18,8 +18,8 @@ execute if score Choose_timer INVASION matches 7 run scoreboard players set Inva
 execute if score Choose_timer INVASION matches 8 run scoreboard players set Invasion TIMER 28000
 execute if score Choose_timer INVASION matches 9 run scoreboard players set Invasion TIMER 30000
 
-execute if score numberPlayer COUNT matches 1 if score RNG100 RNG100_Variable matches 21..79 run function att2:gameplay/enveffect/mobs_invasion/summon_trigger_position
-execute if score numberPlayer COUNT matches 2 if score RNG100 RNG100_Variable matches 16..84 run function att2:gameplay/enveffect/mobs_invasion/summon_trigger_position
-execute if score numberPlayer COUNT matches 3 if score RNG100 RNG100_Variable matches 11..89 run function att2:gameplay/enveffect/mobs_invasion/summon_trigger_position
-execute if score numberPlayer COUNT matches 4 if score RNG100 RNG100_Variable matches 6..94 run function att2:gameplay/enveffect/mobs_invasion/summon_trigger_position
-execute if score numberPlayer COUNT matches 5.. if score RNG100 RNG100_Variable matches 1..99 run function att2:gameplay/enveffect/mobs_invasion/summon_trigger_position
+execute if score numberPlayer COUNT matches 1 if score 1RNG100 RNG matches 21..79 run function att2:gameplay/enveffect/mobs_invasion/summon_trigger_position
+execute if score numberPlayer COUNT matches 2 if score 1RNG100 RNG matches 16..84 run function att2:gameplay/enveffect/mobs_invasion/summon_trigger_position
+execute if score numberPlayer COUNT matches 3 if score 1RNG100 RNG matches 11..89 run function att2:gameplay/enveffect/mobs_invasion/summon_trigger_position
+execute if score numberPlayer COUNT matches 4 if score 1RNG100 RNG matches 6..94 run function att2:gameplay/enveffect/mobs_invasion/summon_trigger_position
+execute if score numberPlayer COUNT matches 5.. if score 1RNG100 RNG matches 1..99 run function att2:gameplay/enveffect/mobs_invasion/summon_trigger_position

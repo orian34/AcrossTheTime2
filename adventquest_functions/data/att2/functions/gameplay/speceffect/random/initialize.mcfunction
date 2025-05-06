@@ -3,6 +3,8 @@
 #Initialize random effect						                #
 #################################################################
 
+scoreboard objectives add RNG dummy
+scoreboard objectives add CAL dummy
 scoreboard objectives add RNG_Constant dummy
 scoreboard objectives add RNG10_Variable dummy
 scoreboard objectives add RNG100_Variable dummy
