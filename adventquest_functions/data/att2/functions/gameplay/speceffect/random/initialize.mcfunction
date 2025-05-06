@@ -22,6 +22,7 @@ scoreboard players set RNGseed RNG100_Variable 0
 scoreboard players set RNGseed RNG1000_Variable 0
 scoreboard players set RNGseed RNG10000_Variable 0
 
+scoreboard players set 0 CAL 0
 scoreboard players set _1 CAL -1
 scoreboard players set 2 CAL 2
 scoreboard players set 3 CAL 3
