@@ -4,7 +4,6 @@
 #################################################################
 
 scoreboard players operation @a DAHALMAX -= BonusDahalMax RUNE
-scoreboard players operation @a BASE_HEM -= BonusHealthMax RUNE
 
 execute as @e[type=minecraft:armor_stand,tag=runicwordStand] at @s run setblock ~ ~ ~-1 minecraft:gold_block
 
