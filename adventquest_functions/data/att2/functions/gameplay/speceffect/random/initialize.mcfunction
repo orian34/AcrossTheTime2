@@ -8,6 +8,7 @@ scoreboard objectives add RNG10_Variable dummy
 scoreboard objectives add RNG100_Variable dummy
 scoreboard objectives add RNG1000_Variable dummy
 scoreboard objectives add RNG10000_Variable dummy
+scoreboard objectives add CAL dummy
 
 scoreboard players set C_10 RNG_Constant 10
 scoreboard players set C_100 RNG_Constant 100
@@ -20,3 +21,9 @@ scoreboard players set RNGseed RNG10_Variable 0
 scoreboard players set RNGseed RNG100_Variable 0
 scoreboard players set RNGseed RNG1000_Variable 0
 scoreboard players set RNGseed RNG10000_Variable 0
+
+scoreboard players set _1 CAL -1
+scoreboard players set 2 CAL 2
+scoreboard players set 3 CAL 3
+scoreboard players set 6 CAL 6
+scoreboard players set 60 CAL 60
