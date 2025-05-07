@@ -11,7 +11,6 @@ execute positioned -4961 97 -5802 run function att2:summon/gambling_reg3_0
 execute positioned -4961 97 -5802 run function att2:summon/gambling_reg3_0
 execute positioned -4961 97 -5802 run function att2:summon/gambling_reg3_0
 execute positioned -4961 97 -5802 run function att2:summon/gambling_reg3_0
-execute positioned -4961 97 -5802 run function att2:summon/bat_runes_b_rewards
 execute positioned -4961 97 -5802 run summon minecraft:experience_orb ~ ~ ~ {Value:2500}
 kill @e[type=item,distance=..3,nbt={Item:{tag:{Rarity:"reg3_c9"}}},limit=1]
 scoreboard players remove reg3_c9 GAMBLING 1
