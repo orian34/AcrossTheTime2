@@ -58,24 +58,15 @@ execute as @a run scoreboard players operation @s RUNE_CAL += 50 RUNE
 execute as @a run scoreboard players operation @s RUNE_CAL += BonusDahalMax RUNE
 execute as @a run scoreboard players operation @s DAHALMAX = @s RUNE_CAL
 
-execute as @a if score @s GAMELEVEL matches 1.. run scoreboard players set @s BASE_HEM 0
-execute as @a if score @s GAMELEVEL matches 4.. run scoreboard players set @s BASE_HEM 1
-execute as @a if score @s GAMELEVEL matches 8.. run scoreboard players set @s BASE_HEM 2
-execute as @a if score @s GAMELEVEL matches 12.. run scoreboard players set @s BASE_HEM 3
-execute as @a if score @s GAMELEVEL matches 16.. run scoreboard players set @s BASE_HEM 4
-execute as @a if score @s GAMELEVEL matches 20.. run scoreboard players set @s BASE_HEM 5
-execute as @a if score @s GAMELEVEL matches 23.. run scoreboard players set @s BASE_HEM 6
-execute as @a if score @s GAMELEVEL matches 26.. run scoreboard players set @s BASE_HEM 7
-execute as @a if score @s GAMELEVEL matches 29.. run scoreboard players set @s BASE_HEM 8
-execute as @a if score @s GAMELEVEL matches 32.. run scoreboard players set @s BASE_HEM 9
-execute as @a if score @s GAMELEVEL matches 35.. run scoreboard players set @s BASE_HEM 10
-execute as @a if score @s GAMELEVEL matches 38.. run scoreboard players set @s BASE_HEM 11
-execute as @a if score @s GAMELEVEL matches 41.. run scoreboard players set @s BASE_HEM 12
-execute as @a if score @s GAMELEVEL matches 44.. run scoreboard players set @s BASE_HEM 13
-execute as @a if score @s GAMELEVEL matches 47.. run scoreboard players set @s BASE_HEM 14
-execute as @a if score @s GAMELEVEL matches 50.. run scoreboard players set @s BASE_HEM 15
+scoreboard players operation @s MAX_HEALTH = BonusHealthMax RUNE
+scoreboard players operation @s MAX_HEALTH *= 4 CAL
+scoreboard players operation @s MAX_HEALTH += @s GAMELEVEL
+scoreboard players operation @s MAX_HEALTH *= 12 CAL
+scoreboard players operation @s MAX_HEALTH /= 10 CAL
+scoreboard players operation @s MAX_HEALTH += 19 CAL
 
-scoreboard players operation @a BASE_HEM += BonusHealthMax RUNE
+execute store result storage att2:max_health max_health int 1 run scoreboard players get @s MAX_HEALTH
+function att2:gameplay/death/max_health with storage att2:max_health
 
 scoreboard players operation XPTotal RUNE = BonusXP RUNE
 scoreboard players operation XPTotal RUNE *= 100 RUNE

@@ -6,8 +6,18 @@
 effect clear @s minecraft:health_boost
 scoreboard players operation BonusDahalMax RUNE *= 4 RUNE
 scoreboard players operation @a DAHALMAX += BonusDahalMax RUNE
-scoreboard players operation @a BASE_HEM += BonusHealthMax RUNE
-execute as @a at @s if entity @s[x=-5029,y=91,z=-4957,distance=..20] run function att2:gameplay/death/applyhealth
+#reset health
+execute as @a run scoreboard players operation @s MAX_HEALTH = BonusHealthMax RUNE
+execute as @a run scoreboard players operation @s MAX_HEALTH *= 4 CAL
+execute as @a run scoreboard players operation @s MAX_HEALTH += @s GAMELEVEL
+execute as @a run scoreboard players operation @s MAX_HEALTH *= 12 CAL
+execute as @a run scoreboard players operation @s MAX_HEALTH /= 10 CAL
+execute as @a run scoreboard players operation @s MAX_HEALTH += 19 CAL
+
+execute as @a store result storage att2:max_health max_health int 1 run scoreboard players get @s MAX_HEALTH
+function att2:gameplay/death/max_health with storage att2:max_health
+
+execute as @a at @s if entity @s[x=-5029,y=91,z=-4957,distance=..20] run effect give @s minecraft:instant_health 1 20 true
 
 scoreboard players operation XPTotal RUNE = BonusXP RUNE
 scoreboard players operation XPTotal RUNE *= 100 RUNE
