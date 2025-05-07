@@ -1,6 +1,7 @@
 #################################################################
 #Made by Adventquest											#
 #Apply health boost for a given player							#
+#MAX_HEALTH=(4×BonusHealthMax+GAMELEVEL)×1.2+19                 #
 #################################################################
 
 scoreboard players operation @s MAX_HEALTH = BonusHealthMax RUNE

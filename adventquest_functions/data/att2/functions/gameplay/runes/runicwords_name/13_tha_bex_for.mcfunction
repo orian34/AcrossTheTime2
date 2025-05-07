@@ -11,7 +11,6 @@ execute if score 13_tha_bex_for RUNE matches 2.. at @s run scoreboard players se
 execute if score RequiredError RUNE matches 1 at @s run setblock ~ ~ ~ minecraft:redstone_block
 execute if score 13_tha_bex_for RUNE matches 1 at @s run setblock ~ ~ ~ minecraft:emerald_block
 execute if score 13_tha_bex_for RUNE matches 1 run scoreboard players add BonusCooldown RUNE 2
-execute if score 13_tha_bex_for RUNE matches 1 run scoreboard players add BonusDahalPower RUNE 1
 execute if score 13_tha_bex_for RUNE matches 1 run scoreboard players add BonusDahalMax RUNE 1
 execute if score 13_tha_bex_for RUNE matches 1 run scoreboard players add BonusLootBoss RUNE 1
 execute if score 13_tha_bex_for RUNE matches 1 run scoreboard players add BonusTimePotion RUNE 1

@@ -347,7 +347,6 @@ scoreboard objectives remove DEATHCOUNT
 scoreboard objectives remove HEALTH
 scoreboard objectives remove CHECKPOINT_ANG
 scoreboard objectives remove CHECKPOINT_BIL
-scoreboard objectives remove BASE_HEM
 
 # Dimension
 scoreboard objectives remove DIMENSION
@@ -428,7 +427,6 @@ scoreboard objectives remove GAMELEVEL
 scoreboard objectives remove SKILLPOINT
 scoreboard objectives remove LEVELMASTER
 scoreboard objectives remove DAHALMAX
-scoreboard objectives remove BASE_HEM
 scoreboard objectives remove CLASSLEVEL
 scoreboard objectives remove LEVELDIFF
 scoreboard objectives remove KILLVALUE

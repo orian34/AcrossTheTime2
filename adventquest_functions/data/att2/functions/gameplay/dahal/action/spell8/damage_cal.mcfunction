@@ -24,12 +24,12 @@ scoreboard players operation maxDG SPDG *= slctlvl SPDG
 scoreboard players operation finalDG SPDG = minDG SPDG
 scoreboard players operation finalDG SPDG += maxDG SPDG
 scoreboard players operation finalDG SPDG /= maxlvl SPDG
-#rune bonus cal
-scoreboard players operation runeBONUS SPDG = BonusDahalPower RUNE
-scoreboard players operation runeBONUS SPDG *= 10 RUNE
-scoreboard players operation runeBONUS SPDG += 100 RUNE
-scoreboard players operation finalDG SPDG *= runeBONUS SPDG
-scoreboard players operation finalDG SPDG /= 100 RUNE
+#enhancement bonus cal
+scoreboard players operation enhancementBONUS SPDG = BonusPowerSpell8 ENHANCEMENT
+scoreboard players operation enhancementBONUS SPDG *= 15 ENHANCEMENT
+scoreboard players operation enhancementBONUS SPDG += 100 ENHANCEMENT
+scoreboard players operation finalDG SPDG *= enhancementBONUS SPDG
+scoreboard players operation finalDG SPDG /= 100 ENHANCEMENT
 #storage spell damage
 execute store result storage spdamage sp2 int 1 run scoreboard players get finalDG SPDG
 #reset
