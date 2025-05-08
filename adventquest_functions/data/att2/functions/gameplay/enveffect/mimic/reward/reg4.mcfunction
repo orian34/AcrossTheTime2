@@ -3,13 +3,14 @@
 #summon chest monster           								#
 #################################################################
 
-#remove 
-tp @e[tag=MIMIC,distance=..2] ~ -10 ~
 #
+particle dust 1.0 0.667 0.0 1 ~ ~1 ~ 1 1 1 0 50
+playsound minecraft:entity.firework_rocket.large_blast master @a ~ ~ ~ 5 1.1
+playsound minecraft:entity.firework_rocket.twinkle master @a ~ ~ ~ 5 1
 playsound minecraft:entity.player.levelup master @a ~ ~ ~ 5 1.1
 execute at @a run function att2:sound/misc/coins1
 #summon reward
-summon minecraft:fireball ~ ~2 ~ {Tags:["New"],ExplosionPower:2,Motion:[0.0,-1.0,0.0]}
+summon minecraft:fireball ~ ~1 ~ {Tags:["New"],ExplosionPower:1,Motion:[0.0,-1.0,0.0]}
 #prevent die from fireball
 execute at @s as @e[type=fireball,tag=New] run data modify entity @s Owner set from entity @a[distance=..0,limit=1] UUID
 tag @e[tag=FireballSpell,tag=New,type=fireball] remove New
