@@ -10,6 +10,8 @@ function att2:gameplay/enveffect/spike/go
 function att2:gameplay/enveffect/mobs_invasion/go
 execute if score tic TIMECOUNTER matches 1 run function att2:gameplay/enveffect/symbol/go
 execute if score Mainquest SIDEQUEST matches 1.. in minecraft:overworld run function att2:gameplay/enveffect/fairy/go
+#mimic
+function att2:gameplay/enveffect/mimic/go
 execute if score second TIMECOUNTER matches 0 run function att2:gameplay/enveffect/bee/go
 execute if score second TIMECOUNTER matches 30 run function att2:gameplay/enveffect/bee/go
 execute if score tic TIMECOUNTER matches 5 run function att2:gameplay/enveffect/creeper/go
