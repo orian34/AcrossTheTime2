@@ -16,11 +16,11 @@ tellraw @s[scores={LANGUAGE=1}] {"text":" ° ","bold":true,"color":"dark_red","e
 
 #CHINESE LANGUAGE
 
-tellraw @s[scores={LANGUAGE=2}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<Geyser>","bold":false,"color":"red","hoverEvent":{"action":"show_text","value":"從地面引出一股强大的沸水水流， 在給予處於水流範圍内的敵人傷害的同時保護你免受火焰的傷害。"},"extra":[{"text":" [500 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/spell/geyser"},"hoverEvent":{"action":"show_text","value":"點擊購買！ "}}]}]}
+tellraw @s[scores={LANGUAGE=2}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<間歇泉>","bold":false,"color":"red","hoverEvent":{"action":"show_text","value":"從地面引出一股强大的沸水水流， 在給予處於水流範圍内的敵人傷害的同時保護你免受火焰的傷害。"},"extra":[{"text":" [500 Chronotons]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/spell/geyser"},"hoverEvent":{"action":"show_text","value":"點擊購買！ "}}]}]}
 
 
 #JAPANESE LANGUAGE
-tellraw @s[scores={LANGUAGE=3}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<ガイザー>","bold":false,"color":"red","hoverEvent":{"action":"show_text","value":"地面から強力な沸騰した水流を召喚し、その範囲内にいる敵にダメージを与え、火のダメージからあなたを守ります。"},"extra":[{"text":" [500 クロノトン]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/spell/geyser"},"hoverEvent":{"action":"show_text","value":"ここをクリックして購入！"}}]}]}
+tellraw @s[scores={LANGUAGE=3}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<間欠泉>","bold":false,"color":"red","hoverEvent":{"action":"show_text","value":"地面から強力な沸騰した水流を召喚し、その範囲内にいる敵にダメージを与え、火のダメージからあなたを守ります。"},"extra":[{"text":" [500 クロノトン]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/spell/geyser"},"hoverEvent":{"action":"show_text","value":"ここをクリックして購入！"}}]}]}
 
 #KOREAN LANGUAGE
 tellraw @s[scores={LANGUAGE=4}] {"text":" ° ","bold":true,"color":"dark_red","extra":[{"text":"<간헐천>","bold":false,"color":"red","hoverEvent":{"action":"show_text","value":"땅에서 끓는 물의 강력한 흐름을 소환하여, 그 범위 내의 적들에게 피해를 주고, 당신을 불의 피해로부터 보호합니다."},"extra":[{"text":" [500 크로노톤]","color":"yellow","clickEvent":{"action":"run_command","value":"/execute positioned as @e[tag=TRADER,distance=..7] at @s run function att2:gameplay/shop/purchase/spell/geyser"},"hoverEvent":{"action":"show_text","value":"여기를 클릭하여 구매하세요!"}}]}]}

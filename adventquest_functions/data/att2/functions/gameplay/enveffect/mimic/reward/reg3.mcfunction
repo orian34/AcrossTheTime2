@@ -8,7 +8,6 @@ particle dust 1.0 0.667 0.0 1 ~ ~1 ~ 1 1 1 0 50
 playsound minecraft:entity.firework_rocket.large_blast master @a ~ ~ ~ 5 1.1
 playsound minecraft:entity.firework_rocket.twinkle master @a ~ ~ ~ 5 1
 playsound minecraft:entity.player.levelup master @a ~ ~ ~ 5 1.1
-execute at @a run function att2:sound/misc/coins1~ 5 1.1
 execute at @a run function att2:sound/misc/coins1
 #summon reward
 summon minecraft:fireball ~ ~1 ~ {Tags:["New"],ExplosionPower:1,Motion:[0.0,-1.0,0.0]}

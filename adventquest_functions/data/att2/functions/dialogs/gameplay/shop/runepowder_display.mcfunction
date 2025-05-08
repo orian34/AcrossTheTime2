@@ -6,10 +6,10 @@
 
 #FRENCH LANGUAGE
 
-tellraw @s[scores={LANGUAGE=0}] {"text":"Poudres runiques : ","color":"yellow","extra":[{"score":{"name":"stock","objective":"RUNE_POWDER"},"color":"gold"}]}
+tellraw @s[scores={LANGUAGE=0}] {"text":"Stock total de poudres runiques : ","color":"yellow","extra":[{"score":{"name":"stock","objective":"RUNE_POWDER"},"color":"gold"}]}
 
 #ENGLISH LANGUAGE
-tellraw @s[scores={LANGUAGE=1}] {"text":"Runic powders: ","color":"yellow","extra":[{"score":{"name":"stock","objective":"RUNE_POWDER"},"color":"gold"}]}
+tellraw @s[scores={LANGUAGE=1}] {"text":"Total stock runic powders: ","color":"yellow","extra":[{"score":{"name":"stock","objective":"RUNE_POWDER"},"color":"gold"}]}
 
 #CHINESE LANGUAGE
 tellraw @s[scores={LANGUAGE=2}] {"text":"符文粉末：","color":"yellow","extra":[{"score":{"name":"stock","objective":"RUNE_POWDER"},"color":"gold"}]}

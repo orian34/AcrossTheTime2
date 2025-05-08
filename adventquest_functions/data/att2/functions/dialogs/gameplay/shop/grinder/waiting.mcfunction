@@ -4,6 +4,8 @@
 #################################################################
 
 
+function att2:dialogs/gameplay/shop/runepowder_display
+
 #FRENCH LANGUAGE
 tellraw @s[scores={LANGUAGE=0}] {"text":"Déposez vos runes dans le broyeur...","color":"gray"}
 

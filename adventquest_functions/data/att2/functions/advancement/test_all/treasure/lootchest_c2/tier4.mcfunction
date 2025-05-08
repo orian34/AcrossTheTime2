@@ -17,6 +17,6 @@ execute if score tier2 LOOTCHEST matches 250.. run advancement grant @a only att
 #set chest name
 function att2:gameplay/misc/chesteffect/name/go
 #trigger chest mimic
-scoreboard players set chest MIMIC XXX
+scoreboard players set chest MIMIC 2
 scoreboard players set tier MIMIC 4
 function att2:gameplay/enveffect/mimic/trigger_summon

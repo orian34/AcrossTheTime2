@@ -28,6 +28,8 @@ scoreboard players set Collector SPELLS_COUNT 0
 scoreboard players set DahalRegen TIMER 1
 scoreboard players set 20 remain_time 20
 
+function att2:gameplay/dahal/enhancement/initialize
+
 function att2:gameplay/dahal/pet/initialize
 function att2:gameplay/dahal/action/spell1/initialize
 function att2:gameplay/dahal/action/spell2/initialize
