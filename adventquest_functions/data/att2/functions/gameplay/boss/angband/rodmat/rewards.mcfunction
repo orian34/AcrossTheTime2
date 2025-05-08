@@ -3,9 +3,6 @@
 #Process the boss rewards											#
 #####################################################################
 
-function att2:summon/bat_boss_esc_rewards
-function att2:summon/bat_boss_esc_rewards
-
 function att2:summon/reg_2/rodmat_rewards
 function att2:summon/reg_2/rodmat_rewards
 function att2:summon/reg_2/rodmat_rewards
@@ -39,10 +36,6 @@ execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_2/rod
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_2/rodmat_rewards
 execute if score level DIFFICULTY matches 1.. run function att2:summon/reg_2/rodmat_rewards
 
-function att2:summon/bat_runes_abc_rewards_1
-function att2:summon/bat_runes_a_rewards
-function att2:summon/bat_runes_b_rewards
-function att2:summon/bat_runes_c_rewards
 execute if score BonusLootBoss RUNE matches 1.. run function att2:summon/reg_2/rodmat_rewards
 execute if score BonusLootBoss RUNE matches 2.. run function att2:summon/reg_2/rodmat_rewards
 execute if score BonusLootBoss RUNE matches 3.. run function att2:summon/reg_2/rodmat_rewards
@@ -58,24 +51,23 @@ execute if score SQ45 SIDEQUEST matches 1..99 run function att2:summon/reg_2/rod
 
 function att2:summon/reg_2/rodmat_rewards_dedicated
 
-execute if entity @a[scores={LUC_TOT=1..}] run function att2:summon/reg_2/rodmat_rewards
+function att2:summon/bat_boss_esc_rewards
+function att2:summon/bat_boss_esc_rewards
+function att2:summon/bat_runes_abc_rewards_2
+
 execute if entity @a[scores={LUC_TOT=2..}] run function att2:summon/reg_2/rodmat_rewards
-execute if entity @a[scores={LUC_TOT=3..}] run function att2:summon/reg_2/rodmat_rewards
 execute if entity @a[scores={LUC_TOT=4..}] run function att2:summon/reg_2/rodmat_rewards
-execute if entity @a[scores={LUC_TOT=5..}] run function att2:summon/reg_2/rodmat_rewards
 execute if entity @a[scores={LUC_TOT=6..}] run function att2:summon/bat_boss_esc_rewards
 execute if entity @a[scores={LUC_TOT=8..}] run function att2:summon/bat_runes_c_rewards
 execute if entity @a[scores={LUC_TOT=10..}] run function att2:summon/bat_runes_b_rewards
 execute if entity @a[scores={LUC_TOT=12..}] run function att2:summon/bat_runes_a_rewards
-execute if entity @a[scores={LUC_TOT=15..}] run function att2:summon/bat_runes_abc_rewards_1
+execute if entity @a[scores={LUC_TOT=14..}] run function att2:summon/bat_runes_abc_rewards_1
 
 #boss time 1
 execute if score rodmat_m BOSS_TIME matches ..3 run function att2:summon/bat_boss_esc_rewards
 execute if score rodmat_m BOSS_TIME matches ..3 run function att2:summon/bat_runes_c_rewards
 #boss time 2
 execute if score rodmat_m BOSS_TIME matches ..2 if score rodmat_s BOSS_TIME matches ..30 if score level DIFFICULTY matches 0.. run function att2:summon/bat_boss_esc_rewards
-execute if score rodmat_m BOSS_TIME matches ..2 if score rodmat_s BOSS_TIME matches ..30 if score level DIFFICULTY matches 0.. run function att2:summon/bat_boss_esc_rewards
-execute if score rodmat_m BOSS_TIME matches ..2 if score rodmat_s BOSS_TIME matches ..30 if score level DIFFICULTY matches 0.. run function att2:summon/bat_runes_b_rewards
 execute if score rodmat_m BOSS_TIME matches ..2 if score rodmat_s BOSS_TIME matches ..30 if score level DIFFICULTY matches 0.. run function att2:summon/bat_runes_b_rewards
 #boss time 3
 execute if score rodmat_m BOSS_TIME matches ..1 if score rodmat_s BOSS_TIME matches ..30 if score level DIFFICULTY matches 1.. run function att2:summon/bat_boss_esc_rewards
