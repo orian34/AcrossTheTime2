@@ -29,36 +29,57 @@ advancement grant @a[scores={SPELL1_CAP=10..}] only att2:dahal/spell1_lvl10
 advancement grant @a[scores={SPELL2_CAP=2..}] only att2:dahal/spell2_lvl2
 advancement grant @a[scores={SPELL2_CAP=5..}] only att2:dahal/spell2_lvl5
 advancement grant @a[scores={SPELL2_CAP=10..}] only att2:dahal/spell2_lvl10
+execute if score BonusPowerSpell2 ENHANCEMENT matches 1.. run advancement grant @a only att2:dahal/spell2_enhancement_1
+execute if score BonusPowerSpell2 ENHANCEMENT matches 3.. run advancement grant @a only att2:dahal/spell2_enhancement_3
+execute if score BonusPowerSpell2 ENHANCEMENT matches 5.. run advancement grant @a only att2:dahal/spell2_enhancement_5
 
 # INFERNO
 advancement grant @a[scores={SPELL3_CAP=2..}] only att2:dahal/spell3_lvl2
 advancement grant @a[scores={SPELL3_CAP=5..}] only att2:dahal/spell3_lvl5
 advancement grant @a[scores={SPELL3_CAP=10..}] only att2:dahal/spell3_lvl10
+execute if score BonusPowerSpell3 ENHANCEMENT matches 1.. run advancement grant @a only att2:dahal/spell3_enhancement_1
+execute if score BonusPowerSpell3 ENHANCEMENT matches 3.. run advancement grant @a only att2:dahal/spell3_enhancement_3
+execute if score BonusPowerSpell3 ENHANCEMENT matches 5.. run advancement grant @a only att2:dahal/spell3_enhancement_5
 
 # RAYON DE PUISSANCE
 advancement grant @a[scores={SPELL4_CAP=2..}] only att2:dahal/spell4_lvl2
 advancement grant @a[scores={SPELL4_CAP=5..}] only att2:dahal/spell4_lvl5
 advancement grant @a[scores={SPELL4_CAP=10..}] only att2:dahal/spell4_lvl10
+execute if score BonusPowerSpell4 ENHANCEMENT matches 1.. run advancement grant @a only att2:dahal/spell4_enhancement_1
+execute if score BonusPowerSpell4 ENHANCEMENT matches 3.. run advancement grant @a only att2:dahal/spell4_enhancement_3
+execute if score BonusPowerSpell4 ENHANCEMENT matches 5.. run advancement grant @a only att2:dahal/spell4_enhancement_5
 
 # TONNERRE
 advancement grant @a[scores={SPELL5_CAP=2..}] only att2:dahal/spell5_lvl2
 advancement grant @a[scores={SPELL5_CAP=5..}] only att2:dahal/spell5_lvl5
 advancement grant @a[scores={SPELL5_CAP=10..}] only att2:dahal/spell5_lvl10
+execute if score BonusPowerSpell5 ENHANCEMENT matches 1.. run advancement grant @a only att2:dahal/spell5_enhancement_1
+execute if score BonusPowerSpell5 ENHANCEMENT matches 3.. run advancement grant @a only att2:dahal/spell5_enhancement_3
+execute if score BonusPowerSpell5 ENHANCEMENT matches 5.. run advancement grant @a only att2:dahal/spell5_enhancement_5
 
 # PIEGE EXPLOSIF
 advancement grant @a[scores={SPELL6_CAP=2..}] only att2:dahal/spell6_lvl2
 advancement grant @a[scores={SPELL6_CAP=5..}] only att2:dahal/spell6_lvl5
 advancement grant @a[scores={SPELL6_CAP=10..}] only att2:dahal/spell6_lvl10
+execute if score BonusPowerSpell6 ENHANCEMENT matches 1.. run advancement grant @a only att2:dahal/spell6_enhancement_1
+execute if score BonusPowerSpell6 ENHANCEMENT matches 3.. run advancement grant @a only att2:dahal/spell6_enhancement_3
+execute if score BonusPowerSpell6 ENHANCEMENT matches 5.. run advancement grant @a only att2:dahal/spell6_enhancement_5
 
 # GEYSER
 advancement grant @a[scores={SPELL7_CAP=2..}] only att2:dahal/spell7_lvl2
 advancement grant @a[scores={SPELL7_CAP=5..}] only att2:dahal/spell7_lvl5
 advancement grant @a[scores={SPELL7_CAP=10..}] only att2:dahal/spell7_lvl10
+execute if score BonusPowerSpell7 ENHANCEMENT matches 1.. run advancement grant @a only att2:dahal/spell7_enhancement_1
+execute if score BonusPowerSpell7 ENHANCEMENT matches 3.. run advancement grant @a only att2:dahal/spell7_enhancement_3
+execute if score BonusPowerSpell7 ENHANCEMENT matches 5.. run advancement grant @a only att2:dahal/spell7_enhancement_5
 
 # NUEE DE FLECHES
 advancement grant @a[scores={SPELL8_CAP=2..}] only att2:dahal/spell8_lvl2
 advancement grant @a[scores={SPELL8_CAP=5..}] only att2:dahal/spell8_lvl5
 advancement grant @a[scores={SPELL8_CAP=10..}] only att2:dahal/spell8_lvl10
+execute if score BonusPowerSpell8 ENHANCEMENT matches 1.. run advancement grant @a only att2:dahal/spell8_enhancement_1
+execute if score BonusPowerSpell8 ENHANCEMENT matches 3.. run advancement grant @a only att2:dahal/spell8_enhancement_3
+execute if score BonusPowerSpell8 ENHANCEMENT matches 5.. run advancement grant @a only att2:dahal/spell8_enhancement_5
 
 # TIID KLO UI
 advancement grant @a[scores={SPELL9_CAP=2..}] only att2:dahal/spell9_lvl2
@@ -69,11 +90,17 @@ advancement grant @a[scores={SPELL9_CAP=10..}] only att2:dahal/spell9_lvl10
 advancement grant @a[scores={SPELL10_CAP=2..}] only att2:dahal/spell10_lvl2
 advancement grant @a[scores={SPELL10_CAP=5..}] only att2:dahal/spell10_lvl5
 advancement grant @a[scores={SPELL10_CAP=10..}] only att2:dahal/spell10_lvl10
+execute if score BonusPowerSpell10 ENHANCEMENT matches 1.. run advancement grant @a only att2:dahal/spell10_enhancement_1
+execute if score BonusPowerSpell10 ENHANCEMENT matches 3.. run advancement grant @a only att2:dahal/spell10_enhancement_3
+execute if score BonusPowerSpell10 ENHANCEMENT matches 5.. run advancement grant @a only att2:dahal/spell10_enhancement_5
 
 # NOVA
 advancement grant @a[scores={SPELL11_CAP=2..}] only att2:dahal/spell11_lvl2
 advancement grant @a[scores={SPELL11_CAP=5..}] only att2:dahal/spell11_lvl5
 advancement grant @a[scores={SPELL11_CAP=10..}] only att2:dahal/spell11_lvl10
+execute if score BonusPowerSpell11 ENHANCEMENT matches 1.. run advancement grant @a only att2:dahal/spell11_enhancement_1
+execute if score BonusPowerSpell11 ENHANCEMENT matches 3.. run advancement grant @a only att2:dahal/spell11_enhancement_3
+execute if score BonusPowerSpell11 ENHANCEMENT matches 5.. run advancement grant @a only att2:dahal/spell11_enhancement_5
 
 # STOCK
 advancement grant @a[scores={SPELL20_CAP=3..}] only att2:dahal/spell20_lvl3

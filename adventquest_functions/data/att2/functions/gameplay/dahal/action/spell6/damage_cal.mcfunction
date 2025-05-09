@@ -26,7 +26,7 @@ scoreboard players operation finalDG SPDG += maxDG SPDG
 scoreboard players operation finalDG SPDG /= maxlvl SPDG
 #enhancement bonus cal
 scoreboard players operation enhancementBONUS SPDG = BonusPowerSpell6 ENHANCEMENT
-scoreboard players operation enhancementBONUS SPDG *= 35 ENHANCEMENT
+scoreboard players operation enhancementBONUS SPDG *= 30 ENHANCEMENT
 scoreboard players operation enhancementBONUS SPDG += 100 ENHANCEMENT
 scoreboard players operation finalDG SPDG *= enhancementBONUS SPDG
 scoreboard players operation finalDG SPDG /= 100 ENHANCEMENT

@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:written_book"
+            "item": "minecraft:writable_book"
         },
         "title": {"translate":"Space teleportation"},
         "description": {"translate":"Find Space teleportation spell"}

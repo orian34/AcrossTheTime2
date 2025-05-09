@@ -5,7 +5,7 @@
         },
         "title": {"translate":"Dreamcatcher"},
         "description": {"translate":"Catch 50 Lost Souls"},
-        "frame": "challenge"
+        "frame": "goal"
     },
     "parent": "att2:treasure/fairy_20",
         "rewards": {

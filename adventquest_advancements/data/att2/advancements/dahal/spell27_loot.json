@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:written_book"
+            "item": "minecraft:writable_book"
         },
         "title": {"translate":"Spectral Axe"},
         "description": {"translate":"Find Spectral Axe spell"}

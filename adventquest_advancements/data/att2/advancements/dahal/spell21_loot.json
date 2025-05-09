@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:written_book"
+            "item": "minecraft:writable_book"
         },
         "title": {"translate":"Vitality Pet"},
         "description": {"translate":"Find Vitality Pet spell"}
