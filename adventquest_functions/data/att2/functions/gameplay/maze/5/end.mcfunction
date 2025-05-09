@@ -16,3 +16,6 @@ execute positioned -9692 72 -9954 run function att2:gameplay/maze/5/rewards
 
 execute as @e[type=minecraft:chest_minecart,tag=maze_chest,x=-9947,y=71,z=-10085,dx=248,dy=7,dz=205] at @s run tp @s ~ 0 ~
 execute as @e[type=minecraft:chest_minecart,tag=maze_chest,x=-9947,y=71,z=-10085,dx=248,dy=7,dz=205] run kill @s
+execute as @e[type=minecraft:wither_skeleton,tag=MazeMinion,x=-9947,y=71,z=-10085,dx=248,dy=7,dz=205] at @s run tp @s ~ 0 ~
+execute as @e[type=minecraft:wither_skeleton,tag=MazeMinion,x=-9947,y=71,z=-10085,dx=248,dy=7,dz=205] run kill @s
+execute as @e[type=minecraft:interaction,tag=maze_chest_interaction,nbt={interaction:{}},x=-9947,y=71,z=-10085,dx=248,dy=7,dz=205] run kill @s

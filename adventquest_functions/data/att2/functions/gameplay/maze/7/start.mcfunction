@@ -76,4 +76,6 @@ execute positioned -9533 71 -10329 run function att2:gameplay/maze/summon/chests
 execute positioned -9541 71 -10301 run function att2:gameplay/maze/summon/chests/rune7
 execute positioned -9461 71 -10369 run function att2:gameplay/maze/summon/chests/rune7
 
+team join noCollision @e[type=minecraft:chest_minecart,tag=maze_chest]
+
 tp @a[x=-9567,y=102,z=-10311,distance=..5,gamemode=adventure] -9569 71 -10170
