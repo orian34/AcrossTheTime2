@@ -3,14 +3,9 @@
 #trigger attack           								#
 #################################################################
 
-#get thorn damage
-#scoreboard players operation mimic_thorn MIMIC = @e[distance=..0,limit=1,type=slime] MIMIC
-#scoreboard players operation mimic_thorn MIMIC /= 2 CAL 
 #test health
 execute store result score now_health MIMIC run data get entity @e[distance=..0,limit=1,type=slime,tag=MIMIC] Health
 execute store result score max_health MIMIC run attribute @e[distance=..0,limit=1,type=slime,tag=MIMIC] generic.max_health base get
-#reward trigger
-#execute if score max_health MIMIC matches 1.. run function att2:gameplay/enveffect/mimic/reward/trigger
 #random event trigger (5 good event)+(5 bad event) 
 execute if score 1RNG10 RNG matches 1 at @e[distance=..0,limit=1,type=slime,tag=MIMIC] run function att2:gameplay/enveffect/mimic/rng_event/1
 execute if score 1RNG10 RNG matches 2 run function att2:gameplay/enveffect/mimic/rng_event/2
