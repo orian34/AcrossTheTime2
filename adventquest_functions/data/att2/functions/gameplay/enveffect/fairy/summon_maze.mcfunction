@@ -13,5 +13,4 @@ execute if score 1RNG100 RNG matches 1..8 at @s positioned ~ ~10 ~ run function 
 execute if score 1RNG100 RNG matches 1..7 at @s positioned ~ ~10 ~ run function att2:summon/reg_1/fairy7
 execute if score 1RNG100 RNG matches 1..6 at @s positioned ~ ~10 ~ run function att2:summon/reg_1/fairy8
 execute if score 1RNG100 RNG matches 1..5 at @s positioned ~ ~10 ~ run function att2:summon/reg_1/fairy9
-function att2:gameplay/enveffect/fairy/spread_maze
 execute as @e[tag=FairyParticle] run data merge entity @s {Glowing:0}

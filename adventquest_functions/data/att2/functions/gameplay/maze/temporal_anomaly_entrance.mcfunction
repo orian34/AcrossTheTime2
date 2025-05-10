@@ -4,6 +4,7 @@
 #####################################################
 
 # TP
+execute if score achieved MAZE matches 0 as @a[x=-5339.0,y=78,z=-4674.0,distance=..3,gamemode=adventure] at @s run function att2:dialogs/gameplay/maze/system_0
 execute if score achieved MAZE matches 0 as @a[x=-5339.0,y=78,z=-4674.0,distance=..3,gamemode=adventure] at @s run tp @s -9999 71 -9991
 execute if score achieved MAZE matches 1 as @a[x=-5339.0,y=78,z=-4674.0,distance=..3,gamemode=adventure] at @s run tp @s -10019 71 -10081
 execute if score achieved MAZE matches 2 as @a[x=-5339.0,y=78,z=-4674.0,distance=..3,gamemode=adventure] at @s run tp @s -9963 71 -10182

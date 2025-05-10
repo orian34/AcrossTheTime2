@@ -19,3 +19,5 @@ execute as @e[type=minecraft:chest_minecart,tag=maze_chest,x=-9947,y=71,z=-10085
 execute as @e[type=minecraft:wither_skeleton,tag=MazeMinion,x=-9947,y=71,z=-10085,dx=248,dy=7,dz=205] at @s run tp @s ~ 0 ~
 execute as @e[type=minecraft:wither_skeleton,tag=MazeMinion,x=-9947,y=71,z=-10085,dx=248,dy=7,dz=205] run kill @s
 execute as @e[type=minecraft:interaction,tag=maze_chest_interaction,nbt={interaction:{}},x=-9947,y=71,z=-10085,dx=248,dy=7,dz=205] run kill @s
+
+setblock -9815 100 -9980 minecraft:stone_pressure_plate[powered=false]

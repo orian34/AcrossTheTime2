@@ -6,3 +6,4 @@
 execute if score stock RUNE_POWDER matches ..74 run function att2:dialogs/gameplay/shop/not_enough_runepowder
 execute if score stock RUNE_POWDER matches 75.. run function att2:gameplay/maze/4/loading
 execute if score stock RUNE_POWDER matches 75.. run scoreboard players remove stock RUNE_POWDER 75
+function att2:dialogs/gameplay/shop/runepowder_display
