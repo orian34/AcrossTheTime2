@@ -50,6 +50,20 @@ scoreboard players set reg3_c10 GAMBLING 0
 scoreboard players set reg3_c11 GAMBLING 0
 scoreboard players set reg3_c12 GAMBLING 0
 scoreboard players set reg3_c13 GAMBLING 0
+#reg4
+scoreboard players set reg4_c1 GAMBLING 0
+scoreboard players set reg4_c2 GAMBLING 0
+scoreboard players set reg4_c3 GAMBLING 0
+scoreboard players set reg4_c4 GAMBLING 0
+scoreboard players set reg4_c5 GAMBLING 0
+scoreboard players set reg4_c6 GAMBLING 0
+scoreboard players set reg4_c7 GAMBLING 0
+scoreboard players set reg4_c8 GAMBLING 0
+scoreboard players set reg4_c9 GAMBLING 0
+scoreboard players set reg4_c10 GAMBLING 0
+scoreboard players set reg4_c11 GAMBLING 0
+scoreboard players set reg4_c12 GAMBLING 0
+scoreboard players set reg4_c13 GAMBLING 0
 
 scoreboard players set estimate_c1 GAMBLING 0
 scoreboard players set estimate_c2 GAMBLING 0
