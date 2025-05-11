@@ -3,4 +3,4 @@
 #Obtain item splash_potion_34          #
 #####################################
 
-give @s minecraft:splash_potion{EquipmentType:"potion",Rarity:"unc",Shop:"buy",Effect:"",display:{Name:"\"§2Grenade\"","Lore":["{\"text\":\"§7Fourvoiement des alchimistes.\"}","{\"text\":\"§7Blindness of the Alchimistes.\"}"]},CustomPotionColor:7631942,custom_potion_effects:[{id:instant_damage,amplifier:5,duration:2,ambient:1,show_particles:0b}]} 1
+give @s minecraft:splash_potion{EquipmentType:"potion",Rarity:"unc",Shop:"buy",Effect:"",display:{Name:"\"§2Grenade\"","Lore":["{\"text\":\"§7Fourvoiement des alchimistes.\"}","{\"text\":\"§7Blindness of the Alchimistes.\"}"]},CustomPotionColor:7631942,custom_potion_effects:[{id:instant_damage,amplifier:5,duration:2,show_particles:0b}]} 1
