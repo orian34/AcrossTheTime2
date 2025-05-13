@@ -1,0 +1,13 @@
+#####################################################################
+#Made by Adventquest												#
+#Pick small Chronotons pieces                                    	#
+#####################################################################
+
+execute store result score @s CHRONOTONquart run data get entity @s Item.Count
+execute if score BonusChronoton RUNE matches 0 run scoreboard players operation @s CHRONOTONquart *= 500 OP_CHRONOTON2
+execute if score BonusChronoton RUNE matches 1 run scoreboard players operation @s CHRONOTONquart *= 600 OP_CHRONOTON2
+execute if score BonusChronoton RUNE matches 2 run scoreboard players operation @s CHRONOTONquart *= 700 OP_CHRONOTON2
+execute if score BonusChronoton RUNE matches 3 run scoreboard players operation @s CHRONOTONquart *= 800 OP_CHRONOTON2
+execute if score BonusChronoton RUNE matches 4 run scoreboard players operation @s CHRONOTONquart *= 900 OP_CHRONOTON2
+execute if score BonusChronoton RUNE matches 5 run scoreboard players operation @s CHRONOTONquart *= 1000 OP_CHRONOTON2
+function att2:gameplay/chronoton/ground/finalize

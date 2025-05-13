@@ -14,6 +14,15 @@ scoreboard players set @s CHRONOTON 0
 scoreboard players set @s CHRONOTONbis 0
 scoreboard players set @s CHRONOTONquart 0
 scoreboard players set @s OP_CHRONOTON1 1
+scoreboard players set 1000 OP_CHRONOTON2 1000
+scoreboard players set 900 OP_CHRONOTON2 900
+scoreboard players set 800 OP_CHRONOTON2 800
+scoreboard players set 700 OP_CHRONOTON2 700
+scoreboard players set 600 OP_CHRONOTON2 600
+scoreboard players set 500 OP_CHRONOTON2 500
+scoreboard players set 400 OP_CHRONOTON2 400
+scoreboard players set 300 OP_CHRONOTON2 300
+scoreboard players set 200 OP_CHRONOTON2 200
 scoreboard players set 100 OP_CHRONOTON2 100
 scoreboard players set 90 OP_CHRONOTON2 90
 scoreboard players set 80 OP_CHRONOTON2 80

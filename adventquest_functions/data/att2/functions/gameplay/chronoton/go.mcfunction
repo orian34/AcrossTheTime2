@@ -45,6 +45,20 @@ execute if score BonusChronoton RUNE matches 4 as @a[scores={CHRONOTONbis=90}] r
 execute if score BonusChronoton RUNE matches 5 run scoreboard players set @a[nbt={Inventory:[{id:"minecraft:diamond",tag:{display:{Name:"{\"text\":\"§b§oDiamant\"}","Lore":["{\"text\":\"§b§oDiamond\"}","{\"text\":\"§6+50 Chronotons\"}"]}}}]}] CHRONOTONbis 100
 execute if score BonusChronoton RUNE matches 5 as @a[scores={CHRONOTONbis=100}] run function att2:gameplay/chronoton/convertdiamond
 
+scoreboard players set @a[nbt={Inventory:[{id:"minecraft:glow_ink_sac",tag:{Action:"dropped",display:{Name:"{\"text\":\"§a§oAméthyste\"}","Lore":["{\"text\":\"§a§oAmethyst dropped\"}","{\"text\":\"§6+500 Chronotons\"}"]}}}]}] CHRONOTONbis 500
+execute if score BonusChronoton RUNE matches 0 run scoreboard players set @a[nbt={Inventory:[{id:"minecraft:glow_ink_sac",tag:{display:{Name:"{\"text\":\"§a§oAméthyste\"}","Lore":["{\"text\":\"§a§oAmethyst\"}","{\"text\":\"§6+500 Chronotons\"}"]}}}]}] CHRONOTONbis 500
+execute as @a[scores={CHRONOTONbis=500}] run function att2:gameplay/chronoton/convertamethyst
+execute if score BonusChronoton RUNE matches 1 run scoreboard players set @a[nbt={Inventory:[{id:"minecraft:glow_ink_sac",tag:{display:{Name:"{\"text\":\"§a§oAméthyste\"}","Lore":["{\"text\":\"§a§oAmethyst\"}","{\"text\":\"§6+500 Chronotons\"}"]}}}]}] CHRONOTONbis 600
+execute if score BonusChronoton RUNE matches 1 as @a[scores={CHRONOTONbis=600}] run function att2:gameplay/chronoton/convertamethyst
+execute if score BonusChronoton RUNE matches 2 run scoreboard players set @a[nbt={Inventory:[{id:"minecraft:glow_ink_sac",tag:{display:{Name:"{\"text\":\"§a§oAméthyste\"}","Lore":["{\"text\":\"§a§oAmethyst\"}","{\"text\":\"§6+500 Chronotons\"}"]}}}]}] CHRONOTONbis 700
+execute if score BonusChronoton RUNE matches 2 as @a[scores={CHRONOTONbis=700}] run function att2:gameplay/chronoton/convertamethyst
+execute if score BonusChronoton RUNE matches 3 run scoreboard players set @a[nbt={Inventory:[{id:"minecraft:glow_ink_sac",tag:{display:{Name:"{\"text\":\"§a§oAméthyste\"}","Lore":["{\"text\":\"§a§oAmethyst\"}","{\"text\":\"§6+500 Chronotons\"}"]}}}]}] CHRONOTONbis 800
+execute if score BonusChronoton RUNE matches 3 as @a[scores={CHRONOTONbis=800}] run function att2:gameplay/chronoton/convertamethyst
+execute if score BonusChronoton RUNE matches 4 run scoreboard players set @a[nbt={Inventory:[{id:"minecraft:glow_ink_sac",tag:{display:{Name:"{\"text\":\"§a§oAméthyste\"}","Lore":["{\"text\":\"§a§oAmethyst\"}","{\"text\":\"§6+500 Chronotons\"}"]}}}]}] CHRONOTONbis 900
+execute if score BonusChronoton RUNE matches 4 as @a[scores={CHRONOTONbis=900}] run function att2:gameplay/chronoton/convertamethyst
+execute if score BonusChronoton RUNE matches 5 run scoreboard players set @a[nbt={Inventory:[{id:"minecraft:glow_ink_sac",tag:{display:{Name:"{\"text\":\"§a§oAméthyste\"}","Lore":["{\"text\":\"§a§oAmethyst\"}","{\"text\":\"§6+500 Chronotons\"}"]}}}]}] CHRONOTONbis 1000
+execute if score BonusChronoton RUNE matches 5 as @a[scores={CHRONOTONbis=1000}] run function att2:gameplay/chronoton/convertamethyst
+
 # Pick nearby Chronotons from the ground
 execute as @a[gamemode=adventure] at @s run function att2:gameplay/chronoton/ground/go
 
