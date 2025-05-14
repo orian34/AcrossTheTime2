@@ -5,7 +5,7 @@
         },
         "title": {"translate":"My precious"},
         "description": {"translate":"Better a diamond with a flaw than a pebble without"},
-        "frame": "challenge"
+        "frame": "goal"
     },
     "parent": "att2:treasure/money",
     "rewards": {
@@ -18,9 +18,8 @@
             "conditions": {
                 "items": [
                     { 
-                    "items": [
-                        "minecraft:diamond"
-                        ]
+                    "items": ["minecraft:diamond"],
+                    "nbt": "{EquipmentType:\"misc\",Rarity:\"cur\",display:{Name:\"{\\\"text\\\":\\\"§b§oDiamant\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§b§oDiamond\\\"}\",\"{\\\"text\\\":\\\"§6+50 Chronotons\\\"}\"]}}"
                     }
                 ]
             }
