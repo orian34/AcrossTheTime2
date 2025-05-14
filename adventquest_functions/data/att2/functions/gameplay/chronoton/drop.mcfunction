@@ -3,6 +3,10 @@
 #Drop Chronotons on the ground													#
 #################################################################################
 
+scoreboard players remove @s[scores={CHRONOTON_TODROP=1000..}] CHRONOTON 1000
+execute as @s[scores={CHRONOTON_TODROP=1000..}] at @s positioned ~ ~1 ~ run function att2:summon/chronoton/dropped/ruby
+scoreboard players remove @s[scores={CHRONOTON_TODROP=1000..}] CHRONOTON_TODROP 1000
+
 scoreboard players remove @s[scores={CHRONOTON_TODROP=500..}] CHRONOTON 500
 execute as @s[scores={CHRONOTON_TODROP=500..}] at @s positioned ~ ~1 ~ run function att2:summon/chronoton/dropped/amethyst
 scoreboard players remove @s[scores={CHRONOTON_TODROP=500..}] CHRONOTON_TODROP 500

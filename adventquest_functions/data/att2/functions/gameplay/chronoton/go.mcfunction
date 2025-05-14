@@ -59,6 +59,21 @@ execute if score BonusChronoton RUNE matches 4 as @a[scores={CHRONOTONbis=900}] 
 execute if score BonusChronoton RUNE matches 5 run scoreboard players set @a[nbt={Inventory:[{id:"minecraft:glow_ink_sac",tag:{display:{Name:"{\"text\":\"§a§oAméthyste\"}","Lore":["{\"text\":\"§a§oAmethyst\"}","{\"text\":\"§6+500 Chronotons\"}"]}}}]}] CHRONOTONbis 1000
 execute if score BonusChronoton RUNE matches 5 as @a[scores={CHRONOTONbis=1000}] run function att2:gameplay/chronoton/convertamethyst
 
+scoreboard players set @a[nbt={Inventory:[{id:"minecraft:copper_ingot",tag:{Action:"dropped",display:{Name:"{\"text\":\"§c§oRubis\"}","Lore":["{\"text\":\"§c§oRuby\"}","{\"text\":\"§6+1000 Chronotons\"}"]}}}]}] CHRONOTONbis 1000
+execute if score BonusChronoton RUNE matches 0 run scoreboard players set @a[nbt={Inventory:[{id:"minecraft:copper_ingot",tag:{display:{Name:"{\"text\":\"§c§oRubis\"}","Lore":["{\"text\":\"§c§oRuby\"}","{\"text\":\"§6+1000 Chronotons\"}"]}}}]}] CHRONOTONbis 1000
+execute as @a[scores={CHRONOTONbis=1000}] run function att2:gameplay/chronoton/convertruby
+execute if score BonusChronoton RUNE matches 1 run scoreboard players set @a[nbt={Inventory:[{id:"minecraft:copper_ingot",tag:{display:{Name:"{\"text\":\"§c§oRubis\"}","Lore":["{\"text\":\"§c§oRuby\"}","{\"text\":\"§6+1000 Chronotons\"}"]}}}]}] CHRONOTONbis 1100
+execute if score BonusChronoton RUNE matches 1 as @a[scores={CHRONOTONbis=1100}] run function att2:gameplay/chronoton/convertruby
+execute if score BonusChronoton RUNE matches 2 run scoreboard players set @a[nbt={Inventory:[{id:"minecraft:copper_ingot",tag:{display:{Name:"{\"text\":\"§c§oRubis\"}","Lore":["{\"text\":\"§c§oRuby\"}","{\"text\":\"§6+1000 Chronotons\"}"]}}}]}] CHRONOTONbis 1200
+execute if score BonusChronoton RUNE matches 2 as @a[scores={CHRONOTONbis=1200}] run function att2:gameplay/chronoton/convertruby
+execute if score BonusChronoton RUNE matches 3 run scoreboard players set @a[nbt={Inventory:[{id:"minecraft:copper_ingot",tag:{display:{Name:"{\"text\":\"§c§oRubis\"}","Lore":["{\"text\":\"§c§oRuby\"}","{\"text\":\"§6+1000 Chronotons\"}"]}}}]}] CHRONOTONbis 1300
+execute if score BonusChronoton RUNE matches 3 as @a[scores={CHRONOTONbis=1300}] run function att2:gameplay/chronoton/convertruby
+execute if score BonusChronoton RUNE matches 4 run scoreboard players set @a[nbt={Inventory:[{id:"minecraft:copper_ingot",tag:{display:{Name:"{\"text\":\"§c§oRubis\"}","Lore":["{\"text\":\"§c§oRuby\"}","{\"text\":\"§6+1000 Chronotons\"}"]}}}]}] CHRONOTONbis 1400
+execute if score BonusChronoton RUNE matches 4 as @a[scores={CHRONOTONbis=1400}] run function att2:gameplay/chronoton/convertruby
+execute if score BonusChronoton RUNE matches 5 run scoreboard players set @a[nbt={Inventory:[{id:"minecraft:copper_ingot",tag:{display:{Name:"{\"text\":\"§c§oRubis\"}","Lore":["{\"text\":\"§c§oRuby\"}","{\"text\":\"§6+1000 Chronotons\"}"]}}}]}] CHRONOTONbis 1500
+execute if score BonusChronoton RUNE matches 5 as @a[scores={CHRONOTONbis=1500}] run function att2:gameplay/chronoton/convertruby
+
+
 # Pick nearby Chronotons from the ground
 execute as @a[gamemode=adventure] at @s run function att2:gameplay/chronoton/ground/go
 

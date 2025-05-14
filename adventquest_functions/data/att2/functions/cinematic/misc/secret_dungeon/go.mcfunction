@@ -37,15 +37,19 @@ execute as @a[x=-5573,y=78,z=-5922,dx=0,dy=2,dz=-2] at @s run tp @s -4760 25 -61
 # Wing North
 execute if score seal_north SECRET_DUNGEON matches 1.. positioned -4748 27.5 -5444 run function att2:cinematic/misc/secret_dungeon/seal_effect
 execute if score seal_north SECRET_DUNGEON matches 1.. positioned -4550 51.5 -5997 run function att2:cinematic/misc/secret_dungeon/main/boss_door/seal_north_effect
+execute positioned -4748 23 -5445 if entity @a[distance=..10] run setblock -4748 23 -5445 minecraft:redstone_block
 # Wing South
 execute if score seal_south SECRET_DUNGEON matches 1.. positioned -5252 68.5 -4553 run function att2:cinematic/misc/secret_dungeon/seal_effect
 execute if score seal_south SECRET_DUNGEON matches 1.. positioned -4556 51.5 -5991 run function att2:cinematic/misc/secret_dungeon/main/boss_door/seal_south_effect
+execute positioned -5251 64 -4553 if entity @a[distance=..10] run setblock -5251 64 -4553 minecraft:redstone_block
 # Wing East
 execute if score seal_east SECRET_DUNGEON matches 1.. positioned -4781 69.5 -4793 run function att2:cinematic/misc/secret_dungeon/seal_effect
 execute if score seal_east SECRET_DUNGEON matches 1.. positioned -4586 51.5 -5991 run function att2:cinematic/misc/secret_dungeon/main/boss_door/seal_east_effect
+execute positioned -4782 65 -4793 if entity @a[distance=..10] run setblock -4782 65 -4793 minecraft:redstone_block
 # Wing West
 execute if score seal_west SECRET_DUNGEON matches 1.. positioned -5423 135.5 -5854 run function att2:cinematic/misc/secret_dungeon/seal_effect
 execute if score seal_west SECRET_DUNGEON matches 1.. positioned -4592 51.5 -5997 run function att2:cinematic/misc/secret_dungeon/main/boss_door/seal_west_effect
+execute positioned -5424 131 -5854 if entity @a[distance=..10] run setblock -5424 131 -5854 minecraft:redstone_block
 
 ### Trigger
 # Main Door
