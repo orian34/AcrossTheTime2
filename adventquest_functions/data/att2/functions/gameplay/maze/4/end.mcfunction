@@ -6,6 +6,7 @@
 function att2:gameplay/maze/stop
 scoreboard players set achieved MAZE 4
 advancement grant @a only att2:challenge/maze_4
+execute as @a run function att2:checkpoint/maze/5
 
 tp @s -9828 71 -10099
 execute as @a[x=-9722,y=65,z=-10329,dx=-195,dy=15,dz=228,gamemode=adventure] at @s run tp @s -9828 71 -10099

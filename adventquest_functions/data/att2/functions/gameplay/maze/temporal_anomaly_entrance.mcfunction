@@ -4,14 +4,13 @@
 #####################################################
 
 # TP
-execute if score achieved MAZE matches 0 as @a[x=-5339.0,y=78,z=-4674.0,distance=..3,gamemode=adventure] at @s run function att2:dialogs/gameplay/maze/system_0
-execute if score achieved MAZE matches 0 as @a[x=-5339.0,y=78,z=-4674.0,distance=..3,gamemode=adventure] at @s run tp @s -9999 71 -9991
-execute if score achieved MAZE matches 1 as @a[x=-5339.0,y=78,z=-4674.0,distance=..3,gamemode=adventure] at @s run tp @s -10019 71 -10081
-execute if score achieved MAZE matches 2 as @a[x=-5339.0,y=78,z=-4674.0,distance=..3,gamemode=adventure] at @s run tp @s -9963 71 -10182
-execute if score achieved MAZE matches 3 as @a[x=-5339.0,y=78,z=-4674.0,distance=..3,gamemode=adventure] at @s run tp @s -9867 71 -10239
-execute if score achieved MAZE matches 4 as @a[x=-5339.0,y=78,z=-4674.0,distance=..3,gamemode=adventure] at @s run tp @s -9828 71 -10099
-execute if score achieved MAZE matches 5 as @a[x=-5339.0,y=78,z=-4674.0,distance=..3,gamemode=adventure] at @s run tp @s -9697 71 -9954
-execute if score achieved MAZE matches 6 as @a[x=-5339.0,y=78,z=-4674.0,distance=..3,gamemode=adventure] at @s run tp @s -9569 71 -10165
+execute if score achieved MAZE matches 0 as @a[x=-5339.0,y=78,z=-4674.0,distance=..3,gamemode=adventure] at @s run function att2:gameplay/maze/1/enter
+execute if score achieved MAZE matches 1 as @a[x=-5339.0,y=78,z=-4674.0,distance=..3,gamemode=adventure] at @s run function att2:gameplay/maze/2/enter
+execute if score achieved MAZE matches 2 as @a[x=-5339.0,y=78,z=-4674.0,distance=..3,gamemode=adventure] at @s run function att2:gameplay/maze/3/enter
+execute if score achieved MAZE matches 3 as @a[x=-5339.0,y=78,z=-4674.0,distance=..3,gamemode=adventure] at @s run function att2:gameplay/maze/4/enter
+execute if score achieved MAZE matches 4 as @a[x=-5339.0,y=78,z=-4674.0,distance=..3,gamemode=adventure] at @s run function att2:gameplay/maze/5/enter
+execute if score achieved MAZE matches 5 as @a[x=-5339.0,y=78,z=-4674.0,distance=..3,gamemode=adventure] at @s run function att2:gameplay/maze/6/enter
+execute if score achieved MAZE matches 6 as @a[x=-5339.0,y=78,z=-4674.0,distance=..3,gamemode=adventure] at @s run function att2:gameplay/maze/7/enter
 execute if score achieved MAZE matches 7 as @a[x=-5339.0,y=78,z=-4674.0,distance=..3,gamemode=adventure] at @s run tp @s -9545 71 -10441
 
 # Particle
