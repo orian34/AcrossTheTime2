@@ -16,3 +16,9 @@ function att2:dialogs/gameplay/shop/showcase/enhancement/spell7
 function att2:dialogs/gameplay/shop/showcase/enhancement/spell8
 function att2:dialogs/gameplay/shop/showcase/enhancement/spell10
 function att2:dialogs/gameplay/shop/showcase/enhancement/spell11
+
+function att2:dialogs/gameplay/shop/items_selled_list/spell_duplication_list
+execute if entity @a[advancements={att2:hunting/extratellur=true}] run function att2:dialogs/gameplay/shop/showcase/spell/cherche_secret
+execute if entity @a[advancements={att2:challenge/maze_7=true}] run function att2:dialogs/gameplay/shop/showcase/spell/teleportation_spatiale
+execute if score SQ56 SIDEQUEST matches 100 run function att2:dialogs/gameplay/shop/showcase/spell/nova
+function att2:dialogs/gameplay/shop/showcase/spell/corruption
