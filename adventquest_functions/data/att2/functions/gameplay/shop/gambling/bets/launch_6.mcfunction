@@ -22,9 +22,12 @@ function att2:summon/gambling_bets_reg2_3
 function att2:summon/gambling_bets_reg3_3
 
 function att2:summon/gambling_bets4
+function att2:summon/gambling_bets4
 function att2:summon/gambling_bets_reg2_4
 function att2:summon/gambling_bets_reg3_4
 
+function att2:summon/gambling_bets5
+function att2:summon/gambling_bets5
 function att2:summon/gambling_bets5
 function att2:summon/gambling_bets5
 
