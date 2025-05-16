@@ -9,7 +9,7 @@ function att2:dialogs/gameplay/assist/decoration_up
 execute if score Selection ASSIST matches 0 run tellraw @s {"text":"⊰☼⊱","color":"dark_green","bold":true,"extra":[{"text":"《醒神之书》在你的游戏过程中会为你提供大量的游戏信息","color":"gray","bold":false}]}
 execute if score Selection ASSIST matches 1 run tellraw @s {"text":"⊰☼⊱","color":"dark_green","bold":true,"extra":[{"text":"《醒神之书》的第一页中会显示玩家当前等级和头衔","color":"gray","bold":false}]}
 execute if score Selection ASSIST matches 2 run tellraw @s {"text":"⊰☼⊱","color":"dark_green","bold":true,"extra":[{"text":"《醒神之书》中的内容并不是实时更新的,玩家需要点击第一页中的[刷新]来更新书中的数据","color":"gray","bold":false}]}
-execute if score Selection ASSIST matches 3 run tellraw @s {"text":"⊰☼⊱","color":"dark_green","bold":true,"extra":[{"text":"《醒神之书》的第一页中,玩家可以获取[Dahal施法器]","color":"gray","bold":false}]}
+# execute if score Selection ASSIST matches 3 run tellraw @s {"text":"⊰☼⊱","color":"dark_green","bold":true,"extra":[{"text":"《醒神之书》的第一页中,玩家可以获取[Dahal施法器]","color":"gray","bold":false}]}
 execute if score Selection ASSIST matches 4 run tellraw @s {"text":"⊰☼⊱","color":"dark_green","bold":true,"extra":[{"text":"《醒神之书》的[能力点]页面中,玩家可以消耗能力点来提高自身的属性点","color":"gray","bold":false}]}
 execute if score Selection ASSIST matches 5 run tellraw @s {"text":"⊰☼⊱","color":"dark_green","bold":true,"extra":[{"text":"《醒神之书》的[游戏辅助]页面中,玩家可以获取当前[主线][支线]的提示信息","color":"gray","bold":false}]}
 execute if score Selection ASSIST matches 6 run tellraw @s {"text":"⊰☼⊱","color":"dark_green","bold":true,"extra":[{"text":"《醒神之书》的[游戏辅助]页面中,玩家可以按照自己的喜好进行调整各项游戏设置和查看[小提示][对话回顾]等内容","color":"gray","bold":false}]}
@@ -191,5 +191,41 @@ execute if score Selection ASSIST matches 150 run tellraw @s {"text":"⊰☼⊱"
 execute if score Selection ASSIST matches 151 run tellraw @s {"text":"⊰☼⊱","color":"dark_green","bold":true,"extra":[{"text":"有90多个[超级隐藏秘密]分散在各个维度中等待着你的发现,它们往往会存在于[主线][支线]的必经之路上,并且带有一些隐晦的提示","color":"gray","bold":false}]}
 execute if score Selection ASSIST matches 152 run tellraw @s {"text":"⊰☼⊱","color":"dark_green","bold":true,"extra":[{"text":"有一种神话级武器会以极低的概率出现于各种奖励中:[击杀怪物][Boss奖励][宝箱][赌场]等","color":"gray","bold":false}]}
 execute if score Selection ASSIST matches 153 run tellraw @s {"text":"⊰☼⊱","color":"dark_green","bold":true,"extra":[{"text":"有一种神话级武器会以极低的概率出现于各种奖励中:[击杀怪物][Boss奖励][宝箱][赌场]等","color":"gray","bold":false}]}
+
+execute if score Selection ASSIST matches 154 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"神秘咒語 <Secret Seeker> 擁有揭示每個區域隱藏秘密的獨特能力。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 155 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"點擊每個商店攤位前的重置面板，可花費 250 Chronotons 強制重置。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 156 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"購買物品的 NPC 有 5 個等級。你賣出越稀有的物品，他們的等級就越高，並且你將能夠販賣更昂貴的物品。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 157 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"在 Sylberländ 的深處四處散落著符文礦石，你可以右鍵點擊挖掘。它們有三種不同的稀有度，提供不同等級的符文。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 158 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"所有維度中共有超過 400 個 <Checkpoints> 可用。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 159 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"有些隱藏成就可以解鎖，但它們不會獲得 <Exploit> 點數，因此不會計入地圖的完成百分比。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 160 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"你可以在鐵匠那裡購買修復工具，這樣便能隨時隨地透過 <Consciousness> 之書修理裝備。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 161 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"當你達到一定數量的普通或大師等級後，Dahäl 咒語的等級將會越升越快。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 162 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"以 7777 Chronotons 下注還有機會獲得來自 <Angband>、<Billgart> 和 <Ouranos> 維度的物品。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 163 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"黑市有 6 個等級，當你向其販賣物品時等級會提升。等級越高，販賣的物品將獲得更高報酬。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 164 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"獨特的 <Hermetic> 神話盔甲套裝會為所有技能增加 1 點效果，但你將無法再跳躍，而且像所有神話武器一樣，它會消耗 Dahäl。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 165 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"在遊戲結束時有一個最終任務等待你。這包含跳躍測試與競技場，並可無限次重複挑戰以獲取獎勵。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 166 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"在遊戲最後的支線任務中有一個計時賽跑挑戰，可用來測試你的攀爬技巧並獲得獎勵。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 167 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"完成主線任務後，你的冒險還未結束。在 Across The Time 2 中，將有一個漫長的最終支線任務結束英雄的故事。此外，另一個需要你完成遊戲中所有成就的支線任務將自動啟動。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 168 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"在賭博時，高額下注將有更佳的報酬比率，但代價也更高。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 169 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"一個隱藏的異常現象存在於<Kortaek>的神殿中。你將在穿越多個連續的迷宮時面臨嚴峻考驗，這些迷宮會越來越廣闊。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 170 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"你在迷宮中找到符文的機率會更高，最終還有一份獎勵等著你。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 171 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"在Eolorion有一個符文粉碎器，可以將你多餘的符文轉換為符文粉末。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 172 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"<Aramis>可以用符文粉末來強化毀滅法術，或是複製冒險中解鎖的特殊法術。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 173 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"毀滅法術的強化會根據其基本威力提高一定百分比的傷害。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 174 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"每種玩家所持的武器類型都會新增一個動態效果，並根據你的能力與對敵人的攻擊計算。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 175 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"使用劍可以在格擋後進行反擊，根據力量與連擊次數對敵人造成更高傷害。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 176 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"使用錘子在跳躍後攻擊可產生範圍效果，造成相當於你當前總傷害的傷害。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 177 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"匕首可進行第三次更強力的攻擊，並根據攻擊速度獲得傷害加成。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 178 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"長矛可透過衝刺攻擊擊退敵人，並根據移動速度獲得加成。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 179 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"斧頭可產生降低敵人護甲的效果。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 180 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"你有小機率找到三種不同的寶石，各自能提供大量的Chronotons。鑽石：50 Chronotons，紫水晶：500 Chronotons，紅寶石：1000 Chronotons。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 181 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"一些被稱為<Mimic>的奇怪實體有機會在打開箱子時出現。你可以攻擊他們來擊殺，但也有機會獲得增益或負面效果。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 182 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"一個英雄稱號會根據聲望與成就數量被賦予並顯示於<Conscience>之書中，某些狀態還可顯示光環效果。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 183 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"在<Sylberländ>的開放區域，你可能會遇到<invasion>，這會讓大量敵人出現。你的影響力越高，入侵機率越大。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 184 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"每次入侵時會出現一個符文寶箱，並有更高機率獲得符文。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 185 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"擊殺首領所花的時間會被計時，越快擊殺越有機會獲得稀有貨幣或符文貨幣。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 186 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"有五種特殊法術無法從商人處購買。這些法術可以透過完成某些任務、挑戰或符文配方獲得。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 187 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"<Wirth Razgork>贈送的成就之書可幫助你更好地追蹤冒險進度。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 188 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"從<Conscience>之書中，你可以收集附近地上的物品。再次使用需等待2分鐘冷卻時間，且使用次數有限，但會隨著主線任務進展而增加。","color":"gray","bold":false}]}
 
 function att2:dialogs/gameplay/assist/decoration_down

@@ -9,7 +9,7 @@ function att2:dialogs/gameplay/assist/decoration_up
 execute if score Selection ASSIST matches 0 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"<意識>の本は、あなたの冒険を通じて役立ちます。進行に関連する多くの情報が含まれています。","color":"gray","bold":false}]}
 execute if score Selection ASSIST matches 1 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"Minecraftのオプションから<進捗>を確認できます。<功績>のポイント数は、<意識>の本の5ページ目に表示されます。","color":"gray","bold":false}]}
 execute if score Selection ASSIST matches 2 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"進行が行き詰まった場合、<意識>の本からメインクエストやサブクエストの助けを得ることができます。","color":"gray","bold":false}]}
-execute if score Selection ASSIST matches 3 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"呪文を唱えるための<ダハールの球>を失った場合、<意識>の本の最初のページから取り戻すことができます。","color":"gray","bold":false}]}
+# execute if score Selection ASSIST matches 3 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"呪文を唱えるための<ダハールの球>を失った場合、<意識>の本の最初のページから取り戻すことができます。","color":"gray","bold":false}]}
 execute if score Selection ASSIST matches 4 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"チームメイトを見失った場合、<意識>の本の<輝き>機能を使用して、彼らをハイライトし、識別しやすくすることができます。","color":"gray","bold":false}]}
 execute if score Selection ASSIST matches 5 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"<意識>の本から<口笛>機能を使用して、馬を動けなくすることができます。","color":"gray","bold":false}]}
 execute if score Selection ASSIST matches 6 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"<意識>の本から<クロノトン>を地面に投げて、仲間に分け与えることができます。","color":"gray","bold":false}]}
@@ -176,4 +176,25 @@ execute if score Selection ASSIST matches 165 run tellraw @s {"text":"⊰☼⊱ 
 execute if score Selection ASSIST matches 166 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"ゲームの最終サブクエストには、タイムアタックコースチャレンジがあり、クライミングスキルを測定して報酬を得られます。","color":"gray","bold":false}]}
 execute if score Selection ASSIST matches 167 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"メインクエストを完了しても、冒険は終わりません。Across The Time 2のヒーローの物語を締めくくる長い最終サブクエストを完了する必要があります。さらに、ゲーム内のすべての進捗を完了する別のサブクエストが自動的にアクティブになります。","color":"gray","bold":false}]}
 execute if score Selection ASSIST matches 168 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"賭けでは、高い賭けほど比例して良いレートが得られますが、コストも高くなります。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 169 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"<Kortaek>の神殿には隠された異常現象があります。あなたは次第に広がる複数の迷宮を進み、過酷な試練に挑むことになります。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 170 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"迷宮内ではルーンを発見する確率が高くなり、最終的には報酬が待っています。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 171 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"Eolorionにはルーン粉砕機があり、余ったルーンをルーンパウダーに変換できます。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 172 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"<Aramis>はルーンパウダーと引き換えに破壊魔法を強化したり、冒険中に解放された特殊魔法を複製したりできます。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 173 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"破壊魔法の強化により、基礎威力に応じてダメージが一定の割合で上昇します。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 174 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"プレイヤーが装備する武器の種類ごとに、ステータスや攻撃ヒット数に応じた動的な効果が追加されます。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 175 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"剣はガード後にカウンター攻撃が可能で、力や連続攻撃の数に応じてダメージが増加します。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 176 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"ハンマーはジャンプ後の攻撃で円形範囲ダメージを発生させ、現在のダメージ合計と同等のダメージを与えます。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 177 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"ダガーは3回目の攻撃がより強力になり、攻撃速度に応じた倍率効果を得ます。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 178 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"槍はスプリント攻撃で敵を吹き飛ばし、移動速度に応じた倍率効果を得ます。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 179 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"斧は敵の防御力を下げる効果を発生させることができます。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 180 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"3種類の貴重な宝石を発見する低確率があり、それぞれ大量のChronotonsを提供します。ダイヤモンド：50 Chronotons、アメジスト：500 Chronotons、ルビー：1000 Chronotons。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 181 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"<Mimic>と呼ばれる奇妙な存在が、チェストを開けたときに低確率で出現します。攻撃して倒すことができますが、ボーナスまたはデバフが付与される可能性があります。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 182 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"英雄称号が与えられ、評判や達成数に応じて<Conscience>の書に表示されます。また、状態に応じたオーラ効果も可視化されます。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 183 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"<Sylberländ>の開けた地域では、<invasion>が発生する可能性があり、多数の敵が現れます。影響力が高いほど、侵攻の確率が上昇します。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 184 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"侵攻ごとにルーンチェストが出現し、ルーンを発見する確率が上がります。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 185 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"ボスを倒すまでの時間は計測され、早く倒すほどレアな通貨やルーン通貨を入手する確率が上がります。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 186 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"特別な5つの呪文は商人から購入できません。特定のクエストや試練、ルーンレシピを達成することで入手可能です。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 187 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"<Wirth Razgork>から贈られる達成の書は、冒険中の進行状況を追跡するのに役立ちます。","color":"gray","bold":false}]}
+execute if score Selection ASSIST matches 188 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"<Conscience>の書を通じて、近くの地面にあるアイテムを収集できます。再使用には2分の待機時間があり、使用回数には限りがありますが、メインクエストの進行により増加します。","color":"gray","bold":false}]}
+
 function att2:dialogs/gameplay/assist/decoration_down
