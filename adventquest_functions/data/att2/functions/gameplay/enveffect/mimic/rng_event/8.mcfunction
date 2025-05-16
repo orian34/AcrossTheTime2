@@ -3,21 +3,10 @@
 #rng event trigger  good event3       			                #
 #################################################################
 
-#RNG choice
 playsound piece1 block @s ~ ~ ~ 2 0.9
-#summon diamond/esc/coins
-execute if score 1RNG5 RNG matches 2.. run loot spawn ~1 ~2 ~ loot att2:entities/boss/esc_rewards
-execute if score 1RNG5 RNG matches 3.. run loot spawn ~-1 ~2 ~ loot att2:entities/boss/esc_rewards
-execute if score 1RNG5 RNG matches 4.. run loot spawn ~ ~2 ~1 loot att2:entities/boss/esc_rewards
-execute if score 1RNG5 RNG matches 5.. run loot spawn ~ ~2 ~-1 loot att2:entities/boss/esc_rewards
-#summon coin
-execute if score 1RNG5 RNG matches 1.. run loot spawn ~ ~2 ~ loot att2:entities/boss/coins_rewards
-execute if score 1RNG5 RNG matches 1.. run loot spawn ~1 ~2 ~ loot att2:entities/boss/coins_rewards
-execute if score 1RNG5 RNG matches 2.. run loot spawn ~-1 ~2 ~ loot att2:entities/boss/coins_rewards
-execute if score 1RNG5 RNG matches 2.. run loot spawn ~ ~2 ~1 loot att2:entities/boss/coins_rewards
-execute if score 1RNG5 RNG matches 3.. run loot spawn ~ ~2 ~-1 loot att2:entities/boss/coins_rewards
-execute if score 1RNG5 RNG matches 3.. run loot spawn ~1 ~2 ~1 loot att2:entities/boss/coins_rewards
-execute if score 1RNG5 RNG matches 4.. run loot spawn ~-1 ~2 ~1 loot att2:entities/boss/coins_rewards
-execute if score 1RNG5 RNG matches 4.. run loot spawn ~-1 ~2 ~-1 loot att2:entities/boss/coins_rewards
-execute if score 1RNG5 RNG matches 5.. run loot spawn ~1 ~2 ~-1 loot att2:entities/boss/coins_rewards
-execute if score 1RNG5 RNG matches 5.. run loot spawn ~ ~2 ~ loot att2:entities/boss/coins_rewards
+execute if entity @p[scores={GAMELEVEL=0..9}] run function att2:gameplay/enveffect/mimic/rng_event/8/lvl0_9
+execute if entity @p[scores={GAMELEVEL=10..19}] run function att2:gameplay/enveffect/mimic/rng_event/8/lvl10_19
+execute if entity @p[scores={GAMELEVEL=20..29}] run function att2:gameplay/enveffect/mimic/rng_event/8/lvl20_29
+execute if entity @p[scores={GAMELEVEL=30..39}] run function att2:gameplay/enveffect/mimic/rng_event/8/lvl30_39
+execute if entity @p[scores={GAMELEVEL=40..49}] run function att2:gameplay/enveffect/mimic/rng_event/8/lvl40_49
+execute if entity @p[scores={GAMELEVEL=50..}] run function att2:gameplay/enveffect/mimic/rng_event/8/lvl50_
