@@ -65,14 +65,22 @@ execute if score Neth0 TIMER matches 1325..1350 as 00000000-0000-001a-0000-00000
 execute if score Neth0 TIMER matches 1400 as @a[gamemode=spectator] run function att2:gameplay/speceffect/disincarnate/end
 execute if score Neth0 TIMER matches 1405 run function att2:cinematic/act_5/angband/angor/palace_1_action_5
 execute if score Neth0 TIMER matches 1500 run function att2:cinematic/act_5/angband/angor/palace_1_action_6
-execute if score Neth0 TIMER matches 1700 run function att2:dialogs/title/credits/advenquest_title2
-execute if score Neth0 TIMER matches 1700 run function att2:dialogs/title/credits/advenquest_subtitle2
-execute if score Neth0 TIMER matches 1900 run function att2:dialogs/title/credits/advenquest_title3
-execute if score Neth0 TIMER matches 1900 run function att2:dialogs/title/credits/advenquest_subtitle3
-execute if score Neth0 TIMER matches 2100 run function att2:dialogs/title/credits/advenquest_title4
-execute if score Neth0 TIMER matches 2100 run function att2:dialogs/title/credits/advenquest_subtitle4
-execute if score Neth0 TIMER matches 2300 run function att2:dialogs/title/credits/advenquest_title5
-execute if score Neth0 TIMER matches 2300 run function att2:dialogs/title/credits/advenquest_subtitle5
+execute if score Neth0 TIMER matches 1450 run function att2:cinematic/act_5/angband/angor/palace_1_action_6
+execute if score Neth0 TIMER matches 1500 run title @a times 50 1000 100
+execute if score Neth0 TIMER matches 1500 run function att2:dialogs/title/credits/advenquest_title1
+execute if score Neth0 TIMER matches 1500 run function att2:dialogs/title/credits/advenquest_subtitle1
+execute if score Neth0 TIMER matches 1650 run function att2:dialogs/title/credits/advenquest_title2
+execute if score Neth0 TIMER matches 1650 run function att2:dialogs/title/credits/advenquest_subtitle2
+execute if score Neth0 TIMER matches 1800 run function att2:dialogs/title/credits/advenquest_title3
+execute if score Neth0 TIMER matches 1800 run function att2:dialogs/title/credits/advenquest_subtitle3
+execute if score Neth0 TIMER matches 1950 run function att2:dialogs/title/credits/advenquest_title4
+execute if score Neth0 TIMER matches 1950 run function att2:dialogs/title/credits/advenquest_subtitle4
+execute if score Neth0 TIMER matches 2100 run function att2:dialogs/title/credits/advenquest_title5
+execute if score Neth0 TIMER matches 2100 run function att2:dialogs/title/credits/advenquest_subtitle5
+execute if score Neth0 TIMER matches 2250 run function att2:dialogs/title/credits/advenquest_title6
+execute if score Neth0 TIMER matches 2250 run function att2:dialogs/title/credits/advenquest_subtitle6
+execute if score Neth0 TIMER matches 2400 run function att2:dialogs/title/credits/advenquest_title7
+execute if score Neth0 TIMER matches 2400 run function att2:dialogs/title/credits/advenquest_subtitle7
 
 execute if score Neth0 TIMER matches 2500 run title @a times 20 150 50
 execute if score Neth0 TIMER matches 2500 run function att2:dialogs/title/credits/translation_title0

@@ -1,8 +1,7 @@
 ##################################################
 #Made by Adventquest                             #
-#Process action_6 for palace_5 cinematic		 #
+#Apply hunger malus effect                       #
 ##################################################
 
-function att2:dialogs/mainquest/act_5/ch2_system_1
-
-function att2:dialogs/gameplay/clock/get_time
+scoreboard players set @s TIMER_HUN_TOT 20
+effect give @s minecraft:hunger 3 4 true
