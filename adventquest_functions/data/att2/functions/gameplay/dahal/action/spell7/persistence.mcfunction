@@ -8,13 +8,13 @@ execute as @e[scores={SPELL7_EFFECT=1..}] run scoreboard players remove @s SPELL
 # Destruction of the position keeper
 execute as @e[type=minecraft:armor_stand,scores={SPELL7_EFFECT=..0}] run kill @s
 
-execute as @e[type=minecraft:armor_stand,scores={SPELL7_EFFECT=1..,SPELL7_SLCT=61}] at @s anchored eyes run function att2:gameplay/dahal/action/spell7/geyser/1
-execute as @e[type=minecraft:armor_stand,scores={SPELL7_EFFECT=1..,SPELL7_SLCT=62}] at @s anchored eyes run function att2:gameplay/dahal/action/spell7/geyser/2
-execute as @e[type=minecraft:armor_stand,scores={SPELL7_EFFECT=1..,SPELL7_SLCT=63}] at @s anchored eyes run function att2:gameplay/dahal/action/spell7/geyser/3
-execute as @e[type=minecraft:armor_stand,scores={SPELL7_EFFECT=1..,SPELL7_SLCT=64}] at @s anchored eyes run function att2:gameplay/dahal/action/spell7/geyser/4
-execute as @e[type=minecraft:armor_stand,scores={SPELL7_EFFECT=1..,SPELL7_SLCT=65}] at @s anchored eyes run function att2:gameplay/dahal/action/spell7/geyser/5
-execute as @e[type=minecraft:armor_stand,scores={SPELL7_EFFECT=1..,SPELL7_SLCT=66}] at @s anchored eyes run function att2:gameplay/dahal/action/spell7/geyser/6
-execute as @e[type=minecraft:armor_stand,scores={SPELL7_EFFECT=1..,SPELL7_SLCT=67}] at @s anchored eyes run function att2:gameplay/dahal/action/spell7/geyser/7
-execute as @e[type=minecraft:armor_stand,scores={SPELL7_EFFECT=1..,SPELL7_SLCT=68}] at @s anchored eyes run function att2:gameplay/dahal/action/spell7/geyser/8
-execute as @e[type=minecraft:armor_stand,scores={SPELL7_EFFECT=1..,SPELL7_SLCT=69}] at @s anchored eyes run function att2:gameplay/dahal/action/spell7/geyser/9
+execute as @e[type=minecraft:armor_stand,scores={SPELL7_EFFECT=1..,SPELL7_SLCT=1}] at @s anchored eyes run function att2:gameplay/dahal/action/spell7/geyser/1
+execute as @e[type=minecraft:armor_stand,scores={SPELL7_EFFECT=1..,SPELL7_SLCT=2}] at @s anchored eyes run function att2:gameplay/dahal/action/spell7/geyser/2
+execute as @e[type=minecraft:armor_stand,scores={SPELL7_EFFECT=1..,SPELL7_SLCT=3}] at @s anchored eyes run function att2:gameplay/dahal/action/spell7/geyser/3
+execute as @e[type=minecraft:armor_stand,scores={SPELL7_EFFECT=1..,SPELL7_SLCT=4}] at @s anchored eyes run function att2:gameplay/dahal/action/spell7/geyser/4
+execute as @e[type=minecraft:armor_stand,scores={SPELL7_EFFECT=1..,SPELL7_SLCT=5}] at @s anchored eyes run function att2:gameplay/dahal/action/spell7/geyser/5
+execute as @e[type=minecraft:armor_stand,scores={SPELL7_EFFECT=1..,SPELL7_SLCT=6}] at @s anchored eyes run function att2:gameplay/dahal/action/spell7/geyser/6
+execute as @e[type=minecraft:armor_stand,scores={SPELL7_EFFECT=1..,SPELL7_SLCT=7}] at @s anchored eyes run function att2:gameplay/dahal/action/spell7/geyser/7
+execute as @e[type=minecraft:armor_stand,scores={SPELL7_EFFECT=1..,SPELL7_SLCT=8}] at @s anchored eyes run function att2:gameplay/dahal/action/spell7/geyser/8
+execute as @e[type=minecraft:armor_stand,scores={SPELL7_EFFECT=1..,SPELL7_SLCT=9}] at @s anchored eyes run function att2:gameplay/dahal/action/spell7/geyser/9
 execute as @e[type=minecraft:armor_stand,scores={SPELL7_EFFECT=1..,SPELL7_SLCT=10}] at @s anchored eyes run function att2:gameplay/dahal/action/spell7/geyser/10

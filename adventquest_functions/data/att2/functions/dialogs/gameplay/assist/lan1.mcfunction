@@ -4,6 +4,7 @@
 #################################################################
 
 function att2:dialogs/gameplay/assist/decoration_up
+
 execute if score Selection ASSIST matches 0 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"The book of <Consciousness> will help you throughout your adventure. It contains a lot of information related to your progression.","color":"gray","bold":false}]}
 execute if score Selection ASSIST matches 1 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"View your <Advancements> by going to the Minecraft options. The number of points of your <Exploits> is indicated on the 5th page of the book <Conscience>.","color":"gray","bold":false}]}
 execute if score Selection ASSIST matches 2 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"If you seem to be stuck in your progress, get help with the main quest and side quests from the <Consciousness> book.","color":"gray","bold":false}]}

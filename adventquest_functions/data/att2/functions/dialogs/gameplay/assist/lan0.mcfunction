@@ -3,7 +3,7 @@
 #Display assist								                    #
 #################################################################
 
-function att2:dialogs/gameplay/assi1st/decoration_up
+function att2:dialogs/gameplay/assist/decoration_up
 
 execute if score Selection ASSIST matches 0 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"Le livre de <Conscience> vous aidera tout au long de votre aventure. Il renferme un grand nombre d'informations liées à votre progression.","color":"gray","bold":false}]}
 execute if score Selection ASSIST matches 1 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"Visualisez vos <Succès> en allant dans les options de Minecraft. Le nombre de points de vos <Exploits> est indiqué à la 5ème page du livre <Conscience>.","color":"gray","bold":false}]}

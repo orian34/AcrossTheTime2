@@ -5,7 +5,6 @@
 
 function att2:dialogs/gameplay/assist/decoration_up
 
-
 execute if score Selection ASSIST matches 0 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"<意識>の本は、あなたの冒険を通じて役立ちます。進行に関連する多くの情報が含まれています。","color":"gray","bold":false}]}
 execute if score Selection ASSIST matches 1 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"Minecraftのオプションから<進捗>を確認できます。<功績>のポイント数は、<意識>の本の5ページ目に表示されます。","color":"gray","bold":false}]}
 execute if score Selection ASSIST matches 2 run tellraw @s {"text":"⊰☼⊱ ","color":"dark_green","bold":true,"extra":[{"text":"進行が行き詰まった場合、<意識>の本からメインクエストやサブクエストの助けを得ることができます。","color":"gray","bold":false}]}
