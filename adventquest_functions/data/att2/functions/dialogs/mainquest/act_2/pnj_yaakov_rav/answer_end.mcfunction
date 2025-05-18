@@ -8,6 +8,9 @@ function att2:gameplay/pnj_talk/dialog_playsound/yaakov_rav
 scoreboard players set yaakov_rav_PNJ DIALOG 2
 scoreboard players set wirth_razgork_PNJ DIALOG 2
 
+execute if entity @a[advancements={att2:dahal/spell20_loot=false}] run scoreboard players add Collector SPELLS_COUNT 1
+advancement grant @a only att2:dahal/spell20_loot
+
 function att2:sound/misc/mission_progress
 
 
