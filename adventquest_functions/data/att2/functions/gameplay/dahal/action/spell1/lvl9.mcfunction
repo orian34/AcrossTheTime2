@@ -5,7 +5,7 @@
 
 execute at @s run kill @e[type=minecraft:fireball,distance=..2]
 
-execute anchored eyes at @s positioned ^ ^ ^1.2 run summon minecraft:fireball ~ ~ ~ {Tags:["FireballSpell","STOP"],ExplosionPower:10,Motion:[0.0,0.0,0.0]}
+execute anchored eyes at @s positioned ^ ^ ^1.6 run summon minecraft:fireball ~ ~ ~ {Tags:["FireballSpell","STOP"],ExplosionPower:10,Motion:[0.0,0.0,0.0]}
 
 execute store result score @s MOTIONX run data get entity @s Pos[0] 100
 execute store result score @s MOTIONY run data get entity @s Pos[1] 100
