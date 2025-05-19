@@ -11,6 +11,7 @@ execute as @e[team=hostile,scores={GAMELEVEL=0..},distance=..7] run effect give 
 #damage cal
 execute as @s run function att2:gameplay/dahal/action/spell6/damage_cal
 #find owner player ->damage
-execute at @a[gamemode=adventure] as @s if score @a[distance=..0,limit=1] NUMEROJOUEUR = @s SPELL6_OWNER as @e[distance=..7,scores={GAMELEVEL=0..},team=hostile] run function att2:gameplay/dahal/action/spell6/damage with storage spdamage
+execute store result storage spdamage owner int 1 run scoreboard players get @s SPELL6_OWNER
+execute as @e[distance=..7,scores={GAMELEVEL=0..},team=hostile] at @s run function att2:gameplay/dahal/action/spell6/damage with storage spdamage
 
 kill @s
