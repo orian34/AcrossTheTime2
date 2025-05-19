@@ -49,11 +49,6 @@ team add spell31
 team modify spell31 color gold
 team modify spell31 collisionRule never
 
-function att2:gameplay/dahal/action/spell31/select_rarity/com_run
-function att2:gameplay/dahal/action/spell31/select_rarity/unc_run
-function att2:gameplay/dahal/action/spell31/select_rarity/rar_run
-function att2:gameplay/dahal/action/spell31/select_rarity/epi_run
-function att2:gameplay/dahal/action/spell31/select_rarity/leg_run
-function att2:gameplay/dahal/action/spell31/select_rarity/other_run
+
 
 
