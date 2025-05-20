@@ -16,7 +16,13 @@
                   ]
                 }
               }
-            }
+            },
+            "tags": [
+              {
+                "id": "minecraft:bypasses_armor",
+                "expected": false
+              }
+            ]
           }
         }
       }
@@ -34,7 +40,13 @@
                   ]
                 }
               }
-            }
+            },
+            "tags": [
+              {
+                "id": "minecraft:bypasses_armor",
+                "expected": false
+              }
+            ]
           }
         }
       }
@@ -52,7 +64,13 @@
                   ]
                 }
               }
-            }
+            },
+            "tags": [
+              {
+                "id": "minecraft:bypasses_armor",
+                "expected": false
+              }
+            ]
           }
         }
       }
@@ -70,7 +88,13 @@
                   ]
                 }
               }
-            }
+            },
+            "tags": [
+              {
+                "id": "minecraft:bypasses_armor",
+                "expected": false
+              }
+            ]
           }
         }
       }
@@ -88,7 +112,13 @@
                   ]
                 }
               }
-            }
+            },
+            "tags": [
+              {
+                "id": "minecraft:bypasses_armor",
+                "expected": false
+              }
+            ]
           }
         }
       }
@@ -106,7 +136,13 @@
                   ]
                 }
               }
-            }
+            },
+            "tags": [
+              {
+                "id": "minecraft:bypasses_armor",
+                "expected": false
+              }
+            ]
           }
         }
       }
