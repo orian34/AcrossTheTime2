@@ -36,13 +36,13 @@ tellraw @s[scores={LANGUAGE=1}] {"text":"[Nightmare -->]","color":"dark_red","cl
 
 tellraw @s[scores={LANGUAGE=2}] {"text":"接下來， 請選擇此次冒險的難度級別 :","color":"gray","italic":true}
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"[Apprentice -->]","color":"dark_green","clickEvent":{"action":"run_command","value":"/execute as @a[x=800,y=80,z=907,dx=3,dy=3,dz=3] if score update INTRO matches 1 run function att2:cinematic/intro/launch/difficulty_easy"},"hoverEvent":{"action":"show_text","value":"十分簡單的難度, 輕鬆休闲的遊戲體驗, 適合1~2名玩家遊玩 (只希望體驗劇情的玩家推薦遊玩此難度)"}}
+tellraw @s[scores={LANGUAGE=2}] {"text":"[學徒 -->]","color":"dark_green","clickEvent":{"action":"run_command","value":"/execute as @a[x=800,y=80,z=907,dx=3,dy=3,dz=3] if score update INTRO matches 1 run function att2:cinematic/intro/launch/difficulty_easy"},"hoverEvent":{"action":"show_text","value":"十分簡單的難度, 輕鬆休闲的遊戲體驗, 適合1~2名玩家遊玩 (只希望體驗劇情的玩家推薦遊玩此難度)"}}
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"[Veteran -->]","color":"gold","clickEvent":{"action":"run_command","value":"/execute as @a[x=800,y=80,z=907,dx=3,dy=3,dz=3] if score update INTRO matches 1 run function att2:cinematic/intro/launch/difficulty_normal"},"hoverEvent":{"action":"show_text","value":"基礎難度, 更均衡的遊戲體驗, 適合1~3名玩家遊玩 (熟悉Minecraft中的前後搖戰鬥機制的玩家推薦遊玩此難度)"}}
+tellraw @s[scores={LANGUAGE=2}] {"text":"[老兵 -->]","color":"gold","clickEvent":{"action":"run_command","value":"/execute as @a[x=800,y=80,z=907,dx=3,dy=3,dz=3] if score update INTRO matches 1 run function att2:cinematic/intro/launch/difficulty_normal"},"hoverEvent":{"action":"show_text","value":"基礎難度, 更均衡的遊戲體驗, 適合1~3名玩家遊玩 (熟悉Minecraft中的前後搖戰鬥機制的玩家推薦遊玩此難度)"}}
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"[Master -->]","color":"red","clickEvent":{"action":"run_command","value":"/execute as @a[x=800,y=80,z=907,dx=3,dy=3,dz=3] if score update INTRO matches 1 run function att2:cinematic/intro/launch/difficulty_hard"},"hoverEvent":{"action":"show_text","value":"較高難度, 更刺激的遊戲體驗, 適合1~5名玩家遊玩 (自我期望較高, 渴望挑戰的玩家推薦遊玩此難度)"}}
+tellraw @s[scores={LANGUAGE=2}] {"text":"[大師 -->]","color":"red","clickEvent":{"action":"run_command","value":"/execute as @a[x=800,y=80,z=907,dx=3,dy=3,dz=3] if score update INTRO matches 1 run function att2:cinematic/intro/launch/difficulty_hard"},"hoverEvent":{"action":"show_text","value":"較高難度, 更刺激的遊戲體驗, 適合1~5名玩家遊玩 (自我期望較高, 渴望挑戰的玩家推薦遊玩此難度)"}}
 
-tellraw @s[scores={LANGUAGE=2}] {"text":"[Nightmare -->]","color":"dark_red","clickEvent":{"action":"run_command","value":"/execute as @a[x=800,y=80,z=907,dx=3,dy=3,dz=3] if score update INTRO matches 1 run function att2:cinematic/intro/launch/difficulty_nightmare"},"hoverEvent":{"action":"show_text","value":"極高難度， 痛苦的游戲體驗（只推薦已通關一次該地圖的玩家選擇)"}}
+tellraw @s[scores={LANGUAGE=2}] {"text":"[夢魘 -->]","color":"dark_red","clickEvent":{"action":"run_command","value":"/execute as @a[x=800,y=80,z=907,dx=3,dy=3,dz=3] if score update INTRO matches 1 run function att2:cinematic/intro/launch/difficulty_nightmare"},"hoverEvent":{"action":"show_text","value":"極高難度， 痛苦的游戲體驗（只推薦已通關一次該地圖的玩家選擇)"}}
 
 
 #JAPANESE LANGUAGE

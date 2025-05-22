@@ -3,11 +3,6 @@
 #Processing doors                   								#
 #####################################################################
 
-execute if score lapis_doors MAZE matches 1 run function att2:gameplay/maze/3/doors/lapis1
-execute if score lapis_doors MAZE matches 2 run function att2:gameplay/maze/3/doors/lapis2
-execute if score redstone_doors MAZE matches 1 run function att2:gameplay/maze/3/doors/redstone1
-execute if score redstone_doors MAZE matches 2 run function att2:gameplay/maze/3/doors/redstone2
-execute if score gold_doors MAZE matches 1 run function att2:gameplay/maze/3/doors/gold1
-execute if score gold_doors MAZE matches 2 run function att2:gameplay/maze/3/doors/gold2
-execute if score diamond_doors MAZE matches 1 run function att2:gameplay/maze/3/doors/diamond1
-execute if score diamond_doors MAZE matches 2 run function att2:gameplay/maze/3/doors/diamond2
+execute if score difficulty MAZE matches -1 run function att2:gameplay/maze/3/doors/processing_1
+execute if score difficulty MAZE matches 0 run function att2:gameplay/maze/3/doors/processing0
+execute if score difficulty MAZE matches 1 run function att2:gameplay/maze/3/doors/processing1
