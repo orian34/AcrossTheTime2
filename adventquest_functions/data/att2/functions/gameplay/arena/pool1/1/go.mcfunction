@@ -24,7 +24,7 @@ execute if score Pool1_A1 ARENA matches 0.. run function att2:gameplay/arena/poo
 execute if score Pool1_A1 ARENA matches 0.. if score Pool1_Timer1 ARENA matches -1 if entity @a[x=5034,y=71,z=-5027,dx=54,dy=27,dz=54,gamemode=adventure] unless entity @e[x=5034,y=71,z=-5027,dx=54,dy=27,dz=54,tag=ArenaBoss] run function att2:gameplay/arena/pool1/1/victory
 
 # Player failed destroying all bosses Pool1_A1 and died
-execute if score Pool1_A1 ARENA matches 0.. unless entity @a[x=5034,y=71,z=-5027,dx=54,dy=27,dz=54,gamemode=adventure] run function att2:gameplay/arena/pool1/1/fail
+execute if score Pool1_A1 ARENA matches 0.. if entity @e[x=5034,y=71,z=-5027,dx=54,dy=27,dz=54,tag=ArenaBoss] unless entity @a[x=5034,y=71,z=-5027,dx=54,dy=27,dz=54,gamemode=adventure] run function att2:gameplay/arena/pool1/1/fail
 ##boss_timer->GO
 execute if score pool1_1_t BOSS_TIME matches 0.. run scoreboard players add pool1_1_t BOSS_TIME 1
 

@@ -6,7 +6,7 @@
 function att2:physicmod/reg1/arena/lobby_rewards_off
 execute if score Tournament ARENA matches 3 run function att2:physicmod/reg1/arena/enter_barrier_on
 function att2:gameplay/checkpoint/lobby
-tag @s add InArena
+tag @a[x=5000,y=100,z=-5000,distance=..500,gamemode=adventure] add InArena
 scoreboard players set in_fight BOSS 1
 execute unless score Tournament ARENA matches 1.. run scoreboard players set Tournament ARENA 0
 execute if score Tournament ARENA matches 0 if score Pool0_A1_Choose ARENA matches 1 run function att2:gameplay/arena/pool0/1/enter_arena

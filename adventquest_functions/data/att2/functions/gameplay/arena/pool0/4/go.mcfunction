@@ -24,7 +24,9 @@ execute if score Pool0_A4 ARENA matches 1 if score Pool0_Timer1 ARENA matches 10
 execute if score Pool0_A4 ARENA matches 1 if score Pool0_Timer1 ARENA matches ..-1 if entity @a[x=4867,y=69,z=-4774,dx=61,dy=52,dz=61,gamemode=adventure] unless entity @e[x=4867,y=69,z=-4774,dx=61,dy=52,dz=61,tag=ArenaMinion] run function att2:gameplay/arena/pool0/4/trigger_end
 
 # Player failed destroying Pool0_A4 and died
-execute if score Pool0_A4 ARENA matches 0.. unless entity @a[x=4867,y=69,z=-4774,dx=61,dy=52,dz=61,gamemode=adventure] run function att2:gameplay/arena/pool0/4/fail
+execute if score Pool0_A4 ARENA matches 0.. if entity @e[x=4867,y=69,z=-4774,dx=61,dy=52,dz=61,tag=ArenaMinion] unless entity @a[x=4867,y=69,z=-4774,dx=61,dy=52,dz=61,gamemode=adventure] run function att2:gameplay/arena/pool0/4/fail
+
+
 ##boss_timer->GO
 execute if score pool0_4_t BOSS_TIME matches 0.. run scoreboard players add pool0_4_t BOSS_TIME 1
 
