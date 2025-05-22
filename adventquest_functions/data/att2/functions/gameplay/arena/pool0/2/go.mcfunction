@@ -21,10 +21,10 @@ execute if score Pool0_A2 ARENA matches -1 if score Pool0_Timer1 ARENA matches 2
 execute if score Pool0_A2 ARENA matches 1 if score Pool0_Timer1 ARENA matches 10 run function att2:gameplay/arena/pool0/2/bossbar_attributs
 
 # ending the arena fight
-execute if score Pool0_A2 ARENA matches 1 if score Pool0_Timer1 ARENA matches ..-1 if entity @a[x=5037,y=70,z=-4774,dx=61,dy=51,dz=61,gamemode=adventure] unless entity @e[x=5037,y=70,z=-4774,dx=61,dy=51,dz=61,tag=ArenaMinion] run function att2:gameplay/arena/pool0/2/trigger_end
+execute if score Pool0_A2 ARENA matches 1 if score Pool0_Timer1 ARENA matches ..-1 if entity @a[x=5037,y=70,z=-4774,dx=61,dy=51,dz=61,gamemode=adventure] unless score Pool0_A2_Count ARENA matches 1.. unless entity @e[x=5037,y=70,z=-4774,dx=61,dy=51,dz=61,tag=ArenaMinion] run function att2:gameplay/arena/pool0/2/trigger_end
 
 # Player failed destroying Pool0_A2 and died
-execute if score Pool0_A2 ARENA matches 0.. unless entity @a[x=5037,y=70,z=-4774,dx=61,dy=51,dz=61,gamemode=adventure] run function att2:gameplay/arena/pool0/2/fail
+execute if score Pool0_A2 ARENA matches 0.. if score Pool0_A2_Count ARENA matches 1.. if entity @e[x=5037,y=70,z=-4774,dx=61,dy=51,dz=61,tag=ArenaMinion] unless entity @a[x=5037,y=70,z=-4774,dx=61,dy=51,dz=61,gamemode=adventure] run function att2:gameplay/arena/pool0/2/fail
 ##boss_timer->GO
 execute if score pool0_2_t BOSS_TIME matches 0.. run scoreboard players add pool0_2_t BOSS_TIME 1
 
