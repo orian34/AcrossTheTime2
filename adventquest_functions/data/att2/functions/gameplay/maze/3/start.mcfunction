@@ -3,6 +3,8 @@
 #Start maze 3			                            #
 #####################################################
 
+function att2:gameplay/maze/score/reset
+
 # Doors processing
 fill -9854 71 -10240 -9854 73 -10238 minecraft:netherite_block
 fill -9964 73 -10195 -9962 71 -10195 minecraft:air
@@ -13,18 +15,8 @@ scoreboard players set Timer MAZE 1
 scoreboard players set active MAZE 1
 
 # Chest summon
-execute positioned -9939 71 -10215 run function att2:gameplay/maze/summon/chests/rune3
-execute positioned -9987 71 -10215 run function att2:gameplay/maze/summon/chests/rune3
-execute positioned -10055 71 -10227 run function att2:gameplay/maze/summon/chests/rune3
-execute positioned -10043 71 -10203 run function att2:gameplay/maze/summon/chests/rune3
-execute positioned -10079 71 -10255 run function att2:gameplay/maze/summon/chests/rune3
-execute positioned -10027 71 -10267 run function att2:gameplay/maze/summon/chests/rune3
-execute positioned -9959 71 -10267 run function att2:gameplay/maze/summon/chests/rune3
-execute positioned -9935 71 -10259 run function att2:gameplay/maze/summon/chests/rune3
-execute positioned -9923 71 -10203 run function att2:gameplay/maze/summon/chests/rune3
-execute positioned -9878 71 -10211 run function att2:gameplay/maze/summon/chests/rune3
-execute positioned -9878 71 -10211 run function att2:gameplay/maze/summon/chests/rune3
-execute positioned -9903 71 -10283 run function att2:gameplay/maze/summon/chests/rune3
+function att2:gameplay/maze/3/summon/runic_chest
+function att2:gameplay/maze/3/summon/normal_chest
 
 team join noCollision @e[type=minecraft:chest_minecart,tag=maze_chest]
 

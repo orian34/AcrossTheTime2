@@ -1,7 +1,10 @@
 #####################################################
 #Made by Adventquest                                #
-#End maze 2			                                #
+#End maze 3			                                #
 #####################################################
+
+function att2:gameplay/maze/score/minions_killed
+function att2:gameplay/maze/score/calculate
 
 function att2:gameplay/maze/stop
 scoreboard players set achieved MAZE 3

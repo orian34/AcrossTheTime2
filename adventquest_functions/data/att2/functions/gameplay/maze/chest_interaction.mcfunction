@@ -3,6 +3,9 @@
 #Chest interaction                   								#
 #####################################################################
 
+# Ajoute score
+function att2:gameplay/maze/score/runic_chest_opened
+
 # Détecter les interactions avec l'entité
 execute at @s run tag @p[distance=..5] add opened_maze_chest
 
