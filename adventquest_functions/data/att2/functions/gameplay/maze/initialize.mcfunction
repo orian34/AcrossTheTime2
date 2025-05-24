@@ -4,9 +4,12 @@
 #################################################################
 
 scoreboard objectives add MAZE dummy
-scoreboard objectives add minions_killed minecraft.killed:minecraft.wither_skeleton
+scoreboard objectives add maze_minions_killed minecraft.killed:minecraft.skeleton
+scoreboard objectives add maze_elites_killed minecraft.killed:minecraft.wither_skeleton
 
-scoreboard players set @a minions_killed 0
+scoreboard players set @a maze_minions_killed 0
+scoreboard players set @a maze_elites_killed 0
+scoreboard players set total_elites_killed MAZE 0
 scoreboard players set total_minions_killed MAZE 0
 scoreboard players set normal_chest_opened MAZE 0
 scoreboard players set runic_chest_opened MAZE 0
@@ -20,12 +23,22 @@ scoreboard players set active MAZE 0
 scoreboard players set achieved MAZE 0
 scoreboard players set difficulty MAZE 0
 scoreboard players set Timer MAZE 0
-scoreboard players set Choose_minion MAZE 0
-scoreboard players set 6 MAZE 6
 
+scoreboard players set minions MAZE 0
 scoreboard players set chests MAZE 0
 scoreboard players set doors MAZE 0
 scoreboard players set lapis_doors MAZE 0
 scoreboard players set redstone_doors MAZE 0
 scoreboard players set gold_doors MAZE 0
 scoreboard players set diamond_doors MAZE 0
+
+scoreboard players set 1 MAZE 1
+scoreboard players set 2 MAZE 2
+scoreboard players set 3 MAZE 3
+scoreboard players set 4 MAZE 4
+scoreboard players set 5 MAZE 5
+scoreboard players set 6 MAZE 6
+scoreboard players set 7 MAZE 7
+scoreboard players set 8 MAZE 8
+scoreboard players set 9 MAZE 9
+scoreboard players set 10 MAZE 10

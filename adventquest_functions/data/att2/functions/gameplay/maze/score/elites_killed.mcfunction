@@ -1,6 +1,6 @@
 #####################################################################
 #Made by Adventquest												#
-#Minions total killed                  								#
+#Elites total killed                  								#
 #####################################################################
 
-execute as @a run scoreboard players operation total_minions_killed MAZE += @s maze_minions_killed
+execute as @a run scoreboard players operation total_elites_killed MAZE += @s maze_elites_killed

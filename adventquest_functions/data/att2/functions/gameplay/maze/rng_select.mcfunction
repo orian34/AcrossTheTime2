@@ -21,3 +21,8 @@ execute if score 1RNG1000 RNG matches 0..249 run scoreboard players set chests M
 execute if score 1RNG1000 RNG matches 250..499 run scoreboard players set chests MAZE 2
 execute if score 1RNG1000 RNG matches 500..749 run scoreboard players set chests MAZE 3
 execute if score 1RNG1000 RNG matches 750..1000 run scoreboard players set chests MAZE 4
+
+execute if score 1RNG10000 RNG matches 0..2499 run scoreboard players set minions MAZE 1
+execute if score 1RNG10000 RNG matches 2500..4999 run scoreboard players set minions MAZE 2
+execute if score 1RNG10000 RNG matches 5000..7499 run scoreboard players set minions MAZE 3
+execute if score 1RNG10000 RNG matches 7500..10000 run scoreboard players set minions MAZE 4
