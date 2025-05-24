@@ -3,14 +3,13 @@
 #Cooldown the spell										        #
 #################################################################
 
-scoreboard players remove @a[scores={COOLDOWN30=1..}] COOLDOWN30 1
-execute if score BonusCooldown RUNE matches 1.. if score tic TIMECOUNTER matches 1..2 run scoreboard players remove @a[scores={COOLDOWN30=1..}] COOLDOWN30 1
-execute if score BonusCooldown RUNE matches 2.. if score tic TIMECOUNTER matches 3..4 run scoreboard players remove @a[scores={COOLDOWN30=1..}] COOLDOWN30 1
-execute if score BonusCooldown RUNE matches 3.. if score tic TIMECOUNTER matches 5..6 run scoreboard players remove @a[scores={COOLDOWN30=1..}] COOLDOWN30 1
-execute if score BonusCooldown RUNE matches 4.. if score tic TIMECOUNTER matches 7..8 run scoreboard players remove @a[scores={COOLDOWN30=1..}] COOLDOWN30 1
-execute if score BonusCooldown RUNE matches 5.. if score tic TIMECOUNTER matches 9..10 run scoreboard players remove @a[scores={COOLDOWN30=1..}] COOLDOWN30 1
-execute if score BonusCooldown RUNE matches 6.. if score tic TIMECOUNTER matches 11..12 run scoreboard players remove @a[scores={COOLDOWN30=1..}] COOLDOWN30 1
-execute if score BonusCooldown RUNE matches 7.. if score tic TIMECOUNTER matches 13..14 run scoreboard players remove @a[scores={COOLDOWN30=1..}] COOLDOWN30 1
-execute if score BonusCooldown RUNE matches 8.. if score tic TIMECOUNTER matches 15..16 run scoreboard players remove @a[scores={COOLDOWN30=1..}] COOLDOWN30 1
-execute if score BonusCooldown RUNE matches 9.. if score tic TIMECOUNTER matches 17..18 run scoreboard players remove @a[scores={COOLDOWN30=1..}] COOLDOWN30 1
-execute if score BonusCooldown RUNE matches 10.. if score tic TIMECOUNTER matches 19..20 run scoreboard players remove @a[scores={COOLDOWN30=1..}] COOLDOWN30 1
+scoreboard players operation COOLDOWN CAL = BonusCooldown RUNE
+scoreboard players operation COOLDOWN CAL += @s COOLDOWNRUSH
+scoreboard players operation COOLDOWN CAL += 10 CAL
+
+scoreboard players operation @s COOLDOWN30 -= COOLDOWN CAL
+
+execute unless score @s COOLDOWN30 matches 1.. run function att2:dialogs/gameplay/dahal/spell30_ready
+
+scoreboard players reset COOLDOWN CAL
+scoreboard players set @s[scores={COOLDOWN30=..0}] COOLDOWN30 0

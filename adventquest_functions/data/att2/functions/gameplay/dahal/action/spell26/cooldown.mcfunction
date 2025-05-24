@@ -3,4 +3,4 @@
 #Level and Cooldown	for Wolf							        #
 #################################################################
 
-scoreboard players set @s COOLDOWN26 3000
+scoreboard players set @s COOLDOWN26 30000

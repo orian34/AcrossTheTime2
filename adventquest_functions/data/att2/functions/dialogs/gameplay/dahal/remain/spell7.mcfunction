@@ -7,6 +7,8 @@ scoreboard players operation @s remain_time = @s COOLDOWN7
 scoreboard players operation total remain_time = 20 remain_time
 scoreboard players operation total remain_time += BonusCooldown RUNE
 scoreboard players operation total remain_time += BonusCooldown RUNE
+scoreboard players operation total remain_time += @s COOLDOWNRUSH
+scoreboard players operation total remain_time += @s COOLDOWNRUSH
 scoreboard players operation @s remain_time /= total remain_time
 
 #FRENCH LANGUAGE
