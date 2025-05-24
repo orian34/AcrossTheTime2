@@ -3,9 +3,7 @@
 #End maze 6			                                #
 #####################################################
 
-function att2:gameplay/maze/score/minions_killed
 function att2:gameplay/maze/score/calculate
-
 function att2:gameplay/maze/stop
 scoreboard players set achieved MAZE 6
 advancement grant @a only att2:challenge/maze_6

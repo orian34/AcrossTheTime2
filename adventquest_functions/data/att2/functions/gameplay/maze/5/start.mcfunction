@@ -18,6 +18,7 @@ scoreboard players set active MAZE 1
 function att2:gameplay/maze/5/summon/runic_chest
 function att2:gameplay/maze/5/summon/normal_chest
 function att2:gameplay/maze/5/summon/minions
+function att2:gameplay/maze/5/summon/symbol
 
 team join noCollision @e[type=minecraft:chest_minecart,tag=maze_chest]
 
