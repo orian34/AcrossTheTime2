@@ -12,6 +12,7 @@ function att2:gameplay/maze/rng_select
 
 scoreboard players set Timer MAZE 1
 scoreboard players set active MAZE 1
+scoreboard players set number MAZE 1
 
 # Chest summon
 function att2:gameplay/maze/1/summon/runic_chest

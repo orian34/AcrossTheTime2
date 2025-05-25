@@ -10,6 +10,7 @@ execute if score Timer MAZE matches 1.. as @e[type=minecraft:wither_skeleton,x=-
 execute if score Timer MAZE matches 1.. as @e[type=minecraft:ocelot,tag=LostSoul,x=-9683,y=79,z=-9866,dx=204,dy=8,dz=-297,limit=1] run function att2:gameplay/maze/6/minions_spread
 execute if score Timer MAZE matches 1.. as @e[type=minecraft:interaction,tag=maze_chest_interaction,nbt={interaction:{}}] run function att2:gameplay/maze/chest_interaction
 execute if score Timer MAZE matches 1.. run function att2:gameplay/maze/6/symbol
+execute if score Timer MAZE matches 1.. run function att2:gameplay/maze/go_time
 execute if score Timer MAZE matches ..0 as @r[x=-9683,y=65,z=-9866,dx=204,dy=15,dz=-297,gamemode=adventure] at @s positioned ~ ~10 ~ run function att2:gameplay/maze/elites_choose
 execute if score Timer MAZE matches ..0 run function att2:gameplay/maze/6/doors_processing
 execute if score Timer MAZE matches ..0 run scoreboard players set Timer MAZE 1200

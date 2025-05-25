@@ -3,9 +3,8 @@
 #Stop maze             									        #
 #################################################################
 
-scoreboard players set minions MAZE 0
-scoreboard players set chests MAZE 0
 scoreboard players set doors MAZE 0
+scoreboard players set number MAZE 0
 scoreboard players set active MAZE 0
 scoreboard players set Timer MAZE 0
 
