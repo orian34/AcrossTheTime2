@@ -12,8 +12,7 @@ function att2:dialogs/gameplay/maze/score/elites
 function att2:dialogs/gameplay/maze/score/symbol
 function att2:dialogs/gameplay/maze/score/difficulty
 function att2:dialogs/gameplay/maze/score/time
-function att2:dialogs/gameplay/maze/score/total
 
-function att2:dialogs/gameplay/maze/score/reward
+function att2:dialogs/gameplay/maze/score/total
 function att2:dialogs/gameplay/maze/score/reward_xp
 function att2:dialogs/gameplay/maze/score/reward_chronotons

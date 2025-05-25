@@ -6,8 +6,9 @@
 function att2:gameplay/maze/score/reset
 
 # Doors processing
-fill -9854 71 -10240 -9854 73 -10238 minecraft:netherite_block
-fill -9964 73 -10195 -9962 71 -10195 minecraft:air
+function att2:physicmod/reg1/maze/2/door_enter_closed
+function att2:physicmod/reg1/maze/4/door_enter_closed
+function att2:physicmod/reg1/maze/3/door_enter_opened
 execute at @a run function att2:sound/door/structure_falling
 function att2:gameplay/maze/rng_select
 
