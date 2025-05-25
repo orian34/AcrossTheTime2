@@ -1,7 +1,20 @@
-#####################################################################
-#Made by Adventquest												#
-#Process the boss rewards											#
-#####################################################################
+#############################################################################
+#Made by Adventquest												        #
+# Process the Maze 6 rewards										        #
+# Calculate depending the total score :                                     #
+# from att2:gameplay/maze/score/calculate             				        #
+# MAX symbol = 39                                                           #
+# MAX normal_chest = 80                                                     #
+# MAX runic_chest = 46                                                      #
+# MAX minions = 126                                                         #
+# MAX elites = 1*2min                                                       #
+# MAX difficulty = 6                                                        #
+# MAX time ~= 3600                                                          #
+# SCORE ~= (39*5 + 80*3 + 46*4 + 126*2 + 25*10)*6 = 6 726                   #
+# TOTAL SCORE MAX ~= 6 726 + (3600/2) ~= 9000                               #
+# XP REWARD MAX ~= 9000*4 ~= 36000                                          #
+# CHRONOTONS REWARD MAX ~= 9000/4 ~= 2250                                   #
+#############################################################################
 
 function att2:summon/bat_boss_esc_rewards
 function att2:summon/bat_boss_esc_rewards

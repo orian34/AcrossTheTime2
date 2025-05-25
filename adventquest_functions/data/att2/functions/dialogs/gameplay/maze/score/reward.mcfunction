@@ -4,4 +4,4 @@
 #################################################################
 
 #FRENCH LANGUAGE
-tellraw @a[scores={LANGUAGE=0}] {"text":"⚙ ","color":"dark_red","extra":[{"text":"Calcule du score : ","color":"gray"},{"text":" ⚙","color":"dark_red"}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":"⚙ ","color":"dark_red","extra":[{"text":"Récompense : ","color":"gray"},{"text":" ⚙","color":"dark_red"}]}

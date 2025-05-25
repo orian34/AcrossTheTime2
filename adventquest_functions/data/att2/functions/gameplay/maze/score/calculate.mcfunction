@@ -7,9 +7,8 @@
 # + minions_killed * 2             								#
 # + elites_killed * 10             								#
 # + symbol_found * 5             								#
-# * (1||2||3) depending maze difficulty                         #
-# * (1||2||3) depending game difficulty                         #
-# - (time_s_total * 2)             								#
+# * (1-6) depending maze & game difficulty                      #
+# - (time_s_total * 1)             								#
 #################################################################
 
 # normal chest
@@ -40,18 +39,29 @@ scoreboard players operation symbol_score MAZE += symbol_found MAZE
 scoreboard players operation symbol_score MAZE *= 5 MAZE
 scoreboard players operation total_score MAZE += symbol_score MAZE
 
-# maze difficulty
-execute if score difficulty MAZE matches -1 run scoreboard players operation total_score MAZE *= 1 MAZE
-execute if score difficulty MAZE matches 0 run scoreboard players operation total_score MAZE *= 2 MAZE
-execute if score difficulty MAZE matches 1 run scoreboard players operation total_score MAZE *= 3 MAZE
-# game difficulty
-execute if score level DIFFICULTY matches -1 run scoreboard players operation total_score MAZE *= 1 MAZE
-execute if score level DIFFICULTY matches 0 run scoreboard players operation total_score MAZE *= 2 MAZE
-execute if score level DIFFICULTY matches 1.. run scoreboard players operation total_score MAZE *= 3 MAZE
+# difficulty (maze + game)
+execute if score difficulty MAZE matches -1 run scoreboard players operation difficulty_score MAZE += 1 MAZE
+execute if score difficulty MAZE matches 0 run scoreboard players operation difficulty_score MAZE += 2 MAZE
+execute if score difficulty MAZE matches 1 run scoreboard players operation difficulty_score MAZE += 3 MAZE
+execute if score level DIFFICULTY matches -1 run scoreboard players operation difficulty_score MAZE += 1 MAZE
+execute if score level DIFFICULTY matches 0 run scoreboard players operation difficulty_score MAZE += 2 MAZE
+execute if score level DIFFICULTY matches 1 run scoreboard players operation difficulty_score MAZE += 3 MAZE
+scoreboard players operation total_score MAZE *= difficulty_score MAZE
 
 # time
 scoreboard players operation time_score MAZE += time_s_total MAZE
-scoreboard players operation time_score MAZE *= 2 MAZE
-scoreboard players operation total_score MAZE -= time_score MAZE
+scoreboard players operation time_score MAZE /= 2 MAZE
+scoreboard players operation total_score MAZE += time_score MAZE
+
+# XP share
+scoreboard players operation total_score_xp MAZE = total_score MAZE
+scoreboard players operation total_score_xp MAZE *= 4 MAZE
+execute as @a run scoreboard players operation @s XPGAIN += total_score_xp MAZE
+execute as @a[scores={XPGAIN=1..}] run function att2:gameplay/leveling/monster/loot/xpattribution
+
+# Chronoton share
+scoreboard players operation total_score_chronotons MAZE = total_score MAZE
+scoreboard players operation total_score_chronotons MAZE /= 4 MAZE
+execute as @a run scoreboard players operation @s CHRONOTONS += total_score_chronotons MAZE
 
 function att2:gameplay/maze/score/show
