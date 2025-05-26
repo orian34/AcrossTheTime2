@@ -62,6 +62,6 @@ execute as @a[scores={XPGAIN=1..}] run function att2:gameplay/leveling/monster/l
 # Chronoton share
 scoreboard players operation total_score_chronotons MAZE = total_score MAZE
 scoreboard players operation total_score_chronotons MAZE /= 4 MAZE
-execute as @a run scoreboard players operation @s CHRONOTONS += total_score_chronotons MAZE
+execute as @a run scoreboard players operation @s CHRONOTON += total_score_chronotons MAZE
 
 function att2:gameplay/maze/score/show

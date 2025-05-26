@@ -3,5 +3,4 @@
 #Use function to process the score Maze info 			        #
 #################################################################
 
-#FRENCH LANGUAGE
-tellraw @a[scores={LANGUAGE=0}] {"text":"⚙ ","color":"dark_red","extra":[{"text":"Calcule du score : ","color":"gray"}]}
+tellraw @a {"text":"⚙ ","color":"dark_red","extra":[{"text":"Score : ","color":"gray"}]}

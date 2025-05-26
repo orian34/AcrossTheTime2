@@ -1,6 +1,6 @@
 #####################################################################
 #Made by Adventquest												#
-#Chest interaction                   								#
+#Process chest interaction                   						#
 #####################################################################
 
 # Marquer le minecart comme utilisé pour arrêter les particules
