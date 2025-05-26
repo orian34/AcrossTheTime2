@@ -17,10 +17,11 @@ execute positioned -9943 71 -10130 run function att2:gameplay/maze/summon/minion
 execute positioned -9983 71 -10150 run function att2:gameplay/maze/summon/minions_choose
 execute positioned -9971 71 -10162 run function att2:gameplay/maze/summon/minions_choose
 execute positioned -9987 71 -10178 run function att2:gameplay/maze/summon/minions_choose
-execute positioned -10019 71 -10106 run function att2:gameplay/maze/summon/minions_choose
-execute positioned -10023 71 -10123 run function att2:gameplay/maze/summon/minions_choose
-execute positioned -10043 71 -10155 run function att2:gameplay/maze/summon/minions_choose
-execute positioned -10015 71 -10178 run function att2:gameplay/maze/summon/minions_choose
-execute positioned -9983 71 -10102 run function att2:gameplay/maze/summon/minions_choose
-execute positioned -9951 71 -10126 run function att2:gameplay/maze/summon/minions_choose
-execute positioned -9935 71 -10178 run function att2:gameplay/maze/summon/minions_choose
+
+execute positioned -10019 71 -10106 run function att2:gameplay/maze/summon/minions_archer_choose
+execute positioned -10023 71 -10123 run function att2:gameplay/maze/summon/minions_archer_choose
+execute positioned -10043 71 -10155 run function att2:gameplay/maze/summon/minions_archer_choose
+execute positioned -10015 71 -10178 run function att2:gameplay/maze/summon/minions_archer_choose
+execute positioned -9983 71 -10102 run function att2:gameplay/maze/summon/minions_archer_choose
+execute positioned -9951 71 -10126 run function att2:gameplay/maze/summon/minions_archer_choose
+execute positioned -9935 71 -10178 run function att2:gameplay/maze/summon/minions_archer_choose

@@ -5,18 +5,20 @@
 
 function att2:gameplay/maze/score/reset
 # Doors processing
-fill -10020 73 -10094 -10018 71 -10094 minecraft:netherite_block
-fill -9998 73 -10004 -10000 71 -10004 minecraft:air
+function att2:physicmod/reg1/maze/2/door_enter_closed
+function att2:physicmod/reg1/maze/1/door_enter_opened
 execute at @a run function att2:sound/door/structure_falling
 function att2:gameplay/maze/rng_select
 
 scoreboard players set Timer MAZE 1
 scoreboard players set active MAZE 1
+scoreboard players set number MAZE 1
 
 # Chest summon
 function att2:gameplay/maze/1/summon/runic_chest
 function att2:gameplay/maze/1/summon/normal_chest
 function att2:gameplay/maze/1/summon/minions
+function att2:gameplay/maze/1/summon/symbol
 
 team join noCollision @e[type=minecraft:chest_minecart,tag=maze_chest]
 

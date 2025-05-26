@@ -1,6 +1,6 @@
 #####################################################################
 #Made by Adventquest												#
-#Chest maze effect                  								#
+#Chest runic maze effect                  							#
 #####################################################################
 
 particle minecraft:portal ~ ~0.5 ~ 0.05 0.05 0.05 1 2 normal

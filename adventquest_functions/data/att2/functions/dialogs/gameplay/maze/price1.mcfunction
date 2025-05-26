@@ -4,7 +4,7 @@
 #################################################################
 
 execute at @a run function att2:sound/dialogs/simple
-
+function att2:dialogs/gameplay/shop/runepowder_display
 
 #FRENCH LANGUAGE
 tellraw @a[x=-9999,y=71,z=-9996,distance=..8,gamemode=adventure,scores={LANGUAGE=0}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Maître -->]","color":"red","clickEvent":{"action":"run_command","value":"/execute if score active MAZE matches 0 as @a[x=-9999,y=71,z=-9996,distance=..8,gamemode=adventure] run function att2:gameplay/maze/1/trigger_runepowder1"},"hoverEvent":{"action":"show_text","value":"Cout en poudres runiques : 10"}}]}

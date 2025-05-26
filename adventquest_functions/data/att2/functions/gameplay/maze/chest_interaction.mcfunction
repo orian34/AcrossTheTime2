@@ -3,17 +3,8 @@
 #Chest interaction                   								#
 #####################################################################
 
-# Ajoute score
-function att2:gameplay/maze/score/runic_chest_opened
-
-# Détecter les interactions avec l'entité
-execute at @s run tag @p[distance=..5] add opened_maze_chest
-
-# Marquer le minecart comme utilisé pour arrêter les particules
-execute at @s run tag @e[type=minecraft:chest_minecart,tag=maze_chest,distance=..1,limit=1] add used_chest
-
-# Ajouter un son
-execute at @s run function att2:sound/dahal/nova_stop
+# Vérifier que le minecart de coffre n'a pas encore été utilisé
+execute at @s as @e[type=minecraft:chest_minecart,tag=maze_chest,tag=!used_chest,distance=..1,limit=1] run function att2:gameplay/maze/process_chest_interaction
 
 # Supprimer les données d'interaction pour éviter une détection multiple
 data remove entity @s interaction
