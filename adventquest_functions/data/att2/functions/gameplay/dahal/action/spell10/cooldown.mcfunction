@@ -8,13 +8,13 @@ execute as @s[tag=Nova] run function att2:gameplay/dahal/action/spell11/stop
 execute as @s[tag=Corrupted] run function att2:gameplay/dahal/action/spell40/stop
 execute as @s[tag=Tiid_Klo_Ul] run function att2:gameplay/dahal/action/spell9/stop
 
-scoreboard players set @s[scores={SPELL10_CAP=1}] COOLDOWN10 300
-scoreboard players set @s[scores={SPELL10_CAP=2}] COOLDOWN10 290
-scoreboard players set @s[scores={SPELL10_CAP=3}] COOLDOWN10 280
-scoreboard players set @s[scores={SPELL10_CAP=4}] COOLDOWN10 270
-scoreboard players set @s[scores={SPELL10_CAP=5}] COOLDOWN10 260
-scoreboard players set @s[scores={SPELL10_CAP=6}] COOLDOWN10 240
-scoreboard players set @s[scores={SPELL10_CAP=7}] COOLDOWN10 220
-scoreboard players set @s[scores={SPELL10_CAP=8}] COOLDOWN10 200
-scoreboard players set @s[scores={SPELL10_CAP=9}] COOLDOWN10 175
-scoreboard players set @s[scores={SPELL10_CAP=10}] COOLDOWN10 150
+scoreboard players set @s[scores={SPELL10_CAP=1}] COOLDOWN10 3000
+scoreboard players set @s[scores={SPELL10_CAP=2}] COOLDOWN10 2900
+scoreboard players set @s[scores={SPELL10_CAP=3}] COOLDOWN10 2800
+scoreboard players set @s[scores={SPELL10_CAP=4}] COOLDOWN10 2700
+scoreboard players set @s[scores={SPELL10_CAP=5}] COOLDOWN10 2600
+scoreboard players set @s[scores={SPELL10_CAP=6}] COOLDOWN10 2400
+scoreboard players set @s[scores={SPELL10_CAP=7}] COOLDOWN10 2200
+scoreboard players set @s[scores={SPELL10_CAP=8}] COOLDOWN10 2000
+scoreboard players set @s[scores={SPELL10_CAP=9}] COOLDOWN10 1750
+scoreboard players set @s[scores={SPELL10_CAP=10}] COOLDOWN10 1500
