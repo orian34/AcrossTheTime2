@@ -8,4 +8,4 @@ function att2:gameplay/maze/stop
 function att2:gameplay/maze/kill_entities
 function att2:physicmod/reg1/maze/2/door_enter_closed
 function att2:physicmod/reg1/maze/stone_pressure_reset
-tp @s -10019 71 -10086
+tp @s -10019 72 -10086

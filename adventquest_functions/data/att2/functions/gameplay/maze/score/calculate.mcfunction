@@ -5,10 +5,12 @@
 # + normal_chest * 3             								#
 # + runic_chest * 4             								#
 # + minions_killed * 2             								#
-# + elites_killed * 10             								#
+# + elites_killed * 7             								#
 # + symbol_found * 5             								#
+# + waypoint_found * 10             							#
 # * (1-6) depending maze & game difficulty                      #
-# - (time_s_total * 1)             								#
+# + number * 250                                                #
+# + (time_s_total / 2)             								#
 #################################################################
 
 # normal chest
@@ -23,7 +25,6 @@ scoreboard players operation total_score MAZE += runic_chest_score MAZE
 
 # minions killed
 function att2:gameplay/maze/score/minions_killed
-function att2:gameplay/maze/score/minions_archer_killed
 scoreboard players operation minions_killed_score MAZE += total_minions_killed MAZE
 scoreboard players operation minions_killed_score MAZE *= 2 MAZE
 scoreboard players operation total_score MAZE += minions_killed_score MAZE
@@ -31,13 +32,18 @@ scoreboard players operation total_score MAZE += minions_killed_score MAZE
 # elites killed
 function att2:gameplay/maze/score/elites_killed
 scoreboard players operation elites_killed_score MAZE += total_elites_killed MAZE
-scoreboard players operation elites_killed_score MAZE *= 10 MAZE
+scoreboard players operation elites_killed_score MAZE *= 7 MAZE
 scoreboard players operation total_score MAZE += elites_killed_score MAZE
 
 # symbol
 scoreboard players operation symbol_score MAZE += symbol_found MAZE
 scoreboard players operation symbol_score MAZE *= 5 MAZE
 scoreboard players operation total_score MAZE += symbol_score MAZE
+
+# waypoint
+scoreboard players operation waypoint_score MAZE += waypoint_found MAZE
+scoreboard players operation waypoint_score MAZE *= 10 MAZE
+scoreboard players operation total_score MAZE += waypoint_score MAZE
 
 # difficulty (maze + game)
 execute if score difficulty MAZE matches -1 run scoreboard players operation difficulty_score MAZE += 1 MAZE
@@ -52,6 +58,11 @@ scoreboard players operation total_score MAZE *= difficulty_score MAZE
 scoreboard players operation time_score MAZE += time_s_total MAZE
 scoreboard players operation time_score MAZE /= 2 MAZE
 scoreboard players operation total_score MAZE += time_score MAZE
+
+# Maze number
+scoreboard players operation number_score MAZE += number MAZE
+scoreboard players operation number_score MAZE *= 250 MAZE
+scoreboard players operation total_score MAZE += number_score MAZE
 
 # XP share
 scoreboard players operation total_score_xp MAZE = total_score MAZE

@@ -8,12 +8,14 @@
 # MAX runic_chest = 4                                                       #
 # MAX minions = 10                                                          #
 # MAX elites = 1*2min                                                       #
+# MAX waypoint = 2                                                          #
 # MAX difficulty = 6                                                        #
 # MAX time ~= 300                                                           #
-# SCORE ~= (6*5 + 6*3 + 4*4 + 10*2 + 2*10)*6 = 604                          #
-# TOTAL SCORE MAX ~= 604 + (300/2) ~= 750                                   #
-# XP REWARD MAX ~= 750*4 ~= 3000                                            #
-# CHRONOTONS REWARD MAX ~= 750/4 ~= 200                                     #
+# MAX number = 250                                                          #
+# SCORE ~= (6*5 + 6*3 + 4*4 + 10*2 + 2*7 + 2*10)*6 = 708                    #
+# TOTAL SCORE MAX ~= 708 + (300/2) + 250*1 ~= 1100                          #
+# XP REWARD MAX ~= 1100*4 ~= 4000                                           #
+# CHRONOTONS REWARD MAX ~= 1100/4 ~= 300                                    #
 #############################################################################
 
 function att2:summon/bat_boss_esc_rewards

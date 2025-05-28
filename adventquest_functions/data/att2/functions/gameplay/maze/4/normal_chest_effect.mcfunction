@@ -36,7 +36,7 @@ execute positioned -9896 71 -10135 if block ~ ~1 ~ minecraft:soul_lantern run fu
 execute positioned -9876 71 -10107 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/4
 execute positioned -9908 71 -10159 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/4
 execute positioned -9876 71 -10163 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/4
-execute positioned -9904 71 -10143 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/4
+execute positioned -9902 71 -10152 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/4
 execute positioned -9860 71 -10143 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/4
 execute positioned -9788 71 -10199 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/4
 execute positioned -9728 71 -10263 if block ~ ~1 ~ minecraft:soul_lantern run function att2:gameplay/maze/effects/chest/4

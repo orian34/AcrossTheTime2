@@ -22,4 +22,4 @@ function att2:gameplay/maze/1/summon/symbol
 
 team join noCollision @e[type=minecraft:chest_minecart,tag=maze_chest]
 
-tp @a[x=-10002,y=103,z=-10043,distance=..5,gamemode=adventure] -9999 71 -9996
+tp @a[x=-10002,y=103,z=-10043,distance=..5,gamemode=adventure] -9999 72 -9996
