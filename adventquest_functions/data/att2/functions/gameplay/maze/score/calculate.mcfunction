@@ -9,7 +9,7 @@
 # + symbol_found * 5             								#
 # + waypoint_found * 10             							#
 # * (1-6) depending maze & game difficulty                      #
-# + number * 250                                                #
+# + (number * 250) * 2 if boss killed                           #
 # + (time_s_total / 2)             								#
 #################################################################
 
