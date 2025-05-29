@@ -5,6 +5,7 @@
 
 scoreboard players set @a maze_minions_killed 0
 scoreboard players set @a maze_elites_killed 0
+scoreboard players set @a maze_boss_killed 0
 scoreboard players set total_elites_killed MAZE 0
 scoreboard players set total_minions_killed MAZE 0
 scoreboard players set normal_chest_opened MAZE 0
@@ -23,8 +24,10 @@ scoreboard players set normal_chest_score MAZE 0
 scoreboard players set runic_chest_score MAZE 0
 scoreboard players set minions_chest_score MAZE 0
 scoreboard players set elites_killed_score MAZE 0
+scoreboard players set boss_killed_score MAZE 0
 scoreboard players set symbol_score MAZE 0
 scoreboard players set waypoint_score MAZE 0
 scoreboard players set number_score MAZE 0
+scoreboard players set number_boss_score MAZE 0
 scoreboard players set time_score MAZE 0
 scoreboard players set difficulty_score MAZE 0

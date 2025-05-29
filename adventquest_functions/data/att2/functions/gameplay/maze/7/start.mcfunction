@@ -20,6 +20,7 @@ function att2:gameplay/maze/7/summon/runic_chest
 function att2:gameplay/maze/7/summon/normal_chest
 function att2:gameplay/maze/7/summon/minions
 function att2:gameplay/maze/7/summon/symbol
+execute positioned -9485 71 -10333 run function att2:gameplay/maze/summon/boss
 
 team join noCollision @e[type=minecraft:chest_minecart,tag=maze_chest]
 

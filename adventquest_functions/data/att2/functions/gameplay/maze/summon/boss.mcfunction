@@ -1,0 +1,10 @@
+##################################################
+#Made by Adventquest                             #
+#Summon Scavenger  		     					 #
+##################################################
+
+execute if score difficulty MAZE matches -1 run summon minecraft:ravager ~ ~ ~ {Tags:["LVL0","CLASS12","Reg1","MazeBoss"],PersistenceRequired:1,Attributes:[{Name:generic.follow_range,Base:50.0},{Name:generic.movement_speed,Base:0.175}],HandDropChances:[-2.0F,-2.0F],ArmorDropChances:[-2.0F,-2.0F,-2.0F,-2.0F],HandItems:[{id:"minecraft:diamond_axe",Count:1b},{}],ArmorItems:[{id:"minecraft:diamond_boots",Count:1b},{id:"minecraft:diamond_leggings",Count:1b},{id:"minecraft:diamond_chestplate",Count:1b},{id:"minecraft:diamond_helmet",Count:1b}]}
+
+execute if score difficulty MAZE matches 0 run summon minecraft:ravager ~ ~ ~ {Tags:["LVL0","CLASS16","Reg1","MazeBoss"],PersistenceRequired:1,Attributes:[{Name:generic.follow_range,Base:50.0},{Name:generic.movement_speed,Base:0.175}],HandDropChances:[-2.0F,-2.0F],ArmorDropChances:[-2.0F,-2.0F,-2.0F,-2.0F],HandItems:[{id:"minecraft:diamond_axe",Count:1b},{}],ArmorItems:[{id:"minecraft:diamond_boots",Count:1b},{id:"minecraft:diamond_leggings",Count:1b},{id:"minecraft:diamond_chestplate",Count:1b},{id:"minecraft:diamond_helmet",Count:1b}]}
+
+execute if score difficulty MAZE matches 1 run summon minecraft:ravager ~ ~ ~ {Tags:["LVL0","CLASS20","Reg1","MazeBoss"],PersistenceRequired:1,Attributes:[{Name:generic.follow_range,Base:50.0},{Name:generic.movement_speed,Base:0.175}],HandDropChances:[-2.0F,-2.0F],ArmorDropChances:[-2.0F,-2.0F,-2.0F,-2.0F],HandItems:[{id:"minecraft:diamond_axe",Count:1b},{}],ArmorItems:[{id:"minecraft:diamond_boots",Count:1b},{id:"minecraft:diamond_leggings",Count:1b},{id:"minecraft:diamond_chestplate",Count:1b},{id:"minecraft:diamond_helmet",Count:1b}]}

@@ -11,5 +11,6 @@ execute if score Timer MAZE matches 1.. if score tic TIMECOUNTER matches 1 run f
 execute if score Timer MAZE matches 1.. as @e[type=minecraft:wither_skeleton,x=-9416,y=75,z=-10179,dx=-296,dy=5,dz=-260,limit=1] if entity @a[x=-9416,y=65,z=-10179,dx=-296,dy=15,dz=-260,gamemode=adventure] run function att2:gameplay/maze/7/minions_spread
 execute if score Timer MAZE matches 1.. as @e[type=minecraft:ocelot,tag=LostSoul,x=-9416,y=75,z=-10179,dx=-296,dy=5,dz=-260,limit=1] run function att2:gameplay/maze/7/minions_spread
 execute if score Timer MAZE matches 0 as @r[x=-9416,y=65,z=-10179,dx=-296,dy=15,dz=-260,gamemode=adventure] at @s positioned ~ ~10 ~ run function att2:gameplay/maze/elites_choose
+execute if score Timer MAZE matches 0 if score difficulty MAZE matches -1 positioned -9545 71 -10441 run function att2:gameplay/maze/summon/maze_exit
 execute if score Timer MAZE matches 0 run function att2:gameplay/maze/7/doors_processing
 execute if score Timer MAZE matches ..0 run scoreboard players set Timer MAZE 2400

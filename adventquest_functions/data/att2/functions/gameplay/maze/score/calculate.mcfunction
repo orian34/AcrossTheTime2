@@ -59,20 +59,25 @@ scoreboard players operation time_score MAZE += time_s_total MAZE
 scoreboard players operation time_score MAZE /= 2 MAZE
 scoreboard players operation total_score MAZE += time_score MAZE
 
-# Maze number
+# maze number
 scoreboard players operation number_score MAZE += number MAZE
 scoreboard players operation number_score MAZE *= 250 MAZE
-scoreboard players operation total_score MAZE += number_score MAZE
+scoreboard players operation number_boss_score MAZE = number_score MAZE
+# boss killed
+function att2:gameplay/maze/score/boss_killed
+scoreboard players operation boss_killed_score MAZE += total_boss_killed MAZE
+execute if score boss_killed_score MAZE matches 1.. run scoreboard players operation number_boss_score MAZE *= 2 MAZE
+scoreboard players operation total_score MAZE += number_boss_score MAZE
 
 # XP share
 scoreboard players operation total_score_xp MAZE = total_score MAZE
-scoreboard players operation total_score_xp MAZE *= 4 MAZE
+scoreboard players operation total_score_xp MAZE *= 5 MAZE
 execute as @a run scoreboard players operation @s XPGAIN += total_score_xp MAZE
 execute as @a[scores={XPGAIN=1..}] run function att2:gameplay/leveling/monster/loot/xpattribution
 
 # Chronoton share
 scoreboard players operation total_score_chronotons MAZE = total_score MAZE
-scoreboard players operation total_score_chronotons MAZE /= 4 MAZE
+scoreboard players operation total_score_chronotons MAZE /= 5 MAZE
 execute as @a run scoreboard players operation @s CHRONOTON += total_score_chronotons MAZE
 
 function att2:gameplay/maze/score/show

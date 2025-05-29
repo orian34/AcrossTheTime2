@@ -12,10 +12,11 @@
 # MAX difficulty = 6                                                        #
 # MAX time ~= 300                                                           #
 # MAX number = 250                                                          #
+# MAX boss = 1                                                              #
 # SCORE ~= (6*5 + 6*3 + 4*4 + 10*2 + 2*7 + 2*10)*6 = 708                    #
-# TOTAL SCORE MAX ~= 708 + (300/2) + 250*1 ~= 1100                          #
-# XP REWARD MAX ~= 1100*4 ~= 4000                                           #
-# CHRONOTONS REWARD MAX ~= 1100/4 ~= 300                                    #
+# TOTAL SCORE MAX ~= 708 + (300/2) + 250*1*2 ~= 1350                        #
+# XP REWARD MAX ~= 1350*5 ~= 6000                                           #
+# CHRONOTONS REWARD MAX ~= 1350/5 ~= 300                                    #
 #############################################################################
 
 function att2:summon/bat_boss_esc_rewards

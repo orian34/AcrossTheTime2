@@ -21,6 +21,7 @@ function att2:gameplay/maze/3/summon/runic_chest
 function att2:gameplay/maze/3/summon/normal_chest
 function att2:gameplay/maze/3/summon/minions
 function att2:gameplay/maze/3/summon/symbol
+execute positioned -9985 71 -10245 run function att2:gameplay/maze/summon/boss
 
 team join noCollision @e[type=minecraft:chest_minecart,tag=maze_chest]
 
