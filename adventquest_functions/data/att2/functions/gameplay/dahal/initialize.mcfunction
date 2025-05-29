@@ -26,7 +26,9 @@ scoreboard players set @s SPELL_OP -1
 scoreboard players set @s SPELLS_COUNT 0
 scoreboard players set Collector SPELLS_COUNT 0
 scoreboard players set DahalRegen TIMER 1
+scoreboard players set 10 remain_time 10
 scoreboard players set 20 remain_time 20
+scoreboard players set 100 remain_time 100
 
 function att2:gameplay/dahal/enhancement/initialize
 

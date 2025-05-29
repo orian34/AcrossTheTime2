@@ -2,9 +2,7 @@
 #Made by Adventquest											#
 #Cooldown the spell										        #
 #################################################################
-
-scoreboard players operation COOLDOWN CAL = BonusCooldown RUNE
-scoreboard players operation COOLDOWN CAL += 10 CAL
+function att2:gameplay/dahal/action/cooldown_cal
 
 scoreboard players operation @s COOLDOWN23 -= COOLDOWN CAL
 
