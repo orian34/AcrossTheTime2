@@ -17,4 +17,4 @@ scoreboard players set @s[scores={SPELL4_SLCT=6}] COOLDOWN4 1100
 scoreboard players set @s[scores={SPELL4_SLCT=7}] COOLDOWN4 1000
 scoreboard players set @s[scores={SPELL4_SLCT=8}] COOLDOWN4 800
 scoreboard players set @s[scores={SPELL4_SLCT=9}] COOLDOWN4 500
-scoreboard players set @s[scores={SPELL4_SLCT=10}] COOLDOWN4 100
+scoreboard players set @s[scores={SPELL4_SLCT=10}] COOLDOWN4 250

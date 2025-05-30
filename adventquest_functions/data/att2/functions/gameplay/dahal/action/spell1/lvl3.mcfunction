@@ -29,7 +29,7 @@ execute as @e[tag=STOP,type=fireball] store result entity @s Motion[2] double 0.
 data modify entity @e[type=fireball,tag=FireballSpell,tag=STOP,sort=nearest,limit=1] Owner set from entity @p UUID
 tag @e[tag=FireballSpell,tag=STOP,type=fireball] remove STOP
 
-scoreboard players remove @s DAHAL 90
+scoreboard players remove @s DAHAL 75
 function att2:gameplay/dahal/action/spell1/cooldown
 scoreboard players add @s SPELL1_LVL 2
 function att2:gameplay/dahal/bonus_xp
