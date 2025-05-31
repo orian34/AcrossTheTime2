@@ -6,7 +6,7 @@
 
 #set  MinDamage | (MaxDamage−MinDamage)[]
 scoreboard players set minDG SPDG 3
-scoreboard players set maxDG SPDG 75
+scoreboard players set maxDG SPDG 45
 scoreboard players operation maxDG SPDG -= minDG SPDG
 #cal  (SLCT_LVL-1)
 scoreboard players operation slctlvl SPDG = @s SPELL7_SLCT

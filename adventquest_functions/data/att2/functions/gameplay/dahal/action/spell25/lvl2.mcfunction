@@ -3,7 +3,7 @@
 #Wolf lvl2														#
 #################################################################
 
-execute positioned ~ ~ ~1.5 run function att2:summon/dahal/wolf0_class3
+execute positioned ~ ~ ~1.5 run function att2:summon/dahal/wolf0_class2
 scoreboard players operation @e[tag=Spell25] BELONG_PLAYER1 = @s NUMEROJOUEUR
 execute as @e[tag=Spell25] run tag @s remove Spell25
 scoreboard players remove @s DAHAL 55
