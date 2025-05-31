@@ -7,8 +7,8 @@ execute positioned -3552 77 -4942 run function att2:sound/misc/electric_connexio
 execute positioned -3552 77 -4942 run function att2:sound/misc/wall_falling
 execute positioned -3552 77 -4942 run function att2:sound/door/large_stone_door
 function att2:physicmod/reg1/asunark/main_door1
-execute positioned -3554 74 -4942 as @a[distance=..10] run scoreboard players set @s SHAKE_H 80
-execute positioned -3554 74 -4942 as @a[distance=..20] run scoreboard players set @s SHAKE_L 80
+execute positioned -3554 74 -4942 as @a[distance=..20] run scoreboard players set @s SHAKE_H 80
+execute positioned -3554 74 -4942 as @a[distance=..30] run scoreboard players set @s SHAKE_L 80
 
 kill @e[type=minecraft:armor_stand,x=-3545,y=89,z=-4942,distance=..3]
 
