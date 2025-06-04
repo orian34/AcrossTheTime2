@@ -60,3 +60,6 @@ tellraw @s[scores={LANGUAGE=10}] {"text":" °-° Aramis : ","color":"green","ext
 
 
 function att2:voice/aramis/aramis_dialogue3
+
+
+function att2:dialogs/others/aramis/grinder_indication

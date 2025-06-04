@@ -9,13 +9,13 @@ function att2:dialogs/gameplay/shop/runepowder_display
 function att2:dialogs/gameplay/shop/items_selled_list/enhancement_list
 function att2:dialogs/gameplay/shop/showcase/enhancement/spell2
 function att2:dialogs/gameplay/shop/showcase/enhancement/spell3
-function att2:dialogs/gameplay/shop/showcase/enhancement/spell4
-function att2:dialogs/gameplay/shop/showcase/enhancement/spell5
 function att2:dialogs/gameplay/shop/showcase/enhancement/spell6
 function att2:dialogs/gameplay/shop/showcase/enhancement/spell7
+function att2:dialogs/gameplay/shop/showcase/enhancement/spell5
 function att2:dialogs/gameplay/shop/showcase/enhancement/spell8
 function att2:dialogs/gameplay/shop/showcase/enhancement/spell10
-function att2:dialogs/gameplay/shop/showcase/enhancement/spell11
+function att2:dialogs/gameplay/shop/showcase/enhancement/spell4
+execute if score SQ56 SIDEQUEST matches 100 run function att2:dialogs/gameplay/shop/showcase/enhancement/spell11
 
 function att2:dialogs/gameplay/shop/items_selled_list/spell_duplication_list
 execute if entity @a[advancements={att2:hunting/extratellur=true}] run function att2:dialogs/gameplay/shop/showcase/spell/cherche_secret

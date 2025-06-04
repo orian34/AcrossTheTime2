@@ -12,14 +12,14 @@ function att2:items/quest/keys/eolorion_house_key
 
 tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"C'est une bonne nouvelle. Tenez, voici les clefs de Rivebord. Cette maison n'était plus occupée depuis une paire d'années, elle est à vous maintenant.","color":"dark_aqua"}]}
 
-tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"Sache que cette maison t'offres l'accès vers un broyeur permettant de réduire en poudre vos runes. Cette poudre si vous le souhaitez je peux m'en servir pour perfectionner certain de vos sortilèges de Dahäl.","color":"dark_aqua","extra":[{"text":" [Voir la marchandise -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/aramis_shop_opening"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour voir ce que vend Aramis."}}]}]}
+tellraw @a[scores={LANGUAGE=0}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"Sache que cette maison t'offres également l'accès vers un broyeur permettant de réduire en poudre vos runes. Cette poudre si vous le souhaitez je peux m'en servir pour perfectionner certain de vos sortilèges de Dahäl.","color":"dark_aqua","extra":[{"text":" [Voir la marchandise -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/aramis_shop_opening"},"hoverEvent":{"action":"show_text","value":"Cliquez ici pour voir ce que vend Aramis."}}]}]}
 
 
 #ENGLISH LANGUAGE
 
 tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"That's good news. Here are Rivebord's keys. This house hasn't been occupied for a couple of years, it's yours now. Come on, good luck.","color":"dark_aqua"}]}
 
-tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"Know that this house gives you access to a grinder that can turn your runes into powder. If you wish, I can use this powder to enhance some of your Dahäl spells.","color":"dark_aqua","extra":[{"text":" [See the goods -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/aramis_shop_opening"},"hoverEvent":{"action":"show_text","value":"Click here to see what Aramis is selling."}}]}]}
+tellraw @a[scores={LANGUAGE=1}] {"text":" °-° Aramis : ","color":"green","extra":[{"text":"Know that this house also gives you access to a grinder that can turn your runes into powder. If you wish, I can use this powder to enhance some of your Dahäl spells.","color":"dark_aqua","extra":[{"text":" [See the goods -->]","color":"yellow","clickEvent":{"action":"run_command","value":"/function att2:gameplay/shop/seller/aramis_shop_opening"},"hoverEvent":{"action":"show_text","value":"Click here to see what Aramis is selling."}}]}]}
 
 
 #CHINESE LANGUAGE
