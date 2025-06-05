@@ -17,5 +17,5 @@ tp @s -10019 71 -10081
 execute as @a[x=-10051,y=65,z=-10005,dx=97,dy=15,dz=-74,gamemode=adventure] at @s run tp @s -10019 71 -10081
 execute as @a[x=-9999,y=71,z=-9996,distance=..8,gamemode=adventure] at @s run tp @s -10019 71 -10081
 
-execute positioned -10019 72 -10086 run function att2:gameplay/boss/rewards_start
+execute positioned -10019 73 -10086 run function att2:gameplay/boss/rewards_start
 execute positioned -10019 72 -10086 run function att2:gameplay/maze/1/rewards

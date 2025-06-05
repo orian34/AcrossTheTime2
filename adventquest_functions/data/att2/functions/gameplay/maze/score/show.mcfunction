@@ -14,7 +14,7 @@ function att2:dialogs/gameplay/maze/score/waypoint
 function att2:dialogs/gameplay/maze/score/difficulty
 function att2:dialogs/gameplay/maze/score/time
 function att2:dialogs/gameplay/maze/score/number
-function att2:dialogs/gameplay/maze/score/boss
+execute if score boss_killed_score MAZE matches 1.. run function att2:dialogs/gameplay/maze/score/boss
 
 function att2:dialogs/gameplay/maze/score/total
 function att2:dialogs/gameplay/maze/score/reward_xp

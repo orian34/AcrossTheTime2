@@ -24,27 +24,27 @@ function att2:summon/bat_boss_esc_rewards
 function att2:summon/bat_boss_esc_rewards
 function att2:summon/bat_boss_esc_rewards
 
-function att2:summon/bat_maze_reg1_rewards
-function att2:summon/bat_maze_reg2_rewards
-function att2:summon/bat_maze_reg3_rewards
-function att2:summon/bat_maze_reg4_rewards
+function att2:summon/bat_maze4_reg1_rewards
+function att2:summon/bat_maze4_reg2_rewards
+function att2:summon/bat_maze4_reg3_rewards
+function att2:summon/bat_maze4_reg4_rewards
 
-function att2:summon/bat_maze_reg1_rewards
-function att2:summon/bat_maze_reg2_rewards
-function att2:summon/bat_maze_reg3_rewards
-function att2:summon/bat_maze_reg4_rewards
+function att2:summon/bat_maze4_reg1_rewards
+function att2:summon/bat_maze4_reg2_rewards
+function att2:summon/bat_maze4_reg3_rewards
+function att2:summon/bat_maze4_reg4_rewards
 
-function att2:summon/bat_maze_reg1_rewards
-function att2:summon/bat_maze_reg2_rewards
-function att2:summon/bat_maze_reg3_rewards
-function att2:summon/bat_maze_reg4_rewards
+function att2:summon/bat_maze4_reg1_rewards
+function att2:summon/bat_maze4_reg2_rewards
+function att2:summon/bat_maze4_reg3_rewards
+function att2:summon/bat_maze4_reg4_rewards
 
-function att2:summon/bat_maze_reg1_rewards
-function att2:summon/bat_maze_reg2_rewards
-function att2:summon/bat_maze_reg3_rewards
-function att2:summon/bat_maze_reg4_rewards
+function att2:summon/bat_maze4_reg1_rewards
+function att2:summon/bat_maze4_reg2_rewards
+function att2:summon/bat_maze4_reg3_rewards
+function att2:summon/bat_maze4_reg4_rewards
 
-function att2:summon/bat_maze_rewards_4
-function att2:summon/bat_maze_rewards_4
-function att2:summon/bat_maze_rewards_4
-function att2:summon/bat_maze_rewards_4
+function att2:summon/bat_maze_runes_rewards_4
+function att2:summon/bat_maze_runes_rewards_4
+function att2:summon/bat_maze_runes_rewards_4
+function att2:summon/bat_maze_runes_rewards_4

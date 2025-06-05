@@ -38,3 +38,6 @@ tellraw @a[x=-9569,y=71,z=-10170,distance=..8,gamemode=adventure,scores={LANGUAG
 
 #PORTUGUESE LANGUAGE
 tellraw @a[x=-9569,y=71,z=-10170,distance=..8,gamemode=adventure,scores={LANGUAGE=10}] {"selector":"@a[scores={NUMEROJOUEUR=1}]","extra":[{"text":" : "},{"text":"[Começar a prova... -->]","color":"gray","clickEvent":{"action":"run_command","value":"/execute if score active MAZE matches 0 as @a[x=-9569,y=71,z=-10170,distance=..8,gamemode=adventure] run function att2:dialogs/gameplay/maze/price7"},"hoverEvent":{"action":"show_text","value":"Clique aqui"}}]}
+
+
+execute as @a[x=-9569,y=71,z=-10170,distance=..8] run function att2:dialogs/gameplay/maze/system_7

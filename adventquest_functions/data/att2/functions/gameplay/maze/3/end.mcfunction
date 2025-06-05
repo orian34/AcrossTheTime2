@@ -3,9 +3,12 @@
 #End maze 3			                                #
 #####################################################
 
-function att2:gameplay/maze/kill_entities
 function att2:gameplay/maze/score/calculate
 function att2:gameplay/maze/stop
+function att2:gameplay/maze/kill_entities
+function att2:physicmod/reg1/maze/3/door_enter_closed
+function att2:physicmod/reg1/maze/stone_pressure_reset
+
 scoreboard players set achieved MAZE 3
 advancement grant @a only att2:challenge/maze_3
 execute as @a run function att2:checkpoint/maze/4
@@ -16,4 +19,3 @@ execute as @a[x=-9963,y=71,z=-10187,distance=..8,gamemode=adventure] at @s run t
 
 execute positioned -9862 72 -10239 run function att2:gameplay/boss/rewards_start
 execute positioned -9862 72 -10239 run function att2:gameplay/maze/3/rewards
-setblock -9969 100 -10237 minecraft:stone_pressure_plate[powered=false]

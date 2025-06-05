@@ -22,15 +22,15 @@
 function att2:summon/bat_boss_esc_rewards
 function att2:summon/bat_boss_esc_rewards
 
-function att2:summon/bat_maze_reg1_rewards
-function att2:summon/bat_maze_reg2_rewards
-function att2:summon/bat_maze_reg3_rewards
-function att2:summon/bat_maze_reg4_rewards
+function att2:summon/bat_maze2_reg1_rewards
+function att2:summon/bat_maze2_reg2_rewards
+function att2:summon/bat_maze2_reg3_rewards
+function att2:summon/bat_maze2_reg4_rewards
 
-function att2:summon/bat_maze_reg1_rewards
-function att2:summon/bat_maze_reg2_rewards
-function att2:summon/bat_maze_reg3_rewards
-function att2:summon/bat_maze_reg4_rewards
+function att2:summon/bat_maze2_reg1_rewards
+function att2:summon/bat_maze2_reg2_rewards
+function att2:summon/bat_maze2_reg3_rewards
+function att2:summon/bat_maze2_reg4_rewards
 
-function att2:summon/bat_maze_rewards_2
-function att2:summon/bat_maze_rewards_2
+function att2:summon/bat_maze_runes_rewards_2
+function att2:summon/bat_maze_runes_rewards_2

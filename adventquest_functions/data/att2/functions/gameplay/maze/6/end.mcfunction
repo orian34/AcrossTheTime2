@@ -3,9 +3,12 @@
 #End maze 6			                                #
 #####################################################
 
-function att2:gameplay/maze/kill_entities
 function att2:gameplay/maze/score/calculate
 function att2:gameplay/maze/stop
+function att2:gameplay/maze/kill_entities
+function att2:physicmod/reg1/maze/6/door_enter_closed
+function att2:physicmod/reg1/maze/stone_pressure_reset
+
 scoreboard players set achieved MAZE 6
 advancement grant @a only att2:challenge/maze_6
 execute as @a run function att2:checkpoint/maze/7
@@ -16,5 +19,3 @@ execute as @a[x=-9828,y=71,z=-10094,distance=..8,gamemode=adventure] at @s run t
 
 execute positioned -9569 72 -10170 run function att2:gameplay/boss/rewards_start
 execute positioned -9569 72 -10170 run function att2:gameplay/maze/6/rewards
-
-setblock -9581 100 -10015 minecraft:stone_pressure_plate[powered=false]
