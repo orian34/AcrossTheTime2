@@ -3,4 +3,4 @@
 #damage go          											#
 #################################################################
 
-$damage @s $(SP11) minecraft:magic by @a[distance=..0,limit=1]
+$damage @s $(SP11) minecraft:magic by @a[scores={NUMEROJOUEUR=$(owner)},limit=1]

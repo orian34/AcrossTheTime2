@@ -5,8 +5,8 @@
 #################################################################
 
 #set  MinDamage | (MaxDamage−MinDamage)[]
-scoreboard players set minDG SPDG 75
-scoreboard players set maxDG SPDG 225
+scoreboard players set minDG SPDG 35
+scoreboard players set maxDG SPDG 150
 scoreboard players operation maxDG SPDG -= minDG SPDG
 #cal  (SLCT_LVL-1)
 scoreboard players operation slctlvl SPDG = @s SPELL5_SLCT

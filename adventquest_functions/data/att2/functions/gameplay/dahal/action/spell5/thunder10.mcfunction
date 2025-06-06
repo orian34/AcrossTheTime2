@@ -13,4 +13,4 @@ execute as @s run function att2:gameplay/dahal/action/spell5/damage_cal
 execute store result storage spdamage owner int 1 run scoreboard players get @s SPELL5_OWNER
 execute as @e[distance=..5,scores={GAMELEVEL=0..},team=hostile] at @s run function att2:gameplay/dahal/action/spell5/damage with storage spdamage
 
-kill @s[scores={SPELL5_EFFECT=..-100}]
+kill @s[scores={SPELL5_EFFECT=..-80}]

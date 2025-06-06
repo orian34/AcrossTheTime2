@@ -9,5 +9,4 @@ function att2:gameplay/dahal/bonus_xp
 scoreboard players operation @s SPELL11_LVL += @s BONUS_XP_SPELL
 particle minecraft:happy_villager ~ ~1 ~ 3 3 3 0 300
 particle minecraft:spore_blossom_air ~ ~1 ~ 3 3 3 0 300
-function att2:gameplay/dahal/action/spell11/effect
-execute as @e[team=hostile,scores={GAMELEVEL=0..},distance=..6] run function att2:gameplay/dahal/action/spell11/effect/6
+function att2:gameplay/dahal/action/spell11/effect/6

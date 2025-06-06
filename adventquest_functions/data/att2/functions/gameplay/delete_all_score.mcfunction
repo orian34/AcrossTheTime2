@@ -269,7 +269,6 @@ scoreboard objectives remove COOLDOWN11
 scoreboard objectives remove SPELL11_LVL
 scoreboard objectives remove SPELL11_CAP
 scoreboard objectives remove SPELL11_OP
-scoreboard objectives remove SPELL11_EFFECT
 scoreboard objectives remove SPELL11_MUSIC
 
 scoreboard objectives remove COOLDOWN20
@@ -318,7 +317,6 @@ scoreboard objectives remove COOLDOWN40
 scoreboard objectives remove SPELL40_LVL
 scoreboard objectives remove SPELL40_CAP
 scoreboard objectives remove SPELL40_OP
-scoreboard objectives remove SPELL40_EFFECT
 scoreboard objectives remove SPELL40_MUSIC
 
 scoreboard objectives remove COOLDOWN41

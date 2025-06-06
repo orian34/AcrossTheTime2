@@ -7,8 +7,8 @@ scoreboard objectives add COOLDOWN11 dummy
 scoreboard objectives add SPELL11_LVL dummy
 scoreboard objectives add SPELL11_CAP dummy
 scoreboard objectives add SPELL11_OP dummy
-scoreboard objectives add SPELL11_EFFECT dummy
 scoreboard objectives add SPELL11_MUSIC dummy
+scoreboard objectives add SPELL11_OWNER dummy
 scoreboard players set @s COOLDOWN11 0
 scoreboard players set @s SPELL11_LVL 0
 scoreboard players set @s SPELL11_CAP 1

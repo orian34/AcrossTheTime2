@@ -3,8 +3,6 @@
 #Start Nova														#
 #################################################################
 
-scoreboard players set @s SPELL11_EFFECT 40
-
 tag @s[scores={DAHAL=50..}] add Nova
 scoreboard players remove @s[tag=Nova] DAHAL 50
 
@@ -13,3 +11,5 @@ execute at @s[tag=Nova] run function att2:sound/dahal/nova_start
 
 # Spell launch total count for advancement
 scoreboard players add @s SPELLS_COUNT 1
+
+scoreboard players operation @s[tag=Nova] SPELL11_OWNER = @s NUMEROJOUEUR

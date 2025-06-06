@@ -3,10 +3,11 @@
 #Effect Nova lvl1       						#
 #################################################
 
-execute at @s run particle minecraft:falling_dust minecraft:green_stained_glass ~ ~2 ~ 0.5 0.5 0.5 0 10
-execute at @s run particle minecraft:composter ~ ~2 ~ 0.5 0.5 0.5 0 10
-effect give @s minecraft:slowness 2 0 true
+function att2:gameplay/dahal/action/spell11/effect
+execute as @e[distance=..3,scores={GAMELEVEL=0..},team=hostile] at @s run function att2:gameplay/dahal/action/spell11/damage_effect
 
 #damage cal
 execute as @s run function att2:gameplay/dahal/action/spell11/damage_cal
-execute at @s as @e[distance=..3,scores={GAMELEVEL=0..},team=hostile] run function att2:gameplay/dahal/action/spell11/damage with storage spdamage
+#find owner player ->damage
+execute store result storage spdamage owner int 1 run scoreboard players get @s SPELL11_OWNER
+execute as @e[distance=..3,scores={GAMELEVEL=0..},team=hostile] at @s run function att2:gameplay/dahal/action/spell11/damage with storage spdamage

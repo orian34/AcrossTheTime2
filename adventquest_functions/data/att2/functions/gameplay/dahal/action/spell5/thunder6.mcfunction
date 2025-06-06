@@ -3,9 +3,10 @@
 #Manage thunder lvl6       						#
 #################################################
 
-summon minecraft:lightning_bolt ~1.3 ~ ~-0.75
-summon minecraft:lightning_bolt ~-1.3 ~ ~-0.75
-summon minecraft:lightning_bolt ~ ~ ~1.5
+summon minecraft:lightning_bolt ~1 ~ ~1
+summon minecraft:lightning_bolt ~1 ~ ~-1
+summon minecraft:lightning_bolt ~-1 ~ ~1
+summon minecraft:lightning_bolt ~-1 ~ ~-1
 #damage cal
 execute as @s run function att2:gameplay/dahal/action/spell5/damage_cal
 #find owner player ->damage

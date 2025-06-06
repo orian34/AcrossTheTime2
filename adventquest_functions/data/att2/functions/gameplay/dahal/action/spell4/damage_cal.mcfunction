@@ -8,7 +8,7 @@
 tag @s add SPLAUNCH
 #set  MinDamage | (MaxDamage−MinDamage)[]
 scoreboard players set minDG SPDG 100
-scoreboard players set maxDG SPDG 1500
+scoreboard players set maxDG SPDG 1250
 scoreboard players operation maxDG SPDG -= minDG SPDG
 #cal  (SLCT_LVL-1)
 scoreboard players operation slctlvl SPDG = @s SPELL4_SLCT
