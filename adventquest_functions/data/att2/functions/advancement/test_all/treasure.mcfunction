@@ -15,7 +15,7 @@ advancement grant @a[scores={CHRONOTON=50000..}] only att2:treasure/chronotons_5
 advancement grant @a[scores={CHRONOTON=100000..}] only att2:treasure/chronotons_100000
 
 # ESC
-advancement grant @a[nbt={Inventory:[{tag:{Rarity:"unk"}}]}] only att2:treasure/esc_1
+advancement grant @a[nbt={Inventory:[{tag:{display:{"Lore":["{\"text\":\"§5§oPrecious!!\"}","{\"text\":\"§5Very, VERY, Precious...\"}"]}}}]}] only att2:treasure/esc_1
 advancement grant @a[scores={ESC=10..}] only att2:treasure/esc_10
 advancement grant @a[scores={ESC=25..}] only att2:treasure/esc_25
 advancement grant @a[scores={ESC=100..}] only att2:treasure/esc_100
