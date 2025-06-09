@@ -5,6 +5,8 @@
 
 ### Initialize cinematic
 
+execute if score Real0 TIMER matches 0 run function att2:voice/lock_voice
+
 execute if score Neth0 TIMER matches 0 run scoreboard players set Mainquest SIDEQUEST 55
 execute if score Neth0 TIMER matches 0 in minecraft:the_nether as @a run tp @s 3755 80 3760
 execute if score Neth0 TIMER matches 0 run function att2:gameplay/checkpoint/angband/portal1
@@ -72,6 +74,8 @@ execute if score Neth0 TIMER matches 1225 run function att2:cinematic/tp_effect/
 #=======================#
 #end of the cinematic	#
 #=======================#
+
+execute if score Real0 TIMER matches 1223.. run function att2:voice/unlock_voice
 
 execute if score Neth0 TIMER matches 1226.. run function att2:cinematic/act_3/angband/ocar_2_action_7
 execute if score Neth0 TIMER matches ..1225 run function att2:cinematic/neth0_iteration

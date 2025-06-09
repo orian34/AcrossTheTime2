@@ -3,6 +3,8 @@
 #Process cinematic sylvandre_1  				 #
 ##################################################
 
+execute if score Real0 TIMER matches 0 run function att2:voice/lock_voice
+
 execute if score Real0 TIMER matches 0 run function att2:cinematic/act_2/sylvandre_1_action_1
 execute if score Real0 TIMER matches 40 as @a anchored feet at @s facing entity 00000000-0000-102a-0000-00000000102a feet run teleport @s ^ ^ ^ ~ ~
 execute if score Real0 TIMER matches 150 run function att2:dialogs/mainquest/act_2/ch2_guard_2
@@ -30,6 +32,8 @@ execute if score Real0 TIMER matches 1552 run scoreboard players set Mainquest S
 #=======================#
 #end of the cinematic	#
 #=======================#
+
+execute if score Real0 TIMER matches 1550 run function att2:voice/unlock_voice
 
 execute if score Real0 TIMER matches 1552.. run setblock -5031 66 -5071 minecraft:air
 execute if score Real0 TIMER matches ..1550 run function att2:cinematic/real0_iteration

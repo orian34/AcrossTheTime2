@@ -7,6 +7,7 @@
 #Cinematic part 1	#
 #===================#
 
+execute if score Real0 TIMER matches 0 run function att2:voice/lock_voice
 execute if score Real0 TIMER matches 0..240 run effect clear @a minecraft:poison
 execute if score Real0 TIMER matches 0 run function att2:cinematic/act_2/gonon_2_action_1
 execute if score Real0 TIMER matches 0 run function att2:cinematic/real0_iteration
@@ -36,6 +37,8 @@ execute if score Real0 TIMER matches 441 run scoreboard players set Mainquest SI
 #end of the cinematic	#
 #=======================#
 
+
+execute if score Real0 TIMER matches 441.. run function att2:voice/unlock_voice
 execute if score Real0 TIMER matches 441.. run setblock -5184 67 -5351 minecraft:air
 
 execute if score Real0 TIMER matches 3..9 run function att2:cinematic/real0_iteration

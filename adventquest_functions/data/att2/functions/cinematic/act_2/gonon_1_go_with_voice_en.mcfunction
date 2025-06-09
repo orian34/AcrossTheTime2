@@ -3,6 +3,8 @@
 #Process cinematic gonon_1  					 #
 ##################################################
 
+
+execute if score Real0 TIMER matches 0 run function att2:voice/lock_voice
 execute if score Real0 TIMER matches 0 run function att2:gameplay/checkpoint/telluron_present/gonon0
 execute if score Real0 TIMER matches 0 run function att2:cinematic/act_2/gonon_1_action_1
 execute if score Real0 TIMER matches 1 run function att2:dialogs/mainquest/act_2/ch1_player_4
@@ -47,5 +49,7 @@ execute if score Real0 TIMER matches 3091 run scoreboard players set Mainquest S
 #end of the cinematic	#
 #=======================#
 
+
+execute if score Real0 TIMER matches 3090.. run function att2:voice/unlock_voice
 execute if score Real0 TIMER matches 3091.. run setblock -5184 67 -5347 minecraft:air
 execute if score Real0 TIMER matches ..3090 run function att2:cinematic/real0_iteration
