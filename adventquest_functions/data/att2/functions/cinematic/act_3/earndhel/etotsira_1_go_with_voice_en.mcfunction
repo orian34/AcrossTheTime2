@@ -3,6 +3,8 @@
 #Process cinematic earndhel_1_go  		 		 #
 ##################################################
 
+execute if score Real0 TIMER matches 0 run function att2:voice/lock_voice
+
 execute if score Real0 TIMER matches 0 run function att2:gameplay/boss/earndhel/etotsira/initialize
 execute if score Real0 TIMER matches 5 run scoreboard players set etotsira_old_PNJ DIALOG 0
 execute if score Real0 TIMER matches 10 run scoreboard players set 00000000-0000-008b-0000-00000000008a TALKING 1
@@ -36,6 +38,8 @@ execute if score Real0 TIMER matches 1071 run scoreboard players set Mainquest S
 #=======================#
 #end of the cinematic	#
 #=======================#
+
+execute if score Real0 TIMER matches 1070 run function att2:voice/unlock_voice
 
 execute if score Real0 TIMER matches 1071.. run setblock 30000 66 29966 minecraft:air
 execute if score Real0 TIMER matches ..1070 run function att2:cinematic/real0_iteration
