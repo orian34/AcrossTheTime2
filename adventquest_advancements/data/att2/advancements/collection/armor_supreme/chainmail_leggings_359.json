@@ -18,7 +18,7 @@
                 "items": [
                     {
                     "items": ["minecraft:chainmail_leggings"],
-                    "nbt": "{display:{Name:\"{\\\"text\\\":\\\"§aGardien des temps inflexibles\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Impitoyable comme le cours du temps,\\\"}\",\"{\\\"text\\\":\\\"§7défie quiconque tente de plier le destin.\\\"}\",\"{\\\"text\\\":\\\"§7Merciless as the flow of time,\\\"}\",\"{\\\"text\\\":\\\"§7it defies anyone who tries to bend destiny.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7RES§a1 §7SPD§a4 §7HER§a1 §7LUC§a2\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§aGardien des temps inflexibles\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Impitoyable comme le cours du temps,\\\"}\",\"{\\\"text\\\":\\\"§7défie quiconque tente de plier le destin.\\\"}\",\"{\\\"text\\\":\\\"§7Merciless as the flow of time,\\\"}\",\"{\\\"text\\\":\\\"§7it defies anyone who tries to bend destiny.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7RES§a1 §7SPD§a4 §7HER§a1 §7LUC§a2\\\"}\"]}}"
                     }
                 ]
             }

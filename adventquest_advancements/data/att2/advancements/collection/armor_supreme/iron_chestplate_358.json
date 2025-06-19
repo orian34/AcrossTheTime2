@@ -18,7 +18,7 @@
                 "items": [
                     {
                     "items": ["minecraft:iron_chestplate"],
-                    "nbt": "{display:{Name:\"{\\\"text\\\":\\\"§aÉgide des désirs infinis\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Repousseur des âmes avides,\\\"}\",\"{\\\"text\\\":\\\"§7transforme chaque convoitise en une force invincible.\\\"}\",\"{\\\"text\\\":\\\"§7Repeller of greedy souls,\\\"}\",\"{\\\"text\\\":\\\"§7transforms every lust into an invincible force.\\\"}\",\"{\\\"text\\\":\\\"§7RES§a1 §7HER§a3 §7LUC§a3 §7HUN§a3\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§aÉgide des désirs infinis\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Repousseur des âmes avides,\\\"}\",\"{\\\"text\\\":\\\"§7transforme chaque convoitise en une force invincible.\\\"}\",\"{\\\"text\\\":\\\"§7Repeller of greedy souls,\\\"}\",\"{\\\"text\\\":\\\"§7transforms every lust into an invincible force.\\\"}\",\"{\\\"text\\\":\\\"§7RES§a1 §7HER§a3 §7LUC§a3 §7HUN§a3\\\"}\"]}}"
                     }
                 ]
             }

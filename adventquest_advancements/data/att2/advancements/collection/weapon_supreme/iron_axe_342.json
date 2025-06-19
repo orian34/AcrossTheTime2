@@ -18,7 +18,7 @@
                 "items": [
                     {
                     "items": ["minecraft:iron_axe"],
-                    "nbt": "{display:{Name:\"{\\\"text\\\":\\\"§aUltime briseuse des cycles\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Chaque coup porté fracture le temps et l'espace,\\\"}\",\"{\\\"text\\\":\\\"§7jusqu’à l’effondrement final.\\\"}\",\"{\\\"text\\\":\\\"§7Each blow fractures time and space,\\\"}\",\"{\\\"text\\\":\\\"§7until the final collapse.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a4 §7RES§a1 §7HAS§a3 §7HER§a2\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§aUltime briseuse des cycles\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Chaque coup porté fracture le temps et l'espace,\\\"}\",\"{\\\"text\\\":\\\"§7jusqu’à l’effondrement final.\\\"}\",\"{\\\"text\\\":\\\"§7Each blow fractures time and space,\\\"}\",\"{\\\"text\\\":\\\"§7until the final collapse.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a4 §7RES§a1 §7HAS§a3 §7HER§a2\\\"}\"]}}"
                     }
                 ]
             }

@@ -18,7 +18,7 @@
                 "items": [
                     {
                     "items": ["minecraft:netherite_leggings"],
-                    "nbt": "{display:{Name:\"{\\\"text\\\":\\\"§aSombre éclat de Môt\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Revêtue des ombres d’un dieu déchu,\\\"}\",\"{\\\"text\\\":\\\"§7scintille d’une lueur qui dévore l’espoir.\\\"}\",\"{\\\"text\\\":\\\"§7Clad in the shadows of a fallen god,\\\"}\",\"{\\\"text\\\":\\\"§7glimmers with a light that devours hope.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a4 §7HAS§a5 §7DAR§a3 §7LUC§a2\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§aSombre éclat de Môt\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Revêtue des ombres d’un dieu déchu,\\\"}\",\"{\\\"text\\\":\\\"§7scintille d’une lueur qui dévore l’espoir.\\\"}\",\"{\\\"text\\\":\\\"§7Clad in the shadows of a fallen god,\\\"}\",\"{\\\"text\\\":\\\"§7glimmers with a light that devours hope.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a4 §7HAS§a5 §7DAR§a3 §7LUC§a2\\\"}\"]}}"
                     }
                 ]
             }

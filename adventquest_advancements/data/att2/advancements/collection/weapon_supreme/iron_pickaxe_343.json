@@ -18,7 +18,7 @@
                 "items": [
                     {
                     "items": ["minecraft:iron_pickaxe"],
-                    "nbt": "{display:{Name:\"{\\\"text\\\":\\\"§aÉcraseur de l'aube\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Broie les promesses du matin,\\\"}\",\"{\\\"text\\\":\\\"§7ne laissant que le silence d’un jour avorté.\\\"}\",\"{\\\"text\\\":\\\"§7It crushes the promises of dawn,\\\"}\",\"{\\\"text\\\":\\\"§7leaving only the silence of an aborted day.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7HAS§a3 §7SPD§a3 §7DAR§a3 §7HUN§a3\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§aÉcraseur de l'aube\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Broie les promesses du matin,\\\"}\",\"{\\\"text\\\":\\\"§7ne laissant que le silence d’un jour avorté.\\\"}\",\"{\\\"text\\\":\\\"§7It crushes the promises of dawn,\\\"}\",\"{\\\"text\\\":\\\"§7leaving only the silence of an aborted day.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a3 §7HAS§a3 §7SPD§a3 §7DAR§a3 §7HUN§a3\\\"}\"]}}"
                     }
                 ]
             }

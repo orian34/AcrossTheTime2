@@ -2387,6 +2387,9 @@ scoreboard players operation tool_esc PRICES /= 100 discount_calc
 scoreboard players set tool_leg PRICES 900
 scoreboard players operation tool_leg PRICES *= discount discount_calc
 scoreboard players operation tool_leg PRICES /= 100 discount_calc
+scoreboard players set tool_ult PRICES 1250
+scoreboard players operation tool_ult PRICES *= discount discount_calc
+scoreboard players operation tool_ult PRICES /= 100 discount_calc
 #reparation prices
 scoreboard players set mending_com PRICES 25
 scoreboard players operation mending_com PRICES *= discount discount_calc

@@ -18,7 +18,7 @@
                 "items": [
                     {
                     "items": ["minecraft:chainmail_helmet"],
-                    "nbt": "{display:{Name:\"{\\\"text\\\":\\\"§aPillier du roi immortel\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Dressée comme un rempart éternel,\\\"}\",\"{\\\"text\\\":\\\"§7elle soutient le trône que le temps ne peut éroder.\\\"}\",\"{\\\"text\\\":\\\"§7Raised as an eternal bulwark,\\\"}\",\"{\\\"text\\\":\\\"§7it upholds the throne that time cannot erode.\\\"}\",\"{\\\"text\\\":\\\"§7RES§a1 §7HER§a2 §7LUC§a2 §7HUN§a2\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§aPillier du roi immortel\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Dressée comme un rempart éternel,\\\"}\",\"{\\\"text\\\":\\\"§7elle soutient le trône que le temps ne peut éroder.\\\"}\",\"{\\\"text\\\":\\\"§7Raised as an eternal bulwark,\\\"}\",\"{\\\"text\\\":\\\"§7it upholds the throne that time cannot erode.\\\"}\",\"{\\\"text\\\":\\\"§7RES§a1 §7HER§a2 §7LUC§a2 §7HUN§a2\\\"}\"]}}"
                     }
                 ]
             }

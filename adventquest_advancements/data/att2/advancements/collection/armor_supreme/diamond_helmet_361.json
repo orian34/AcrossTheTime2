@@ -18,7 +18,7 @@
                 "items": [
                     {
                     "items": ["minecraft:diamond_helmet"],
-                    "nbt": "{display:{Name:\"{\\\"text\\\":\\\"§aMasque des ères oubliées\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Celui qui le porte voit à travers les cendres du passé,\\\"}\",\"{\\\"text\\\":\\\"§7 les secrets enfouis sous le silence.\\\"}\",\"{\\\"text\\\":\\\"§7He who wears it sees through the ashes of the past,\\\"}\",\"{\\\"text\\\":\\\"§7 secrets buried beneath silence.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a4 §7HAS§a4 §7DAR§a4 §7LUC§a1 §7HUN§a1\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§aMasque des ères oubliées\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Celui qui le porte voit à travers les cendres du passé,\\\"}\",\"{\\\"text\\\":\\\"§7 les secrets enfouis sous le silence.\\\"}\",\"{\\\"text\\\":\\\"§7He who wears it sees through the ashes of the past,\\\"}\",\"{\\\"text\\\":\\\"§7 secrets buried beneath silence.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a4 §7HAS§a4 §7DAR§a4 §7LUC§a1 §7HUN§a1\\\"}\"]}}"
                     }
                 ]
             }

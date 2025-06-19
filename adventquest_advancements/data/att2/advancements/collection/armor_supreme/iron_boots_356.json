@@ -18,7 +18,7 @@
                 "items": [
                     {
                     "items": ["minecraft:iron_boots"],
-                    "nbt": "{display:{Name:\"{\\\"text\\\":\\\"§aSagesse de Gaya\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Imprégnée de la voix de Tellurön,\\\"}\",\"{\\\"text\\\":\\\"§7murmure des vérités que nul mortel ne peut.\\\"}\",\"{\\\"text\\\":\\\"§7Imbued with the voice of Tellurön,\\\"}\",\"{\\\"text\\\":\\\"§7whispers truths no mortal can ignore.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7RES§a1 §7SPD§a4 §7HER§a2 §7DAR§a1\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§aSagesse de Gaya\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Imprégnée de la voix de Tellurön,\\\"}\",\"{\\\"text\\\":\\\"§7murmure des vérités que nul mortel ne peut.\\\"}\",\"{\\\"text\\\":\\\"§7Imbued with the voice of Tellurön,\\\"}\",\"{\\\"text\\\":\\\"§7whispers truths no mortal can ignore.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a2 §7RES§a1 §7SPD§a4 §7HER§a2 §7DAR§a1\\\"}\"]}}"
                     }
                 ]
             }

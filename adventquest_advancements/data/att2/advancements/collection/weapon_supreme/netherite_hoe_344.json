@@ -18,7 +18,7 @@
                 "items": [
                     {
                     "items": ["minecraft:netherite_hoe"],
-                    "nbt": "{display:{Name:\"{\\\"text\\\":\\\"§aGénèse des temps perdus\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Forgée dans l’écho des ères effacées,\\\"}\",\"{\\\"text\\\":\\\"§7elle ranime ce qui jamais ne devait revenir.\\\"}\",\"{\\\"text\\\":\\\"§7Forged in the echo of erased eras,\\\"}\",\"{\\\"text\\\":\\\"§7it revives what was never meant to return.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a4 §7SPD§a4 §7DAR§a5 §7HUN§a1\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§aGénèse des temps perdus\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Forgée dans l’écho des ères effacées,\\\"}\",\"{\\\"text\\\":\\\"§7elle ranime ce qui jamais ne devait revenir.\\\"}\",\"{\\\"text\\\":\\\"§7Forged in the echo of erased eras,\\\"}\",\"{\\\"text\\\":\\\"§7it revives what was never meant to return.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a4 §7SPD§a4 §7DAR§a5 §7HUN§a1\\\"}\"]}}"
                     }
                 ]
             }

@@ -13,7 +13,7 @@
             "experience": 25000
     },
     "criteria": {
-        "mending_leg": {
+        "mending_ult": {
             "trigger": "minecraft:impossible"
         }
     }

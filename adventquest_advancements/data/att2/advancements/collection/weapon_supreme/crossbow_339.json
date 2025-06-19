@@ -18,7 +18,7 @@
                 "items": [
                     {
                     "items": ["minecraft:crossbow"],
-                    "nbt": "{display:{Name:\"{\\\"text\\\":\\\"§aÉclaireuse des âges noirs\\\"}\",\"Lore\":[\"{\\\"text\\\":\\\"§7Elle perce les ténèbres d’époques oubliées,\\\"}\",\"{\\\"text\\\":\\\"§7guidant ceux qui osent fouler l’ombre.\\\"}\",\"{\\\"text\\\":\\\"§7It pierces the darkness of forgotten ages,\\\"}\",\"{\\\"text\\\":\\\"§7guiding those who dare tread the shadows.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a4 §7SPD§a2 §7RES§a1 §7HER§a2\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§aÉclaireuse des âges noirs\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7Elle perce les ténèbres d’époques oubliées,\\\"}\",\"{\\\"text\\\":\\\"§7guidant ceux qui osent fouler l’ombre.\\\"}\",\"{\\\"text\\\":\\\"§7It pierces the darkness of forgotten ages,\\\"}\",\"{\\\"text\\\":\\\"§7guiding those who dare tread the shadows.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a4 §7SPD§a2 §7RES§a1 §7HER§a2\\\"}\"]}}"
                     }
                 ]
             }

@@ -22,9 +22,9 @@ execute if score Mainquest SIDEQUEST matches 43..82 unless score @s TP_ITEM_USE 
 execute if score Mainquest SIDEQUEST matches 43..82 if score @s TP_ITEM_USE matches 4.. run scoreboard players set @s TP_ITEM_USE 4
 execute if score Mainquest SIDEQUEST matches 43..82 run scoreboard players set @s TP_ITEM_USE_MAX 4
 #GEM4
-execute if score Mainquest SIDEQUEST matches 120..179 unless score @s TP_ITEM_USE matches 5.. run scoreboard players add @s TP_ITEM_USE 1
-execute if score Mainquest SIDEQUEST matches 120..179 if score @s TP_ITEM_USE matches 5.. run scoreboard players set @s TP_ITEM_USE 5
-execute if score Mainquest SIDEQUEST matches 120..179 run scoreboard players set @s TP_ITEM_USE_MAX 5
+execute if score Mainquest SIDEQUEST matches 83..179 unless score @s TP_ITEM_USE matches 5.. run scoreboard players add @s TP_ITEM_USE 1
+execute if score Mainquest SIDEQUEST matches 83..179 if score @s TP_ITEM_USE matches 5.. run scoreboard players set @s TP_ITEM_USE 5
+execute if score Mainquest SIDEQUEST matches 83..179 run scoreboard players set @s TP_ITEM_USE_MAX 5
 #GEM5
 execute if score Mainquest SIDEQUEST matches 180..218 unless score @s TP_ITEM_USE matches 6.. run scoreboard players add @s TP_ITEM_USE 1
 execute if score Mainquest SIDEQUEST matches 180..218 if score @s TP_ITEM_USE matches 6.. run scoreboard players set @s TP_ITEM_USE 6
