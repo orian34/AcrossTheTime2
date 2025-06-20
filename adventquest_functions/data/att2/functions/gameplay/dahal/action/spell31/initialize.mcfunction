@@ -14,7 +14,7 @@ scoreboard objectives add recycle_select_unc dummy
 scoreboard objectives add recycle_select_rar dummy
 scoreboard objectives add recycle_select_epi dummy
 scoreboard objectives add recycle_select_leg dummy
-scoreboard objectives add recycle_select_leg dummy
+scoreboard objectives add recycle_select_ult dummy
 
 scoreboard objectives add spell31_count dummy
 scoreboard objectives add spell31_rewards dummy
@@ -29,6 +29,7 @@ scoreboard players set @s recycle_select_unc 0
 scoreboard players set @s recycle_select_rar 0
 scoreboard players set @s recycle_select_epi 0
 scoreboard players set @s recycle_select_leg 0
+scoreboard players set @s recycle_select_ult 0
 
 scoreboard players set @s spell31_run 0
 scoreboard players set @s COOLDOWN31 0

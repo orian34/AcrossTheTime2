@@ -13,7 +13,7 @@
         "experience": 1000
                 },
     "criteria": {
-        "spell30_lvl5": {
+        "spell31_lvl5": {
             "trigger": "minecraft:impossible"
         }
     }
