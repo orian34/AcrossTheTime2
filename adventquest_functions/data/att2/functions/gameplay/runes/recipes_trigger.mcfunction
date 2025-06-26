@@ -22,9 +22,8 @@ execute at @e[type=armor_stand,tag=RUNE] as @e[type=item,distance=..1] run funct
 function att2:gameplay/runes/recipes_test/rune
 function att2:gameplay/runes/recipes_test/runicwords
 function att2:gameplay/runes/recipes_test/other_item
-function att2:gameplay/runes/recipes_test/myt_lvl_up
 #over
-execute as @e[type=armor_stand,tag=RUNE] at @s run kill @e[type=item,distance=..1]
+execute as @e[type=armor_stand,tag=RUNE] at @s run tp @e[type=item,distance=..1] ~ -10 ~
 execute as @e[type=armor_stand,tag=RUNE] at @s run kill @s
 #no recipes
 execute if score rune_test RUNECOUNT matches 0 run function att2:dialogs/gameplay/runes/recipes_error
