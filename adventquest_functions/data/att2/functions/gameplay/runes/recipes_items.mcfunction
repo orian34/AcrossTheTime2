@@ -34,9 +34,9 @@ execute if block ~ ~ ~ minecraft:hopper{Items:[{Count:1b,Slot:0b,tag:{Rarity:"ep
 # 100000 XP
 execute if block ~ ~ ~ minecraft:hopper{Items:[{Count:1b,Slot:0b,tag:{Rarity:"leg"}},{Count:1b,Slot:1b,tag:{Rarity:"leg"}},{Count:1b,Slot:2b,tag:{Rarity:"leg"}},{Count:1b,Slot:3b,tag:{Rarity:"leg"}},{Count:1b,Slot:4b,tag:{Rarity:"leg"}}]} run function att2:items/xp/100000_recipes
 execute if block ~ ~ ~ minecraft:hopper{Items:[{Count:1b,Slot:0b,tag:{Rarity:"leg"}},{Count:1b,Slot:1b,tag:{Rarity:"leg"}},{Count:1b,Slot:2b,tag:{Rarity:"leg"}}]} run function att2:items/xp/40000_recipes
-# 250000 XP
-execute if block ~ ~ ~ minecraft:hopper{Items:[{Count:1b,Slot:0b,tag:{Rarity:"leg_armset"}},{Count:1b,Slot:1b,tag:{Rarity:"leg_armset"}},{Count:1b,Slot:2b,tag:{Rarity:"leg_armset"}},{Count:1b,Slot:3b,tag:{Rarity:"leg_armset"}},{Count:1b,Slot:4b,tag:{Rarity:"leg_armset"}}]} run function att2:items/xp/250000_recipes
-execute if block ~ ~ ~ minecraft:hopper{Items:[{Count:1b,Slot:0b,tag:{Rarity:"leg_armset"}},{Count:1b,Slot:1b,tag:{Rarity:"leg_armset"}},{Count:1b,Slot:2b,tag:{Rarity:"leg_armset"}}]} run function att2:items/xp/100000_recipes
+# 200000 XP
+execute if block ~ ~ ~ minecraft:hopper{Items:[{Count:1b,Slot:0b,tag:{Rarity:"leg_armset"}},{Count:1b,Slot:1b,tag:{Rarity:"leg_armset"}},{Count:1b,Slot:2b,tag:{Rarity:"leg_armset"}},{Count:1b,Slot:3b,tag:{Rarity:"leg_armset"}},{Count:1b,Slot:4b,tag:{Rarity:"leg_armset"}}]} run function att2:items/xp/200000_recipes
+execute if block ~ ~ ~ minecraft:hopper{Items:[{Count:1b,Slot:0b,tag:{Rarity:"leg_armset"}},{Count:1b,Slot:1b,tag:{Rarity:"leg_armset"}},{Count:1b,Slot:2b,tag:{Rarity:"leg_armset"}}]} run function att2:items/xp/75000_recipes
 # 500000 XP
 execute if block ~ ~ ~ minecraft:hopper{Items:[{Count:1b,Slot:0b,tag:{Rarity:"ult"}},{Count:1b,Slot:1b,tag:{Rarity:"ult"}},{Count:1b,Slot:2b,tag:{Rarity:"ult"}},{Count:1b,Slot:3b,tag:{Rarity:"ult"}},{Count:1b,Slot:4b,tag:{Rarity:"ult"}}]} run function att2:items/xp/500000_recipes
 execute if block ~ ~ ~ minecraft:hopper{Items:[{Count:1b,Slot:0b,tag:{Rarity:"ult"}},{Count:1b,Slot:1b,tag:{Rarity:"ult"}},{Count:1b,Slot:2b,tag:{Rarity:"ult"}}]} run function att2:items/xp/250000_recipes
