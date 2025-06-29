@@ -18,7 +18,7 @@
                 "items": [
                     {
                     "items": ["minecraft:diamond_sword"],
-                    "nbt": "{display:{Name:\"\\\"§aLe patriarche\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7émoin des premières lueurs,\\\"}\",\"{\\\"text\\\":\\\"§7 porte le poids des âmes qui l’ont précédé.\\\"}\",\"{\\\"text\\\":\\\"§7Witness to the first glimmers,\\\"}\",\"{\\\"text\\\":\\\"§7it bears the weight of the souls that came before.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a5 §7HER§a3 §7DAR§a2 §7LUC§a1 §720§cundefined\\\"}\"]}}"
+                    "nbt": "{display:{Name:\"\\\"§aLe patriarche\\\"\",\"Lore\":[\"{\\\"text\\\":\\\"§7émoin des premières lueurs,\\\"}\",\"{\\\"text\\\":\\\"§7 porte le poids des âmes qui l’ont précédé.\\\"}\",\"{\\\"text\\\":\\\"§7Witness to the first glimmers,\\\"}\",\"{\\\"text\\\":\\\"§7it bears the weight of the souls that came before.\\\"}\",\"{\\\"text\\\":\\\"§7STR§a5 §7HER§a3 §7DAR§a2 §7LUC§a1\\\"}\"]}}"
                     }
                 ]
             }
